@@ -178,6 +178,39 @@ def process(baseDir):
         conn.commit()
 
 
+#Get the event logs from the database, sorted in
+#hostId and timeStamp order.  Assign each event
+#a session ID based upon how close in time it is
+#to the previous event.
+def populateSessions():
+    sql = '''
+    SELECT id, hostId, timeStamp, sessionId
+     FROM dataone.logData
+     WHERE activity = 'search' AND status = '200'
+     ORDER BY hostId ASC, timeStamp ASC;
+    '''
+
+    with dbConn() as conn:
+        cursor = conn.cursor()
+        cursor.execute(sql)
+        results = cursor.fetchall()
+        session = -1
+        hostId = -1
+        timeStamp = -1
+        for row in results:
+            if (hostId != row[1]):
+                session += 1
+            elif (timeStamp + datetime.timedelta(minutes=15) <= row[2]):
+                session += 1
+            sql = "UPDATE dataone.logData SET sessionId = %s WHERE id = %s"
+            eventId = row[0]
+            updateCursor = conn.cursor()
+            updateCursor.execute(sql % (session, eventId))
+            conn.commit()
+            hostId = row[1]
+            timeStamp = row[2]
+
+
 
 #Entry point to the program.  Use the command line
 #argument as the base directory in which to look
@@ -186,5 +219,6 @@ if __name__ == "__main__":
     baseDir = sys.argv[1]
     baseDir = os.path.abspath(baseDir)
     process(baseDir)
+    populateSessions()
     print 'done'
 

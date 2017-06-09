@@ -212,6 +212,48 @@ def populateSessions():
 
 
 
+#Get the CSV download logs from baseDir and
+#parse them into dicts, then insert them into
+#the database
+def processDownloadLogs(baseDir):
+    sql = (
+        "INSERT INTO dataone.downloadLog"
+        " (eventId, pid, ipAddress, event, dateLogged, nodeId, formatId,"
+        " formatType, country, region, city, inPartialRobotList, inFullRobotList)"
+        " VALUES (%(eventId)s, %(pid)s, %(ipAddress)s, %(event)s, %(dateLogged)s, %(nodeId)s, %(formatId)s,"
+        " %(formatType)s, %(country)s, %(region)s, %(city)s, %(inPartialRobotList)s, %(inFullRobotList)s)"
+    )
+
+    with dbConn() as conn:
+        cursor = conn.cursor()
+        count = 0
+        for root, subFolders, files in os.walk(baseDir):
+            for file in files:
+                with open(os.path.join(root, file), 'r') as logFile:
+                    logDict = csv.DictReader(logFile)
+                    for record in logDict:
+                        payload = {
+                            'eventId': record.get('id', ''),
+                            'pid': record.get('pid', ''),
+                            'ipAddress': record.get('ipAddress', ''),
+                            'event': record.get('event', ''),
+                            'dateLogged': dateutil.parser.parse(record['dateLogged']),
+                            'nodeId': record.get('nodeId', ''),
+                            'formatId': record.get('formatId', ''),
+                            'formatType': record.get('formatType', ''),
+                            'country': record.get('country', ''),
+                            'region': record.get('region', ''),
+                            'city': record.get('city', ''),
+                            'inPartialRobotList': record.get('inPartialRobotList', ''),
+                            'inFullRobotList': record.get('inFullRobotList', '')
+                        }
+                        cursor.execute(sql, payload)
+                        count += 1
+            conn.commit()
+            print count
+
+
+
 #Entry point to the program.  Use the command line
 #argument as the base directory in which to look
 #for log files.

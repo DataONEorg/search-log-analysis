@@ -3,6 +3,7 @@ sessions = read.csv("/home/flathers/Desktop/workspace/search-log-analysis/data/s
 dls = read.csv("/home/flathers/Desktop/workspace/search-log-analysis/data/dlEventsBySession.csv")
 sxs = read.csv("/home/flathers/Desktop/workspace/search-log-analysis/data/sEventsBySession.csv")
 mns = read.csv("/home/flathers/Desktop/workspace/search-log-analysis/data/multiNodeSessions.csv")
+mnip = read.csv("/home/flathers/Desktop/workspace/search-log-analysis/data/multiNodeIps.csv")
 
 # Merge the search and download event counts into the sessions dataframe
 sessions$sCount = sxs$count.logData.id.
@@ -18,6 +19,7 @@ sessions$eCount = sessions$sCount + sessions$dCount
 durationS = strtoi(as.difftime(as.character(sessions$duration), format = "%H:%M:%S", units = "secs"))
 durationM = durationS / 60
 summary(durationM)
+quantile(durationM, .95)
 durations = durationM[durationM<60]
 hist(durations,
      xlab="Session Length (minutes)",
@@ -34,6 +36,8 @@ as.numeric(table(events))
 sum(as.numeric(table(events)))
 sum(as.numeric(table(events)))*.5
 439+192+83+45+35+23+13+15
+quantile(events, .5)
+
 summary(events)
 
 events = sessions$dCount[sessions$dCount>0 & sessions$dCount<21]
@@ -90,6 +94,35 @@ for (n in names(table(mns$sessionId))) {
 head(mns)
 sort(table(mns$nodeId[mns$count>1]))
 mns[mns$count==2,]
+mns[mns$count==3,]
+mns[mns$count==4,]
+mns[mns$count==5,]
+
+
+# Stats about IPs involving more than one member node
+head(mnip)
+nodes = as.numeric(table(mnip$ipAddress))
+summary(nodes)
+table(nodes)
+
+nodes = nodes[nodes<11]
+
+plot(table(nodes),
+     xlab="Number of Member Nodes Accessed",
+     ylab="IP Address Count",
+     main="Member Nodes Accessed Per IP Address"
+)
+
+mnip$count = rep(0,length(mnip$ipAddress))
+for (n in names(table(mnip$ipAddress))) {
+  count = as.numeric(table(mnip$ipAddress)[n])
+  mnip$count[mnip$ipAddress==n]=count
+}
+head(mnip)
+sort(table(mnip$nodeId[mnip$count>1]))
+t = mnip[mnip$count==2,]
+t = as.data.frame(t)
+write.table(t, file="nodesByIp", sep=",")
 mns[mns$count==3,]
 mns[mns$count==4,]
 mns[mns$count==5,]

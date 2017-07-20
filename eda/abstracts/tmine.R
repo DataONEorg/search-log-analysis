@@ -1,6 +1,7 @@
 # the tokens file should be one word per line
 tokens <- scan("/home/flathers/Desktop/workspace/search-log-analysis/eda/abstracts/tokens.txt", what="string", sep="\n")
-#t <- as.data.frame(tolower(tokens))
+
+#convert tokens to lowercase, remove white space
 t <- tolower(tokens)
 t <- trimws(t)
 #summary(t)
@@ -79,19 +80,14 @@ stopWords <- c(stopWords, ">","0","00","000","001","01","1","04","05","10",
                "well","will","wire","within","www","xbt","xml","xti","xti32",
                "year","yearly","years","zone")
 
-# convert tokens to lowercase, remove white space, remove stop words
+# remove stop words
 t2 <- t[! t %in% stopWords]
-t2 <- as.data.frame(t2)
-#head(sort(table(t2), decreasing=TRUE), 500)
+t2 <- as.data.frame(sort(table(t2), decreasing=TRUE))
+#write.csv(t2, file = "/home/flathers/Desktop/workspace/search-log-analysis/eda/abstracts/t2.csv")
 
 # create the word cloud
 library(wordcloud)
-df <- as.data.frame(sort(table(t2), decreasing=TRUE))
 set.seed(12345)
-wordcloud(words = df$t2, freq = df$Freq, min.freq = 1,
+wordcloud(words = t2$t2, freq = df$Freq, min.freq = 1,
           max.words=106, random.order=FALSE, rot.per=0.35, 
           colors=brewer.pal(8, "Dark2"))
-
-#head(df, 20)
-t2[!t2 %in% c("10")]
-

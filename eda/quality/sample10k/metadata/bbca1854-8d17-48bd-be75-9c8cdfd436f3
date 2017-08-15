@@ -1,0 +1,260 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+          xsi:noNamespaceSchemaLocation="http://www.fgdc.gov/metadata/fgdc-std-001-1998.xsd">
+   <idinfo>
+      <citation>
+         <citeinfo>
+            <origin>Dylan Ward</origin>
+            <pubdate>20120827</pubdate>
+            <title>Landscape Evolution Model</title>
+            <geoform>model</geoform>
+            <onlink>http://nmepscor.org/dataportal</onlink>
+            <onlink>https://gstore.unm.edu/dataone/v1/object/d1268a37-5d85-4f36-ab6a-c37c70e7e27d</onlink>
+         </citeinfo>
+      </citation>
+      <descript>
+         <abstract>LEMming tracks regolith and sediment fluxes, including bedrock erosion by
+                streams and rockfall from steep slopes. Initial landscape form and stratigraphic
+                structure are prescribed. Model grid cells with slope angles above a threshold, and
+                which correspond to the appropriate rock type, are designated as candidate sources
+                for rockfall. Rockfall erosion of the cliffband is simulated by instantaneously
+                reducing the height of a randomly chosen grid cell that is susceptible to failure to
+                that of its nearest downhill neighbor among the eight cells bordering it. This
+                volume of rockfall debris is distributed across the landscape below this cell
+                according to rules that weight the likelihood of each downhill cell to retain
+                rockfall debris. The weighting is based on local conditions such as slope angle,
+                topographic curvature, and distance and direction from the rockfall source. Rockfall
+                debris and the bedrock types are each differentiated by the rate at which they
+                weather to regolith and by their fluvial erodibility. Regolith is moved according to
+                transport rules mimicking hillslope processes (dependent on local slope angle), and
+                bedload and suspended load transport (based on stream power). Regolith and sediment
+                transport are limited by available material; bedrock incision occurs (also based on
+                stream power) where bare rock is exposed.</abstract>
+         <purpose>A 2-D, regular-grid, rules-based, hybrid finite-difference / cellular automaton
+                model that is designed to explore the effect of multiple rock types on landscape
+                evolution.</purpose>
+         <supplinf>Model available for download from
+                http://csdms.colorado.edu/wiki/Model:LEMming;
+                http://csdms.colorado.edu/wiki/HPCCprojects:Linking_climate_model_output_with_landscape_evolution_models;
+                Ward D.J., M.M. Berlin, and R.S. Anderson (2011), Sediment dynamics below retreating
+                cliffs. Earth Surface Processes and Landforms. DOI: 10.1002/esp.2129.</supplinf>
+      </descript>
+      <timeperd>
+         <timeinfo>
+            <sngdate>
+               <caldate>20120619</caldate>
+               <time>000000</time>
+            </sngdate>
+         </timeinfo>
+         <current>Publication Date</current>
+      </timeperd>
+      <status>
+         <progress>In work</progress>
+         <update>Unknown</update>
+      </status>
+      <spdom>
+         <bounding>
+            <westbc>-109.050173</westbc>
+            <eastbc>-103.001964</eastbc>
+            <northbc>37.000293</northbc>
+            <southbc>31.332172</southbc>
+         </bounding>
+      </spdom>
+      <keywords>
+         <theme>
+            <themekt>Dylan Ward</themekt>
+            <themekey>Cliff retreat</themekey>
+            <themekey>Fluvial erosion</themekey>
+            <themekey>Landscape modeling</themekey>
+         </theme>
+         <theme>
+            <themekt>ISO 19115 Topic Category</themekt>
+            <themekey>environment</themekey>
+         </theme>
+         <theme>
+            <themekt>Project</themekt>
+            <themekey>EPSCoR 3</themekey>
+         </theme>
+         <place>
+            <placekt>Spatial Reference System Identifiers</placekt>
+            <placekey>EPSG:4326</placekey>
+            <placekey>EPSG:4326</placekey>
+         </place>
+         <place>
+            <placekt>GNIS</placekt>
+            <placekey>New Mexico</placekey>
+         </place>
+      </keywords>
+      <accconst>None</accconst>
+      <useconst>None</useconst>
+      <ptcontac>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Department of Earth and Planetary Science, University of New
+                        Mexico</cntorg>
+               <cntper>Dylan Ward</cntper>
+            </cntorgp>
+            <cntaddr>
+               <addrtype>mailing address</addrtype>
+               <address>MSC03 2040, 1 University of New Mexico</address>
+               <address>167 Castetter Hall</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505.277.4204</cntvoice>
+            <cntemail>djward@unm.edu</cntemail>
+         </cntinfo>
+      </ptcontac>
+      <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog
+            9.3.1.3000</native>
+   </idinfo>
+   <dataqual>
+      <logic>Not provided</logic>
+      <complete>Not provided</complete>
+      <lineage>
+         <procstep>
+            <procdesc>Model created using Matlab and C</procdesc>
+            <procdate>20120521</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>Department of Earth and Planetary Science, University of New
+                                Mexico</cntorg>
+                     <cntper>Dylan Ward</cntper>
+                  </cntorgp>
+                  <cntpos>Postdoctoral Fellow</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing address</addrtype>
+                     <address>Northrop Hall</address>
+                     <address>1 University of New Mexico</address>
+                     <city>Albuquerque</city>
+                     <state>NM</state>
+                     <postal>87131-0001</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>505-277-4204</cntvoice>
+                  <cntemail>djward@unm.edu</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+         <procstep>
+            <procdesc>downloaded shapefile from RGIS for New Mexico Boundary to create bounding
+                    box</procdesc>
+            <procdate>20120521</procdate>
+            <proccont>
+               <cntinfo>
+                  <cntorgp>
+                     <cntorg>Earth Data Analysis Center</cntorg>
+                  </cntorgp>
+                  <cntpos>GIS Analyst</cntpos>
+                  <cntaddr>
+                     <addrtype>mailing address</addrtype>
+                     <address>MSC01 1110</address>
+                     <address>1 University of New Mexico</address>
+                     <city>Albuquerque</city>
+                     <state>NM</state>
+                     <postal>87131-0001</postal>
+                     <country>USA</country>
+                  </cntaddr>
+                  <cntvoice>505-277-3622</cntvoice>
+                  <cntfax>505-277-3614</cntfax>
+                  <cntemail>clearinghouse@edac.unm.edu</cntemail>
+               </cntinfo>
+            </proccont>
+         </procstep>
+      </lineage>
+   </dataqual>
+   <spdoinfo>
+      <indspref>Unknown</indspref>
+   </spdoinfo>
+   <spref>
+      <horizsys>
+         <geograph>
+            <latres>0.00000001</latres>
+            <longres>0.00000001</longres>
+            <geogunit>Decimal degrees</geogunit>
+         </geograph>
+         <geodetic>
+                <horizdn>D_WGS_1984</horizdn>
+                <ellips>WGS_1984</ellips>
+                <semiaxis>6378137.000000</semiaxis>
+                <denflat>298.257224</denflat>
+            </geodetic>
+      </horizsys>
+   </spref>
+   <distinfo>
+      <distrib>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </distrib>
+      <resdesc>Downloadable Data</resdesc>
+      <distliab>The material on this site is made available as a public service. Maps and data are to be used for reference purposes only and the Earth Data Analysis Center (EDAC), DataONE and The University of New Mexico are not responsible for any inaccuracies herein contained. No responsibility is assumed for damages or other liabilities due to the accuracy, availability, use or misuse of the information herein provided. Unless otherwise indicated in the documentation (metadata) for individual data sets, information on this site is public domain and may be copied without permission; citation of the source is appreciated.</distliab>
+      <stdorder>
+         <digform>
+            <digtinfo>
+               <formname>ZIP</formname>
+            </digtinfo>
+            <digtopt>
+               <onlinopt>
+                  <computer>
+                     <networka>
+                        <networkr>https://gstore.unm.edu/dataone/v1/object/d1268a37-5d85-4f36-ab6a-c37c70e7e27d</networkr>
+                     </networka>
+                  </computer>
+                  <accinstr>Download from DataONE at http://www.dataone.org.</accinstr>
+               </onlinopt>
+            </digtopt>
+         </digform>
+         <fees>None. The files are available to download from DataONE (http://www.dataone.org).</fees>
+         <ordering>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</ordering>
+      </stdorder>
+      <custom>Contact Earth Data Analysis Center at clearinghouse@edac.unm.edu</custom>
+      <techpreq>Adequate computer capability is the only technical prerequisite for viewing data in digital form.</techpreq>
+   </distinfo>
+   <metainfo>
+      <metd>20140325</metd>
+      <metc>
+         <cntinfo>
+            <cntorgp>
+               <cntorg>Earth Data Analysis Center</cntorg>
+            </cntorgp>
+            <cntpos>Clearinghouse Manager</cntpos>
+            <cntaddr>
+               <addrtype>mailing and physical address</addrtype>
+               <address>MSC01 1110</address>
+               <address>1 University of New Mexico</address>
+               <city>Albuquerque</city>
+               <state>NM</state>
+               <postal>87131-0001</postal>
+               <country>USA</country>
+            </cntaddr>
+            <cntvoice>505-277-3622 ext. 230</cntvoice>
+            <cntfax>505-277-3614</cntfax>
+            <cntemail>clearinghouse@edac.unm.edu</cntemail>
+            <hours>0800 - 1700 MT, M-F -7 hours GMT</hours>
+         </cntinfo>
+      </metc>
+      <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+      <metstdv>FGDC-STD-001-1998</metstdv>
+      <mettc>local time</mettc>
+   </metainfo>
+</metadata>

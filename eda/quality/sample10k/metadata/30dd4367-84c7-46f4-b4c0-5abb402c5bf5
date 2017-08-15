@@ -1,0 +1,643 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>http://cmgds.marine.usgs.gov/metadata/2011_January_Navigation.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Carl A. Taylor</origin>
+        <origin>Kendra L. Daly</origin>
+        <origin>Paul O. Knorr</origin>
+        <origin>Lisa L. Robbins</origin>
+        <pubdate>20120101</pubdate>
+        <title>Navigation and environmental data from R/V Weatherbird II for the West Florida Shelf: USGS Cruise 11CEV01</title>
+        <geoform>tabular and vector digital data</geoform>
+        <serinfo>
+          <sername>Data Series</sername>
+          <issue>711</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>St. Petersburg, FL</pubplace>
+          <publish>U.S. Geological Survey - St. Petersburg Coastal and Marine Science Center</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/ds/0711/data/2011_January/11CEV01_Navigation.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The United States Geological Survey (USGS) is conducting a study on the effects of climate change on ocean acidification within the Gulf of Mexico; dealing specifically with the effect of ocean acidification on marine organisms and habitats. To investigate this, the USGS participated in cruises in the West Florida Shelf and northern Gulf of Mexico regions aboard the R/V Weatherbird II, a ship of opportunity lead by Dr. Kendra Daly, of the University of South Florida (USF). This cruise occurred January 3-7, 2011, leaving from and returned to Saint Petersburg, Florida. The USGS collected data pertaining to pH, dissolved inorganic carbon (DIC), and total alkalinity in discrete samples. Thirty-six underway discrete samples in January were collected approximately hourly over a span of 745.3 km Flow-through conductivity-temperature-depth (CTD) data were collected, which includes temperature, salinity, and pH. Corroborating the USGS data are the vertical CTD profiles collected by USF, using the following sensors: CTD, oxygen, chlorophyll fluorescence, optical backscatter, and transmissometer. Additionally, discrete depth samples for nutrients, chlorophyll, and particulate organic carbon/nitrogen were collected.</abstract>
+      <purpose>The purpose is to study the effects of climate change on ocean acidification within the Gulf of Mexico.</purpose>
+      <supplinf>The USGS Saint Petersburg Coastal and Marine Science Center (SPCMSC) - St. Petersburg, FL, assigns a unique identifier to each cruise or field activity. For example, 11CEV01 tells us the data were collected in 2011 for the Climate and Environmental Variability and the data were collected during the first field activity for that project in that calendar year. Refer to http://walrus.wr.usgs.gov/infobank/programs/html/definition/activity.html for a detailed description of the method used to assign the cruise ID.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20110103</begdate>
+          <enddate>20110107</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>data collection</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.90138</westbc>
+        <eastbc>-82.60873</eastbc>
+        <northbc>30.06863</northbc>
+        <southbc>27.60303</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>pH</themekey>
+        <themekey>total carbon</themekey>
+        <themekey>Salinity</themekey>
+        <themekey>carbon flux</themekey>
+        <themekey>Ocean Acidification</themekey>
+        <themekey>pCO2</themekey>
+        <themekey>Temperature</themekey>
+        <themekey>Ocean Chemistry</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>West Florida Shelf</placekey>
+        <placekey>Florida</placekey>
+        <placekey>United States</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>Mesopelagic</stratkey>
+        <stratkey>Epipelagic</stratkey>
+        <stratkey>ocean surface</stratkey>
+        <stratkey>Bathypelagic</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2011 January</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>USGS and USF requests to be acknowledged as originator of the data in future products or derivative research.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS St. Petersburg Coastal and Marine Science Center</cntorg>
+          <cntper>Lisa Robbins</cntper>
+        </cntorgp>
+        <cntpos>Research Oceanographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>Florida</state>
+          <postal>33701</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>727-803-8747</cntvoice>
+        <cntfax>727-803-2032</cntfax>
+        <cntemail>lrobbins@usgs.gov</cntemail>
+        <hours>8am to 5pm M-F EST</hours>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7600) ; ESRI ArcGIS 10.0.4.4000</native>
+  </idinfo>
+  <dataqual>
+    <logic>These data were collected in the field and have not been checked for internal consistencies.</logic>
+    <complete>These data are collected along tracklines (2-D) and therefore are inherently incomplete. There are no data collected between tracklines.</complete>
+    <lineage>
+      <procstep>
+        <procdesc>This is the Calliope recording from the R/V Weatherbird II during the cruise. It includes data from all the sensors running during the cruise.</procdesc>
+        <procdate>20110103</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The spreadsheet was imported into ArcGIS 10 and converted into a shapefile.</procdesc>
+        <srcused>2011_January_Navigation.xls</srcused>
+        <procdate>20120626</procdate>
+        <srcprod>2011_January_Navigation.shp</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Data exported from comma deliminated .txt files into Microsoft Excel and formatted into a single spreadsheet.</procdesc>
+        <procdate>20120626</procdate>
+        <srcprod>2011_January_Navigation.xls</srcprod>
+        <srcprod>2011_January_Navigation.csv</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>5660</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>8.9831528411952133e-009</latres>
+        <longres>8.9831528411952133e-009</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D WGS 1984</horizdn>
+        <ellips>WGS 1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>2011_January_Navigation</enttypl>
+        <enttypd>Navigation and environmental conditions for USGS Cruise 11CEV01</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID*</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape*</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Cruise_ID</attrlabl>
+        <attrdef>Cruise name according to the USGS Field Activity Collection</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>11CEV01</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Date_UTC</attrlabl>
+        <attrdef>Date in UTC time zone; MM/DD/YYYY</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Date of sample collection in MM/DD/YYYY format</udom>
+        </attrdomv>
+        <begdatea>20110103</begdatea>
+        <enddatea>20110107</enddatea>
+      </attr>
+      <attr>
+        <attrlabl>Time_UTC</attrlabl>
+        <attrdef>Time of data collection in HH:MM UTC, 24 hour format</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Time of data collection in HH:MM UTC</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Date_EDT</attrlabl>
+        <attrdef>Date in EDT time zone; MM/DD/YYYY</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Date of sample collection in MM/DD/YYYY format</udom>
+        </attrdomv>
+        <begdatea>20110103</begdatea>
+        <enddatea>20110107</enddatea>
+      </attr>
+      <attr>
+        <attrlabl>Time_EDT</attrlabl>
+        <attrdef>Time of data collection in HH:MM EDT, 24 hour format</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Time of data collection in HH:MM EDT</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTP_Ta</attrlabl>
+        <attrdef>Weather Transmitter Port_ Air Temperature (Deg C)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10.1</rdommin>
+            <rdommax>20.8</rdommax>
+            <attrunit>degrees celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_Ta</attrlabl>
+        <attrdef>Weather Transmitter Port_ True Wind Speed (m/s)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10.2</rdommin>
+            <rdommax>20.9</rdommax>
+            <attrunit>meters per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_Pa</attrlabl>
+        <attrdef>Weather Transmitter Port_ Air Pressure (hPa)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1007</rdommin>
+            <rdommax>1022</rdommax>
+            <attrunit>hecto pascal</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTP_Pa</attrlabl>
+        <attrdef>Weather Transmitter Port_ Air Pressure (hPa)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1006.7</rdommin>
+            <rdommax>1022</rdommax>
+            <attrunit>hecto pascal</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TSG_COND</attrlabl>
+        <attrdef>Thermosalinograph_Conductivity (S/m)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.5411</rdommin>
+            <rdommax>5.467</rdommax>
+            <attrunit>siemens per a meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>dec_lat</attrlabl>
+        <attrdef>Lattitude (Decimal Degrees)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>27.6015</rdommin>
+            <rdommax>29.78442</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>dec_lon</attrlabl>
+        <attrdef>Longitude (Decimal Degrees)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-84.46292</rdommin>
+            <rdommax>-82.60802</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Depth</attrlabl>
+        <attrdef>Depth under keel (meters)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.5</rdommin>
+            <rdommax>26.9</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COG</attrlabl>
+        <attrdef>Course over ground (degrees)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>359</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SOG</attrlabl>
+        <attrdef>Speed over ground (knots)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>9.8</rdommax>
+            <attrunit>knots</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTP_Rc</attrlabl>
+        <attrdef>Weather Transmitter Port_ Rain Accumulation (mm since last reset)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>36.4</rdommax>
+            <attrunit>millimeter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_Rc</attrlabl>
+        <attrdef>Weather Transmitter Starboard_ Rain Accumulation (mm since last reset)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>41.34</rdommax>
+            <attrunit>millimeter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTp_Ri</attrlabl>
+        <attrdef>Weather Transmitter Port_ Rain Intensity (mm/hr)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>10</rdommin>
+            <rdommax>10</rdommax>
+            <attrunit>millimeters per hour</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_Ri</attrlabl>
+        <attrdef>Weather Transmitter Starboard_ Rain Intensity (mm/hr)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>270.5</rdommax>
+            <attrunit>millimeters per hour</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTP_Ua</attrlabl>
+        <attrdef>Weather Transmitter Port_ Relative Humidity (%)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>46.6</rdommin>
+            <rdommax>92.2</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_Ua</attrlabl>
+        <attrdef>Weather Transmitter Starboard_ Relative Humidity (%)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>45.8</rdommin>
+            <rdommax>91.9</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTP_Dm</attrlabl>
+        <attrdef>Weather Transmitter Port_ Wind Direction Average (degrees)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>359</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_Dm</attrlabl>
+        <attrdef>Weather Transmitter Starboard_ Wind Direction Average (degrees)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>359</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTP_Sm</attrlabl>
+        <attrdef>Weather Transmitter Port_ Wind Speed Average (m/s)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.1</rdommin>
+            <rdommax>24.5</rdommax>
+            <attrunit>meters per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_Sm</attrlabl>
+        <attrdef>Weather Transmitter Starboard_ Wind Speed Average (m/s)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>22.1</rdommax>
+            <attrunit>meters per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TSG_SALPSU</attrlabl>
+        <attrdef>Thermosalinograph_Salinity (Practical Salinity Units)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>28.43</rdommin>
+            <rdommax>37.1</rdommax>
+            <attrunit>practical salinity units(PSU)</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HDT</attrlabl>
+        <attrdef>Ship's Heading (degrees)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.4</rdommin>
+            <rdommax>359.9</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TSG_TEMP1</attrlabl>
+        <attrdef>Thermosalinograph_Temperature 1 (Deg C)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>11.2281</rdommin>
+            <rdommax>24.1611</rdommax>
+            <attrunit>degrees celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TSG_TEMP2</attrlabl>
+        <attrdef>Thermosalinograph_Temperature 2(Deg C)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>11.1732</rdommin>
+            <rdommax>22.8685</rdommax>
+            <attrunit>degrees celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTP_TD</attrlabl>
+        <attrdef>Weather Transmitter Port_ True Wind Direction (degrees)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>360</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_TD</attrlabl>
+        <attrdef>Weather Transmitter Starboard_ True Wind Direction (degrees)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.1</rdommin>
+            <rdommax>359.9</rdommax>
+            <attrunit>degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTP_TS</attrlabl>
+        <attrdef>Weather Transmitter Port_ True Wind Speed (m/s)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.07</rdommin>
+            <rdommax>26.622</rdommax>
+            <attrunit>meters per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WXTS_TS</attrlabl>
+        <attrdef>Weather Transmitter Starboard_ True Wind Speed (m/s)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.051</rdommin>
+            <rdommax>25.147</rdommax>
+            <attrunit>meters per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TSG_WETFL</attrlabl>
+        <attrdef>Thermosalinograph_Wetlabs Fluorometer (mg/m^3)</attrdef>
+        <attrdefs>Calliope</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.6236</rdommin>
+            <rdommax>42.4756</rdommax>
+            <attrunit>milligrams per cubic meter</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>All attributes are common between the three data formats provided (.csv, .xls, .shp), except for the attributes FID and SHAPE (indicated by *), which are found only within the shapefile (.shp) because they are unique to that data type. Additionally, the GPS data was taken from the Weatherbird II's navigation logs and was matched with the time logs on the sonde. These data have not been QA/QC yet, and as such could have data errors due to tubes clogging, or flowthrough shutdown for inclement weather.</eaover>
+      <eadetcit>Robbins, L.L., Knorr, P.O., Taylor, C.A., Daly, K.L., 2012, USGS Field Activities 11CEV01 and 11CEV02 on the West Florida Shelf, Gulf of Mexico, in January and February 2011: U.S. Geological Survey Data Series 711, available online at http://pubs.usgs.gov/ds/711/.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS St. Petersburg Coastal and Marine Science Center</cntorg>
+          <cntper>Lisa Robbins</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>Florida</state>
+          <postal>33701</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>727-803-8747</cntvoice>
+      </cntinfo>
+    </distrib>
+    <distliab>This digital publication was prepared by an agency of the United States Government. Neither the United States Government nor any agency thereof, nor any of their employees, make any warranty, expressed or implied, or assumes any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed in this report, or represents that its use would not infringe privately owned rights. Reference therein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not necessarily constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof. Any views and opinions of authors expressed herein do not necessarily state or reflect those of the United States Government or any agency thereof. Although all data published in this report have been used by the USGS, no warranty, expressed or implied, is made by the U.S. Geological Survey as to the accuracy of the data and related materials and/or the functioning of the software. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of this data, software, or related materials. Graphical map depictions are intended to be used within the map scale limits applicable to the source data. Although software enables the user to view data at various scales, the user is cautioned to refer to the source documentation for the appropriate map scale limitations.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Microsoft Excel (.xls); Comma-delimited text file (.csv); ArcGIS (.SHP)</formname>
+          <filedec>ZIP File Format</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pubs.usgs.gov/ds/0711/data/2011_January/11CEV01_Navigation.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>Free</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20160608</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>USGS St. Petersburg Coastal and Marine Science Center</cntorg>
+          <cntper>Carl Taylor</cntper>
+        </cntorgp>
+        <cntpos>Biological/Geological Technician I</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>Florida</state>
+          <postal>33701</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>727-803-8747</cntvoice>
+        <cntfax>727-803-2032</cntfax>
+        <cntemail>carltaylor@usgs.gov</cntemail>
+        <hours>8am to 5pm M-F EST</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mercury>
+    <begdate>20110103</begdate>
+    <enddate>20110107</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/cmgds.marine.usgs.gov_metadata_2011_January_Navigation.html</htmlurl>
+  </mercury>
+</metadata>

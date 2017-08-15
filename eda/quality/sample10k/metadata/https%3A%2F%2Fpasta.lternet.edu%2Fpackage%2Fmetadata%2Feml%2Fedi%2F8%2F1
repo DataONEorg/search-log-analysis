@@ -1,0 +1,2047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.8.1" system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=csmith,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Global Lake Ecological Observatory Network: Long term chloride concentration from 529 lakes and reservoirs around North America and Europe: 1940-2016</title>
+    <creator>
+      <individualName>
+        <givenName>Hilary</givenName>
+        <surName>Dugan</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>hilarydugan@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0003-4674-1149</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sarah</givenName>
+        <surName>Bartlett</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Milwaukee</organizationName>
+      <electronicMailAddress>slbartlett8@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0003-0494-9320</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Samantha</givenName>
+        <surName>Burke</surName>
+      </individualName>
+      <organizationName>University of Waterloo</organizationName>
+      <electronicMailAddress>samantha.burke2@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-7941-2096</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jonathan</givenName>
+        <surName>Doubek</surName>
+      </individualName>
+      <organizationName>Virginia Tech</organizationName>
+      <electronicMailAddress>jpdoubek@vt.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0003-2651-4715</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Flora</givenName>
+        <surName>Krivak-Tetley</surName>
+      </individualName>
+      <organizationName>Dartmouth College</organizationName>
+      <electronicMailAddress>fkt.gr@dartmouth.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0003-3521-2460</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Nicholas</givenName>
+        <surName>Skaff</surName>
+      </individualName>
+      <organizationName>Department of Fisheries and Wildlife; Michigan State University</organizationName>
+      <electronicMailAddress>skaffnic@msu.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-5929-3966</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Jamie</givenName>
+        <surName>Summers</surName>
+      </individualName>
+      <organizationName>Queen’s University</organizationName>
+      <electronicMailAddress>jamiecsummers@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-7497-2326</userId>
+    </creator>
+    <pubDate>2017-03-05</pubDate>
+    <abstract>
+      <para>
+  This dataset compiles long term chloride concentration data from 529
+  freshwater lakes and reservoirs in Europe and North America. All lakes
+  in the dataset had greater than or equal to ten years of data. For
+  each lake the following landscape and climate metrics were calculated:
+  mean annual precipitation, mean monthly air temperatures, road density
+  and impervious surface in 100 to 1500 m buffer zones, sea salt
+  deposition. The dataset includes three files: 1) Descriptive data of
+  lake sites (physical lake metrics, climate, land-cover
+  characteristics), 2) Chloride time-series, and 3) GIS shapefiles.
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>chloride</keyword>
+      <keyword>lakes</keyword>
+      <keyword>reservoirs</keyword>
+      <keyword>roads</keyword>
+      <keyword>limnology</keyword>
+      <keyword>salt</keyword>
+      <keyword>impervious surface</keyword>
+      <keyword>freshwater</keyword>
+      <keyword>land use</keyword>
+      <keyword>land cover</keyword>
+      <keyword>time series</keyword>
+      <keyword>GLEON</keyword>
+      <keyword>Global Lake Ecological Observatory Network</keyword>
+      <keyword>NSF</keyword>
+      <keyword>National Science Foundation</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para>
+  This information is released to the public under the Creative Commons
+  license Attribution-ShareAlike 4.0 International
+  (https://creativecommons.org/licenses/by-sa/4.0/) and may be used for
+  academic, educational, or commercial purposes subject to the following
+  restrictions: The Data User must realize that these data sets are
+  being actively used by others for ongoing research and that
+  coordination may be necessary to prevent duplicate publication. The
+  Data User is urged to contact the data creators or contacts. Where
+  appropriate, the Data User may be encouraged to consider collaboration
+  and/or co-authorship with original investigators. The Data User must
+  realize that the data may be misinterpreted if taken out of context.
+  The Data User must acknowledge use of the data by an appropriate
+  citation (suggested format includes the DOI). While substantial
+  efforts are made to ensure the accuracy of data and documentation,
+  complete accuracy of data sets cannot be guaranteed. All data are made
+  available "as is". The creators shall not be liable for
+  damages resulting from any use or misinterpretation of data sets. Data
+  users should be aware that we periodically update data sets. By using
+  these data, the Data User agrees to abide by the terms of this
+  agreement. Thank you for your cooperation.
+</para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>North America and Europe</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-119.95</westBoundingCoordinate>
+          <eastBoundingCoordinate>28.53</eastBoundingCoordinate>
+          <northBoundingCoordinate>69</northBoundingCoordinate>
+          <southBoundingCoordinate>28.38</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1940-01-31</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2016-07-06</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Hilary</givenName>
+        <surName>Dugan</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>hilarydugan@gmail.com</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para>
+  529 long-term datasets of chloride concentrations were collected from
+  ten countries. Each lake was assigned a project-specific
+  identification number, and was paired with the associated data source
+  name, source contact/acquisition information, and public accessibility
+  designation (publicly available/private). The majority of lakes
+  included in this database are located in the United States (US). Data
+  were obtained from the sources described below.
+</para>
+          <para>
+  United States (n = 315)
+</para>
+          <para>
+  The Water Quality Portal (WQP, http://www.waterqualitydata.us/) is a
+  database that amalgamates data from federal, state, tribal, and local
+  sources in the United States. It includes data from the EPA Storage
+  and Retrieval (STORET) data warehouse and the United States Geological
+  Survey (USGS) National Water Information System (NWIS). We searched
+  the WQP for the characteristic name ‘chloride’ in ‘lakes, reservoirs,
+  and impoundments’, using the dataRetrieval package in R (v2.5.5).
+</para>
+          <para>
+  North Temperate Lakes Long Term Ecological Research Site (LTER,
+  https://lter.limnology.wisc.edu/) collects long-term chloride data for
+  eleven lakes in Wisconsin. Data for Lake Wingra, Lake Monona, and Lake
+  Mendota were augmented with earlier data from the Wisconsin Department
+  of Natural Resources. In some cases, only annual averages were
+  available; these sampling dates were labeled as July-01 (Lake Mendota:
+  1957-1972, Lake Monona: 1940-1987).
+</para>
+          <para>
+  Hubbard Brook LTER
+  (http://www.hubbardbrook.org/data/dataset.php?id=84) hosts 43 years of
+  chloride measurements from Mirror Lake, New Hampshire.
+</para>
+          <para>
+  The Lake Champlain Basin Program provides a publicly accessible
+  database of chloride measurements from Lake Champlain
+  (http://www.lcbp.org/water-environment/data-monitoring/lake-and-watershed-data/).
+  We obtained data for the Burlington Bay sampling site, and combined
+  these with earlier data from USGS site 04295000.
+</para>
+          <para>
+  The EPA manages two long-term monitoring projects, specifically
+  focused on the effects of atmospheric deposition into surface water
+  bodies. These programs are the Temporally Integrated Monitoring of
+  Ecosystems and Long Term Monitoring Project. The lakes included in
+  these programs tend to be located in remote environments in New York,
+  Vermont, Maine and New Hampshire.
+</para>
+          <para>
+  The New York City Department of Environmental Protection monitors
+  chloride concentrations in all of its water supply reservoirs. Data
+  were contributed from 10 reservoirs north of New York City. The
+  location of sampling stations changed in 2006/07 in Boyd’s Corners,
+  Cross River, Croton Falls, and Middle Branch Reservoirs.
+</para>
+          <para>
+  The University of Rhode Island Watershed Watch Program provided data
+  for 59 lakes in Rhode Island
+  (http://web.uri.edu/watershedwatch/uri-watershed-watch-monitoring-data/).
+  Rhode Island lakes comprise some of the most urban lakes in the
+  database.
+</para>
+          <para>
+  Canada (n = 37)
+</para>
+          <para>
+  Alberta Environment and Sustainable Resource Development provided
+  chloride data for eleven lakes in Alberta.
+</para>
+          <para>
+  The Water Quality Management Section of Manitoba Conservation and
+  Water Stewardship provided chloride data for 16 lakes in Manitoba.
+  Kawartha Conservation provided datasets exceeding 40 years for Balsam
+  Lake, Cameron Lake, and Sturgeon Lake in Eastern Ontario.
+</para>
+          <para>
+  The International Institute for Sustainable Development provided data
+  for four small lakes in the IISD Experimental Lakes Area (ELA) in
+  northern Ontario. The Ontario Ministry of the Environment and Climate
+  Change provided 15 years of data from Lake Simcoe.
+</para>
+          <para>
+  Sweden (n = 102)
+</para>
+          <para>
+  A publicly available database of water chemistry was available through
+  the Swedish Department of Water and Environment
+  (http://info1.ma.slu.se/db.html). We included long-term monitoring
+  data from a series of lakes that were designated as trend stations,
+  which resulted in a collection of 101 lakes geographically distributed
+  throughout the country. We also included data from data from Vänern,
+  the largest lake in Sweden. Swedish coordinates were presented in the
+  Swedish grid RT90 (ESPG:2400) at 10-m resolution, and were converted
+  to WGS84.
+</para>
+          <para>
+  Germany, France, and Switzerland (n = 32)
+</para>
+          <para>
+  Chloride data for Lake Constance were obtained from the Institut für
+  Seenforschung in Langenargen. Data for Lake Zurich were provided by
+  the City of Zurich Water Supply (WVZ) and the Amt für Abfall, Wasser,
+  Energie und Luft (AWEL) of the Canton of Zurich, Switzerland. Chloride
+  data for 28 lakes in Mecklenburg-Western Pomerania, Northern Germany
+  were compiled for a review of German sulfate trends.
+</para>
+          <para>
+  Data from Lake Geneva and Lake Bourget were accessed through the
+  Alpine Lakes Observatory (SOERE OLA - Observation and Experimentation
+  System for long-term Environmental Research). SOERE OLA is member
+  of AnaEE-FRANCE and sponsored by AllEnvi, the National Research
+  Alliance for the Environment. Physical, chemistry, and biodiversity
+  data can be download using the information system developed by
+  Eco-Informatique ORE team of the French National Institute for
+  Agronomical Research (INRA, https://si-ola.inra.fr). INRA collects
+  data from Lake Bourget with its partner CISALB, the
+  intercommunal association of Lake Bourget, and Lake Geneva (also known
+  as Lac Léman) with its partner CIPEL, the International Commission for
+  the Protection of Leman.
+</para>
+          <para>
+  Finland (n = 11)
+</para>
+          <para>
+  Water resource and environmental data for Finnish lakes are publicly
+  available through the Finnish Environment Institute (SYKE)
+  (http://www.syke.fi/en-US/Open_information). Chloride data for lakes
+  included in our analysis were compiled by Lauri Arvola, at the
+  University of Helsinki, through the online SYKE portal.
+</para>
+          <para>
+  United Kingdom (n = 8)
+</para>
+          <para>
+  The United Kingdom Upland Waters Monitoring Network (UK UWMN) is a
+  consortium led by University College London (UCL), the NERC Centre for
+  Ecology and Hydrology (CEH), Marine Scotland and Queen Mary College
+  (QMUL). Originally funded by UK Government Department for Environment,
+  Food and Rural Affairs, the network is currently supported by the
+  partner organizations and a range of regional governments, agencies,
+  and research institutes. The UK UWMN provided chloride data for eight
+  UK lakes.
+</para>
+          <para>
+  Hungary (n = 3)
+</para>
+          <para>
+  Water quality data are publicly available through Middle-Transdanubian
+  and West-Transdanubian Water Directorates. We obtained long-term data
+  from yearly reports of water quality of the Kis-Balaton Reservoir
+  System and of Lake Balaton. Chloride concentrations were determined by
+  argentometric methods according to Hungarian ISO Standards.
+</para>
+          <para>
+  Italy (n = 1)
+</para>
+          <para>
+  The Institute of Ecosystem Study of the National Research Council (CNR
+  ISE) in Verbania, Italy, provided chloride data for Lake Maggiore.
+  These data are collected in the framework of the long-term research
+  program on Lake Maggiore funded by the International Commission for
+  the Protection of Waters between Italy and Switzerland (CIPAIS). Lake
+  Maggiore is the westernmost of the deep subalpine lakes in Northern
+  Italy (LTER Europe site LTER_EU_IT_008).
+</para>
+          <para>
+  Lake Characteristics
+</para>
+          <para>
+  Each lake was identified by its latitude and longitude (in decimal
+  degrees) and given a unique ID number. The country, or the
+  province/state for North American lakes, was determined from the
+  geographic coordinates. In the United States, the county was added to
+  the file name, as there are often lakes with duplicate names within a
+  state. Lake areas were obtained from a variety of published data
+  sources. In rare cases, where lake area was not available, lake area
+  was calculated from custom shapefiles in ArcGIS (see section on
+  shapefiles). Lakes were classified as natural lakes or reservoirs.
+  This distinction was made from visual inspection of satellite images
+  for a dam, or from published government reports or articles that
+  identified the waterbody as a reservoir. The distance of the lake to
+  the nearest coast (km) was calculated using the coordinates of the
+  lake and a 1:10 m coastline vector shapefile available from Natural
+  Earth
+  (http://www.naturalearthdata.com/downloads/10m-physical-vectors/10m-coastline/),
+  using the equal-area mollweide projection. The coastline vector was
+  edited to exclude the St. Lawrence Seaway.
+</para>
+          <para>
+  Temperature and precipitation: Monthly mean temperatures and annual
+  precipitation totals were obtained using the WorldClim dataset, which
+  contains high resolution global interpolated climate data from
+  1960-1990. We used the highest resolution 30 second data, which is
+  equivalent to 0.86 km^2 at the equator.
+</para>
+          <para>
+  Sea salt deposition: A global data set of wet and dry sea salt (NaCl)
+  deposition was obtained from the World Data Centre for Precipitation
+  Chemistry (http://www.wdcpc.org/assessment). We used the north grid of
+  the HTAP 2001 ensemble-mean model results for emissions, deposition,
+  and concentration, which has a spatial resolution of 1.0 degrees
+  latitude x 1.0 degrees longitude. Sea salt deposition is given as the
+  combined total wet and dry deposition (kg/ha/yr).
+</para>
+          <para>
+  Shapefiles
+</para>
+          <para>
+  Shapefiles that geographically delimited the perimeter of the lakes
+  were required to quantify surrounding land use patterns. Shapefiles
+  were acquired via five methods:
+</para>
+          <para>
+  1. Lakes in the continental United States were included in the NHD (n
+  = 336, http://nhd.usgs.gov/). The high resolution NHD data are
+  available at 1:24,000-scale.
+</para>
+          <para>
+  2. Shapefiles for lakes in Canada were downloaded from the 1:50,000
+  National Hydro Network (NHN) (n = 36,
+  http://open.canada.ca/data/en/dataset/7952cbf2-d313-497c-ac8c-1a1d8290392b).
+</para>
+          <para>
+  3. Shapefiles for Swedish lakes were available through the Swedish
+  Water Archives (n = 102,
+  http://www.smhi.se/klimatdata/hydrologi/sjoar-och-vattendrag/). We
+  used surface water body layer version Vy_y_2012_2. Multiple shapefiles
+  were merged to create a single shapefile for Vänern (pers. comm. B.
+  Denfield).
+</para>
+          <para>
+  4. Shapefiles for European lakes greater than 0.1 km^2 were obtained
+  from the Global Lakes and Wetlands Database (GLWD Level 1 and 2) (n =
+  43,
+  http://www.worldwildlife.org/pages/global-lakes-and-wetlands-database).
+  Lakes are presented at a scale of 1:1,000,000.
+</para>
+          <para>
+  5. Shapefiles for Lake Fenek (12.5 km^2) and Lake Hidvegi (17.1 km^2)
+  in Hungary, and eleven other small European lakes in the UK, Germany,
+  and Finland were not publicly available. These shapefiles were
+  generated manually using ArcMap10.2.2.
+</para>
+          <para>
+  The method by which shapefiles were acquired is included in the lake
+  characteristics as NHD, NHN, Sweden, GLWD, or Manual.
+</para>
+          <para>
+  Land Cover
+</para>
+          <para>
+  We calculated both the percent impervious surface and total road
+  density within buffer zones surrounding each lake as metrics for urban
+  development. Buffer widths of 100, 200, 300, 400, 500, 1000, and 1500
+  m were used. Buffer zones were constructed using the gBuffer function
+  in the rgeos package in R (v0.3-19) using local WGS84 Universal
+  Transverse Mercator (UTM) zone projections.
+</para>
+          <para>
+  United States Impervious Surface
+</para>
+          <para>
+  The 2011 United States National Land Cover Database (NLCD) is a
+  national land cover product at a spatial resolution of 30 m
+  (http://www.mrlc.gov/nlcd11_data.php). We used both the NLCD 2011 Land
+  Cover layer and the NLCD 2011 Percent Developed Impervious layer.
+</para>
+          <para>
+  Canada Impervious Surface
+</para>
+          <para>
+  For Ontario, we used the Ontario Land Cover Compilation v.2.0.
+  (https://www.ontario.ca/data/land-cover-compilation). The OLCC has a
+  5-m pixel resolution. For Manitoba and Alberta, we used the LULC
+  thematic raster data from GlobeLand 30
+  (http://www.globallandcover.com/GLC30Download/index.aspx) at a spatial
+  resolution of 30 m.
+</para>
+          <para>
+  Europe Impervious Surface
+</para>
+          <para>
+  For all European lakes, we used the European Space Agency’s GIO-land
+  (Global monitoring for environment and security/Copernicus Initial
+  Operations land) layers
+  (http://www.eea.europa.eu/themes/landuse/gio-land).
+</para>
+          <para>
+  Road Density  
+</para>
+          <para>
+  Worldwide road data were downloaded from OpenStreetMap via the osmar
+  package in R (v1.1-7). In each buffer zone, we selected “ways” tagged
+  as highway, which included all primary, secondary, residential, and
+  service roads.
+</para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Collaborative research: Building analytical, synthesis, and human network skills needed for macrosystem science: A next generation graduate student training model based on GLEON</title>
+      <personnel>
+        <individualName>
+          <givenName>Kathleen</givenName>
+          <surName>Weathers</surName>
+        </individualName>
+        <electronicMailAddress>weathersk@caryinstitute.org</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0002-3575-6508</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Paul</givenName>
+          <surName>Hanson</surName>
+        </individualName>
+        <electronicMailAddress>pchanson@wisc.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0001-8533-6061</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation 1137327 and 1137353</funding>
+    </project>
+    <dataTable>
+      <entityName>gleon_chloride_concentrations.csv</entityName>
+      <entityDescription>Long term chloride concentration data from 529 lakes and reservoirs around North America and Europe.</entityDescription>
+      <physical>
+        <objectName>gleon_chloride_concentrations.csv</objectName>
+        <size>12454788</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/8/1/48fc1f572d5250de8236935396c910d0</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SALT_ID</attributeName>
+          <attributeDefinition>A unique number given to the lake or reservoir that is specific to this dataset.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">691</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FileName</attributeName>
+          <attributeDefinition>Name of lake or reservoir county two digit state or country code.  Text includes European characters.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake or reservoir county two digit state or country code.  Text includes European characters.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Common.Name</attributeName>
+          <attributeDefinition>Name of lake or reservoir that is commonly used. Text includes European characters.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake or reservoir that is commonly used. Text includes European characters.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Station</attributeName>
+          <attributeDefinition>A specific location unique to the lake that identifies the sampling location at which a water sample was collected. If no specific lake is given or known, the name of the lake or reservoir is used.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A specific location unique to the lake that identifies the sampling location at which a water sample was collected. If no specific lake is given or known, the name of the lake or reservoir is used.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Sampling station information was not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Sample.Date</attributeName>
+          <attributeDefinition>Date the water sample was collected.</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Sample.Depth</attributeName>
+          <attributeDefinition>Depth the water sample was collected.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">250</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Sample depths were not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Chloride</attributeName>
+          <attributeDefinition>Concentration of chloride measured in the sample.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">11438</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Decimal.Date</attributeName>
+          <attributeDefinition>Date the water sample was collected, converted to decimal date.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1940.08</minimum>
+                  <maximum exclusive="false">2016.51</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Std.Chloride</attributeName>
+          <attributeDefinition>Standard deviation of chloride concentrations measured from the lake over the entire length of the dataset.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-6.09</minimum>
+                  <maximum exclusive="false">13.83</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Integrated.Depth</attributeName>
+          <attributeDefinition>Is TRUE if sample was integrated over a portion of the water column. Is FALSE otherwise. If a sample depth is given, this was the starting depth of sampling.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Is TRUE if sample was integrated over a portion of the water column. Is FALSE otherwise. If a sample depth is given, this was the starting depth of sampling.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Sample depths were not integrated or were not available.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>gleon_chloride_lake_characteristics.csv</entityName>
+      <entityDescription>Lake characteristics, including climate, road density, and impervious surface data.</entityDescription>
+      <physical>
+        <objectName>gleon_chloride_lake_characteristics.csv</objectName>
+        <size>152337</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/8/1/f4fe42405b2c24795bdd17cca67a0a2f</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SALT_ID</attributeName>
+          <attributeDefinition>A unique number given to the lake or reservoir that is specific to this dataset.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1</minimum>
+                  <maximum exclusive="false">691</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>FileName</attributeName>
+          <attributeDefinition>Name of lake or reservoir_county_two digit state or country code.  Text includes European characters.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake or reservoir_county_two digit state or country code.  Text includes European characters.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Common.Name</attributeName>
+          <attributeDefinition>Name of lake or reservoir that is commonly used. Text includes European characters.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of lake or reservoir that is commonly used. Text includes European characters.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Latitude</attributeName>
+          <attributeDefinition>Lake latitude. May intersect any point in the lake.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">28.38</minimum>
+                  <maximum exclusive="false">69</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Longitude</attributeName>
+          <attributeDefinition>Lake longitude. May intersect any point in the lake.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-119.95</minimum>
+                  <maximum exclusive="false">28.53</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Continent</attributeName>
+          <attributeDefinition>Continent where lake is located.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>NorthAmerica</code>
+                    <definition>North America</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Europe</code>
+                    <definition>Europe</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Country</attributeName>
+          <attributeDefinition>Country where lake is located.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>USA</code>
+                    <definition>United States</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Sweden</code>
+                    <definition>Sweden</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Finland</code>
+                    <definition>Finland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Canada</code>
+                    <definition>Canada</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Germany</code>
+                    <definition>Germany</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>United Kingdom</code>
+                    <definition>United Kingdom</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Hungary</code>
+                    <definition>Hungary</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>France</code>
+                    <definition>France</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Switzerland</code>
+                    <definition>Switzerland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Italy</code>
+                    <definition>Italy</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>State</attributeName>
+          <attributeDefinition>US state or Canadian province where lake is located (only for US and Canadian lakes).</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>DE</code>
+                    <definition>Deleware</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ME</code>
+                    <definition>Maine</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WI</code>
+                    <definition>Wisconsin</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RI</code>
+                    <definition>Rhode Island</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NY</code>
+                    <definition>New York</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MN</code>
+                    <definition>Minnesota</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ON</code>
+                    <definition>Ontario</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VT</code>
+                    <definition>Vermont</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MA</code>
+                    <definition>Massachusetts</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CO</code>
+                    <definition>Colorado</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MB</code>
+                    <definition>Manitoba</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WA</code>
+                    <definition>Washington</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NC</code>
+                    <definition>North Carolina</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>KS</code>
+                    <definition>Kansas</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NH</code>
+                    <definition>New Hampshire</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TX</code>
+                    <definition>Texas</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ND</code>
+                    <definition>North Dakota</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AB</code>
+                    <definition>Alberta</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MI</code>
+                    <definition>Michigan</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FL</code>
+                    <definition>Florida</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MT</code>
+                    <definition>Montana</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>MO</code>
+                    <definition>Missouri</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>AR</code>
+                    <definition>Arkansas</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ID</code>
+                    <definition>Idaho</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CT</code>
+                    <definition>Connecticut</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Lake is not located in the US or Canada.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Ecoregion</attributeName>
+          <attributeDefinition>US Environmental Protection Agency Aggregated Level 3 Ecoregion for the National Nutrient Strategy.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>XIV</code>
+                    <definition>Mojave Basin and Range</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Lake is not located in the US</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VIII</code>
+                    <definition>Southern California Mountains</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VII</code>
+                    <definition>Central California Valley</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>II</code>
+                    <definition>Puget Lowland</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>III</code>
+                    <definition>Willamette Valley</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IX</code>
+                    <definition>Eastern Cascade Slopes and Foothills</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>V</code>
+                    <definition>Sierra Nevada</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>IV</code>
+                    <definition>Cascades</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>VI</code>
+                    <definition>Central California Foothills and Coastal Mountains</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>XII</code>
+                    <definition>Snake River Plain</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>XI</code>
+                    <definition>Blue Mountains</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>X</code>
+                    <definition>Columbia Plateau</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Lake is not located in the US or Canada.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Area.km2</attributeName>
+          <attributeDefinition>Surface area of lake.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareKilometers</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.04</minimum>
+                  <maximum exclusive="false">24514</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Depth.m</attributeName>
+          <attributeDefinition>Maximum depth of lake. Will have a value of NA when no maximum depth information is available.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">372</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Maximum depth of lake was unknown.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LakeType</attributeName>
+          <attributeDefinition>Categorical variable indicating whether lake is naturally formed or a dammed reservoir.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Reservoir</code>
+                    <definition>Lake is a dammed reservoir</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Natural</code>
+                    <definition>Lake is naturally formed</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>YearMin</attributeName>
+          <attributeDefinition>Earliest year of a chloride concentration sample that was included in the dataset from a particular lake.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">1940</minimum>
+                  <maximum exclusive="false">2003</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>YearMax</attributeName>
+          <attributeDefinition>Latest year of a chloride concentration sample that was included in the dataset from a particular lake.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">2001</minimum>
+                  <maximum exclusive="false">2016</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>MeanCl.mgL</attributeName>
+          <attributeDefinition>Mean chloride concentration across the entire time series.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milligramsPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.09</minimum>
+                  <maximum exclusive="false">891.74</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>YearsTotal</attributeName>
+          <attributeDefinition>Time span of chloride concentration data included.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">10</minimum>
+                  <maximum exclusive="false">75</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>OutliersRemoved</attributeName>
+          <attributeDefinition>Number of outlier chloride concentration data points removed from the original data.</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>ShapefileMethod</attributeName>
+          <attributeDefinition>Method/database used to obtain shapefiles delimiting lake perimeters.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>NHD</code>
+                    <definition>National Hydrography Dataset from the US Geological Survey</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Sweden</code>
+                    <definition>Swedish Water Archives</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GLWD</code>
+                    <definition>Global Lakes and Wetlands Database</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NHN</code>
+                    <definition>National Hydro Network</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Manual</code>
+                    <definition>Manually generated using ArcMap 10.2.2</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>CoastDist.km</attributeName>
+          <attributeDefinition>Geodesic distance to the nearest ocean coast</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilometer</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.24</minimum>
+                  <maximum exclusive="false">1503.15</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>WetDryDep</attributeName>
+          <attributeDefinition>Combined total wet and dry sea salt deposition</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>kilogramsPerHectarePerYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.86</minimum>
+                  <maximum exclusive="false">111</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Precip.mm</attributeName>
+          <attributeDefinition>Mean annual total precipitation at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+                <bounds>
+                  <minimum exclusive="false">183</minimum>
+                  <maximum exclusive="false">1895</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempJan</attributeName>
+          <attributeDefinition>Mean January air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-25.4</minimum>
+                  <maximum exclusive="false">15.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempFeb</attributeName>
+          <attributeDefinition>Mean February air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-21.8</minimum>
+                  <maximum exclusive="false">16.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempMar</attributeName>
+          <attributeDefinition>Mean March air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-14.9</minimum>
+                  <maximum exclusive="false">19</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempApr</attributeName>
+          <attributeDefinition>Mean April air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-5.5</minimum>
+                  <maximum exclusive="false">22.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempMay</attributeName>
+          <attributeDefinition>Mean May air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-0.2</minimum>
+                  <maximum exclusive="false">25.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempJun</attributeName>
+          <attributeDefinition>Mean June air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">4.7</minimum>
+                  <maximum exclusive="false">28.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempJul</attributeName>
+          <attributeDefinition>Mean July air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.7</minimum>
+                  <maximum exclusive="false">29.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempAug</attributeName>
+          <attributeDefinition>Mean August air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">6.7</minimum>
+                  <maximum exclusive="false">29.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempSep</attributeName>
+          <attributeDefinition>Mean September air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.6</minimum>
+                  <maximum exclusive="false">27.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempOct</attributeName>
+          <attributeDefinition>Mean October air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-2.5</minimum>
+                  <maximum exclusive="false">23.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempNov</attributeName>
+          <attributeDefinition>Mean November air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-12.1</minimum>
+                  <maximum exclusive="false">19.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TempDec</attributeName>
+          <attributeDefinition>Mean December air temperature at each study location from 1960 to 1990</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-22.4</minimum>
+                  <maximum exclusive="false">16.6</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RoadDensity100</attributeName>
+          <attributeDefinition>Length of the total road network (including primary, secondary, residential, and service roads) in a 100-m buffer area around each lake compared to the land area in the buffer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilometersPerKilometerSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">45.26</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RoadDensity200</attributeName>
+          <attributeDefinition>Length of the total road network (including primary, secondary, residential, and service roads) in a 200-m buffer area around each lake compared to the land area in the buffer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilometersPerKilometerSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">34.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RoadDensity300</attributeName>
+          <attributeDefinition>Length of the total road network (including primary, secondary, residential, and service roads) in a 300-m buffer area around each lake compared to the land area in the buffer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilometersPerKilometerSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">29.41</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RoadDensity400</attributeName>
+          <attributeDefinition>Length of the total road network (including primary, secondary, residential, and service roads) in a 400-m buffer area around each lake compared to the land area in the buffer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilometersPerKilometerSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">28.48</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RoadDensity500</attributeName>
+          <attributeDefinition>Length of the total road network (including primary, secondary, residential, and service roads) in a 500-m buffer area around each lake compared to the land area in the buffer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilometersPerKilometerSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">27.27</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RoadDensity1000</attributeName>
+          <attributeDefinition>Length of the total road network (including primary, secondary, residential, and service roads) in a 1,000-m buffer area around each lake compared to the land area in the buffer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilometersPerKilometerSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">26.14</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>RoadDensity1500</attributeName>
+          <attributeDefinition>Length of the total road network (including primary, secondary, residential, and service roads) in a 1,500-m buffer area around each lake compared to the land area in the buffer</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>kilometersPerKilometerSquared</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">26.16</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousBin100</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 100-m buffer surrounding each lake. Calculated from datasets with binary pixels (Method 1).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">90.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for European Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousBin200</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 200-m buffer surrounding each lake. Calculated from datasets with binary pixels (Method 1).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">95.9</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for European Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousBin300</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 300-m buffer surrounding each lake. Calculated from datasets with binary pixels (Method 1).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">97.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for European Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousBin400</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 400-m buffer surrounding each lake. Calculated from datasets with binary pixels (Method 1).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">98.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for European Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousBin500</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 500-m buffer surrounding each lake. Calculated from datasets with binary pixels (Method 1).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">98.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for European Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousBin1000</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 1,000-m buffer surrounding each lake. Calculated from datasets with binary pixels (Method 1).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">99.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for European Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousBin1500</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 1,500-m buffer surrounding each lake. Calculated from datasets with binary pixels (Method 1).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">99.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for European Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousPer100</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 100-m buffer surrounding each lake. Calculated from datasets with percentage pixels (Method 2).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">59.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for Canadian Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousPer200</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 200-m buffer surrounding each lake. Calculated from datasets with percentage pixels (Method 2).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">67</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for Canadian Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousPer300</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 300-m buffer surrounding each lake. Calculated from datasets with percentage pixels (Method 2).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">70.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for Canadian Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousPer400</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 400-m buffer surrounding each lake. Calculated from datasets with percentage pixels (Method 2).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">72</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for Canadian Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousPer500</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 500-m buffer surrounding each lake. Calculated from datasets with percentage pixels (Method 2).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">72.2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for Canadian Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousPer1000</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 1,000-m buffer surrounding each lake. Calculated from datasets with percentage pixels (Method 2).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">70.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for Canadian Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LandImperviousPer1500</attributeName>
+          <attributeDefinition>Percent of all impenetrable artificial surfaces (including roadways, parking lots, and building roofs) in a 15,00-m buffer surrounding each lake. Calculated from datasets with percentage pixels (Method 2).</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">69.8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Method of estimation results in NA for Canadian Lakes.</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <spatialVector>
+      <entityName>gleon_chloride_shape_files.zip</entityName>
+      <entityDescription>Shapefiles that geographically delimited the perimeter of the lakes were required to quantify surrounding land use patterns. Shapefiles were acquired via five methods (see methods). Attributes inherited from these methods were preserved in the shape files. To find definitions for these attributes, please trace back to the methods creator.</entityDescription>
+      <physical>
+        <objectName>gleon_chloride_shape_files.zip</objectName>
+        <size>19502699</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/8/1/3ce66266104a8b2d63056b939c92d80e</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SALT_ID</attributeName>
+          <attributeDefinition>A unique number given to the lake or reservoir that is specific to this dataset.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>A unique number given to the lake or reservoir that is specific to this dataset.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <geometry>Polygon</geometry>
+    </spatialVector>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <stmml:unitList xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1">
+        <unitType id="kilometersPerKilometerSquared" name="kilometersPerKilometerSquared">
+          <dimension name="length" power="0.001"/>
+          <dimension name="area" power="1e-06"/>
+        </unitType>
+        <unit id="kilometersPerKilometerSquared" multiplierToSI="0.001"
+          name="kilometersPerKilometerSquared"
+          parentSI="metersPerMeterSquared" unitType="lengthPerArea">
+          <description>length per area</description>
+        </unit>
+      </stmml:unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

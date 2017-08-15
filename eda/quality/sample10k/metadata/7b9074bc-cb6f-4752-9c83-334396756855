@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/sgpwa_utm27m.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Andrew Y. Morita</origin>
+        <origin>Steven K. Predmore</origin>
+        <pubdate>Unpublished material</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title>A 30 meter Digital Elevation Model (DEM) of the San Gorgonio Pass area, Riverside County, California.</title>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>USGS Open-File Report</sername>
+          <issue>00-329</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Rapid City, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?sgpwa_utm27m</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Digital Elevation Models (DEMs) are digital records of
+terrain elevations at regularly spaced intervals.  The
+interval between elevations of 7.5 minute DEMs is
+30-meters.  Each DEM file covers the area of one U.S.
+Geological Survey 1 to 24,000 scale 7.5 minute
+topographic quadrangle.
+			</abstract>
+      <purpose>DEMs can be used for creation of slope maps, aspect
+maps, shaded relief maps, and contour maps, for analysis
+of hydrography and runoff.  For this dataset, the original
+ArcInfo Grid of the San Gorgonio Pass and surrounding
+area in Riverside County, California was clipped to produce
+accurate elevation data for calculations in hydrologic
+applications.
+			</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20010326</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Source map</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-117.38128792</westbc>
+        <eastbc>-116.54214193</eastbc>
+        <northbc>34.1379092</northbc>
+        <southbc>33.69364121</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Digital Elevation Model</themekey>
+        <themekey>DEM</themekey>
+        <themekey>30 meter</themekey>
+        <themekey>San Gorgonio</themekey>
+        <themekey>Land surface</themekey>
+        <themekey>Raster</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>San Gorgonio Pass</placekey>
+        <placekey>Riverside County</placekey>
+        <placekey>California</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Allen H. Christensen</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>(mailing and physical address)</addrtype>
+          <address>U.S. Geological Survey, WRD.
+San Diego Project Office
+5735 Kearny Villa Road, Suite O
+					</address>
+          <city>San Diego</city>
+          <state>CA</state>
+          <postal>92123</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>(858) 637-9201</cntfax>
+        <cntemail>ahchrist@usgs.gov</cntemail>
+        <cntinst>Contact via email.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/sgpwa_lsat_meters.jpg</browsen>
+      <browsed>Representation of the data set</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <native>Windows_NT, 5.0, Intel
+ARC/INFO version 8.1
+		</native>
+  </idinfo>
+  <dataqual>
+    <logic>Not applicable for raster data.</logic>
+    <complete>The original projection for this dataset was UTM, NAD27,
+Units meters, Zone 11, with a Y-shift of negative
+-3,500,000.  After further processing the dataset was
+re-projected in UTM, NAD27, Units meters, Zone 11, with
+a corrected Y-shift equal to zero.
+		</complete>
+    <lineage>
+      <procstep>
+        <procdesc>This ArcInfo Grid was originally projected in UTM zone 11,
+meters with a -3,500,000 yshift.  Requiring
+only the area of and near San Gorgonio Pass, the ArcInfo
+command "setmask" was used to clip out a smaller
+section of the grid.  Once the grid was clipped down to its
+appropriate size, the ArcInfo command "Project" was used
+to reproject the DEM into its current projection of UTM
+meters and a yshift of 0.
+				</procdesc>
+        <procdate>20011031</procdate>
+        <proctime>11300000</proctime>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Andrew Y. Morita</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>U.S. Geological Survey, WRD.
+San Diego Project Office
+5735 Kearny Villa Road, Suite O.
+							</address>
+              <city>San Diego</city>
+              <state>CA</state>
+              <postal>92123</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>1-888-275-8747</cntvoice>
+            <cntfax>(858) 637-9201</cntfax>
+            <cntemail>amorita@usgs.gov</cntemail>
+            <cntinst>Contact via email.</cntinst>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>1641</rowcount>
+      <colcount>2579</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <eainfo>
+    <overview>
+      <eaover>COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE
+N.DEC  ALTERNATE NAME
+   1  VALUE                  4    10     B      -
+   5  COUNT                  4    10     B      -
+		
+		
+		
+COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE
+N.DEC  ALTERNATE NAME
+    1  MIN                    8    15     F      3
+    9  MAX                    8    15     F      3
+   17  MEAN                 8    15     F      3
+   25  STDV                   8    15     F      3
+		
+			</eaover>
+      <eadetcit>none</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+		
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SDTS</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/dem_meters.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/sgpwa_utm27m.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+sgpwa_utm27m</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20010326</begdate>
+    <enddate>20010326</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_sgpwa_utm27m.html</htmlurl>
+  </mercury>
+</metadata>

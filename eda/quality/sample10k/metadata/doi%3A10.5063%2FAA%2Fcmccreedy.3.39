@@ -1,0 +1,1071 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="cmccreedy.3.39" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document">  <title>Effects of Bt crops on nontarget invertebrates</title>
+<creator id="1137697621324" scope="document"> <individualName> <givenName>Michelle</givenName>
+ <surName>Marvier</surName>
+ </individualName>
+ <organizationName>Santa Clara University</organizationName>
+ <electronicMailAddress>mmarvier@scu.edu</electronicMailAddress>
+ </creator>
+<abstract><para>Data were extracted from a large collection of published and unpublished studies that examined the effects of transgenic Bt crops on nontarget invertebrate species. Nontarget species are species other than the pest targeted by the specific Bt crop variety.  Database includes methodological details and results from each study, as well as a full literature citation and information about the authors of each paper.  Individual studies frequently examined multiple species or reported multiple response variables. Each line of data represents a single comparison of an invertebrate organism in an &apos;exposed&apos; versus a &apos;control&apos; treatment.  Control treatments are non-transgenic varieties of the same crop species, either with or without pesticide applications.  Both field and lab studies are included.  In some cases, data were obtained by scanning figures and measuring data values from the scanned images.  We attempted to contact authors of papers to verify scanned data values and to fill in missing details about their studies.  Whether the author replied is indicated in the database.</para>
+</abstract>
+  <keywordSet> <keyword>Arthropods</keyword>
+ <keyword>Parasitism</keyword>
+ <keyword>Pollinator Species</keyword>
+ <keyword>Herbivory</keyword>
+ <keyword>Invertebrates</keyword>
+ <keyword>Plant Breeding and Genetics</keyword>
+ <keyword>Cropping Systems</keyword>
+ <keyword>Pesticides</keyword>
+ <keyword>Transgenic crops</keyword>
+ <keyword>Bt crops</keyword>
+ <keyword>Natural Enemies</keyword>
+ <keyword>Nontarget effects</keyword>
+ <keyword>Bacillus thuringiensis</keyword>
+ <keyword>Genetically modified crops</keyword>
+ <keyword>Beneficial insects</keyword>
+ <keyword>Cry proteins</keyword>
+ <keywordThesaurus>NASA Global Change Mastor Directory</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>Please cite the database as &apos;Marvier, M., C. McCreedy, J. Regetz, and P.Kareiva. Nontarget effects of Bt crops database. http://delphi.nceas.ucsb.edu/btcrops&apos;</para>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="download">http://delphi.nceas.ucsb.edu/btcrops/</url>
+ </online>
+ </distribution>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Worldwide</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>179.25</westBoundingCoordinate>
+ <eastBoundingCoordinate>179.25</eastBoundingCoordinate>
+ <northBoundingCoordinate>90.0</northBoundingCoordinate>
+ <southBoundingCoordinate>-61.875</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1989</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2006</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage scope="document"> <taxonomicClassification> <taxonRankName>Phylum</taxonRankName>
+ <taxonRankValue>Arthropoda</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1137697716321" scope="document"> <individualName> <givenName>Michelle</givenName>
+ <surName>Marvier</surName>
+ </individualName>
+ <organizationName>Santa Clara University</organizationName>
+ <electronicMailAddress>mmarvier@scu.edu</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Criteria for inclusion in this database</title>
+ <para>1. Study compares a Bt crop and a non-Bt crop (either with or without pesticide application).</para>
+ <para>2. Study reports a response (e.g. survival, fecundity, abundance, presence) of at least one non-target invertebrate group.</para>
+ <para>3. Means and SDs reported for each treatment or available from the author.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>cn=knb-prod,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ <allow> <principal>uid=regetz,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>read</permission>
+ <permission>write</permission>
+ <permission>changePermission</permission>
+ </allow>
+ </access>
+ <dataTable id="1154983008828" scope="document"> <entityName>Effects of Bt crops on nontarget invertebrates</entityName>
+ <entityDescription>This is a description of a table that is used for an online database. Currently the table values are only available through the online location</entityDescription>
+ <physical scope="document"> <objectName> </objectName>
+ <dataFormat> <textFormat> <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ </physical>
+ <attributeList> <attribute id="1155074483437" scope="document"> <attributeName>id</attributeName>
+ <attributeDefinition>Unique identification number assigned to each record in the database.</attributeDefinition>
+ <storageType typeSystem="sql">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>id number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155074612890" scope="document"> <attributeName>article_id</attributeName>
+ <attributeDefinition>Unique identification number assigned to each publication or MRID study.</attributeDefinition>
+ <storageType typeSystem="sql">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>id number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155074674093" scope="document"> <attributeName>author</attributeName>
+ <attributeDefinition>Author(s) of the listed publication.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155074686046" scope="document"> <attributeName>publication_year</attributeName>
+ <attributeDefinition>Year of publication or submission of MRID study to the United States Environmental Protection Agency.</attributeDefinition>
+ <measurementScale> <datetime> <formatString>YYYY</formatString>
+ <dateTimePrecision>1</dateTimePrecision>
+ </datetime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155074814125" scope="document"> <attributeName>citation</attributeName>
+ <attributeDefinition>Citation. For journal articles, the journal name, volume number and page numbers are provided.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>citation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155074861562" scope="document"> <attributeName>title</attributeName>
+ <attributeDefinition>Title of the article or book chapter in which the data are published.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>title</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155074894421" scope="document"> <attributeName>author_affiliation</attributeName>
+ <attributeDefinition>Type(s) of institutions that the author(s) are affiliated with (academic, corporate, government, corporate and academic, academic and government, corporate and government, corporate, government and academic, non-profit).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Academic, Academic &amp; Government, Corporate, Corporate &amp; Academic, Corporate &amp; Government &amp; Academic, Government,  Non-profit</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155074976593" scope="document"> <attributeName>author_institute</attributeName>
+ <attributeDefinition>Institution of corresponding author (or of first author if no corresponding author was listed).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>institution</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155075028000" scope="document"> <attributeName>spons_co_mrid</attributeName>
+ <attributeDefinition>Name of the company or institution sponsoring the study if it is an MRID study. &apos;na&apos; indicates that study is not an MRID.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1199" scope="document"> <attributeName>perf_co_mrid</attributeName>
+ <attributeDefinition>Name of the company or institution performing the study if it is an MRID study. &apos;na&apos; indicates that it is not an MRID study.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="119999" scope="document"> <attributeName>was_peer_reviewed</attributeName>
+ <attributeDefinition>Indicates whether study was published in a peer reviewed journal. MRID studies are entered as not peer reviewed. &apos;Unknown&apos;: the journal website did not specify whether journal is peer reviewed.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>yes, no, unknown</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155075102406" scope="document"> <attributeName>country</attributeName>
+ <attributeDefinition>Country where study was completed for field studies and country of corresponding author for lab studies (or first author if no corresponding author was listed).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>country</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154983008843" scope="document"> <attributeName>continent</attributeName>
+ <attributeDefinition>Continent where study was completed for field studies and continent of corresponding author for lab studies (or first author if no corresponding author was listed).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>continent</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1162854137872" scope="document"> <attributeName>more_info_from_author</attributeName>
+ <attributeDefinition>Whether author provided additional details or data. &apos;no&apos; indicates either no attempt to contact author or no response from the author.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>additional details</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154983892406" scope="document"> <attributeName>expmt_num</attributeName>
+ <attributeDefinition>For field studies, data were considered different experiments if 1) fields were in different locations or 2) data are from different years. Letters assigned to different experiments indicate that within the experiment there were either different transgenic events or different controls. For lab studies, data were considered different experiments if 1) experiment type differed (i.e. tritrophic, choice) or if 2) experimental methodology differed. Letters assigned to different experiments indicate that within the experiment there were different PIPs, different events, different controls or different exposure methods.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Experiment number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154983920328" scope="document"> <attributeName>study_type</attributeName>
+ <attributeDefinition>Study types are field, semi-field (used cages in a field setting), lab, lab and field, greenhouse, and lab and greenhouse.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Field, Greenhouse, Lab, Hybrid Lab &amp; Field, Hybrid Lab &amp; Greenhouse, Semi-field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154983949843" scope="document"> <attributeName>data_location</attributeName>
+ <attributeDefinition>Figure number, table number or page number where means and standard deviations were found.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>location in article</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154984112078" scope="document"> <attributeName>was_data_scanned</attributeName>
+ <attributeDefinition>Indicates whether figures were scanned to obtain data values. Values were measured from scanned figures using Adobe Photoshop. &apos;no&apos; indicates that data were obtained from tables, text or directly from author.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>yes, no</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154984154750" scope="document"> <attributeName>was_data_verified</attributeName>
+ <attributeDefinition>Indicates whether author verified scanned data values and/or provided original data. &apos;na&apos; indicates that data were obtained from tables, text or directly from author.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>yes, no, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154984951875" scope="document"> <attributeName>crop_species</attributeName>
+ <attributeDefinition>Common name of the crop tested.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name of crop</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154985135671" scope="document"> <attributeName>pip</attributeName>
+ <attributeDefinition>Specific plant incorporated protectant (PIP) engineered into the transgenic crop. Only cry proteins are included thus far. If the author indicated the transgenic event, but not the cry protein, internet searches were used to determine the specific cry protein.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name of PIP</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155577401906" scope="document"> <attributeName>pip_target</attributeName>
+ <attributeDefinition>Pest group (typically insect order) that the PIP targets.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Coleoptera, Lepidoptera and not specified</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154985893593" scope="document"> <attributeName>event</attributeName>
+ <attributeDefinition>Transgenic event of the crop tested. When author provided only the transgenic line or tradename, we used this information to determine the specific transgenic event (based on the AgBios Biotech Crop Database http://www.agbios.com/dbase.php?action=ShowForm).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>transgenic event</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154985922468" scope="document"> <attributeName>transgenic_hybrid_or_var</attributeName>
+ <attributeDefinition>Transgenic hybrid or variety.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>variety</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154986062500" scope="document"> <attributeName>nontransgenic_hybrid_or_var</attributeName>
+ <attributeDefinition>Non-transgenic hybrid or variety. &apos;not specified&apos; indicates that there was a non-transgenic control, but author did not specify the hybrid or variety. &apos;na&apos; indicates that author used an artificial diet as the control or there was no control.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Non-transgenic hybrid or variety</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154986592484" scope="document"> <attributeName>age_of_plant_leaves</attributeName>
+ <attributeDefinition>Age of plants or leaves used in the study.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>descriptions of age</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode> <code>not specified</code>
+ <codeExplanation>indicates that there was a non-transgenic control, but the author did not specify the hybrid or variety</codeExplanation>
+ </missingValueCode>
+ <missingValueCode> <code>na</code>
+ <codeExplanation>indicates that the author used an artificial diet as the control or there was no control</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1154987785109" scope="document"> <attributeName>pip_concentration</attributeName>
+ <attributeDefinition>Amount of PIP protein expressed by the plant, plant part or pollen (ug/g unless otherwise noted). If author did not specify protein concentration, then values from the Biopesticide Registration Action Document - Bacillus thuringiensis Plant-Incorporated Protectants, October 16, 2001, were used where possible.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>PIP concentration</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154987810000" scope="document"> <attributeName>pip_concentration_range</attributeName>
+ <attributeDefinition>If author provided a range of PIP protein concentrations, this column provides the range. &apos;na&apos; indicates either that PIP protein concentration was not specified or that the author provided a point estimate rather than a range.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>numerical range</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154988122312" scope="document"> <attributeName>pip_protein_msmt</attributeName>
+ <attributeDefinition>Indicates whether PIP concentration was assessed (authors measured concentration), cited from EPA document (Biopesticide Registration Action Document - Bacillus thuringiensis Plant-Incorporated Protectants, October 16, 2001), or assessed by a different author. &apos;na&apos; indicates that that PIP protein concentration was not specified.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>assessed, cited from EPA document, assessed by a different author, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155053821078" scope="document"> <attributeName>pollen_concentration</attributeName>
+ <attributeDefinition>Pollen concentration if the non-target was exposed to pollen (grains/cm&#178; unless otherwise specified). &apos;na&apos; indicates that nontarget was not exposed to pollen or a pollen concentration in grains/cm&#178; is not applicable to this study (e.g. an artificial diet containing pollen was used rather than a leaf with pollen on it).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Pollen concentration</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154988176765" scope="document"> <attributeName>pollen_concentration_range</attributeName>
+ <attributeDefinition>If author provided a range of pollen concentrations then this column provides the range. &apos;na&apos; indicates either that the pollen concentration was not specified or the author provided a point estimate rather than a range.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>numerical range</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154988228671" scope="document"> <attributeName>was_pollen_sifted</attributeName>
+ <attributeDefinition>Indicates whether pollen was sifted (applies only to experiments involving pollen). &apos;na&apos; indicates that experiment did not involve pollen.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>yes, no, na, not specified</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154989981500" scope="document"> <attributeName>sieve_description</attributeName>
+ <attributeDefinition>Indicates mesh size of sieve used to sift pollen (units are um unless otherwise specified). If pollen was passed through two sieves then both mesh sizes are provided. &apos;na&apos; indicates either that nontarget was not exposed to pollen or author did not specify whether pollen was sifted. &apos;not specified&apos; indicates that pollen was sifted, but author did not describe the sieve.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154990244218" scope="document"> <attributeName>pollen_stored_or_frozen</attributeName>
+ <attributeDefinition>Indicates whether the leaves or pollen were stored and/or frozen prior to use in the experiment. If author did not specifically describe storage or freezing of plant samples then we assumed it was not done.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Yes or no answer</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154990344750" scope="document"> <attributeName>stored_frozen_description</attributeName>
+ <attributeDefinition>Describes storing or freezing of leaves or pollen. &apos;na&apos; indicates that the leaves or pollen were not stored or frozen prior to use in the experiment. &apos;not specified&apos; applies only to cases where author mentioned freezing or storing but gave no further details.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154990370109" scope="document"> <attributeName>pip_assessed_after</attributeName>
+ <attributeDefinition>Indicates whether PIP concentration or presence of PIP was assessed after storage, but before use in the experiment (applies only to cases where leaves or pollen were stored or frozen). &apos;na&apos; indicates that the leaves or pollen were not stored or frozen prior to use in the experiment. &apos;not specified&apos; applies only to cases where author mentioned freezing or storing but did not mention whether PIP concentration was reassessed.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Yes or no and na (not available) and not specified</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154990435421" scope="document"> <attributeName>nontarget_phylum</attributeName>
+ <attributeDefinition>Non-target phylum.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>phylum</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154990471000" scope="document"> <attributeName>nontarget_class</attributeName>
+ <attributeDefinition>Non-target class. &apos;not specified&apos; applies to two situations: 1. the author did not identify the nontarget species to class level, or 2. nontarget group includes species from multiple classes.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>class</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154990750515" scope="document"> <attributeName>nontarget_order</attributeName>
+ <attributeDefinition>Non-target order. &apos;not specified&apos; applies to two situations: 1. the author did not identify the nontarget species to order level, or 2. nontarget group includes species from multiple orders.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>order</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154990762468" scope="document"> <attributeName>nontarget_family</attributeName>
+ <attributeDefinition>Non-target family (or suborder or superfamily).  &apos;not specified&apos; applies to two situations: 1. the author did not identify the nontarget species to family level, or 2. nontarget group includes species from multiple families.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>family</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154990773250" scope="document"> <attributeName>nontarget_genus</attributeName>
+ <attributeDefinition>Non-target genus (or subfamily). &apos;not specified&apos; applies to two situations: 1. the author did not identify the nontarget species to genus level, or 2. nontarget group includes species from multiple genera.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>genus</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1166135605531" scope="document"> <attributeName>nontarget_species</attributeName>
+ <attributeDefinition>Non-target species. &apos;not specified&apos; applies to two situations: 1. the author did not identify the nontarget species to species level, or 2. nontarget group includes multiple species.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154991374359" scope="document"> <attributeName>nontarget_finest_grouping</attributeName>
+ <attributeDefinition>Finest level of taxonomic resolution reported for the nontarget organism(s). Sorting the data by this column allows users to check whether there are multiple lines of data for particular taxonomic groups within an individual experiment. For example, authors may have reported field abundances of a taxonomic group based on multiple sampling methods (e.g., sweep nets and pitfall traps). For some analyses, these may represent non-idependent values.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>finest grouping</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154993065156" scope="document"> <attributeName>nontarget_functional_group</attributeName>
+ <attributeDefinition>Functional group of nontarget organism(s).  Our determination of functional group was based upon field guides, expert opinion, and internet searches (rather than the author&apos;s determination). If an author reported data for a group (i.e. Hemiptera) and separated the group by trophic level (i.e. Hemipteran predators, Hemipteran herbivores), the author&apos;s determination of functional group was used. &apos;detritivore?&apos; indicates that although the group consists primarily of detritivores, a few species that function as both detritivores and herbivores may be included in the count, &apos;herbivore valued&apos; includes butterflies and species of conservation concern, &apos;mixed&apos; applies to groups that include species belonging to multiple different functional groups, &apos;seed&apos; applies to seed feeding herbivores, &apos;pollinator&apos; includes all bees.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>detritivore, detritivore?, herbivore, herbivore valued, herbivore/detritivore, mixed, omnivore, omnivore valued, parasite, parasitoid, pollinator, predator, seed, unknown</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154993241734" scope="document"> <attributeName>replicate_data_issues</attributeName>
+ <attributeDefinition>These codes flag issues of non independence that should be considered when using these data for analyses. Codes include: TGLE=taxonomic group lumped elsewhere: Data for this group are used multiple times both on their own and in combination with data from other groups (e.g. abundance of the coccinellid Coleomegilla maculata are also included within total coccinellid abundance).  EMUE=experimental means used elsewhere: This experimental mean appears two or more times in the dataset, but is compared to different control means. CMUE=control means used elsewhere: This control mean appears two or more times in the dataset, but is compared to different experimental means. MMOTT=multiple measurements of this type for the same nontarget individuals (e.g. weight and length are both growth measurements, but only one growth measurement for the same individual should be used during any one analysis). The type of response variable accompanies the MMOTT code.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>TGLE</code>
+ <definition>taxonomic group lumped elsewhere</definition>
+ </codeDefinition>
+ <codeDefinition> <code>EMUE</code>
+ <definition>experimental means used elsewhere</definition>
+ </codeDefinition>
+ <codeDefinition> <code>CMUE</code>
+ <definition>control means used elsewhere</definition>
+ </codeDefinition>
+ <codeDefinition> <code>MMOTT</code>
+ <definition>multiple measurements of this type for the same nontarget individuals</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154993337578" scope="document"> <attributeName>nontarget_init_age_or_stage</attributeName>
+ <attributeDefinition>Initial age, stage or sex of the non-target when it was exposed to the transgenic treatment.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>age description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154993536531" scope="document"> <attributeName>nontarget_final_age_or_stage</attributeName>
+ <attributeDefinition>Age, stage or sex of the non-target when response variable was measured.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>age description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154994330812" scope="document"> <attributeName>experiment_type</attributeName>
+ <attributeDefinition>Based on our best judgment, experiments were classified as tritrophic (nontarget is exposed to the PIP through its interaction with an intermediate trophic level), chronic toxicology (longer exposures to the PIP on the order of weeks to months), acute toxicology (shorter exposures to the PIP on the order of hours to days), or choice (nontargets were allowed to choose among plants or prey items).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Tritrophic, Chronic toxicology, Acute toxicology, Behavior study, Choice</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1154994420578" scope="document"> <attributeName>field_location</attributeName>
+ <attributeDefinition>Location of field(s) to the level of specificity provided by the author. &apos;na&apos; applies to laboratory studies. This information may help to distinguish separate experiments at different locations within the same publication.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>location</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155057531375" scope="document"> <attributeName>US_state</attributeName>
+ <attributeDefinition>The US state in which field sites were located.  &apos;na&apos; applies to lab studies and to field studies not conducted in the United States.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>US State</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155057997328" scope="document"> <attributeName>number_of_fields</attributeName>
+ <attributeDefinition>Number of fields as described by the author. For studies that used small plots, there are typically multiple replicate plots in a single field. For studies that used fields as the replicate unit, the number of fields is typically the sum of the control and experimental sample sizes. Cells are blank for laboratory studies. &apos;-99&apos; indicates that this was a field study, but author did not specify the number of fields.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>null</code>
+ <codeExplanation>no value</codeExplanation>
+ </missingValueCode>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that it was a field study, but the author did not specify the number of fields</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155058248640" scope="document"> <attributeName>cultivation</attributeName>
+ <attributeDefinition>Cultivation practices used within the fields. Description as provided by author.  &apos;na&apos; applies to laboratory studies.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155058344609" scope="document"> <attributeName>plot_size</attributeName>
+ <attributeDefinition>Size of replicate plots (in hectares unless otherwise noted).  &apos;-99&apos; indicates that the author gave a verbal description of plot size (e.g., 7 rows of 6 plants each). Cells are blank for all laboratory studies.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>hectare</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>null</code>
+ <codeExplanation>applies to all laboratory studies</codeExplanation>
+ </missingValueCode>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the author gave a verbal description of plot size (e.g., 7 rows of 6 plants each)</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155058504968" scope="document"> <attributeName>plot_size_explanation</attributeName>
+ <attributeDefinition>Explanations for any calculations we did to obtain plot size (e.g. the row width used to convert number of rows to hectares). &apos;na&apos; applies to laboratory studies, field studies where author provided plot size in a measure directly convertible to hectares, and field studies where author did not provide any information regarding plot size.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155058606625" scope="document"> <attributeName>is_plot_size_avg</attributeName>
+ <attributeDefinition>Indicates whether the listed plot size is an average (either an average provided by the author or an average of a range provided by the author) or an estimate (based on estimated row widths). &apos;na&apos; applies to cases where either no plot size or a point estimate of the plot size was provided by the author.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>average, na, estimate</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155058684468" scope="document"> <attributeName>spatial_scale</attributeName>
+ <attributeDefinition>Spatial scale of replicates used in a laboratory or greenhouse experiment, as described by the author. &apos;na&apos; applies to all field studies.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155058717515" scope="document"> <attributeName>was_study_randomized</attributeName>
+ <attributeDefinition>Indicates whether the authors specifically indicated that they randomly assigned replicates to treatments.  Options are yes, no (studies with one field per treatment and treatment designation was determined prior to the start of the experiment, e.g., commercial field), systematic (assigned replicates to treatments in a systematic pattern), and not specified.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>latin square, no, not specified, systematic, yes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155594453984" scope="document"> <attributeName>exposure_method_abbrev</attributeName>
+ <attributeDefinition>Briefly describes how the nontarget organism was exposed to the PIP.  Options include Bt fed prey, Bt plant, Bt fed host, Bt pollen, Bt plant and host eggs, Bt stem, Bt anthers, Bt corn silk, Bt protein, Bt biomass, Bt anthers and pollen, decomposed Bt leaves, Bt root exudates, Bt root, Bt plant and eggs.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155059001031" scope="document"> <attributeName>exposure_method_detailed</attributeName>
+ <attributeDefinition>A more detailed description of the method by which the nontarget organism was exposed to the PIP (assume whole plant used unless otherwise specified).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155059135625" scope="document"> <attributeName>exposure_duration</attributeName>
+ <attributeDefinition>Duration of exposure in days. &apos;-99&apos; indicates that the duration of exposure was not specified or was verbally described (e.g., lifespan of individual).  Blank cells indicate that the nontarget being sampled is part of a natural population in the field so the duration of exposure is the lifetime of the nontarget organism.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>null</code>
+ <codeExplanation>Blank cells indicate that the nontarget being sampled is part of a natural population in the field so the duration of exposure is the lifetime of the nontarget organism</codeExplanation>
+ </missingValueCode>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the duration of exposure was not specified or was verbally described (e.g., lifespan of individual).</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155059266687" scope="document"> <attributeName>exposure_duration_explanation</attributeName>
+ <attributeDefinition>Explanations for studies that did not provide a numerical value for the duration of exposure.  &apos;na&apos; if there was there was no need for further explanation regarding the duration of exposure.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>explanation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155059399140" scope="document"> <attributeName>is_exposure_duration_avg</attributeName>
+ <attributeDefinition>&apos;Average&apos; indicates that the listed duration of exposure is an average. &apos;na&apos; indicates that the author either provided a point estimate of exposure duration or did not specify the duration of exposure at all.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>average, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155059440234" scope="document"> <attributeName>planting_date</attributeName>
+ <attributeDefinition>Date on which field plots were planted.  Transplant date if plants were started in a greenhouse. &apos;na&apos; applies to all lab studies and any field study for which the author did not provide the planting date.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>explanation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155059608343" scope="document"> <attributeName>first_sample</attributeName>
+ <attributeDefinition>Date on which first sample was taken for a field study.  Dates may vary for different sampling methods (e.g. sweep nets vs. sticky traps).  &apos;na&apos; applies to all lab studies and any field study for which the author did not provide the first sampling date.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>explanation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155060532437" scope="document"> <attributeName>last_sample</attributeName>
+ <attributeDefinition>Date on which last sample was taken for a field study.  Dates may vary for different sampling methods (e.g. sweep nets vs. sticky traps).  &apos;na&apos; applies to all lab studies and any field study for which the author did not provide the last sampling date.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>explanation</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155060626859" scope="document"> <attributeName>study_duration</attributeName>
+ <attributeDefinition>Duration of study in days. Calculated using Excel&apos;s &apos;DAYS360&apos; function.  Wherever possible study duration was calculated using planting_date and last_samp.  If planting_date was not provided, study duration was calculated using 1stsamp and last_samp. In a few cases, we could determine study duration from the text or correspondence with the author even though no dates are listed.   &apos;-99&apos; indicates that the study duration could not be determined.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the duration of the study was not specified</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155060801609" scope="document"> <attributeName>is_study_duration_avg</attributeName>
+ <attributeDefinition>&apos;Average&apos; indicates that the listed study duration is an average. &apos;na&apos; indicates that the author either provided a point estimate of the study duration or did not specify the duration of the study at all.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>average, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155060904453" scope="document"> <attributeName>study_duration_determinant</attributeName>
+ <attributeDefinition>More detailed description of how study duration was determined</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155062444484" scope="document"> <attributeName>year_of_data</attributeName>
+ <attributeDefinition>Year of data collection for studies conducted over multiple years. &apos;na&apos; applies to studies not performed over multiple years. This information may be of help when identifying separate experiments within the same publication.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155062539515" scope="document"> <attributeName>control</attributeName>
+ <attributeDefinition>More detailed description of the control treatment.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155062590890" scope="document"> <attributeName>insecticide_name</attributeName>
+ <attributeDefinition>Brand name of insecticides used in study.  Applies only to comparisons to control treatments that were sprayed with insecticides. &apos;na&apos; if the control treatment did not involve insecticide sprays.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155062696250" scope="document"> <attributeName>insecticide_active_ingr</attributeName>
+ <attributeDefinition>Active ingredient for insecticides used in study.  Applies only to comparisons to control treatments that were sprayed with insecticides. &apos;na&apos; if the control treatment did not involve insecticide sprays.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155062785031" scope="document"> <attributeName>insecticide_chemical_class</attributeName>
+ <attributeDefinition>Applies only to comparisons to control treatments that were sprayed with insecticides. &apos;na&apos; if the control treatment did not involve insecticide sprays. Our determination of insecticide chemical class/family was based upon the Pesticide Action Network pesticide database.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155062853171" scope="document"> <attributeName>insecticide_spray_rate</attributeName>
+ <attributeDefinition>Applies only to comparisons to control treatments that were sprayed with insecticides. &apos;na&apos; if the control treatment did not involve insecticide sprays.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155062952046" scope="document"> <attributeName>is_spray_rate_avg</attributeName>
+ <attributeDefinition>&apos;Average&apos; indicates that the listed insecticide spray rate is an average (either an average provided by the author or an average of a range provided by the author). &apos;na&apos; applies to cases where control treatments did not include insecticides or a point estimate of the spray rate was provided by the author.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>average, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155070841609" scope="document"> <attributeName>mechanism_of_insecticide_app</attributeName>
+ <attributeDefinition>Mechanism of insecticide application.  &apos;na&apos; if the control treatment did not involve insecticide sprays.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155071207812" scope="document"> <attributeName>num_of_insecticide_app</attributeName>
+ <attributeDefinition>Number of insecticide applications.  &apos;na&apos; if the control treatment did not involve insecticide sprays.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155071380515" scope="document"> <attributeName>is_num_of_insecticide_app_avg</attributeName>
+ <attributeDefinition>&apos;Average&apos; indicates that the listed number of insecticide sprays is an average (either an average provided by the author or an average of a range provided by the author). &apos;na&apos; applies to cases where control treatments did not include insecticides, author did not specify number of insecticide sprays, or author provided a point estimate of the number of sprays.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>average, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155071509765" scope="document"> <attributeName>sampling_method_abbrev</attributeName>
+ <attributeDefinition>Abbreviated description of sampling method. &apos;na&apos; applies to all lab and greenhouse studies. Options include baited traps, beat cloths, blower-vac aspirator, counts, litter samples, malaise traps, pan traps, pitfall traps, soil samples, sticky traps, sweep net, water traps and other and/or combination of methods.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>methods</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155071737125" scope="document"> <attributeName>sampling_method_detailed</attributeName>
+ <attributeDefinition>Detailed description of sampling method.  &apos;na&apos; applies to all lab and greenhouse studies.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155071825296" scope="document"> <attributeName>sampling_frequency</attributeName>
+ <attributeDefinition>Frequency of repeated samples per replicate field or plot. Examples include once, twice, daily, weekly etc. &apos;na&apos; applies to all lab studies and &apos;not specified&apos; indicates that the author did not state the sampling frequency.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155072127125" scope="document"> <attributeName>number_of_sample_days</attributeName>
+ <attributeDefinition>The number of times that each replicate field or plot was repeatedly sampled over the duration of the experiment. &apos;-99&apos; indicates that the author did not state the number of repeated measures per replicate. Cells are blank for all laboratory and greenhouse studies.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>null</code>
+ <codeExplanation>Cells are blank for all laboratory and greenhouse studies</codeExplanation>
+ </missingValueCode>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the author did not state the number of repeated measures per replicate</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155072254875" scope="document"> <attributeName>is_number_of_days_avg</attributeName>
+ <attributeDefinition>&apos;Average&apos; indicates that the listed number of sample days is an average. &apos;average of a range&apos; indicates that the author gave a range for the number of sample days and this value is the average of that range. &apos;na&apos; indicates that the author either provided a point estimate of number of sample days or did not specify the number of sample days.  &apos;na&apos; also applies to lab and greenhouse studies.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>average, average of a range, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155072317765" scope="document"> <attributeName>num_subsamples</attributeName>
+ <attributeDefinition>Number of subsamples per true replicate. Usually the number of subsamples is the same for both the control and experimental treatments. When they differ, the average is recorded. &apos;-99&apos; indicates that the author did not specify the subsamples or we could not determine the number of subsamples.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the author did not specify the subsamples or we could not determine the number of subsamples</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155072414593" scope="document"> <attributeName>response_variable_abbrev</attributeName>
+ <attributeDefinition>Major category of response variable.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>abundance, development, survival, reproduction, mortality, growth, sex-ratio, consumption/nutrition, diversity</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155072573453" scope="document"> <attributeName>response_variable_detailed</attributeName>
+ <attributeDefinition>Detailed description of response variable.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155072678421" scope="document"> <attributeName>true_control_sample_size</attributeName>
+ <attributeDefinition>The true sample size for the control treatment. Some studies were pseudoreplicated and this column indicates the true sample size based on the experimental design. &apos;-99&apos; indicates that the true sample size could not be determined and author did not reply to our query.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.00001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the true sample size could not be determined and the author did not reply to our query</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155072758390" scope="document"> <attributeName>true_expmtl_sample_size</attributeName>
+ <attributeDefinition>The true sample size for the experimental treatment. Some studies were pseudoreplicated and this column indicates the true sample size based on the experimental design. &apos;-99&apos; indicates that the true sample size could not be determined and author did not reply to our query.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.00001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the true sample size could not be determined and the author did not reply to our query</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155072819187" scope="document"> <attributeName>authors_control_sample_size</attributeName>
+ <attributeDefinition>The sample size for the control treatment as stated by the author. When the author reported standard errors, we used this sample size to back calculate the standard deviation from the standard error. &apos;-99&apos; indicates that the author did not specify the sample size.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.00001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the author did not specify the sample size</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155073064593" scope="document"> <attributeName>authors_expmtl_sample_size</attributeName>
+ <attributeDefinition>The sample size for the experimental treatment as stated by the author. When the author reported standard errors, we used this sample size to back calculate the standard deviation from the standard error. &apos;-99&apos; indicates that the author did not specify the sample size.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.00001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the author did not specify the sample size</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155073399953" scope="document"> <attributeName>reversal_marker</attributeName>
+ <attributeDefinition>For most response variables, a smaller number indicates poorer performance (e.g., abundance, weight, survival, reproduction). For these variables, the reversal marker is 1. However, for some response variables, a larger number indicates poorer performance (e.g., development time, mortality). For these variables, the reversal marker is -1. For a few response variables (e.g., consumption), it is unclear whether a larger value is better or worse. The reversal marker is blank for these cases.</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>1, -1, null</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ <missingValueCode> <code>null</code>
+ <codeExplanation>For a few response variables (e.g., consumption), it is unclear whether a larger value is better or worse. The reversal marker is blank for these cases.</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155073800437" scope="document"> <attributeName>seasonal_or_peak</attributeName>
+ <attributeDefinition>Indicates whether the values presented represent seasonal means across multiple sample days, means from peak days, or neither. &apos;Seasonal mean&apos; applies to two cases: 1. when authors reported a seasonal mean and 2. when authors reported data for multiple sample days per replicate, in which case we averaged the repeated measures. &apos;Peak day&apos; applies to two cases: 1. when authors reported means for the peak day, and 2. when authors reported data for multiple sample days per replicate, in which case we selected the mean and SD for the peak day. Note that we selected the peak day for the control and experimental treatments independently (the peak values may have been recorded on different days). &apos;neither&apos; applies when the author reported a single value (not repeated measures).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>seasonal mean, peak day, neither</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155594664437" scope="document"> <attributeName>did_we_calc</attributeName>
+ <attributeDefinition>Indicates whether we calculated the seasonal mean or peak days. &apos;no&apos; indicates that the seasonal mean or peak days listed were originally presented by the author. &apos;na&apos; indicates that the author reported a single value (not repeated measures).</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>yes, no, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155074101296" scope="document"> <attributeName>calc_method_seas_mean</attributeName>
+ <attributeDefinition>Explains how we calculated the seasonal mean. The correct way to calculate a seasonal mean and its associated standard deviation is to average across time for each replicate and then average and estimate the variance across the replicates. When the authors who presented repeated measures shared with us their raw data, we were able to calculate the seasonal mean and standard deviation correctly (&apos;replicates&apos;). If however, the authors did not provide us with raw data, we averaged values across time but were unable to estimate variance (&apos;sample days&apos;). &apos;na&apos; indicates that we did not calculate a seasonal mean.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>na, replicates, sample days</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155073845937" scope="document"> <attributeName>comparison_type</attributeName>
+ <attributeDefinition>Indicates whether the control treatment was a non-transgenic control, artificial diet control, control with insecticides or there was no control. An additional type of comparison involved insecticide application to both experimental (Bt) and control plots.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>artifical diet control, control w/ insecticides, insecticides on Bt &amp; control, no control, non-transgenic control</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155073943437" scope="document"> <attributeName>control_mean</attributeName>
+ <attributeDefinition>Mean for the control treatment. Cell is left blank if there was no control treatment.&apos;-99&apos; indicates that author did not provide data.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that author did not provide data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155074266484" scope="document"> <attributeName>expmtl_mean</attributeName>
+ <attributeDefinition>Mean for the experimental treatment. &apos;-99&apos; indicates that author did not provide data.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that author did not provide data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155074316343" scope="document"> <attributeName>control_std_err</attributeName>
+ <attributeDefinition>Standard error for the control treatment. Cell is left blank if there was no control treatment. &apos;-99&apos; indicates that the author did not provide data, the author provided the standard deviation, or the author provided raw data.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that author did not provide data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155074359640" scope="document"> <attributeName>expmtl_std_err</attributeName>
+ <attributeDefinition>Standard error for the experimental treatment. &apos;-99&apos; indicates that the author did not provide data, the author provided the standard deviation, or the author provided raw data.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the author did not provide data, the author provided the standard deviation or the author provided the raw data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155074384562" scope="document"> <attributeName>control_std_dev</attributeName>
+ <attributeDefinition>Standard deviation for the control treatment. Cell is left blank if there was no control treatment. &apos;-99&apos; indicates that author did not provide data.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the author did not provide data, the author provided the standard deviation or the author provided the raw data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155074401312" scope="document"> <attributeName>expmtl_std_dev</attributeName>
+ <attributeDefinition>Standard deviation for the experimental treatment. &apos;-99&apos; indicates that author did not provide data.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>-99</code>
+ <codeExplanation>indicates that the author did not provide data, the author provided the standard deviation or the author provided the raw data</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155074411250" scope="document"> <attributeName>mean_unit</attributeName>
+ <attributeDefinition>Unit of measurement for the response variable. &apos;-99&apos; indicates that the author did not specify the unit of measurement.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description of unit if measurement</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="111999" scope="document"> <attributeName>statistical_test_used</attributeName>
+ <attributeDefinition>Statistical test used by author to analyze data. &apos;not specified&apos; indicates that the author did not specify the statistical test used. &apos;na&apos; indicates that the author did not statistically compare the reported means.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>description</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1119999" scope="document"> <attributeName>is_effect_significant</attributeName>
+ <attributeDefinition>Indicates whether a significant effect was detected by the author. &apos;na&apos; indicates that the author did not statistically compare the reported means.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>yes, no, na</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="11199999" scope="document"> <attributeName>warning1</attributeName>
+ <attributeDefinition>This is a warning or note about the data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>note</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="111999999" scope="document"> <attributeName>warning2</attributeName>
+ <attributeDefinition>This is a warning or note about the data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>note</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1119999999" scope="document"> <attributeName>warning3</attributeName>
+ <attributeDefinition>This is a warning or note about the data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>note</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="11199999999" scope="document"> <attributeName>warning4</attributeName>
+ <attributeDefinition>This is a warning or note about the data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>note</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </eml:eml>

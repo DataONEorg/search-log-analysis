@@ -1,0 +1,842 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.isotc211.org/2005/gmi" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>Y1.x027.000-0001-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Mimi Tzeng</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Dauphin Island Sea Lab</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Data Management Specialist</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>251-861-2141</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>101 Bienville Blvd.</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Dauphin Island</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Al</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>36528</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>mtzeng@disl.org</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                    <gmd:hoursOfService>
+                        <gco:CharacterString>8-5:00 CST</gco:CharacterString>
+                    </gmd:hoursOfService>
+                    <gmd:contactInstructions>
+                        <gco:CharacterString>Please email the metadata specialist for further information.</gco:CharacterString>
+                    </gmd:contactInstructions>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Ruth H. Carmichael</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Dauphin Island Sea Lab</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Principal Investigator</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>251-861-2141</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>101 Bienville Blvd.</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Dauphin Island</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>AL</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>36528</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>rcarmichael@disl.org</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2017-01-05T14:36:21+00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/Y1.x027.000:0001</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Biological and chemical data of oil-derived elements being assimilated by oysters due to the Deepwater Horizon Oil Spill collected in Alabama and Mississippi coastal waters, June 2008, and April-July 2010(NODC Accession 0118498)</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString/>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2012-11-06</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Ruth H. Carmichael, Amanda L. Jones, Heather K. Patterson, William C. Walton, Alberto Perez-Huerta, Edward B. Overton, Meghan Dailey, and Kristine L. Willett</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="originator" codeSpace="006">originator</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                    <gmd:presentationForm>
+                        <gmd:CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="tableDigital" codeSpace="011">tableDigital</gmd:CI_PresentationFormCode>
+                    </gmd:presentationForm>
+                    <gmd:series>
+                        <gmd:CI_Series>
+                            <gmd:name>
+                                <gco:CharacterString>Environmental Science and Technology</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:issueIdentification>
+                                <gco:CharacterString>46 (23): p. 12787-12795</gco:CharacterString>
+                            </gmd:issueIdentification>
+                        </gmd:CI_Series>
+                    </gmd:series>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>This dataset contains stable isotope ratios of carbon and nitrogen in oyster shell, suspended particulate matter (SPM), and oil from the Deepwater Horizon oil spill. Shell material was sampled from oysters grown at five sites along the Mississippi-Alabama coast and in Mobile Bay before, during, and after the spill (June 2008, April-July 2010). Samples of SPM were collected from the same or equivalent sites and timeframes. Oil samples came from tar balls, mats, and semisolid oil forms collected from sediments along the shoreline from the Florida-Alabama border to Petit Bois Island in Mississippi. For all samples, the stable isotope ratios of carbon and nitrogen were determined. Oyster shell samples were also analyzed for six trace and minor elements which have been highlighted for use in detection of hydrocarbon pollution (Cd, Co, Mo, Ni, Pd, V).</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>To understand the influence of oil-derived carbon and nitrogen in the diet of the Eastern oyster (Crassostrea virginica), we compared the stable isotope composition in the shells of oysters grown before, during, and after the Deepwater Horizon oil spill (DWHOS) to the composition of naturally occurring SPM available as food for oyster, and with weathered and fresh oil. Stable isotope ratios are commonly used to define diets and associated food web linkages. By making these comparisons, we determined that although oil-derived elements were present in surface and bottom waters where oysters were growing during and after the DWHOS, they did not appear to significantly influence the C and N stable isotope composition in oysters.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:credit>
+                <gco:CharacterString>DISL: Carmichael Lab</gco:CharacterString>
+            </gmd:credit>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Ruth H. Carmichael</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Dauphin Island Sea Lab</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Principal Investigator</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>251-861-2141</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>101 Bienville Blvd.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Dauphin Island</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>AL</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>36528</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>rcarmichael@disl.org</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:hoursOfService>
+                                <gco:CharacterString>8-5:00 CST</gco:CharacterString>
+                            </gmd:hoursOfService>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:resourceMaintenance>
+                <gmd:MD_MaintenanceInformation>
+                    <gmd:maintenanceAndUpdateFrequency>
+                        <gmd:MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded" codeSpace="009">asNeeded</gmd:MD_MaintenanceFrequencyCode>
+                    </gmd:maintenanceAndUpdateFrequency>
+                </gmd:MD_MaintenanceInformation>
+            </gmd:resourceMaintenance>
+            <gmd:graphicOverview>
+                <gmd:MD_BrowseGraphic>
+                    <gmd:fileName>
+                        <gco:CharacterString>http://pubs.acs.org/action/showImage?doi=10.1021%2Fes302369h&amp;iName=master.img-002.jpg&amp;type=master</gco:CharacterString>
+                    </gmd:fileName>
+                    <gmd:fileDescription>
+                        <gco:CharacterString>Study sites where oysters were deployed in Mobile Bay and surrounding waters along the Mississippi (MS)-Alabama (AL) coast. The inset shows the location of study sites relative to the Deepwater Horizon oil rig (x).</gco:CharacterString>
+                    </gmd:fileDescription>
+                    <gmd:fileType>
+                        <gco:CharacterString>JPEG</gco:CharacterString>
+                    </gmd:fileType>
+                </gmd:MD_BrowseGraphic>
+            </gmd:graphicOverview>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Eastern oyster</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Crassostrea virginica</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Deepwater Horizon</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>DWH</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>oil spill</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>oyster diet</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>suspended particulate matter</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>carbon</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>nitrogen</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>stable isotope analysis</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>food web structure</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>oyster transplant experiment</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>trace element</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>oyster shell</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Dauphin Island Sea Lab</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>DISL</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Mobile Bay</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Denton Reef</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Sand Reef</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Fort Morgan</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Orange Beach</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Alabama</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Grand Bay</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Mississippi</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:resourceConstraints>
+                <gmd:MD_LegalConstraints>
+                    <gmd:useConstraints>
+                        <gmd:MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="otherRestrictions" codeSpace="008">otherRestrictions</gmd:MD_RestrictionCode>
+                    </gmd:useConstraints>
+                    <gmd:otherConstraints>
+                        <gco:CharacterString>Use Constraints: Acknowledgment of the Dauphin Island Sea Lab (DISL), National Science Foundation REU program (2356JV), the Marine Environmental Sciences Consortium (MESC)-BP Gulf of Mexico Research Initiative (10-BP-GoMRI-DISL), and Northern Gulf Institute (NGI)-BP GoMRI Phase I is required in products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected by users of these data. Users should be aware that comparison with other data sets for the same area from other time periods may be inaccurate due to inconsistencies resulting from changes in mapping conventions, data collection, and computer processes over time. The distributor shall not be liable for improper or incorrect use of these data, based on the description of appropriate/inappropriate uses described in the metadata document. These data are not legal documents and are not to be used as such.</gco:CharacterString>
+                    </gmd:otherConstraints>
+                </gmd:MD_LegalConstraints>
+            </gmd:resourceConstraints>
+            <gmd:language>
+                <gco:CharacterString>eng; USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>inlandWaters</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    
+                    <gmd:geographicElement>
+                       <gmd:EX_GeographicBoundingBox>
+                           <gmd:westBoundLongitude>
+                               <gco:Decimal>-88.46327</gco:Decimal>
+                           </gmd:westBoundLongitude>
+                           <gmd:eastBoundLongitude>
+                               <gco:Decimal>-87.51488</gco:Decimal>
+                           </gmd:eastBoundLongitude>
+                           <gmd:southBoundLatitude>
+                               <gco:Decimal>30.23994</gco:Decimal>
+                           </gmd:southBoundLatitude>
+                           <gmd:northBoundLatitude>
+                               <gco:Decimal>30.40594</gco:Decimal>
+                           </gmd:northBoundLatitude>
+                       </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement><gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiPoint gml:id="multipoint" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint1">
+                                            <gml:pos srsDimension="2">30.23994 -87.86998</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint2">
+                                            <gml:pos srsDimension="2">30.32785 -88.46327</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint3">
+                                            <gml:pos srsDimension="2">30.30885 -87.51488</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint4">
+                                            <gml:pos srsDimension="2">30.27408 -88.0959</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint5">
+                                            <gml:pos srsDimension="2">30.38258 -88.31377</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint6">
+                                            <gml:pos srsDimension="2">30.25132 -88.07952</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint7">
+                                            <gml:pos srsDimension="2">30.25139 -87.96917</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint8">
+                                            <gml:pos srsDimension="2">30.3335 -87.96775</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint9">
+                                            <gml:pos srsDimension="2">30.25866 -87.9832</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint10">
+                                            <gml:pos srsDimension="2">30.25194 -87.9839</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint11">
+                                            <gml:pos srsDimension="2">30.37843 -88.2662</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint12">
+                                            <gml:pos srsDimension="2">30.29591 -87.57501</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint13">
+                                            <gml:pos srsDimension="2">30.40594 -88.06762</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                </gml:MultiPoint>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>ground condition</gml:description>
+                                    <gml:beginPosition>2008-06-30</gml:beginPosition>
+                                    <gml:endPosition>2010-10-07</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>about directory -- lonlat.txt: longitude (decimal degrees) latitude (decimal degrees). map.jpg: map of oyster site locations. journal.txt: A text file that contains any notes, NODC processing actions, etc., relating to this accession. email.txt: A text file that contains the data submission email and links the publication to the dataset. data directory -- 0-data: A directory containing the data provider's data unmodified from its initial digital format as submitted to NODC. The initial source for these data should be documented in the header of the accession id/major version.minor version/about/journal.txt file after the 'Source' keyword. DWH-oysters-data.xlsx: 1. site name [Denton, Sand, Grand Bay, Fort Morgan, Orange Beach, Coastal, Mobile Bay] 2. Material type [Oil, SPM, Shell] 3. delta 15 Nitrogen =Ratio of nitrogen-15 to nitrogen-14 of the sample compared to the ratio of nitrogen-15 to nitrogen-14 of the reference, multiplied by 1000 (parts per thousand) 4. average delta 15 Nitrogen =Average Ratio of nitrogen-15 to nitrogen-14 of the sample compared to the ratio of nitrogen-15 to nitrogen-14 of the reference, multiplied by 1000 (parts per thousand) 5. average delta 15 Nitrogen standard error (parts per thousand) 6. delta 13 Carbon =Ratio of carbon-13 to carbon-12 of the sample compared to the ratio of carbon-13 to carbon-12 of the reference, multiplied by 1000 (parts per thousand) 7. average delta 13 Carbon =Ratio of carbon-13 to carbon-12 of the sample compared to the ratio of carbon-13 to carbon-12 of the reference, multiplied by 1000 (parts per thousand) 8. average delta 13 Carbon standard error (parts per thousand) 9. Latitude (decimal degrees) 10. Longitude (decimal degrees) 11. Treatment =whether and when Deepwater Horizon oil had been present at the sampling location [possible =During spill; oil reported along the Mississippi-Alabama coastline, surface and subsurface oil exposure possible. post =Deepwater Horizon well was shut down, surface oil was absent from the Mississippi-Alabama coast, subsurface oil exposure possible. unlikely =During spill; hatchery stock held at Point aux Pines prior to transplanting, during active spilling of oil, but prior to documented presence of oil along the coast. N/A =not applicable] 12. date =the date the sample was collected (MM/DD/YYYY) 13. shell section =The part of the oyster shell that was analyzed. [old =The shell material was formed before the Deepwater Horizon oil spill. new =The shell material was formed after the Deepwater Horizon oil spill.] 14. Cd =average cadmium concentration (milligram per liter) 15. Cd standard error (milligram per liter) 16. Co =average cobalt concentration (milligram per liter) 17. Co standard error (milligram per liter) 18. Mo =average molybdenum concentration (milligram per liter) 19. Mo standard error (milligram per liter) 20. Ni =average nickel concentration (milligram per liter) 21. Ni standard error (milligram per liter) 22. Pb =average lead concentration (milligram per liter) 23. Pb standard error (milligram per liter) 24. V =average vanadium concentration (milligram per liter) 25. V standard error (milligram per liter). DWH-oysters-map.jpg: map of oyster site locations. xml, txt, htm: journal publication citation and additional metadata. 1-data: An optional directory which may contain a processed or otherwise translated version of the data provider's data which may have been unzipped, uncompressed, untarred, or otherwise extracted or modified. A note should be found in the file accession id/major version.minor version/about/journal.txt explaining how files in 1-data were derived from the files in 0-data. DWH-oysters-data-AvgTracemetals.csv: 1. site name [Grand Bay, Fort Morgan, Orange Beach] 4. average delta 15 Nitrogen =Average Ratio of nitrogen-15 to nitrogen-14 of the sample compared to the ratio of nitrogen-15 to nitrogen-14 of the reference, multiplied by 1000 (parts per thousand) 5. average delta 15 Nitrogen standard error (parts per thousand) 7. average delta 13 Carbon =Average Ratio of carbon-13 to carbon-12 of the sample compared to the ratio of carbon-13 to carbon-12 of the reference, multiplied by 1000 (parts per thousand) 8. average delta 13 Carbon standard error (parts per thousand) 11. Treatment =whether and when Deepwater Horizon oil had been present at the sampling location [possible =During spill; oil reported along the Mississippi-Alabama coastline, surface and subsurface oil exposure possible. post =Deepwater Horizon well was shut down, surface oil was absent from the Mississippi-Alabama coast, subsurface oil exposure possible. unlikely =During spill; hatchery stock held at Point aux Pines prior to transplanting, during active spilling of oil, but prior to documented presence of oil along the coast. N/A =not applicable] 12. date =the date the sample was collected (MM/DD/YYYY) 13. shell section =The part of the oyster shell that was analyzed. [old =The shell material was formed before the Deepwater Horizon oil spill. new =The shell material was formed after the Deepwater Horizon oil spill.] 14. Cd =average cadmium concentration (milligram per liter) 15. Cd standard error (milligram per liter) 16. Co =average cobalt concentration (milligram per liter) 17. Co standard error (milligram per liter) 18. Mo =average molybdenum concentration (milligram per liter) 19. Mo standard error (milligram per liter) 20. Ni =average nickel concentration (milligram per liter) 21. Ni standard error (milligram per liter) 22. Pb =average lead concentration (milligram per liter) 23. Pb standard error (milligram per liter) 24. V =average vanadium concentration (milligram per liter) 25. V standard error (milligram per liter). DWH-oysters-data-Avgvalues.csv: 1. site name [Denton, Sand, Grand Bay, Fort Morgan, Orange Beach, Coastal, Mobile Bay] 2. Material type [Oil, SPM, Shell] 4. average delta 15 Nitrogen =Average Ratio of nitrogen-15 to nitrogen-14 of the sample compared to the ratio of nitrogen-15 to nitrogen-14 of the reference, multiplied by 1000 (parts per thousand) 5. average delta 15 Nitrogen standard error (parts per thousand) 7. average delta 13 Carbon =Average Ratio of carbon-13 to carbon-12 of the sample compared to the ratio of carbon-13 to carbon-12 of the reference, multiplied by 1000 (parts per thousand) 8. average delta 13 Carbon standard error (parts per thousand). DWH-oysters-data-Rawvalue.csv: 1. site name [Denton, Sand, Grand Bay, Fort Morgan, Orange Beach, Coastal, Mobile Bay] 3. delta 15 Nitrogen =Ratio of nitrogen-15 to nitrogen-14 of the sample compared to the ratio of nitrogen-15 to nitrogen-14 of the reference, multiplied by 1000 (parts per thousand) 6. delta 13 Carbon =Ratio of carbon-13 to carbon-12 of the sample compared to the ratio of carbon-13 to carbon-12 of the reference, multiplied by 1000 (parts per thousand) 9. Latitude (decimal degrees) 10. Longitude (decimal degrees) 11. Treatment =whether and when Deepwater Horizon oil had been present at the sampling location [possible =During spill; oil reported along the Mississippi-Alabama coastline, surface and subsurface oil exposure possible. post =Deepwater Horizon well was shut down, surface oil was absent from the Mississippi-Alabama coast, subsurface oil exposure possible. unlikely =During spill; hatchery stock held at Point aux Pines prior to transplanting, during active spilling of oil, but prior to documented presence of oil along the coast. N/A =not applicable] 12. date =the date the sample was collected (MM/DD/YYYY). NODC-Readme.txt. * Also available upon request: stable isotope ratio data from oyster soft-tissue samples, stable isotope ratio data from MC252 reference oil (for comparison to locally-collected weathered oil samples), and data for 20 other trace and minor elements in oyster shell. |Source of Oyster Shell --Hatchery-reared oysters from the Auburn University Shellfish Laboratory on Dauphin Island, Alabama were transplanted at two sites in Mobile Bay (Denton Reef = 2N, Sand Reef = 2S) and three sites along the Mississippi-Alabama coastline (Grand Bay = 1, Fort Morgan = 3, Orange Beach = 4). In Mobile Bay, subadult oysters (42.1 +/- 0.8 mm shell height, n = 50) were transplanted in plastic-coated wire mesh aquaculture cages measuring 33 x 33 x 10 cm deep and suspended 1.0 m above the sediment surface (n = 3 cages per depth per site). The outer margin of each oyster shell was delineated with permanent marker prior to transplanting at these sites. At coastal sites, subadult oysters (38.1 +/- 1.0 mm shell height, n = 15) were transplanted in mesh bags similar to cages at Mobile Bay sites, but measuring 50 x 50 x 10 cm deep with 3.8 cm mesh (n = 4 bags per site). Cages loaded with bags were tethered to helix anchors and floated in 1.0 m of water. Source and Preparation of Suspended Particulate Matter --To determine stable isotope ratios in natural foods locally available to oysters, we utilized data from previous and ongoing studies at nearby sites during similar time periods, except in the cases of Denton and Sand Reef where site-specific data were collected every 2 weeks during the study period. In all cases, water was collected using a horizontal water sampler at locations of equivalent depth and salinity to study sites or (in the case of Mobile Bay sites) immediately adjacent to transplant cages (n = 31 Denton Reef; n = 33 Sand Reef). For Grand Bay, we analyzed SPM data collected June-September 2010 from nearby Bayou La Batre, Alabama (n = 14). For Fort Morgan, we used SPM data collected in January and June 2010 from an adjacent site a few kilometers to the west on Fort Morgan (n = 14), and for Orange Beach, we used SPM data collected in June 2008 from a site within the intracoastal waterway, north of the transplant location (n = 13). Water was prefiltered through a 200-micrometer mesh, vacuum filtered onto preashed 0.7-micrometer glass-fiber filters, and dried to a constant weight at 60 degrees C. Source of Oil --Weathered oil samples were collected from coastal areas near or at oyster transplant sites, including Petit Bois Island (near Grand Bay, n = 1), Dauphin Island (near Mobile Bay sites, n = 4), Gulf Shores (near Fort Morgan, n = 5), and Orange Beach (n = 2). To confirm that the samples were derived from the DWHOS, we haphazardly selected samples from among the different locations of study and chemically fingerprinted 25% of the total number of weathered oil samples. Oil samples were source matched to MC252 reference material obtained from BP Gulf Coast Restoration Organization (GCRO), including Massachusetts surrogate oil (MASS) and weathered oil from the surface (OFS), which are defined by BP GCRO as chemically and toxicologically similar to the Macondo Well in Mississippi Canyon Block 252. We compared the quantitative ratios of key markers (many of which are resistant to weathering) of petroleum hydrocarbons within the source oil to the same marker compounds in collected samples. Samples were dissolved in methylene chloride, and extracts were analyzed using capillary column gas chromatography-mass spectroscopy (GC-MS). Data were acquired in the selective ion mode. Ions and retention time windows were set to detect saturated hydrocarbons from C10 to C40 (ion 57), hopane and sterane tri to penta cyclic biomarkers (191, 217, 218, 231), and the following petroleum marker compounds and their alkyl homologues: naphthalene (ions 128, 142, 156, 170, 184), fluorene (166, 180, 194, 208), phenanthrene (178, 192, 206, 220, 234), dibenzothiophene (184, 198, 212, 226), benzo(a)anthracene, and chrysene (228, 242, 256, 270 284). Taking into consideration small daily instrumental variations and the fact that samples may contain different overall quantities of oily residues, we defined conclusive source identification when at least 90% of the biomarker compounds in the environmental sample matched the source oil. Preparation of Oil --Subsamples from the interior of each weathered oil sample (8-13 mg for C, 30-60 mg for N) were added dropwise to 2.0 mg of CHROMOSORB WAW (ThermoFisher Scientific). Samples were incubated at 60 degrees C for up to 96 hours to remove residual water prior to stable isotope analysis. Stable Isotope Analysis: Oyster Shell, SPM, Oil --Samples were analyzed at the UC Davis Stable Isotope Facility by continuous flow-isotope ratio mass spectrometry (CF-IRMS; 20-20 mass spectrometer, PDZ Europa) after sample combustion to CO2 and N2 in an online elemental analyzer (PDZ Europa). Gases were separated on a Carbosieve G column (Supelco) before introduction to the CFIRMS. As internal controls, blank filters and tins were analyzed along with an acetanilide standard (Fisher Scientific) of known isotope ratio and pseudoreplicates of randomly chosen samples, representing ~10% of the total sample number, to ensure variation of &lt;0.2 parts per thousand due to sample handling and instrument reproducibility. Trace Element Analyses: Oyster Shell --Oysters transplanted at coastal sites during possible and post-spill exposure periods were analyzed for six elements which have been highlighted for use in detection of hydrocarbon pollution (Cd, Co, Mo, Ni, Pd, V). Shells were initially scrubbed in distilled deionized water with a soft brush to remove loosely attached biogenic and inorganic particles. Further cleaning was conducted, for each shell, with 5% weight to volume hydrogen peroxide (20 min), and rinsed with deionized distilled water (5 min). All samples were dried in a fume hood for 24 h. For each transplant period, three right valves of oyster shells were selected from each site and divided into three or four shell splits of equal length (~1.3 cm), depending on the length of the shell. The inner segments of shell toward the umbo region served as control samples because they corresponded to older growth in the hatchery or at T0 sites before deployment, while the outer margin of shell represented new growth during the period of transplant. Old and new growth regions were identified using the independent measurements of shell growth described for stable isotope analyses. Samples were prepared by dissolving 35 mg of shell powder in 30 mL of a 10% HNO3 solution and passing the resulting mixture through a 20-micrometer filter. Major and minor elements were analyzed by inductively coupled plasma&#x2212;optical emission spectrometry (ICP-OES) in the University of Alabama Department of Geological Sciences analytical geochemistry laboratory, with instrumental sensitivity of 10 ppb and +/-8% error at 2 sigma. For all elements, a multi-element inorganic calibration standard (High Purity Inc.) and quality control standards (CPI International) were used for analyses. Calibration was performed using concentrations 0.25, 0.5, 1.0, 5.0, 10.0, and 20.0 ppm (or mg L-1) to within +/-5%. ||||</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:contentInfo>
+        <gmd:MD_FeatureCatalogueDescription>
+            <gmd:includedWithDataset>
+                <gco:Boolean>true</gco:Boolean>
+            </gmd:includedWithDataset>
+            <gmd:featureTypes>
+                <gco:LocalName codeSpace="Avg Values"/>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName codeSpace="Raw Values"/>
+            </gmd:featureTypes>
+            <gmd:featureTypes>
+                <gco:LocalName codeSpace="Avg Trace Metals"/>
+            </gmd:featureTypes>
+            <gmd:featureCatalogueCitation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>FGDC CSDGM Metadata Record containing feature catalog information (Section 5 - Entity and Attribute Information) for Biological and chemical data of oil-derived elements being assimilated by oysters due to the Deepwater Horizon Oil Spill collected in Alabama and Mississippi coastal waters (NODC Accession 0118498)</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>20140513</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                    <gmd:citedResponsibleParty>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>NOAA/NESDIS/NODC - National Oceanographic Data Center</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-301-713-3277</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-301-713-3302</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>National Oceanographic Data Center NOAA/NESDIS E/OC1 SSMC3, 4th Floor 1315 East-West Highway</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Silver Spring</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>MD</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>20910-3282</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>NODC.Services@noaa.gov</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://www.nodc.noaa.gov/archive/arc0064/0118498/1.1/data/0-data/72.xml</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>http</gco:CharacterString>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:citedResponsibleParty>
+                </gmd:CI_Citation>
+            </gmd:featureCatalogueCitation>
+        </gmd:MD_FeatureCatalogueDescription>
+    </gmd:contentInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>NOAA/NESDIS/NODC - National Oceanographic Data Center</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-301-713-3277</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-301-713-3302</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>National Oceanographic Data Center NOAA/NESDIS E/OC1 SSMC3, 4th Floor 1315 East-West Highway</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Silver Spring</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>MD</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>20910-3282</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>NODC.Services@noaa.gov</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://www.nodc.noaa.gov/</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>http</gco:CharacterString>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>.xlsx Excel spreadsheet</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString>tar</gco:CharacterString>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>0.436</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://www.nodc.noaa.gov/cgi-bin/OAS/prd/accession/0118498</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>http</gco:CharacterString>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+            <gmd:transferOptions>
+                <gmd:MD_DigitalTransferOptions>
+                    <gmd:onLine>
+                        <gmd:CI_OnlineResource>
+                            <gmd:linkage>
+                                <gmd:URL>http://pubs.acs.org/doi/pdfplus/10.1021/es302369h</gmd:URL>
+                            </gmd:linkage>
+                        </gmd:CI_OnlineResource>
+                    </gmd:onLine>
+                </gmd:MD_DigitalTransferOptions>
+            </gmd:transferOptions>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:dataQualityInfo>
+        <gmd:DQ_DataQuality>
+            <gmd:scope gco:nilReason="unknown"/>
+            <gmd:report>
+                <gmd:DQ_CompletenessCommission>
+                    <gmd:result gco:nilReason="unknown"/>
+                </gmd:DQ_CompletenessCommission>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_CompletenessOmission>
+                    <gmd:evaluationMethodDescription>
+                        <gco:CharacterString>No significant data gaps exist other than as explained in the methodology sections.</gco:CharacterString>
+                    </gmd:evaluationMethodDescription>
+                    <gmd:result gco:nilReason="unknown"/>
+                </gmd:DQ_CompletenessOmission>
+            </gmd:report>
+            <gmd:report>
+                <gmd:DQ_ConceptualConsistency>
+                    <gmd:measureDescription>
+                        <gco:CharacterString>not applicable</gco:CharacterString>
+                    </gmd:measureDescription>
+                    <gmd:result gco:nilReason="unknown"/>
+                </gmd:DQ_ConceptualConsistency>
+            </gmd:report>
+            <gmd:lineage>
+                <gmd:LI_Lineage>
+                    <gmd:processStep>
+                        <gmd:LI_ProcessStep>
+                            <gmd:description>
+                                <gco:CharacterString>See Methodology sections for full descriptions of how data were obtained.</gco:CharacterString>
+                            </gmd:description>
+                            <gmd:dateTime gco:nilReason="unknown"/>
+                        </gmd:LI_ProcessStep>
+                    </gmd:processStep>
+                </gmd:LI_Lineage>
+            </gmd:lineage>
+        </gmd:DQ_DataQuality>
+    </gmd:dataQualityInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This metadata was automatically generated from the FGDC Biological Data Profile of the Content Standard for Digital Geospatial Metadata standard version FGDC-STD-001-1998 using the June 2011 version of the FGDC CSDGM to ISO 19115-2 transform. The Spatial Reference Information is not currently mapped over to ISO but will be mapped in future versions. Additional information was added and/or modified to reflect GRIIDC conventions. GRIIDC maintains this ISO 19115-2 version of the metadata, while the originator maintains the FGDC CSDGM version hosted at NODC.</gco:CharacterString>
+            </gmd:maintenanceNote>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[6300 Ocean Drive
+Unit 5869]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Texas</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>78412-5869</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:onlineResource>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString/>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onlineResource>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+            <gmd:contact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName/>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Dauphin Island Sea Lab</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Data Management Specialist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>251-861-2141</gco:CharacterString>
+                                    </gmd:voice>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>101 Bienville Blvd.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Dauphin Island</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Al</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>36528</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>metadata@disl.org</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                            <gmd:hoursOfService>
+                                <gco:CharacterString>8-5:00 CST</gco:CharacterString>
+                            </gmd:hoursOfService>
+                            <gmd:contactInstructions>
+                                <gco:CharacterString>Please email the metadata specialist for further information.</gco:CharacterString>
+                            </gmd:contactInstructions>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian" codeSpace="002">custodian</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:contact>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

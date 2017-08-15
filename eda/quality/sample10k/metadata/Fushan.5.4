@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<eml:eml packageId="Fushan.5.4" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Datasets of The Fushan Forest Dynamics Plot</title>
+ <creator id="1113910332213" scope="document"> <individualName> <givenName>Sheng-Hsin</givenName>
+ <surName>Su</surName>
+ </individualName>
+ <organizationName>Taiwan Forestry Research Institute</organizationName>
+ <positionName>Assistant scientist</positionName>
+ <onlineUrl>http://www.tfri.gov.tw</onlineUrl>
+ </creator>
+ <creator id="1113910696460" scope="document"> <individualName> <givenName>Chang-Fu</givenName>
+ <surName>Hsieh</surName>
+ </individualName>
+ <organizationName>National Taiwan University</organizationName>
+ <positionName>Professor</positionName>
+ <electronicMailAddress>tnl@ccms.ntu.edu.tw</electronicMailAddress>
+ </creator>
+ <creator id="1113910864288" scope="document"> <organizationName>Taiwan Forest Bureau</organizationName>
+ <onlineUrl>http://www.forest.gov.tw</onlineUrl>
+ </creator>
+ <associatedParty scope="document"> <references>1113910910603</references>
+ <role>Content Provider</role>
+ </associatedParty>
+ <associatedParty scope="document"> <references>1113910332213</references>
+ <role>Originator</role>
+ </associatedParty>
+ <associatedParty scope="document"> <references>1113910696460</references>
+ <role>Originator</role>
+ </associatedParty>
+ <associatedParty scope="document"> <references>1113910864288</references>
+ <role>Originator</role>
+ </associatedParty>
+ <associatedParty id="1113911266338" scope="document"> <individualName> <givenName>I-Fan</givenName>
+ <surName>Sun</surName>
+ </individualName>
+ <organizationName>Tung-Hai University</organizationName>
+ <positionName>Associate Professor</positionName>
+ <electronicMailAddress>sunif@mail.thu.edu.tw</electronicMailAddress>
+ <role>Originator</role>
+ </associatedParty>
+ <abstract> <para>This package includes datasets of raw data from the establishment and the first tree census work of the Fushan Forest Dynamics Plot (Fushan FDP). All these survey and investigation were conducted from June 2002 to September 2004, according to a unified methodoloy from the Center for Tropical Forest Science, Smithsonian Tropical Research Institute.</para>
+ </abstract>
+ <keywordSet> <keyword>forest dynamics plot</keyword>
+ <keyword>subtropical</keyword>
+ <keyword>montane rainforest</keyword>
+ <keyword>Fushan</keyword>
+ </keywordSet>
+ <intellectualRights> <para>The rules for usage rights of this data package are being drawn up by the science committee of Fushan FDP. Applications for usage of these datasets should be submitted to the committee.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>A 25-ha square area near the Ha-pen Nature Reserve, Taipei County, Taiwan</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>121.55</westBoundingCoordinate>
+ <eastBoundingCoordinate>121.57</eastBoundingCoordinate>
+ <northBoundingCoordinate>24.77</northBoundingCoordinate>
+ <southBoundingCoordinate>24.75</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2002-06-01</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2005-04-01</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1113910910603" scope="document"> <individualName> <givenName>Sheng-Hsin</givenName>
+ <surName>Su</surName>
+ </individualName>
+ <organizationName>Taiwan Forestry Research Institute</organizationName>
+ <positionName>Assistant Researcher</positionName>
+ <electronicMailAddress>sush@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Topographic survey</title>
+ <para>Using a electronic theodolite.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep> <description> <section> <title>Tree census</title>
+ <para>All the trees, shrubs and saplings with stems or branches &gt;= 1 cm were tagged, measured, identified and located in each quadrat.</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>Forest compsition, structure and dynamics.</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>We chose a natural montane rainforest to build up a 25-ha square plot. 2601 stake points were measured as precisely as possible to demarcate 625 quadrats (20 by 20 square meters) which were the basic unit of tree census. All the trees, shrubs and saplings with stems or branches &gt;= 1 cm were tagged, measured, identified and located.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1113918009259" scope="document"> <entityName>The dataset of the first tree census</entityName>
+ <physical scope="document"> <objectName>fushan_tmp.csv</objectName>
+ <dataFormat> <textFormat> <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/Fushan.6.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1113918009269" scope="document"> <attributeName>TAGNO</attributeName>
+ <attributeDefinition>The tag numbers of each censused individuals in the Fushan FDP.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Composed by 6 digits of numbers or headed with a &quot;G&quot; character to form a 7-digits string.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009279" scope="document"> <attributeName>SPCODE</attributeName>
+ <attributeDefinition>The codes for each species.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Composed by 6 digits of alphabetical characters. Note that all the characters are lower-case except the first one.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009289" scope="document"> <attributeName>SPNAME</attributeName>
+ <attributeDefinition>The Chinese names for each species.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Chinese characters (Big 5)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009299" scope="document"> <attributeName>DATE</attributeName>
+ <attributeDefinition>The date of measurement of each individuals.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>days</customUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009309" scope="document"> <attributeName>X1</attributeName>
+ <attributeDefinition>The coordinate of quadrats in east-west direction.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Each unit mean 20 meters in horizontal distance.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009319" scope="document"> <attributeName>Y1</attributeName>
+ <attributeDefinition>The coordinate of quadrats in north-south direction.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Each unit mean 20 meters in horizontal distance.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009329" scope="document"> <attributeName>PLOTX</attributeName>
+ <attributeDefinition>The east-west coordinates of each individuals in the plot.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">50000</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009339" scope="document"> <attributeName>PLOTY</attributeName>
+ <attributeDefinition>The north-south coordinates of each individuals in the plot.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">500</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009349" scope="document"> <attributeName>DBH</attributeName>
+ <attributeDefinition>The diameters of each stems in the 1.3 m high (long) position.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <precision>0.05</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">1</minimum>
+ <maximum exclusive="true">200</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009359" scope="document"> <attributeName>BA</attributeName>
+ <attributeDefinition>The basal area of each individual including branches and a main stem.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareCentimeters</standardUnit>
+ </unit>
+ <precision>0.005</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0.79</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009369" scope="document"> <attributeName>NObranch</attributeName>
+ <attributeDefinition>The number of branches of each individual.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">47</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1113918009379" scope="document"> <attributeName>HEIGHT</attributeName>
+ <attributeDefinition>The heights of tree ferns</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="days" multiplerToSI=" " name="days" parentSI="second" unitType="time"> <description>days</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

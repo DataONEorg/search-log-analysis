@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:geonet="http://www.fao.org/geonetwork">
+  <Source>http://cmgds.marine.usgs.gov/metadata/792.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <origin>Coastal and Marine Geology Program</origin>
+        <pubdate>2013</pubdate>
+        <title>u271gm.m77t - MGD77 data file for Geophysical data from field activity U-2-71-GM in East Margin Yucatan Peninsula from 06/23/1971 to 07/08/1971</title>
+        <geoform>tab-delimited ASCII text files</geoform>
+        <pubinfo>
+          <pubplace>Menlo Park, CA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://www.ngdc.noaa.gov/mgg/trk/trackline/united_geo_i/u271gm/mgd77/</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Wm. Clinton Steele</origin>
+            <origin>Carolyn H. Degnan</origin>
+            <origin>Gary B. Deeter</origin>
+            <origin>Jean A. Riordan</origin>
+            <pubdate>1980</pubdate>
+            <title>DESCRIPTION OF MARINE GEOPHYSICAL DATA COLLECTED BY THE U.S. GEOLOGICAL SURVEY AND HOW TO OBTAIN IT</title>
+            <edition>1.0</edition>
+            <geoform>Digital Document</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Open File Report</sername>
+              <issue>167</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Menlo Park, CA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/of/1989/0167/report.pdf</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Single-beam, bathymetry, gravity, and magnetic data along with transit satellite navigation data was collected as part of the U.S. Geological Survey cruise U271GM. in East Margin Yucatan Peninsula from 06/23/1971 to 07/08/1971, http://walrus.wr.usgs.gov/infobank/u/u271gm/html/u-2-71-gm.meta.html
+ These data are reformatted from space-delimited ASCII text files located in the Coastal and Marine Geology Program (CMGP) InfoBank field activity catalog at http://walrus.wr.usgs.gov/infobank/u/u271gm/html/u-2-71-gm.bath.html http://walrus.wr.usgs.gov/infobank/u/u271gm/html/u-2-71-gm.grav.html and http://walrus.wr.usgs.gov/infobank/u/u271gm/html/u-2-71-gm.mag.html into MGD77T format provided by the NOAA's National Geophysical Data Center(NGDC). The MGD77T format includes a header (documentation) file (.h77t) and a data file (.m77t). More information regarding this format can be found in the publication listed in the Cross_reference section of this metadata file.</abstract>
+      <purpose>These data and information are intended for science researchers,students, policy makers, and general public. These data are not to be used for navigation purposes. The data are reformatted into MGD77T standard format for inclusion into NOAA's NGDC geophysical database. From there the data will be made available to GeoMapApp ( http://www.geomapapp.org/ ) and Virtual Ocean ( http://www.virtualocean.org/ ) Earth-browsing software. Access to the data is also provided via the USGS Coastal and Marine Geoscience Data System ( http://cmgds.marine.usgs.gov/ ).</purpose>
+      <supplinf>The navigation data are digitally collected using a Satellite Integrated Navigation (SINS) system. The system is a space-based satellite navigation maintained by the United States government and is accessible using a satellite receiver. This system provides navigational accuracy of approximately 200 m.The Data Acquistion, Processing, and Storage (DAPS) group performs a number of processing steps to the navigation data once it is collected which can vary by cruise. These steps are outlined within the header information in each individual digital navigation (.05x) space-delimited ASCII data file. The header information rows are indicated by lines beginning with the character "!". There is no information on how the single-beam bathymetry, gravity, and magnetic data were collected. For each data gathering cruise leg, the available data in the following categories are forwarded to NGDC: navigation, gravity, magnetics, bathymetry, and seismic shot points. The available data for each cruise leg are re-formatted and combined into the Marine Geophysical Data Exchange Format (MGD77) and into the internal NGDC SEIS-NAV format by USGS using several USGS developed FORTRAN programs.The FORTRAN programs sample the navigation to every integer minute of the cruise. When necessary, the latitudes and longitudes are linearly interpo- lated. If the time between the actual navigation fixes exceeds five minutes, no data are included in the MGD77 file.To build the MGD77 file, gravity, magnetics, and bathymetry are added to this sampled navigation. When necessary, gravity, magnetics, and bathymetry data are linearly interpolated if the time between the actual data samples does not exceed five minutes. If a time gap exceeds this, the data are not reported.The navigation data are merged with the seismic shot point data in a SEIS- NAV format file. For this file, navigation data are interpolated for each shot point. Both types of files are written to magnetic tape and sent to NGDC.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19710623</begdate>
+          <enddate>19710708</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-87.96520</westbc>
+        <eastbc>-83.74833</eastbc>
+        <northbc>20.73333</northbc>
+        <southbc>16.58830</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificinformation</themekey>
+        <themekey>oceans</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Marine Geology</themekey>
+        <themekey>Marine Geophysics</themekey>
+        <themekey>Marine Gravity Field</themekey>
+        <themekey>Marine Magnetic Field</themekey>
+        <themekey>Magnetic Anomalies</themekey>
+        <themekey>Bathymetry</themekey>
+        <themekey>Water Depth</themekey>
+        <themekey>Seafloor Topography</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Caribbean Sea</placekey>
+        <placekey>East Margin Yucatan Peninsula</placekey>
+        <placekey>Gulf Coast</placekey>
+        <placekey>Gulf of Mexico</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>None. These data are held in the public domain.</accconst>
+    <useconst>This information is not intended for navigational purposes. Read and fully comprehend the metadata prior to data use. Uses of these data should not violate the spatial resolution of the data. Where these data are used in combination with other data of different resolution, the resolution of the combined output will be limited by the lowest resolution of all the data. Acknowledge the U.S. Geological Survey in products derived from these data. Share data products developed using these data with the U.S. Geological Survey. This database has been approved for release and publication by the Director of the USGS. Although this database has been subjected to rigorous review and is substantially complete, the USGS reserves the right to revise the data pursuant to further analysis and review. Furthermore, it is released on condition that neither the USGS nor the United States Government may be held liable for any damages resulting from its authorized or unauthorized use. Although this Federal Geographic Data Committee-compliant metadata file is intended to document these data in nonproprietary form, as well as in ArcInfo format, this metadata file may include some ArcInfo-specific terminology.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Gregory K. Miller</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(727) 803-8747, ext. 3020</cntvoice>
+        <cntemail>gmiller@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Jack Vedder (Chief Scientist, USGS Western Region)</datacred>
+    <crossref>
+      <citeinfo>
+        <origin>Hittelman, Allen M., Groman, Robert C., Haworth, Richard T., Holcombe, Troy L., McHendrie, Graig, Smith, Stuart M., and Metzger, Dan R.</origin>
+        <pubdate>2010</pubdate>
+        <title>The marine geophysical data exchange format - MGD77 / MGD77T</title>
+        <pubinfo>
+          <pubplace>Boulder, CO</pubplace>
+          <publish>National Geophysical Data Center, National Oceanic and Atmospheric Administration</publish>
+        </pubinfo>
+        <othercit>25 p.</othercit>
+        <onlink>http://www.ngdc.noaa.gov/mgg/dat/geodas/docs/mgd77.pdf</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The validity or accuracy of bathymetry and navigation data is highly qualitative and depends on equipment and operating condition variables. Data quality is unknown, MGD77T files were formatted from InfoBank files identified as best available version.</attraccr>
+    </attracc>
+    <logic>This data set is from one field activity with unknown instrument calibrations. Processed bathymetric depths were spot checked based on latitude and longitude against the Global Multi-Resolution Topography (GMRT) grid within GeoMapApp to ensure reasonable values.</logic>
+    <complete>Start and end date/times of data &gt;Navigation Data (u-2-71-gm.050 [SINS]) &gt;YYYYMMDDHHMMSST YYYYMMDDHHMMSST &gt;197106271116000 197107050111000 &gt;197107070304000 197107070304000 &gt;197107070354000 197107070354000 &gt;197107070454000 197107070454000 &gt;197107070540000 197107070610000 &gt;197107070833000 197107070856000 &gt;197107071010000 197107071050000 &gt;197107071154000 197107071233000 &gt;197107071338000 197107071338000 &gt;197107071452000 197107071532000 &gt;197107071702000 197107071737000 &gt;197107071850000 197107071850000 &gt;197107072202000 197107072202000 &gt;197107072318000 197107072318000 &gt;197107080128000 197107080128000 &gt;197107080314000 197107080314000 &gt;197107080358000 197107080358000 &gt;197107080546000 197107080546000 &gt;197107080638000 197107080638000 &gt;197107080729000 197107080729000 &gt;197107080833000 197107080833000 &gt;197107080931000 197107080931000 &gt;YYYYMMDDHHMMSST YYYYMMDDHHMMSST &gt;Gravity Data (u-2-71-gm.160_050) &gt;YYYYMMDDHHMMSST YYYYMMDDHHMMSST &gt;197106271120000 197106281915000 &gt;197106281935000 197106300420000 &gt;197106300440000 197106301200000 &gt;197106301440000 197106302030000 &gt;197107010055000 197107011605000 &gt;197107011640000 197107011840000 &gt;197107011910000 197107021625000 &gt;197107022120000 197107031200000 &gt;197107031225000 197107031540000 &gt;197107040355000 197107041205000 &gt;197107042200000 197107050110000 &gt;197107070320000 197107071420000 &gt;197107071430000 197107071440000 &gt;YYYYMMDDHHMMSST YYYYMMDDHHMMSST &gt;Magnetics Data (u-2-71-gm.220_050) &gt;YYYYMMDDHHMMSST YYYYMMDDHHMMSST &gt;197106271116180 197106281706480 &gt;197106281713000 197106290647540 &gt;197106290654060 197106291537180 &gt;197106291543300 197106291826180 &gt;197106291832300 197106292058120 &gt;197106292104240 197106300208180 &gt;197106300214300 197106300237240 &gt;197106300243360 197106300308360 &gt;197106300316540 197106300535480 &gt;197106300542060 197106301517000 &gt;197106301523120 197106301917420 &gt;197106301923540 197106301928060 &gt;197106301936240 197106302034300 &gt;197107010054360 197107010738480 &gt;197107010745000 197107010749120 &gt;197107010755240 197107010857420 &gt;197107010904000 197107010939180 &gt;197107010949420 197107011225300 &gt;197107011233480 197107011309120 &gt;197107011323420 197107011357000 &gt;197107011405240 197107011442540 &gt;197107011449060 197107011526360 &gt;197107011532480 197107011534540 &gt;197107011544240 197107011549240 &gt;197107011555360 197107011608000 &gt;197107011613240 197107011638180 &gt;197107011644360 197107011646420 &gt;197107011657060 197107011715480 &gt;197107011726120 197107011726120 &gt;197107011732300 197107011803420 &gt;197107011812000 197107011847240 &gt;197107011857480 197107011933120 &gt;197107011943420 197107011958120 &gt;197107012004300 197107012014540 &gt;197107012023120 197107012125360 &gt;197107012133540 197107012138000 &gt;197107012144180 197107012209120 &gt;197107012215240 197107012254480 &gt;197107012303060 197107012323540 &gt;197107012342480 197107020007480 &gt;197107020018120 197107020055360 &gt;197107020103540 197107020118240 &gt;197107020149300 197107020159480 &gt;197107020206000 197107020245240 &gt;197107020253420 197107020328540 &gt;197107020337120 197107020408180 &gt;197107020422480 197107020449480 &gt;197107020504180 197107020557540 &gt;197107020604000 197107020719480 &gt;197107020726000 197107020805000 &gt;197107020813120 197107020848180 &gt;197107020854300 197107020927360 &gt;197107020935540 197107021009060 &gt;197107021015240 197107021117420 &gt;197107021124000 197107021159180 &gt;197107021205300 197107021406180 &gt;197107021412360 197107021627000 &gt;197107022104480 197107030226540 &gt;197107030233060 197107031542120 &gt;197107040403120 197107041207300 &gt;197107042156120 197107042156120 &gt;197107042215180 197107050109240 &gt;197107070323060 197107070323060 &gt;197107070342000 197107080137060 &gt;197107080143180 197107080842420 &gt;197107080848540 197107080930120 &gt;YYYYMMDDHHMMSST YYYYMMDDHHMMSST &gt;Bathymetry Data (u-2-71-gm.325_050) &gt;YYYYMMDDHHMMSST YYYYMMDDHHMMSST &gt;197106271130000 197106272300000 &gt;197106272330000 197106280000000 &gt;197106280030000 197106280030000 &gt;197106280100000 197106280100000 &gt;197106280130000 197106280130000 &gt;197106280200000 197106280200000 &gt;197106280230000 197106280230000 &gt;197106280300000 197106280300000 &gt;197106280330000 197106281430000 &gt;197106281500000 197106281730000 &gt;197106281800000 197106290530000 &gt;197106290600000 197106290600000 &gt;197106290630000 197106290630000 &gt;197106290700000 197106300030000 &gt;197106300100000 197106301005000 &gt;197106301030000 197106301630000 &gt;197106301700000 197106302030000 &gt;197107010130000 197107011530000 &gt;197107011600000 197107012330000 &gt;197107020000000 197107020400000 &gt;197107020430000 197107020430000 &gt;197107020500000 197107020945000 &gt;197107021045000 197107021630000 &gt;197107022030000 197107030330000 &gt;197107030400000 197107031645000 &gt;197107040345000 197107041200000 &gt;197107042215000 197107050112000 &gt;197107070315000 197107071000000 &gt;197107071030000 197107071030000 &gt;197107071100000 197107071100000 &gt;197107071130000 197107071130000 &gt;197107071200000 197107071200000 &gt;197107071230000 197107071230000 &gt;197107071300000 197107071300000 &gt;197107071330000 197107071330000 &gt;197107071400000 197107071430000 &gt;197107071500000 197107071500000 &gt;197107071530000 197107071530000 &gt;197107071600000 197107071600000 &gt;197107071630000 197107071630000 &gt;197107071700000 197107071700000 &gt;197107071730000 197107071730000 &gt;197107071800000 197107071800000 &gt;197107071830000 197107071830000 &gt;197107071900000 197107071900000 &gt;197107071930000 197107071930000 &gt;197107072000000 197107072000000 &gt;197107072030000 197107072030000 &gt;197107072100000 197107072100000 &gt;197107072130000 197107072130000 &gt;197107072200000 197107072200000 &gt;197107072230000 197107072230000 &gt;197107072300000 197107072300000 &gt;197107072330000 197107072330000 &gt;197107080000000 197107080230000 &gt;197107080300000 197107080300000 &gt;197107080330000 197107080330000 &gt;197107080400000 197107080400000 &gt;197107080430000 197107080430000 &gt;197107080500000 197107080500000 &gt;197107080530000 197107080530000 &gt;197107080600000 197107080600000 &gt;197107080630000 197107080630000 &gt;197107080700000 197107080700000 &gt;197107080730000 197107080730000 &gt;197107080800000 197107080800000 &gt;197107080830000 197107080830000 &gt;197107080900000 197107080900000 &gt;197107080930000 197107080930000 &gt;YYYYMMDDHHMMSST YYYYMMDDHHMMSST</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Unspecified</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Unspecified</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Navigation Data &gt;Converted to time format with year at start. &gt; &gt;02/11/86 KAYE DUA0:[DATA.U271GM.N]U271GM.050; &gt;DRB0:[DRS.REFMT]REFORMAT.EXE;5 &gt;</procdesc>
+        <procdate>19951215</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey (USGS) , Coastal and Marine Geology (CMG)</cntorg>
+              <cntper>Carolyn H. Degnan</cntper>
+            </cntorgp>
+            <cntpos>Geophysicist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>USGS Pacific Coastal &amp; Marine Science Center, 400 Natural Bridges Drive</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060-5792</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(831) 460-7452</cntvoice>
+            <cntfax>(831) 427-4748</cntfax>
+            <cntemail>infobank@octopus.wr.usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Gravity Data &gt;10/31/1998 /tiger/u/u271gm/grav/u-2-71-gm.160_050 &gt;/bear/programs/edit/automerge/automerge &gt; &gt;Input was... &gt;Converted to time format with year at start. &gt; &gt;03/07/86 BARB DUA0:[DATA.U271GM]U271GM.160; &gt;DRB0:[DRS.REFMT]REFORMAT.EXE;5 &gt; &gt;Input was... &gt;Converted to time format with year at start. &gt; &gt;02/11/86 KAYE DUA0:[DATA.U271GM.N]U271GM.050; &gt;DRB0:[DRS.REFMT]REFORMAT.EXE;5 &gt; &gt;time, lat, long, time(sec) to nearest nav fix, data values</procdesc>
+        <procdate>19981031</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey (USGS) , Coastal and Marine Geology (CMG)</cntorg>
+              <cntper>Carolyn H. Degnan</cntper>
+            </cntorgp>
+            <cntpos>Geophysicist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>USGS Pacific Coastal &amp; Marine Science Center, 400 Natural Bridges Drive</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060-5792</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(831) 460-7452</cntvoice>
+            <cntfax>(831) 427-4748</cntfax>
+            <cntemail>infobank@octopus.wr.usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Magnetics Data &gt;06/20/2012 carolyn u-2-71-gm.220_050 &gt; &gt;Reprocessed using subroutines from Susan Macmillan's &gt;IGRF SYNTHESIS PROGRAM http://www.ngdc.noaa.gov/IAGA/vmod/igrf11.f &gt;with IGRF-11 coeffiecients integrated into the source code. &gt;/infobank/programs/mag/magred11/magred11.for &gt;Using geodetic coordinate system (Earth shape approximated by spheriod) &gt;with altitude 0.0 km (for sea level). &gt; &gt;Input was... &gt;10/31/1998 /tiger/u/u271gm/mag/u-2-71-gm.200_050 &gt;/bear/programs/edit/automerge/automerge &gt; &gt;Converted to time format with year at start. &gt; &gt;03/10/86 CAROLYN DRS$DATA:[U271GM.M]U271GM.200; &gt;DRB0:[DRS.REFMT]REFORMAT.EXE;5 &gt;was U271GM.220 from 71BKUP &gt; &gt;03/22/85 CAROLYN USR$DISK:[DRS.DATA.U2.M]U271GM.220; &gt;USR$DISK:[DRS.REFMT]REFORMAT.EXE;3 &gt; &gt;Converted to time format with year at start. &gt; &gt;02/11/86 KAYE DUA0:[DATA.U271GM.N]U271GM.050; &gt;DRB0:[DRS.REFMT]REFORMAT.EXE;5 &gt; &gt;time, lat, long, time(sec) to nearest nav fix, data values</procdesc>
+        <procdate>20120620</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey (USGS) , Coastal and Marine Geology (CMG)</cntorg>
+              <cntper>Carolyn H. Degnan</cntper>
+            </cntorgp>
+            <cntpos>Geophysicist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>USGS Pacific Coastal &amp; Marine Science Center, 400 Natural Bridges Drive</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060-5792</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(831) 460-7452</cntvoice>
+            <cntfax>(831) 427-4748</cntfax>
+            <cntemail>infobank@octopus.wr.usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Bathymetry Data &gt;10/31/1998 /tiger/u/u271gm/bath/u-2-71-gm.325_050 &gt;/bear/programs/edit/automerge/automerge &gt; &gt;Input was... &gt;Converted to time format with year at start. &gt; &gt;03/07/86 BECKIE DUA0:[DATA.U271GM]U271GM.325; &gt;DRB0:[DRS.REFMT]REFORMAT.EXE;5 &gt; &gt;Input was... &gt;Converted to time format with year at start. &gt; &gt;02/11/86 KAYE DUA0:[DATA.U271GM.N]U271GM.050; &gt;DRB0:[DRS.REFMT]REFORMAT.EXE;5 &gt; &gt;time, lat, long, time(sec) to nearest nav fix, data values</procdesc>
+        <procdate>19981031</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey (USGS) , Coastal and Marine Geology (CMG)</cntorg>
+              <cntper>Carolyn H. Degnan</cntper>
+            </cntorgp>
+            <cntpos>Geophysicist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>USGS Pacific Coastal &amp; Marine Science Center, 400 Natural Bridges Drive</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060-5792</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(831) 460-7452</cntvoice>
+            <cntfax>(831) 427-4748</cntfax>
+            <cntemail>infobank@octopus.wr.usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>MGD77 file creation - The available data for each cruise leg are re-formatted and combined into the Marine Geophysical Data Exchange Format (MGD77) and into the internal NGDC SEIS-NAV format by USGS using several USGS developed FORTRAN programs.The FORTRAN programs sample the navigation to every integer minute of the cruise. When necessary, the latitudes and longitudes are linearly interpolated. If the time between the actual navigation fixes exceeds five minutes, no data are included in the MGD77 file.To build the MGD77 file, gravity, magnetics, and bathymetry are added to this sampled navigation. When necessary, gravity, magnetics, and bathymetry data are linearly interpolated if the time between the actual data samples does not exceed five minutes. If a time gap exceeds this, the data are not reported.The navigation data are merged with the seismic shot point data in a SEIS- NAV format file. For this file, navigation data are interpolated for each shot point. Both types of files are written to magnetic tape and sent to NGDC.</procdesc>
+        <procdate>1988</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey (USGS) , Coastal and Marine Geology (CMG)</cntorg>
+              <cntper>Carolyn H. Degnan</cntper>
+            </cntorgp>
+            <cntpos>Geophysicist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>USGS Pacific Coastal &amp; Marine Science Center, 400 Natural Bridges Drive</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060-5792</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(831) 460-7452</cntvoice>
+            <cntfax>(831) 427-4748</cntfax>
+            <cntemail>infobank@octopus.wr.usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>East Margin Yucatan Peninsula</indspref>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000001</latres>
+        <longres>0.000001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.25722210100002</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>u271gm.m77t</enttypl>
+        <enttypd>MGD77T single-beam bathymetry, gravity, and mgnetics data file for U271GM</enttypd>
+        <enttypds>NOAA's National Geophysical Data Center, See Hittelman and others (2010) Cross_Reference section above for details about the MGD77T format and citation information.</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>SURVEY_ID</attrlabl>
+        <attrdef>Survey identifier supplied by the contributing organization</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <udom>This identifier varies in format and is supplied by the contributing organization</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIMEZONE</attrlabl>
+        <attrdef>Time-zone correction</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <udom>In our datasets, no correction was applied. All values equal 0.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DATE</attrlabl>
+        <attrdef>YYYYMMDD</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>19710627</rdommin>
+            <rdommax>19710708</rdommax>
+            <attrunit>Year, month, day</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TIME</attrlabl>
+        <attrdef>Time</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>2352</rdommax>
+            <attrunit>hours and decimal minutes</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LAT</attrlabl>
+        <attrdef>Latitude</attrdef>
+        <attrdefs>World Geodetic System 1984 Geographic Coordinate System</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>16.58830</rdommin>
+            <rdommax>20.73333</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LON</attrlabl>
+        <attrdef>Longitude</attrdef>
+        <attrdefs>World Geodetic System 1984 Geographic Coordinate System</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-87.96520</rdommin>
+            <rdommax>-83.74833</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POS_TYPE</attrlabl>
+        <attrdef>Indicates how lat/lon was obtained</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>3</rdommax>
+            <attrunit>1 = observed fix, 3 = interpolated fix, nil = unspecified</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BAT_TTIME</attrlabl>
+        <attrdef>Bathymetry, 2-way travel time</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.3767</rdommin>
+            <rdommax>7.204</rdommax>
+            <attrunit>seconds</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CORR_DEPTH</attrlabl>
+        <attrdef>Bathymetry, corrected depth</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>286</rdommin>
+            <rdommax>5475.4</rdommax>
+            <attrunit>decimal meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BAT_CPCO</attrlabl>
+        <attrdef>Bathymetric Correction code - details the procedure used for determining the sound velocity correction to depth</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>59</rdommin>
+            <rdommax>59</rdommax>
+            <attrunit>01-55 Matthews' Zones with zone , 59 Matthews' Zones, no zone specified, 60 S. Kuwahara Formula, 61 Wilson Formula, 62 Del Grosso Formula, 63 Carter's Tables, 88 Other (see Add. Doc.), 97 Computed using 1500 meters/sec, 98 Unknown if Corrected, 99 Unspecified</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BAT_TYPCO</attrlabl>
+        <attrdef>Bathymetry type code - indicates how the bathymetric value was obtained</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>3</rdommax>
+            <attrunit>1 - Observed, 3 - Interpolated (Header Seq. 12), 9 - Unspecified</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAG_TOT</attrlabl>
+        <attrdef>Magnetics total field - 1st sensor</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>45045.4</rdommin>
+            <rdommax>45575.5</rdommax>
+            <attrunit>gammas</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAG_RES</attrlabl>
+        <attrdef>Magnetics residual field field</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-253.1</rdommin>
+            <rdommax>207.8</rdommax>
+            <attrunit>gammas</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FREEAIR</attrlabl>
+        <attrdef>Free-air Anomaly = G(observed) minus G(theoretical)</attrdef>
+        <attrdefs>NGDC</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-128.7</rdommin>
+            <rdommax>-1.1</rdommax>
+            <attrunit>milligals</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Bathymetry, gravity, magnetic, and navigation data for U.S. Geological Survey bathymetry survey U271GM in MGD77T format.</eaover>
+      <eadetcit>Attributes are obtained from MGD77T data files created from the navigation and bathymetry best files. MGD77T is the standard, defined data format used for geophysical data in the National Geophysical Data Center. See Cross_Reference section above for citation details.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>345 Middlefield Road MS 999</address>
+          <city>Menlo Park</city>
+          <state>CA</state>
+          <postal>94025</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(650) 329-5078</cntvoice>
+        <cntfax>(650) 329-5190</cntfax>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>MGD77t</formname>
+          <formvern>10</formvern>
+          <formspec>MGD77</formspec>
+          <formcont>tab-delimited ASCII text files.</formcont>
+          <transize>.042</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://www.ngdc.noaa.gov/mgg/trk/trackline/united_geo_i/u271gm/mgd77/</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data are available for download on the World Wide Web (WWW).</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150528</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Gregory K. Miller</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Physical Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>U.S. Geological Survey, 600 Fourth Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(727) 803-8747, ext. 3020</cntvoice>
+        <cntemail>gmiller@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>19710623</begdate>
+    <enddate>19710708</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/cmgds.marine.usgs.gov_metadata_792.html</htmlurl>
+  </mercury>
+</metadata>

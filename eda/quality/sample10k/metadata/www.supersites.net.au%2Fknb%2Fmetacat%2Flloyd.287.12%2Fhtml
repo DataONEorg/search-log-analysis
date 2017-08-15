@@ -1,0 +1,420 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/lloyd.287.12/html" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" ">
+    <dataset scope="document">
+        <title>Weather Station Data, Warra Tall Eucalypt SuperSite, 2004-2016</title>
+        <creator id="1353991578564" scope="document">
+            <individualName>
+                <givenName>Tim</givenName>
+                <surName>Wardlaw</surName>
+            </individualName>
+            <organizationName>Forestry Tasmania</organizationName>
+            <address scope="document">
+                <deliveryPoint>79 Melville Street</deliveryPoint>
+                <city>Hobart</city>
+                <administrativeArea>TAS</administrativeArea>
+                <postalCode>7000</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">03 6235 8205</phone>
+            <electronicMailAddress>tim.wardlaw@forestrytas.com.au</electronicMailAddress>
+        </creator>
+        <pubDate>2012-11-27</pubDate>
+        <abstract>
+            <para>Daily climate record for Warra Supersite</para>
+        </abstract>
+        <keywordSet>
+            <keyword>weather</keyword>
+            <keyword>climate</keyword>
+            <keyword>Warra</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0401</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under Creative Commons - Attribution 4.0 International. The licence allows others copy, distribute, display, and perform the work and derivative works based upon it provided that they credit the original source and any other nominated parties.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/lloyd.287.12/html</url>
+            </online>
+        </distribution>
+        <coverage scope="document">
+            <geographicCoverage scope="document">
+                <geographicDescription>Warra Dry Eucalypt Supersite</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>146.65556</westBoundingCoordinate>
+                    <eastBoundingCoordinate>146.65556</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-43.085278</northBoundingCoordinate>
+                    <southBoundingCoordinate>-43.085278</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>2004-09-28</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2016-08-29</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+        </coverage>
+        <contact id="1340149860705" scope="document">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>Tim</givenName>
+                <surName>Wardlaw</surName>
+            </individualName>
+            <organizationName>Forestry Tasmania</organizationName>
+            <address scope="document">
+                <deliveryPoint>79 Melville Street</deliveryPoint>
+                <city>Hobart</city>
+                <administrativeArea>TAS</administrativeArea>
+                <postalCode>7001</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">03 6235 8205</phone>
+            <electronicMailAddress>tim.wardlaw@forestrytas.com.au</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <para>.</para>
+                    </section>
+                </description>
+            </methodStep>
+        </methods>
+        <dataTable id="1353986405394" scope="document">
+            <entityName>asn_wrra_weather_2004-2012.csv</entityName>
+            <physical id="1353985330186" scope="document">
+                <objectName>asn_wrra_weather_2004-2012.csv</objectName>
+                <size unit="byte">195687</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/lloyd.287.12/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1353986405409" scope="document">
+                    <attributeName>Date</attributeName>
+                    <attributeDefinition>Date and time measurements were taken</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>DD/MM/YYYYThh:mm</formatString>
+                            <dateTimePrecision>0</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405425" scope="document">
+                    <attributeName>Minimum temperature (°C)</attributeName>
+                    <attributeDefinition>Minimum temperature</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405440" scope="document">
+                    <attributeName>Maximum temperature (°C)</attributeName>
+                    <attributeDefinition>Maximum temperature</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405456" scope="document">
+                    <attributeName>Rainfall (mm)</attributeName>
+                    <attributeDefinition>Rainfall</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405472" scope="document">
+                    <attributeName>Evaporation (mm)</attributeName>
+                    <attributeDefinition>Evaporation</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405487" scope="document">
+                    <attributeName>Sunshine (hours)</attributeName>
+                    <attributeDefinition>Hours of sunshine</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405503" scope="document">
+                    <attributeName>Direction of maximum wind gust</attributeName>
+                    <attributeDefinition>Maximum wind gust direction</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>direction</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405518" scope="document">
+                    <attributeName>Speed of maximum wind gust (km/h)</attributeName>
+                    <attributeDefinition>Maximum wind gust speed</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>kilometersPerHour</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405534" scope="document">
+                    <attributeName>Time of maximum wind gust</attributeName>
+                    <attributeDefinition>Time of maximum wind gust</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>hh:mm</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405550" scope="document">
+                    <attributeName>9am Temperature (°C)</attributeName>
+                    <attributeDefinition>Temperature at 9 am</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405565" scope="document">
+                    <attributeName>9am relative humidity (%)</attributeName>
+                    <attributeDefinition>Relative Humidity at 9 am</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405581" scope="document">
+                    <attributeName>9am cloud amount (oktas)</attributeName>
+                    <attributeDefinition>Cloud amount at 9 am</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405596" scope="document">
+                    <attributeName>9am wind direction</attributeName>
+                    <attributeDefinition>Wind direction at 9 am</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>wind direction</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405612" scope="document">
+                    <attributeName>9am wind speed (km/h)</attributeName>
+                    <attributeDefinition>Wind speed at 9 am</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>kilometersPerHour</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405628" scope="document">
+                    <attributeName>9am MSL pressure (hPa)</attributeName>
+                    <attributeDefinition>MSL pressure at 9 am</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <customUnit>hectopascal</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405643" scope="document">
+                    <attributeName>3pm Temperature (°C)</attributeName>
+                    <attributeDefinition>Temperature at 3 pm</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405659" scope="document">
+                    <attributeName>3pm relative humidity (%)</attributeName>
+                    <attributeDefinition>Relative humidity at 3 pm</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405674" scope="document">
+                    <attributeName>3pm cloud amount (oktas)</attributeName>
+                    <attributeDefinition>Cloud amount at 3 pm</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405690" scope="document">
+                    <attributeName>3pm wind direction</attributeName>
+                    <attributeDefinition>Wind direction at 3 pm</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>direction</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405706" scope="document">
+                    <attributeName>3pm wind speed (km/h)</attributeName>
+                    <attributeDefinition>Wind speed at 3 pm</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>kilometersPerHour</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1353986405721" scope="document">
+                    <attributeName>3pm MSL pressure (hPa)</attributeName>
+                    <attributeDefinition>MSL pressure at 3 pm</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <customUnit>hectopascal</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>real</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>2889</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="hectopascal" name="hectopascal" parentSI="pascal" unitType="pressure">
+                    <description>hectopascal</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="Percentage" multiplierToSI="0.01" name="Percentage" parentSI="number" unitType="ratios">
+                    <description>per cent</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <qualityControl timestamp="2014-11-19T23:54:53.699Z" username="datalibrarian"/>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

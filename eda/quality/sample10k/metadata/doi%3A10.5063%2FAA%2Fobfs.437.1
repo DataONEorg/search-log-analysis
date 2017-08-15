@@ -1,0 +1,113 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:ds="eml://ecoinformatics.org/dataset-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="obfs.437.1" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd" scope="system"><!--Person who filled in the catalog entry form: Eric Nagy--><!--Form filled out at Tue Oct 17 02:12:15 2006 GMT--><dataset scope="document"><alternateIdentifier system="(VA) Mountain Lake Biological Station">MLBS1 Meteorological Data</alternateIdentifier><title>mlbs_metdata.asc</title><creator scope="document"><organizationName>(VA) Mountain Lake Biological Station</organizationName></creator><creator scope="document"><organizationName>Organization of Biological Field Stations</organizationName></creator><creator scope="document"><individualName><givenName>Eric</givenName><surName>Nagy</surName></individualName><organizationName>University of Virginia</organizationName><address scope="document"><deliveryPoint>P.O. Box 400327</deliveryPoint><city>Charlottesville</city><administrativeArea>Virginia</administrativeArea><postalCode>22901-8804</postalCode><country>United States</country></address><phone phonetype="voice">1-434-982-5486</phone><phone phonetype="Fax">1-434-982-5626</phone><electronicMailAddress>enagy@virginia.edu</electronicMailAddress></creator><metadataProvider scope="document"><individualName><givenName>Eric</givenName><surName>Nagy</surName></individualName></metadataProvider><pubDate>2006-10-16</pubDate><abstract><para>The Mountain Lake Biological Station is a research and teaching facility of the University of Virginia located in the Allegheny Mountains of southwestern Virginia in a deciduous hardwood forest at an elevation of 1,160 meters.
+
+Permission for use of these data is granted under the conditions that MLBS is acknowledged as their source and is notified of their use.
+
+Data set contains raw meteorological data collected at the Mountain Lake Biological Station.  All files are ASCII text.</para></abstract><keywordSet><keyword keywordType="theme">EARTH SCIENCE</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Atmospheric Temperature</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Atmosphere</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Air Temperature</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Humidity</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Atmospheric Pressure</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Surface Winds</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Rain</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Incoming Solar Radiation</keyword><keywordThesaurus>GCMD</keywordThesaurus></keywordSet><keywordSet><keyword keywordType="theme">Meteorological</keyword><keywordThesaurus>None</keywordThesaurus></keywordSet><additionalInfo><para>Row 1 is header.
+Character variables:  col 1
+Numeric variables  :  col 2-11
+
+ASCII data files are space delimited.  
+
+Individual missing values for variables are indicated by &quot;.&quot; 
+
+Breaks in data are not flagged.
+
+Comments MAY occur anywhere in the data, usually following the line being described. 
+
+Comments noted by &quot;NOTE&quot; in column #1.  
+
+SOME breaks in data may be indicated by &quot;BREAK&quot; in column #1.
+
+Measurements taken at approximately 2.5m above the ground; except for precipitation which
+is collected at ground level.
+
+Copies of Campbel Scientific CR10 data logger weather station program and 
+post-processing formulae are available upon request.
+
+History of changes in weather station operation:
+
+June 1994 - 22 Jan 1997:
+
+All measurements taken and stored once every 30 minutes.
+
+23 Jan 1997 - current:
+
+Data collection program rewritten 23 Jan 1997 -
+
+All measurements (except barometric pressure) are taken every minute.  Data is averaged
+by the CR10 data logger and stored to internal storage once ever 30 min.  
+Barometric pressure is sampled only once every 30 min.
+Therefore, all data points, except barometric pressure, are averages (precipitation is
+ the sum) of 30 measurements.
+
+26 May 1997:
+
+The weather station was moved from its original location in a clearing behind the 
+Lewis Laboratory to a location on the north bank of the Station pond 
+(approximately 200m north). The move was made to remove interference by the newly 
+constructed Aquatics Lab building.</para></additionalInfo><intellectualRights><para>no restrictions</para></intellectualRights><distribution scope="document"><online><url function="download">http://mlbs.org/weatherdata/weather.html</url></online></distribution><distribution scope="document"><offline><mediumName>digital</mediumName></offline></distribution><coverage scope="document"><temporalCoverage scope="document"><singleDateTime><calendarDate>1994-06-24</calendarDate></singleDateTime></temporalCoverage><geographicCoverage scope="document"><geographicDescription>The Mountain Lake Biological Station, Giles County Virginia U.S.A. (37o22&apos;N, 80o31&apos;W); elevation 1,160 meters.</geographicDescription><boundingCoordinates><westBoundingCoordinate>-80.5220</westBoundingCoordinate><eastBoundingCoordinate>-80.5220</eastBoundingCoordinate><northBoundingCoordinate>37.3750</northBoundingCoordinate><southBoundingCoordinate>37.3750</southBoundingCoordinate></boundingCoordinates></geographicCoverage></coverage><contact scope="document"><individualName><givenName>Eric</givenName><surName>Nagy</surName></individualName><organizationName>University of Virginia</organizationName><address scope="document"><deliveryPoint>P.O. Box 400327</deliveryPoint><city>Charlottesville</city><administrativeArea>Virginia</administrativeArea><postalCode>22901-8804</postalCode><country>United States</country></address><phone phonetype="voice">1-434-982-5486</phone><phone phonetype="Fax">1-434-982-5626</phone><electronicMailAddress>enagy@virginia.edu</electronicMailAddress></contact><methods><methodStep><description><section><title>Automated Weather Station</title><para>Campbell Scientific CR10 Datalogger weather station and Met-One sensors.</para><para></para></section></description></methodStep><sampling><studyExtent><description><para>Data collection started in June of 1994 and has been contunuous since, except for breaks and instrument repositioning noted here. 
+
+Known Sensor Failures, Service, Replacement, and other Notes:
+
+Wind Speed sensor failure:          1997 Date 110
+Wind Speed sensor back on line:     1997 Date 143
+Wind direction sensor failed:       1998 Date 081 Time 1500
+Wind direction sensor back on line: 1998 Date 210 Time 1230
+Wind Speed sensor failed:           1998 Date 275 Time 1300 **
+  ** WARNING:  It is impossible to know, but it appears that wind 
+     speed may be underestimated (sensor starting to fail) 
+     starting around Date 180 1998.   
+Wind Speed sensor back on line:     1998 Date 309 Time 1000
+Wind Speed sensor failure:          2003 Date 115
+Wind Speed sensor back on line:     2003 Date 194
+
+PAR Sensor replaced (no failure):   2004 Date 213 Time 1430
+  ** WARNING:  PAR sensors degrade over time.  New and old PAR sensors
+     will not return comparable readings.  The old PAR sensor had
+     yellowed sustantially.  It was giving consistant, but lower
+     readings than the new one.  Do not compare light levels between
+     the old and new sensor.  In general PAR levels should not be
+     compared over extended time periods (&gt; 1 year approx)
+Ran Gauge replaced (no failure):    2004 Date 213 Time 1430
+Solar Panel installed:              2004 Date 213 Time 1030
+  NOTE:  Battery to be installed perminantly now.  Not changed out
+         at data download.  Current battery installed May 2004.
+
+
+Note on Time:  
+All time data is collected in Eastern Standard Time 
+(EST = GMT - 05:00), even during periods of the year 
+when Day Light Saving Time (EDT) is in effect.</para></description></studyExtent><samplingDescription><para>All data automatically collected, processed and stored by CR10 datalogger.
+
+Station     Year     Date   Time  Temp      Humid    Pres  Speed   Dir     Rain   hv 
+
+Data column descriptions: 
+
+Col 1:  Station   MLBS weather station #1, MLBS1.
+Col 2:  Year      1994 - data collection started mid 1994. 
+Col 3:  Date      Julian Date, 1-365 or 366.
+Col 4:  Time      2400 clock, EST. Midnight = 2400 and is assigned to the preceding day. 
+Col 5:  Temp      Temperature in degrees Celsius, C 
+Col 6:  Humid     Relative humidity, % r.h. 
+Col 7:  Pres      Barometric pressure, absolute, no elevational adjustment, mbar.
+Col 8:  Speed     Wind speed, m/s.  0.447 m/s minimum sensor threshold.
+Col 9:  Dir       Wind direction, degrees (0-359) from North.
+Col 10: Rain      Accumulated precipitation (rain or melted snow), mm. 
+Col 11: hv        Quanta of light, PAR, micromoles/s/m^2.
+
+Julian Date Month Conversions:
+
+           Non-Leap Year       Leap Year (years evenly divisible by 4)
+
+January       1 -  31            1 -  31
+February     32 -  59           32 -  60
+March        60 -  90           61 -  91 
+April        91 - 120           92 - 121  
+May         121 - 151          122 - 152
+June        152 - 181          153 - 182
+July        182 - 212          183 - 213
+August      213 - 243          214 - 244
+September   244 - 273          245 - 274
+October     274 - 304          275 - 305
+November    305 - 334          306 - 335
+December    335 - 365          336 - 366</para></samplingDescription></sampling></methods><access authSystem="knb" order="denyFirst" scope="document"><allow><principal>uid=obfsadmin,o=LTER,dc=ecoinformatics,dc=org</principal><permission>all</permission></allow><allow><principal>uid=nagy,o=OBFS,dc=ecoinformatics,dc=org</principal><permission>all</permission></allow><allow><principal>public</principal><permission>read</permission></allow></access></dataset></eml:eml>

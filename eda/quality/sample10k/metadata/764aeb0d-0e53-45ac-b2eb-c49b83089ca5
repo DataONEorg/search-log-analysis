@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>http://cmgds.marine.usgs.gov/metadata/BITH2014_LowerNechesRiverCorridorUnit_EAARLB_BE_z15_n88g12A_mosaic_metadata.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>20160504</pubdate>
+        <title>EAARL-B Topography-Big Thicket National Preserve: Lower Neches River Corridor Unit, Texas, 2014</title>
+        <edition>first</edition>
+        <geoform>raster digital data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Data Release</sername>
+          <issue>doi:10.5066/F75D8PXQ</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>St. Petersburg, FL</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://dx.doi.org/10.5066/F75D8PXQ</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A bare-earth topography Digital Elevation Model (DEM) mosaic for the Lower Neches River Corridor Unit of Big Thicket National Preserve in Texas was produced from remotely sensed, geographically referenced elevation measurements collected on January 11, 15, 17, 18, 19, 21, 23, 25, 27, and 29, 2014 by the U.S. Geological Survey, in cooperation with the National Park Service - Gulf Coast Network. Elevation measurements were collected over the area using the second-generation Experimental Advanced Airborne Research Lidar (EAARL-B), a pulsed laser ranging system mounted onboard an aircraft to measure ground elevation, vegetation canopy, and coastal topography. The system uses high-frequency laser beams directed at the Earth's surface through an opening in the bottom of the aircraft's fuselage. The laser system records the time difference between emission of the laser beam and the reception of the reflected laser signal in the aircraft. The plane travels over the target area at approximately 55 meters per second at an elevation of approximately 300 meters, resulting in a laser swath of approximately 240 meters with an average point density of 1.4 points per square meter. A peak sampling rate of 15-30 kilohertz results in an extremely dense spatial elevation dataset. More than 100 kilometers of coastline can be surveyed easily within a 3- to 4-hour mission. When resultant elevation maps for an area are analyzed, they provide a useful tool to make management decisions regarding land development.</abstract>
+      <purpose>The purpose of this project was to produce a highly detailed and accurate digital elevation map for the Lower Neches River Corridor Unit of Big Thicket National Preserve in Texas for use as a management tool and to make these data available to natural-resource managers and research scientists. To ensure that SPCMSC data management protocols were followed, this survey was assigned a USGS field activity number (FAN), 13LTS02. Additional survey and data details are available at http://cmgds.marine.usgs.gov/fan_info.php?fan=13LTS02.</purpose>
+      <supplinf>Raw lidar data are not in a format that is generally usable by natural-resource managers and research scientists for scientific analysis. Converting dense lidar elevation data into a readily usable format without loss of essential information requires specialized processing. The U.S. Geological Survey's Coastal and Marine Geology Program (CMGP) has developed custom software to convert raw lidar data into a GIS-compatible map product to be provided to GIS specialists, managers, and scientists. The primary tool used in the conversion process is Airborne Lidar Processing System (ALPS), a multitiered processing system developed originally by a USGS-NASA collaborative project. Specialized processing algorithms are used to convert raw waveform lidar data acquired by the EAARL-B to georeferenced spot (x,y,z) returns for "first surface" and "bare earth" topography. The terms first surface and bare earth refer to the digital elevation data of the terrain, although first-surface data include vegetation, buildings, and other manmade structures, bare-earth data do not. The zero crossing of the second derivative (that is, detection of stationary points) is used to detect the first return, resulting in "first surface" topography, whereas the trailing edge algorithm (that is, the algorithm searches for the location before the last return where direction changes along the trailing edge) is used to detect the range to the last return, or "bare earth" (the first and last returns being the first and last significant measurable part of the return pulse). Statistical filtering, known as the Random Consensus Filter (RCF), is used to remove false bottom returns and other outliers from the EAARL-B topography data. The filter uses a grid of non-overlapping square cells (buffer) of user-defined size overlaid onto the original point cloud. The user also defines the vertical tolerance (vertical width) based on the topographic complexity and point-sampling density of the data. The maximum allowable elevation range within a cell is established by this vertical tolerance. An iterative process searches for the maximum concentration of points within the vertical tolerance and removes those points outside of the tolerance (Nayegandhi and others, 2009). These data are then converted to the North American Datum of 1983 and the North American Vertical Datum of 1988 (using the GEOID12A model); please note that these data are not suitable for determining absolute elevation measurements.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>20140111</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140115</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140117</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140118</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140119</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140121</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140123</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140125</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140127</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>20140129</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>elevation</themekey>
+      </theme>
+      <theme>
+        <themekt>General</themekt>
+        <themekey>Airborne Lidar Processing System</themekey>
+        <themekey>ALPS</themekey>
+        <themekey>Cessna 310</themekey>
+        <themekey>Digital Elevation Model</themekey>
+        <themekey>DEM</themekey>
+        <themekey>EAARL-B</themekey>
+        <themekey>Experimental Advanced Airborne Research Lidar</themekey>
+        <themekey>laser altimetry</themekey>
+        <themekey>lidar</themekey>
+        <themekey>remote sensing</themekey>
+        <themekey>topography</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Science Directory</themekt>
+        <themekey>LAND SURFACE &gt; TOPOGRAPHY &gt; TERRAIN ELEVATION</themekey>
+        <themekey>DOI/USGS/CMG &gt; COASTAL AND MARINE GEOLOGY, U.S. GEOLOGICAL SURVEY, U.S. DEPARTMENT OF INTERIOR</themekey>
+      </theme>
+      <theme>
+        <themekt>GCMD Instrument</themekt>
+        <themekey>LIDAR &gt; LIGHT DETECTION AND RANGING</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System</placekt>
+        <placekey>Big Thicket National Preserve</placekey>
+        <placekey>Lower Neches River Corridor Unit</placekey>
+        <placekey>Hardin County</placekey>
+        <placekey>Jasper County</placekey>
+        <placekey>Texas</placekey>
+      </place>
+      <stratum>
+        <stratkt>General</stratkt>
+        <stratkey>Bare Earth</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>General</tempkt>
+        <tempkey>2014</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. The U.S. Geological Survey requests to be acknowledged as originator of these data in future products or derivative research.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Xan Fredericks</cntper>
+          <cntorg>Cherokee Nation Technologies, U.S. Geological Survey, St. Petersburg Coastal and Marine Science Center, St. Petersburg, FL</cntorg>
+        </cntperp>
+        <cntpos>Lidar Validation and Processing Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>727 502-8086</cntvoice>
+        <cntfax>727 502-8182</cntfax>
+        <cntemail>afredericks@usgs.gov</cntemail>
+        <hours>M-F, 8:00-4:00 ET</hours>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Acknowledgment of the U.S. Geological Survey, St. Petersburg Coastal and Marine Science Center, as a data source would be appreciated in products developed from these data, and such acknowledgment as is standard for citation and legal practices for data source is expected. Sharing of new data layers developed directly from these data would also be appreciated by the U.S. Geological Survey staff. Users should be aware that comparisons with other datasets for the same area from other periods may be inaccurate because of inconsistencies resulting from changes in photointerpretation, mapping conventions, and digital processes over time. These data are not legal documents and are not to be used as such.</datacred>
+    <secinfo>
+      <secsys>Unclassified</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 7 Enterprise Service Pack 1; Esri ArcCatalog 10.2.2.3552</native>
+    <spdom>
+      <bounding>
+        <westbc>-94.14533018</westbc>
+        <eastbc>-94.06012548</eastbc>
+        <northbc>30.42174856</northbc>
+        <southbc>30.24062023</southbc>
+      </bounding>
+    </spdom>
+    <crossref>
+      <citeinfo>
+        <origin>Nayegandhi, A., Brock, J.C., and Wright, C.W.</origin>
+        <pubdate>2009</pubdate>
+        <title>Small footprint, waveform-resolving lidar estimation of submerged and subcanopy topography in coastal environments</title>
+        <serinfo>
+          <sername>International Journal of Remote Sensing</sername>
+          <issue> v. 30 no. 4, p. 861-878</issue>
+        </serinfo>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The expected accuracy of the measured variables is as follows: attitude within 0.05 degree and 3 centimeters nominal ranging accuracy. Quality checks are built into the data-processing software.</attraccr>
+    </attracc>
+    <logic>These data are located in UTM Zone 15.</logic>
+    <complete>Missing areas are represented by a "no data" value of -32,767 and are a result of the survey not covering a particular region or the manual removal of water and lidar processing artifacts.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Raw lidar measurements have been determined to be within 1 meter in horizontal accuracy.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Vertical elevation accuracies for these data are consistent with the point elevation data that typically have an RMSE of 20 centimeters or better; however, a ground-control survey was not completed simultaneously with this lidar survey. Vertical accuracies may differ based on the type of terrain and the accuracy of the GPS and aircraft-attitude measurements.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The data were collected using a Cessna 310 aircraft. The EAARL-B laser scanner collects the data using a green-wavelength (532-nanometer) raster scanning laser, while a digital camera acquires a visual record of the flight. The data are stored on hard drives and archived at the U.S. Geological Survey office in St. Petersburg, Florida. The navigational data are processed and then, along with the raw data, are downloaded into ALPS, or the Airborne Lidar Processing System (20140115-20160209). Data are converted from units of time to x,y,z points for elevation, which are then manually edited and quality checked to ensure anomalies and noise have been addressed to specification. The derived surface data are then converted into raster data (GeoTIFF), which are mosaicked using ERDAS Imagine 2014 (20160209).</procdesc>
+        <procdate>20160209</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Xan Fredericks</cntper>
+              <cntorg>Cherokee Nation Technology Solutions, U.S. Geological Survey, St. Petersburg Coastal and Marine Science Center, St. Petersburg, FL</cntorg>
+            </cntperp>
+            <cntpos>Lidar Validation and Processing Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>600 4th Street South</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33701</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>727 502-8086</cntvoice>
+            <cntemail>afredericks@usgs.gov</cntemail>
+            <hours>M-F, 8:00-4:00 ET</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported into ArcCatalog 10.2.2.3552 from XML file.</procdesc>
+        <procdate>20160406</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Xan Fredericks</cntper>
+              <cntorg>Cherokee Nation Technologies, U.S. Geological Survey, St. Petersburg Coastal and Marine Science Center, St. Petersburg, FL</cntorg>
+            </cntperp>
+            <cntpos>Lidar Validation and Processing Analyst</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>600 4th Street South</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33701</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>727 502-8086</cntvoice>
+            <cntemail>afredericks@usgs.gov</cntemail>
+            <hours>M-F, 8:00-4:00 ET</hours>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Tiling Index</indspref>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>15</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-93.000000</longcm>
+              <latprjo>0</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>2.500000</absres>
+            <ordres>2.500000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.25722210100002</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988 (GEOID12A)</altdatum>
+        <altres>0.20</altres>
+        <altunits>meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>The input parameters for the random consensus filter (RCF) were: grid cell size (buffer) = 1000 centimeters x 1000 centimeters; vertical tolerance (vertical width) = 60 centimeters. Each pixel of the encoded GeoTIFF has an explicit elevation value associated with it. The GeoTIFF grid, which is provided at a 2.5-meter horizontal resolution, is encoded with the interpolated elevation value. The GeoTIFFs are created using Delaunay triangulation, followed by linear interpolation based on the routines in the Exelis Visual Information Solutions Interactive Data Language (IDL) code. The GeoTIFFs were mosaicked using ERDAS Imagine 2014 Mosaic Pro.</eaover>
+      <eadetcit>http://pubs.usgs.gov/of/2009/1078/</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Xan Fredericks</cntper>
+        </cntorgp>
+        <cntpos>Lidar Validation and Processing Analyst, Cherokee Nation Technologies</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>727 502-8086</cntvoice>
+        <hours>M-F, 8:00-4:00 ET</hours>
+      </cntinfo>
+    </distrib>
+    <resdesc>BITH2014_LowerNechesRiverCorridorUnit_EAARLB_BE_z15_n88g12A_mosaic.tif</resdesc>
+    <distliab>Although these data have been processed successfully on a computer system at the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system, or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. The USGS shall not be held liable for improper or incorrect use of the data described or contained herein. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>GeoTIFF</formname>
+          <formspec>GeoTIFF</formspec>
+          <formvern>2</formvern>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://coastal.er.usgs.gov/data-release/doi-F75D8PXQ/data/BITH2014_LowerNechesRiverCorridorUnit_EAARLB_BE_z15_n88g12A_mosaic.tif</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+      <ordering>Contact U.S. Geological Survey.</ordering>
+      <turnarnd>Vary</turnarnd>
+    </stdorder>
+    <custom>Contact U.S. Geological Survey for details.</custom>
+  </distinfo>
+  <metainfo>
+    <metd>20160503</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Xan Fredericks</cntper>
+          <cntorg>Cherokee Nation Technologies, U.S. Geological Survey, St. Petersburg Coastal and Marine Science Center, St. Petersburg, FL</cntorg>
+        </cntperp>
+        <cntpos>Lidar Validation and Processing Analyst</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>727 502-8086</cntvoice>
+        <cntemail>afredericks@usgs.gov</cntemail>
+        <hours>M-F, 8:00-4:00 ET</hours>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mercury>
+    <begdate>20140111</begdate>
+    <enddate>20140129</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/cmgds.marine.usgs.gov_metadata_BITH2014_LowerNechesRiverCorridorUnit_EAARLB_BE_z15_n88g12A_mosaic_metadata.html</htmlurl>
+  </mercury>
+</metadata>

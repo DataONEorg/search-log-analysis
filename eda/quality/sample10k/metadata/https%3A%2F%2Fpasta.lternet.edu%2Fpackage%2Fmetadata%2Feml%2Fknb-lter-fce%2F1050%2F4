@@ -1,0 +1,860 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-fce.1050.4"
+  system="https://pasta.lternet.edu"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/eml/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=FCE,o=lter,dc=ecoinformatics,dc=org</principal>
+      <permission>read</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset id="FCE_Everglades_ClimDB_data">
+    <alternateIdentifier>FCE_Everglades_ClimDB_data</alternateIdentifier>
+    <title>NOAA Daily Surface Meteorologic Data at NCDC Everglades Station (ID-082850)(FCE), South Florida from January 1931 to Present</title>
+    <creator>
+      <organizationName>National Climatic Data Center (NCDC) NOAA</organizationName>
+      <address>
+        <deliveryPoint>National Climatic Data Center</deliveryPoint>
+        <deliveryPoint> 151 Patton Avenue</deliveryPoint>
+        <deliveryPoint> Room 468</deliveryPoint>
+        <city>Asheville</city>
+        <administrativeArea>NC</administrativeArea>
+        <postalCode>28801-5001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">828-271-4800</phone>
+      <phone phonetype="fax">828-271-4876</phone>
+      <electronicMailAddress>ncdc.orders@noaa.gov </electronicMailAddress>
+      <onlineUrl>http://www.ncdc.noaa.gov/cdo-web/</onlineUrl>
+    </creator>
+    <metadataProvider>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <electronicMailAddress>fcelter@fiu.edu  </electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu  </onlineUrl>
+    </metadataProvider>
+    <associatedParty>
+      <individualName>
+        <givenName>Linda</givenName>
+        <surName>Powell</surName>
+      </individualName>
+      <organizationName>Southeast Environmental Research Center</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>powell@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu  </onlineUrl>
+      <role>FCE LTER Information Manager</role>
+    </associatedParty>
+    <associatedParty>
+      <individualName>
+        <givenName>National Climatic Data Center (NCDC) NOAA</givenName>
+        <surName>National Climatic Data Center (NCDC) NOAA</surName>
+      </individualName>
+      <organizationName>National Climatic Data Center (NCDC) NOAA</organizationName>
+      <address>
+        <deliveryPoint>151 Patton Avenue</deliveryPoint>
+        <deliveryPoint> Room 468</deliveryPoint>
+        <city>Asheville</city>
+        <administrativeArea>NC</administrativeArea>
+        <postalCode>28801-5001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">828-271-4800</phone>
+      <phone phonetype="fax">828-271-4876</phone>
+      <electronicMailAddress>ncdc.orders@noaa.gov </electronicMailAddress>
+      <onlineUrl>http://www.ncdc.noaa.gov/cdo-web/</onlineUrl>
+      <role>Data Contributor</role>
+    </associatedParty>
+    <pubDate>2013-05-24</pubDate>
+    <abstract>
+      <para>The National Climatic Data Center's (NOAA) daily mean, maximum, and minium air temperatures and daily precipitation collected at Everglades Station (Coop ID- 082850).</para>
+    </abstract>
+    <keywordSet>
+      <keyword>FCE</keyword>
+      <keyword>Florida Coastal Everglades LTER</keyword>
+      <keyword>ecological research</keyword>
+      <keyword>long-term monitoring</keyword>
+      <keyword>South Florida</keyword>
+      <keyword>air temperature</keyword>
+      <keyword>precipitation</keyword>
+      <keyword>Florida Coastal Everglades LTER Program</keyword>
+      <keyword>climate</keyword>
+      <keyword>meteorological data</keyword>
+      <keywordThesaurus>LTER Keyword Thesaurus</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <para>These data are classified as 'Type 1' whereby data are published and metadata are available upon request without restrictions other than those set out in the 'Data Users Agreement'. These data cannot be "locked". All publications based on this dataset must cite the data Contributor, The National Climatic Data Center (NCDC)(NOAA).</para>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url>http://metacat.lternet.edu/das/dataAccessServlet?docid=knb-lter-fce.1050.4&amp;urlTail=FCE_Everglades_ClimDB_data.txt</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Data were collected Everglades Station, South Florida</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.390</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.390</eastBoundingCoordinate>
+          <northBoundingCoordinate>25.849</northBoundingCoordinate>
+          <southBoundingCoordinate>25.849</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Florida Coastal Everglades LTER Study Area: South Florida, Everglades National Park, and Florida Bay</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+          <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+          <northBoundingCoordinate>25.761</northBoundingCoordinate>
+          <southBoundingCoordinate>24.913</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1931-01-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-03-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>This is a long-term climate dataset and subsequent data will be appended. This dataset replaces all previous versions of FCE_Everglades_ClimDB_data (v1-v21).  The FCE program is discontinuing its practice of versioning data as of March 2013.</para>
+      </description>
+      <changeHistory>
+        <changeScope>Updated Records</changeScope>
+        <oldValue>Appended new data from February 2013 thru March 2013</oldValue>
+        <changeDate>2013-05-24</changeDate>
+      </changeHistory>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>National Climatic Data Center (NCDC) NOAA</organizationName>
+      <address>
+        <deliveryPoint>National Climatic Data Center</deliveryPoint>
+        <deliveryPoint> 151 Patton Avenue</deliveryPoint>
+        <deliveryPoint> Room 468</deliveryPoint>
+        <city>Asheville</city>
+        <administrativeArea>NC</administrativeArea>
+        <postalCode>28801-5001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">828-271-4800</phone>
+      <phone phonetype="fax">828-271-4876</phone>
+      <electronicMailAddress>ncdc.orders@noaa.gov </electronicMailAddress>
+      <onlineUrl>http://www.ncdc.noaa.gov/cdo-web/</onlineUrl>
+    </contact>
+    <contact>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <positionName>Information Manager</positionName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <phone phonetype="fax">305-348-4096</phone>
+      <electronicMailAddress>fcelter@fiu.edu</electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu</onlineUrl>
+    </contact>
+    <publisher>
+      <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+      <address>
+        <deliveryPoint>Florida International University</deliveryPoint>
+        <deliveryPoint> University Park</deliveryPoint>
+        <deliveryPoint> OE 148</deliveryPoint>
+        <city>Miami</city>
+        <administrativeArea>FL</administrativeArea>
+        <postalCode>33199</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">305-348-6054</phone>
+      <electronicMailAddress>fcelter@fiu.edu  </electronicMailAddress>
+      <onlineUrl>http://fcelter.fiu.edu  </onlineUrl>
+    </publisher>
+    <methods>
+      <methodStep>
+        <description>
+          <para>Climate data are downloaded from the National Climatic Data Center Web site and reformatted for use in the LTER ClimDB database (http://www.fsl.orst.edu/climdb/). Any Methods information can be found through the NCDC at http://www.ncdc.noaa.gov/cdo-web/.</para>
+        </description>
+        <instrumentation>Climate data are downloaded from the National Climatic Data Center Web site and reformatted for use in the LTER ClimDB database (http://www.fsl.orst.edu/climdb/). Any Methods information can be found through the NCDC at http://www.ncdc.noaa.gov/cdo-web/.</instrumentation>
+      </methodStep>
+      <sampling>
+        <studyExtent>
+          <description>
+            <para>The Study Extent of this dataset includes climatic data from Everglades Station, South Florida</para>
+          </description>
+        </studyExtent>
+        <samplingDescription>
+          <para>Climate data are downloaded from the National Climatic Data Center Web site and reformatted for use in the LTER ClimDB database (http://www.fsl.orst.edu/climdb/). Any Methods information can be found through the NCDC at http://www.ncdc.noaa.gov/cdo-web/.</para>
+        </samplingDescription>
+        <spatialSamplingUnits>
+          <coverage>
+            <geographicDescription>Everglades Station- COOP ID-082850</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-81.390</westBoundingCoordinate>
+              <eastBoundingCoordinate>-81.390</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.849</northBoundingCoordinate>
+              <southBoundingCoordinate>25.849</southBoundingCoordinate>
+            </boundingCoordinates>
+          </coverage>
+        </spatialSamplingUnits>
+      </sampling>
+      <qualityControl>
+        <description>
+          <para>Climate data are downloaded from the National Climatic Data Center Web site and reformatted for use in the LTER ClimDB database (http://www.fsl.orst.edu/climdb/). Any Quality Control information can be found through the NCDC at http://www.ncdc.noaa.gov/cdo-web/. The FCE LTER Information Manager reviews data for conversion accuracies.</para>
+        </description>
+      </qualityControl>
+    </methods>
+    <project id="1">
+      <title>Florida Coastal Everglades LTER: Coastal Oligotrophic Ecosystems Research-the Coastal Everglades</title>
+      <personnel>
+        <individualName>
+          <givenName>Daniel</givenName>
+          <surName>Childers</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-3101</phone>
+        <phone phonetype="fax">305-348-1986</phone>
+        <electronicMailAddress>childers@fiu.edu</electronicMailAddress>
+        <role>Lead Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Joseph</givenName>
+          <surName>Boyer</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Southeast Environmental Research Center</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint> University Park</deliveryPoint>
+          <deliveryPoint> OE 148</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-4076</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>James</givenName>
+          <surName>Fourqurean</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-4084</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Rudolf</givenName>
+          <surName>Jaffe</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Chemistry</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>CP 304</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-2456</phone>
+        <phone phonetype="fax">305-348-4096</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <personnel>
+        <individualName>
+          <givenName>Joel</givenName>
+          <surName>Trexler</surName>
+        </individualName>
+        <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+        <address>
+          <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+          <deliveryPoint>Florida International University</deliveryPoint>
+          <deliveryPoint>University Park</deliveryPoint>
+          <deliveryPoint>OE 167</deliveryPoint>
+          <city>Miami</city>
+          <administrativeArea>FL</administrativeArea>
+          <postalCode>33199</postalCode>
+          <country>USA</country>
+        </address>
+        <phone phonetype="voice">305-348-1966</phone>
+        <phone phonetype="fax">305-348-1986</phone>
+        <role>Principal Investigator</role>
+      </personnel>
+      <abstract>
+        <para>We are investigating how variability in regional climate, freshwater inputs, disturbance, and perturbations affect the coastal Everglades ecosystem. Our long term research program focuses on testing the following central idea and hypotheses:  Regional processes mediated by water flow control population and ecosystem level dynamics at any location within the coastal Everglades landscape. This phenomenon is best exemplified in the dynamics of an estuarine oligohaline zone where fresh water draining phosphorus-limited Everglades marshes mixes with water from the more nitrogen-limited coastal ocean. Hypothesis 1: In nutrient-poor coastal systems, long-term changes in the quantity or quality of organic matter inputs will exert strong and direct controls on estuarine productivity, because inorganic nutrients are at such low levels. Hypothesis 2: Interannual and long-term changes in freshwater flow controls the magnitude of nutrients and organic matter inputs to the estuarine zone, while ecological processes in the freshwater marsh and coastal ocean control the quality and characteristics of those inputs. Hypothesis 3: Long-term changes in freshwater flow (primarily manifest through management and Everglades restoration) will interact with long-term changes in the climatic and disturbance (sea level rise, hurricanes, fires) regimes to modify ecological pattern and process across coastal landscapes.</para>
+      </abstract>
+      <funding>
+        <para>National Science Foundation under Grant # 9910514</para>
+      </funding>
+      <studyAreaDescription>
+        <coverage>
+          <geographicCoverage>
+            <geographicDescription>The FCE LTER Project Study area is located in South Florida, mostly in Everglades National Park. There are a total of 21 sampling sites located in two major regions: 1) Shark River Slough and 2) Taylor Slough/Panhandle.</geographicDescription>
+            <boundingCoordinates>
+              <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+              <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+              <northBoundingCoordinate>25.761</northBoundingCoordinate>
+              <southBoundingCoordinate>24.913</southBoundingCoordinate>
+            </boundingCoordinates>
+          </geographicCoverage>
+          <temporalCoverage>
+            <rangeOfDates>
+              <beginDate>
+                <calendarDate>2000-05-01</calendarDate>
+              </beginDate>
+              <endDate>
+                <calendarDate> 2006-04-30</calendarDate>
+              </endDate>
+            </rangeOfDates>
+          </temporalCoverage>
+        </coverage>
+      </studyAreaDescription>
+      <relatedProject id="26">
+        <title>FCE LTER II:  Coastal Oligotrophic Ecosystems Research</title>
+        <personnel>
+          <individualName>
+            <givenName>Evelyn </givenName>
+            <surName>Gaiser</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> OE 148</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-6145</phone>
+          <phone phonetype="fax">305-348-4096</phone>
+          <electronicMailAddress>gaisere@fiu.edu</electronicMailAddress>
+          <role>Lead Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Mike</givenName>
+            <surName>Heithaus</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Biological Sciences</deliveryPoint>
+            <deliveryPoint>Marine Biology Program</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>Biscayne Bay Campus</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL </administrativeArea>
+            <postalCode>33181</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">(305) 919-5234</phone>
+          <phone phonetype="fax">(305) 919-4030</phone>
+          <electronicMailAddress>heithaus@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Rudolf</givenName>
+            <surName>Jaffe</surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Chemistry</deliveryPoint>
+            <deliveryPoint>Florida International University</deliveryPoint>
+            <deliveryPoint>University Park</deliveryPoint>
+            <deliveryPoint>CP 304</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-2456</phone>
+          <phone phonetype="fax">305-348-4096</phone>
+          <electronicMailAddress>jaffer@fiu.edu </electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Rene</givenName>
+            <surName>Price </surName>
+          </individualName>
+          <organizationName>Florida Coastal Everglades LTER Program</organizationName>
+          <address>
+            <deliveryPoint>Department of Earth Sciences</deliveryPoint>
+            <deliveryPoint> Florida International University</deliveryPoint>
+            <deliveryPoint> University Park</deliveryPoint>
+            <deliveryPoint> PC 344</deliveryPoint>
+            <deliveryPoint> 11200 SW 8th Street</deliveryPoint>
+            <city>Miami</city>
+            <administrativeArea>FL</administrativeArea>
+            <postalCode>33199</postalCode>
+            <country>USA</country>
+          </address>
+          <phone phonetype="voice">305-348-3119</phone>
+          <phone phonetype="fax">305-348-3877</phone>
+          <electronicMailAddress>pricer@fiu.edu</electronicMailAddress>
+          <role>Principal Investigator</role>
+        </personnel>
+        <abstract>
+          <para>Our FCE I research focused on understanding how dissolved organic matter from upstream oligotrophic marshes interacts with a marine source of phosphorus (P), the limiting nutrient, to control estuarine productivity where these two influences meet-in the oligohaline ecotone. This dynamic is affected by the interaction of local ecological processes and landscape-scale drivers (hydrologic, climatological, and human). During FCE I, our ideas about how these "upside-down" estuaries (Childers et al. 2006) function has evolved, and we have modified our central theme to reflect this new understanding. Our focus in FCE II will be even more strongly on the oligohaline ecotone region of our experimental transects. For FCE II, our overarching theme is:  In the coastal Everglades landscape, population and ecosystem-level dynamics are controlled by the relative importance of water source, water residence time, and local biotic processes. This phenomenon is best exemplified in the oligohaline ecotone, where these 3 factors interact most strongly and vary over many [temporal and spatial] scales.Hypothesis 1: Increasing inputs of fresh water will enhance oligotrophy in nutrient-poor coastal systems, as long as the inflowing water has low nutrient content; this dynamic will be most pronounced in the oligohaline ecotone.  Hypothesis 2: An increase in freshwater inflow will increase the physical transport of detrital organic matter to the oligohaline ecotone, which will enhance estuarine productivity. The quality of these allochthonous detrital inputs will be controlled by upstream ecological processes. Hypothesis 3: Water residence time, groundwater inputs, and tidal energy interact with climatic and disturbance regimes to modify ecological pattern and process in oligotrophic estuaries; this dynamic will be most pronounced in the oligohaline ecotone. Childers, D.L., J.N. Boyer, S.E. Davis, C.J. Madden, D.T. Rudnick, and F.H. Sklar, 2006. Relating precipitation and water management to nutrient concentration patterns in the oligotrophic "upside down" estuaries of the Florida Everglades. Limnology and Oceanography, 51(1): 602-616. </para>
+        </abstract>
+        <funding>
+          <para>National Science Foundation under Grant # 9910514 and #0620409</para>
+        </funding>
+        <studyAreaDescription>
+          <coverage>
+            <geographicCoverage>
+              <geographicDescription>The FCE LTER Project Study area is located in South Florida, mostly in Everglades National Park. There are a total of 20 sampling sites located in two major regions: 1) Shark River Slough and 2) Taylor Slough/Panhandle.</geographicDescription>
+              <boundingCoordinates>
+                <westBoundingCoordinate>-81.078</westBoundingCoordinate>
+                <eastBoundingCoordinate>-80.490</eastBoundingCoordinate>
+                <northBoundingCoordinate>25.761</northBoundingCoordinate>
+                <southBoundingCoordinate>24.913</southBoundingCoordinate>
+              </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+              <rangeOfDates>
+                <beginDate>
+                  <calendarDate>2006-12-01</calendarDate>
+                </beginDate>
+                <endDate>
+                  <calendarDate>2012-12-01</calendarDate>
+                </endDate>
+              </rangeOfDates>
+            </temporalCoverage>
+          </coverage>
+        </studyAreaDescription>
+      </relatedProject>
+    </project>
+    <dataTable>
+      <entityName>FCE_Everglades_ClimDB_data</entityName>
+      <entityDescription>NOAA Daily Surface Meteorologic Data at NCDC Everglades Station (FCE), South Florida</entityDescription>
+      <physical>
+        <objectName>FCE_Everglades_ClimDB_data</objectName>
+        <size unit="MB">1.30</size>
+        <characterEncoding>ASCII</characterEncoding>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-fce/1050/4/d0958039e45bfbfbefcdba44c0e21267</url>
+          </online>
+          <access authSystem="https://pasta.lternet.edu/authentication"
+            order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+            <allow>
+              <principal>uid=FCE,o=lter,dc=ecoinformatics,dc=org</principal>
+              <permission>read</permission>
+            </allow>
+            <allow>
+              <principal>public</principal>
+              <permission>read</permission>
+            </allow>
+          </access>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="att.1">
+          <attributeName>LTER_Site</attributeName>
+          <attributeLabel>sitename</attributeLabel>
+          <attributeDefinition>LTER Site Acronym</attributeDefinition>
+          <storageType>text</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>LTER Site Acronym</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.2">
+          <attributeName>Station</attributeName>
+          <attributeLabel>sitename</attributeLabel>
+          <attributeDefinition>Name of Coop Weather Station (National Weather Service)</attributeDefinition>
+          <storageType>text</storageType>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of Coop Weather Station (National Weather Service)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.3">
+          <attributeName>Date</attributeName>
+          <attributeLabel>date</attributeLabel>
+          <attributeDefinition>Collection date</attributeDefinition>
+          <storageType>datetime</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYYMMDD</formatString>
+              <dateTimePrecision>1</dateTimePrecision>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">1931-01-01</minimum>
+                  <maximum exclusive="false">2013-03-31</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.4">
+          <attributeName>Daily_AirTemp_Mean_C</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>Mean Daily Air Temperature</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>9999</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.5">
+          <attributeName>Flag_Daily_AirTemp_Mean_C</attributeName>
+          <attributeLabel>data flag</attributeLabel>
+          <attributeDefinition>Mean Air Temperature Data Flag</attributeDefinition>
+          <storageType>text </storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>TRACE</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> A</code>
+                    <definition>Accumulated amount since last measure</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> B</code>
+                    <definition>Accumulated amount includes estimated values</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> S</code>
+                    <definition>Included in a subsequent value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Preliminary Value, not been QA/QC</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> M</code>
+                    <definition>Missing Data</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.6">
+          <attributeName>Daily_AirTemp_AbsMax_C</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>Absolute Max Daily Air Temperature</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>9999</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.7">
+          <attributeName>Flag_Daily_AirTemp_AbsMax_C</attributeName>
+          <attributeLabel>data flag</attributeLabel>
+          <attributeDefinition>Absolute Max Air Temperature Data Flag</attributeDefinition>
+          <storageType>text </storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>TRACE</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> A</code>
+                    <definition>Accumulated amount since last measure</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> B</code>
+                    <definition>Accumulated amount includes estimated values</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> S</code>
+                    <definition>Included in a subsequent value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Preliminary Value, not been QA/QC</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> M</code>
+                    <definition>Missing Data</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.8">
+          <attributeName>Daily_AirTemp_AbsMin_C</attributeName>
+          <attributeLabel>temperature</attributeLabel>
+          <attributeDefinition>Absolute Min Daily Air Temperature</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>9999</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.9">
+          <attributeName>Flag_Daily_AirTemp_AbsMin_C</attributeName>
+          <attributeLabel>data flag</attributeLabel>
+          <attributeDefinition>Absolute Min Air Temperature Data Flag</attributeDefinition>
+          <storageType>text </storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>TRACE</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> A</code>
+                    <definition>Accumulated amount since last measure</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> B</code>
+                    <definition>Accumulated amount includes estimated values</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> S</code>
+                    <definition>Included in a subsequent value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Preliminary Value, not been QA/QC</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> M</code>
+                    <definition>Missing Data</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="att.10">
+          <attributeName>Daily_Precip_Total_mm</attributeName>
+          <attributeLabel>precipitation</attributeLabel>
+          <attributeDefinition>Daily Precipitation</attributeDefinition>
+          <storageType>data</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <precision>0.01</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>9999.00</code>
+            <codeExplanation>Value will never be recorded </codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="att.11">
+          <attributeName>Flag_Daily_Precip_Total_mm</attributeName>
+          <attributeLabel>data flag</attributeLabel>
+          <attributeDefinition>Daily Precipitation Data Flag</attributeDefinition>
+          <storageType>text </storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>T</code>
+                    <definition>TRACE</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> A</code>
+                    <definition>Accumulated amount since last measure</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> B</code>
+                    <definition>Accumulated amount includes estimated values</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> S</code>
+                    <definition>Included in a subsequent value</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> Q</code>
+                    <definition>Preliminary Value, not been QA/QC</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code> M</code>
+                    <definition>Missing Data</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>29098</numberOfRecords>
+    </dataTable>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <additionalDataset>
+        <researchType>Climate</researchType>
+        <DatasetDistributionTypeandRestrictions>Type 1</DatasetDistributionTypeandRestrictions>
+        <addDistribution>
+          <submissionDate>2013-05-23</submissionDate>
+        </addDistribution>
+        <datasetAnomolies>
+          <anomolies>'Please Note:  There may be some TIME GAPS in the data originally downloaded from the NCDC website at http://www.ncdc.noaa.gov/cdo-web/. The missing GAP data were NOT added into the data file by the FCE Information Manager and then tagged as 'Missing'. Those data values included in the data file tagged as 'Missing' were included in the original download from the NCDC.</anomolies>
+        </datasetAnomolies>
+        <datasetSubmissionNotes>
+          <notes>The Data Flag Codes are described as T=TRACE, A=Accumulated amount since last measure, B=Accumulated amount includes estimated values, S=Included in a subsequent value, Q=Preliminary Value, not been QA/QC and M=Missing Data. Weather Station Information:
+Station Name: Everglades 
+FL, United States
+Call Sign/ICS : 
+WBAN : 
+COOP ID : 082850 
+Climate Division : FL-05 - Everglades &amp; SW Coast 
+WMO ID : 
+In Service : 01 Jan 1931 to Present 
+Elevation: 1.5m (4.9') above s/l 
+Lat/Lon : 25 degrees 51'N / 81 degrees 23'W 
+County: Collier 
+Lat (DD): +25.8489
+Lon (DD): -81.3896</notes>
+        </datasetSubmissionNotes>
+        <datasetInfoManagementNotes>
+          <notes>Please Note:  There may be some TIME GAPS in the data originally downloaded from the NCDC website at http://www.ncdc.noaa.gov/cdo-web/. The missing GAP data were NOT added into the data file by the FCE Information Manager and then tagged as 'Missing'. Those data values included in the data file tagged as 'Missing' were included in the original download from the NCDC. The station had an inactive period from April 15, 2005 to August 23, 2005.  The FCE Information Manager (May 2013) converted original air temperatures from tenths of degrees C to Degrees C. Converted original precipitation from tenths of mm to mm.</notes>
+        </datasetInfoManagementNotes>
+      </additionalDataset>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

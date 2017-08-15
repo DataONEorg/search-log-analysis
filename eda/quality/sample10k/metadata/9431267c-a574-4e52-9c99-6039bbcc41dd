@@ -1,0 +1,1883 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>US Geological Survey, Western Ecological Research Center</origin>
+                <origin>Humboldt State University</origin>
+                <origin>Takekawa, J.Y.</origin>
+                <origin>Perry, W.M.</origin>
+                <origin>Adams, Josh</origin>
+                <origin>Felis, J.J.</origin>
+                <origin>Williams, L.L.</origin>
+                <origin>Yee, J.L.</origin>
+                <origin>Orthmeyer, D.L.</origin>
+                <origin>Mason, J.W.</origin>
+                <origin>McChesney, G.J.</origin>
+                <origin>McIver, W.R.</origin>
+                <origin>Carter, H.R.</origin>
+                <origin>Golightly, R.T.</origin>
+                <pubdate>20170329</pubdate>
+                <title>Bird density and marine mammal counts based on 7700 meter bins in southern California, 1999-2002</title>
+                <geoform>Vector Digital Data Set (Polygon)</geoform>
+                <onlink>http://doi.org/10.5066/F7PK0D9P</onlink>
+                <lworkcit>
+                    <citeinfo>
+                        <origin>Mason, J.W.</origin>
+                        <origin>McChesney, G.J.</origin>
+                        <origin>McIver, W.R.</origin>
+                        <origin>Carter, H.R.</origin>
+                        <origin>Takekawa, J.Y.</origin>
+                        <origin>Golightly, R.T.</origin>
+                        <origin>Ackerman, J.T.</origin>
+                        <origin>Orthmeyer, D.L.</origin>
+                        <origin>Perry, W.M.</origin>
+                        <origin>Yee, J.L.</origin>
+                        <origin>Pierson, M.O.</origin>
+                        <origin>McCrary, M.D.</origin>
+                        <pubdate>2007</pubdate>
+                        <title>At-sea distribution and abundance of seabirds off southern California: a 20-year comparison.</title>
+                        <geoform>Book</geoform>
+                        <serinfo>
+                            <sername>Studies in Avian Biology</sername>
+                            <issue>33:1-101</issue>
+                        </serinfo>
+                        <pubinfo>
+                            <pubplace>Chicago, IL</pubplace>
+                            <publish>American Ornithological Society</publish>
+                        </pubinfo>
+                    </citeinfo>
+                </lworkcit>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>Tracklines and associated observations were mapped and analyzed using ArcMap (ESRI, Redlands, CA). GPS data were recorded in NAD27 map datum and projected to an USGS Albers Equal Area Conic map projection for presentation and subsequent density analyses. Concatenated GPS and observation data were then used to generate point and line coverages in ArcMap (ESRI, Redlands, CA). We designed a custom analytic tool using ArcMap Model Builder that allows for the construction and export of user-specified and effort-adjusted spatial binning of species observations along continuous trackines. For the purposes of this report, we calculated seabird density estimates and marine mammal counts along continuous 3.0-kilometer and 7.7-kilometer trackline segments (i.e., 3.0 kilometer and 7.7 kilometer bins). Therefore, marine bird densities (at 3-kilometer scale, for example) are based on a composite strip area ranging from 0.15 per kilometer squared (one observer on effort) to 0.30 per kilometer squared (two observers on effort). We made no effort to adjust densities such that they would be proportional to variations in the area of buffered transect strip bin (i.e., weighted offset variable). These data are associated with the following publication: Mason, J.W., McChesney, G.J., McIver, W.R., Carter, H.R., Takekawa, J.Y., Golightly, R.T., Ackerman, J.T., Orthmeyer, D.L., Perry, W.M., Yee, J.L. and Pierson, M.O. 2007. At-sea distribution and abundance of seabirds off southern California: a 20-Year comparison. Cooper Ornithological Society, Studies in Avian Biology Vol. 33.   References- ESRI. ArcGIS Desktop: Release 10. Redlands, CA: Environmental Systems Research Institute. </abstract>
+            <purpose>Two primary objectives for the initial collection of these data were to (1) conduct aerial at-sea surveys of seabirds and marine mammals in shelf and slope waters off southern California to quantify species and seasonal at-sea densities and (2) conduct a comparison with existing, similar survey datasets off southern California. The purpose of this data release is to provide re-processed versions of these survey data by calculating marine bird densities and mammal counts using user-specified and effort-adjusted spatial binning of species observations along continuous tracklines.</purpose>
+            <supplinf>Seabird densities were calculated in 3-kilometer and 7.7-kilometer segment bins using a custom ArcGIS tool. Once the general outline of the process was determined, we proceeded to string all of the necessary geoprocessing tasks together in the ArcGIS 10.3 version of ModelBuilder. We divided the tasks needed to process our survey data into three logical steps to outline the GIS workflow: 1. Create a new geodatabase and store the flight track and species observation tabular data inside of it. 2. Create the spatial features associated with the survey (GPS points, flight track lines) and polygon bins based on user-defined segment length and established strip-widths based on observer effort. This tool accepts the survey GPS geodatabase tables saved in Step 1 as its primary data input. The tool generates the coordinate locations along the flight path, preserving the order in which the coordinates were recorded. It then generates the track lines and splits them into bin-length segments designated by the user. The segments are buffered into individual polygon bins where the buffer distance of each bin is based on a user-defined view distance (e.g., strip-width) and the number of observers that were recorded across that segment. The number of observers can fluctuate from 0-2 along the path due to changes in environmental conditions (glare or fog), resulting in a maximum strip-width for these data, of 100 meters (i.e., 50-meters per side of aircraft). To provide more flexibility to study scenarios and allow for other project data inputs, we included parameters to define bin length, view distance, and input/output coordinate system information (including geographic transformations). 3. Calculate the bird densities and sum mammal counts for each bin from the observation data and embed that information in the feature class. Once the survey bins have been created, they are used as an input along with the actual species observation data to calculate bird densities and mammal counts for each bin. This is done for all species included in the observation table.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <rngdates>
+                    <begdate>19990508</begdate>
+                    <enddate>20020120</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-122.08147938</westbc>
+                <eastbc>-117.117116683</eastbc>
+                <northbc>36.331635637</northbc>
+                <southbc>31.768018215</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>seabird</themekey>
+                <themekey>marine mammals</themekey>
+                <themekey>California Current System</themekey>
+                <themekey>Marine Bird</themekey>
+                <themekey>At-sea suvey</themekey>
+            </theme>
+            <place>
+                <placekt>None</placekt>
+                <placekey>southern California</placekey>
+                <placekey>southern California Bight</placekey>
+                <placekey>Channel Islands</placekey>
+            </place>
+        </keywords>
+        <accconst>This is public data; no constraints to access of data.</accconst>
+        <useconst>The authors of these data (USGS and HSU) require that data users contact them regarding intended use and to assist with understanding limitations and interpretation. Unless otherwise stated, all data, metadata, and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntperp>
+                    <cntper>Josh Adams</cntper>
+                    <cntorg>U.S. Geological Survey, Western Ecological Research Center</cntorg>
+                </cntperp>
+                <cntpos>Research Biologist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing address</addrtype>
+                    <address>2885 Mission Street</address>
+                    <city>Santa Cruz</city>
+                    <state>CA</state>
+                    <postal>95060</postal>
+                </cntaddr>
+                <cntvoice>831-460-7566</cntvoice>
+                <cntfax>831-427-4748</cntfax>
+                <cntemail>josh_adams@usgs.gov</cntemail>
+                <hours>8-5</hours>
+            </cntinfo>
+        </ptcontac>
+        <datacred>U.S. Geological Survey Western Ecological Research Center and Humboldt State University, Arcata, CA. Extensive fieldwork in 1999-2002 was conducted jointly by the U.S. Geological Survey (Western Ecological Research Center, Vallejo and Dixon, California; Principal Investigators J.Y. Takekawa and D.L. Orthmeyer) and Humboldt State University (Department of Wildlife, Arcata, California; Principal Investigators R.T. Golightly and H.R. Carter; Project Leader: G.J. McChesney).  Major contributions to fieldwork were made by J.  Mason and W.  McIver.  Significant contributions to data analyses were made by W.  Perry, J.  Yee, J.  Adams, and J. Ackerman. Major project cooperators included Minerals Management Service (M. Pierson, M. McCrary) and the U.S. Navy (S. Schwartz, T. Keeney), and California Department of Fish and Game (P. Kelly, E. Burkett).</datacred>
+        <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1 (Build 4959) Service Pack N/A (Build N/A)</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Data set was visually inspected to make sure all survey track, bin and observation data appeared spatially correct. Value ranges for all fields were inspected to confirm that values fell within reasonable ranges. Random survey bins were inspected to check that densities and counts were calculated correctly.</attraccr>
+        </attracc>
+        <logic>Following each survey, transect points were plotted using ArcGIS and checked for GPS errors or missing data.</logic>
+        <complete>Nothing was excluded.</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>Transect points were captured using a Garmin 12 + GPS. Positional accuracy assumed to be within 100 meters.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <procstep>
+                <procdesc>Survey methods (1999-2002): Broad survey lines, island radial survey lines, coastal survey lines, and focal-area (Santa Barbara Channel) survey lines were surveyed during each oceanographic season: spring (May), fall (September), and winter (January) during 1999 (May and September), 2000 (January, May, September), 2001 (January May, September), and 2002 (January). Aerial survey methods follow Mason et al. (2007). Specifically, we recorded all sightings of marine animals, vessels, and floating objects from twin-engine, high wing aircraft (Partenavia P-68s, Aspen Helicopters, Oxnard, CA, or California Department of Fish and Game) along pre-determined 100-m (50 m per side) strip transects at 60 m above sea level. Surveys were flown at 160 kilometers per hour, and we used a Global Positioning System (GPS) unit linked to a laptop computer that allowed us to simultaneously collect coordinates (NAD-27 map datum), sea surface temperature (SST, degrees Celcius [°C]) determined via a belly-mounted, digital infrared radiation pyrometer [Heitronics™ KT19.85; measurement interval = 1 s, response time = 3 ms, emissivity = 0.99]). SST values were appended to GPS flight data based on date and time. During individual surveys, observers frequently verified 50-m strip widths using hand-held clinometers. Observations generally were discontinued when glare exceeded greater than 25% of the field-of-view or if sea state exceeded Beaufort 5 (29–38 kilometers per hour wind speed). Observations were recorded into hand-held audio recorders. The third (non-dedicated) observer assisted the pilot with navigation, monitored sensor data, and maintained the onboard computer. Observations of species or individuals identified to nearest taxon included number of individuals, time, pre-coded behaviors, flight direction, and interspecies or vessel associations. Digital recordings of observations were archived and used by observers after surveys to enter data into a customized Graphical User Interface. Observation data were proofed after transcription to ensure accuracy or to resolve inconsistencies. Species observations were linked with GPS-based tracklines generated at 5 s intervals. Based on variations in the lag-time between sightings and recordings, we estimate that observations have a nominal along-trackline spatial accuracy of 222 m, based on a five-second lag at 160 kilometers per hour survey speed.</procdesc>
+                <procdate>19990508</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Density estimation (2010-2011): Tracklines and associated observations were mapped and analyzed using ArcMap (ESRI, Redlands, CA). GPS data were recorded in NAD-27 map datum and projected to an USGS Albers Equal Area Conic map projection for presentation and subsequent density analyses. Concatenated GPS and observation data were then used to generate point and line coverages in ArcMap (ESRI, Redlands, CA). We designed a custom analytic tool using ArcMap Model Builder that allows for the construction and export of user-specified and effort-adjusted spatial binning of species observations along continuous trackines. For the purposes of this report, we calculated bird density estimates and mammal counts along continuous 3.0-kilometer and 7.7-kilometer trackline segments (i.e., 3.0 kilometer and 7.7 kilometer bins). Therefore, bird densities (at 3-kilometer scale, for example) are based on a composite strip area ranging from 0.15 per kilometer squared (one observer on effort) to 0.30 per kilometer squared (two observers on effort). We made no effort to adjust densities such that they would be proportional to variations in the area of buffered transect strip bin (i.e., weighted offset variable).</procdesc>
+                <procdate>20100601</procdate>
+            </procstep>
+        </lineage>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <sdtsterm>
+                <sdtstype>G-polygon</sdtstype>
+                <ptvctcnt>7651</ptvctcnt>
+            </sdtsterm>
+        </ptvctinf>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <planar>
+                <mapproj>
+                    <mapprojn>USA Contiguous Albers Equal Area Conic USGS version (ESRI Full Name: USA_Contiguous_Albers_Equal_Area_Conic_USGS_version)</mapprojn>
+                    <albers>
+                        <stdparll>29.5</stdparll>
+                        <stdparll>45.5</stdparll>
+                        <longcm>-96.0</longcm>
+                        <latprjo>23.0</latprjo>
+                        <feast>0.0</feast>
+                        <fnorth>0.0</fnorth>
+                    </albers>
+                </mapproj>
+                <planci>
+                    <plance>coordinate pair</plance>
+                    <coordrep>
+                        <absres>0.6096</absres>
+                        <ordres>0.6096</ordres>
+                    </coordrep>
+                    <plandu>Meter</plandu>
+                </planci>
+            </planar>
+            <geodetic>
+                <horizdn>D_North_American_1983</horizdn>
+                <ellips>GRS_1980</ellips>
+                <semiaxis>6378137.0</semiaxis>
+                <denflat>298.257222101</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
+    <eainfo>
+        <detailed>
+            <enttyp>
+                <enttypl>Attribute Table</enttypl>
+                <enttypd>Table containing attribute information associated with the data set.</enttypd>
+                <enttypds>Producer defined</enttypds>
+            </enttyp>
+            <attr>
+                <attrlabl>NewID</attrlabl>
+                <attrdef>Unique transect ID</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <udom>Unknown</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BinID</attrlabl>
+                <attrdef>Unique BinID in which bird densities and mammal counts are calculated</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <udom>Unknown</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Cent_LON</attrlabl>
+                <attrdef>Central longitude of the polygon BIN</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>-121.999073262</rdommin>
+                        <rdommax>-117.129057061</rdommax>
+                        <attrunit>Degrees</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Cent_LAT</attrlabl>
+                <attrdef>Central latitude of the polygon BIN</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>32.448953873</rdommin>
+                        <rdommax>35.579910709</rdommax>
+                        <attrunit>Degrees</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MEAN_SST</attrlabl>
+                <attrdef>Mean sea surface temperature measured in bin. Values of "-9999" represent No Data</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>-9999</rdommin>
+                        <rdommax>20.7558823529</rdommax>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DAY_</attrlabl>
+                <attrdef>Day of survey in local time zone. All Dates and Times are in Pacific Daylight Savings Time (UTC-7) for data collected in May and September and Pacific Standard Time (UTC-8) for data collected in January.</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>5</rdommin>
+                        <rdommax>30</rdommax>
+                        <attrunit>day of the month</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MONTH_</attrlabl>
+                <attrdef>Month of survey in local time zone. All Dates and Times are in Pacific Daylight Savings Time (UTC-7) for data collected in May and September and Pacific Standard Time (UTC-8) for data collected in January.</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>1</rdommin>
+                        <rdommax>9</rdommax>
+                        <attrunit>month</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>YEAR_</attrlabl>
+                <attrdef>Year of survey in local time zone. All Dates and Times are in Pacific Daylight Savings Time (UTC-7) for data collected in May and September and Pacific Standard Time (UTC-8) for data collected in January.</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>1999</rdommin>
+                        <rdommax>2002</rdommax>
+                        <attrunit>year</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOUR_</attrlabl>
+                <attrdef>Hour that bin was surveyed in local time zone. All Dates and Times are in Pacific Daylight Savings Time (UTC-7) for data collected in May and September and Pacific Standard Time (UTC-8) for data collected in January.</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>7</rdommin>
+                        <rdommax>18</rdommax>
+                        <attrunit>hour</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MIN_</attrlabl>
+                <attrdef>Minute that bin was surveyed in local time zone. All Dates and Times are in Pacific Daylight Savings Time (UTC-7) for data collected in May and September and Pacific Standard Time (UTC-8) for data collected in January.</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>59</rdommax>
+                        <attrunit>minute</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Bin_Area</attrlabl>
+                <attrdef>Area of bin segment in square kilometers</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0.000667163550324</rdommin>
+                        <rdommax>0.770050668837</rdommax>
+                        <attrunit>square kilometers</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Bin_Length</attrlabl>
+                <attrdef>Length of bin segment in meters</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>6.88595538014</rdommin>
+                        <rdommax>7700.00011969</rdommax>
+                        <attrunit>meters</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ABOY</attrlabl>
+                <attrdef>Density of Black Oystercatcher (Haematopus bachmani)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3.89649417252</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ASSP</attrlabl>
+                <attrdef>Density of Ashy Storm-Petrel (Oceanodroma homochroa)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>15.5844467552</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BFAL</attrlabl>
+                <attrdef>Density of Black-footed Albatross (Phoebastria nigripes)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.59744480325</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BLKI</attrlabl>
+                <attrdef>Density of Black-legged Kittiwake (Rissa tridactyla)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>38.9611360975</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BLSP</attrlabl>
+                <attrdef>Density of Black Storm-Petrel (Oceanodroma melania)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>6.49352533871</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BLTU</attrlabl>
+                <attrdef>Density of Black Turnstone (Arenaria melanocephala)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>6.49386783999</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BOGU</attrlabl>
+                <attrdef>Density of Bonaparte's Gull (Larus Philadelphia)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>101.642542576</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BRAN</attrlabl>
+                <attrdef>Density of Brant (Branta bernicla)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>15.5846918367</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BRCO</attrlabl>
+                <attrdef>Density of Brandt's Cormorant (Phalacrocorax penicillatus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>92.2115146834</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BRPE</attrlabl>
+                <attrdef>Density of Brown Pelican (Pelecanus occidentalis)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1025.93568103</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BUSH</attrlabl>
+                <attrdef>Density of Buller's Shearwater (Puffinus bulleri)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>19.4805630909</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>BVSH</attrlabl>
+                <attrdef>Density of Black-vented Shearwater (Puffinus opisthomelas)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>150.650043621</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CAAU</attrlabl>
+                <attrdef>Density of Cassin's Auklet (Ptychoramphus aleuticus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>384.420285498</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CAEG</attrlabl>
+                <attrdef>Density of Cattle Egret (Bubulcus ibis)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1.29871098989</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CAGU</attrlabl>
+                <attrdef>Desnity of California Gull (Larus californicus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2116.90453918</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CATE</attrlabl>
+                <attrdef>Density of Caspian Tern (Sterna caspia)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>28.5716137407</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>CMTE</attrlabl>
+                <attrdef>Density of Common Tern (Sterna hirundo)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>75.1309520595</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COLO</attrlabl>
+                <attrdef>Density of Common Loon (Gavia immer)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>19.5479312132</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>COMU</attrlabl>
+                <attrdef>Density of Common Murre (Uria aalge)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>54.0416320695</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>DCCO</attrlabl>
+                <attrdef>Density of Double-crested Cormorant (Phalacrocorax auritus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>51.9482209369</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ELTE</attrlabl>
+                <attrdef>Density of Elegant Tern (Sterna elegans)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>33.7664822072</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ERTE</attrlabl>
+                <attrdef>Density of Elegant/Royal Tern (Sterna elegans or S. maxima)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>202.603092315</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>FOTE</attrlabl>
+                <attrdef>Density of Forster's Tern (Sterna forsteri)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>34.9677889489</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GBHE</attrlabl>
+                <attrdef>Density of Great Blue Heron (Ardea herodias)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.59749742955</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GLGU</attrlabl>
+                <attrdef>Density of Glaucous Gull (Larus hyperboreus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.59744192127</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GREG</attrlabl>
+                <attrdef>Density of Great Egret (Ardea alba)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>7.79222675561</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>GWGU</attrlabl>
+                <attrdef>Density of Glaucous-winged Gull (Larus glaucescens)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>7.79235547818</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HEEG</attrlabl>
+                <attrdef>Density of Heermann's Gull (Larus heermanni)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>354.955543186</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HEGU</attrlabl>
+                <attrdef>Density of Herring Gull (Larus argentatus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3.89615434815</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>HOGR</attrlabl>
+                <attrdef>Density of Horned Grebe (Podiceps auritus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.73465820147</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LAAL</attrlabl>
+                <attrdef>Density of Laysan Albatross (Phoebastria immutabilis)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>5.19486933286</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LETE</attrlabl>
+                <attrdef>Density of Least Tern (Sterna antillarum)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>36.3642675761</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LHSP</attrlabl>
+                <attrdef>Density of Leach's Storm-Petrel (Oceanodroma leucorhoa)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>13.8471603813</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>LTJA</attrlabl>
+                <attrdef>Denisty of Long-tailed Jaeger (Stercorarius longicaudus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1.29873247706</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MAGO</attrlabl>
+                <attrdef>Density of Marbled Godwit (Limosa fedoa)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>10.389813698</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MEGU</attrlabl>
+                <attrdef>Density of Mew Gull (Larus canus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>12.9872376945</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>NOFU</attrlabl>
+                <attrdef>Density of Northern Fulmar (Fulmarus glacialis)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>19.4805573342</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>OSPR</attrlabl>
+                <attrdef>Density of Osprey (Pandion haliaetus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.59745182606</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PAJA</attrlabl>
+                <attrdef>Density of Parasitic Jaeger (Stercorarius parasiticus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.59746531452</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PALO</attrlabl>
+                <attrdef>Density of Pacific Loon (Gavia pacifica)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>202.724266501</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PBGR</attrlabl>
+                <attrdef>Density of Pied-billed Grebe (Podilymbus podiceps)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1.29870928686</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PECO</attrlabl>
+                <attrdef>Density of Pelagic Cormorant (Phalacrocorax pelagicus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>6.04478847691</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PEFA</attrlabl>
+                <attrdef>Density of Peregrine Falcon (Falco peregrinus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.5974060455</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PFSH</attrlabl>
+                <attrdef>Density of Pink-footed Shearwater (Puffinus creatopus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>214.285990261</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>PIGU</attrlabl>
+                <attrdef>Density of Pigeon Guillemot (Cepphus columba)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>25.9747857165</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>POJA</attrlabl>
+                <attrdef>Density of Pomarine Jaeger (Stercorarius pomarinus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>8.11718449673</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RBGU</attrlabl>
+                <attrdef>Density of Ring-billed Gull (Larus delawarensis)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>20.7796101967</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RBME</attrlabl>
+                <attrdef>Density of Red-breasted Merganser (Mergus serrator)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>6.49356161678</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RBTR</attrlabl>
+                <attrdef>Density of Red-billed Tropicbird (Phaethon aethereus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1.29872312512</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>REPH</attrlabl>
+                <attrdef>Density of Red Phalarope (Phalaropus fulicarius)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>415.592277116</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RHAU</attrlabl>
+                <attrdef>Density of Rhinoceros Auklet (Cerorhinca monocerata)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>27.6662797699</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RNPH</attrlabl>
+                <attrdef>Density of Red-necked Phalarope (Phalaropus lobatus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>228.485453278</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RODO</attrlabl>
+                <attrdef>Density of Rock Dove (Columba livia)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.20779527372</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ROTE</attrlabl>
+                <attrdef>Density of Royal Tern (Sterna maxima)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>6.49461699802</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>RTLO</attrlabl>
+                <attrdef>Density of Red-throated Loon (Gavia stellata)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>6.4935272406</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SAGU</attrlabl>
+                <attrdef>Density of Sabine's Gull - (Xema sabini)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>28.5716937295</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SNEG</attrlabl>
+                <attrdef>Density of Snowy Egret (Egretta thula)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3.89623396499</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SOSH</attrlabl>
+                <attrdef>Density of Sooty Shearwater (Puffinus griseus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>8247.03825193</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SPSK</attrlabl>
+                <attrdef>Density of South Polar Skua (Stercorarius maccormicki)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.59741476595</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>SUSC</attrlabl>
+                <attrdef>Density of Surf Scoter (Melanitta perspicillata)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>677.933917488</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UDIV</attrlabl>
+                <attrdef>Density of Unidentified diver</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>9.09112927662</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNAL</attrlabl>
+                <attrdef>Density of Unidentified albatross</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>5.19488605285</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNCO</attrlabl>
+                <attrdef>Density of Unidentified cormorant</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>344.043942091</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNCU</attrlabl>
+                <attrdef>Density of Unidentified curlew spp. (e.g. whimbrel or long-billed)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3.89611930504</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNDD</attrlabl>
+                <attrdef>Density of Unidentified diving duck</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1.33690079289</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNEG</attrlabl>
+                <attrdef>Density of Unidentified egret</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3.08007704775</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNGU</attrlabl>
+                <attrdef>Density of Unidentified gull</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>43.5165520229</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNJA</attrlabl>
+                <attrdef>Density of Unidentified Jaeger spp.</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>10.1940373949</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNLA</attrlabl>
+                <attrdef>Density of Unidentified Lariidae includes gulls and terns</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>12.7244773606</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNLG</attrlabl>
+                <attrdef>Density of Unidentified large gull (e.g., Western Gull, Herring Gull)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>200.261144375</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNLO</attrlabl>
+                <attrdef>Density of Unidentified loon spp.</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>227.276268951</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNLT</attrlabl>
+                <attrdef>Density of Unidentified large tern (e.g., Caspian Tern, Elegant Tern)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>8.7491579025</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNLW</attrlabl>
+                <attrdef>Density of Unidentified large wader</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1.2987463704</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNMG</attrlabl>
+                <attrdef>Density of Unidentified medium gull (e.g., California Gull)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>5.19497906003</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNMT</attrlabl>
+                <attrdef>Density of Unidentified medium tern</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3.95426399881</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNMU</attrlabl>
+                <attrdef>Density of Unidentified murrelet spp.</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>17.3947595192</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNMW</attrlabl>
+                <attrdef>Density of Unidentified medium wader</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>5.19483151415</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNPH</attrlabl>
+                <attrdef>Density of Unidentified phalarope  (Phalaropus fulicarius/P. lobatus)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>622.198580921</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNPR</attrlabl>
+                <attrdef>Density of Unidentified Procellariidae</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2.59744190245</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNSA</attrlabl>
+                <attrdef>Density of Unidentified small Alcidae (e.g. murrelet spp., Cassin’s Auklet)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>9.09094392966</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNSB</attrlabl>
+                <attrdef>Density of Unidentified seabird</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>51.9481808707</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNSG</attrlabl>
+                <attrdef>Density of Unidentified small gull (e.g., Bonaparte’s Gull, Sabine’s Gull)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>64.9354714081</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNSH</attrlabl>
+                <attrdef>Density of Unidentified shearwater spp.</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>401.070251926</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNSP</attrlabl>
+                <attrdef>Density of Unidentified storm-petrel spp.</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>10.3897027124</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNST</attrlabl>
+                <attrdef>Density of Unidentified small tern (e.g., Least Tern, Forster’s Tern)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>15.4003852388</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNSW</attrlabl>
+                <attrdef>Density of Unidentified small wader</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3252.45715202</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNTE</attrlabl>
+                <attrdef>Density of Unidentified tern</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>11.68866192</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>UNTR</attrlabl>
+                <attrdef>Density of Unidentified tropicbird</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1.29875805794</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>USCR</attrlabl>
+                <attrdef>Density of Unidentified scoter</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>38.961271254</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>USDV</attrlabl>
+                <attrdef>Density of Unidentified small diver</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>5.19494916674</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>USGR</attrlabl>
+                <attrdef>Density of Unidentified small grebe (e.g., Pied-bill Grebe, Eared Grebe)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>97.4072537246</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WEGR</attrlabl>
+                <attrdef>Density of Western/Clark’s Grebe  (Aechmophorus occidentalis/A. clarkii)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1809.38245822</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WEGU</attrlabl>
+                <attrdef>Density of Western Gull (Larus occidentalis)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1771.44014386</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WHIM</attrlabl>
+                <attrdef>Density of Whimbrel (Numenius phaeopus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>51.9481463985</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WILL</attrlabl>
+                <attrdef>Density of Willet (Tringa semipalmata)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3.89625125779</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>WWSC</attrlabl>
+                <attrdef>Density of White winged Scoter (Melanitta deglandi)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>5.19485015464</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>XAMU</attrlabl>
+                <attrdef>Density of Xantus's Murrelet (Synthliboramphus hypoleuca)</attrdef>
+                <attrdefs>USGS</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>33.7662950874</rdommax>
+                        <attrunit>birds per kilometer squared</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMBA</attrlabl>
+                <attrdef>Count of Minke Whale (Balaenoptera acutorostrata)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMBM</attrlabl>
+                <attrdef>Count of Blue Whale (Balaenoptera musculus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMBP</attrlabl>
+                <attrdef>Count of Fin Whale (Balaenoptera physalus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>4</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMCU</attrlabl>
+                <attrdef>Count of Northern Fur Seal (Callorhinus ursinus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMDD</attrlabl>
+                <attrdef>Count of Long and Short Beaked Common Dolphin (Delphinus delphis/D. capensis)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>490</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMEL</attrlabl>
+                <attrdef>Count of Sea Otter (Enhydra lutris)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>13</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMER</attrlabl>
+                <attrdef>Count of Grey Whale (Eschrichtius robustus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>6</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMGG</attrlabl>
+                <attrdef>Count of Risso's Dolphin (Grampus griseus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>87</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMLB</attrlabl>
+                <attrdef>Count of Northern Right Whale Dolphin (Lissodelphis borealis)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>47</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMLO</attrlabl>
+                <attrdef>Count of Pacific white-sided Dolphin (Lagenorhynchus obliquidens)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>60</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMMA</attrlabl>
+                <attrdef>Count of Northern Elephant Seal (Mirounga angustirostris)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>52</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMMN</attrlabl>
+                <attrdef>Count of Humpback Whale (Megaptera novaeangliae)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMOO</attrlabl>
+                <attrdef>Count of Killer Whale (Orcinus orca)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>2</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMPD</attrlabl>
+                <attrdef>Count of Dall's Porpoise (Phocoenoides dalli)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>7</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMPV</attrlabl>
+                <attrdef>Count of Harbor Seal (Phoca vitulina)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>16</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMTT</attrlabl>
+                <attrdef>Count of Bottlenose Dolphin (Tursiops truncatus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>23</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMUD</attrlabl>
+                <attrdef>Count of Unidentified Dolphin</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>60</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMUN</attrlabl>
+                <attrdef>Count of Unidentified Marine Mammal</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>4</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMUO</attrlabl>
+                <attrdef>Count of Unidentified Otariid</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>3</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMUP</attrlabl>
+                <attrdef>Count of Unidentified Pinniped</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>51</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMUS</attrlabl>
+                <attrdef>Count of Unidentified Seal</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMUW</attrlabl>
+                <attrdef>Count of Unidentified Whale</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMUZ</attrlabl>
+                <attrdef>Count of Unidentified Ziphiid</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>1</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>MMZC</attrlabl>
+                <attrdef>Count of California Sea Lion (Zalophus californianus)</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>150</rdommax>
+                        <attrunit>number of individuals</attrunit>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Leng</attrlabl>
+                <attrdef>Unknown</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>126.686596456</rdommin>
+                        <rdommax>15978.8103101</rdommax>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>Shape_Area</attrlabl>
+                <attrdef>Unknown</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>667.163550324</rdommin>
+                        <rdommax>770050.668837</rdommax>
+                    </rdom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>M_Beaufort</attrlabl>
+                <attrdef>Mean Beaufort sea state in the BIN, rounded to an integer value.</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>0</rdommin>
+                        <rdommax>9</rdommax>
+                    </rdom>
+                </attrdomv>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+            <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>U.S. Geological Survey - ScienceBase</cntorg>
+                </cntorgp>
+                <cntaddr>
+                    <addrtype>Mailing</addrtype>
+                    <address>Denver Federal Center</address>
+                    <address>Building 810</address>
+                    <address>Mail Stop 302</address>
+                    <city>Denver</city>
+                    <state>CO</state>
+                    <postal>80225</postal>
+                </cntaddr>
+                <cntvoice>1-888-275-8747</cntvoice>
+                <cntemail>sciencebase@usgs.gov</cntemail>
+            </cntinfo>
+        </distrib>
+        <resdesc>Downloadable Data</resdesc>
+        <distliab>Unless otherwise stated, all data, metadata and related materials are considered to satisfy the quality standards relative to the purpose for which the data were collected. Although these data and associated metadata have been reviewed for accuracy and completeness and approved for release by the U.S. Geological Survey (USGS), no warranty expressed or implied is made regarding the display or utility of the data on any other system or for general or scientific purposes, nor shall the act of distribution constitute any such warranty. Any use of trade, firm, or product names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Vector Digital Data Set (Polygon)</formname>
+                    <transize>3.758</transize>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://doi.org/10.5066/F7PK0D9P</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None. No fees are applicable for obtaining the data set.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20170223</metd>
+        <metc>
+            <cntinfo>
+                <cntperp>
+                    <cntper>William M Perry</cntper>
+                    <cntorg>U.S. Geological Survey, Western Ecological Research Center</cntorg>
+                </cntperp>
+                <cntpos>IT Specialist</cntpos>
+                <cntaddr>
+                    <addrtype>mailing address</addrtype>
+                    <address>800 Business Park Drive</address>
+                    <city>Dixon</city>
+                    <state>CA</state>
+                    <postal>95620</postal>
+                </cntaddr>
+                <cntvoice>530-669-5067</cntvoice>
+                <cntfax>707-678-5039</cntfax>
+                <cntemail>wmperry@usgs.gov</cntemail>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+    </metainfo>
+</metadata>

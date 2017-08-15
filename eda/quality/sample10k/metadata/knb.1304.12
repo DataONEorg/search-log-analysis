@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml
+      packageId="knb.1304.12" system="knb"
+      xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1"
+      xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+      xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+<!-- Person who filled in the catalog entry form:   -->
+<!-- Form filled out at Tue May  9 19:49:00 2017 GMT -->
+<access authSystem="knb" order="allowFirst">
+<allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>http://orcid.org/0000-0002-1329-8702</principal><permission>all</permission>
+</allow>
+<allow>
+  <principal>public</principal><permission>read</permission>
+</allow>
+</access>
+<dataset>
+<title>Bd_Isolates</title>
+<creator id="1943080856423682">
+<individualName>
+<givenName>Andrew</givenName>
+<surName>Rothstein</surName>
+</individualName>
+<organizationName>UC Berkeley</organizationName>
+<address><city>Berkeley</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>94703</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>andrew.rothstein@berkeley.edu</electronicMailAddress>
+</creator>
+<metadataProvider id="7571629985208972">
+<individualName>
+<givenName>Andrew</givenName>
+<surName>Rothstein</surName>
+</individualName>
+<organizationName>UC Berkeley</organizationName>
+<address><city>Berkeley</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>94703</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>andrew.rothstein@berkeley.edu</electronicMailAddress>
+</metadataProvider>
+<associatedParty id="3389587614071572">
+<individualName>
+<givenName>Allie</givenName>
+<surName>Byrne</surName>
+</individualName>
+<organizationName>UC Berkeley</organizationName>
+<address><city>Berkeley</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>94703</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>allison.q.byrne@gmail.com</electronicMailAddress>
+<role>principalInvestigator</role>
+</associatedParty>
+<pubDate>2017-05-09</pubDate>
+<abstract>
+<para>Isoalte sequences for Fluidigm assay</para>
+</abstract>
+<intellectualRights>
+<para>no restrictions</para>
+</intellectualRights>
+<distribution>
+<offline>
+<mediumName>digital </mediumName>
+</offline>
+</distribution>
+<coverage>
+<temporalCoverage>
+<singleDateTime>
+<calendarDate>2017</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+<geographicCoverage>
+<geographicDescription>Global</geographicDescription>
+<boundingCoordinates>
+<westBoundingCoordinate>-122.2581</westBoundingCoordinate>
+<eastBoundingCoordinate>-122.2581</eastBoundingCoordinate>
+<northBoundingCoordinate>37.8717</northBoundingCoordinate>
+<southBoundingCoordinate>37.8717</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+<contact id="8309415740395210">
+<individualName>
+<givenName>Andrew</givenName>
+<surName>Rothstein</surName>
+</individualName>
+<organizationName>UC Berkeley</organizationName>
+<address><city>Berkeley</city>
+<administrativeArea>California</administrativeArea>
+<postalCode>94703</postalCode>
+<country>USA</country>
+</address>
+<electronicMailAddress>andrew.rothstein@berkeley.edu</electronicMailAddress>
+</contact>
+<otherEntity id="7aac0cdd328b8a9b0c6dd8b513e976ed87cad0bc001" scope="document">
+            <entityName>swabs_fasta.zip</entityName>
+            <physical scope="document">
+                <objectName>swabs_fasta.zip</objectName>
+                <size>156678</size>
+                <authentication method="SHA1">7aac0cdd328b8a9b0c6dd8b513e976ed87cad0bc</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>application/zip</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="7aac0cdd328b8a9b0c6dd8b513e976ed87cad0bc002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1311.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0002-1329-8702</principal><permission>all</permission>
+</allow>
+
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+<otherEntity id="f0282c90e7ae657b281cc80387a84d64ef11b776001" scope="document">
+            <entityName>isolate_fasta.zip</entityName>
+            <physical scope="document">
+                <objectName>isolate_fasta.zip</objectName>
+                <size>252659</size>
+                <authentication method="SHA1">f0282c90e7ae657b281cc80387a84d64ef11b776</authentication>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>application/zip</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution id="f0282c90e7ae657b281cc80387a84d64ef11b776002" scope="document">
+                    <online>
+                        <url function="download">ecogrid://knb/knb.1305.1</url>
+                    </online>
+                    
+                <access authSystem="knb" order="allowFirst">
+                    <allow>
+  <principal>uid=knbadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal><permission>all</permission>
+</allow>
+
+                    <allow>
+  <principal>http://orcid.org/0000-0002-1329-8702</principal><permission>all</permission>
+</allow>
+
+                    <deny>
+                        <principal>public</principal>
+                        <permission>read</permission>
+                    </deny>
+                </access>
+    
+                </distribution>
+            </physical>
+            <entityType>Other</entityType>
+    </otherEntity>
+</dataset>
+</eml:eml>

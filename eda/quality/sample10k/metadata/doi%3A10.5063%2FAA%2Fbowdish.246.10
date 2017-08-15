@@ -1,0 +1,900 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="bowdish.246.10" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>Human cultural Diversity - A Cross-national data set</title>
+ <creator id="1154128085515" scope="document"> <individualName> <givenName>Michael E.</givenName>
+ <surName>Hochberg</surName>
+ </individualName>
+ <organizationName>University of California, Santa Barbara</organizationName>
+ <electronicMailAddress>hochberg@nceas.ucsb.edu</electronicMailAddress>
+ </creator>
+ <creator id="1154130303781" scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator id="1154129615843" scope="document"> <individualName> <givenName>Howard</givenName>
+ <surName>Cornell</surName>
+ </individualName>
+ <organizationName>University of California, Davis</organizationName>
+ <electronicMailAddress>hvcornell@ucdavis.edu</electronicMailAddress>
+ </creator>
+ <creator id="1154129532500" scope="document"> <individualName> <givenName>Daniel</givenName>
+ <surName>Nettle</surName>
+ </individualName>
+ <organizationName>University of Newcastle</organizationName>
+ <electronicMailAddress>daniel.nettle@ncl.ac.uk</electronicMailAddress>
+ </creator>
+ <creator id="1154130370609" scope="document"> <organizationName>NCEAS 6640: Hochberg: HumanSocialBehavior</organizationName>
+ </creator>
+ <creator id="1154129657453" scope="document"> <individualName> <givenName>Jean-Fran&#231;ois</givenName>
+ <surName>Gu&#233;gan</surName>
+ </individualName>
+ <organizationName>IRD, Montpellier, France</organizationName>
+ <electronicMailAddress>guegan@mpl.ird.fr</electronicMailAddress>
+ </creator>
+ <creator id="1154129588359" scope="document"> <individualName> <givenName>Marc</givenName>
+ <surName>Choisy</surName>
+ </individualName>
+ <organizationName>Centre National de la Recherche Scientifique (CNRS)</organizationName>
+ <electronicMailAddress>choisy@mpl.ird.fr</electronicMailAddress>
+ </creator>
+ <abstract> <para>A cross-national data set of 21 variables was assembled for 212 countries from three sources (Barro and Lee 1994; Gordon 2005; CIA World Fact Book 2005). Our data set includes several proxy measures for national wealth, cultural diversity, social instability (both at national and international levels), and demography. Separate diversity measures were calculated for three different cultural domains, namely language, religion and ethnic groups . In addition, wealth variables (per capita GDP, and GINI, the coefficient of income inequality) were assembled, along with indicators of societal functioning drawn from the literature (especially Barro and Lee 1994), including indices of political rights (PRIGHTSB), revolutions and coups d&apos;&#233;tats (REVCOUP), and political instability (PINSTAB). Measures of international conflict were extracted from the social science literature, and the following were used: the proportion of the time between 1960-85 the country was involved in an external war (WARTIME), the number of international disputes in which the country was involved (TOTINTDISP), and an index of total military expenditure (TOTMILITEXP). Possible confounding variables such as population size (POPSIZE) and the number of international borders (NBINTBORDERS) were also included.</para>
+ </abstract>
+ <keywordSet> <keyword>Community Structure</keyword>
+ <keyword>Social Behavior</keyword>
+ <keyword>Language</keyword>
+ <keyword>Religion</keyword>
+ <keyword>Ethnic groups</keyword>
+ </keywordSet>
+ <additionalInfo> <para>These data sets were used to compile the data set:
+
+Barro, R. J. &amp; Lee, J-W. (1994). Data set for a panel of 138 countries. http://www.nber.org/pub/barro.lee/readme.txt;
+
+CIA World Fact Book. (2005). CIA World Fact Book. Washington, DC: Central Intelligence Agency;
+
+Gordon, R. G., Jr. (ed.) (2005) Ethnologue: Languages of the World, Fifteenth edition. Dallas: SIL International. Online version: http://www.ethnologue.com/.</para>
+ </additionalInfo>
+ <intellectualRights> <para>Use of this data requires the express written permission of Michael E. Hochberg or Daniel Nettle.</para>
+ </intellectualRights>
+ <coverage scope="document"> <taxonomicCoverage scope="document"> <taxonomicClassification> <taxonRankName>Genus</taxonRankName>
+ <taxonRankValue>Homo</taxonRankValue>
+ <taxonomicClassification> <taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Homo sapiens</taxonRankValue>
+ <commonName>human</commonName>
+ </taxonomicClassification>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact scope="document"> <references>1154128085515</references>
+ </contact>
+<methods><methodStep><description><section><title>Alpha diversity indices</title>
+<para>For the purposes of this study alpha diversity is the cultural diversity within a country. Past studies have measured cultural diversity as simply the number of cultural groups either corrected or uncorrected for the area under consideration, or the proportion of the population falling into the largest group. In ecological terms, the former would be a richness measure, and the latter a measure of dominance. While these measures have been revealing, there are several more sophisticated indices of diversity that may be more appropriate. These can be found in most basic ecology textbooks, and they take into account not only the number of species in the assemblage but also their relative abundance. Two such indices that are commonly used are Simpson&apos;s D and Shannon&apos;s H&apos;. Simpson&apos;s D is calculated by first determining the proportion pi of the total number of individuals in the assemblage represented by each species i. These values are next squared and summed over all species, S to obtain (please see attached jpg named Simpson&apos;s D).</para>
+<para>The quanity D is simply the probability that two individuals chosen at random from the assemblage represent two different species. As diversity increases, D decreases, so the index is usually presented as 1 -D and it is what we will consider in our study. Shannon&apos;s H&apos; is an index borrowed from information theory. Like Simpson&apos;s D, H&apos; requires knowledge of pi. The quantity pi is multiplied by its natural logarithm and then summed over all species, thus (please see attached jpg name Shannon&apos;s H&apos;).</para>
+<para>In our analyses, we calculated both Simpson&apos;s 1-D and Shannon&apos;s H&apos;, to examine the effects of choice of measure on the conclusions reached. We did the calculations for ethnicity and religion (ETHNSIMPS and RELIGSIMPS variables). Language diversity (LANGSIMPS) was calculated from a different source (Gordon 2005), and only for the Simpson Index. Variables ETHNSIMPS and ETHNSHAN are highly correlated (r = 0.99, t = 76.66, df = 157, p &lt; 0.001) and gave the same results in the analyses. This is also the case for RELIGSIMPS and RELIGSHAN (r = 0.99, t = 77.48, df = 174, p &lt; 0.001) and we therefore present results for Simpson&apos;s indices only.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Beta diversity indices</title>
+<para>Ecology also has indices that measure the dissimilarity in species composition between two samples or assemblages (called &#946; diversity). To our knowledge, these have never been used in social science despite the fact that such measures may also be useful to social scientists in evaluating regional cultural similarity and how this relates to the degree of external conflict among societies or nation-states. Of these indices, the two most commonly used are based on Jaccard&apos;s and Sorenson&apos;s coefficients of similarity. Jaccard&apos;s coefficient is calculated as PS = a/(a + b + c) x 100  (please see attached jpg titled Jaccard&apos;s coefficient), where PS is the percentage similarity between assemblages, a is the number of species shared by the assemblages, b is the number of species in the first assemblage and c is the number in the second assemblage. The index ranges from 0% when no species are shared to 100% when the compositions of the assemblages are identical. As beta diversity increases, PS decreases, thus, in the analyses, we employ 1-PS.</para>
+<para>Sorenson&apos;s coefficient is calculated as PS = 2a/(b+c) x 100 (please see attached jpg tilted Sorenson&apos;s coefficient) and also ranges from 0 - 100%. We calculated Jaccard&apos;s and Sorenson&apos;s 1-PS indices for linguistics, ethnics and religions. However, without additional assumptions, these &#946; (beta) diversity indices could not be calculated for islands (which do not have contiguous neighbors), and the dataset consequently was reduced to 143 countries. As observed for the two alpha diversity indices, the two &#946; (beta) diversity indices are highly correlated and gave the same results in the analyses: JACLANG/SORLANG : r = 0.99, t = 95.49, df = 146, p &lt; 0.001; JACETHN/SORETHN : r = 0.99, t = 82.58, df = 141, p &lt; 0.001; JACREL/SORREL : r = 0.99, t = 81.08, df = 142, p &lt; 0.001. We therefore only present results for Jaccard&apos;s index.</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<access authSystem="knb" order="denyFirst" scope="document"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+   <dataTable id="1154536404593" scope="document"> <entityName>Simpson_ D</entityName>
+ <entityDescription>Simpson&apos;s D is calculated by first determining the proportion pi of the total number of individuals in the assemblage represented by each species i. These values are next squared and summed over all species, S to obtain .. see jpg</entityDescription>
+ <physical scope="document"> <objectName>Simpson_D.jpg</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>jpg graphic file</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.247.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1154536404609" scope="document"> <attributeName>Simpson_D</attributeName>
+ <attributeDefinition>jpg graphic of the Simpson D equation used in this data set</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>jpg file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1154536863781" scope="document"> <entityName>Shannon_H</entityName>
+ <entityDescription>Shannon&apos;s H&apos; is an index borrowed from information theory. Like Simpson&apos;s D, H&apos; requires knowledge of pi. The quantity pi is multiplied by its natural logarithm and then summed over all species, thus..see jpg</entityDescription>
+ <physical scope="document"> <objectName>Shannon_H.jpg</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>jpg graphic file</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.248.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1154536863796" scope="document"> <attributeName>Shanon_H</attributeName>
+ <attributeDefinition>jpg graphic file</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>jpg graphic</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1154537073000" scope="document"> <entityName>Jaccard_coefficient</entityName>
+ <entityDescription>Jaccard&apos;s coefficient is calculated as (see jpg file) where PS is the percentage similarity between assemblages, a is the number of species shared by the assemblages, b is the number of species in the first assemblage and c is the number in the second assemblage.</entityDescription>
+ <physical scope="document"> <objectName>Jaccard_coefficient.jpg</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>jpg</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.249.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1154537073015" scope="document"> <attributeName>Jaccard_coefficient</attributeName>
+ <attributeDefinition>jpg graphic</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>jpg graphic file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1154537822421" scope="document"> <entityName>Sorenson_coefficient</entityName>
+ <entityDescription>Sorenson&apos;s coefficient is calculated as (see jpg file)  and also ranges from 0-100%.</entityDescription>
+ <physical scope="document"> <objectName>Sorenson_coefficient.jpg</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>jpg graphic</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.250.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1154537822437" scope="document"> <attributeName>Sorenson_coefficient</attributeName>
+ <attributeLabel>Sorenson&apos;s coefficient</attributeLabel>
+ <attributeDefinition>jpg graphic file</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>jpg graphic file</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1155940739152" scope="document"> <entityName>Dataset.txt</entityName>
+ <entityDescription>Human cultural Diversity - A Cross-national data set</entityDescription>
+ <physical id="1155940737480" scope="document"> <objectName>Dataset.txt</objectName>
+ <size unit="byte">63581</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/bowdish.253.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1155940739168" scope="document"> <attributeName>Country Name</attributeName>
+ <attributeDefinition>Country Name</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155940739183" scope="document"> <attributeName>EnvIntAgr</attributeName>
+ <attributeDefinition>Environment international agreements</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155940739199" scope="document"> <attributeName>OrgInstPart</attributeName>
+ <attributeDefinition>International organization participation</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155940739215" scope="document"> <attributeName>PolParties</attributeName>
+ <attributeDefinition>Political parties and leaders</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155940739230" scope="document"> <attributeName>Murders</attributeName>
+ <attributeDefinition>murders / 1,000 people  NA for not information available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739246" scope="document"> <attributeName>TotCrime</attributeName>
+ <attributeDefinition>Total Crime, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739262" scope="document"> <attributeName>GDP</attributeName>
+ <attributeDefinition>Gross domestic product in billions, NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.00</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739277" scope="document"> <attributeName>GDP2</attributeName>
+ <attributeDefinition>same as GDP 2, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155940739293" scope="document"> <attributeName>Gini</attributeName>
+ <attributeDefinition>Distribution of family income - Gini index, This index measures the degree of inequality in the distribution of family income in a country. The index is calculated from the Lorenz curve, in which cumulative family income is plotted against the number of families arranged from the poorest to the richest.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739308" scope="document"> <attributeName>Gini2</attributeName>
+ <attributeDefinition>Gini 2, NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739324" scope="document"> <attributeName>PInstab</attributeName>
+ <attributeLabel>Political Instability</attributeLabel>
+ <attributeDefinition>Political Instability, NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739340" scope="document"> <attributeName>WarTime</attributeName>
+ <attributeDefinition>Measures of international conflict were extracted from the social science literature, and the following were used: the proportion of the time between 1960-85 the country was involved in an external war. NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739355" scope="document"> <attributeName>PRightsB</attributeName>
+ <attributeLabel>Political Rights</attributeLabel>
+ <attributeDefinition>Political Rights (Barro and Lee), NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739371" scope="document"> <attributeName>CivLib</attributeName>
+ <attributeLabel>Civil Liberties</attributeLabel>
+ <attributeDefinition>Civil Liberties</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739387" scope="document"> <attributeName>RevCoup</attributeName>
+ <attributeDefinition>Revolutions and coups d&apos; &#233;tats, NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739402" scope="document"> <attributeName>SWB</attributeName>
+ <attributeLabel>Subjective well-being</attributeLabel>
+ <attributeDefinition>Subjective well-being, NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739418" scope="document"> <attributeName>Trust</attributeName>
+ <attributeDefinition>Trust, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739433" scope="document"> <attributeName>LangSR</attributeName>
+ <attributeDefinition>Language Species Richness, total number of languages, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739449" scope="document"> <attributeName>LangSR/area</attributeName>
+ <attributeDefinition>Language Species Richness per unit area, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739465" scope="document"> <attributeName>LangSimps</attributeName>
+ <attributeDefinition>Language,  Simpson&apos;s, probability that two randomly sampled individuals will speak the same language</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739480" scope="document"> <attributeName>ArmedConfl</attributeName>
+ <attributeDefinition>Armed Conflict, NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739496" scope="document"> <attributeName>TotMilitExp</attributeName>
+ <attributeDefinition>Total Military Expenditures</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739512" scope="document"> <attributeName>TotMilitExp2</attributeName>
+ <attributeDefinition>Total Military Expenditures 2, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739527" scope="document"> <attributeName>TotMiliExp3</attributeName>
+ <attributeDefinition>Total Military Expenditures 3, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739543" scope="document"> <attributeName>TotMilitExp4</attributeName>
+ <attributeDefinition>Total Military Expenditures 4, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739558" scope="document"> <attributeName>NatlEthnRisk</attributeName>
+ <attributeDefinition>National budget, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739574" scope="document"> <attributeName>EconOrgPart</attributeName>
+ <attributeDefinition>EconOrgPart</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739590" scope="document"> <attributeName>UNOrgPart</attributeName>
+ <attributeDefinition>UNOrgPart</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739605" scope="document"> <attributeName>TotIntDisp</attributeName>
+ <attributeDefinition>The number of international disputes in which the country was involved. NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739621" scope="document"> <attributeName>Area</attributeName>
+ <attributeDefinition>Area</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739637" scope="document"> <attributeName>Area2</attributeName>
+ <attributeDefinition>Area2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739652" scope="document"> <attributeName>NatlBudg</attributeName>
+ <attributeDefinition>National budget, NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739668" scope="document"> <attributeName>Latitude</attributeName>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739683" scope="document"> <attributeName>PubExpStud</attributeName>
+ <attributeDefinition>PubExpStud</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739699" scope="document"> <attributeName>ReligSimps</attributeName>
+ <attributeDefinition>Religion (Simpson), Probability that two randomly sampled individuals will have the same religion,
+NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739715" scope="document"> <attributeName>ReligShan</attributeName>
+ <attributeDefinition>Religion (Shannon), Shannon&apos;s index of diversity measured in bits of information, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739730" scope="document"> <attributeName>ReligSR</attributeName>
+ <attributeDefinition>Religion Species Richness, total number of religions, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739746" scope="document"> <attributeName>ReligSR/area</attributeName>
+ <attributeDefinition>Religion Species Richness per unit area, NA = Not Available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739762" scope="document"> <attributeName>EthnSR</attributeName>
+ <attributeDefinition>Ethnic Species Richness, total number of ethnic groups, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739777" scope="document"> <attributeName>EthnSR/area</attributeName>
+ <attributeDefinition>Ethnic Species Richness per unit area, total number of ethnic groups per unit area, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739793" scope="document"> <attributeName>EthnSimps</attributeName>
+ <attributeDefinition>Ethnicity (Simpson), Probability that two randomly sampled individuals will have the same ethnicity,  NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739808" scope="document"> <attributeName>EthnShan</attributeName>
+ <attributeDefinition>Ethnicity (Shannon), Shannon&apos;s index of diversity measured in bits of information, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739824" scope="document"> <attributeName>DivEthn</attributeName>
+ <attributeDefinition>Diversity Ethnicity, NA = Not Available, see methods for more information</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739840" scope="document"> <attributeName>JacEthn</attributeName>
+ <attributeDefinition>Jaccard&apos;s Ethnicity, degree of ethnic similarity of two countries measured in probability units (0-1), NA = Not available, see methods for more information</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739855" scope="document"> <attributeName>SorEthn</attributeName>
+ <attributeDefinition>Sorenson&apos;s Ethnicity, degree of ethnic similarity of two countries measured in probability units (0-1), NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739871" scope="document"> <attributeName>DivRel</attributeName>
+ <attributeDefinition>Diversity Religion, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739887" scope="document"> <attributeName>JacRel</attributeName>
+ <attributeDefinition>Jaccard&apos;s Religion, degree of religious similarity of two countries measured in probability units (0-1), NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739902" scope="document"> <attributeName>SorRel</attributeName>
+ <attributeDefinition>Sorenson&apos;s Religion, degree of religious similarity of two countries measured in probability units (0-1), NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739918" scope="document"> <attributeName>JacLang</attributeName>
+ <attributeDefinition>Jaccard&apos;s Language, degree of language similarity of two countries measured in probability units (0-1), 
+NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739933" scope="document"> <attributeName>SorLang</attributeName>
+ <attributeDefinition>Sorenson&apos;s Language, degree of language similarity of two countries measured in probability units (0-1), NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739949" scope="document"> <attributeName>NbIntBorders</attributeName>
+ <attributeDefinition>Number of International Borders</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739965" scope="document"> <attributeName>CPI</attributeName>
+ <attributeDefinition>Consumer Price Index, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940739980" scope="document"> <attributeName>PopSize</attributeName>
+ <attributeDefinition>Population size</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155940739996" scope="document"> <attributeName>PopSize2</attributeName>
+ <attributeDefinition>Population size 2</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1155940740012" scope="document"> <attributeName>Poverty</attributeName>
+ <attributeDefinition>Poverty, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1155940740027" scope="document"> <attributeName>Migration</attributeName>
+ <attributeDefinition>Migration, NA = Not available</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode> <code>NA</code>
+ <codeExplanation>Not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>214</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

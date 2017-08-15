@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/sd_mdsnst_thk.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Rick Clawges, U.S. Geological Survey</origin>
+        <pubdate>2000</pubdate>
+        <title>Saturated thickness of the Madison aquifer, Black Hills, South Dakota.</title>
+        <edition>(Version 1.0, January 3, 2001)</edition>
+        <geoform>digital map</geoform>
+        <serinfo>
+          <sername>NA</sername>
+          <issue>NA</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Rapid City, South Dakota</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?sd_mdsnst_thk</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set is a polygon coverage created in ARC/INFO that
+represents the saturated thickness of the Madison aquifer, which
+includes the entire thickness of the Madison Limestone and
+Englewood Formation in the Black Hills area, South Dakota.  The
+unconfined zone of the Madison aquifer is the area where the
+potentiometric surface of the aquifer is below the top of the
+formation.  The elevation of the top of the potentiometric
+surface of the Madison aquifer was subtracted from the top of the
+Madison  Limestone, and the boundary of the unconfined zone
+was created where the calculation results equalled zero.
+The saturated thickness of the aquifer in the unconfined zone
+was determined by subtracting the elevation of the top of the
+Deadwood Formation from the potentiometric surface elevation of
+the Madison aquifer. The potentiometric surface and the tops of
+the formations where determined from water levels and geologic
+logs from selected wells drilled as of 1998. The thickness coverage
+contains polygons that have single integer values representing
+a range of thickness.
+			</abstract>
+      <purpose>This data set was created as part of the Black Hills Hydrology
+Study (BHHS). The BHHS is a long-term investigation that was
+initiated in 1990 as a cooperative effort between the
+U.S. Geological Survey (USGS), the South Dakota Department of
+Environment and Natural Resources (DENR), and the West Dakota
+Water Development District. West Dakota represents various
+local and county cooperators. The purpose of the study is to
+assess the quantity, quality, and distribution of surface and
+ground water in the Black Hills area of western South Dakota
+(Driscoll, 1992). The study area includes parts of Butte,
+Custer, Fall River, Lawrence, Meade, and Pennington counties
+in South Dakota.
+			</purpose>
+      <supplinf>Any use of trade, product, or firm names is for descriptive purposes
+only and does not imply endorsement by the U.S. Government.
+
+Although this Federal Geographic Data Committee-compliant metadata
+file is intended to document the data set in nonproprietary form,
+as well as in ARC/INFO format, this metadata file may include some
+ARC/INFO-specific terminology.
+
+Reviews_Applied_to_Data:
+This electronic report was subjected to the same review
+standard that applies to all U.S. Geological Survey
+reports. Reviewers were asked to check the topological
+consistency, tolerances, attribute frequencies and statistics,
+projection, and geographic extent. The reviewers checked the
+metadata for completeness and accuracy.
+Related_Spatial_and Tabular_Data_Sets:
+Generalized thickness of the Minnelusa Formation (sd_mnls_thk),
+and the generalized thickness of the Madison Limestone and
+Englewood Formation (sd_mdsn_thk). Saturated thickness of the
+Minnelusa aquifer (sd_mnlsst_thk).
+
+Other_References_Cited:
+
+Driscoll, D.G., 1992, Plan of study for the Black Hills Hydrology
+Study, South Dakota: U.S. Geological Survey Open-File Report 92-84,
+10 p.
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>20001227</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>The thicknesses were based on water levels and geologic logs for
+selected wells drilled as of 1998.
+			</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-104.0616671</westbc>
+        <eastbc>-103.27457928</eastbc>
+        <northbc>44.49970178</northbc>
+        <southbc>43.46560044</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>geology</themekey>
+        <themekey>thickness</themekey>
+        <themekey>Madison aquifer</themekey>
+        <themekey>ground water</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Black Hills</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>USA</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>These data should not be used at scales larger than 1:250,000.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Janet Carter</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>1608 Mt. View Rd.</address>
+          <city>Rapid City</city>
+          <state>South Dakota</state>
+          <postal>57702</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>(605) 355-4523</cntfax>
+        <cntemail>jmcarter@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>Compilation of this data set and the associated metadata was funded
+by the U.S. Bureau of Reclamation.
+		</datacred>
+    <native>SunOS, 5.6, sun4u UNIX
+ARC/INFO version 8.0.1
+		</native>
+    <crossref>
+      <citeinfo>
+        <origin>Joel Galloway, U.S. Geological Survey</origin>
+        <pubdate>2000</pubdate>
+        <title>Potentiometric surface of the Madison aquifer
+in the Black Hills area, South Dakota
+				</title>
+        <geoform>paper map</geoform>
+        <serinfo>
+          <sername>USGS Hydrologic Investigations Atlas</sername>
+          <issue>HA-745-D</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Rapid City, South Dakota</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Janet Carter, U.S. Geological Survey</origin>
+        <pubdate>1999</pubdate>
+        <title>Altitude of the top of the Madison Limestone
+in the Black Hills area, South Dakota
+				</title>
+        <geoform>paper map</geoform>
+        <serinfo>
+          <sername>USGS Hydrologic Investigations Atlas</sername>
+          <issue>HA-744-D</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Rapid City, South Dakota</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Janet Carter, U.S. Geological Survey</origin>
+        <pubdate>1999</pubdate>
+        <title>Altitude of the top of the Deadwood Formation
+in the Black Hills area, South Dakota
+				</title>
+        <geoform>paper map</geoform>
+        <serinfo>
+          <sername>USGS Hydrologic Investigations Atlas</sername>
+          <issue>HA-744-E</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Rapid City, South Dakota</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Multiple visual checks were done to verify that the attribute
+data was coincident with the original source map.
+			</attraccr>
+    </attracc>
+    <logic>Polygon and chain-node topology present.</logic>
+    <complete>This data set consists of polygons with codes indicating
+ranges of saturated thickness of the Madison aquifer in
+the vicinity of the Black Hills, South Dakota.
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>none</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Joyce Williamson, U.S. Geological Survey</origin>
+            <pubdate>2000</pubdate>
+            <title>Digital data sets for map products produced as
+part of the Black Hills Hydrology Study, western
+South Dakota
+						</title>
+            <geoform>digital maps</geoform>
+            <serinfo>
+              <sername>Open-File Report</sername>
+              <issue>OFR 00-471</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Rapid City, South Dakota</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://water.usgs.gov/lookup/getspatial?ofr00471_mdsnscon</onlink>
+            <onlink>https://water.usgs.gov/lookup/getspatial?ofr00471_ddwdscon</onlink>
+            <onlink>https://water.usgs.gov/lookup/getspatial?ofr00471_mdsnpcon</onlink>
+            <onlink>https://water.usgs.gov/lookup/getspatial?ofr00471_mdsnsurf</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>digital maps</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Ground condition based on published data as of 1999</srccurr>
+        </srctime>
+        <srccitea>none</srccitea>
+        <srccontr>Coverages of the geologic structure contours for the top of
+the Madison Limestone (mdsnscon), the geologic structure
+contours for the top of the Deadwood Formation (ddwdscon),
+the potentiometric surface contours for the Madison aquifer
+(mdsnpcon), and a coverage of the overlying surficial deposits
+and absent areas for the Madison Limestone (mdsnsurf),
+Black Hills area, South Dakota.
+				</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The following terminology used to describe the creation of
+the data set is from ARC/INFO.
+
+First, a polygon coverage of the study area boundary was
+converted to a grid coverage using the POLYGRID command.
+
+The bottom of the Englewood Formation was determined by adding
+the thickness of the Whitewood and Winnepeg Formations to the
+elevation of the structural top of of the Deadwood Formation.
+
+The thickness of the Whitewood and Winnipeg Formations in the study
+area was estimated from geologic logs to create a point coverage.
+The coverage was converted to a line coverage by contouring the
+points using the TOPOGRID and LATTICECONTOUR commands.
+
+Line coverages containing elevation contours in the north half
+and south half of the study area of the structural surface of
+the Deadwood Formation  (ddwd_topn and ddwd_tops), the structural
+surface of the Madison Limestone and Englewood Formation
+(mdsn_topn and mdsn_tops), the thickness of the Whitewood and
+Winnepeg Formations (wwdthk_cov), and the potentiometric surface
+of the Madison aquifer (mdsn_pot) were converted to grids
+using command TOPOGRID with a cellsize of 100 meters.
+
+Example:
+
+Arc: TOPOGRID ddwdtop_ng 100
+TOPOGRID: datatype contour
+TOPOGRID: contour ddwd_topn altitude
+TOPOGRID: end
+
+Next, the grids of the top of the Deadwood Formation in the
+north and south half of the study area were merged using the
+GRID command MERGE. The north and south grids of the top of
+the Madison Limestone, thickness of the Whitewood and Winnepeg
+formations, and the potentiometric surface of the Madison aquifer
+also were merged.
+
+To find where the Madison aquifer is fully saturated (confined) and
+unconfined, the grid of the top of the formation (mdsn_topg) was
+subtracted from the the grid of the potentiometric surface
+(mdsnpotg). A boundary was created where the results of the
+calculation equal zero. The boundary was converted from a grid to
+a polygon using the ARC command GRIDPOLY.
+
+Using GRID, the thickness grid of the Whitewood/Winnepeg Formations
+(wwdthk2_grd) was added to the structural surface elevation grid
+of the Deadwood Formation (ddwdtopg).  This new grid was then
+subtracted from the potentiometric surface grid of the Madison
+aquifer (mdsnpotg) to create a grid of the saturated
+thickness of the Madison aquifer (mdsnthk_grd) within the
+boundary defining the unconfined zone.  The output grid was then
+reclassed into 4 general categories of thickness using a REMAP
+file to assign a range of values to a single integer value for
+an item named GRID-CODE.
+
+Using GRID, a grid was created where the Madison Limestone is
+absent or where there is not data (mdsnabsg).  These areas where
+the Madison Limestone is absent or where the Madison aquifer
+is fully saturated then were masked out.
+
+The grid was next converted to a polygon coverage using the
+GRIDPOLY command in GRID and the CLEAN command in ARC.
+
+The masking step eliminated nested polygons including some small
+areas of Madison Limestone outcrop.  Since these areas can be
+partially saturated at depths of less than 100 ft, theses selected
+polygons were added byck to the final polygon coverage.  Areas
+where the Madison Limestone is not present were assigned a GRID-CODE
+value of -9999 and areas where the Madison aquifer is fully
+				</procdesc>
+        <procdate>20001229</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>First draft of metadata created by jgallowa using
+FGDCMETA.AML ver. 1.33 07/15/99 on ARC/INFO data set
+/home/bhhs/gis/jmg/aquiprop/metathick/mdsnsat_thk
+				</procdesc>
+        <procdate>20010103</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>To ensure that coverage boundaries match those of other
+data layers created as part of this body of work, the study
+area boundary was added using APPEND.  The coverage was then
+checked for excessive nodes in ARCEDIT using UNSPLIT NONE.
+The coverage was cleaned and all node and label errors checked.
+
+Polygon labels were editted for unique poly IDS using TABLES
+and IDEDIT.
+
+Note:  Polygons were left with stair-stepped edges as a reminder
+that edges were generated using grids.  In addition, the gap between
+the study area boundary and the saturated thickness polygons is also
+a artifact of the grid coverage used in generating these polygons.
+				</procdesc>
+        <procdate>20010412</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>201</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>397</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>202</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>8</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.999600</sfctrmer>
+            <longcm>-105.000000</longcm>
+            <latprjo></latprjo>
+            <feast>500000.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>1.0</absres>
+            <ordres>1.0</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>sd_mdsnst_thk.pat</enttypl>
+        <enttypd></enttypd>
+        <enttypds></enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef></attrdef>
+        <attrdefs></attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv></edomv>
+            <edomvd></edomvd>
+            <edomvds></edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SHAPE</attrlabl>
+        <attrdef></attrdef>
+        <attrdefs></attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv></edomv>
+            <edomvd></edomvd>
+            <edomvds></edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef></attrdef>
+        <attrdefs></attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv></edomv>
+            <edomvd></edomvd>
+            <edomvds></edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef></attrdef>
+        <attrdefs></attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv></edomv>
+            <edomvd></edomvd>
+            <edomvds></edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SD_MDSNST_THK#</attrlabl>
+        <attrdef></attrdef>
+        <attrdefs></attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv></edomv>
+            <edomvd></edomvd>
+            <edomvds></edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SD_MDSNST_THK-ID</attrlabl>
+        <attrdef></attrdef>
+        <attrdefs></attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv></edomv>
+            <edomvd></edomvd>
+            <edomvds></edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GRID-CODE</attrlabl>
+        <attrdef></attrdef>
+        <attrdefs></attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv></edomv>
+            <edomvd></edomvd>
+            <edomvds></edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>&gt;
+&gt;SD_MDSNST_THK.PAT:
+&gt;
+&gt;COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC  ALTERNATE NAME
+&gt;    1  AREA                   4    12     F      3
+&gt;    5  PERIMETER              4    12     F      3
+&gt;    9  SD_MDSNST_THK#         4     5     B      -
+&gt;   13  SD_MDSNST_THK-ID       4     5     B      -
+&gt;   17  GRID-CODE              4     8     B      -
+&gt;
+&gt;
+AREA - Internal number for the area of the polygon in
+square meters
+
+PERIMETER - Internal number for the perimeter of the
+polygon in meters
+
+SD_MDSNST_THK# - Internal sequence number (i.e. the record
+number) of the polygon in the ARC file
+
+SD_MDSNST_THK-ID - User assigned feature ID
+
+GRID-CODE - An integer number indicating a range of saturated
+thickness according to the following table:
+
+GRID-CODE	Range in saturated thickness (ft)
+1		    less than 200
+2		     200-400
+3		     400-600
+4		     600-800
+5                  fully saturated
+-9999		   no data and areas where the formation is absent
+			</eaover>
+      <eadetcit>none</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+		
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/sd_mdsnst_thk.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>SDTS</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/sd_mdsnst_thksdts.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/sd_mdsnst_thkshp.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+sd_mdsnst_thk</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20001227</begdate>
+    <enddate>20001227</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_sd_mdsnst_thk.html</htmlurl>
+  </mercury>
+</metadata>

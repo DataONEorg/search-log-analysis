@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="iesn.4.3" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=lrrhchen,o=TFRI,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset> <title>台北植物園荷花池大景照片</title>
+ <creator id="1412126105783"> <organizationName>林業試驗所</organizationName>
+ <address><deliveryPoint>南海路５３號</deliveryPoint>
+ <city>台北市</city>
+ <administrativeArea>台灣</administrativeArea>
+ <postalCode>１００</postalCode>
+ <country>中華民國</country>
+ </address>
+ <onlineUrl>http://www.tfri.gov.tw</onlineUrl>
+ </creator>
+ <associatedParty id="1412126134049"><individualName><givenName>建文</givenName>
+ <surName>陳</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>聘用助理研究員</positionName>
+ <electronicMailAddress>lrrhchen@tfri.gov.tw</electronicMailAddress>
+ <role>Processor</role>
+ </associatedParty>
+ <abstract><para>本資料集所描述的是智慧生態計畫－生態及生物多樣性資訊基礎建設與應用計畫，於台北植物園荷花池邊架設網路攝影機，以多張照片拼接成全景照片方式呈現荷花池每小時現況(05:00~18:00)。自102年11月中開始試運轉，至103年5月拍攝結果較為穩定。所有大景照片可於生態感測資料展示平台（http://iesn.tfri.gov.tw）上查閱，並以開放資料形式提供生態感測開放資料平台(http://iesn.tfri.gov.tw/forestDW/OpenData)作為資料來源之一。</para>
+ </abstract>
+ <keywordSet><keyword>智慧生態</keyword>
+ <keyword>台北植物園</keyword>
+ <keyword>荷花池</keyword>
+ <keyword>全景照片</keyword>
+ <keyword>生態感測</keyword>
+ </keywordSet>
+ <intellectualRights><para>本資料集所有資料內容歸屬於林業試驗所所有，任何引用與利用請註明出處。</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>台北植物園</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>121.5152188</westBoundingCoordinate>
+ <eastBoundingCoordinate>121.63673401879998</eastBoundingCoordinate>
+ <northBoundingCoordinate>25.0251983</northBoundingCoordinate>
+ <southBoundingCoordinate>25.0251983</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1412126116579"><individualName><givenName>美如</givenName>
+ <surName>鄭</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>助理研究員</positionName>
+ <address><deliveryPoint>南海路５３號</deliveryPoint>
+ <city>台北市</city>
+ <administrativeArea>台灣</administrativeArea>
+ <postalCode>１００</postalCode>
+ <country>中華民國</country>
+ </address>
+ <electronicMailAddress>beer@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>照片產製</title>
+ <para>台北植物園荷花池大景照片為由網路攝影機多張照片拼接而成，透過網路直接送入植物園網絡平台，再由生態感測網絡平台自動定期從植物園網絡平台擷取荷花池大景照片資料，並於展示平台呈現，同時新增於開放資料中。</para>
+ </section>
+ </description>
+ <instrumentation>KJ-CDN55TW-20S 2M 20x IP SPEED DOME</instrumentation>
+ </methodStep>
+ <sampling><studyExtent><description><para>攝影機架設於荷花池花廊上，高約2公尺</para>
+ </description>
+ </studyExtent>
+ <samplingDescription><para>每日05:00~18:00，每小時進行拍攝</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1412128452893"><entityName>台北植物園荷花池大景照片</entityName>
+ <physical><objectName>台北植物園荷花池大景照片</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>http://iesn.tfri.gov.tw/forestDW/OpenData/Detail?setId=opd_lpp_102</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1412128452894"><attributeName>sn</attributeName>
+ <attributeDefinition>照片序號</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412128452895"><attributeName>info1</attributeName>
+ <attributeDefinition>拍攝日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD HH</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412128452896"><attributeName>info3</attributeName>
+ <attributeDefinition>當時天氣，資料引用自中央氣象局台北氣象站，第一項為天氣狀況，第二項為溫度，第三項為相對濕度。</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>free text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412128452897"><attributeName>date_str</attributeName>
+ <attributeDefinition>資料上傳日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412128452898"><attributeName>info2</attributeName>
+ <attributeDefinition>照片檔案路徑(URL)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>URL</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </eml:eml>

@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="iesn.5.4" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=lrrhchen,o=TFRI,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset scope="document"> <title>台北植物園花曆植物物候調查資料</title>
+ <creator id="1412581078921" scope="document"> <organizationName>林業試驗所</organizationName>
+ <address scope="document"> <deliveryPoint>南海路53號</deliveryPoint>
+ <city>臺北市</city>
+ <administrativeArea>台</administrativeArea>
+ <postalCode>10066</postalCode>
+ <country>中華民國</country>
+ </address>
+ <phone phonetype="voice">+886223039978</phone>
+ <onlineUrl>http://www.tfri.gov.tw</onlineUrl>
+ </creator>
+ <associatedParty id="1412581144950" scope="document"> <individualName> <givenName>奐宇</givenName>
+ <surName>林</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>助理研究員</positionName>
+ <address scope="document"> <deliveryPoint>南海路53號</deliveryPoint>
+ <city>臺北市</city>
+ <postalCode>10066</postalCode>
+ <country>中華民國</country>
+ </address>
+ <phone phonetype="voice">+886223039978-2808</phone>
+ <electronicMailAddress>hylin@tfri.gov.tw</electronicMailAddress>
+ <role>Processor</role>
+ </associatedParty>
+ <abstract> <para>本資料集所描述的是智慧生態計畫－生態及生物多樣性資訊基礎建設與應用計畫自102年11月底開始，以人工方式每周至台北植物園進行55種花曆植物的開花程度調查與開花照片拍攝，並將資料介由台北植物源網絡平台管理後台將資料上傳，經過系統運算後，可同時於台北植物園網站(http://tpbg.tfri.gov.tw)與生態感測資料展示平台（http://iesn.tfri.gov.tw）上查閱，並以開放資料形式提供生態感測開放資料平台(http://iesn.tfri.gov.tw/forestDW/OpenData)作為資料來源之一。</para>
+ </abstract>
+ <keywordSet> <keyword>智慧生態</keyword>
+ <keyword>生態感測</keyword>
+ <keyword>台北植物園</keyword>
+ <keyword>物候調查</keyword>
+ <keyword>花曆植物</keyword>
+ </keywordSet>
+ <intellectualRights> <para>本資料集所有資料內容歸屬於林業試驗所所有，任何引用與利用請註明出處。</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>台北植物園</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>121.5152188</westBoundingCoordinate>
+ <eastBoundingCoordinate>121.63673401879998</eastBoundingCoordinate>
+ <northBoundingCoordinate>25.0251983</northBoundingCoordinate>
+ <southBoundingCoordinate>25.0251983</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1412581128175" scope="document"> <individualName> <givenName>美如</givenName>
+ <surName>鄭</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>助理研究員</positionName>
+ <address scope="document"> <deliveryPoint>南海路53號</deliveryPoint>
+ <city>臺北市</city>
+ <postalCode>10066</postalCode>
+ <country>中華民國</country>
+ </address>
+ <phone phonetype="voice">+886223039978-3887</phone>
+ <electronicMailAddress>beer@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>物候調查</title>
+ <para>每周於植物園進行所挑選的55種花曆植物(共超過100株)開花觀察記錄，自出現花苞起即記錄開花程度，同時拍攝照片。</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1412582813692" scope="document"> <entityName>台北植物園花曆植物物候調查</entityName>
+ <physical scope="document"> <objectName>台北植物園花曆植物物候調查資料</objectName>
+ <dataFormat> <textFormat> <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>http://iesn.tfri.gov.tw/forestDW/OpenData/opd_ppo_data</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1412582813693" scope="document"> <attributeName>flower_step</attributeName>
+ <attributeDefinition>開花階段</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>1</code>
+ <definition>花苞形成，外觀為綠色。</definition>
+ </codeDefinition>
+ <codeDefinition> <code>2</code>
+ <definition>苞狀但已可辨識花瓣、花色出現。</definition>
+ </codeDefinition>
+ <codeDefinition> <code>3</code>
+ <definition>花半開展，可辨識花瓣及花蕊。</definition>
+ </codeDefinition>
+ <codeDefinition> <code>4</code>
+ <definition>花朵全展</definition>
+ </codeDefinition>
+ <codeDefinition> <code>5</code>
+ <definition>凋謝至花瓣脫落</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412582813694" scope="document"> <attributeName>flower_density</attributeName>
+ <attributeDefinition>開花密度，指於整株植物開花的覆蓋程度(百分比)</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>1</code>
+ <definition>0%~20%</definition>
+ </codeDefinition>
+ <codeDefinition> <code>2</code>
+ <definition>20.1%~40%</definition>
+ </codeDefinition>
+ <codeDefinition> <code>3</code>
+ <definition>40.1%~60%</definition>
+ </codeDefinition>
+ <codeDefinition> <code>4</code>
+ <definition>60.1%~80%</definition>
+ </codeDefinition>
+ <codeDefinition> <code>5</code>
+ <definition>80.1%~100%</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412582813695" scope="document"> <attributeName>species_name</attributeName>
+ <attributeDefinition>物種中文名稱</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>free text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412582813696" scope="document"> <attributeName>file_time</attributeName>
+ <attributeDefinition>相對應的開花照片檔案拍攝時間</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ <dateTimePrecision>1day</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </eml:eml>

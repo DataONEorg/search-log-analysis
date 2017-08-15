@@ -1,0 +1,1509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.16.1" system="https://pasta.edirepository.org"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <access authSystem="https://pasta.edirepository.org/authentication"
+    order="allowFirst" scope="document" system="https://pasta.edirepository.org">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="https://doi.org">doi:10.6073/pasta/415724c33d7b46957919125e3ac66c93</alternateIdentifier>
+    <title>Temporal heterogeneity increases with spatial heterogeneity in ecological
+			communities</title>
+    <creator>
+      <individualName>
+        <givenName>Scott</givenName>
+        <surName>Collins</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <electronicMailAddress>scollins@sevilleta.unm.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-0193-2892</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Meghan</givenName>
+        <surName>Avolio</surName>
+      </individualName>
+      <organizationName>National Socio-Environmental Synthesis Center</organizationName>
+      <electronicMailAddress>meghan.avolio@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-2649-9159</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Corinna</givenName>
+        <surName>Gries</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>cgries@wisc.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-9091-6543</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Lauren</givenName>
+        <surName>Hallett</surName>
+      </individualName>
+      <organizationName>University of Oregon</organizationName>
+      <electronicMailAddress>lauren.m.hallett@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-0718-0257</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sally</givenName>
+        <surName>Koerner</surName>
+      </individualName>
+      <organizationName>University of South Florida</organizationName>
+      <electronicMailAddress>Koerner@usf.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0001-6403-7513</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kimberly</givenName>
+        <surName>La Pierre</surName>
+      </individualName>
+      <organizationName>Smithsonian Environmental Research Center</organizationName>
+      <electronicMailAddress>LaPierreK@si.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0001-7056-4547</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Andrew</givenName>
+        <surName>Rypel</surName>
+      </individualName>
+      <organizationName>Wisconsin Department of Natural Resources</organizationName>
+      <electronicMailAddress>Andrew.Rypel@wisconsin.gov</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-9812-8306</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Eric</givenName>
+        <surName>Sokol</surName>
+      </individualName>
+      <organizationName>University of Colorado Boulder</organizationName>
+      <electronicMailAddress>sokole@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0001-5923-0917</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Samuel</givenName>
+        <surName>Fey</surName>
+      </individualName>
+      <organizationName>Yale University</organizationName>
+      <electronicMailAddress>samuel.fey@yale.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Dan</givenName>
+        <surName>Flynn</surName>
+      </individualName>
+      <organizationName>Harvard Univsersity</organizationName>
+      <electronicMailAddress>danfbflynn@gmail.com</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-2978-5257</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Sydney</givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <electronicMailAddress>syd@sevilleta.unm.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0001-6353-5780</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Laura</givenName>
+        <surName>Ladwig</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>lmladwig@wisc.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0003-0401-834X</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Julie</givenName>
+        <surName>Ripplinger</surName>
+      </individualName>
+      <organizationName>University of California-Riverside</organizationName>
+      <electronicMailAddress>julie.ripplinger@asu.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-2771-6637</userId>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Matt </givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+      <electronicMailAddress>jones@nceas.ucsb.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2017</pubDate>
+    <abstract>
+      <para> Heterogeneity is increasingly recognized as a foundational characteristic of ecological
+				systems. Indeed, spatial heterogeneity is commonly used in alternative state theory as an
+				early indicator of regime shifts. To evaluate if spatial heterogeneity of communities is a
+				predictor of temporal heterogeneity, we used mixed effects models to synthesize 68 community
+				datasets spanning freshwater and terrestrial systems where measures of species abundance
+				were replicated over space and time. Overall, we found a significant positive relationship
+				between spatial and temporal heterogeneity across all ecosystems. In addition, lifespan and
+				successional stage were related to temporal heterogeneity. Therefore we found evidence that
+				spatial heterogeneity is a potential tool to predict temporal heterogeneity in ecological
+				communities. This data package consists of six files. First we used a (1) R script to derive
+				community dynamic metrics from source files to calculate (2) spatial and temporal
+				heterogeneity over time as well as other measures of the community. We used this derived
+				dataset to run analyses (3) with a R script to study the relationship between spatial and
+				temporal heterogeneity communities. These analyses resulted in three figures, (4) the
+				overall relationship between spatial and temporal heterogeneity, (5) output of mixed models
+				investigating how experimental and biological factors affect this relationship, and (6)
+				figures exploring how lifespan of the study organism affects the relationship between
+				spatial and temporal datasets. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>species names</keyword>
+      <keyword>populations</keyword>
+      <keyword>communities</keyword>
+      <keyword>community</keyword>
+      <keyword>heterogeneity</keyword>
+      <keyword>temporal</keyword>
+      <keyword>spatial</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para> This information is released to the public domain under the Creative Commons license
+				CC0 1.0 "No Rights Reserved" (see:
+				https://creativecommons.org/share-your-work/public-domain/cc0/). The consumer of this data
+				("Data User" herein) should realize that these data may be actively used by others for
+				ongoing research and that coordination may be necessary to prevent duplicate publication.
+				The Data User is urged to contact the authors of this data if any questions about
+				methodology or results occur. Where appropriate, the Data User is encouraged to consider
+				collaboration or co-authorship with the authors. The Data User should realize that
+				misinterpretation of data may occur if used out of context of the original study. While
+				substantial efforts are made to ensure the accuracy of data and associated documentation,
+				complete accuracy of data sets cannot be guaranteed. All data are made available "as is".
+				The Data User should be aware, however, that data are updated periodically and it is the
+				responsibility of the Data User to check for new versions of the data. The authors and the
+				repository where this data was obtained shall not be liable for damages resulting from any
+				use or misinterpretation of the data. Thank you. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>H.J. Experimental Forest Andrews LTER, Oregon,
+					USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.25</eastBoundingCoordinate>
+          <northBoundingCoordinate>44.21</northBoundingCoordinate>
+          <southBoundingCoordinate>44.21</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Arctic LTER, Alaska, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>147.77</westBoundingCoordinate>
+          <eastBoundingCoordinate>147.77</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.90</northBoundingCoordinate>
+          <southBoundingCoordinate>64.90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Bonanza Creek LTER, Alaska, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-148.31</westBoundingCoordinate>
+          <eastBoundingCoordinate>-148.31</eastBoundingCoordinate>
+          <northBoundingCoordinate>64.73</northBoundingCoordinate>
+          <southBoundingCoordinate>64.73</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Buxton, UK, UK</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-1.91</westBoundingCoordinate>
+          <eastBoundingCoordinate>-1.91</eastBoundingCoordinate>
+          <northBoundingCoordinate>53.26</northBoundingCoordinate>
+          <southBoundingCoordinate>53.26</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>University of Notre Dame Enviromental Research Center, Michigan,
+					USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.67</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.01</northBoundingCoordinate>
+          <southBoundingCoordinate>46.01</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Cedar Creek LTER, Minnesota, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-93.20</westBoundingCoordinate>
+          <eastBoundingCoordinate>-93.20</eastBoundingCoordinate>
+          <northBoundingCoordinate>45.40</northBoundingCoordinate>
+          <southBoundingCoordinate>45.40</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Florida Coastal Everglades LTER, Florida, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-80.78</westBoundingCoordinate>
+          <eastBoundingCoordinate>-80.78</eastBoundingCoordinate>
+          <northBoundingCoordinate>25.56</northBoundingCoordinate>
+          <southBoundingCoordinate>25.56</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Laurentian Great Lakes, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.20</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.20</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.20</northBoundingCoordinate>
+          <southBoundingCoordinate>42.20</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Hays, Kansas, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-99.33</westBoundingCoordinate>
+          <eastBoundingCoordinate>-99.33</eastBoundingCoordinate>
+          <northBoundingCoordinate>38.88</northBoundingCoordinate>
+          <southBoundingCoordinate>38.88</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Illinois River, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.25</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.25</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.12</northBoundingCoordinate>
+          <southBoundingCoordinate>42.12</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Jornada Basin LTER, New Mexico, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-106.74</westBoundingCoordinate>
+          <eastBoundingCoordinate>-106.74</eastBoundingCoordinate>
+          <northBoundingCoordinate>32.51</northBoundingCoordinate>
+          <southBoundingCoordinate>32.51</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Jasper Ridge Biological Preserve, California,
+					USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.23</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.23</eastBoundingCoordinate>
+          <northBoundingCoordinate>37.41</northBoundingCoordinate>
+          <southBoundingCoordinate>37.41</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Kellogg Biological Station LTER, Michigan,
+					USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-85.38</westBoundingCoordinate>
+          <eastBoundingCoordinate>-85.38</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.40</northBoundingCoordinate>
+          <southBoundingCoordinate>42.40</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Kluane Lake, Yukon, Canada</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-139.50</westBoundingCoordinate>
+          <eastBoundingCoordinate>-139.50</eastBoundingCoordinate>
+          <northBoundingCoordinate>60.75</northBoundingCoordinate>
+          <southBoundingCoordinate>60.75</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Konza Prairie Biological Station LTER, Kansas,
+					USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-96.61</westBoundingCoordinate>
+          <eastBoundingCoordinate>-96.61</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.11</northBoundingCoordinate>
+          <southBoundingCoordinate>39.11</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Luqillo LTER, Puerto Rico, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-65.82</westBoundingCoordinate>
+          <eastBoundingCoordinate>-65.82</eastBoundingCoordinate>
+          <northBoundingCoordinate>18.32</northBoundingCoordinate>
+          <southBoundingCoordinate>18.32</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Macarthur Agro-Ecological Research Center, Florida,
+					USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-81.20</westBoundingCoordinate>
+          <eastBoundingCoordinate>-81.20</eastBoundingCoordinate>
+          <northBoundingCoordinate>27.15</northBoundingCoordinate>
+          <southBoundingCoordinate>27.15</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Lake City Minnesota downstream to Bellevue Iowa,
+					USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-91.24</westBoundingCoordinate>
+          <eastBoundingCoordinate>-91.24</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.84</northBoundingCoordinate>
+          <southBoundingCoordinate>43.84</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Mount Saint Helens, Washington, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-122.20</westBoundingCoordinate>
+          <eastBoundingCoordinate>-122.20</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.19</northBoundingCoordinate>
+          <southBoundingCoordinate>46.19</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>North Temperate Lakes LTER, Wisconsin, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.67</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.67</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.01</northBoundingCoordinate>
+          <southBoundingCoordinate>46.01</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Niwot Ridge LTER, Colorado, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-105.54</westBoundingCoordinate>
+          <eastBoundingCoordinate>-105.54</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.03</northBoundingCoordinate>
+          <southBoundingCoordinate>40.03</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Oneida Lake, New York, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-75.91</westBoundingCoordinate>
+          <eastBoundingCoordinate>-75.91</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.20</northBoundingCoordinate>
+          <southBoundingCoordinate>43.20</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Plum Island Estuary LTER, Massachusetts, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-70.86</westBoundingCoordinate>
+          <eastBoundingCoordinate>-70.86</eastBoundingCoordinate>
+          <northBoundingCoordinate>42.26</northBoundingCoordinate>
+          <southBoundingCoordinate>42.26</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Saginaw Bay, Michigan, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-83.63</westBoundingCoordinate>
+          <eastBoundingCoordinate>-83.63</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.84</northBoundingCoordinate>
+          <southBoundingCoordinate>43.84</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Sevilleta LTER, New Mexico, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-106.97</westBoundingCoordinate>
+          <eastBoundingCoordinate>-106.97</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.34</northBoundingCoordinate>
+          <southBoundingCoordinate>34.34</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Short Grass Steppe LTER, Colorado, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-104.75</westBoundingCoordinate>
+          <eastBoundingCoordinate>-104.75</eastBoundingCoordinate>
+          <northBoundingCoordinate>40.79</northBoundingCoordinate>
+          <southBoundingCoordinate>40.79</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Vasco Cave Regional Park, California, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-118.32</westBoundingCoordinate>
+          <eastBoundingCoordinate>-118.32</eastBoundingCoordinate>
+          <northBoundingCoordinate>34.48</northBoundingCoordinate>
+          <southBoundingCoordinate>34.48</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <geographicCoverage>
+        <geographicDescription>Lower Wisconsin River, Wisconsin, USA</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.74</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.74</eastBoundingCoordinate>
+          <northBoundingCoordinate>43.26</northBoundingCoordinate>
+          <southBoundingCoordinate>43.26</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1943</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Scott</givenName>
+        <surName>Collins</surName>
+      </individualName>
+      <organizationName>University of New Mexico</organizationName>
+      <electronicMailAddress>scollins@sevilleta.unm.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-0193-2892</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Corinna</givenName>
+        <surName>Gries</surName>
+      </individualName>
+      <organizationName>University of Wisconsin-Madison</organizationName>
+      <electronicMailAddress>cgries@wisc.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0002-9091-6543</userId>
+    </contact>
+    <contact>
+      <individualName>
+        <givenName>Matt </givenName>
+        <surName>Jones</surName>
+      </individualName>
+      <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+      <electronicMailAddress>jones@nceas.ucsb.edu</electronicMailAddress>
+      <userId directory="http://orcid.org">0000-0003-0077-4738</userId>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para> Both spatial and temporal heterogeneity were calculated using Bray-Curtis matrices.
+						Bray-Curtis distance was used as it is the metric best suited for non-normal,
+						multivariate data, and is less sensitive to changes in rare species than other distance
+						measures (Anderson and Walsh 2013). For spatial heterogeneity, we calculated pairwise
+						combinations of Bray-Curtis for all plots for each year and then averaged Bray-Curtis
+						for each year. For temporal heterogeneity, we first took the mean abundance of each
+						species across all replicates in a year. Then, we calculated Bray-Curtis between TimeX
+						and TimeXplus1. Based on the mean abundance of each species across all replicates in a
+						year we also calculated several typical measures of community structure. To explore the
+						drivers of temporal heterogeneity, we ran three mixed models using lmer() in the
+						library(lme4). We assessed three linear mixed effects models to understand how spatial
+						heterogeneity affects temporal heterogeneity. Random factors in all models represented
+						the hierarchical structure of community type nested within a study nested within a
+						long-term research site. Model 1 examined how spatial heterogeneity affects temporal
+						heterogeneity. Model 2 also included the experimental predictors as fixed effects, while
+						Model 3 included the biotic predictors as fixed effects. Additionally, temporal
+						heterogeneity was also calculated at all timesteps available for each dataset. </para>
+        </description>
+      </methodStep>
+      <methodStep>
+        <description>
+          <para>Source Dataset</para>
+          <para>Collins, Scott; Avolio, Meghan; Gries, Corinna; Hallett, Lauren; Koerner, Sally; La Pierre, Kimberly; Rypel, Andrew; Sokol, Eric; Fey, Samuel; Flynn, Dan; Jones, Sydney; Ladwig, Laura; Ripplinger, Julie; Jones, Matt (2017): Compiled long-term community composition datasets of primary producers and consumers in both freshwater and terrestrial communities. Long Term Ecological Research Network. http://dx.doi.org/10.5072/FK2/ff0127987c0332c8e3f807f25c59273b</para>
+        </description>
+        <dataSource>
+          <title>Compiled long-term community composition datasets of primary producers and
+						consumers in both freshwater and terrestrial communities</title>
+          <creator>
+            <individualName>
+              <givenName>Scott</givenName>
+              <surName>Collins</surName>
+            </individualName>
+            <organizationName>University of New Mexico</organizationName>
+            <electronicMailAddress>scollins@sevilleta.unm.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-0193-2892</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Meghan</givenName>
+              <surName>Avolio</surName>
+            </individualName>
+            <organizationName>National Socio-Environmental Synthesis Center</organizationName>
+            <electronicMailAddress>meghan.avolio@gmail.com</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-2649-9159</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Corinna</givenName>
+              <surName>Gries</surName>
+            </individualName>
+            <organizationName>University of Wisconsin-Madison</organizationName>
+            <electronicMailAddress>cgries@wisc.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-9091-6543</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Lauren</givenName>
+              <surName>Hallett</surName>
+            </individualName>
+            <organizationName>University of Oregon</organizationName>
+            <electronicMailAddress>lauren.m.hallett@gmail.com</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-0718-0257</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Sally</givenName>
+              <surName>Koerner</surName>
+            </individualName>
+            <organizationName>University of South Florida</organizationName>
+            <electronicMailAddress>Koerner@usf.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0001-6403-7513</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Kimberly</givenName>
+              <surName>La Pierre</surName>
+            </individualName>
+            <organizationName>Smithsonian Environmental Research Center</organizationName>
+            <electronicMailAddress>LaPierreK@si.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0001-7056-4547</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Andrew</givenName>
+              <surName>Rypel</surName>
+            </individualName>
+            <organizationName>Wisconsin Department of Natural Resources</organizationName>
+            <electronicMailAddress>Andrew.Rypel@wisconsin.gov</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-9812-8306</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Eric</givenName>
+              <surName>Sokol</surName>
+            </individualName>
+            <organizationName>University of Colorado Boulder</organizationName>
+            <electronicMailAddress>sokole@gmail.com</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0001-5923-0917</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Samuel</givenName>
+              <surName>Fey</surName>
+            </individualName>
+            <organizationName>Yale University</organizationName>
+            <electronicMailAddress>samuel.fey@yale.edu</electronicMailAddress>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Dan</givenName>
+              <surName>Flynn</surName>
+            </individualName>
+            <organizationName>Harvard Univsersity</organizationName>
+            <electronicMailAddress>danfbflynn@gmail.com</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-2978-5257</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Sydney</givenName>
+              <surName>Jones</surName>
+            </individualName>
+            <organizationName>University of New Mexico</organizationName>
+            <electronicMailAddress>syd@sevilleta.unm.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0001-6353-5780</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Laura</givenName>
+              <surName>Ladwig</surName>
+            </individualName>
+            <organizationName>University of Wisconsin-Madison</organizationName>
+            <electronicMailAddress>lmladwig@wisc.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0003-0401-834X</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Julie</givenName>
+              <surName>Ripplinger</surName>
+            </individualName>
+            <organizationName>University of California-Riverside</organizationName>
+            <electronicMailAddress>julie.ripplinger@asu.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-2771-6637</userId>
+          </creator>
+          <creator>
+            <individualName>
+              <givenName>Matt </givenName>
+              <surName>Jones</surName>
+            </individualName>
+            <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+            <electronicMailAddress>jones@nceas.ucsb.edu</electronicMailAddress>
+          </creator>
+          <distribution>
+            <online>
+              <onlineDescription>This online link references an EML document that describes data
+								used in the creation of this derivative data package.</onlineDescription>
+              <url function="information">https://pasta.lternet.edu/package/metadata/eml/edi/15/1</url>
+            </online>
+          </distribution>
+          <contact>
+            <individualName>
+              <givenName>Scott</givenName>
+              <surName>Collins</surName>
+            </individualName>
+            <organizationName>University of New Mexico</organizationName>
+            <electronicMailAddress>scollins@sevilleta.unm.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-0193-2892</userId>
+          </contact>
+          <contact>
+            <individualName>
+              <givenName>Corinna</givenName>
+              <surName>Gries</surName>
+            </individualName>
+            <organizationName>University of Wisconsin-Madison</organizationName>
+            <electronicMailAddress>cgries@wisc.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0002-9091-6543</userId>
+          </contact>
+          <contact>
+            <individualName>
+              <givenName>Matt </givenName>
+              <surName>Jones</surName>
+            </individualName>
+            <organizationName>National Center for Ecological Analysis and
+							Synthesis</organizationName>
+            <electronicMailAddress>jones@nceas.ucsb.edu</electronicMailAddress>
+            <userId directory="http://orcid.org">0000-0003-0077-4738</userId>
+          </contact>
+        </dataSource>
+      </methodStep>
+    </methods>
+    <dataTable>
+      <entityName>SpatioTemp_testStatistics_20170208.csv</entityName>
+      <entityDescription>Community heterogeneity dataset</entityDescription>
+      <physical>
+        <objectName>SpatioTemp_testStatistics_20170208.csv</objectName>
+        <size unit="bytes"/>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/16/1/c40aff9cd9890dda288b1a9959e67957</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>siteyr</attributeName>
+          <attributeDefinition>Unique identifier for each year by dataset as Combination of
+						site_code, project_name, community_type, and calendar_year</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each year by dataset as Combination of
+										site_code, project_name, community_type, and calendar_year</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>site_project_comm</attributeName>
+          <attributeDefinition>Provides a unique identifier for each dataset (68 datasets) as
+						Combination of site_code, project_name, and community_type</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Provides a unique identifier for each dataset (68 datasets) as
+										Combination of site_code, project_name, and community_type</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>experiment_year</attributeName>
+          <attributeDefinition>sampling year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1943</minimum>
+                  <maximum exclusive="false">2015</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>site_code</attributeName>
+          <attributeDefinition>Unique identifier for each site location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for each site location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>project_name</attributeName>
+          <attributeDefinition>Name of the experiment or project</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Name of the experiment or project</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>community_type</attributeName>
+          <attributeDefinition>When a single experiment was performed in multiple community types
+						within the same site, a community type was assigned. If there was only 1 community type
+						in an experiment, this column is a 0.</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>When a single experiment was performed in multiple community types
+										within the same site, a community type was assigned. If there was only 1
+										community type in an experiment, this column is a 0.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>location</attributeName>
+          <attributeDefinition>Where the dataset occurred in space</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Where the dataset occurred in space</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Country</attributeName>
+          <attributeDefinition>Country of sampling location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Country of sampling location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Continent</attributeName>
+          <attributeDefinition>Continent of sampling location</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Continent of sampling location</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Lat</attributeName>
+          <attributeDefinition>Latitude of sampling location</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">18</minimum>
+                  <maximum exclusive="false">65</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Long</attributeName>
+          <attributeDefinition>Longitute of sampling locaiton</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-150</minimum>
+                  <maximum exclusive="false">150</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MAP_mm</attributeName>
+          <attributeDefinition>Site-level mean annual precipitation</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">230</minimum>
+                  <maximum exclusive="false">4300</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>plot_size</attributeName>
+          <attributeDefinition>Size of each replicate</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.047</minimum>
+                  <maximum exclusive="false">7057818</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>spatial_extent</attributeName>
+          <attributeDefinition>Spatial extent of sampling area</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>squareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">250</minimum>
+                  <maximum exclusive="false">2.96e+11</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>succession</attributeName>
+          <attributeDefinition>Is community undergoing succession (i.e., did sampling follow
+						vegetation removal?), yes, no</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Is community undergoing succession (i.e., did sampling follow
+										vegetation removal?), yes, no</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>lifespan</attributeName>
+          <attributeDefinition>The average lifespan of the target community taxa. Sub-Annual,
+						Annual, Long-lived </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The average lifespan of the target community taxa. Sub-Annual, Annual,
+										Long-lived </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>trophic_level</attributeName>
+          <attributeDefinition>Trophic level of the target taxa, Primary (producer),
+						Consumer</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Trophic level of the target taxa, Primary (producer),
+										Consumer</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>taxa</attributeName>
+          <attributeDefinition>The community taxa being targeted. Phytoplankton, Plants, Fish,
+						Zooplankton, Invertebrates </attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The community taxa being targeted. Phytoplankton, Plants, Fish,
+										Zooplankton, Invertebrates </definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ANPP</attributeName>
+          <attributeDefinition>Annual Net Primary Production</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>broad_ecosystem_type</attributeName>
+          <attributeDefinition>Biome type. Herbaceous, woody, river, lake,
+						wetland</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Biome type. Herbaceous, woody, river, lake, wetland</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>num_plots</attributeName>
+          <attributeDefinition>Number of replicates</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">49</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temp_C</attributeName>
+          <attributeDefinition>Site-level mean annual temperature</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>celsius</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">-8</minimum>
+                  <maximum exclusive="false">24.3</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>dataset_length</attributeName>
+          <attributeDefinition>Number of years from the first sampling time point to the
+						last</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">6</minimum>
+                  <maximum exclusive="false">41</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>time_step</attributeName>
+          <attributeDefinition>Number of years between each sampling time
+						point</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.019230769</minimum>
+                  <maximum exclusive="false">4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>spatial_rich</attributeName>
+          <attributeDefinition>Average cover of each species across all plots within a year within a
+						dataset was then used to determine the number of species across the plots (no. of
+						species)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">3</minimum>
+                  <maximum exclusive="false">168</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>spatial_Shannon</attributeName>
+          <attributeDefinition>Average cover of each species across all plots within a year within a
+						dataset was then used to determine the Shannons diversity across the
+						plots</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>spatial_J</attributeName>
+          <attributeDefinition>Average cover of each species across all plots within a year within a
+						dataset was then used to determine shannons evenness across the plots </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>spatial_dominance</attributeName>
+          <attributeDefinition>Average cover of each species across all plots within a year within a
+						dataset was then used to determine the abundance of the most abundant species (Berger
+						Parker Index) across the plots (% cover)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>spatial_evenness</attributeName>
+          <attributeDefinition>Average cover of each species across all plots within a year within a
+						dataset was then used to Simpsons Evenness across the plots </attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>spatialdispersion</attributeName>
+          <attributeDefinition>Spatial Heterogeneity, Average of pairwise combinations of
+						Bray-Curtis for all plots for each year within a dataset</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>temporaldistance</attributeName>
+          <attributeDefinition>Temporal Heterogeneity. Using the mean abundance of each species
+						across all replicates in a year, we calculated Bray-Curtis between TimeX and
+						TimeX+1</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>not available</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>system</attributeName>
+          <attributeDefinition>Aquatic or Terrestrial</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Aquatic or Terrestrial</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>CoDyn_Step0_BrayCurtisFuntions.R</entityName>
+      <entityDescription>Rate of community change over successive time intervals</entityDescription>
+      <physical>
+        <objectName>CoDyn_Step0_BrayCurtisFuntions.R</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/16/1/2fe289cee84c532df32ff8b0141f3721</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text/x-rsrc</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>CoDyn_Step1_TestStatistics.R</entityName>
+      <entityDescription>Generation of test statistics for subsequent analysis and
+				visualization</entityDescription>
+      <physical>
+        <objectName>CoDyn_Step1_TestStatistics.R</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/16/1/bbb7be5551395687e112ca3ffab72ae5</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text/x-rsrc</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>CoDyn_Step2_AnalysesVisuals.R</entityName>
+      <entityDescription>Analysis and visualization</entityDescription>
+      <physical>
+        <objectName>CoDyn_Step2_AnalysesVisuals.R</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/16/1/e2ac3d8aacfb958a07be3c478689a1cd</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>text/x-rsrc</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Fig1.jpg</entityName>
+      <entityDescription>Relationship between spatial heterogeneity and temporal heterogeneity in
+				aquatic (blue) and terrestrial (green) systems.</entityDescription>
+      <physical>
+        <objectName>Fig1.jpg</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/16/1/bc01afc6955dbf38eee99b551a328cb2</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpg</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Fig2.jpg</entityName>
+      <entityDescription>Effects of spatial heterogeneity and (left) experimental or (right)
+				biological predictors on temporal heterogeneity. </entityDescription>
+      <physical>
+        <objectName>Fig2.jpg</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/16/1/6335327b59d5e9156a1006929c1d0d15</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpg</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Fig3.jpg</entityName>
+      <entityDescription>Relationship between spatial heterogeneity and temporal heterogeneity by
+				lifespan and over time.</entityDescription>
+      <physical>
+        <objectName>Fig3.jpg</objectName>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/jpg</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://pasta.lternet.edu/package/data/eml/edi/16/1/826f22944153af5f850a210488f839fe</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>image/jpg</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

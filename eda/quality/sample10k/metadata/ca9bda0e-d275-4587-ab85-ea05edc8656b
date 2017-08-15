@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/nhd.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey in cooperation with U.S. Environmental Protection Agency and other State and local partners (see dataset specific metadata under Data_Set_Credit for details)</origin>
+        <pubdate>2001</pubdate>
+        <title>National Hydrography Dataset (NHD)</title>
+        <geoform>map</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?nhd</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The National Hydrography Dataset (NHD) is a feature-based database that interconnects and uniquely identifies the stream segments or reaches that make up the nation's surface water drainage system. NHD data was originally developed at 1:100,000 scale and exists at that scale for the whole country.  High resolution NHD adds detail to the original 1:100,000-scale NHD.  (Data for Alaska, Puerto Rico and the Virgin Islands was developed at high-resolution, not 1:100,000 scale.) Like the 1:100,000-scale NHD, high resolution NHD contains reach codes for networked features and isolated lakes, flow direction, names, stream level, and centerline representations for areal water bodies. Reaches are also defined to represent waterbodies and the approximate shorelines of the Great Lakes, the Atlantic and Pacific Oceans and the Gulf of Mexico. The NHD also incorporates the National Spatial Data Infrastructure framework criteria set out by the Federal Geographic Data Committee.</abstract>
+      <purpose>NHD is used with other data themes such as elevation, boundaries, and transportation to produce general reference maps. The NHD is often used by scientists using GIS technology. GIS takes advantage of a rich set of attributes that can be processed to generate specialized information. These analyses are possible because the NHD contains a flow direction network that traces the water downstream or upstream. The NHD also uses an addressing system to link specific information about the water such as discharge rates, water quality, and fish population. Using the basic NHD attributes, flow network, linked information, and other characteristics, it is possible to study cause and affect relationships such as how a source of poor water quality upstream might affect a fish population downstream. The features in the NHD are organized into polygons, lines and points. The polygons most commonly portray waterbodies such as lakes while lines commonly portray streams. The stream lines are broken into shorter segments stretching from confluence-to-confluence. The segments are then linked together to trace the flow of water across the landscape. Flowlines attributed as artificial paths are added inside water bodies to maintain the flow network.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2001</begdate>
+          <enddate>unknown</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>see dataset specific metadata</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.7333</westbc>
+        <eastbc>-067.9500</eastbc>
+        <northbc>49.3833</northbc>
+        <southbc>24.5333</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>U.S. Department of the Interior, U.S. Geological Survey, 1999, Standards for National Hydrography Dataset (http://mapping.usgs.gov/standards/)</themekt>
+        <themekey>FWHYDROGRAPHY</themekey>
+        <themekey>Hydrography</themekey>
+        <themekey>Stream / River</themekey>
+        <themekey>Lake / Pond</themekey>
+        <themekey>Canal / Ditch</themekey>
+        <themekey>Reservoir</themekey>
+        <themekey>Spring / Seep</themekey>
+        <themekey>Swamp / Marsh</themekey>
+        <themekey>Artificial Path</themekey>
+        <themekey>Reach</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>U.S. Department of Commerce, 1977, Countries, dependencies, areas of special sovereignty, and their principal administrative divisions (Federal Information Processing Standards 10-3): Washington, D.C., National Institute of Standards and Technology.</placekt>
+        <placekey>US</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None.  Acknowledgment of the originating agencies would
+be appreciated in products derived from these data.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>National Hydrography Dataset User Support, USGS</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Mail Stop 808
+1400 Independence Road
+					</address>
+          <city>Rolla</city>
+          <state>MO</state>
+          <postal>65401</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>573-308-3652</cntfax>
+        <cntemail>nhd@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://nhd.usgs.gov/index.html</browsen>
+      <browsed>Web site and further information pertaining to the National Hydrography Dataset.
+			</browsed>
+      <browset>html</browset>
+    </browse>
+    <datacred>See dataset specific metadata</datacred>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr> The entry and identifier for the names match those in the Geographic Names Information System. The association of each name to reaches has been interactively checked, however, operator error could in some cases apply a name to a wrong reach.</attraccr>
+    </attracc>
+    <logic>Points, nodes, lines, and areas conform to topological rules.  Lines intersect only at nodes, and all nodes anchor the ends of lines.  Lines do not overshoot or undershoot other lines where they are supposed to meet.  There are no duplicate lines.  Lines bound areas and lines identify the areas to the left and right of the lines.  Gaps and overlaps among areas do not exist.  All areas close.</logic>
+    <complete>ond features. Detailed capture conditions are provided for every feature type in the Standards for National Hydrography Dataset - High Resolution (USGS, 1999), available online through http://mapping.usgs.gov/standards/.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>(at map scale). Features with like dimensionality (for example, features that all are delineated with lines), with or without like characteristics, that are within the tolerance are aligned by moving the features equally to a common point. Features outside the tolerance are not moved; instead, a feature of type connector is added to join the features.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Statements of vertical positional accuracy for elevation of water surfaces are based on accuracy statements made for U.S. Geological Survey topographic quadrangle maps.  These maps were compiled to meet National Map Accuracy Standards.  For vertical accuracy, this standard is met if at least 90 percent of well-defined points tested are within one-half contour interval of the correct value.  Elevations of water surface printed on the published map meet this standard; the contour intervals of the maps vary.  These elevations were transcribed into the digital data; the accuracy of this transcription was checked by visual comparison between the data and the map.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey in cooperation with U.S. Environmental Protection Agency.</origin>
+            <pubdate>1999</pubdate>
+            <title>National Hydrography Dataset</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>100000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1999</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>Reach codes and flow direction attributes.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>Geographic Names Information System Oracle Database</title>
+            <othercit>unpublished materials</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1999</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Custom extract from the GNIS databases</srccurr>
+        </srctime>
+        <srccitea>GNIS</srccitea>
+        <srccontr>Names for reaches and areal water.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>unknown</pubdate>
+            <title>NHD basic features</title>
+            <othercit>unpublished materials</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Date the revision process step was completed.</srccurr>
+        </srctime>
+        <srccitea>NHD basic features</srccitea>
+        <srccontr>Spatial and attribute information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>(see dataset specific metadata)</origin>
+            <pubdate>unknown</pubdate>
+            <title>Subbasin boundaries (formerly called Cataloging Unit Boundaries)</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>(see dataset specific metadata)</srccurr>
+        </srctime>
+        <srccitea>Subbasin boundaries</srccitea>
+        <srccontr>Updated Subbasin boundaries</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>-res NHD. New reaches were assigned reach code values that are sequentially ordered to 2-D and then 1-D reaches. New high-res reach codes are larger than any existing med-res reach code in the associated Catalog Unit. Additional Geographic Names that exist in the Geographic Names Information System (GNIS) were added to reaches in the high-res dataset. Names for the high-res drainage network were interactively transferred from the vector GNIS coverage. Additional GNIS names for point and waterbody features were also added.</procdesc>
+        <srcused>NHD basic features</srcused>
+        <srcused>GNIS</srcused>
+        <srcused>Subbasin boundaries</srcused>
+        <srcused>NHD</srcused>
+        <procdate>unknown</procdate>
+        <srcprod>High-resolution NHD</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.0000001</latres>
+        <longres>0.0000001</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>National Geodetic Vertical Datum of 1929</altdatum>
+        <altres>1.0</altres>
+        <altunits>feet</altunits>
+        <altenc>attribute values</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>ll feature types, characteristics, and values are in U.S. Geological Survey, 1999, Standards for National Hydrography Dataset:  Reston, Virginia, U.S. Geological Survey.  The document is available online through http://mapping.usgs.gov/standards/.  Information about tables and fields in the data are available from the user documentation for the National Hydrography Dataset.
+			</eaover>
+      <eadetcit>http://nhd.usgs.gov/techref.html</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Web Site for download</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>data downloads</filedec>
+          <transize>large files</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>ftp://nhdftp.usgs.gov/DataSets/National </networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+nhd</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20010101</begdate>
+    <enddate>unknown</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_nhd.html</htmlurl>
+  </mercury>
+</metadata>

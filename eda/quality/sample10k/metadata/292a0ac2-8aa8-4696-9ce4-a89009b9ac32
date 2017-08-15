@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>http://coastalmap.marine.usgs.gov/metadata/ocean_time_series/stellwagen_database.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Ellyn T. Montgomery</origin>
+        <origin>U.S. Geological Survey (USGS) / Woods Hole Coastal and Marine Science Center (WHCMSC) sediment transport group investigators</origin>
+        <pubdate>2008</pubdate>
+        <title>U.S. Geological Survey Oceanographic Time Series Data Collection</title>
+        <othercit>U.S. Geological Survey approved online database web interface. As of 2016, the database contains about 5,000 files, which include observations of current velocity, wave statistics, ocean temperature, conductivity, pressure, and light transmission at one or more depths over some period of time.</othercit>
+        <onlink>http://stellwagen.er.usgs.gov/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The oceanographic time series data collected by U.S. Geological Survey scientists and collaborators are
+served in an online database at http://stellwagen.er.usgs.gov/index.html. These data were collected as
+part of research experiments investigating circulation and sediment transport in the coastal ocean. The
+experiments (projects, research programs) are typically one month to several years long and have been
+carried out since 1975. New experiments will be conducted, and the data from them will be added to the
+collection. As of 2016, all but one of the experiments were conducted in waters abutting the U.S. coast;
+the exception was conducted in the Adriatic Sea. Measurements acquired vary by site and experiment;
+they usually include current velocity, wave statistics, water temperature, salinity, pressure, turbidity,
+and light transmission from one or more depths over a time period. The measurements are concentrated
+near the sea floor but may also include data from the water column.
+The user interface provides an interactive map, a tabular summary of the experiments, and a separate
+page for each experiment. Each experiment page has documentation and maps that provide details of what
+data were collected at each site. Links to related publications with additional information about the
+research are also provided. The data are stored in Network Common Data Format (netCDF) files using the
+Equatorial Pacific Information Collection (EPIC) conventions defined by the National Oceanic and
+Atmospheric Administration (NOAA) Pacific Marine Environmental Laboratory. NetCDF is a general,
+self-documenting, machine-independent, open source data format created and supported by the University
+Corporation for Atmospheric Research (UCAR). EPIC is an early set of standards designed to allow
+researchers from different organizations to share oceanographic data. The files may be downloaded or
+accessed online using the Open-source Project for a Network Data Access Protocol (OPeNDAP). The OPeNDAP
+framework allows users to access data from anywhere on the Internet using a variety of Web services
+including Thematic Realtime Environmental Distributed Data Services (THREDDS). A subset of the data
+compliant with the Climate and Forecast convention (CF, currently version 1.6) is also available.</abstract>
+      <purpose>To provide public access to measurements acquired by U.S. Geological Survey investigators that describe and quantify oceanographic processes and how they affect sediment transport and biologic productivity.</purpose>
+      <supplinf>Datasets are organized by experiment; a tabular list the experiment names, the principal investigators, when and where the experiments were conducted is available at http://stellwagen.er.usgs.gov/experiments.html. The links take you to the individual experiment pages with more detailed explanation, data summaries and access. These pages may also be used to explain the content of the top-level THREDDS catalog links provided in the data distribution section.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1975</begdate>
+          <enddate>present</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition of data acquisition. In this instant, present refers to 2016, but new experiments will be conducted and added to the dataset in future.</current>
+    </timeperd>
+    <status>
+      <progress>In work</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-160</westbc>
+        <eastbc>13</eastbc>
+        <northbc>44</northbc>
+        <southbc>16</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) SCIENCE PARAMETERS</themekt>
+        <themekey>ATMOSPHERIC PRESSURE MEASUREMENTS</themekey>
+        <themekey>SEA LEVEL PRESSURE</themekey>
+        <themekey>SURFACE PRESSURE</themekey>
+        <themekey>AIR TEMPERATURE</themekey>
+        <themekey>SURFACE AIR TEMPERATURE</themekey>
+        <themekey>SURFACE WINDS</themekey>
+        <themekey>OXYGEN</themekey>
+        <themekey>OCEAN CURRENTS</themekey>
+        <themekey>ATTENUATION/TRANSMISSION</themekey>
+        <themekey>SEA LEVEL PRESSURE</themekey>
+        <themekey>WATER PRESSURE</themekey>
+        <themekey>WATER TEMPERATURE</themekey>
+        <themekey>WAVE HEIGHT</themekey>
+        <themekey>WAVE SPEED DIRECTION</themekey>
+        <themekey>SURFACE WINDS</themekey>
+        <themekey>CONDUCTIVITY</themekey>
+        <themekey>DENSITY</themekey>
+        <themekey>SALINITY</themekey>
+        <themekey>POTENTIAL DENSITY</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) INSTRUMENT</themekt>
+        <themekey>ANEMOMETERS</themekey>
+        <themekey>BAROMETERS</themekey>
+        <themekey>CONDUCTIVITY METERS</themekey>
+        <themekey>CONDUCTIVITY, TEMPERATURE, DEPTH</themekey>
+        <themekey>CURRENT METERS</themekey>
+        <themekey>INCLINOMETERS</themekey>
+        <themekey>PRESSURE GAUGES</themekey>
+        <themekey>PRESSURE TRANSDUCERS</themekey>
+        <themekey>SALINITY, TEMPERATURE, DEPTH</themekey>
+        <themekey>THERMISTORS</themekey>
+        <themekey>THERMOMETERS</themekey>
+        <themekey>TRANSMISSOMETERS</themekey>
+        <themekey>WIND VANES</themekey>
+      </theme>
+      <theme>
+        <themekt>Global Change Master Directory (GCMD) PROJECT</themekt>
+        <themekey>DODS &gt; DISTRIBUTED OCEANOGRAPHIC DATA SYSTEM</themekey>
+        <themekey>ESIP &gt; EARTH SCIENCE INFORMATION PARTNERS PROGRAM</themekey>
+        <themekey>OPENDAP &gt; OPEN-SOURCE PROJECT FOR A NETWORK DATA ACCESS PROTOCOL</themekey>
+        <themekey>GOMODP &gt; GULF OF MAINE OCEAN DATA PARTNERSHIP</themekey>
+        <themekey>GLOBEC &gt; GLOBAL OCEAN ECOSYSTEM DYNAMICS, IGBP</themekey>
+        <themekey>IGBP &gt; INTERNATIONAL GEOSPHERE-BIOSPHERE PROGRAMME</themekey>
+      </theme>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Coastal and Marine Geology Program</themekey>
+        <themekey>CMGP</themekey>
+        <themekey>Woods Hole Coastal and Marine Science Center</themekey>
+        <themekey>WHCMSC</themekey>
+        <themekey>Air Temperature</themekey>
+        <themekey>Average Burst Pressure</themekey>
+        <themekey>Beam Attenuation</themekey>
+        <themekey>Current Direction (t)</themekey>
+        <themekey>Current Speed</themekey>
+        <themekey>Oxygen</themekey>
+        <themekey>Salinity</themekey>
+        <themekey>Sea Surface Temperature</themekey>
+        <themekey>Dissolved Oxygen</themekey>
+        <themekey>Turbidity</themekey>
+        <themekey>PAR</themekey>
+        <themekey>pH</themekey>
+        <themekey>Sigma Theta</themekey>
+        <themekey>Temperature (c)</themekey>
+        <themekey>Vertical Velocity</themekey>
+        <themekey>Wave Height</themekey>
+        <themekey>Wave Period</themekey>
+        <themekey>Wind Direction</themekey>
+        <themekey>Wind Speed</themekey>
+        <themekey>Meteorology</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 TOPIC CATEGORY</themekt>
+        <themekey>oceans</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>ocean sciences</themekey>
+        <themekey>sedimentology</themekey>
+        <themekey>marine geology</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>North America</placekey>
+        <placekey>Atlantic Ocean</placekey>
+        <placekey>Pacific Ocean</placekey>
+        <placekey>Gulf of Mexico</placekey>
+        <placekey>Gulf of Maine</placekey>
+        <placekey>Georges Bank, ME</placekey>
+        <placekey>Rachel Carlson National Wildlife Refuge, ME</placekey>
+        <placekey>Massachusetts Bay, MA</placekey>
+        <placekey>Buzzards Bay, MA</placekey>
+        <placekey>Marthas Vineyard, MA</placekey>
+        <placekey>Hudson Shelf Valley, NY</placekey>
+        <placekey>Fire Island, NY</placekey>
+        <placekey>Barnegat Bay, NJ</placekey>
+        <placekey>Chincoteague Bay, MD and VA</placekey>
+        <placekey>Blackwater National Wildlife Refuge, MD</placekey>
+        <placekey>Cape Hatteras, NC</placekey>
+        <placekey>South Atlantic Bight</placekey>
+        <placekey>Dauphin Island, LA</placekey>
+        <placekey>Chandeleur Islands, LA</placekey>
+        <placekey>Monterrey Bay, CA</placekey>
+        <placekey>Seal Beach, Pt. Mugu, CA</placekey>
+        <placekey>Palos Verdes Shelf, CA</placekey>
+        <placekey>Hawaiian waters</placekey>
+        <placekey>Adriatic Sea</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey as the originator of the dataset.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Ellyn T. Montgomery</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Technical Contact</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical Address</addrtype>
+          <address>384 Woods Hole Rd</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2356</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>stellwagen_manager@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://stellwagen.er.usgs.gov/images/deplQuadMVCO-sm.jpg</browsen>
+      <browsed>at sea preparing to deploy instrumented platforms off Marthas Vineyard, MA</browsed>
+      <browset>JPEG</browset>
+    </browse>
+    <crossref>
+      <citeinfo>
+        <origin>Ellyn T. Montgomery</origin>
+        <origin>Marinna A. Martini</origin>
+        <origin>Frances L. Lightsom</origin>
+        <origin>Bradford Butman</origin>
+        <pubdate>2016</pubdate>
+        <title>Documentation of the U.S. Geological Survey Oceanographic Time-Series Measurement  Database Edition: 2</title>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2007-1194</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>This report describes the instrumentation and platforms used to make the oceanographic time series measurements; the methods used to process, apply quality-control criteria, and archive the data; the data storage format, and how the data are released and distributed. The report also includes instructions on how to access the data from the online database at http://stellwagen.er.usgs.gov/.</othercit>
+        <onlink>http://dx.doi.org/10.3133/ofr20071194</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <logic>The data accessible on this server have been reviewed and passed the criteria for the Best Basic Version as described in the "Data Quality" section of http://dx.doi.org/10.3133/ofr20071194.</logic>
+    <complete>In this collection of data acquired for research, each experiment has its own page on the website.  The completeness of each experiment is described on its page. The website is updated as data from new experiments are released.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Locational accuracy is dependent on the accuracy of the navigational technique from the individual data sources and may vary widely (e.g., from 0.005km usingdifferential GPS in more recent surveys to greater than 2 km based on radar, Loran, or dead reckoning in older surveys.) Users of the data should use their own criteria for assessing the accuracy of the locations.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Vertical accuracy is dependent on the accuracy of the individual water depth measurement at each deployment site.  Platforms supporting sensors are deployed on the seafloor, and the heights of the sensors on the platform are accurate to 5 cm, but the measurement of the depth at which the platform is deployed is nominal.  The source of the water depth may be from a ships fathometer, chart or visible estimate in shallow water.  The depth does not include a tidal correction, and has not been referenced to a datum. For measurements made before 2000 and in water deeper than 50m, the vertical accuracy is 2-10m.  In shallower environments, the accuracy approaches 5-10 cm. Users of the data should use their own criteria for assessing the vertical accuracy of the water depth.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Each type of data accessible on this server has been processed as described in the "Data Processing" sections of Montgomery and others, 2016 (http://dx.doi.org/10.3133/ofr20071194).</procdesc>
+        <procdate>Not complete</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Ellyn T. Montgomery</cntper>
+        </cntorgp>
+        <cntpos>Data Center Contact</cntpos>
+        <cntaddr>
+          <addrtype>Mailing and Physical Address</addrtype>
+          <address>384 Woods Hole Rd</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2356</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>stellwagen_manager@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>User interface containing text information about experimental programs and links to downloadable files and access via THREDDS Data in the U.S. Geological Survey Oceanographic Time-Series Data Collection</resdesc>
+    <distliab>Although these data have been used by the U.S. Geological Survey (USGS), U.S. Department of the Interior
+(DOI), no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the
+data. The act of distribution shall not constitute any such warranty, and no responsibility is assumed
+by the USGS in the use of these data or related materials.
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>netCDF/OPeNDAP</formname>
+          <formverd>2006</formverd>
+          <formspec>EPIC</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://stellwagen.er.usgs.gov/thredds/catalog/TSdata/catalog.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data may be accessed and downloaded through the THREDDS server. This link takes the user to the top level catalog of data, containing folders representing individual experiments using abbreviations of the experiment name. The table at http://stellwagen.er.usgs.gov/experiments.html may help determine the content of the folders. The NetCDF files contained in these folders conforms to the EPIC conventions.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>netCDF/OPeNDAP</formname>
+          <formvern>1.6</formvern>
+          <formspec>CF</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://geoport.whoi.edu/thredds/dodsC/usgs/data2/emontgomery/stellwagen/CF-1.6/catalog.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Data may be accessed and downloaded through THREDDS server. This link takes the user to the top level catalog of data contained in folders representing individual experiments using abbreviations of the experiment name. The table at http://stellwagen.er.usgs.gov/experiments.html may help determine the content of the folders. The NetCDF files contained in these folders conforms to the CF conventions.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20161025</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Ellyn T. Montgomery</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Data Center Contact</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2356</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>stellwagen_manager@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+  </metainfo>
+  <mercury>
+    <begdate>19750101</begdate>
+    <enddate>20170324</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/coastalmap.marine.usgs.gov_metadata_ocean_time_series_stellwagen_database.html</htmlurl>
+  </mercury>
+</metadata>

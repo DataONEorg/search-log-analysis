@@ -1,0 +1,1439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="df35f.22.16" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset> <title>NOAA AFSC Bottom trawl data formatted for NCEAS Portfolio Effects working group ground fish analysis in the Gulf of Alaska (1984-2015)</title>
+ <creator id="1458596859017"><individualName><givenName>Andrew</givenName>
+ <surName>Shelton</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ </creator>
+ <associatedParty id="1458596925780"><individualName><givenName>Mary</givenName>
+ <surName>Hunsicker</surName>
+ </individualName>
+ <organizationName>University of California, Santa Barbara</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1460760710817"><individualName><givenName>Rachael</givenName>
+ <surName>Blake</surName>
+ </individualName>
+ <organizationName>University of California, Santa Barbara</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1458604473743"><individualName><givenName>Colette</givenName>
+ <surName>Ward</surName>
+ </individualName>
+ <organizationName>NCEAS</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1458604497744"><individualName><givenName>Jessica</givenName>
+ <surName>Couture</surName>
+ </individualName>
+ <organizationName>NCEAS</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1458604520863"><individualName><givenName>Janet</givenName>
+ <surName>Duffy-Anderson</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1458604539105"><individualName><givenName>Anne</givenName>
+ <surName>Hollowed</surName>
+ </individualName>
+ <organizationName>NOAA, National Fisheries Service</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1458604566593"><individualName><givenName>Ben</givenName>
+ <surName>Williams</surName>
+ </individualName>
+ <organizationName>University of Alaska, Fairbanks</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1458604593885"><individualName><givenName>Eric</givenName>
+ <surName>Ward</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <abstract><para>These data are derived from the NOAA Resource Assessment and Conservation Engineering Division (RACE) of the Alaska Fisheries Science Center (AFSC) bottom trawl surveys (df35b.258.10) in preparation for a spatial analysis of the effects of the Exxon Valdez oil spill on groundfish communities in the Gulf of Alaska. The majority of this analysis was conducted by Andrew Shelton from the NOAA Northwest Fisheries Science Center for the portfolio effects working group at the National Center for Ecological Analysis and Synthesis at the University of California, Santa Barbara whose goal is to asses how diversity may have buffered against the effects of EVOS as well as other perturbations. Further and additional analyses can be accessed in additional packages in this repository.</para>
+ </abstract>
+ <keywordSet><keyword>Exxon Valdez</keyword>
+ <keyword>oil spill</keyword>
+ <keyword>Alaska</keyword>
+ <keyword>EVOS</keyword>
+ <keyword>EVOSTC</keyword>
+ <keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+ </keywordSet>
+ <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council (add other funders where necessary).  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding. Please let the Owner know when these data are used.
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <contact id="1458074030658"><individualName><givenName>Andrew</givenName>
+ <surName>Shelton</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ </contact>
+ <dataTable id="1458446427184"><entityName>goa_trawl_final_albers+temp.csv</entityName>
+ <physical id="1458074607838"><objectName>goa_trawl_final_albers+temp.csv</objectName>
+ <size unit="byte">2938883</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.19.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1458446427185"><attributeName>Lat</attributeName>
+ <attributeLabel>Latitude</attributeLabel>
+ <attributeDefinition>Latitude coordinate in decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427186"><attributeName>Lon</attributeName>
+ <attributeLabel>Longitude</attributeLabel>
+ <attributeDefinition>Longitude coordinate in decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427187"><attributeName>LonUTMAlbers</attributeName>
+ <attributeLabel>Longitude UTM Albers</attributeLabel>
+ <attributeDefinition>Average longitude UTM converted to Albers projection</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427188"><attributeName>LatUTMAlbers</attributeName>
+ <attributeLabel>Latitude UTM Albers</attributeLabel>
+ <attributeDefinition>Average latitude UTM converted to Albers projection</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427189"><attributeName>Station</attributeName>
+ <attributeLabel>Station</attributeLabel>
+ <attributeDefinition>Alpha-numeric designation for the Station established in the design of a survey.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>numeric</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427190"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year specimen was collected.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427191"><attributeName>Stratum</attributeName>
+ <attributeDefinition>RACE database statistical area for analyzing data. Strata were designed using bathymetry and other measures of habitat and are unique to each survey series.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427192"><attributeName>BottomDepth</attributeName>
+ <attributeLabel>Bottom Depth</attributeLabel>
+ <attributeDefinition>Meters (m). Weighted average depth (m) and is calculated by adding GEAR_DEPTH to NET_HEIGHT. Prior to (year), before NET_HEIGHT was regularly measured, this value was obtained using either echosounder or bathythermograph.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427193"><attributeName>BottomTemp</attributeName>
+ <attributeLabel>Bottom Temperature</attributeLabel>
+ <attributeDefinition>Weighted average temperature (in tenths of a degree Celsius) measured at the maximum depth of the headrope of the trawl. Null values indicate temperature not recoreded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427194"><attributeName>SurfTemp</attributeName>
+ <attributeLabel>Surface Temperature</attributeLabel>
+ <attributeDefinition>Surface temperature, in tenths of a degree, Celsius. Null values indicate temperature not recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427195"><attributeName>Cruise</attributeName>
+ <attributeLabel>Cruise</attributeLabel>
+ <attributeDefinition>This is a six-digit number identifying the Cruise number. It is of the form: YYYY99 (where YYYY = year of the cruise; 99 = 2-digit number and is sequential; 01 denotes the first cruise that vessel made in this year, 02 is the second, etc.)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>cruise ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427196"><attributeName>Haul</attributeName>
+ <attributeLabel>Haul</attributeLabel>
+ <attributeDefinition>This number uniquely identifies a haul within a cruise. It is a sequential number, in chronological order of occurrence.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427197"><attributeName>log.BottomDepth</attributeName>
+ <attributeLabel>log Bottom Depth</attributeLabel>
+ <attributeDefinition>log of the Bottom Depth</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427198"><attributeName>Pred.bot.temp</attributeName>
+ <attributeLabel>Predicted Bottom Temperature</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427199"><attributeName>Resid.bot.temp</attributeName>
+ <attributeLabel>Residual Bottom Temperature</attributeLabel>
+ <attributeDefinition>Residual Bottom Temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427200"><attributeName>sum.CPUE</attributeName>
+ <attributeLabel>sum of catch per unit area</attributeLabel>
+ <attributeDefinition>Sum of catch weight per area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427201"><attributeName>Atheresthesstomias</attributeName>
+ <attributeLabel>Atheresthes stomias</attributeLabel>
+ <attributeDefinition>Atheresthes stomias weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427202"><attributeName>Hippoglossusstenolepis</attributeName>
+ <attributeLabel>Hippoglossus stenolepis</attributeLabel>
+ <attributeDefinition>Hippoglossus stenolepis weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427203"><attributeName>Theragrachalcogramma</attributeName>
+ <attributeLabel>Theragra chalcogramma</attributeLabel>
+ <attributeDefinition>Theragra chalcogramma weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427204"><attributeName>Gadusmacrocephalus</attributeName>
+ <attributeLabel>Gadus macrocephalus</attributeLabel>
+ <attributeDefinition>Gadus macrocephalus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427205"><attributeName>Glyptocephaluszachirus</attributeName>
+ <attributeLabel>Glyptocephalus zachirus</attributeLabel>
+ <attributeDefinition>Glyptocephalus zachirus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427206"><attributeName>Hippoglossoideselassodon</attributeName>
+ <attributeLabel>Hippoglossoides elassodon</attributeLabel>
+ <attributeDefinition>Hippoglossoides elassodon weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427207"><attributeName>Microstomuspacificus</attributeName>
+ <attributeLabel>Microstomus pacificus</attributeLabel>
+ <attributeDefinition>Microstomus pacificus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerSquareMeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427208"><attributeName>Anoplopomafimbria</attributeName>
+ <attributeLabel>Anoplopoma fimbria</attributeLabel>
+ <attributeDefinition>Anoplopoma fimbria weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerSquareMeter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427209"><attributeName>Sebastesalutus</attributeName>
+ <attributeLabel>Sebastes alutus</attributeLabel>
+ <attributeDefinition>Sebastes alutus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427210"><attributeName>Thaleichthyspacificus</attributeName>
+ <attributeLabel>Thaleichthys pacificus</attributeLabel>
+ <attributeDefinition>Thaleichthys pacificus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427211"><attributeName>Sebastolobusalascanus</attributeName>
+ <attributeLabel>Sebastolobus alascanus</attributeLabel>
+ <attributeDefinition>Sebastolobus alascanus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427212"><attributeName>Hemilepidotusjordani</attributeName>
+ <attributeLabel>Hemilepidotus jordani</attributeLabel>
+ <attributeDefinition>Hemilepidotus jordani weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427213"><attributeName>Lepidopsettasp.</attributeName>
+ <attributeLabel>Lepidopsetta sp.</attributeLabel>
+ <attributeDefinition>Lepidopsetta sp. weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427214"><attributeName>Chionoecetesbairdi</attributeName>
+ <attributeLabel>Chionoecetes bairdi</attributeLabel>
+ <attributeDefinition>Chionoecetes bairdi weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427215"><attributeName>Squalusacanthias</attributeName>
+ <attributeLabel>Squalus acanthias</attributeLabel>
+ <attributeDefinition>Squalus acanthias weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427216"><attributeName>Sebastespolyspinis</attributeName>
+ <attributeLabel>Sebastes paucispinis</attributeLabel>
+ <attributeDefinition>Sebastes paucispinis weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427217"><attributeName>Berryteuthismagister</attributeName>
+ <attributeLabel>Berryteuthis magister</attributeLabel>
+ <attributeDefinition>Berryteuthis magister weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427218"><attributeName>Rajarhina</attributeName>
+ <attributeLabel>Raja rhina</attributeLabel>
+ <attributeDefinition>Raja rhina weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427219"><attributeName>Bathymastersignatus</attributeName>
+ <attributeLabel>Bathymaster signatus</attributeLabel>
+ <attributeDefinition>Bathymaster signatus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427220"><attributeName>Malacocottuszonurus</attributeName>
+ <attributeLabel>Malacocottus zonurus</attributeLabel>
+ <attributeDefinition>Malacocottus zonurus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427221"><attributeName>Hyaslyratus</attributeName>
+ <attributeLabel>Hyaslyratus</attributeLabel>
+ <attributeDefinition>Hyaslyratus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427222"><attributeName>Hemitripterusbolini</attributeName>
+ <attributeLabel>Hemitripterus bolini</attributeLabel>
+ <attributeDefinition>Hemitripterus bolini weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427223"><attributeName>Mallotusvillosus</attributeName>
+ <attributeLabel>Mallotus villosus</attributeLabel>
+ <attributeDefinition>Mallotus villosus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427224"><attributeName>Dasycottussetiger</attributeName>
+ <attributeLabel>Dasycottus setiger</attributeLabel>
+ <attributeDefinition>Dasycottus setiger weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427225"><attributeName>Lycodesbrevipes</attributeName>
+ <attributeLabel>Lycodes brevipes</attributeLabel>
+ <attributeDefinition>Lycodes brevipes weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427226"><attributeName>Lycodespalearis</attributeName>
+ <attributeLabel>Lycodes palearis</attributeLabel>
+ <attributeDefinition>Lycodes palearis weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427227"><attributeName>Ophiodonelongatus</attributeName>
+ <attributeLabel>Ophiodon elongatus</attributeLabel>
+ <attributeDefinition>Ophiodon elongatus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427228"><attributeName>Sebastesbabcocki</attributeName>
+ <attributeLabel>Sebastes babcocki</attributeLabel>
+ <attributeDefinition>Sebastes babcocki weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427229"><attributeName>Rajabinoculata</attributeName>
+ <attributeLabel>Raja binoculata</attributeLabel>
+ <attributeDefinition>Raja binoculata weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427230"><attributeName>Isopsettaisolepis</attributeName>
+ <attributeLabel>Isopsetta isolepis</attributeLabel>
+ <attributeDefinition>Isopsetta isolepis weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427231"><attributeName>Myoxocephaluspolyacanthocephalus</attributeName>
+ <attributeLabel>Myoxocephalus polyacanthocephalus</attributeLabel>
+ <attributeDefinition>Myoxocephalus polyacanthocephalus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427232"><attributeName>Sebastesborealis</attributeName>
+ <attributeLabel>Sebastes borealis</attributeLabel>
+ <attributeDefinition>Sebastes borealis weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427233"><attributeName>Sebastesvariegatus</attributeName>
+ <attributeLabel>Sebastes variegatus</attributeLabel>
+ <attributeDefinition>Sebastes variegatus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427234"><attributeName>Bathyrajainterrupta</attributeName>
+ <attributeLabel>Bathyraja interrupta</attributeLabel>
+ <attributeDefinition>Bathyraja interrupta weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427235"><attributeName>Sebasteszacentrus</attributeName>
+ <attributeLabel>Sebastes zacentrus</attributeLabel>
+ <attributeDefinition>Sebastes zacentrus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427236"><attributeName>Pleurogrammusmonopterygius</attributeName>
+ <attributeLabel>Pleurogrammus monopterygius</attributeLabel>
+ <attributeDefinition>Pleurogrammus monopterygius weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427237"><attributeName>Zaprorasilenus</attributeName>
+ <attributeLabel>Zaprora silenus</attributeLabel>
+ <attributeDefinition>Zaprora silenus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427238"><attributeName>Parophrysvetulus</attributeName>
+ <attributeLabel>Parophrys vetulus</attributeLabel>
+ <attributeDefinition>Parophrys vetulus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427239"><attributeName>Bathyrajaaleutica</attributeName>
+ <attributeLabel>Bathyraja aleutica</attributeLabel>
+ <attributeDefinition>Bathyraja aleutica weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427240"><attributeName>Albatrossiapectoralis</attributeName>
+ <attributeLabel>Albatrossia pectoralis</attributeLabel>
+ <attributeDefinition>Albatrossia pectoralis weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427241"><attributeName>Sebastesbrevispinis</attributeName>
+ <attributeLabel>Sebastes brevispinis</attributeLabel>
+ <attributeDefinition>Sebastes brevispinis weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427242"><attributeName>Hexagrammosdecagrammus</attributeName>
+ <attributeLabel>Hexagrammos decagrammus</attributeLabel>
+ <attributeDefinition>Hexagrammos decagrammus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427243"><attributeName>Limandaaspera</attributeName>
+ <attributeLabel>Limanda aspera</attributeLabel>
+ <attributeDefinition>Limanda aspera weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427244"><attributeName>Clupeapallasi</attributeName>
+ <attributeLabel>Clupea pallasi</attributeLabel>
+ <attributeDefinition>Clupea pallasi weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427245"><attributeName>Platichthysstellatus</attributeName>
+ <attributeLabel>Platichthys stellatus</attributeLabel>
+ <attributeDefinition>Platichthys stellatus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427246"><attributeName>Lyopsettaexilis</attributeName>
+ <attributeLabel>Lyopsetta exilis</attributeLabel>
+ <attributeDefinition>Lyopsetta exilis weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427247"><attributeName>Hydrolaguscolliei</attributeName>
+ <attributeLabel>Hydrolagus colliei</attributeLabel>
+ <attributeDefinition>Hydrolagus colliei weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427248"><attributeName>Oncorhynchustshawytscha</attributeName>
+ <attributeLabel>Oncorhynchus tshawytscha</attributeLabel>
+ <attributeDefinition>Oncorhynchus tshawytscha weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427249"><attributeName>Pleuronectesquadrituberculatus</attributeName>
+ <attributeLabel>Pleuronectes quadri tuberculatus</attributeLabel>
+ <attributeDefinition>Pleuronectes quadri tuberculatus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427250"><attributeName>Myctophidae</attributeName>
+ <attributeLabel>Myctophidae</attributeLabel>
+ <attributeDefinition>Myctophidae weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427251"><attributeName>Sebasteshelvomaculatus</attributeName>
+ <attributeLabel>Sebastes helvomaculatus</attributeLabel>
+ <attributeDefinition>Sebastes helvomaculatus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427252"><attributeName>Sebastesproriger</attributeName>
+ <attributeLabel>Sebastes proriger</attributeLabel>
+ <attributeDefinition>Sebastes proriger weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427253"><attributeName>Merlucciusproductus</attributeName>
+ <attributeLabel>Merluccius productus</attributeLabel>
+ <attributeDefinition>Merluccius productus weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427254"><attributeName>DuskyandDarkRockfish</attributeName>
+ <attributeLabel>Dusky and Dark Rockfish</attributeLabel>
+ <attributeDefinition>Dusky and Dark Rockfish weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458446427255"><attributeName>RougheyeandBlackspottedRockfish</attributeName>
+ <attributeLabel>Rougheye and Blackspotted Rockfish</attributeLabel>
+ <attributeDefinition>Rough eye and Black spotted Rockfish weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>9213</numberOfRecords>
+ </dataTable>
+ <dataTable id="1458584058862"><entityName>goa_trawl_final_size_albers+temp.csv</entityName>
+ <physical id="1458447015268"><objectName>goa_trawl_final_size_albers+temp.csv</objectName>
+ <size unit="byte">2330736</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.21.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1458584058863"><attributeName>Lat</attributeName>
+ <attributeLabel>Latitude</attributeLabel>
+ <attributeDefinition>Latitude in decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058864"><attributeName>Lon</attributeName>
+ <attributeLabel>Longitude</attributeLabel>
+ <attributeDefinition>Longitude in decimal degrees</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058865"><attributeName>LonUTMAlbers</attributeName>
+ <attributeLabel>Longitude UTM Albers</attributeLabel>
+ <attributeDefinition>Average longitude UTM converted to Albers projection</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058866"><attributeName>LatUTMAlbers</attributeName>
+ <attributeLabel>Latitude UTM Albers</attributeLabel>
+ <attributeDefinition>Average latitude UTM converted to Albers projection</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058867"><attributeName>Station</attributeName>
+ <attributeLabel>Station</attributeLabel>
+ <attributeDefinition>Alpha-numeric designation for the Station established in the design of a Survey</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>station ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058868"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year specimen was collected</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058869"><attributeName>sum.CPUE</attributeName>
+ <attributeLabel>sum CPUE</attributeLabel>
+ <attributeDefinition>sum of the catch per area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058870"><attributeName>Cruise</attributeName>
+ <attributeLabel>Cruise</attributeLabel>
+ <attributeDefinition>This is a six-digit number identifying the Cruise number. It is of the form: YYYY99 (where YYYY = year of the cruise; 99 = 2-digit number and is sequential; 01 denotes the first cruise that vessel made in this year, 02 is the second, etc.)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>cruise ID</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058871"><attributeName>Haul</attributeName>
+ <attributeLabel>Haul</attributeLabel>
+ <attributeDefinition>This number uniquely identifies a haul within a cruise. It is a sequential number, in chronological order of occurrence.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058872"><attributeName>Stratum</attributeName>
+ <attributeLabel>Stratum</attributeLabel>
+ <attributeDefinition>RACE database statistical area for analyzing data. Strata were designed using bathymetry and other measures of habitat and are unique to each survey series.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058873"><attributeName>BottomDepth</attributeName>
+ <attributeLabel>Bottom Depth</attributeLabel>
+ <attributeDefinition>Meters (m). Weighted average depth (m) and is calculated by adding GEAR_DEPTH to NET_HEIGHT. Prior to (year), before NET_HEIGHT was regularly measured, this value was obtained using either echosounder or bathythermograph.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058874"><attributeName>BottomTemp</attributeName>
+ <attributeLabel>Bottom Temperature</attributeLabel>
+ <attributeDefinition>Weighted average temperature (in tenths of a degree Celsius) measured at the maximum depth of the headrope of the trawl. Null values indicate temperature not recoreded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058875"><attributeName>SurfTemp</attributeName>
+ <attributeLabel>Surface Temperature</attributeLabel>
+ <attributeDefinition>Surface temperature, in tenths of a degree, Celsius. Null values indicate temperature not recorded.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058876"><attributeName>Atheresthesstomias</attributeName>
+ <attributeLabel>Atheresthes stomias</attributeLabel>
+ <attributeDefinition>Atheresthes stomias weight per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058877"><attributeName>Atheresthesstomias.small.cpue</attributeName>
+ <attributeLabel>Atheresthes stomias small CPUE</attributeLabel>
+ <attributeDefinition>Weight of small Atheresthes stomias caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058878"><attributeName>Atheresthesstomias.large.cpue</attributeName>
+ <attributeLabel>Atheresthes stomias large CPUE</attributeLabel>
+ <attributeDefinition>Weight of large Atheresthes stomias caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058879"><attributeName>Hippoglossusstenolepis</attributeName>
+ <attributeLabel>Hippoglossus stenolepis</attributeLabel>
+ <attributeDefinition>Weight of Hippoglossus stenolepis caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058880"><attributeName>Hippoglossusstenolepis.small.cpue</attributeName>
+ <attributeLabel>Hippoglossus stenolepis small CPUE</attributeLabel>
+ <attributeDefinition>Weight of small Hippoglossus stenolepis caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058881"><attributeName>Hippoglossusstenolepis.large.cpue</attributeName>
+ <attributeLabel>Hippoglossus stenolepis large CPUE</attributeLabel>
+ <attributeDefinition>Weight of large Hippoglossus stenolepis caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058882"><attributeName>Anoplopomafimbria</attributeName>
+ <attributeLabel>Anoplopoma fimbria</attributeLabel>
+ <attributeDefinition>Weight of Anoplopoma fimbria caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058883"><attributeName>Anoplopomafimbria.small.cpue</attributeName>
+ <attributeLabel>Anoplopoma fimbria small CPUE</attributeLabel>
+ <attributeDefinition>Weight of small Anoplopoma fimbria caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058884"><attributeName>Anoplopomafimbria.large.cpue</attributeName>
+ <attributeLabel>Anoplopoma fimbria large CPUE</attributeLabel>
+ <attributeDefinition>Weight of large Anoplopoma fimbria caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058885"><attributeName>Gadus macrocephalus</attributeName>
+ <attributeLabel>Gadus macrocephalus</attributeLabel>
+ <attributeDefinition>Weight of Gadus macrocephalus caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058886"><attributeName>Gadusmacrocephalus.small.cpue</attributeName>
+ <attributeLabel>Gadus macrocephalus small CPUE</attributeLabel>
+ <attributeDefinition>Weight of small Gadus macrocephalus caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058887"><attributeName>Gadusmacrocephalus.large.cpue</attributeName>
+ <attributeLabel>Gadus macrocephalus large CPUE</attributeLabel>
+ <attributeDefinition>Weight of large Gadus macrocephalus caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058888"><attributeName>Theragrachalcogramma</attributeName>
+ <attributeLabel>Theragra chalcogramma</attributeLabel>
+ <attributeDefinition>Weight of Theragra chalcogramma caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058889"><attributeName>Theragrachalcogramma.small.cpue</attributeName>
+ <attributeLabel>Theragra chalcogramma small CPUE</attributeLabel>
+ <attributeDefinition>Weight of small Theragra chalcogramma caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058890"><attributeName>Theragrachalcogramma.large.cpue</attributeName>
+ <attributeLabel>Theragra chalcogramma large CPUE</attributeLabel>
+ <attributeDefinition>Weight of large Theragra chalcogramma caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058891"><attributeName>Sebastesalutus</attributeName>
+ <attributeLabel>Sebastes alutus</attributeLabel>
+ <attributeDefinition>Weight of Sebastes alutus caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058892"><attributeName>Sebastesalutus.small.cpue</attributeName>
+ <attributeLabel>Sebastes alutus</attributeLabel>
+ <attributeDefinition>Weight of small Sebastes alutus caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058893"><attributeName>Sebastesalutus.large.cpue</attributeName>
+ <attributeLabel>Sebastes alutus large CPUE</attributeLabel>
+ <attributeDefinition>Weight of large Sebastes alutus caught per unit area</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>kilogramsPerHectare</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>-9999</code>
+ <codeExplanation>unknown</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1458584058894"><attributeName>log.BottomDepth</attributeName>
+ <attributeLabel>log Bottom Depth</attributeLabel>
+ <attributeDefinition>log of Bottom Depth</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058895"><attributeName>Pred.bot.temp</attributeName>
+ <attributeLabel>Predicted bottom temperature</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1458584058896"><attributeName>Resid.bot.temp</attributeName>
+ <attributeLabel>Residual bottom temperature</attributeLabel>
+ <attributeDefinition>Residual bottom temperature</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Not Available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>9213</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460759711984"><entityName>goa_projection_points+temp.csv</entityName>
+ <physical id="1460742495460"><objectName>goa_projection_points+temp.csv</objectName>
+ <size unit="byte">28650838</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.45.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460759711985"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711986"><attributeName>LONGITUDE</attributeName>
+ <attributeLabel>Longitude</attributeLabel>
+ <attributeDefinition>Longitude coordinate</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711987"><attributeName>LATITUDE</attributeName>
+ <attributeLabel>Latitude</attributeLabel>
+ <attributeDefinition>Latitude coordinate</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711988"><attributeName>LonUTMAlbers</attributeName>
+ <attributeLabel>Longitude UTM Albers</attributeLabel>
+ <attributeDefinition>Average longitude UTM converted to Albers projection</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711989"><attributeName>LatUTMAlbers</attributeName>
+ <attributeLabel>Latitude UTM Albers</attributeLabel>
+ <attributeDefinition>Average latitude UTM converted to Albers projection</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711990"><attributeName>WATER</attributeName>
+ <attributeLabel>Water</attributeLabel>
+ <attributeDefinition>Water</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>water</definition>
+ </codeDefinition>
+ <codeDefinition><code>10</code>
+ <definition>land</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711991"><attributeName>SRTM_M</attributeName>
+ <attributeLabel>SRTM</attributeLabel>
+ <attributeDefinition>Shallow depth measurements derived from SRTM30_Plus data.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711992"><attributeName>NGDC24_M</attributeName>
+ <attributeLabel>NGDC24</attributeLabel>
+ <attributeDefinition>NGDC (National Geophysical Data Center) depth data</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711993"><attributeName>log.BottomDepth</attributeName>
+ <attributeLabel>log Bottom Depth</attributeLabel>
+ <attributeDefinition>log of Bottom Depth</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711994"><attributeName>Bot.Temp.1984</attributeName>
+ <attributeLabel>Bottom Temperature 1984</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 1984 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711995"><attributeName>Bot.Temp.1987</attributeName>
+ <attributeLabel>Bottom Temperature 1987</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 1987 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711996"><attributeName>Bot.Temp.1990</attributeName>
+ <attributeLabel>Bottom Temperature 1990</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 1990 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711997"><attributeName>Bot.Temp.1993</attributeName>
+ <attributeLabel>Bottom Temperature 1993</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 1993 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711998"><attributeName>Bot.Temp.1996</attributeName>
+ <attributeLabel>Bottom Temperature 1996</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 1996 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759711999"><attributeName>Bot.Temp.1999</attributeName>
+ <attributeLabel>Bottom Temp 1999</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 1999 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759712000"><attributeName>Bot.Temp.2001</attributeName>
+ <attributeLabel>Bottom Temperature 2001</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 2001 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759712001"><attributeName>Bot.Temp.2003</attributeName>
+ <attributeLabel>Bottom Temperature 2003</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 2003 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759712002"><attributeName>Bot.Temp.2005</attributeName>
+ <attributeLabel>Bottom Temperature 2005</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 2005 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759712003"><attributeName>Bot.Temp.2007</attributeName>
+ <attributeLabel>Bottom Temperature 2007</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 2007 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759712004"><attributeName>Bot.Temp.2009</attributeName>
+ <attributeLabel>Bottom Temperature 2009</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 2009 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460759712005"><attributeName>Bot.Temp.2011</attributeName>
+ <attributeLabel>Bottom Temperature 2011</attributeLabel>
+ <attributeDefinition>Predicted bottom temperature for 2011 using a krigin algorithm applied to observed bottom temperatures from trawl survey</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>98231</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

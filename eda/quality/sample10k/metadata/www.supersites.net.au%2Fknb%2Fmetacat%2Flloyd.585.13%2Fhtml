@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/lloyd.585.13/html" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" ">
+    <dataset scope="document">
+        <title>Weather Station Data, Far North Queensland Rainforest SuperSite, Robson Creek, 2011</title>
+        <creator id="1326154190148" scope="document">
+            <individualName>
+                <salutation>Assoc Prof</salutation>
+                <givenName>Michael</givenName>
+                <surName>Liddell</surName>
+            </individualName>
+            <organizationName>James Cook University Cairns Campus</organizationName>
+            <address scope="document">
+                <deliveryPoint>PO Box 6811</deliveryPoint>
+                <city>Cairns</city>
+                <administrativeArea>QLD</administrativeArea>
+                <postalCode>4870</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">+61 7 4232 1275</phone>
+            <electronicMailAddress>michael.liddell@jcu.edu.au</electronicMailAddress>
+        </creator>
+        <pubDate>2014-01-07</pubDate>
+        <abstract>
+            <para>An automatic weatherstation was installed in 2010 at the Robson Creek site to provide the baseline climate data for the Terrestrial Ecosystem Research Network (TERN) SuperSite node.  Objectives: collection of baseline weather data.  Key aspects:  automatic weatherstation</para>
+        </abstract>
+        <keywordSet>
+            <keyword>automatic weatherstation</keyword>
+            <keyword>Robson Creek</keyword>
+            <keyword>weather</keyword>
+            <keyword>climate</keyword>
+            <keyword>FNQ Rainforest</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0401</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under Creative Commons - Attribution 4.0 International. The licence allows others copy, distribute, display, and perform the work and derivative works based upon it provided that they credit the original source and any other nominated parties.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/lloyd.585.13/html</url>
+            </online>
+        </distribution>
+        <coverage scope="document">
+            <temporalCoverage scope="document">
+                <rangeOfDates>
+                    <beginDate>
+                        <calendarDate>2011-01-01</calendarDate>
+                    </beginDate>
+                    <endDate>
+                        <calendarDate>2011-12-31</calendarDate>
+                    </endDate>
+                </rangeOfDates>
+            </temporalCoverage>
+            <geographicCoverage scope="document">
+                <geographicDescription>Robson Weatherstation, located on site at 706m ASL</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>145.629628</westBoundingCoordinate>
+                    <eastBoundingCoordinate>145.629628</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-17.116567</northBoundingCoordinate>
+                    <southBoundingCoordinate>-17.116567</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+        </coverage>
+        <contact scope="document">
+            <references>1326154190148</references>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Automatic Weatherstation</title>
+                        <para>Daily weather data (NB hourly data is available by contacting Assoc Prof Mike Liddell directly)</para>
+                    </section>
+                </description>
+                <instrumentation>Weather data collected using an automatic weatherstation (Weathermaster 2000 model, Environdata, Australia) located on site at 706m ASL near the edge of the forest. Station height: 2.0m; surface type: mostly covered by grass.</instrumentation>
+                <instrumentation>Rainfall was recorded using a tipping bucket rainguage (accuracy 2%, resolution 0.2 mm), temperature was recorded using a semiconductor sensor (accuracy 0.2 °C, resolution 0.1 °C), relative humidity using an electronic capacitance sensor (accuracy 4%, resolution 0.1%). Wind speed was recorded using a 3 cup anemometer (resolution 0.1 kph, threshold 1 kph), wind direction was measured using a Hall effect sensor (resolution 2°, accuracy 2°). Global incoming radiation was measured with a pyranometer using cosine correction (accuracy 3%).  When sensor failure occurred gap filling was carried out where possible using data from the local Ozflux station (from 2012) or the co-located CSIRO automatic raingauge – this has been identified in the dataset.</instrumentation>
+                <instrumentation>Data was stored at hourly intervals and summed or averaged to provide daily values</instrumentation>
+            </methodStep>
+        </methods>
+        <project scope="document">
+            <title>FNQ Rainforest Supersite</title>
+            <personnel scope="document">
+                <references>1326154190148</references>
+                <role>Principal Investigator</role>
+            </personnel>
+            <funding>
+                <para>DIISRTE, DEEDI</para>
+            </funding>
+        </project>
+        <dataTable id="1389032806235" scope="document">
+            <entityName>asn_fnqr_weather_robson_2011.csv</entityName>
+            <entityDescription>Daily summary, Robson Creek #1; Serial No 0709-0995</entityDescription>
+            <physical id="1389032632777" scope="document">
+                <objectName>asn_fnqr_weather_robson_2011.csv</objectName>
+                <size unit="byte">23751</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/lloyd.585.13/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1389032806236" scope="document">
+                    <attributeName>Date</attributeName>
+                    <attributeDefinition>Date measurements were taken</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>dd/mm/yyyy</formatString>
+                            <dateTimePrecision>0</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806237" scope="document">
+                    <attributeName>Time</attributeName>
+                    <attributeDefinition>Time measurements were taken</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>hh:mm:ss</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806238" scope="document">
+                    <attributeName>T-av [DegC]</attributeName>
+                    <attributeDefinition>Average temperature</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806239" scope="document">
+                    <attributeName>T-max [DegC]</attributeName>
+                    <attributeDefinition>Maximum temperature</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806240" scope="document">
+                    <attributeName>T-min [DegC]</attributeName>
+                    <attributeDefinition>Minimum temperature</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>celsius</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806241" scope="document">
+                    <attributeName>Speed-av [km/h]</attributeName>
+                    <attributeDefinition>Average wind speed</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>kilometersPerHour</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806242" scope="document">
+                    <attributeName>Speed-max [km/h]</attributeName>
+                    <attributeDefinition>Maximum wind speed</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>kilometersPerHour</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806243" scope="document">
+                    <attributeName>Solar-av [W/m2]</attributeName>
+                    <attributeDefinition>Average solar radiation</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Watts per square metre</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806244" scope="document">
+                    <attributeName>Solar-max [W/m2]</attributeName>
+                    <attributeDefinition>Maximum solar radiation</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Watts per square metre</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806245" scope="document">
+                    <attributeName>RH-av [%]</attributeName>
+                    <attributeDefinition>Average relative humidity</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806246" scope="document">
+                    <attributeName>RH-max [%]</attributeName>
+                    <attributeDefinition>Maximum relative humidity</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806247" scope="document">
+                    <attributeName>RH-min [%]</attributeName>
+                    <attributeDefinition>Minimum relative humidity</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806248" scope="document">
+                    <attributeName>Rainfall [mm]</attributeName>
+                    <attributeDefinition>Daily rainfall</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>millimeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1389032806249" scope="document">
+                    <attributeName>NOTES</attributeName>
+                    <attributeDefinition>Additional information on status of equipment</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>additional information</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>365</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="Percentage" multiplierToSI="0.01" name="Percentage" parentSI="number" unitType="ratios">
+                    <description>per cent</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="Watts per square metre" name="Watts per square metre" parentSI="watt" unitType="irradiance">
+                    <description>SI unit of irradiance</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <qualityControl timestamp="2014-11-18T20:00:29.319Z" username="datalibrarian"/>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

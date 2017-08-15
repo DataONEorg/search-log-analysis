@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>R4.x260.204-0037-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Frank Hernandez</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>University of Southern Mississippi / Department of Coastal Sciences</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Assistant Professor</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>2288188800</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[Gulf Coast Research Laboratory
+703 East Beach Drive]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Ocean Springs</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Mississippi</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>39564</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>frank.hernandez@usm.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2016-11-15T16:42:43+00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/R4.x260.204:0037</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>BIONESS profile and plankton sample collection data, cruise PTS01, northern Gulf of Mexico, October – November 2015</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString/>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2016-10-31</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Depth-discrete plankton samples were collected during CONCORDE cruise PTS01 (October 28th-November 5th, 2015) using a Bedford Institute of Oceanography Net Environmental Sampling System (BIONESS). The BIONESS (0.25 m2 opening) was fitted with six 333-µm mesh nets and three 202-µm mesh nets. Profile data (depth, temperature, salinity) were obtained with a SBE-19+ CTD (Sea-Bird Electronics) integrated with the BIONESS data logger. Samples were collected generally between the 15 and 40 m depth contours between the Chandeleur Islands and the Alabama/Florida border to assess the horizontal and vertical distribution of plankton under low freshwater discharge conditions characteristic of the Fall.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>The intent of this dataset is to identify the station, field, and environmental conditions that were encountered during each BIONESS tow on the Fall field campaign of CONCORDE (October-November). The station and field information were recorded at the start and end of the station by field personnel on the vessel whereas the environmental data (temperature and salinity) were collected with a CTD (SBE-19+) mounted to the BIONESS system.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Frank Hernandez</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>University of Southern Mississippi / Department of Coastal Sciences</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Assistant Professor</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>2288188800</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[Gulf Coast Research Laboratory
+703 East Beach Drive]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Ocean Springs</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Mississippi</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>39564</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>frank.hernandez@usm.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>BIONESS</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Depth-Discrete Samples</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Salinity</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Temperature</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Depth</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>                        
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng; USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                       <gmd:EX_GeographicBoundingBox>
+                           <gmd:westBoundLongitude>
+                               <gco:Decimal>-88.971233</gco:Decimal>
+                           </gmd:westBoundLongitude>
+                           <gmd:eastBoundLongitude>
+                               <gco:Decimal>-87.5136</gco:Decimal>
+                           </gmd:eastBoundLongitude>
+                           <gmd:southBoundLatitude>
+                               <gco:Decimal>29.258133</gco:Decimal>
+                           </gmd:southBoundLatitude>
+                           <gmd:northBoundLatitude>
+                               <gco:Decimal>30.197133</gco:Decimal>
+                           </gmd:northBoundLatitude>
+                       </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement><gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiCurve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="curvedline">
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve1">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.592255 -88.595115 29.599528 -88.630133</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve2">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">30.128667 -88.123717 30.0994 -88.124517</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve3">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">30.1276 -88.124683 30.114133 -88.127017</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve4">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.5686 -88.134767 29.561133 -88.15035</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve5">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">30.192633 -87.529517 30.197133 -87.530133</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve6">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.660383 -87.54775 29.66545 -87.526</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve7">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.663967 -87.523833 29.657067 -87.5136</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve8">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">30.126083 -88.1255 30.115567 -88.125</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve9">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">30.12825 -88.12475 30.116817 -88.123867</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve10">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.627767 -88.134333 29.6135 -88.13975</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve11">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.598833 -88.146283 29.586417 -88.153133</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve12">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">30.0915 -88.613267 30.0738 -88.592533</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve13">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.590517 -88.597033 29.57885 -88.570083</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve14">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.258133 -88.803017 29.276883 -88.8165</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve15">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.343983 -88.642467 29.368817 -88.669967</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve16">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.3679 -88.849383 29.338617 -88.8666</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve17">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.324383 -88.971233 29.322283 -88.934017</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve18">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.283217 -88.706 29.296383 -88.679267</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                </gml:MultiCurve>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>Ground condition</gml:description>
+                                    <gml:beginPosition>2015-10-28</gml:beginPosition>
+                                    <gml:endPosition>2015-11-05</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Station Data: 
+ Tow Number Unique number assigned to each BIONESS tow
+ Cruise Unique name assigned to each research cruise
+ Date Date of sample collection in Coordinated Universal Time (UTC)
+ Station Region where sample was collected: ECORR (Eastern Corridor), MCORR (Mobile Corridor), WCORR (Western Corridor), Array (Mooring Array)
+ Water Depth (m) Depth recorded on station based on vessel instrumentation
+ Wind Speed Wind speed recorded by research personnel while on station
+ Wind Direction Wind direction recorded by research personnel while on station
+ Sea State Sea state recorded by research personnel while on station
+ Weather State Weather state recorded by research personnel while on station
+ Start Time Time (UTC) recorded by research personnel at the start of the BIONESS tow
+ Start Latitude (degrees) Latitude (degrees) recorded by research personnel at the start of the BIONESS tow
+ Start Latitude (minutes) Latitude (minutes) recorded by research personnel at the start of the BIONESS tow
+ Start Longitude (degrees) Longitude (degrees) recorded by research personnel at the start of the BIONESS tow
+ Start Longitude (minutes) Longitude (minutes) recorded by research personnel at the start of the BIONESS tow
+ End Time Time (UTC) recorded by research personnel at the end of the BIONESS tow
+ End Latitude (degrees) Latitude (degrees) recorded by research personnel at the end of the BIONESS tow
+ End Latitude (minutes) Latitude (minutes) recorded by research personnel at the end of the BIONESS tow
+ End Longitude (degrees) Longitude (degrees) recorded by research personnel at the end of the BIONESS tow
+ End Longitude (minutes) Longitude (minutes) recorded by research personnel at the end of the BIONESS tow
+ 
+ Net Data: 
+ Tow Number Unique number assigned to each BIONESS tow
+ Cruise Unique name assigned to each research cruise
+ Station1 Region where sample was collected: ECORR (Eastern Corridor), MCORR (Mobile Corridor), WCORR (Western Corridor), Array (Mooring Array)
+ CONCORDE Sample Number Unique number assigned to each plankton sample
+ Net Number Unique net number (1-9) that identifies the net that was opened to collect the sample
+ Net Mesh Plankton net mesh size; 202-μm or 333-μm
+ Date Coordinated Universal Time (UTC) Date of sample collection
+ Net Opening Time Time (UTC) when the net opened and began collecting plankton
+ Net Opening Depth (m) Depth in the water column (m) where the net opened and began collecting plankton
+ Net Opening Temp (°C) Temperature in the water column (°C) when the net opened and began collecting plankton
+ Net Opening Salinity (psu) Salinity in the water column (psu) when the net opened and began collecting plankton
+ Net Closing Time Time (UTC) when the net closed and stopped collecting plankton
+ Net Closing Depth (m) Depth in the water column (m) where the net closed and began collecting plankton
+ Net Closing Temp (°C) Temperature in the water column (°C) when the net closed and stopped collecting plankton
+ Net Closing Salinity (psu) Salinity in the water column (psu) when the net closed and stopped collecting plankton
+ Total Swept Volume (m3) Total volume (m3) of water filtered while the net was open
+ Total Time Open (hh:mm:ss) Total time that the net was open
+ 
+ 
+ Profile Data: 
+ Tow Number Unique number assigned to each BIONESS tow
+ Net Number Unique net number (1-9) that identifies the net that was opened to collect the sample
+ Salinity (psu) Salinity (psu) recorded during the BIONESS tow at 1 Hz
+ Temperature (°C) Temperature (°C) during the BIONESS tow at 1 Hz
+ Depth (m) Depth (m) recorded during the BIONESS tow at 1 Hz
+ |||||</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[6300 Ocean Drive
+Unit 5869]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString/>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>xlsx</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString/>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>3.11</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/R4.x260.204:0037</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString/>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was automatically generated by the GRIIDC Metadata Generator from DIF and Registry information provided to GRIIDC for dataset: R4.x260.204:0037 on 2016-10-31T18:25:51+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Check and Save to File' (with form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-10-31T18:44:20+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

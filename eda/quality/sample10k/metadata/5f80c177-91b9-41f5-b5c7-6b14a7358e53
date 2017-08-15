@@ -1,0 +1,834 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/ofr96-448_recharg.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Adams, Gregory P.</origin>
+        <origin>Runkle, Donna</origin>
+        <origin>Rea, Alan</origin>
+        <origin>Becker, Carol J.</origin>
+        <pubdate>1997</pubdate>
+        <title>Digital data sets that describe aquifer characteristics of the alluvial and terrace deposits along the North Canadian River from Oklahoma City to Eufaula Lake in east-central Oklahoma</title>
+        <edition>1.0</edition>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>96-448</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?ofr96-448_recharg</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set consists of digital polygons of a constant
+recharge value for the alluvial and terrace deposits along the
+North Canadian River from Oklahoma City to Eufaula Lake in
+east-central Oklahoma. Ground water in 710 square miles of
+Quaternary-age alluvial and terrace deposits along the North
+Canadian River is an important source of water for irrigation,
+industrial, municipal, stock, and domestic supplies. The
+aquifer, composed of alluvial and terrace deposits, consists of
+sand, silt, clay, and gravel. The aquifer is underlain and in
+hydraulic connection with the upper zone of the Permian-age
+Garber-Wellington aquifer and the Pennsylvanian-age Ada-Vamoosa
+aquifer.
+
+Some of the polygon boundaries were digitized from a published
+ground-water modeling report about the aquifer and some lines
+were extracted from published digital geology data sets.
+Recharge was estimated to range from 1.7 inches per year in the
+west to 7.0 inches per year in the east, with an average of 3.3
+inches per year in the published ground-water modeling report.
+The recharge values used as input to the ground-water flow model
+were not published and were not available from any other source.
+Therefore, the alluvial and terrace deposits were assigned the
+average recharge value of 3.3 inches per year in this data set.
+
+Ground-water flow models are numerical representations that
+simplify and aggregate natural systems. Models are not unique;
+different combinations of aquifer characteristics may produce
+similar results. Therefore, values of recharge used in the
+model and presented in this data set are not precise, but are
+within a reasonable range when compared to independently
+collected data.
+			</abstract>
+      <purpose>This data set was created for a project to develop data sets to
+support ground-water vulnerability analysis. The objective was
+to create and document a digital geospatial data set from a
+published report or map, or existing digital geospatial data
+sets that could be used in ground-water vulnerability analysis.
+			</purpose>
+      <supplinf>Introduction --
+
+This data set consists of digital polygons of a constant
+recharge value for the alluvial and terrace deposits along the
+North Canadian River from Oklahoma City to Eufaula Lake in
+east-central Oklahoma. Ground water in 710 square miles of
+Quaternary-age alluvial and terrace deposits along the North
+Canadian River is an important source of water for irrigation,
+industrial, municipal, stock, and domestic supplies. The
+aquifer, composed of alluvial and terrace deposits, consists of
+sand, silt, clay, and gravel. The aquifer is underlain and in
+hydraulic connection with the upper zone of the Permian-age
+Garber-Wellington aquifer and the Pennsylvanian-age Ada-Vamoosa
+aquifer. Other Permian and Pennsylvanian-age rocks underlying
+the alluvial and terrace deposits have low permeabilities and
+are not in hydraulic connection with the alluvial and terrace
+aquifer (Havens, 1989).
+
+The constant recharge value and some of the polygon boundaries
+are from a ground-water modeling report published by the U.S.
+Geological Survey, "Geohydrology of the alluvial and terrace
+deposits of the North Canadian River from Oklahoma City to
+Eufaula Lake, central Oklahoma," by Havens (1989, p. 22 and pl.
+6). Some lines representing polygon boundaries were extracted
+from digital surficial geology data sets by Cederstrand (1996a,
+1996b) based on a scale of 1:250,000. The model-grid boundaries
+were digitized from a paper-base map published at a scale of
+1:250,000 (Havens, 1989, plate 6).
+
+Recharge to the aquifer was estimated by Havens (1989, p.22) to
+range from 1.7 inches per year  in the west to 7.0 inches per
+year  in the east, with an average of 3.3 inches per year. The
+recharge values used as input to the ground-water flow model
+were not published in Havens (1989) and were not available from
+any other source. Therefore, the alluvial and terrace deposits
+were assigned the average recharge value of 3.3 inches per year
+in this data set. Digital Line Graph (DLG) format requires
+numbers to be stored as integers. Therefore, the recharge in
+inches per year was multiplied by 100 and stored in the digital
+data sets as hundredths of inches per year. For example 3.3
+inches per year was multiplied by 100 and stored in the digital
+data sets as 330 in hundredths of an inch per year.
+
+Permian outcrops and parts of the aquifer that were not
+included in the ground-water model were given a value -99999
+to indicate the recharge is not known. Havens (1989) used a
+grid size of 2 square miles in the ground-water flow model of
+the alluvial and terrace deposits.
+
+Ground-water flow models are numerical representations that
+simplify and aggregate natural systems. Models are not unique;
+different combinations of aquifer characteristics may produce
+similar results. The hydraulic conductivity and recharge are
+closely interrelated. As long as these two model inputs are
+in balance the model has a small mean residual; it represents
+the natural system numerically. If the hydraulic conductivity is
+accurately known, the model can be used to accurately determine
+recharge. Likewise, if the hydraulic conductivity is poorly
+known, then the recharge will be poorly determined.
+
+Therefore, values of recharge used in the model and presented
+in this data set are not precise, but are within a reasonable
+range when compared to independently collected data. Recharge
+probably varies considerably over the local area, and model
+recharge is at best an average over an area at least as large
+as the model grid (and probably much larger than a single
+cell).
+
+Reviews Applied to Data --
+
+This electronic report was subjected to the same review standard
+that applies to all U.S. Geological Survey reports. Reviewers
+were asked to check the topological consistency, tolerances,
+attribute frequencies and statistics, projection, and geographic
+extent. Reviewers were given digital data sets and paper plots
+for checking against the source maps to verify the linework and
+attributes. The reviewers checked the metadata and a_readme.1st
+files for completeness and accuracy.
+
+Related Spatial and Tabular Data Sets --
+
+This data set is one of four digital map data sets being published
+together for this aquifer. The four data sets are:
+
+&gt;              aqbound -  aquifer boundaries
+
+&gt;              cond    -  hydraulic conductivity
+
+&gt;              recharg -  aquifer recharge
+
+&gt;              wlelev  -  water-level elevation contours
+
+Digital map data sets of the Oklahoma surficial geology digitized from
+1:250,000-scale maps (or 1:125,000-scale maps for the three Oklahoma
+panhandle counties) are published separately.
+
+Other References Cited --
+
+Cederstrand, J.R., 1996a, Digital geologic map of Fort Smith
+quadrangle, east-central Oklahoma: U.S. Geological Survey
+Open-File Report 96-375, based on a scale of 1:250,000, 2
+diskettes. (Available in nonproprietary and ARC/INFO formats.)
+URL:http://wwwok.cr.usgs.gov/gis/geology/index.html
+
+Cederstrand, J.R., 1996b, Digital geologic map of Oklahoma City
+quadrangle, central Oklahoma: U.S. Geological Survey Open-File
+Report 96-378, based on a scale of 1:250,000, 2 diskettes.
+(Available in nonproprietary and ARC/INFO formats.)
+URL:http://wwwok.cr.usgs.gov/gis/geology/index.html
+
+Environmental Systems Research Institute, Inc. (ESRI), 1995,
+ARC/INFO Command Reference, ARC/INFO On-line manuals: Redlands,
+CA.
+
+Havens, J.S., 1989, Geohydrology of the alluvial and terrace
+deposits of the North Canadian River from Oklahoma City to
+Eufaula Lake, central Oklahoma: U.S. Geological Survey
+Water-Resources Investigations Report 88-4234, 32 p., 12 pl.
+
+Notes --
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.
+
+Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials.
+
+The act of distribution shall not constitute any such warranty,
+and no responsibility is assumed by the U.S. Geological Survey in
+the use of this data, software, or related materials.
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1989</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-97.7581</westbc>
+        <eastbc>-95.6618</eastbc>
+        <northbc>35.6147</northbc>
+        <southbc>35.0633</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>ground-water vulnerability</themekey>
+        <themekey>groundwater vulnerability</themekey>
+        <themekey>aquifers</themekey>
+        <themekey>ground water</themekey>
+        <themekey>groundwater</themekey>
+        <themekey>North Canadian alluvial and terrace aquifer</themekey>
+        <themekey>alluvial and terrace aquifer</themekey>
+        <themekey>terrace aquifer</themekey>
+        <themekey>terrace</themekey>
+        <themekey>alluvial aquifer</themekey>
+        <themekey>alluvium</themekey>
+        <themekey>recharge</themekey>
+        <themekey>recharge rate</themekey>
+        <themekey>ground-water recharge</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>east-central Oklahoma</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>Lines representing aquifer boundaries, and therefore recharge
+boundaries, were extracted from digital geology data sets by
+Cederstrand (1996a, 1996b) based on a scale of 1:250,000. Some
+of the model-grid boundaries (Havens, 1989, plate 6) were
+digitized from a paper-base map with a maximum registration
+root mean squared error (RMSE) of 0.0135 map inches (0.0053
+map centimeters). Recharge polygons represented at this scale
+are indicative of broad, regional trends and should not be
+interpreted as site-specific.
+
+Ground-water flow models are numerical representations that
+simplify and aggregate natural systems. Models are not unique;
+different combinations of aquifer characteristics may produce
+similar results. The hydraulic conductivity and recharge are
+closely interrelated. As long as these two model inputs are
+in balance the model has a small mean residual; it represents the
+natural system numerically. If the hydraulic conductivity is
+accurately known, the model can be used to accurately determine
+recharge. Likewise, if the hydraulic conductivity is poorly
+known, then the recharge will be poorly determined.
+
+Therefore, values of recharge used in the model and presented
+in this data set are not precise, but are within a reasonable
+range when compared to independently collected data. Recharge
+probably varies considerably over the local area, and model
+recharge is at best an average over an area at least as large
+as the model grid (and probably much larger than a single
+cell).
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Donna L. Runkle</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>202 NW 66th St., Bldg. 7</address>
+          <city>Oklahoma City</city>
+          <state>Oklahoma</state>
+          <postal>73116</postal>
+          <country>United States of America</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>(405) 843-7712</cntfax>
+        <cntemail>dlrunkle@usgs.gov</cntemail>
+        <cntinst>none</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/ofr96-448.gif</browsen>
+      <browsed>A browse image of the four aquifer data sets.</browsed>
+      <browset>GIF</browset>
+    </browse>
+    <datacred>Compilation of this data set and the associated metadata was
+funded under a cooperative Joint Funding Agreement between the
+U.S. Geological Survey and the State of Oklahoma, Office of
+the Secretary of Environment.
+		</datacred>
+    <secinfo>
+      <secsys>Public</secsys>
+      <secclass>UNCLASSIFIED</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Operating System-- UNIX, ARC/INFO Version 7.0.3,(Mon Mar 13 22:21:55 PST 1995)
+		</native>
+    <crossref>
+      <citeinfo>
+        <origin>Cederstrand, Joel R.</origin>
+        <pubdate>1996</pubdate>
+        <title>Digital geologic map of Oklahoma City quadrangle,
+central Oklahoma
+				</title>
+        <edition>1.0</edition>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>96-378</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Oklahoma City, OK</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?ofr96-448_recharg</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Cederstrand, Joel R.</origin>
+        <pubdate>1996</pubdate>
+        <title>Digital geologic map of Fort Smith quadrangle,
+east-central Oklahoma
+				</title>
+        <edition>1.0</edition>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>96-375</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Oklahoma City, OK</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://wwwok.cr.usgs.gov/gis/geology/index.html</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <logic>Polygon and chain-node topology present.</logic>
+    <complete>This data set includes all the areas of a specified recharge
+value reported by Havens (1989) on page 22 for the North
+Canadian alluvial and terrace deposits and were given a
+LSOURCE line attribute of 1.  Some aquifer boundary lines are
+from Cederstrand (1996a, 1996b) and were given a value of 2
+for the LSOURCE line attribute. The boundary lines by
+Cederstrand (1996a, 1996b) are more detailed and contain
+bedrock outcrops not shown by Havens (1989).
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>None</horizpar>
+        <qhorizpa>
+          <horizpav>64 meters</horizpav>
+          <horizpae>Resolution as reported</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>None.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Polygon boundaries were extracted from digital geology data
+sets using the ARC/INFO GET command (ESRI, 1995) (use of trade
+names is for descriptive purposes only, and does not imply
+endorsement by the U.S. Government).
+				</procdesc>
+        <procdate>1996</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The ARC/INFO CLEAN command (ESRI, 1995) was used with a dangle
+length of 0.0 feet or meters and fuzzy tolerance of 32.8
+feet (10.0 meters).
+				</procdesc>
+        <procdate>1996</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>A comparison of a paper plot of the report data set with the
+mylar-base source map showed that plates 1 and 6 from Havens
+(1989) were published at a scale of 1:251,400 and not
+1:250,000.
+				</procdesc>
+        <procdate>1996</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Four tics were registered on a paper-source map (Havens, 1989,
+plate 6) and a few of the model-grid boundaries were digitized
+in one session with a maximum registration root mean squared
+error (RMSE) of 0.0135 map inches (0.0053 map centimeters).
+The data was edited to delete extraneous pseudo and dangle
+nodes. The ARC/INFO CLEAN command (ESRI, 1995), was used with
+a dangle length of 82 feet (25 meters) and fuzzy tolerance of
+246 feet (75 meters).
+				</procdesc>
+        <procdate>1996</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Lines were attributed for LSOURCE and polygons were attributed
+for R. Verification of attribute codes was made by comparing
+paper plots of the report data set with the source
+maps.
+				</procdesc>
+        <procdate>1996</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>164</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>503</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>165</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96</longcm>
+            <latprjo>23</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>64 meters</absres>
+            <ordres>64 meters</ordres>
+          </coordrep>
+          <plandu>METERS</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137</semiaxis>
+        <denflat>298.257</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>RECHARG.PAT</enttypl>
+        <enttypd>Polygon attribute table</enttypd>
+        <enttypds>ARC/INFO</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>-</attrlabl>
+        <attrdef>Polygon attribute table</attrdef>
+        <attrdefs>ARC/INFO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of polygon in square coverage units</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of polygon in coverage units</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECHARG#</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECHARG-ID</attrlabl>
+        <attrdef>User-assigned feature number</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R</attrlabl>
+        <attrdef>Recharge, in hundredths of an inch per year</attrdef>
+        <attrdefs>Havens (1989)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>330, -99999</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAJOR1</attrlabl>
+        <attrdef>Recharge, in hundredths of an inch per year</attrdef>
+        <attrdefs>Havens (1989)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>330, -99999</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MINOR1</attrlabl>
+        <attrdef>Blank item for DLG</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>RECHARG.AAT</enttypl>
+        <enttypd>Arc attribute table</enttypd>
+        <enttypds>ARC/INFO</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>-</attrlabl>
+        <attrdef>Arc attribute table</attrdef>
+        <attrdefs>ARC/INFO</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>-</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FNODE#</attrlabl>
+        <attrdef>Internal number of from-node</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TNODE#</attrlabl>
+        <attrdef>Internal number of to-node</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY#</attrlabl>
+        <attrdef>Internal number of polygon to left of arc</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY#</attrlabl>
+        <attrdef>Internal number of polygon to right of arc</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>Length of arc in coverage units</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECHARG#</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RECHARG-ID</attrlabl>
+        <attrdef>User-assigned feature number</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LSOURCE</attrlabl>
+        <attrdef>Source of line</attrdef>
+        <attrdefs>Cederstrand (1996a, 1996b),
+Havens (1989)
+				</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1,2</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAJOR1</attrlabl>
+        <attrdef>Source of line</attrdef>
+        <attrdefs>Cederstrand (1996a, 1996b),
+Havens (1989)
+				</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1,2</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MINOR1</attrlabl>
+        <attrdef>Blank item for DLG</attrdef>
+        <attrdefs>Calculated</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>n/a</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Each polygon in this data set has an associated attribute, R,
+that contains a recharge value (Havens, 1989) expressed in
+hundredths of an inch per year. The recharge value of 3.3
+inches per year is stored as an R value of 330 hundredths of
+an inch per year. Polygons in this data set that contain a R
+of -99999 represent areas where the recharge rate is not
+known. R is stored in the first major code (MAJOR1) and 0 is
+stored in the first minor code (MINOR1) for polygons in the
+Digital Line Graph (DLG) version of this data set.
+
+Each line in this digital data set has an associated
+attribute, LSOURCE, that contains a code to indicate the source
+of the line. A LSOURCE code of 1 indicates the line is from
+Havens (1989) and a LSOURCE code of 2 indicates the line was
+extracted from Cederstrand (1996a, 1996b). LSOURCE is stored
+in the first major code (MAJOR1) for lines, and 0 is stored in
+the first minor code (MINOR1) in the Digital Line Graph (DLG)
+version of this data set.
+			</eaover>
+      <eadetcit>See overview.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr96-448_recharg.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>DLG file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr96-448_recharg.dlg.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ofr96-448_recharg</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>19890101</begdate>
+    <enddate>19891231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_ofr96-448_recharg.html</htmlurl>
+  </mercury>
+</metadata>

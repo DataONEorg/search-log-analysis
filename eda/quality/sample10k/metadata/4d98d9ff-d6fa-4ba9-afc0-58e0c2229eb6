@@ -1,0 +1,499 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/sir2008-5239_swpa_agir_wu_2000.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tim S. McKinney</origin>
+        <pubdate>2008</pubdate>
+        <title>Estimated Irrigated Agricultural Water Use In 2000</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?sir2008-5239_swpa_agir_wu_2000</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Tim S. McKinney</origin>
+            <origin>David W. Anning</origin>
+            <pubdate>2008</pubdate>
+            <title>Geospatial Data to Support Analysis of Water-Quality Conditions in Basin-Fill Aquifers in the Southwestern United States</title>
+            <serinfo>
+              <sername>U.S. Geological Survey Scientific Investigations Report</sername>
+              <issue>SIR 2008-5239</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Salt Lake City</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset is a 100-meter cell resolution raster dataset of estimated use of irrigated agricultural water use data for the southwestern U.S. The dataset was generated from 1:100,000-scale county boundary data, 30-meter 2001 National Land cover database (NLCD), and USGS estimated use of water in the United States in 2000.</abstract>
+      <purpose>This dataset was created for use by the Southwest Principal Aquifer (SWPA) study to help characterize conceptual models of case studied National Water-Qualiity Assessment (NAWQA) Program alluvial basins as well as the possible natural and anthropogenic factors that may affect water quality.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>2000</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>2001</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>publication date of the source data</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-125.501065</westbc>
+        <eastbc>
+-102.546503</eastbc>
+        <northbc>
+46.015254</northbc>
+        <southbc>
+29.090543</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>farming</themekey>
+        <themekey>environment</themekey>
+        <themekey>utilitiesCommunication</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>irrigated agriculture</themekey>
+        <themekey>water use</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>southwest United States</placekey>
+        <placekey>California</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>Nevada</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data are not intended to be used as a survey product and are for reference purposes only.Southwestern US only,
+Although this Federal Geographic Data Committee (FGDC) compliant metadata file is intended to document the data set in nonproprietary form, as well as ArcGIS format, this metadata file may include some ArcGIS-specific terminology.
+Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S, Geological Survey, Utah Water Science Center</cntorg>
+        </cntorgp>
+        <cntpos>Center Director</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2329 Orton Circle</address>
+          <city>Salt Lake City</city>
+          <state>Utah</state>
+          <postal>84119</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>801-908-5000</cntvoice>
+        <cntfax>801-908-5001</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/sir2008-5239_swpa_agir_wu_2000.jpg</browsen>
+      <browsed>Illlustration of data set</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.2.5.1450</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Because Irrigation type and use data are not consistently available for the entire Southwest, no attempt was made to distribute water according to irrigation type.  It is assumed that most agricultural crops in the Southwest are irrigated.  Agricultural acreages, reported in USGS Estimated Use of Water, are taken from the U.S. Department of Agriculture (USDA) census of Agriculture.  These estimates were used in this analysis rather than NLCD calculations.  Census of Agriculture irrigated agricultural acreages are thought to provide a more accurate account of agricultural land use.  Water use and acreage were distributed evenly over all NLCD agricultural land in a county.  Thus, acreages and water may be distributed to some areas where NLCD agricultural land is misclassified by NLCD or may not be irrigated.
+
+Accuracy of agricultural land cover is assumed to be approximately the same as the NLCD Cultivated land cover, published accuracy estimates for Cultivated Land are 81%/79% (Errors of Omission/Commission)(Homer and others, 2004).
+
+Reference:
+Homer, C., Huang, C., Yang, L., Wylie, B., Coan, M., 2004. Development of a 2001 National Landcover Database for the United States. Photogrammetric Engineering and Remote Sensing, Vol. 70, No. 7, July 2004, pp. 829-840.
+
+Disaggregated irrigated agriculture water use estimates were summed for counties and checked for accuracy against USGS county-based estimates.</attraccr>
+    </attracc>
+    <logic>No inconsistencies were observed</logic>
+    <complete>Complete for the Southwestern U.S.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not for use at scales greater than 1:250,000</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Department of Commerce, Census Bureau, Geography Division</origin>
+            <pubdate>2000</pubdate>
+            <title>Census 2000 County and County Equivalent Areas</title>
+            <geoform>vector digital data</geoform>
+            <onlink>http://www.census.gov/geo/www/cob/co2000.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>county</srccitea>
+        <srccontr>Provided the Federal Information Processing Standard (FIPS) code and county spatial extent used to join water use to the NLCD data.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>200403</pubdate>
+            <title>Estimated Use of Water in the United States County-Level Data for 2000</title>
+            <edition>USGS Circular 1268</edition>
+            <onlink>https://pubs.usgs.gov/circ/2004/circ1268/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>water_use</srccitea>
+        <srccontr>USGS water use is a nationally consistent method of estimating water use in the U.S.  This study is conducted once every 5 years and provides the irrigated acreages and withdrawal rates used in this dataset.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>200309</pubdate>
+            <title>National Land Cover Database</title>
+            <edition>none</edition>
+            <geoform>none</geoform>
+            <onlink>http://www.mrlc.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2001</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>nlcd01</srccitea>
+        <srccontr>Provided spatial extent of agricultural land.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Selected cultivated agricultural values 81 and 82 from nlcd01 and resampled using nearest neighbor assignment to create 100-meter agriculture raster dataset.</procdesc>
+        <srcused>nlcd01</srcused>
+        <procdate>070508</procdate>
+        <srcprod>nlcdag</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Analysis environment was set to the extent, mask, and cell size of nlcdag dataset.  This mask was used to limit processing to only the areas of irrigated agriculture.  The county boundary was rasterized within this analysis environment via county FIPS code.  The result is a new 100-meter raster representing county FIPS codes in areas of irrigated agriculture.</procdesc>
+        <srcused>nlcdag</srcused>
+        <srcused>county</srcused>
+        <procdate>070508</procdate>
+        <srcprod>agfips</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The USGS water use tabular data was joined to the agfips raster via FIPS code.  New attribute fields for acreage and wateruse were calculated based on the joined table fields.  Irrigated acreages and gallons withdrawn for each county were divided by the cell count in that county resulting in per cell values of irrigated acreages and gallons used per cell per day.</procdesc>
+        <srcused>water_use</srcused>
+        <srcused>agfips</srcused>
+        <procdate>070508</procdate>
+        <srcprod>agir</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Irrigated agricultural attributes were multiplied by 100 and integerized to reduce file sized and to facilitate additional raster analysis resulting in a new raster, agirx00.  Integerized attribute values result in small files sizes than floating point data and require less memory.  Integer data are required for many analysis tools and are neccessary to view the value attribute table.</procdesc>
+        <srcused>agir</srcused>
+        <procdate>070508</procdate>
+        <srcprod>agirx00</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Dataset copied.</procdesc>
+        <srcused>H:\swpa_final\SWPA_GIS\agirx00_1</srcused>
+        <procdate>20090205</procdate>
+        <proctime>12530400</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>16112</rowcount>
+      <colcount>17382</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.500000</stdparll>
+            <stdparll>45.500000</stdparll>
+            <longcm>-96.000000</longcm>
+            <latprjo>23.000000</latprjo>
+            <feast>0.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>100.000000</absres>
+            <ordres>100.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+agirx00.vat</enttypl>
+        <enttypd>Value attribute table</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Rowid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>FIPS as number, used to join water use.</attrdef>
+        <attrdefs>User defined</attrdefs>
+        <attrdomv>
+          <udom>unique whole numbers representing state and county.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNT - cell count</attrlabl>
+        <attrdef>SPR_AC - Acres of sprinkler irrigated agriculture</attrdef>
+        <attrdefs>ESRI, User defined</attrdefs>
+        <attrdomv>
+          <udom>Whole numbers, representing the number of cells with value</udom>
+        </attrdomv>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>2103</rdommax>
+            <attrunit>acres per cell x 100</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPR_AC</attrlabl>
+        <attrdef></attrdef>
+        <attrdefs></attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv></edomv>
+            <edomvd></edomvd>
+            <edomvds></edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MIC_AC</attrlabl>
+        <attrdef>Acres of micro sprinkler irrigated agriculture</attrdef>
+        <attrdefs>User defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>588</rdommax>
+            <attrunit>acres per cell x 100</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SPRTOT_AC</attrlabl>
+        <attrdef>Total acres of sprinkler irrigated agriculture</attrdef>
+        <attrdefs>User defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>2691</rdommax>
+            <attrunit>acres per cell x 100</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SUR_AC</attrlabl>
+        <attrdef>Acres of surface irrigated agriculture</attrdef>
+        <attrdefs>User defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>6067</rdommax>
+            <attrunit>acres per cell x 100</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TOT_AC</attrlabl>
+        <attrdef>Tot acres of irrigated agriculture</attrdef>
+        <attrdefs>User defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>7250</rdommax>
+            <attrunit>acres per cell x 100</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GW_GAL</attrlabl>
+        <attrdef>Irrigated agriculture from ground water</attrdef>
+        <attrdefs>User defigned</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>7727848</rdommax>
+            <attrunit>gallons per cell per day x 100</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SW_GAL</attrlabl>
+        <attrdef>Irrigated agriculture from surface water</attrdef>
+        <attrdefs>User defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>19860294</rdommax>
+            <attrunit>gallons per cell per day x 100</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GAL_CELL</attrlabl>
+        <attrdef>Total water use</attrdef>
+        <attrdefs>User defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>23345588</rdommax>
+            <attrunit>gallons per cell per day x 100</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPSNUM</attrlabl>
+        <attrdef>Unique county and state code</attrdef>
+        <attrdefs>Federal Information Processing Standard</attrdefs>
+        <attrdomv>
+          <udom>unique number represents state and county.  Details are available at http://www.census.gov/geo/www/fips/fips.html</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The dataset describes irrigated agriculture water use amounts and acreages multiplied by 100.  The values were integerized to facilitate processing.</eaover>
+      <eadetcit>provided above</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+sir2008-5239_swpa_agir_wu_2000</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey.  The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>agirx00</formname>
+          <formcont>Raster Data</formcont>
+          <filedec>Winzip</filedec>
+          <transize>2208 kb</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/SIR2008-5239_swpa_agir_wu_2000.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None.  This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20080602</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20000101</begdate>
+    <enddate>20011231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_sir2008-5239_swpa_agir_wu_2000.html</htmlurl>
+  </mercury>
+</metadata>

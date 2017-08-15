@@ -1,0 +1,953 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>Y1.x035.000-0003-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Dean Grubbs</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Florida State University</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Associate Research Faculty</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>850-697-2067</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[3618 Coastal Hwy 98]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>St. Teresa</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>FL</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>32358</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>dgrubbs@bio.fsu.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Shawn Smith</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Florida State University</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName/>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>850-644-6918</gco:CharacterString>
+                            </gmd:voice>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[2035 E. Paul Dirac Drive
+200 RM Johnson Building]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Tallahassee</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>FL</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>32306</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>smith@coaps.fsu.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2015-10-14T16:07:26-05:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/Y1.x035.000:0003</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Longline Sample Data collected during R/V Weatherbird II cruise, West Florida Shelf to DeSoto Canyon, April 2012, WB-1215</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>WB 1215 Longline Trap, Demersal Fish Assemblages, Abundance, Health, West Florida Shelf to DeSoto Canyon, 3/31-4/14, 2012.</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2014-01-24</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>The objectives of this project included using fish traps and demersal longlines to describe and examine differences in species assemblage and relative abundance of demersal fishes in the Gulf of Mexico. This dataset reports the samples collected and associated data from March 31 to April 4 2012. For some species, physical data such as length and weights are reported. Additional data include the dates, set locations (latitudes, longitudes), depth, water temperature, gear deployed and bait used. These data were collected during the R/V Weatherbird II cruise WB-1215. This dataset was submitted as Deep-C R1.x138.079:0042.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>To evaluate the biological diversity and trophic interactions among organisms ranging from primary producers to apex predators and from the deep-sea benthos to the coast. These data contribute to a food web model used to determine risks to ecosystem structure and function and regional economies following from extreme anthropogenic events (e.g., discharged and background hydrocarbon) and adaptive management strategies.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Shawn Smith</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Florida State University</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Senior Research Associate</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>850-644-6918</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[2000 Levy Avenue Suite 292, Research Building A]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Tallahassee</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>FL</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>32306</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>smith@coaps.fsu.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Dean Grubbs</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Florida State University</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName/>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>850-697-2067</gco:CharacterString>
+                                    </gmd:voice>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[3012 Westcott North]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Tallahassee</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>FL</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>32306</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>dgrubbs@bio.fsu.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Benthic Ecology</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Physiology</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Toxicology</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Taxonomy</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Deep Water Ecology</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Community Ecology</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng; USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-88.89545</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-84.73283</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>26.72992</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>29.52156</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiCurve gml:id="transects" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect1">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.74479 -84.81097 26.7523 -84.80829</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect2">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.73412 -84.8539 26.73265 -84.84802</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect3">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.72992 -84.89192 26.73028 -84.88523</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect4">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.77091 -84.86034 26.7692 -84.85355</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect5">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.79457 -84.79402 26.79128 -84.78893</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect6">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.79872 -84.87987 26.79549 -84.87526</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect7">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.94016 -85.02151 26.93232 -85.00267</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect8">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.98089 -84.94717 26.97257 -84.9333</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect9">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.80623 -84.73701 26.80429 -84.73283</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect10">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.85485 -84.74103 26.85235 -84.73609</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect11">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.8292 -84.81033 26.82392 -84.80525</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect12">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.98392 -84.78461 26.98351 -84.77682</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect13">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.93529 -84.86751 26.93686 -84.86158</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect14">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.91037 -84.92253 26.91197 -84.91659</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect15">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.13991 -85.95427 29.15105 -85.95318</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect16">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.14138 -86.12817 29.15299 -86.12475</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect17">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.14483 -86.28308 29.15441 -86.27609</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect18">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.30362 -86.33888 29.30249 -86.34528</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect19">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.30771 -86.4969 29.30724 -86.50282</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect20">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.30439 -86.66895 29.30958 -86.67</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect21">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.1398 -86.4621 29.14175 -86.47558</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect22">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.14103 -86.58791 29.14615 -86.60457</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect23">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.13983 -86.70857 29.15728 -86.71369</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect24">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.13385 -86.7976 29.13911 -86.79508</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect25">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.13628 -86.9924 29.13981 -87.00735</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect26">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.15709 -87.10433 29.16153 -87.10879</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect27">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.04523 -87.27683 29.04755 -87.25103</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect28">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.00025 -87.50449 28.9978 -87.46477</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect29">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.18937 -87.42865 29.19236 -87.42335</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect30">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.28892 -87.34255 29.2935 -87.33803</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect31">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.43328 -87.29511 29.43922 -87.29147</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect32">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.49247 -87.10919 29.48649 -87.09372</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect33">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.37246 -87.07003 29.36485 -87.04964</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect34">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.29103 -86.99806 29.27288 -86.97818</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect35">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.44922 -86.95079 29.44429 -86.94666</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect36">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.46559 -86.88882 29.4609 -86.88372</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect37">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.52156 -86.78489 29.51763 -86.78111</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect38">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.04157 -87.28136 29.01401 -87.29673</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect39">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.99225 -87.51044 28.97596 -87.54514</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect40">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.89594 -87.62451 28.85817 -87.61549</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect41">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.97455 -87.86671 28.94226 -87.85887</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect42">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.12247 -87.86873 29.10335 -87.86198</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect43">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.29401 -87.79128 29.28279 -87.79471</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect44">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.25563 -87.7254 29.23825 -87.72385</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect45">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.72005 -88.10591 28.68619 -88.10161</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect46">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.92836 -88.06851 28.89541 -88.07471</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect47">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.93025 -88.50889 28.91098 -88.52127</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect48">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.99936 -88.55106 28.99432 -88.56862</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect49">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.07185 -88.62577 29.06943 -88.63789</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect50">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.06965 -88.63912 28.90491 -88.8826</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect51">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.84266 -88.88385 28.83285 -88.89545</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect52">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.8165 -88.82959 28.82063 -88.85405</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect53">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.74537 -88.5708 28.74723 -88.60174</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect54">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.64591 -88.62218 28.64775 -88.65179</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="transect55">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.1536 -86.74904 28.13997 -86.79895</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                </gml:MultiCurve>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>ground condition</gml:description>
+                                    <gml:beginPosition>2012-03-31</gml:beginPosition>
+                                    <gml:endPosition>2012-04-14</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Folders 564 to 617 &#x2013; each file reports data from a TDR (temperature depth recorder) that was deployed with an individual set: Rec# (record #), Date (MM/DD/YYYY), Time (HH:MM:SS), Pressure (dBars), IntTemp [C] =temperature (degrees Celsius). Files in folders 564-617 are named using Deep-C set numbers; associated data (e.g., latitude/longitude) for each set number can be found in &#x201C;WB-1215 Metadata_Fisheries Research_2.csv&#x201D; and &#x201C;WB-1215 Sample data_2.csv&#x201D;. Folder 1114 &#x2013; file WB-1215 Metadata_Fisheries Research_2: vessel name; event_id, event date (DD-MMM-YY); set (set code); Deep-C station (Deep-C station code); latitude_start (decimal degrees); longitude_start (decimal degrees); latitude_finish (decimal degrees); longitude_finish (decimal degrees); TDR (Serial number for Lotek temperature/depth recorder deployed on line); DO meter = whether or not a DO meter (dissolved oxygen meter) was deployed (true or false=yes or no); DO (dissolved oxygen) value (ug/l); DO (dissolved oxygen) value (%); Temp = temperature (degrees Celsius); Depth_min = minimum depth according to ship; later verified with TDR (meters); Depth_max = maximum water depth (meters) according to ship; later verified with TDR; Actual depth (m) = actual longline depth (meters); Time_in = (hhmm); Time_set (hhmm); Time_haul (hhmm); Time_out (hhmm); Gear_Effort (longline) = sizes and numbers of hooks used per longline set; Gear_Effort (trap) = number and size of traps used per set; Bait = bait type used; SeaState (feet) = estimated wave height; Wind speed (knots) = estimated wind speed; Set comments = additional notes/measurements pertaining to each set; Sediment sample = whether or not a sediment was collected at the site of the set (true or false=yes or no). Folder 1190 &#x2013; file WB-1215 Sample data_2: event date (DD-MMM-YY); event_id (event identification code); Set (set code); Deep-C station = Deep-C station code, ID_Data_sample = specimen code (used to relate each sample back to a unique specimen identification code); ID_species = species name; sex (male/female); BW Weight (kg) = body weight; liver weight (g) = wet weight of liver; SL (cm) = teleost standard length or shark pre-caudal length; DW (cm) = batoid disk width; CW (cm) = crustaceans carapace width, CL (cm) = crustacean carapace length; FL (cm) = teleosts/sharks fork length or batoids disk length; TL (cm) = teleosts/batoids total length or sharks stretched total length: Mature (Y/N) = yes or no if mature; Maturity State (MAT/JUV/NEO/PUP/YOY) = mature (MAT), juvenile (JUV), neonate (NEO), pup (PUP), young of year (YOY); Hook/Trap Size, columns W through AH indicate if samples were taken for analysis; Tag # = external tag identification number; Hook/Trap Size = type of trap or hook size each specimen was collected with; Condition (Condition if released) = E=excellent: struggle during work-up, strong directional swimming upon release, G=good: little struggle, strong swimming upon release, mild disorientation possible, F=fair: relatively weak and disoriented swimming upon release, P=poor: some movement indicating life (e.g. nictitating membranes, gills) but very weak to no active swimming upon release, DOA=dead: no movements or life signs; SI = Biopsy for stable isotope analyses (# of samples); GN = Genetics samples (# of samples); RP = Reproductive tract (Y if collected); WM = White muscle for purposes other than stable isotopes &#x2013; e.g. mercury analyses (# of samples); BD = Blood (# of vials); BI = Bile (Y if collected); ST = Stomach (Y if collected); AG = Aging structure (S=spines, R=rays, O=otoliths, V=vertebrae); Other = Any additional tissues collected (e.g. radiocarbon); SP = Specimen; whole specimen retained after sampling (Y/N); Vou = Voucher; specimen is a voucher retained for museum curation (Y/N); Specimen Comments = any additional specimen comments. |||||</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[6300 Ocean Drive
+Unit 5869]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString/>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>xlsx and csv files</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString>zip</gco:CharacterString>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>11</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/R1.x138.079:0042</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString/>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Check and Save to File' (with form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2015-10-13T14:53:41+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>
+<!--Created with GRIIDC Metadata Editor 13.09 on 2014-01-24T10:22:34-06:00-->

@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/insantiam_Hydrography.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Steven Sobieszczyk</origin>
+        <pubdate>2010</pubdate>
+        <title>Hydrography for the Little North Santiam River Basin, Oregon</title>
+        <geoform>vector digital data</geoform>
+        <onlink>https://water.usgs.gov/lookup/getspatial?insantiam_Hydrography</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>LiDAR-derived (hydrography) stream network.</abstract>
+      <purpose>This data set represents the river network for the Little North Santiam River Basin, Oregon. Using light detection and ranging (LiDAR) high-resolution imagery, stream centerlines for rivers, streams, and gullies were digitized.</purpose>
+      <supplinf>Mapping completed at 1:4,000 scale. Names of rivers and streams based on those from Oregon Atlas and USGS topographic maps. Data set has 3D component based on elevations querried from LiDAR imagery.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2009</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-122.583134</westbc>
+        <eastbc>
+-122.133505</eastbc>
+        <northbc>
+44.900483</northbc>
+        <southbc>
+44.778859</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>streams</themekey>
+        <themekey>rivers</themekey>
+        <themekey>gullies</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>hydrography</themekey>
+        <themekey>LiDAR</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Little North Santiam River</placekey>
+        <placekey>Elkhorn</placekey>
+        <placekey>Mehama</placekey>
+        <placekey>Lyons</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Marion County</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>2009</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>The U.S. Geological Survey should be acknowledged as the data source in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Steven Sobieszczyk</cntper>
+        </cntorgp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2130 SW 5th Ave.</address>
+          <city>Portland</city>
+          <state>OR</state>
+          <postal>97201</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>503-251-3208</cntvoice>
+        <cntfax>503-251-3470</cntfax>
+        <cntemail>ssobie@usgs.gov</cntemail>
+        <cntinst>Warning: Although accurate at the time of production, this information may have become obsolete.
+See the Metadata_Reference_Information section for a current contact.</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/LNsantiam_Hydrography.jpg</browsen>
+      <browsed>Illustration of data set</browsed>
+      <browset>JPEG</browset>
+    </browse>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Data mapped at 4:000 scale. Horizontal error was +/- 1 ft based on LiDAR accuracy estimates.</attraccr>
+    </attracc>
+    <logic>Snapping tolerance set to nodes and vertices during digitizing to avoid dangling nodes and isolated networks.
+Data are topologically correct in ArcGIS.</logic>
+    <complete>Data are complete.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Oregon LiDAR Consortium</origin>
+            <pubdate>2009</pubdate>
+            <title>Willamette Valley LiDAR</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>LIDAR2009</srccitea>
+        <srccontr>Used as digitizing basemap or source.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>LiDAR digital elevation model was converted to a slopeshade model. Linework was manually digitized along river, stream, and gully centerline. Linework mapped at 1:4000 scale and extended as far as what was visually discernable.</procdesc>
+        <procdate>20100610</procdate>
+        <proctime>17570200</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Streams were annotated based on referenced stream names from Oregon Atlas, USGS topographic maps, and other digital USGS hydrography networks. No naming conflicts existed from streams.</procdesc>
+        <procdate>20100615</procdate>
+        <proctime>17271300</proctime>
+      </procstep>
+      <procstep>
+        <procdesc>Elevations applied to linework using 3D Analyst, Convert features to 3D tool. Values embedded into data set.</procdesc>
+        <srcused>LIDAR2009</srcused>
+        <procdate>20100615</procdate>
+        <proctime>17271300</proctime>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>973</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>43.000000</stdparll>
+            <stdparll>45.500000</stdparll>
+            <longcm>-120.500000</longcm>
+            <latprjo>41.750000</latprjo>
+            <feast>1312335.958005</feast>
+            <fnorth>0.000000</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000001</absres>
+            <ordres>0.000001</ordres>
+          </coordrep>
+          <plandu>international feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_North_American_1983_HARN</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>0.5</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+LNsantiam_Hydrography</enttypl>
+        <enttypd>Hydrography</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Name</attrlabl>
+        <attrdef>Stream name</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Name</edomv>
+            <edomvd>Stream name</edomvd>
+            <edomvds>USGS topographic maps, Oregon Atlas, USGS hydrography data sets (RF1, NHDplus)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Descript</attrlabl>
+        <attrdef>Stream type</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>River</edomv>
+            <edomvd>Defined river segment - only defined river was the Little North Santiam River</edomvd>
+            <edomvds>USGS topographic maps, Oregon Atlas, USGS hydrography data sets (RF1, NHDplus)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Stream</edomv>
+            <edomvd>Defined stream segment - included any other named stream feature, including creek, brook, stream, etc. as well as unnamed perennial streams.</edomvd>
+            <edomvds>USGS topographic maps, Oregon Atlas, USGS hydrography data sets (RF1, NHDplus)</edomvds>
+          </edom>
+          <edom>
+            <edomv>Gully</edomv>
+            <edomvd>Undefined, ephemeral, or minor mapped tributaries or channels.</edomvd>
+            <edomvds>USGS topographic maps, Oregon Atlas, USGS hydrography data sets (RF1, NHDplus)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Miles</attrlabl>
+        <attrdef>Stream length</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Miles</edomv>
+            <edomvd>Stream length in miles</edomvd>
+            <edomvds>USGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Little North Santiam River, tributaries, and gullies (ephemeral streams) identified.</eaover>
+      <eadetcit>LiDAR-derived hydrography</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials. The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey.  The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>shapefile</formname>
+          <formcont>PKZIP compression</formcont>
+          <filedec>Winzip</filedec>
+          <transize>1000</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/LNsantiam_Hydrography.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20100713</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+insantiam_Hydrography</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20090101</begdate>
+    <enddate>20091231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_insantiam_Hydrography.html</htmlurl>
+  </mercury>
+</metadata>

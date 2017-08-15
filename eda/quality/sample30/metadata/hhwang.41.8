@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="hhwang.41.8" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>館藏標本花期</title>
+ <creator id="1458791673493"><individualName><givenName>Wang, Hsiang-Hua</givenName>
+ <surName>Wang</surName>
+ </individualName>
+ <organizationName>Taiwan Forestry Research Institute</organizationName>
+ <positionName>Research fellow</positionName>
+ <electronicMailAddress>hhwang9@gmail.com</electronicMailAddress>
+ </creator>
+ <abstract><para>全球暖化已逐漸改變許多生物的物候現象，台灣雖然缺少長期的植物物候調查紀錄，但是透過植物標本館保留的採集標本，仍可評估過往至現今的植物物候變化情形。本研究查閱台灣高海拔山區的常見且館藏量較多的22個物種標本，並與國家災害防救科技中心提供之「溫度網格資料」配對地點、時間，進行標本開花期與採集時間、地點及網格溫度的迴歸分析，以瞭解台灣亞熱帶植物花期對溫度變化之反應，並篩選出對於溫度變化較為敏感的原生植物。</para>
+ </abstract>
+ <keywordSet><keyword>標本</keyword>
+ <keyword>溫度</keyword>
+ <keyword>花期</keyword>
+ <keyword>氣候變遷</keyword>
+ <keyword>臺灣</keyword>
+ </keywordSet>
+ <intellectualRights><para>歡迎使用
+使用前請先與資料詠友人或建立人聯絡</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Taiwan</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>119.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>122.125</eastBoundingCoordinate>
+ <northBoundingCoordinate>25.375</northBoundingCoordinate>
+ <southBoundingCoordinate>21.75</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1964-01-01</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2012-12-31</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+<contact><references>1458791673493</references>
+</contact>
+  <methods><methodStep><description><section><title>標本篩選及時間、地點標定</title>
+ <para>館藏標本資料來自林業試驗所植物標本館、台灣大學植物系標本館、國立臺灣師範大學植物標本館、中興大學森林系標本館、中央研究院植物所標本館、國立自然科學博物館植物標本館。現場查閱時記錄每份標本是否出現花芽、開花、未熟果、成熟果這4種物候現象，並記錄標本的標本館代號、館號、採集者、採集編號、採集日期、採集地點、海拔、經緯度等資訊。至少必須有明確的採集時間(包含完整的年、月、日)和地點之標本才列入記錄。</para>
+ <para>本研究將焦點放在有開花期，因此僅挑選出有開花物候的標本進行分析，由於標本之中常有採集自同一地點的複份標本存在，因此同一天在相同地點採集之標本僅能視為一份有效標本；如果在相同地點連續採集多日，則3日之內皆視為是同一份有效標本，並取最早的採集日期作為採集日，超過3日則可視為是不同份的有效標本。標本的開花日期以儒略日(Julian date)表示之，採集日期若為1月1日，則開花日為1，1月31日為31，12月31日為365，以此類推。標本按其採集地描述，使用軟體MapSource進行座標定位</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>溫度網格配對</title>
+ <para>技部國家災害防救科技中心於2010開始推動臺灣氣候變遷推估與資訊平台建置計畫，2014年資料服務平台上線後，提供的1960~2012年全臺的月降雨與溫度5KM網格資料供研究人員申請使用，本研究將溫度網格資料與每份標本的採集地點和時間進行配對，進行物候資料與月均溫的迴歸分析</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1459217636321"><entityName>高海拔館藏標本花期-for morpho.csv</entityName>
+ <physical id="1459215886120"><objectName>高海拔館藏標本花期-for morpho.csv</objectName>
+ <size unit="byte">117445</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/hhwang.49.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1459217636337"><attributeName>Herbarium</attributeName>
+ <attributeDefinition>標本館英文簡稱</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>英文縮寫</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636352"><attributeName>TAIID</attributeName>
+ <attributeDefinition>標本採集編號</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>個別標本館自行編號</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636368"><attributeName>Scientific name</attributeName>
+ <attributeDefinition>學名</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>屬名+種名</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636384"><attributeName>84X</attributeName>
+ <attributeDefinition>經度座標</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636399"><attributeName>84Y</attributeName>
+ <attributeDefinition>緯度座標</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636415"><attributeName>TTCIP_5KID</attributeName>
+ <attributeDefinition>氣候網格資料(5K尺度)</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>國家防災中心運用長期氣象資料建立之網格資料</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636430"><attributeName>Elevation</attributeName>
+ <attributeDefinition>海拔</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636446"><attributeName>Year</attributeName>
+ <attributeDefinition>年</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636462"><attributeName>Month</attributeName>
+ <attributeDefinition>月</attributeDefinition>
+ <measurementScale><dateTime><formatString>M</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636477"><attributeName>Day</attributeName>
+ <attributeDefinition>日</attributeDefinition>
+ <measurementScale><dateTime><formatString>DD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1459217636493"><attributeName>Julian date</attributeName>
+ <attributeDefinition>儒略日(每年的1-365日)</attributeDefinition>
+ <measurementScale><dateTime><formatString>DDD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1326</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><enityWizard><tracingChange>true</tracingChange>
+ <index>0</index>
+ </enityWizard>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

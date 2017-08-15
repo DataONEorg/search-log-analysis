@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="frog.7.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>林產品消費流向與碳足跡研究</title>
+ <creator id="1490855646210"> <individualName><givenName>溢宏</givenName>
+<surName>陳</surName>
+</individualName>
+<organizationName>行政院農業委員會林業試驗所林業經濟組</organizationName>
+<positionName>約聘助理研究員</positionName>
+</creator>
+ <abstract><para>本計畫目的在於(1)針對木材、林產品生產與進出口資料進行整理，以期建立一套具公信力的資料庫，(2)根據初級及次級資料進行木材消費流向分析，(3)了解木材、林產品之碳儲存量及碳足跡。其研究結果，以供林業政策制定、學術研究與碳貯存量計算之重要基礎資料。本計畫前3年針對(1)台灣主要林產品分析進出口量及進口來源，(2)林產品碳足跡產品類別規則文件進行資料整理與(3)木竹製板材碳足跡個案調查分析。105年為計畫第4年，將建置台灣主要林產品資訊查詢系統及分析木材進口運輸之碳足跡。臺灣木材需求量有99%來自進口，而國產材與進口材碳足跡的最大差異，在於原料取得過程經由｢運輸｣所產生的碳排放。因此以2005~2014年主要實木產品進口貿易資料，估算實木產品於航運之CO2排放量，研究顯示臺灣進口的實木產品於航運過程的CO2排放量平均每年為6.7萬公噸(散裝船)及30.9萬公噸(貨櫃船)。每立方公尺實木產品航運所排放的CO2為3.18 kg/m3到47.69 kg/m3(散裝船)、14.52 kg/m3到212.22kg/m3(貨櫃船)。每立方公尺實木產品航運的CO2排放量佔CO2固定量的比例為0.26~3.82%(散裝船)、1.19~17.43%。本研究計算實木產品於航運過程產生的碳排放，研究成果可做為產品碳足跡之估算，以及未來國產材推動地產地銷減碳效益之估算依據。</para>
+</abstract>
+<keywordSet><keyword>消費流向</keyword>
+<keyword>碳足跡</keyword>
+<keyword>林產品</keyword>
+</keywordSet>
+<intellectualRights><para>本資料提供學術研究使用</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>台灣地區</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>120.625</westBoundingCoordinate>
+<eastBoundingCoordinate>121.5</eastBoundingCoordinate>
+<northBoundingCoordinate>24.125</northBoundingCoordinate>
+<southBoundingCoordinate>23.25</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>2013-01-01</calendarDate>
+</beginDate>
+<endDate><calendarDate>2016-12-31</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+</coverage>
+<contact><references>1490855646210</references>
+</contact>
+<methods><methodStep><description><section><title>建置台灣主要林產品資訊查詢系統</title>
+<para>針對木竹產品進出口數量與價值及來源建置台灣主要林產品資訊查詢系統，並設計簡易統計分析及資料下載，可供後續研究使用。</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>碳排放量計算</title>
+<para>本文依據林產品進出口貿易統計資料分析臺灣主要林產品的進口量與進口國，並採用林產品里程(wood product miles)的概念，估算主要進口國家之港口到臺灣的里程及船舶之二氧化碳排放量，結果可做為林產品碳足跡估算之參據。以下為計算航運碳排放公式：E = (M * D) * P；E=運輸的CO2排放量，M=貨品的重量，D=運輸距離，P=運輸工具每單位距離CO2排放量。</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<dataTable id="1490856770728"><entityName>主要林產品貿易查詢</entityName>
+<physical><objectName>台灣主要林產品貿易統計</objectName>
+<dataFormat> <externallyDefinedFormat><formatName>網頁查詢介面</formatName>
+</externallyDefinedFormat>
+</dataFormat>
+<distribution><online><url>http://tfri.ezsale.tw/tw/index.asp?au_id=5</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1490856770729"><attributeName>年分</attributeName>
+<attributeDefinition>林產品進出口年分</attributeDefinition>
+<measurementScale><dateTime><formatString>YYYY</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1490856770730"><attributeName>地區</attributeName>
+<attributeDefinition>林產品進出口地區</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>國家名稱</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1490856770731"><attributeName>金額</attributeName>
+<attributeDefinition>林產品進出口金額</attributeDefinition>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>whole</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+</attributeList>
+</dataTable>
+</dataset>
+ </eml:eml>

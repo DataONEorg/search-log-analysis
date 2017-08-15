@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/pp1766_eth_prism2k_sample.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Faunt, Claudia C.</origin>
+        <pubdate>2012</pubdate>
+        <title>Evapotranspiration Input Data for the Central Valley Hydrologic Model (CVHM)</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?pp1766_eth_prism2k_sample</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Faunt, Claudia C. (editor)</origin>
+            <pubdate>2009</pubdate>
+            <title>Groundwater Availability of the Central Valley Aquifer, California</title>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>3 chapters, 1 appendix</othercit>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This digital dataset contains monthly reference evapotranspiration (ETo) data for the Central Valley Hydrologic Model (CVHM).  The Central Valley encompasses an approximate 50,000 square-kilometer region of California. The complex hydrologic system of the Central Valley is simulated using the USGS numerical modeling code MODFLOW-FMP (Schmid and others, 2006b).  This simulation is referred to here as the CVHM (Faunt, 2009). Utilizing MODFLOW-FMP, the CVHM simulates groundwater and surface-water flow, irrigated agriculture, land subsidence, and other key processes in the Central Valley on a monthly basis from 1961-2003.  The total active modeled area is 20,334 square-miles on a finite-difference grid comprising 441 rows and 98 columns. Slightly less that 50 percent of the cells are active. The CVHM grid has a uniform horizontal discretization of 1x1 square mile and is oriented parallel to the valley axis, 34 degrees west of north (Faunt, 2009). The main climatic contributors to the CVHM are ETo and precipitation.  Data from Parameter-Elevation Regressions on Independent Slopes Model (PRISM) (Climate Source, 2006) provide the temperature and precipitation on a monthly basis for a 2-kilometer grid. Mapping land-use type and distribution is integral to calculating the crop irrigation demand and, ultimately, the water use in the Central Valley. For a given land use, the demand can be calculated from two variables: crop coefficient (Kc) and reference evapotranspiration (ETo).  For the CVHM, ETo is calculated from the daily minimum and maximum air temperatures derived from PRISM data and the extraterrestrial solar radiation (Faunt, 2009, p. 151). The CVHM is the most recent regional-scale model of the Central Valley developed by the U.S. Geological Survey (USGS).  The CVHM was developed as part of the USGS Groundwater Resources Program (see "Foreword", Chapter A, page iii, for details).</abstract>
+      <purpose>The monthly reference evapotranspiration was used as input to MODFLOW-FMP, the USGS 3-dimensional finite-difference code used to simulate flow in the CVHM.  Monthly ETo values for the FMP in CVHM were estimated using the Hargreaves-Samani equation (Hargreaves and Samani, 1982, 1985) and temperature data.  The CVHM is a tool that accounts for integrated, variable water supply and demand, and simulates surface-water and groundwater-flow across the entire Central Valley system.</purpose>
+      <supplinf>The monthly reference evapotranspiration dataset is one of many layers in a geospatial database supporting the USGS Central Valley Groundwater Availability Project. Regional groundwater availability studies quantify current groundwater resources, evaluate how those resources have changed through time, and provide tools that decision makers can use to predict system responses to future development and climate variability and change. To provide information to stakeholders addressing these issues, the USGS made a detailed assessment of groundwater availability of the Central Valley aquifer system, which includes: (1) the present status of groundwater resources; (2) characterization of how these resources have changed over time; and (3) tools to assess system responses to stresses from future human uses and climate variability and change. This effort builds on previous investigations, such as the USGS Central Valley Regional Aquifer System and Analysis (CV-RASA) project and several other groundwater studies in the Valley completed by Federal, State and local agencies at various scales. Data from these previous studies were the foundation of the Central Valley geospatial database. These and other data were re-examined through a series of regional-scale hydrologic investigations to provide updated and spatially consistent interpretations for the Central Valley Groundwater Availability study. In some cases, new data were collected to augment existing information. Data compiled from the studies include geology (in particular, borehole lithology and the extent and thickness of the Corcoran Clay Member of the Tulare Formation), topography, remote sensing, climate (precipitation and temperature), geophysics, vegetation and land use, vegetation properties, hydrology (stream network and flows), groundwater levels, subsidence, chemistry, and soils.  Digital elevation models, geologic maps, borehole information, cross sections, and other 3-dimensional models were used to develop the texture model which represents the properties and geometry of the Central Valley alluvial deposits. The resulting geospatial database supports characterization and conceptualization of the Central Valley hydrologic system between 1961 and 2003, construction of 3-dimensional hydrogeologic framework and hydrologic flow models, and visualization of analysis and model results.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2009</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-123.831528</westbc>
+        <eastbc>-117.916328</eastbc>
+        <northbc>40.748631</northbc>
+        <southbc>34.519871</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>American Geological Institute Glossary of Geology</themekt>
+        <themekey>grid</themekey>
+        <themekey>boundary</themekey>
+        <themekey>hydrology</themekey>
+        <themekey>hydrogeology</themekey>
+        <themekey>evapotranspiration</themekey>
+        <themekey>groundwater</themekey>
+      </theme>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Central Valley Aquifer</themekey>
+        <themekey>Central Valley Hydrologic Model</themekey>
+        <themekey>CV-RASA</themekey>
+        <themekey>Groundwater Availability of the Central Valley Aquifer</themekey>
+        <themekey>finite-difference model grid</themekey>
+      </theme>
+      <place>
+        <placekt>U.S. Board of Geographic Names (BGN) and Geographic Names Information System (GNIS)</placekt>
+        <placekey>Central Valley</placekey>
+        <placekey>California</placekey>
+        <placekey>Trinity County</placekey>
+        <placekey>Shasta County</placekey>
+        <placekey>Tehama County</placekey>
+        <placekey>Humboldt County</placekey>
+        <placekey>Butte County</placekey>
+        <placekey>Mendocino County</placekey>
+        <placekey>Glenn County</placekey>
+        <placekey>Yuba County</placekey>
+        <placekey>Lake County</placekey>
+        <placekey>Nevada County</placekey>
+        <placekey>Colusa County</placekey>
+        <placekey>Sutter County</placekey>
+        <placekey>Placer County</placekey>
+        <placekey>El Dorado County</placekey>
+        <placekey>Yolo County</placekey>
+        <placekey>Sonoma County</placekey>
+        <placekey>Napa County</placekey>
+        <placekey>Sacramento County</placekey>
+        <placekey>Amador County</placekey>
+        <placekey>Solano County</placekey>
+        <placekey>Calaveras County</placekey>
+        <placekey>Tuolumne County</placekey>
+        <placekey>San Joaquin County</placekey>
+        <placekey>Contra Costa County</placekey>
+        <placekey>Stanislaus County</placekey>
+        <placekey>Alameda County</placekey>
+        <placekey>Mariposa County</placekey>
+        <placekey>Madera County</placekey>
+        <placekey>Merced County</placekey>
+        <placekey>Fresno County</placekey>
+        <placekey>Santa Clara County</placekey>
+        <placekey>San Benito County</placekey>
+        <placekey>Monterey County</placekey>
+        <placekey>Tulare County</placekey>
+        <placekey>Kings County</placekey>
+        <placekey>Kern County</placekey>
+        <placekey>San Luis Obispo County</placekey>
+        <placekey>Santa Barbara County</placekey>
+        <placekey>Ventura County</placekey>
+        <placekey>Sacramento Valley</placekey>
+        <placekey>San Joaquin Valley</placekey>
+        <placekey>Central Valley, California</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>
+Data have been checked to ensure the accuracy of the data. If any errors are detected, please notify the originating office. The U.S. Geological Survey strongly recommends that careful attention be paid to the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and (or) contained herein.
+
+Acknowledgement of the U.S. Geological Survey would be appreciated in products derived from these data.
+
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this Federal Geographic Data Committee-compliant metadata file is intended to document the dataset in nonproprietary form, as well as in ArcGIS format, this metadata file may include some ArcGIS-specific terminology.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Claudia C. Faunt</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>California Water Science Center</address>
+          <address>San Diego Projects Office</address>
+          <address>4165 Spruance Road</address>
+          <city>San Diego</city>
+          <state>California</state>
+          <postal>92101</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(619) 225-6142</cntvoice>
+        <cntfax>(619) 225-6101</cntfax>
+        <cntemail>ccfaunt@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/pp1766_prism2k.png</browsen>
+      <browsed>Illlustration of data set</browsed>
+      <browset>png</browset>
+    </browse>
+    <datacred>Spatial datasets supporting the Central Valley Groundwater Availability project were developed primarily by the U.S. Geological Survey's (USGS) Groundwater Resources Program.  This program is conducting large-scale multidisciplinary regional studies of groundwater availability.  The U.S. Bureau of Reclammation is supporting the updating of the Central Valley datasets and their documentation and release.</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3500</native>
+    <crossref>
+      <citeinfo>
+        <origin>Schmid, Wolfgang</origin>
+        <origin>Hanson, R. T.</origin>
+        <origin>Maddock, Thomas, III</origin>
+        <origin>Leake, S. A.</origin>
+        <pubdate>2006b</pubdate>
+        <title>User guide for the farm process (FMP1) for the U.S. Geological Survey's modular three-dimensional finite-difference ground-water flow model, MODFLOW-2000</title>
+        <serinfo>
+          <sername>Techniques and Methods</sername>
+          <issue>6-A17</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Sacramento, CA</pubplace>
+          <publish>USGS California Water Science Center</publish>
+        </pubinfo>
+        <onlink>https://pubs.usgs.gov/tm/2006/tm6A17/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The ETo values were compared with available CIMIS data and relatively good agreement was found throughout the vallley and through time.</attraccr>
+    </attracc>
+    <logic>The number of values and number of lines of record are complete in each array.</logic>
+    <complete>The arrays in this dataset are computer-generated and represent the reference evapotranspriation at each model grid cell of the Central Valley Hydrologic Model. The dataset is complete and is not anticipated to change.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Faunt, C. C.</origin>
+            <origin>Hanson, R.T.</origin>
+            <origin>Belitz, K.</origin>
+            <origin>Schmid, W.</origin>
+            <origin>Predmore, S.P.</origin>
+            <origin>Rewis, D.L.</origin>
+            <origin>McPherson, K.</origin>
+            <pubdate>2009</pubdate>
+            <title>Numerical Model of the Hydrologic LandScape and Groundwater Flow in California's Central Valley</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Professional Paper</sername>
+              <issue>2009-1766</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/pp/1766/PP_1766.pdf</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Faunt, C.C.</origin>
+                <pubdate>2009</pubdate>
+                <title>Groundwater Availability of the Central Valley Aquifer, California</title>
+                <serinfo>
+                  <sername>U.S. Geological Survey Professional Paper</sername>
+                  <issue>2009-1766</issue>
+                </serinfo>
+                <pubinfo>
+                  <pubplace>Reston, Virginia</pubplace>
+                  <publish>U.S. Geological Survey</publish>
+                </pubinfo>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Faunt and others (2009)</srccitea>
+        <srccontr>See Professional Paper 1766 - Groundwater Availability of the Central Valley Aquifer, California.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Hargreaves, George H.</origin>
+            <origin>Samani, Zohrab A.</origin>
+            <pubdate>1982</pubdate>
+            <title>Estimating Potential Evapotranspiration</title>
+            <serinfo>
+              <sername>Journal of the Irrigation and Drainage Division</sername>
+              <issue>Vol. 108, No. 3</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>American Society of Civil Engineers</publish>
+            </pubinfo>
+            <onlink>http://cedb.asce.org/cgi/WWWdisplay.cgi?35047</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>1986</srccurr>
+        </srctime>
+        <srccitea>Hargreaves and Samani (1982)</srccitea>
+        <srccontr>equation to estimate monthly evapotranspiration values</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Hargreaves, George H.</origin>
+            <origin>Samani, Zohrab A.</origin>
+            <pubdate>1985</pubdate>
+            <title>Reference Crop Evapotranspiration from Temperature</title>
+            <serinfo>
+              <sername>Applied Engineering in Agriculture</sername>
+              <issue>1(2)</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>St. Joseph, Michigan</pubplace>
+              <publish>American Society of Agricultural and Biological Engineers</publish>
+            </pubinfo>
+            <onlink>https://elibrary.asabe.org/abstract.asp?aid=26773&amp;t=2&amp;redir=&amp;redirType=</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>1985</srccurr>
+        </srctime>
+        <srccitea>Hargreaves and Samani (1985)</srccitea>
+        <srccontr>equation to estimate monthly evapotranspiration values</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>The Climate Source</origin>
+            <pubdate>2006</pubdate>
+            <title>Spatial Climate Data</title>
+            <geoform>tabular digital data</geoform>
+            <pubinfo>
+              <pubplace>Corvallis, OR</pubplace>
+              <publish>The Climate Source, Inc.</publish>
+            </pubinfo>
+            <onlink>http://www.climatesource.com/products.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>2006</srccurr>
+        </srctime>
+        <srccitea>Climate Source (2006)</srccitea>
+        <srccontr>temperature and precipitation on a monthly basis for a 2-kilometer grid</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+Monthly ETo values for the FMP in CVHM were estimated using the Hargreaves-Samani equation (Hargreaves and Samani, 1982, 1985)), which refers to ETo as Eth, and temperature data.  The daily minimum and maximum air temperatures derived from PRISM data and the extraterrestrial solar radiation are used in the calculation (Faunt, 2009, p. 151). The temperature data were interpolated from the PRISM grid onto the CVHM one-square-mile grid.
+
+ETh is calculated from the daily minimum and maximum air temperatures and the extraterrestrial solar radiation:
+
+ETh = 0.0023Ra((Tmax+Tmin)/(2x17.8))((Tmax-Tmin)/(2))
+
+where,
+Tmax is the maximum daily air temperature (in degrees Celcius),
+Tmin is the minimum daily air temperature (in degrees Celcius), and
+Ra is the extraterrestrial solar radiation (megaJoule/m2/day).
+</procdesc>
+        <srcused>Hargreaves and Samani (1982)</srcused>
+        <procdate>20090420</procdate>
+        <proctime>10482600</proctime>
+        <srcprod>Faunt and others (2009)</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Faunt, C.C.</cntper>
+              <cntorg>USGS</cntorg>
+            </cntperp>
+            <cntpos>Hydrologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>4165 Spruance Road, Suite 200</address>
+              <city>San Diego</city>
+              <state>CA</state>
+              <postal>92101</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(619) 225-6142</cntvoice>
+            <cntemail>ccfaunt@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>Central Valley, comprised of the Sacramento Valley on the north and the San Joaquin Valley on the south, located in the state of California.</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>43218</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.500000</stdparll>
+            <stdparll>45.500000</stdparll>
+            <longcm>-120.000000</longcm>
+            <latprjo>23.000000</latprjo>
+            <feast>0.000000</feast>
+            <fnorth>0.000000</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>1609.0</absres>
+            <ordres>1609.0</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>0.000010</altres>
+        <altunits>feet</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Reference Evapotranspiration</enttypl>
+        <enttypd>Average monthly Reference Evapotranspiration in inches per month</enttypd>
+        <enttypds>dataset originator</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Evapotranspiration</attrlabl>
+        <attrdef>Average monthly Reference Evapotranspiration in inches per month</attrdef>
+        <attrdefs>dataset originator</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00000000000</rdommin>
+            <rdommax>56.00000000000</rdommax>
+            <attrunit>inches</attrunit>
+            <attrmres>.00000000001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Each value represents the monthly precipitation starting in the upper left.</eaover>
+      <eadetcit>none.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>
+Downloadable Data
+Digital geospatial dataset for the numerical model of the hydrogeologic landscape and groundwater flow in California's Central Valley.
+</resdesc>
+    <distliab>Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey.  The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Ascii array</formname>
+          <formvern>NA</formvern>
+          <transize>5.605</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/pp1766_ETh_prism2k.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by the USGS as a public service.</fees>
+    </stdorder>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>2011</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20120824</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Datase+pp1766_eth_prism2k_sample</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20090101</begdate>
+    <enddate>20091231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_pp1766_eth_prism2k_sample.html</htmlurl>
+  </mercury>
+</metadata>

@@ -1,0 +1,859 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="JMHILL.4.14" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>Mountain Birdwatch 1.0</title>
+ <creator id="1449595790338" scope="document"> <organizationName>Vermont Center for Ecostudies</organizationName>
+ <address scope="document"> <deliveryPoint>P.O. Box 420</deliveryPoint>
+ <city>Norwich</city>
+ <administrativeArea>Vermont</administrativeArea>
+ <postalCode>05055</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">802.649.1431</phone>
+ <electronicMailAddress>info@vtecostudies.org</electronicMailAddress>
+ <onlineUrl>http://vtecostudies.org/</onlineUrl>
+ </creator>
+ <creator id="1449596261435" scope="document"> <individualName> <givenName>J. Daniel</givenName>
+ <surName>Lambert</surName>
+ </individualName>
+ <organizationName>Vermont Center for Ecostudies</organizationName>
+ <address scope="document"> <deliveryPoint>P.O. Box 420</deliveryPoint>
+ <city>Norwich</city>
+ <administrativeArea>Vermont</administrativeArea>
+ <postalCode>05055</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">802.649.1431</phone>
+ </creator>
+ <creator id="1449596386474" scope="document"> <individualName> <givenName>Julie</givenName>
+ <surName>Hart</surName>
+ </individualName>
+ <organizationName>Vermont Center for Ecostudies</organizationName>
+ <address scope="document"> <deliveryPoint>P.O. Box 420</deliveryPoint>
+ <city>Norwich</city>
+ <administrativeArea>Vermont</administrativeArea>
+ <postalCode>05055</postalCode>
+ <country>USA</country>
+ </address>
+ </creator>
+ <abstract> <para>Mountain Birdwatch 1.0 is a long-term monitoring program for songbirds that breed in highelevation forests of the northeastern United States. Initiated in 2000, Mountain Birdwatch has prepared skilled volunteers to conduct annual surveys along 1-km point-count routes located in Massachusetts, New York, Vermont, New Hampshire, and Maine. Primary emphasis was placed
+on Bicknell’s Thrush, a montane-fir specialist that breeds only in the Northeastern U.S. and adjacent portions of Canada. Other focal species included Blackpoll Warbler, Swainson’s Thrush, White-throated Sparrow, and Winter Wren. 
+
+The Vermont Center for Ecostudies launched a new, revised monitoring program- Mountain Birdwatch 2.0- in June of 2010.</para>
+ </abstract>
+ <keywordSet> <keyword>Montane forest birds</keyword>
+ <keyword>Catharus ustulatus</keyword>
+ <keyword>Setophaga striata</keyword>
+ <keyword>Zonotrichia albicollis</keyword>
+ <keyword>Troglodytes troglodytes</keyword>
+ <keyword>Citizen science</keyword>
+ <keyword>Bicknell's Thrush</keyword>
+ <keyword>Forest monitoring</keyword>
+ <keyword>Catharus bicknelli</keyword>
+ <keyword>High-elevation birds</keyword>
+ <keyword>Northeastern United States</keyword>
+ <keyword>Blackpoll Warbler</keyword>
+ <keyword>Swainson's Thrush</keyword>
+ <keyword>White-throated Sparrow</keyword>
+ <keyword>Winter Wren</keyword>
+ </keywordSet>
+ <intellectualRights> <para>This dataset is released to the public, and is freely available to the public. Please keep the designated contact person informed of any plans to use the dataset. Consultation or collaboration with the original investigators is strongly encouraged. Publications and data products that make use of the dataset must include proper acknowledgement.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Northeastern United States (Maine, New Hampshire, Vermont, New York, Massachusetts).</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-77.625</westBoundingCoordinate>
+ <eastBoundingCoordinate>-66.75</eastBoundingCoordinate>
+ <northBoundingCoordinate>49.125</northBoundingCoordinate>
+ <southBoundingCoordinate>39.375</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>2000</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2010</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <taxonomicCoverage><taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Accipiter striatus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Anas rubripes</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Anthus rubescens</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Archilochus colubris</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Bombycilla cedrorum</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Bonasa umbellus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Botaurus lentiginosus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Buteo jamaicensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Buteo platypterus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Cardellina canadensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Catharus bicknelli</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Catharus fuscescens</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Catharus guttatus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Catharus ustulatus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Certhia americana</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Chaetura pelagica</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Coccyzus erythropthalmus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Contopus cooperi</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Contopus virens</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Corvus brachyrhynchos</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Corvus corax</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Cyanocitta cristata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Dryocopus pileatus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Empidonax alnorum</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Empidonax flaviventris</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Empidonax minimus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Falcipennis canadensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Falco peregrinus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Gavia immer</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Geothlypis philadelphia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Geothlypis trichas</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Haemorhous mexicanus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Haemorhous purpureus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Hylocichla mustelina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Junco hyemalis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Junco hyemalis Hyemalis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Loxia curvirostra</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Loxia leucoptera</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Melospiza georgiana</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Mniotilta varia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Oreothlypis ruficapilla</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Passerella iliaca</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Passerina cyanea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Perisoreus canadensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pheucticus ludovicianus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Picoides arcticus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Picoides pubescens</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Picoides villosus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Pipilo erythrophthalmus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Piranga olivacea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Poecile atricapillus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Poecile hudsonicus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Regulus calendula</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Regulus satrapa</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Sciurus carolinensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Seiurus aurocapilla</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga americana</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga caerulescens</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga castanea</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga coronata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga coronata coronata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga fusca</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga magnolia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga pensylvanica</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga pinus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga ruticilla</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga striata</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga tigrina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Setophaga virens</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Sialia sialis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Sitta canadensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Sitta carolinensis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Sphyrapicus varius</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Spinus pinus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Spinus tristis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Spizella passerina</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Strix varia</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Tachycineta bicolor</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Tamiasciurus hudsonicus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Troglodytes hiemalis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Turdus migratorius</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Vermivora cyanoptera</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Vireo olivaceus</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Vireo solitarius</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Zenaida macroura</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Zonotrichia albicollis</taxonRankValue>
+ </taxonomicClassification>
+ <taxonomicClassification><taxonRankName>Species</taxonRankName>
+ <taxonRankValue>Zonotrichia leucophrys</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact id="1449596153079" scope="document"> <individualName> <salutation>Dr.</salutation>
+ <givenName>Jason</givenName>
+ <surName>Hill</surName>
+ </individualName>
+ <organizationName>Vermont Center for Ecostudies</organizationName>
+ <positionName>Post-doctoral Researcher</positionName>
+ <address scope="document"> <deliveryPoint>P.O. Box 420</deliveryPoint>
+ <city>Norwich</city>
+ <administrativeArea>Vermont</administrativeArea>
+ <postalCode>05055</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">802.649.1431 x 112</phone>
+ <electronicMailAddress>jhill@vtecostudies.org</electronicMailAddress>
+ <onlineUrl>http://vtecostudies.org/about-us/staff/jason-hill/</onlineUrl>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Volunteer Engagement</title>
+ <para>We announced the opportunity to volunteer for Mountain Birdwatch on our web site (http://www.vtecostudies.org/MBW/) and in other VCE publications, such as our biannual Field Notes. Cooperating conservation organizations publicized the project through electronic and</para>
+ <para>print media, and the Appalachian Mountain Club hosted a workshop for hired naturalists. Mountain Birdwatchers received maps, survey instructions, an identification guide to highelevation songbirds, and a training CD with an auditory identification quiz. The Mountain Birdwatch listserv (http://groups.yahoo.com/group/MountainBirdwatch/) and other on-line information (http://www.vtecostudies.org/MBW/) helped to inform, coordinate, and engage participants in the survey. Approximately 100 people participated annually in Mountain Birdwatch surveys.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep> <description> <section> <title>Site selection, route placement and coverage</title>
+ <para>Site selection was based on a GIS model of potential Bicknell’s Thrush habitat that incorporates elevation, latitude, and forest type (see Lambert et al. 2005). The model depicts conifer-dominated forests above an elevation threshold that drops 81.63 m for every one-degree increase in latitude (-81.63 m/1º latitude). The threshold’s slope corresponds closely with the latitude-elevation relationship for treeline in the Appalachian Mountain chain, which is -83 m/1º latitude (Cogbill and White 1991). Four routes have been established on peaks lying below the elevation threshold, while forty routes cross the threshold due to the limited availability of trails or land area above the threshold. We made an attempt to randomize site selection by randomly assigning priority ranks to discrete units of high-elevation habitat. However, the choice of sites was constrained by the availability of volunteers and the location of existing trails. When placing routes, we favored discrete starting points (e.g. trail junction), extensive conifer stands, and upper elevations. Volunteers establishing a route for the first time placed five</para>
+ <para>points at 200- to 250-m intervals along a mapped course. Monitors submitted a detailed description of each station in order to facilitate its location in future years.</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep> <description> <section> <title>Survey Methods</title>
+ <para>Surveys were conducted under acceptable weather conditions (no precipitation, temperature &gt;2 °C, wind speed &lt;32 km/h) from 1 to 28 June. Surveys were conducted between 04:30 and 08:00 EDT and most were completed by 06:30 EDT. Observers listened quietly for ten minutes at each of five stations. [In 2003, we increased the 5-species point count length from five to ten minutes in order to gather more information and to achieve methodological consistency with the all-species protocols and with Canada’s High-Elevation Landbird Program.]</para>
+ <para>They recorded the number of each focal species seen or heard during three time periods: 0-3 minutes, 3-5 minutes, and 5-10 minutes. If Bicknell’s Thrush was not detected during or between point counts, surveyors returned to each point immediately after the full route survey and broadcast a one-minute recording of the bird’s vocalizations in order to elicit a response from present but silent birds. A two-minute listening period followed each broadcast. [Prior to 2003, the broadcast duration was three minutes.]</para>
+ <para>Audio playbacks were discontinued upon detection of one or more individuals. If no Bicknell’s Thrush responded to the broadcasts, the status of the species at that location was classified as unknown. Monitors who completed their surveys without encountering Bicknell’s</para>
+ <para>Thrush were asked to conduct follow-up audio playback surveys at dusk or dawn before 15 July (after Atwood et al. 1996). If no observations of Bicknell’s Thrush were made during the second visit, the species was presumed to be absent from that site.</para>
+ </section>
+ </description>
+ </methodStep>
+ <sampling> <studyExtent> <description> <para>Upper montane forests above 2700 feet in the Northeastern United States (ME, VT, NH, MA, NY) from 2000 to 2010.</para>
+ </description>
+ </studyExtent>
+ <samplingDescription> <para>All point counts were located along trails.</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1449611476222" scope="document"> <entityName>RouteData.csv</entityName>
+ <entityDescription>Mountain Birdwatch 1.0 route-related information from 2000 to 2010; the BirdData.csv file is needed in conjuction with this file.</entityDescription>
+ <physical id="1449606398069" scope="document"> <objectName>RouteData.csv</objectName>
+ <size unit="byte">3046102</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/JMHILL.3.4</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1449611476223" scope="document"><attributeName>ObservationNumber</attributeName>
+ <attributeDefinition>This column contains a unique number for every row of data; this column can be used as a lookup value for the corresponding row of data in the BirdData.csv file.</attributeDefinition>
+ <storageType>integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>unique and arbitrary number that links every row of data in the RouteData.csv file to a row of data in the BirdData.csv file.</definition>
+ <source>Mountain Birdwatch 1.0 Access database</source>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1449611476224" scope="document"> <attributeName>SurveyID</attributeName>
+ <attributeDefinition>All data for a particular visit to a route in each year has the same SurveyID value. It's an arbitrary value.</attributeDefinition>
+ <storageType>integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Arbitrary values that link together all data from a visit to a route in a given year</definition>
+ <source>Mountain Birdwatch 1.0 Access database</source>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1449611476225" scope="document"><attributeName>RouteNumber</attributeName>
+ <attributeDefinition>A unique (and arbitrary) value for each route. All of the data across all years and observers for a particular route has the same RouteNumber value.</attributeDefinition>
+ <storageType>integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>A unique (and arbitrary) value for each route.</definition>
+ <source>Mountain Birdwatch 1.0 Access database</source>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1449611476226" scope="document"><attributeName>PointNumber</attributeName>
+ <attributeDefinition>The PointNumber refers to the indivdually-numbered point count locations on each route. All routes had between 2 and 8 point count locations, although most routes (&gt;90%) had 5 point count locations. Point count locations were spaced out on the route, so mountain peaks with only a small amount of high-elevation forest acreage would have few point count stations.</attributeDefinition>
+ <storageType>integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>A number referring to the phsycial location on a route where an observer would stand to conduct the point count.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1449611476227" scope="document"><attributeName>PrimaryPeak</attributeName>
+ <attributeDefinition>Each Mountain Bird Watch route is located on a mountain; sometimes these mountains have several named peaks. This column contains the name of the primary peak of the mountain where a particular Mountain Birdwatch route is located.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>The name of the primary mountain peak where a Mountain Birdwatch route occurs.</definition>
+ <source>USGS topo maps</source>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1449611476228" scope="document"><attributeName>RouteOwnership</attributeName>
+ <attributeDefinition>The owner of the land that contains the Mountain Birdwatch route. In some cases it isn't known (e.g., a conservation easement held by a land trust), or the landowner wishes to remain anonymous.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Owner of the land that contains the Mountain Birdwatch route.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Unknown property owner</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449611476229" scope="document"><attributeName>MaxRouteElevation</attributeName>
+ <attributeLabel>Elevation</attributeLabel>
+ <attributeDefinition>Maximum elevation in feet along the Mountain Birdwatch route.</attributeDefinition>
+ <storageType>integer</storageType>
+ <measurementScale><ratio><unit><standardUnit>Foot_US</standardUnit>
+ </unit>
+ <precision>1.0</precision>
+ <numericDomain><numberType>natural</numberType>
+ <bounds><minimum exclusive="true">2714</minimum>
+ <maximum exclusive="true">6288</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing max elevation value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449611476230" scope="document"> <attributeName>RouteName</attributeName>
+ <attributeDefinition>Common name of the route. Each RouteNumber refers to a RouteName, but observers generally refer to a route by its RouteName</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Common name of the Mountain Birdwatch route</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1449611476231" scope="document"><attributeName>RouteLattitude</attributeName>
+ <attributeLabel>Point Lattitude</attributeLabel>
+ <attributeDefinition>Lattitude of the point count location in decimal degrees, NAD 83</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>0.00001</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="true">41.95450</minimum>
+ <maximum exclusive="true">46.10053</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing lattitude data for that point count location</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449611476232" scope="document"><attributeName>RouteLongitude</attributeName>
+ <attributeDefinition>Longitude of the point count location in Nad 83 decimal degrees.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>0.00001</precision>
+ <numericDomain><numberType>real</numberType>
+ <bounds><minimum exclusive="true">-74.77834</minimum>
+ <maximum exclusive="true">-68.84989</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing longitude</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449611476233" scope="document"><attributeName>State</attributeName>
+ <attributeDefinition>State where the Mountain Birdwatch route is located</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>State where the Mountain Birdwatch route is located</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>33247</numberOfRecords>
+ </dataTable>
+ <dataTable id="1449695058339"><entityName>BirdData.csv</entityName>
+ <entityDescription>The BirdData.csv file is meant to be used in conjuction with the RouteData.csv file. Both files share a common column (ObservationNumber) that links every row between the two datasheets. BirdData.csv contains all of the bird observations (and a few squirrel observations) from 10 years of Mountain Birdwatch surveys for montane birds.</entityDescription>
+ <physical id="1449690136468"><objectName>BirdData.csv</objectName>
+ <size unit="byte">2452476</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/JMHILL.5.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+ <permission>read</permission>
+ </deny>
+ </access>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1449695058340"><attributeName>ObservationNumber</attributeName>
+ <attributeDefinition>This column links the RouteData.csv to the BirdData.csv files. Observation number is a unique and arbitrary value asigned to each row of the datasheet. It is essentially a look-up value.</attributeDefinition>
+ <storageType>integer</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>A unique and arbitrary value assigned to each row of the datasheet.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1449695058341"><attributeName>ObserverID</attributeName>
+ <attributeLabel>Observer</attributeLabel>
+ <attributeDefinition>Each point count was conducted by a single observer (often that observer would have a &quot;helper&quot; that would just write down data-but not observer birds). Each unique ObserverID represents a different person. Observers often conducted counts on routes in different years, and some ran multiple routes each year.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Each ObserverID represents a different person who conducted all of the point couts on a particular route in a given year.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing observer information</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058342"><attributeName>SurveyDate</attributeName>
+ <attributeDefinition>The data when the Mountain Birdwatch survey was conducted. All point counts on a route were conducted on the same day. Surveys were supposed to be finished prior to July each year, but some observers conducted point counts after that date.</attributeDefinition>
+ <measurementScale><dateTime><formatString>MM-DD-YYYY</formatString>
+ <dateTimePrecision>1 day</dateTimePrecision>
+ <dateTimeDomain> <bounds><minimum exclusive="true">5/30/2000</minimum>
+ <maximum exclusive="true">7/7/2010</maximum>
+ </bounds>
+ </dateTimeDomain>
+ </dateTime>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>The survey date is unknown, but must have occurred between 2000 and 2010.</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058343"><attributeName>SurveyStartTime</attributeName>
+ <attributeDefinition>The start time of the first point count conducted on that route in that year. The surveystarttime is not necessarily the time when that particular point count was conducted. In the vast majority of cases, obsers started with point 1 and progressed to point 2, then to point 3, etc. Surveys were supposed to be conducted between 0430 and 0800. Some observers did not follow this protocol, but most routes were finished by 0630.</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm</formatString>
+ <dateTimePrecision>1 minute</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>The start time is unknown.</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058344"><attributeName>CountLengthInMintues</attributeName>
+ <attributeDefinition>The duration of that particular point count in minutes. Most point counts were 10 minutes in duration. In 2003, we increased the 5-species point count length from five to ten minutes in order to gather more information and to
+achieve methodological consistency with the all-species protocols and with Canada’s High-Elevation Landbird Program.</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>minute</standardUnit>
+ </unit>
+ <precision>5.0</precision>
+ <numericDomain><numberType>whole</numberType>
+ <bounds><minimum exclusive="true">5</minimum>
+ <maximum exclusive="true">15</maximum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Unknown count duration; mostly likely the count was 10 minutes in duration.</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058345"><attributeName>Temperature</attributeName>
+ <attributeDefinition>Air temperature at the start of the fist survey conducted on that route that year. Temperature is not necessarily the temperature for that particular point count.</attributeDefinition>
+ <measurementScale><interval><unit><standardUnit>fahrenheit</standardUnit>
+ </unit>
+ <precision>1.0</precision>
+ <numericDomain><numberType>integer</numberType>
+ <bounds><minimum exclusive="true">0</minimum>
+ <maximum exclusive="true">100</maximum>
+ </bounds>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing start temperature value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058346"><attributeName>CloudCode</attributeName>
+ <attributeLabel>Cloud Cover</attributeLabel>
+ <attributeDefinition>A measure of sky conditions at the beginning of the first survey conducted on that route in that year.</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Clear sky or few clouds</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>Partly cloudy</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Cloudy/overcast</definition>
+ </codeDefinition>
+ <codeDefinition><code>3</code>
+ <definition>Fog</definition>
+ </codeDefinition>
+ <codeDefinition><code>4</code>
+ <definition>Drizzle</definition>
+ </codeDefinition>
+ <codeDefinition><code>5</code>
+ <definition>Showers</definition>
+ </codeDefinition>
+ <codeDefinition><code>6</code>
+ <definition>Rain</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing cloud cover value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058347"><attributeName>WindCode</attributeName>
+ <attributeDefinition>A code representing the approximate wind speed at the time of the first survey conducted on that route in that year. Surveys were only conducted when wind speeds were &lt;32 km/hr.</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>0</code>
+ <definition>Calm</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>1-3 mph winds</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>4-7 mph winds</definition>
+ </codeDefinition>
+ <codeDefinition><code>3</code>
+ <definition>8-12 mph winds</definition>
+ </codeDefinition>
+ <codeDefinition><code>4</code>
+ <definition>13-18 mph winds</definition>
+ </codeDefinition>
+ <codeDefinition><code>5</code>
+ <definition>&gt;18 mph winds</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing wind code</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058348"><attributeName>AllSpeciesSurveyed</attributeName>
+ <attributeDefinition>A code informiing the extent of the survey. Some observers only recorded detections for the 5 focal species (Bicknell's Thrush, Winter Wren, Blackpoll Warbler, Swainson's Thrush, and White-throated Sparrow). Other observers wrote down all of the species that they detected, regardless of whether that species was a focal species.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>3</code>
+ <definition>The observer only recorded detections for the 5 focal species</definition>
+ </codeDefinition>
+ <codeDefinition><code>1</code>
+ <definition>All species that were detected by the observer were recorded</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>The observer did not indicate whether they were listening for just the 5 focal species or all species</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058349"><attributeName>PointCountStartTime</attributeName>
+ <attributeDefinition>The time that the observer started that particular point count.</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm</formatString>
+ <dateTimePrecision>1 minute</dateTimePrecision>
+ <dateTimeDomain> <bounds><minimum exclusive="true">3:52</minimum>
+ <maximum exclusive="true">20:54</maximum>
+ </bounds>
+ </dateTimeDomain>
+ </dateTime>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing point count start time value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058350"><attributeName>SpeciesCode</attributeName>
+ <attributeDefinition>4-digit abbreviation for the bird species detected during the point count. There are also a few observations of American Red Squirrel (RESQ) and Eastern Gray Squirrel (GRSQ). If an observer did not detect any species then they wrote down &quot;NONE&quot;. Unidentified birds were recorded as &quot;UNBI&quot; [unknown bird].</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><enumeratedDomain><entityCodeList><entityReference>1449695542524</entityReference>
+ <valueAttributeReference>1449695542525</valueAttributeReference>
+ <definitionAttributeReference>1449695542527</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Either the observer did not record the species or it was not readable.</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058351"><attributeName>TimePeriod</attributeName>
+ <attributeDefinition>Observers recorded the time period (first 3 minutes, 3-5 minutes, last 5 minutes) when an individual bird was first detected.</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>A</code>
+ <definition>Bird was initially detected in the first 3 minutes of the point count.</definition>
+ </codeDefinition>
+ <codeDefinition><code>B</code>
+ <definition>Bird was initially detected between minutes 3 and 5 of the point count.</definition>
+ </codeDefinition>
+ <codeDefinition><code>C</code>
+ <definition>Bird was initially detected in the last 5 minutes of the point count.</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058352"><attributeName>DistancetoBird</attributeName>
+ <attributeDefinition>Observers sometimes recorded how close the bird was to them when it was initially detected.</attributeDefinition>
+ <measurementScale><ordinal><nonNumericDomain><enumeratedDomain><codeDefinition><code>1</code>
+ <definition>Bird was initially detected within 50 meters of the observer</definition>
+ </codeDefinition>
+ <codeDefinition><code>2</code>
+ <definition>Bird was initially detected beyond 50 meters from the observer</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing distance value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058353"><attributeName>PlayBackStartTime</attributeName>
+ <attributeDefinition>The start time when Bicknell's Thrush playback was used (after a point count was over) to increase the chances of detecting a BITH.  If Bicknell’s Thrush was not detected during or between point counts, surveyors returned to each point immediately after the full route survey and broadcast a one-minute recording of the bird’s vocalizations in order to elicit a response from present but silent birds. A two-minute listening period followed each broadcast.Prior to 2003, the broadcast duration was three minutes. Audio playbacks were discontinued upon detection of one or more individuals.</attributeDefinition>
+ <measurementScale><dateTime><formatString>hh:mm</formatString>
+ <dateTimePrecision>1 minute</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Playback start time was not recorded, or playback was not performed</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058354"><attributeName>NumberOfBITH</attributeName>
+ <attributeDefinition>The number of Bicknell's Thrushes that were detected responding to the playback after the point count.</attributeDefinition>
+ <measurementScale><ratio><unit><customUnit>Count</customUnit>
+ </unit>
+ <precision>1.0</precision>
+ <numericDomain><numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing value: either playback was not performed or the observer did not record this information</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695058355"><attributeName>SurveyNotes</attributeName>
+ <attributeDefinition>Observers sometimes jotted down comments about the Mountain Birdwatch route, or about specific points on that route. Often the observers noted here if they detected BITH inbetween survey points, or before or after the survey. Observers often camped near their first survey point the day before, and they would often here BITH singing and they would note it in this field.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Observer comments about the Mountain Birdwatch route.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>No survey notes recorded</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>34189</numberOfRecords>
+ </dataTable>
+ <dataTable id="1449695542524"><entityName>SpeciesCodes.csv</entityName>
+ <entityDescription>Standard list of 4-digit bird codes (and a few mammal codes) used in the SpeciesCode column of the BirdData.csv file.</entityDescription>
+ <physical id="1449695278037"><objectName>SpeciesCodes.csv</objectName>
+ <size unit="byte">3918</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/JMHILL.6.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1449695542525"><attributeName>SpeciesCode</attributeName>
+ <attributeDefinition>Four-digit species code, used as a shorthand way of writing out the full species' name. For example, BITH = Bicknell's Thrush and HAWO = Hairy Woodpecker. These are standard codes used by the ornithological community. The list also includes RESQ (American Red Squirrel) and GRSQ (Eastern Gray Squirrel).</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Four-digit species' codes.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Species code was not recorded</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695542526"><attributeName>CommonName</attributeName>
+ <attributeDefinition>English common name of that organism.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>English common names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing value</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1449695542527"><attributeName>LatinName</attributeName>
+ <attributeDefinition>Latin name for that organism</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Latin name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ <missingValueCode><code>NA</code>
+ <codeExplanation>Missing Latin name</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>92</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata><metadata><unitList><unitType id="count" name="count"><dimension name="Amount"></dimension>
+ </unitType>
+ <unit id="Count" multiplierToSI=" " name="Count" parentSI="number" unitType="count"><description>The number of organisms observed.</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

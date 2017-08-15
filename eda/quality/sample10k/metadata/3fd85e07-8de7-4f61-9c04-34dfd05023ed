@@ -1,0 +1,612 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>http://coastalmap.marine.usgs.gov/metadata/mobility_db/south_atlantic_bight/SAB_95th_perc.shp.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>P. Soupy Dalyander</origin>
+        <pubdate>2012</pubdate>
+        <title>U.S. Geological Survey calculated 95th percentile of wave-current bottom shear stress for the South Atlantic Bight for May 2010 to May 2011 (SAB_95th_perc, polygon shapefile, Geographic, WGS84)</title>
+        <edition>1.0</edition>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>data release</sername>
+          <issue>U.S. Geological Survey Sea Floor Stress and Sediment Mobility Database</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://woodshole.er.usgs.gov/project-pages/mobility/ArcData/SAB_95th_perc.zip</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>P.S. Dalyander</origin>
+            <origin>B. Butman</origin>
+            <origin>C.R. Sherwood</origin>
+            <origin>R.P. Signell</origin>
+            <pubdate>2012</pubdate>
+            <title>U.S. Geological Survey Sea Floor Stress and Sediment Mobility Database</title>
+            <edition>1.0</edition>
+            <serinfo>
+              <sername>Database</sername>
+              <issue>U.S. Geological Survey Sea Floor Stress and Sediment Mobility Database</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+              <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+            </pubinfo>
+            <onlink>http://woodshole.er.usgs.gov/project-pages/mobility/index.html</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The U.S. Geological Survey has been characterizing the regional variation in shear stress on the sea floor and sediment mobility through statistical descriptors.  The purpose of this project is to identify patterns in stress in order to inform habitat delineation or decisions for anthropogenic use of the continental shelf.  The statistical characterization spans the continental shelf from the coast to approximately 120 m water depth, at approximately 5 km resolution.  Time-series of wave and circulation are created using numerical models, and near-bottom output of steady and oscillatory velocities and an estimate of bottom roughness are used to calculate a time-series of bottom shear stress at 1-hour intervals.  Statistical descriptions such as the median and 95th percentile, which are the output included with this database, are then calculated to create a two-dimensional picture of the regional patterns in shear stress.  In addition, time-series of stress are compared to critical stress values at select points calculated from observed surface sediment texture data to determine estimates of sea floor mobility.</abstract>
+      <purpose>This GIS layer contains an estimate of the 95th percentile of bottom shear stress for the South Atlantic Bight.  This output is based on statistical characterization of numerical model estimates of wave and circulation patterns over an approximately one year time frame.  This data layer is primarily intended to show the overall distribution of the highest stress values on large spatial scales, and should be used qualitatively.  Intended users include scientific researchers and the coastal and marine spatial planning community.</purpose>
+      <supplinf>This data layer is a subset of the U.S. Geological Survey Sea Floor Stress and Sediment Mobility database, and contains the 95th percentile of bottom shear stress for the South Atlantic Bight.  Gridded stress value (such as the 95th percentile) are calculated by interpolating wave model results to the current model grid, which may result in some water grid cells from the current model being removed and not included with the output polygons if they partially overlap land cells in the wave model.  Sediment mobility statistics (found in other layers) are calculated using wave and current model results at the location of the sample, therefore it is possible in some cases for a sediment mobility statistic to be calculated although it lies within a polygon with no output value, because that specific location may be within a water cell in both models while the containing current grid cell overlaps land in the wave model elsewhere in the cell.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20100501</begdate>
+          <enddate>20110501</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Planned</progress>
+      <update>As needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-81.867378</westbc>
+        <eastbc>-74.448296</eastbc>
+        <northbc>38.866417</northbc>
+        <southbc>24.337751</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>bottom shear stress</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Woods Hole Coastal and Marine Science Center</themekey>
+        <themekey>WHCMSC</themekey>
+        <themekey>Coastal and Marine Geology Program</themekey>
+        <themekey>CMGP</themekey>
+        <themekey>wave</themekey>
+        <themekey>current</themekey>
+        <themekey>SWAN</themekey>
+        <themekey>ROMS</themekey>
+        <themekey>Grant-Madsen</themekey>
+        <themekey>Coastal and marine spatial planning</themekey>
+        <themekey>CMSP</themekey>
+        <themekey>sea floor habitat</themekey>
+        <themekey>sediment mobility</themekey>
+        <themekey>95th percentile</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 9115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>Data Categories for Marine Planning</themekt>
+        <themekey>predictions</themekey>
+        <themekey>substrate</themekey>
+      </theme>
+      <theme>
+        <themekt>Marine Realms Information Bank (MRIB) Keywords</themekt>
+        <themekey>numerical modeling</themekey>
+        <themekey>seabed</themekey>
+        <themekey>sediment transport</themekey>
+        <themekey>alteration of benthic habitats</themekey>
+      </theme>
+      <theme>
+        <themekt>USGS Thesaurus</themekt>
+        <themekey>mathematical modeling</themekey>
+        <themekey>sea-floor characteristics</themekey>
+        <themekey>sediment transport</themekey>
+        <themekey>ocean processes</themekey>
+        <themekey>habitat alteration</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>South Atlantic Bight</placekey>
+        <placekey>U.S. East Coast</placekey>
+        <placekey>Chesapeake Bay</placekey>
+        <placekey>United States</placekey>
+        <placekey>North America</placekey>
+        <placekey>Atlantic Ocean</placekey>
+        <placekey>Cape Canaveral</placekey>
+        <placekey>Florida Keys</placekey>
+        <placekey>Pamlico Sound</placekey>
+        <placekey>Outer Banks</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>seafloor</stratkey>
+        <stratkey>sea floor</stratkey>
+      </stratum>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey as the originator of the dataset.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>P. Soupy Dalyander</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Oceanographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(508) 548-8700 x2290</cntvoice>
+        <cntfax>(508) 457-2310</cntfax>
+        <cntemail>sdalyander@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>http://woodshole.er.usgs.gov/project-pages/mobility/images/mobility_website_browse_sab_95th.jpg</browsen>
+      <browsed>Image displaying coverage area of bottom shear stress and value exceeded 95% of the time for a 1-year period for the South Atlantic Bight.</browsed>
+      <browset>JPEG</browset>
+    </browse>
+    <native>Microsoft Windows Vista Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 9.3.1.1850</native>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2012</pubdate>
+        <title>Documentation of the U.S. Geological Survey Sea Floor Stress and Sediment Mobility Database</title>
+        <edition>1.0</edition>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2012-1137</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2012/1137/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Each attribute in this data layer covers a specific time period of interest.  The attributes include winter (December - February), spring (March - May), summer (June - August), fall (September - November), and the entire year.  Each of these attributes was calculated from model output spanning May, 2010 to May, 2011.  Statistical values will vary somewhat if calculated from model parameters covering a different time period, or if a different numerical model is used to estimate the time-series of waves and circulation used in calculating the time-series of bottom shear stress.</attraccr>
+    </attracc>
+    <logic>No duplicate features are present. All polygons are closed, and all lines intersect where intended. No undershoots or overshoots are present.</logic>
+    <complete>All model output values were used in the calculation of this statistic.  The statistic was calculated for the date range of May, 2010 to May, 2011, and would potentially vary somewhat if performed on a different time period.  The underlying time-series of bottom shear stress was calculated from wave and current estimates generated with numerical models, and would vary if different models are used or if different model inputs (such as bathymetry or forcing winds) or parameterizations were chosen.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Numerical models are used in the generation of time-series of bottom shear stress used in creating this data layer.  Because the overall horizontal accuracy of the data set depends on the accuracy of the model, the underlying bathymetry, and forcing values used, and so forth, the spatial accuracy of this data layer cannot be meaningfully quantified.  These maps are intended to provide a qualitative and relative regional assessment of bottom shear stress at the approximately 5 km resolution displayed; users are advised not to use the data set to estimate shear stress quantitatively at any specific geographic location.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA National Centers for Environmental Prediction (NCEP)</origin>
+            <pubdate>20110601</pubdate>
+            <title>NOAA/NCEP Global Forecast System (GFS) Atmospheric Model</title>
+            <pubinfo>
+              <pubplace>Camp Springs, MD</pubplace>
+              <publish>NOAA National Centers for Environmental Prediction</publish>
+            </pubinfo>
+            <onlink>http://nomads.ncdc.noaa.gov/data.php</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100401</begdate>
+              <enddate>20110601</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NOAA GFS</srccitea>
+        <srccontr>The NOAA Global Forecast System (GFS) 0.5 degree model was used to provide wind speed data at 10 m above the sea surface to drive the numerical wave model used to generate bottom orbital wave velocities for calculations of a time-series of bottom shear stress.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA National Centers for Environmental Prediction (NCEP)</origin>
+            <pubdate>20110601</pubdate>
+            <title>NOAA/NCEP North American Mesoscale (NAM) Atmospheric Model</title>
+            <pubinfo>
+              <pubplace>Camp Springs, MD</pubplace>
+              <publish>NOAA National Centers for Environmental Prediction</publish>
+            </pubinfo>
+            <onlink>http://nomads.ncdc.noaa.gov/data.php</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100401</begdate>
+              <enddate>20110601</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NOAA NAM</srccitea>
+        <srccontr>The NOAA North American Mesoscale (NAM) model was used to provide wind speed data at 10 m above the sea surface to drive the numerical wave model used to generate bottom orbital wave velocities for calculations of a time-series of bottom shear stress.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>North Carolina State University</origin>
+            <pubdate>2012</pubdate>
+            <title>South Atlantic Bight and Gulf of Mexico Circulation Nowcast/Forecast (SABGOM N/F)</title>
+            <pubinfo>
+              <pubplace>Raleigh, NC</pubplace>
+              <publish>North Carolina State University</publish>
+            </pubinfo>
+            <othercit>The original metadata had an online link that no longer appears to be valid: omglnx6.meas.ncsu.edu/sabgom_nfcast/</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100501</begdate>
+              <enddate>20110501</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>SABGOM</srccitea>
+        <srccontr>The North Carolina State University (NCSU) SABGOM model was used to provide estimates of near-bed current velocity used for calculating the time-series of bottom shear stress.
+The SABGOM hydrodynamic model (the original metadata had a link that appears to be no longer valid - omglnx6.meas.ncsu.edu/sabgom_nfcast/) is operated by North Carolina State University as a quasi-operational nowcast/forecast system in the Southeast Coastal Ocean Observing Regional Association (SECOORA, http://secoora.org/), part of the U.S. Integrated Ocean Observing System (https://ioos.noaa.gov). The underlying circulation model is the Regional Ocean Modeling System (ROMS; http://www.myroms.org), a finite-difference, hydrostatic, primitive equation ocean model that solves for the free surface elevation and three dimensional flow patterns, temperature, and salinity.
+The SABGOM configuration of ROMS has 5 km horizontal resolution and 36 layers in vertical terrain-following coordinates. Ocean open boundary values are from a global forecast that uses the HYbrid Coordinate Ocean Model (HyCOM) with assimilation of satellite and in situ data with the Navy Coupled Ocean Data Assimilation (NCODA) system. Tidal harmonic boundary variability is determined from a regional tidal model.
+The datafiles for the time period used in this analysis were acquired directly from Dr. Ruoying He of NCSU.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>NOAA National Centers for Environmental Prediction (NCEP</origin>
+            <pubdate>20110601</pubdate>
+            <title>NOAA/NWS/NCEP Global Wavewatch III Operational Wave Forecast</title>
+            <pubinfo>
+              <pubplace>Camp Springs, MD</pubplace>
+              <publish>NOAA National Centers for Environmental Prediction</publish>
+            </pubinfo>
+            <onlink>http://polar.ncep.noaa.gov/waves/index2.shtml</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>20100401</begdate>
+              <enddate>20110601</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NOAA WW3</srccitea>
+        <srccontr>The grids and parameterizations for the global and regional wave model were provided by the NOAA/NWS/NCEP Wavewatch III operational ocean wave forecast.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The WavewatchIII (WW3) numerical wave model (v3.14) was run on both a global 30' and regional North Atlantic 10' grid. The global grid is identical to the one used by the NOAA WW3 forecast system, whereas the regional grid is based on the NOAA WW3 grid but was modified slightly to remove parts of the "do not compute" mask at the outer boundaries where output was needed to pass to the nested, higher resolution grid.  WW3 is a 3rd generation phase-averaged numerical wave model which conserves wave energy subject to generation, dissipation, and transformation processes and resolves spectral energy density over a range of user-specified frequencies and directions.  The model was identically configured to the multi-grid system set-up used by the NOAA WW3 operational forecast (more information at http://polar.ncep.noaa.gov/waves/index2.shtml), and was rerun purely to generate full spectra boundary conditions at the boundaries of the higher resolution nested domain.  Wind forcing was provided at 3-hour resolution from the NOAA North American Mesoscale (NAM) model (12 km resolution) over its domain, with the rest of the domain (outside the NAM grid) provided by the NOAA Global Forecasting System (GFS) model at 0.5 degree resolution.</procdesc>
+        <srcused>NOAA GFS</srcused>
+        <srcused>NOAA NAM</srcused>
+        <srcused>NOAA WW3</srcused>
+        <procdate>2012</procdate>
+        <srcprod>WW3</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>P. Soupy Dalyander</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Oceanographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(508) 548-8700 x2290</cntvoice>
+            <cntfax>(508) 457-2310</cntfax>
+            <cntemail>sdalyander@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The Simulating WAves Nearshore (SWAN) numerical wave model (version 40.81, modified for proper calculation of RMS bottom orbital velocity and for output of bottom wave direction) was used to create a time-series of bottom orbital velocity, bottom representative period, and bottom wave direction over the one year time period of May, 2010 - May, 2011 in each grid cell in the model domain.  The wave model SWAN is a 3rd generation phase-averaged numerical wave model which conserves wave energy subject to generation, dissipation, and transformation processes and resolves spectral energy density over a range of user-specified frequencies and directions.  Although stress calculations were only performed over the spatial extent of the hydrodynamic model, SWAN was run over a larger spatial scale. The model domain consists of seven overlapping regular numerical model grids that follow the eastern and Gulf of Mexico coasts of the United States at approximately 3.5 km resolution.   The model was run for April 2010 using the default SWAN initial condition formulation for a non-stationary run, e.g., a JONSWAP spectrum from prescribed initial wind conditions, to develop initial conditions for the one year study period (May 2010 to May 2011).
+Full spectra boundary conditions at each model ocean boundary point are interpolated from the output of the regional 10' Wavewatch III model, updated every hour.  Wind forcing was provided at 3-hour resolution from the NOAA North American Mesoscale (NAM) model (12 km resolution) over its domain, with forcing at the most offshore portions of the grid (outside the NAM grid) provided by the NOAA Global Forecasting System (GFS) model at 0.5 degree resolution.  The SWAN directional resolution was 6 degrees (60 bins), determined via sensitivity analysis as the coarsest (and hence least computationally expensive) resolution that does not result in the "Garden-Sprinkler Effect" (GSE), wherein swell traveling over large distances inaccurately disintegrates into non-continuous wave fields as a result of frequency and directional discretization.  The minimum frequency bin should be set to a value less than 0.7 times the lowest expected peak frequency and the maximum frequency bin should be set at least 2.5-3 times the highest expected peak frequency expected.  In order to determine appropriate values, the peak periods from 43 NDBC buoys throughout the wave model domain were analyzed (when available) over the one year period of the study, yielding 297,533 hourly observations.   The 99th and 1st percentiles of peak period were 15 s and 3 s, corresponding to frequencies of 0.07 Hz and 0.33 Hz, noting that these values may be biased by buoy limits of detection at high and low frequencies. The frequency range was therefore specified as 0.04-1 Hz.  SWAN was allowed to internally determine the frequency resolution as one tenth of each frequency bin for best performance of the discrete interaction approximation (DIA) method of nonlinear 4-wave interactions, resulting in 34 frequency bins.  Bottom friction calculations used the Madsen formulation with a uniform roughness length scale of 0.05 m.  This value was selected for the best comparison of model output and buoy observations within the domain, and does not correspond to physical roughness values or the bottom roughness used in stress calculations.  Wind generation and whitecapping parameterizations follow the modified Komen approach prescribed by Rogers et al. (2003), which reduces inaccurate attenuation of swell energy by whitecapping.  Wave model outputs of bottom orbital velocity, bottom representative period, and bottom wave direction were output hourly and interpolated onto the SABGOM model grid.
+The same person that conducted this processing step conducted each subsequent processing step.
+References:
+Rogers, W.E., Hwang, P.A., Wang, D.W., 2003. Investigation of Wave Growth and Decay in the SWAN Model: Three Regional-Scale Applications. J. Phys. Oceanogr. 33, 366-389.</procdesc>
+        <srcused>NOAA GFS</srcused>
+        <srcused>NOAA NAM</srcused>
+        <srcused>WW3</srcused>
+        <procdate>2011</procdate>
+        <srcprod>SWAN WEST ATL</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>P. Soupy Dalyander</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Oceanographer</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(508) 548-8700 x2290</cntvoice>
+            <cntfax>(508) 457-2310</cntfax>
+            <cntemail>sdalyander@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Use the wave model and current model results to calculate the time series of bottom shear stress within each model grid cell using Mathworks MATLAB software (v2011A). Bottom shear stress estimates are made following Grant-Madsen (GM) (Madsen, 1994), from the estimated bottom orbital velocities and bottom wave periods generated with SWAN, and near-bed current estimates from the SABGOM hydrodynamic model.  The GM approach relies on an eddy viscosity turbulence closure model and formulates the wave stress, current stress, and combined wave-current bottom stress as functions of a representative bottom wave orbital velocity, representative bottom wave period, current flow at some reference height, the angle between wave and current propagation, and bottom roughness.  Full details of the GM formulation may be found elsewhere (Glenn, 1983; Glenn and Grant, 1987; Grant and Madsen, 1979, 1982, 1986; Madsen, 1994; Madsen et al., 1988).
+Wave direction, bottom orbital velocities, and bottom periods are calculated internally by the wave model.  Near-bed current magnitude and direction are taken from the hydrodynamic model, with the reference height taken as the distance from the cell vertical midpoint to the seabed.  GM requires that the current velocity be taken above the wave boundary layer (WBL) but within the log-profile current velocity layer.  If the thickness of the WBL calculated using GM exceeds of one or more of the deepest grid cells, the current estimate and associated reference height are used from the deepest grid cell at each location where the reference height exceeds the width of the WBL.  An estimate must be used for the maximum reference height where the log-profile velocity layer assumption is valid.  As discussed in Grant and Madsen (1986), the thickness of the log-profile layer based on laboratory experiments is approximately 10% of the current boundary layer thickness (Clauser, 1956). Because tidal currents, storm currents, and mean flow have a boundary layer thickness on the order of magnitude 10's of meters (Goud, 1987), a maximum value for reference height is set as 5 m.  The GM bottom boundary layer model also requires a value for bottom roughness; a uniform value of 0.005 m is used throughout the domain.
+References:
+Clauser, F.H., 1956.  The turbulent boundary layer.  Adv. Appl. Mech. 4, 1-51.
+Madsen, O.S., 1994. Spectral wave-current bottom boundary layer flows, Proceedings 24th Conf. Coastal Eng., pp. 384-398.
+Glenn, S.M., 1983. A Continental Shelf Bottom Boundary Layer Model: The Effects of Waves, Currents, and a Moveable Bed.  Dissertation, Massachusetts Institute of Technology and Woods Hole Oceanographic Institution, Cambridge, MA, 237 pp.
+Glenn, S.M., Grant, W.D., 1987. A suspended sediment stratification correction for combined wave and current flows. J. Geophys. Res. 92, 8244-8264.
+Goud, M.R., 1987.  Prediction of Continental Shelf Sediment Transport Using a Theoretical Model of the Wave-Current Boundary Layer.  Dissertation, Massachusetts Institute of Technology and Woods Hole Oceanographic Institution, Cambridge, MA, 211 pp.
+Grant, W.D., Madsen, O.S., 1986. The continental-shelf bottom boundary-layer. Annu. Rev. Fluid Mech. 18, 265-305.
+Grant, W.D., Madsen, O.S., 1982. Movable bed roughness in unsteady oscillatory flow. J. Geophys. Res. 87, 469-481.
+Grant, W.D., Madsen, O.S., 1979. Combined wave and current interaction with a rough bottom J. Geophys. Res. 84, 1797-1808.
+Madsen, O.S., 1994. Spectral wave-current bottom boundary layer flows, Proceedings 24th Conf. Coastal Eng., pp. 384-398.
+Madsen, O.S., Poon, Y., Graber, H.C., 1988. Spectral wave attenuation by bottom friction: theory, Proceedings 21st Int. Conf. Coast. Eng., pp. 492-504.</procdesc>
+        <srcused>SWAN WEST ATL</srcused>
+        <srcused>SABGOM</srcused>
+        <procdate>2011</procdate>
+        <srcprod>STRESS TSERIES</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Calculate the 95th percentile of bottom shear stress by year and season in Mathworks MATLAB software (v2011A).  This value is calculated as the value exceeded by 5% of the data in the time series within each grid cell (e.g., 95% of output points are less than this value).  These statistical values are saved in MATLAB .mat format.</procdesc>
+        <srcused>STRESS TSERIES</srcused>
+        <procdate>2011</procdate>
+        <srcprod>95TH STATISTIC</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Export the values for each grid cell from MATLAB format into an ArcGIS shapefile using the Mathworks MATLAB Mapping Toolbox (v2011A).  Grid cells where the height of the deepest grid cell in the circulation model is always above the maximum accepted reference height for validity of a log-profile assumption (necessary for stress calculations) are excluded and not exported to Arc.  In some cases, data may exist during parts of the year and not others; in this case, the statistic is calculated and included for the season where model output exist, and a missing data value of -9999 (replacing the MATLAB native NaN format) is used for seasons where no valid statistic can be calculated.  A geographic data structure is created in MATLAB with the following fields:  Geometry ('Polygon'), Lon (the five longitude points defining each grid cell, with one of the four grid corner values repeated to close the polygon in Arc), Lat (same as Lon, for the latitude points of the grid), Year (the statistic calculated for the entire year), Winter (the statistic calculated for December, January, and February), Spring (the statistic calculated for March, April, and May), Summer (the statistic calculated for June, July, and August), and Fall (the statistic calculated for September, October, and November).  The shapefile is then written with the "shapewrite" command.  Because MATLAB does not assign a projection, the projection corresponding to the projection associated with the bathymetry used in the numerical models is added in ArcCatalog 9.3.  The file was then quality checked in ArcMap to insure values were properly exported to the shapefile from MATLAB.</procdesc>
+        <srcused>95TH STATISTIC</srcused>
+        <procdate>2011</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Keywords section of metadata optimized for discovery in USGS Coastal and Marine Geology Data Catalog.</procdesc>
+        <procdate>20170313</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>Alan O. Allwardt</cntper>
+            </cntorgp>
+            <cntpos>Contractor -- Information Specialist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>2885 Mission Street</address>
+              <city>Santa Cruz</city>
+              <state>CA</state>
+              <postal>95060</postal>
+            </cntaddr>
+            <cntvoice>831-460-7551</cntvoice>
+            <cntfax>831-427-4748</cntfax>
+            <cntemail>aallwardt@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>South Atlantic Bight</indspref>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>4454</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000001</latres>
+        <longres>0.000001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257224</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>SAB_95th_perc</enttypl>
+        <enttypd>Shapefile Attribute Table</enttypd>
+        <enttypds>Esri</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>This value is the 95th percentile of bottom shear stress calculated for the one year time period of May 1, 2010 through April 30, 2011.  The NODATA value is -9999.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0265</rdommin>
+            <rdommax>3.5327</rdommax>
+            <attrunit>Pa</attrunit>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Winter</attrlabl>
+        <attrdef>This value is the 95th percentile of bottom shear stress calculated for the period of December 1, 2010 through February 28, 2011. The NODATA value is -9999.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0259</rdommin>
+            <rdommax>3.2477</rdommax>
+            <attrunit>Pa</attrunit>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Spring</attrlabl>
+        <attrdef>This value is the 95th percentile of bottom shear stress calculated for the period of March 1, 2011, through April 30, 2011, and May, 2010. The NODATA value is -9999.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0270</rdommin>
+            <rdommax>3.4070</rdommax>
+            <attrunit>Pa</attrunit>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Summer</attrlabl>
+        <attrdef>This value is the 95th percentile of bottom shear stress calculated for the period of June 1, 2010, through August 31, 2010. The NODATA value is -9999.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0228</rdommin>
+            <rdommax>1.6611</rdommax>
+            <attrunit>Pa</attrunit>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Fall</attrlabl>
+        <attrdef>This value is the 95th percentile of bottom shear stress calculated for the period of September 1, 2010, to November 30, 2010. The NODATA value is -9999.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0267</rdommin>
+            <rdommax>6.0850</rdommax>
+            <attrunit>Pa</attrunit>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>P. Soupy Dalyander</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Oceanographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(508) 548-8700 x2290</cntvoice>
+        <cntfax>(508) 457-2310</cntfax>
+        <cntemail>sdalyander@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data:  Sea Floor Stress and Sediment Mobility Database, 95th percentile of bottom shear stress for the South Atlantic Bight (SAB_95th_perc)</resdesc>
+    <distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials.
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>SHP</formname>
+          <formvern>3.3</formvern>
+          <formspec>Esri shapefile</formspec>
+          <formcont>WinZip archive file containing the shapefile components. The WinZip file also includes FGDC compliant metadata.</formcont>
+          <filedec>WinZip 12.0 archive</filedec>
+          <transize>0.578</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://woodshole.er.usgs.gov/project-pages/mobility/ArcData/SAB_95th_perc.zip</networkr>
+                <networkr>http://woodshole.er.usgs.gov/project-pages/mobility/south_atl_bight.html</networkr>
+                <networkr>http://woodshole.er.usgs.gov/project-pages/mobility/index.html</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+    <techpreq>These data are available in Esri shapefile format. The user must have ArcGIS or ArcView 3.0 or greater software to read and process the data file. In lieu of ArcView or ArcGIS, the user may utilize another GIS application package capable of importing the data. A free data viewer, ArcExplorer, capable of displaying the data is available from Esri at www.esri.com.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20170313</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>P. Soupy Dalyander</cntper>
+        </cntorgp>
+        <cntpos>Oceanographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Role</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(508) 548-8700 x2290</cntvoice>
+        <cntfax>(508) 457-2310</cntfax>
+        <cntemail>sdalyander@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metac>None</metac>
+    <metuc>None</metuc>
+  </metainfo>
+  <mercury>
+    <begdate>20100501</begdate>
+    <enddate>20110501</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/coastalmap.marine.usgs.gov_metadata_mobility_db_south_atlantic_bight_SAB_95th_perc.shp.html</htmlurl>
+  </mercury>
+</metadata>

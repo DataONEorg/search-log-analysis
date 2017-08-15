@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/sim2012-3202GroundhogResContours.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Barbara C. Ruddy, U.S. Geological Survey, Hydrologist</origin>
+        <pubdate>20130118</pubdate>
+        <title>2011 Groundhog Reservoir Bathymetric Contours</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>USGS</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?sim2012-3202GroundhogResContours</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Michael S. Kohn</origin>
+            <pubdate>2013</pubdate>
+            <title>Bathymetry of Groundhog Reservoir, Dolores County, Colorado, 2011</title>
+            <onlink>https://pubs.usgs.gov/sim/3202/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The U.S. Geological Survey performed a bathymetric survey of Groundhog Reservoir using a man-operated boat-mounted multibeam echo sounder integrated with a global positioning system (GPS) and a terrestrial real-time kinematic (RTK) GPS in June 2011. The multi-beam echo sounder collected data at lake depths of approximately 3 feet and greater, whereas the terrestrial topographic survey was performed with the RTK GPS in shallow areas near the shore not navigable by boat to the elevation of the top of the dam plus about 2 to 3 additional feet. Bathymetric data from the multibeam echo sounder were collected June 27-29, 2011, and were compiled and stored using the hydrographic survey software, HYPACK 2010 from HYPACK, Inc. (HYPACK, Inc., 2010). The data were interpolated onto a 2-meter grid by computing the average of the data in each cell and positioning the mean at the cell center. The data were converted to elevation above the National Vertical Datum 1988 (Gesch and others, 2002) using reservoir stage. The bathymetry and GPS datasets were then imported into ESRI Arcmap so elevation contours could be determined. The data were used to create a Triangulate Irregular Network (TIN). This TIN was converted to a 2-meter raster dataset which was subsequently contoured. The contour lines were smoothed using a generalized 500 technique (ESRI, 2010). Some holes in the smoothed contour dataset were removed manually and some of the contours were manually adjusted to connect contours and fix any other issues. This created the final contour map.References:Environmental Systems Research Institute, Inc., 2010, ArcGIS—A complete integrated system: Redlands, Calif, ESRI. Accessed Oct. 17, 2011, from http://www.esri.com/software/arcgis/.Gesch, D., Oimoen, M., Greenlee, S., Nelson, C., Steuck, M., and Tyler, D., 2002, The National Elevation Dataset: Photogrammetric Engineering and Remote Sensing, v. 68, no. 1, p. 5-11.HYPACK, Inc., 2010, HYPACK® 10.0.5.31, Hydrographic survey software user manual: Middletown, Conn., HYPACK, Inc. [various paged], accessed Oct. 5, 2011, from http://www.hypack.com/new/Support/DocumentsManualsTechnicalArticlesetc/tabid/81/Default.aspxKohn, M.S., 2012, Bathymetry of Groundhog Reservoir, Dolores County, Colorado, 2011: U.S. Geological Survey Scientific Investigations Map 3202, scale 1:8,000 [https://pubs.usgs.gov/sim/3202/].U.S. Geological Survey, 2011, Colorado StreamStats: U.S. Geological Survey, accessed Oct. 17, 2011, from http://streamstatsags.cr.usgs.gov/co_ss/default.aspx?stabbr=co=1323879434710</abstract>
+      <purpose>The U.S. Geological Survey, in cooperation with the Dolores Water Conservancy District, conducted a bathymetric survey of Groundhog Reservoir, Dolores County, Colorado, in order to characterize the water supply capacity of the reservoir. The study was performed in June 2011 using a man-operated boat-mounted multibeam echo sounder integrated with a global positioning system and a terrestrial real-time kinematic global positioning system. The two collected datasets were merged and imported into geographic information system software. A bathymetric map of the reservoir was generated. Additionally, stage-area and stage-volumes relations were developed and plots were made.</purpose>
+      <supplinf>Data Quality:
+The accuracy of the data is considered to be good. The bathymetric data were collected using a Teldyne Odom Hydrographic ES3PT-M integrated multibeam echo sounder and motion sensor (Teledyne Odom Hydrographic, Inc., 2011) equipped with a Trimble SPS461 GPS receiver using procedures described in Wilson and Richards (2006). The vertical and horizontal precision of the multibeam echo sounder GPS as rated by the manufacturer are ±0.065 ft and ±0.032 ft, respectively (Trimble Navigation Limited, 2009b). The dam, principle outlet structure, and spillway also were surveyed using the RTK GPS. The terrestrial topographic survey was performed using a Trimble R8 GNSS RTK GPS receiver, a Trimble HPB450 radio modem, and a Trimble TSC2 controller. The vertical and horizontal precision of the RTK GPS as rated by the manufacturer are ±0.066 ft and ±0.033 ft, respectively (Trimble Navigation Limited, 2009a). The daily water-surface elevation was determined from the RTK GPS survey-data points. The RTK GPS dataset not only included more than 700 water-surface elevation points over the course of the study, but almost 6,000 data points were obtained on the shoreline and in the shallow areas of the lake that were not navigable by boat. The shoreline was surveyed from a lake depth of 3 ft to 2–3 ft above the top of the dam.
+
+The bathymetry dataset was imported into Environmental Systems Research Institute (ESRI) ArcMap 9.3.1 (Environmental Systems Research Institute, Inc., 2010) so the elevation contours and reservoir area and volume could be determined from the lake bottom to approximately 2–3 ft above the top of dam. Once the 6.56-ft grid was created using HYPACK 2011, it was merged with the RTK GPS dataset in ArcMap by generating a triangulated irregular network (TIN) from both datasets. The TIN was then converted to a 6.56-ft horizontal grid, and using the contour tool in ArcMap, contours at intervals of 10 ft were produced. The areas and volumes at various elevations were computed using the surface volume tool in ArcMap.
+
+Some of the upper contours are not continuous; this is mainly due to the spillway and irrigation canal not allowing for the continuation of the contours as the spillway and canal inverts are below the elevation of the top of the dam. However, in the northwest end of the reservoir and east of the Nash Creek inlet, sufficient data were not collected to resolve the contours causing the breaks. Where breaks in contours occurred, it was assumed the areas and volumes above that point were computed as if a vertical wall existed at that point. That assumption provided better results than using a high resolution digital elevation model. When comparing the 10-meter digital elevation model (DEM) (Gesch and others, 2002) at the reservoir with the data collected, it appeared that the DEM did not provide sufficient accuracy to improve the dataset collected for this report. Therefore, no DEM was used to supplement the dataset and the results of this report were generated only from field data.
+
+The data are presented in: 
+Kohn, M.S., 2012, Bathymetry of Groundhog Reservoir, Dolores County, Colorado, 2011: U.S. Geological Survey Scientific Investigations Map 3202, scale 1:8,000 [https://pubs.usgs.gov/sim/3202/].
+
+Other references cited:
+Environmental Systems Research Institute, Inc., 2010, ArcGIS—A complete integrated system: Redlands, Calif, ESRI. Accessed Oct. 17, 2011, from http://www.esri.com/software/arcgis/.
+
+Gesch, D., Oimoen, M., Greenlee, S., Nelson, C., Steuck, M., and Tyler, D., 2002, The National Elevation Dataset: Photogrammetric Engineering and Remote Sensing, v. 68, no. 1, p. 5-11.
+
+HYPACK, Inc., 2011, HYPACK® 10.0.5.31, Hydrographic survey software user manual: Middletown, Conn., HYPACK, Inc. [various paged], accessed Oct. 5, 2011, from http://www.hypack.com/new/Support/DocumentsManualsTechnicalArticlesetc/tabid/81/Default.aspx
+
+HYPACK, Inc., 2011, HYPACK® 11.0.1.49, Hydrographic survey software user manual: Middletown, Conn., HYPACK, Inc. [various paged], accessed Oct. 5, 2011, from http://www.hypack.com/new/Support/DocumentsManualsTechnicalArticlesetc/tabid/81/Default.aspx
+
+Trimble Navigation Limited, 2009a, Trimble® R8 GNSS receiver user guide, version 4.11, revision A: Dayton, Ohio, Trimble Navigation Limited, 50 p., accessed Nov. 4, 2011 from http://www.al-top.com/sites/default/files/0Trimble_R8-R6-R4-5800M3_ENG.pdf
+
+Trimble Navigation Limited, 2009b, Trimble® SPS461 specifications sheet: Dayton, Ohio, Trimble Naviga-tion Limited, 2 p., accessed Nov. 4, 2011, from http://trl.trimble.com/docushare/dsweb/Get/Document-445955/SPS461%20DGPS.pdf
+
+Teledyne Odom Hydrographic, Inc., 2011, ES3PT 1.4, User manual: Baton Rouge, La., Teledyne Odom Hydrographic, Inc. [variously paged], accessed Nov. 2, 2011, from http://www.odomhydrographic.com/media/pdf/product_resources/85.pdf
+
+U.S. Geological Survey, 2011, Colorado StreamStats: U.S. Geological Survey, accessed Oct. 17, 2011, from http://streamstatsags.cr.usgs.gov/co_ss/default.aspx?stabbr=co&amp;dt=1323879434710
+
+Wilson, G.L., and Richards, J.M., 2006, Procedural documentation and accuracy assessment of bathymetric maps and area/capacity tables for small reservoirs: U.S. Geological Survey Scientific Investigations Report 2006–5208, p. 2–7.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20110627</begdate>
+          <enddate>20110629</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Data were collected from June 27 through 29, 2011.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-108.313598</westbc>
+        <eastbc>-108.283896</eastbc>
+        <northbc>37.812585</northbc>
+        <southbc>37.783011</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>bathymetric survey</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Groundhog Reservoir</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>elevation</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Groundhog Reservoir</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>southwestern Colorado</placekey>
+      </place>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Dolores County</placekey>
+      </place>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>June 2011</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Although these data have been used by the U.S. Geological Survey, Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials. The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey. The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Barbara C. Ruddy</cntper>
+        </cntorgp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>Box 25046, MS 415</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>303.236.6916</cntvoice>
+        <cntfax>303.236.4912</cntfax>
+        <cntemail>bcruddy@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/groundhogResContours.jpg</browsen>
+      <browsed>Illlustration of data set</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <datacred>Prepared in cooperation with the Dolores Water Conservancy District</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+  </idinfo>
+  <dataqual>
+    <logic>topology present</logic>
+    <complete>complete</complete>
+    <lineage>
+      <procstep>
+        <procdesc>The accuracy of the data is considered to be good. The bathymetric data were collected using a Teldyne Odom Hydrographic ES3PT-M integrated multibeam echo sounder and motion sensor (Teledyne Odom Hydrographic, Inc., 2011) equipped with a Trimble SPS461 GPS receiver using procedures described in Wilson and Richards (2006). The vertical and horizontal precision of the multibeam echo sounder GPS as rated by the manufacturer are ±0.065 ft and ±0.032 ft, respectively (Trimble Navigation Limited, 2009b). The dam, principle outlet structure, and spillway also were surveyed using the RTK GPS. The terrestrial topographic survey using a Trimble R8 GNSS RTK GPS receiver, a Trimble HPB450 radio modem, and a Trimble TSC2 controller. The vertical and horizontal precision of the RTK GPS as rated by the manufacturer are ±0.066 ft and ±0.033 ft, respectively (Trimble Navigation Limited, 2009a). The daily water-surface elevation was determined from the RTK GPS survey-data points. The RTK GPS dataset not only included more than 700 water-surface elevation points over the course of the study, but almost 6,000 data points were obtained on the shoreline and in the shallow areas of the lake that were not navigable by boat. The shoreline was surveyed from a lake depth of 3 ft to 2–3 ft above the top of the dam.
+The bathymetry dataset was imported into Environmental Systems Research Institute (ESRI) ArcMap 9.3.1 (Environmental Systems Research Institute, Inc., 2010) so the elevation contours and reservoir area and volume could be determined from the lake bottom to approximately 2–3 ft above the top of dam. Once the 6.56-ft grid was created using HYPACK 2011, it was merged with the RTK GPS dataset in ArcMap by generating a triangulated irregular network (TIN) from both datasets. The TIN was then converted to a 6.56-ft horizontal grid, and using the contour tool in ArcMap, contours at intervals of 10 ft were produced. The areas and volumes at various elevations were computed using the surface volume tool in ArcMap.
+Some of the upper contours are not continuous; this is mainly due to the spillway and irrigation canal not allowing for the continuation of the contours as the spillway and canal inverts are below the elevation of the top of the dam. However, in the northwest end of the reservoir and east of the Nash Creek inlet, sufficient data were not collected to resolve the contours causing the breaks. Where breaks in contours occurred, it was assumed the areas and volumes above that point were computed as if a vertical wall existed at that point. That assumption provided better results than using a high resolution digital elevation model. When comparing the 10-meter digital elevation model (DEM) (Gesch and others, 2002) at the reservoir with the data collected, it appeared that the DEM did not provide sufficient accuracy to improve the dataset collected for this report. Therefore, no DEM was used to supplement the dataset and the results of this report were generated only from field data.
+</procdesc>
+        <procdate>2012</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>17</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.9996</sfctrmer>
+            <longcm>-111.0</longcm>
+            <latprjo>0.0</latprjo>
+            <feast>1640419.947506562</feast>
+            <fnorth>0.0</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000000007283529335211371</absres>
+            <ordres>0.000000007283529335211371</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GroundhogResContours</enttypl>
+        <enttypd>These are the bathymetric contour lines in elevation above the National Vertical Datum 1988.</enttypd>
+        <enttypds>National Vertical Datum 1988</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+        <attrmfrq>011</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry. Coordinates defining the features</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>polyline</edomv>
+            <edomvd>Coordinates defining the features</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+        <begdatea>20130108</begdatea>
+        <enddatea>20130108</enddatea>
+        <attrmfrq>011</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Unique whole numbers</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>399</rdommax>
+            <attrunit>none</attrunit>
+          </rdom>
+        </attrdomv>
+        <begdatea>20130108</begdatea>
+        <enddatea>20130108</enddatea>
+        <attrmfrq>011</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>CONTOUR</attrlabl>
+        <attrdef>Elevation of reservoir bottom in whole feet. </attrdef>
+        <attrdefs>National Vertical Datum 1988</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8650</rdommin>
+            <rdommax>8740</rdommax>
+          </rdom>
+        </attrdomv>
+        <begdatea>20110627</begdatea>
+        <enddatea>20110629</enddatea>
+        <attrmfrq>011</attrmfrq>
+      </attr>
+      <attr>
+        <attrlabl>Length</attrlabl>
+        <attrdef>Length of feature</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>576</rdommin>
+            <rdommax>46000</rdommax>
+          </rdom>
+        </attrdomv>
+        <attrmfrq>011</attrmfrq>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-88-275-8487 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>See access and use constraints information.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shapefile</formname>
+          <transize>0.117</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/GroundhogResContours.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provide by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20130214</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+groundhogResContours</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20110627</begdate>
+    <enddate>20110629</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_sim2012-3202GroundhogResContours.html</htmlurl>
+  </mercury>
+</metadata>

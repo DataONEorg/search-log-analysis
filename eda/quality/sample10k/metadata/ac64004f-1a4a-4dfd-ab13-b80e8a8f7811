@@ -1,0 +1,828 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/ofr99-463_sites.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Alan Rea and Robert L. Tortorelli</origin>
+        <pubdate>1999</pubdate>
+        <title>Digital Data Sets of Depth-Duration Frequency of Precipitation for Oklahoma, USGS OFR 99-463.</title>
+        <edition>Version 1.0, July 26, 1999</edition>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>USGS Open-File Report</sername>
+          <issue>USGS OFR 99-463</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?ofr99-463_sites</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These geospatial data sets consist of precipitation
+stations used in a regional precipitation frequency analysis
+for Oklahoma.
+
+Data were used from precipitation gage stations with at least 10
+years of record within Oklahoma and about 50 kilometers into
+bordering states. Three different rain gage networks provided
+the data (15-minute, 1-hour, and 1-day). Data were analyzed for
+seven frequencies (expressed as recurrence intervals of 2-, 5-,
+10-, 25-, 50-, 100-, and 500-years) and 12 durations (15-, 30-, and
+60-minutes; 1-, 2-, 3-, 6-, 12-, and 24-hours; and 1-, 3-, and
+7-days). Precipitation annual maxima (depths) were determined
+from the station data for each duration for 110 15-minute
+stations (used for 15-, 30-, and 60-minute durations), 141
+hourly stations (used for 1-, 2-, 3-, 6-, 12-, and 24-hour
+durations), and 413 daily stations (used for 1-, 3-, and 7-day
+durations).
+
+Statistical methods were used to estimate precipitation depths
+for each duration-frequency at each station. These station
+depth-duration-frequency estimates were interpolated to produce
+continuous grids with grid-cell spacing of 2,000 meters. Contour
+lines derived from these surfaces (grids) were used to produce
+the maps in the "Depth-Duration Frequency of Precipitation for
+Oklahoma" by R.L. Tortorelli, Alan Rea, and W.H. Asquith, U.S.
+Geological Survey Water-Resources Investigations Report 99-4232.
+Depth-duration-frequency estimates and interpolated surface
+values are included in the point attribute tables. One
+geospatial data set is provided for each of the 12 durations.
+			</abstract>
+      <purpose>These data sets were used to produce the maps in the
+Precipitation Atlas--Depth-Duration Frequency of Precipitation
+for Oklahoma (Tortorelli, Rea, and Asquith, 1999).
+			</purpose>
+      <supplinf>L-moment statistical methods were used to estimate
+depth-duration-frequency relations for each precipitation
+station. See Tortorelli, Rea, and Asquith, (1999) for discussion
+of the statistical methods.
+
+L-coefficient of variation and L-skew were averaged for each
+station with its four nearest neighbors. The values were weighted
+by the number of years of record at each station. The means were
+not averaged. The IDW function in ARC/INFO was used with an
+exponent of zero to average the values for each point and its four
+nearest neighbors. The effect was to spatially
+smooth the frequency distribution parameters while leaving the
+mean values unchanged. The frequency distribution parameters
+were used to calculate the depth-duration-frequency (DDF)
+relation for each precipitation station.
+
+The ARC/INFO GRID function, POINTINTERP (Environmental Systems
+Research Institute, 1997) was used to interpolate surface grids
+of each DDF on a 2-km cell size. The interpolation was
+weighted by the number of years of record at each precipitation
+station. The result of this years-of-record weighting is that
+the final interpolated surface is closer to the observed values
+at stations having more years of record than at stations
+with less years of record.
+
+Interpolated-surface values from the 2-km cell corresponding
+to each precipitation station were determined for each station
+within Oklahoma. The values are included in the attribute
+tables.
+
+Related Data sets--
+
+The set of 84 interpolated DDF surfaces and contours derived
+from each surface are being published with these data sets.
+
+Other References Cited--
+
+Asquith, W.H., 1998, Depth-duration frequency of precipitation
+for Texas: U.S. Geological Survey Water-Resources Investigations
+Report 98-4044, 107 p.
+
+Environmental Systems Research Institute, Inc. (ESRI), 1997,
+ARC/INFO Command Reference, ARC/INFO Version 7.1.1 on-line
+help: Redlands, CA.
+
+Johnson, H.L., and Duchon, Claude E., 1995, Atlas of Oklahoma
+Climate: Norman, Okla., University of Oklahoma Press, 32 p.
+
+Tortorelli, R.L., Rea, Alan, and Asquith, W.H., 1999,
+Depth-duration frequency of precipitation for Oklahoma:
+U.S. Geological Survey Water-Resources Investigation Report
+(WRIR) 99-4232, 113 p.
+
+Notes--
+
+Any use of trade, product, or firm names is for descriptive purposes
+only and does not imply endorsement by the
+U.S. Government.
+
+Although this Federal Geographic Data Committee-compliant metadata
+file is intended to document the data set in nonproprietary form,
+as well as in ARC/INFO format, this metadata file may include some
+ARC/INFO-specific terminology.
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1999</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-103.83351898</westbc>
+        <eastbc>-94.00019073</eastbc>
+        <northbc>37.56702423</northbc>
+        <southbc>33.30012512</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>Precipitation Frequency Analysis</themekey>
+        <themekey>Precipitation Intensity</themekey>
+        <themekey>Precipitation Sites</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Oklahoma</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>These data are designed for regional analyses. Original
+precipitation-station locations were recorded to the nearest one
+minute of latitude and longitude.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Alan Rea</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>230 Collins Road</address>
+          <city>Boise</city>
+          <state>Idaho</state>
+          <postal>83702</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>(208)387-1372</cntfax>
+        <cntemail>(ahrea@usgs.gov)</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This data set was created under a cooperative agreement with the
+Oklahoma Department of Transportation.
+		</datacred>
+    <native>SunOS, 5.5.1, sun4u UNIX
+ARC/INFO version 7.2.1
+		</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The results of the error analysis for precipitation depth are
+described in the metadata for the surfaces data sets (surfaces.htm).
+			</attraccr>
+    </attracc>
+    <logic>Point features present.
+		</logic>
+    <complete>The data base of precipitation annual maxima was reviewed for
+questionable data, such as 1) very small values that usually
+indicate an incomplete year (commonly the first or last year of
+record), or 2) very large values that could not be verified. All
+data from the questionable year was removed from the data
+base for these cases. Another data base problem was discovered in
+the 15-minute data for which four stations had identical values in
+all three durations that matched the 1-hour value for all years of
+record. Records from those stations were removed from the data
+base. Removal of data from some years or stations did not greatly
+reduce the amount of precipitation data available from within and
+near Oklahoma.
+
+Station data were combined when two stations were within two
+minutes of longitude and/or latitude (about 2 miles).  For
+example, occasionally an existing station is relocated to a nearby
+site, and new stations might be established near an existing
+station. If the distance between two stations is small, then the
+data were assumed equivalent and combined into a single data set.
+(similar to Asquith, 1998).
+
+Data sets were combined to increase the length of record of some
+nearby stations and to avoid potential problems in the analysis
+phase, which used 2-km grid cells to produce contour maps.
+Combined station records accounted for three stations having
+15-minute data, 10 stations having hourly data and 18 stations
+having daily data.
+
+Only those stations that had at least 10 years of data were
+selected for this study to ensure that data were representative of
+long-term precipitation characteristics. Droughts or periods of
+abundant rainfall in Oklahoma characteristically extend for 3 to 5
+years (Johnson and Duchon, 1995). The use of data with at least 10
+years of record reduces the chance that data are unduly biased by
+climatic episodes. One station with eight years of 15-minute data
+was used for the analysis in an area where there was a sparsity of
+data. For more information see Tortorelli, Rea, and Asquith, 1999.
+
+Interpolated-surface values are given only for precipitation
+stations within Oklahoma.
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Locations of weather stations used in the depth-duration
+frequency analyses were recorded to the nearest 1 minute of
+latitude and longitude.
+				</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>First draft of metadata created by ahrea using
+FGDCMETA.AML ver. 1.33 07/15/99 on ARC/INFO data set
+/proj/temp1/okrain/cdproto/arc_data/7day/sites7d
+				</procdesc>
+        <procdate>19990726</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>413</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.02</latres>
+        <longres>0.02</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>Each site data set is identified by its name and position in
+the directory structure. For example, the SITES7D data set in
+the 7day subdirectory contains precipitation-station data for
+the sites used for the 7-day duration. All depths are in
+inches.
+
+Data-set fields are defined, as in the following example, for
+the 7-day duration:
+
+&gt;
+&gt;SITES7D:
+&gt;
+&gt;  FIELD NAME     FIELD CONTENTS
+&gt;AREA             ARC/INFO Standard field
+&gt;PERIMETER        ARC/INFO Standard field
+&gt;SITES7D#         ARC/INFO Standard field
+&gt;SITES7D-ID       ARC/INFO Standard field
+&gt;LONG             Longitude, in decimal degrees (NAD83)
+&gt;LAT              Latitude, in decimal degrees (NAD83)
+&gt;X-COORD          X-Coordinate on Albers Equal Area projection (meters)
+&gt;Y-COORD          Y-Coordinate on Albers Equal Area projection (meters)
+&gt;STAID            Station ID
+&gt;STANAME          Station name
+&gt;STATE            State
+&gt;YRSREC           Years of record used in the analysis
+&gt;FREQ2YR          Calculated 2-year precipitation event (inches)
+&gt;FREQ5YR          Calculated 5-year precipitation event (inches)
+&gt;FREQ10YR         Calculated 10-year precipitation event (inches)
+&gt;FREQ25YR         Calculated 25-year precipitation event (inches)
+&gt;FREQ50YR         Calculated 50-year precipitation event (inches)
+&gt;FREQ100YR        Calculated 100-year precipitation event (inches)
+&gt;FREQ500YR        Calculated 500-year precipitation event (inches)
+&gt;SURF2YR          Interpolated value of 2-year precip event (inches)
+&gt;SURF5YR          Interpolated value of 5-year precip event (inches)
+&gt;SURF10YR         Interpolated value of 10-year precip event (inches)
+&gt;SURF25YR         Interpolated value of 25-year precip event (inches)
+&gt;SURF50YR         Interpolated value of 50-year precip event (inches)
+&gt;SURF100YR        Interpolated value of 100-year precip event (inches)
+&gt;SURF500YR        Interpolated value of 500-year precip event (inches)
+&gt;
+&gt;
+			</eaover>
+      <eadetcit>none</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ASCII file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_fnl_data.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ASCII file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_raw_data.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_12hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_15min.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_1day.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_1hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_24hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_2hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_30min.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_3day.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_3hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_60min.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_6hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>ARC/INFO workspaces</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_arc_7day.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_12hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_15min.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_1day.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_1hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_24hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_2hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_30min.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_3day.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_3hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_60min.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_6hour.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Nonproprietary file format</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr99-463_pd_7day.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ofr99-463_sites</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>19990101</begdate>
+    <enddate>19991231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_ofr99-463_sites.html</htmlurl>
+  </mercury>
+</metadata>

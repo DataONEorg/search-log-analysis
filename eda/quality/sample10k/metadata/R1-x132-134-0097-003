@@ -1,0 +1,482 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+  <gmd:fileIdentifier>
+  <gco:CharacterString>R1.x132.134-0097-metadata.xml</gco:CharacterString>
+</gmd:fileIdentifier>
+
+<gmd:language>
+  <gco:CharacterString>eng; USA</gco:CharacterString>
+</gmd:language>
+
+<gmd:characterSet>
+  <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">
+    utf8
+  </gmd:MD_CharacterSetCode>
+</gmd:characterSet>
+
+<gmd:hierarchyLevel>
+  <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">
+    dataset
+  </gmd:MD_ScopeCode>
+</gmd:hierarchyLevel>
+
+<gmd:contact>
+  <gmd:CI_ResponsibleParty>
+    <gmd:individualName>
+      <gco:CharacterString>Matthew Saxton</gco:CharacterString>
+    </gmd:individualName>
+
+    <gmd:organisationName>
+      <gco:CharacterString>University of Georgia</gco:CharacterString>
+    </gmd:organisationName>
+
+    <gmd:positionName>
+      <gco:CharacterString>ECOGIG Managing Director</gco:CharacterString>
+    </gmd:positionName>
+
+    <gmd:contactInfo>
+      <gmd:CI_Contact>
+        <gmd:phone>
+          <gmd:CI_Telephone>
+            <gmd:voice>
+              <gco:CharacterString>706-542-6818</gco:CharacterString>
+            </gmd:voice>
+            <gmd:facsimile>
+              <gco:CharacterString/>
+            </gmd:facsimile>
+          </gmd:CI_Telephone>
+        </gmd:phone>
+        <gmd:address>
+          <gmd:CI_Address>
+            <gmd:deliveryPoint>
+              <gco:CharacterString>325 Sanford Drive</gco:CharacterString>
+            </gmd:deliveryPoint>
+            <gmd:city>
+              <gco:CharacterString>Athens</gco:CharacterString>
+            </gmd:city>
+            <gmd:administrativeArea>
+              <gco:CharacterString>Georgia</gco:CharacterString>
+            </gmd:administrativeArea>
+            <gmd:postalCode>
+              <gco:CharacterString>30602</gco:CharacterString>
+            </gmd:postalCode>
+            <gmd:country>
+              <gco:CharacterString>USA</gco:CharacterString>
+            </gmd:country>
+            <gmd:electronicMailAddress>
+              <gco:CharacterString>msaxton@uga.edu</gco:CharacterString>
+            </gmd:electronicMailAddress>
+          </gmd:CI_Address>
+        </gmd:address>
+      </gmd:CI_Contact>
+    </gmd:contactInfo>
+    <gmd:role>
+      <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+    </gmd:role>
+  </gmd:CI_ResponsibleParty>
+</gmd:contact>
+
+<gmd:dateStamp>
+  <gco:DateTime>2016-12-09T20:25:42+00:00</gco:DateTime>
+</gmd:dateStamp>
+
+<gmd:metadataStandardName>
+  <gco:CharacterString>
+    ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data
+  </gco:CharacterString>
+</gmd:metadataStandardName>
+
+<gmd:metadataStandardVersion>
+  <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+</gmd:metadataStandardVersion>
+
+<gmd:dataSetURI>
+  <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/R1.x132.134:0097</gco:CharacterString>
+</gmd:dataSetURI>
+
+<gmd:identificationInfo>
+  <gmd:MD_DataIdentification>
+    <gmd:citation>
+      <gmd:CI_Citation>
+        <gmd:title>
+          <gco:CharacterString>R/V Pelican: PE13-30 Underway Sensor Suite Data, Gulf of Mexico, June 02-11, 2013</gco:CharacterString>
+        </gmd:title>
+        <gmd:alternateTitle>
+          <gco:CharacterString/>
+        </gmd:alternateTitle>
+        <gmd:date>
+            <gmd:CI_Date>
+                <gmd:date>
+                  <gco:Date>2016-10-16</gco:Date>
+                </gmd:date>
+                <gmd:dateType>
+                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                </gmd:dateType>
+            </gmd:CI_Date>
+        </gmd:date>
+      </gmd:CI_Citation>
+    </gmd:citation>
+
+    <gmd:abstract>
+      <gco:CharacterString>This dataset reports underway sensor suite data collected as a part of operations conducted deep sea lander and mooring operations. Data were collected from R/V Pelican in the Gulf of Mexico from June 2-11, 2013. Data were collected via shipboard sea water flow-through system providing sea surface temperature, conductivity, chlorophyll fluorescence, and transmissometry data.</gco:CharacterString>
+    </gmd:abstract>
+
+    <gmd:purpose>
+      <gco:CharacterString>These data were collected via shipboard underway sampler system. They were collected during the course of recovering and deploying instrumentation in the northern Gulf of Mexico.</gco:CharacterString>
+    </gmd:purpose>
+
+    <gmd:status>
+      <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">
+        completed
+      </gmd:MD_ProgressCode>
+    </gmd:status>
+
+    <gmd:pointOfContact>
+      <gmd:CI_ResponsibleParty>
+        <gmd:individualName>
+          <gco:CharacterString>Vernon Asper</gco:CharacterString>
+        </gmd:individualName>
+
+        <gmd:organisationName>
+          <gco:CharacterString>University of Southern Mississippi</gco:CharacterString>
+        </gmd:organisationName>
+
+        <gmd:positionName>
+          <gco:CharacterString>Professor of Marine Science</gco:CharacterString>
+        </gmd:positionName>
+
+        <gmd:contactInfo>
+          <gmd:CI_Contact>
+            <gmd:phone>
+              <gmd:CI_Telephone>
+                <gmd:voice>
+                  <gco:CharacterString>228-688-3178</gco:CharacterString>
+                </gmd:voice>
+                <gmd:facsimile>
+                  <gco:CharacterString/>
+                </gmd:facsimile>
+              </gmd:CI_Telephone>
+            </gmd:phone>
+            <gmd:address>
+              <gmd:CI_Address>
+                <gmd:deliveryPoint>
+                  <gco:CharacterString>1020 Balch Blvd.</gco:CharacterString>
+                </gmd:deliveryPoint>
+                <gmd:city>
+                  <gco:CharacterString>Stennis Space Center</gco:CharacterString>
+                </gmd:city>
+                <gmd:administrativeArea>
+                  <gco:CharacterString>Mississippi</gco:CharacterString>
+                </gmd:administrativeArea>
+                <gmd:postalCode>
+                  <gco:CharacterString>39529-6000</gco:CharacterString>
+                </gmd:postalCode>
+                <gmd:country>
+                  <gco:CharacterString>USA</gco:CharacterString>
+                </gmd:country>
+                <gmd:electronicMailAddress>
+                  <gco:CharacterString>vernon.asper@usm.edu</gco:CharacterString>
+                </gmd:electronicMailAddress>
+              </gmd:CI_Address>
+            </gmd:address>
+          </gmd:CI_Contact>
+        </gmd:contactInfo>
+        <gmd:role>
+          <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+        </gmd:role>
+      </gmd:CI_ResponsibleParty>
+    </gmd:pointOfContact>
+
+                  <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>Uta Passow</gco:CharacterString>
+            </gmd:individualName>
+
+            <gmd:organisationName>
+              <gco:CharacterString>University of California Santa Barbara</gco:CharacterString>
+            </gmd:organisationName>
+
+            <gmd:positionName>
+              <gco:CharacterString>Research Oceanographer</gco:CharacterString>
+            </gmd:positionName>
+
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString>805-893-2363</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString/>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString>Bldg 520 Rm 4002 Fl 4L</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Santa Barbara</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>California</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>93106-6150</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>USA</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>uta.passow@lifesci.ucsb.edu</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+              <gmd:pointOfContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+              <gco:CharacterString>Arne Diercks</gco:CharacterString>
+            </gmd:individualName>
+
+            <gmd:organisationName>
+              <gco:CharacterString>University of Southern Mississippi</gco:CharacterString>
+            </gmd:organisationName>
+
+            <gmd:positionName>
+              <gco:CharacterString>Assistant Research Professor</gco:CharacterString>
+            </gmd:positionName>
+
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString>662-915-2301</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString/>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString>15 CR 2078</gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Abbeville</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>Mississippi</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>38601</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>USA</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>arne.diercks@usm.edu</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+              <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:pointOfContact>
+          
+    <gmd:descriptiveKeywords>
+      <gmd:MD_Keywords>
+                  <gmd:keyword>
+            <gco:CharacterString>underway</gco:CharacterString>
+          </gmd:keyword>
+                          <gmd:keyword>
+              <gco:CharacterString>GC600</gco:CharacterString>
+          </gmd:keyword>
+                  <gmd:keyword>
+              <gco:CharacterString>OC26</gco:CharacterString>
+          </gmd:keyword>
+                <gmd:type>
+          <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+        </gmd:type>
+      </gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+
+    <gmd:descriptiveKeywords>
+      <gmd:MD_Keywords>
+                                                            <gmd:keyword>
+                    <gco:CharacterString>northern Gulf of Mexico</gco:CharacterString>
+                </gmd:keyword>
+                                            
+        <gmd:type>
+          <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+        </gmd:type>
+      </gmd:MD_Keywords>
+    </gmd:descriptiveKeywords>
+
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+
+          <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+          <gmd:topicCategory>
+        <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+      </gmd:topicCategory>
+    
+    <gmd:extent>
+      <gmd:EX_Extent id="boundingExtent">
+        <gmd:geographicElement>
+                       <gmd:EX_GeographicBoundingBox>
+                           <gmd:westBoundLongitude>
+                               <gco:Decimal>-90.75473</gco:Decimal>
+                           </gmd:westBoundLongitude>
+                           <gmd:eastBoundLongitude>
+                               <gco:Decimal>-89.70132</gco:Decimal>
+                           </gmd:eastBoundLongitude>
+                           <gmd:southBoundLatitude>
+                               <gco:Decimal>27.32327</gco:Decimal>
+                           </gmd:southBoundLatitude>
+                           <gmd:northBoundLatitude>
+                               <gco:Decimal>29.25369</gco:Decimal>
+                           </gmd:northBoundLatitude>
+                       </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement><gmd:geographicElement>
+          <gmd:EX_BoundingPolygon>
+            <gmd:polygon>
+              <gml:Polygon srsName="urn:ogc:def:crs:EPSG::4326" gml:id="Polygon1">
+                <gml:exterior>
+                  <gml:LinearRing>
+                    <gml:posList srsDimension="2">29.2107 -90.64168 29.19086 -90.61487 29.17905 -90.60696 29.10701 -90.57803 29.09581 -90.57687 29.07309 -90.58164 29.06001 -90.57828 29.03768 -90.56911 28.9413 -90.51405 28.88205 -90.47028 28.85304 -90.4529 28.84797 -90.45054 28.83348 -90.4485 28.7979 -90.43527 28.44035 -90.23067 28.43342 -90.23026 28.41014 -90.23687 28.40206 -90.23623 28.39196 -90.23167 28.08063 -90.04341 28.02002 -90.0041 27.69187 -89.80904 27.66208 -89.78746 27.53041 -89.71275 27.52923 -89.71153 27.53207 -89.70349 27.53642 -89.70132 27.5258 -89.70835 27.53559 -89.70484 27.37614 -90.50679 27.37145 -90.56222 27.36966 -90.56311 27.36965 -90.5799 27.36693 -90.5859 27.36964 -90.57253 27.36902 -90.5767 27.36431 -90.58381 27.36955 -90.56987 27.36194 -90.58467 27.35398 -90.60755 27.34566 -90.64439 27.34311 -90.69396 27.35222 -90.75473 27.35401 -90.7542 27.35475 -90.74747 27.36647 -90.61049 27.36987 -90.55041 27.37326 -90.54957 27.37667 -90.55556 27.37489 -90.55657 27.3697 -90.57115 27.38342 -90.60277 27.45488 -90.1508 28.24169 -90.12513 28.82483 -90.46177 28.84805 -90.47807 28.86942 -90.49743 28.92386 -90.52526 28.94407 -90.53874 28.99156 -90.5595 29.02282 -90.56741 29.03922 -90.56938 29.06534 -90.57971 29.0783 -90.58225 29.10098 -90.57634 29.10555 -90.57676 29.18696 -90.61132 29.19218 -90.61625 29.22937 -90.66693 29.24456 -90.67731 29.24627 -90.67688 29.24794 -90.66763 29.25251 -90.6641 29.25369 -90.66123 29.16598 -90.6018 29.11742 -90.58171 29.10365 -90.57727 29.07441 -90.58228 29.0336 -90.56776 29.02385 -90.56673 29.0106 -90.56758 28.99237 -90.57218 28.96206 -90.58274 28.94727 -90.58435 28.92433 -90.58085 28.90871 -90.5767 28.87772 -90.56107 28.86029 -90.56191 28.84369 -90.56004 28.50587 -90.54957 28.49649 -90.55103 28.44563 -90.56631 28.41682 -90.56494 28.36729 -90.55535 28.28343 -90.55195 28.18608 -90.55675 28.01562 -90.57026 27.97605 -90.56711 27.96873 -90.56973 27.37567 -90.5139 27.37445 -90.51109 27.37683 -90.50182 27.37558 -90.51639 27.37405 -90.51311 27.37378 -90.57828 27.37202 -90.57415 27.37422 -90.57795 27.36774 -90.56953 27.37342 -90.57803 27.37276 -90.5741 27.36135 -90.56921 27.36672 -90.57204 27.37347 -90.57283 27.37301 -90.57496 27.36627 -90.5691 27.36491 -90.56976 27.37341 -90.57028 27.37389 -90.56835 27.3656 -90.57274 27.36433 -90.57118 27.37006 -90.57286 27.37177 -90.5753 27.37077 -90.577 27.36905 -90.57592 27.36881 -90.56599 27.36756 -90.56781 27.37156 -90.57501 27.36986 -90.57606 27.37016 -90.57413 27.37583 -90.57349 27.36155 -90.57595 27.3761 -90.57373 27.37207 -90.57222 27.37103 -90.57356 27.36956 -90.5692 27.36926 -90.57245 27.37209 -90.57012 27.37075 -90.57289 27.36878 -90.5722 27.37126 -90.57086 27.372 -90.57247 27.37052 -90.57363 27.37064 -90.57063 27.37054 -90.57374 27.3705 -90.57083 27.37552 -90.58203 27.36987 -90.57139 27.36899 -90.56839 27.37024 -90.56834 27.37034 -90.57658 27.36893 -90.57689 27.37303 -90.56753 27.37249 -90.56986 27.36612 -90.57469 27.36924 -90.57253 27.3753 -90.57272 27.37366 -90.57432 27.37063 -90.57298 27.36703 -90.57014 27.36824 -90.56813 27.37154 -90.57712 27.37004 -90.56763 27.37132 -90.56733 27.3701 -90.5737 27.36763 -90.5774 27.37491 -90.56889 27.36565 -90.57711 27.37408 -90.59959 27.3824 -90.61368 27.36484 -90.55425 27.36584 -90.55603 27.36379 -90.55882 27.36616 -90.56078 27.37052 -90.5737 27.38197 -90.57997 27.37149 -90.57248 27.37018 -90.57329 27.36982 -90.5713 27.38837 -90.59285 27.3871 -90.58954 27.36917 -90.57167 27.37115 -90.57314 27.38813 -90.57571 27.42108 -90.57715 27.37443 -90.57017 27.37565 -90.56963 27.3912 -90.57762 27.38393 -90.57414 27.38953 -90.5731 27.37446 -90.57118 27.36496 -90.57285 27.37041 -90.57331 27.37085 -90.57151 27.37016 -90.57258 27.37073 -90.57156 27.41237 -90.57842 27.41628 -90.5793 27.4165 -90.58057 27.38327 -90.57551 27.37029 -90.57163 27.41538 -90.57014 27.40732 -90.57156 27.32327 -90.57166 27.34379 -90.59357 27.36284 -90.61088 27.37051 -90.57326 27.39598 -90.58487 27.41377 -90.59048 27.38287 -90.57562 27.35311 -90.56521 27.39116 -90.5689 27.40707 -90.56742 27.3674 -90.57078 27.37366 -90.56904 27.36359 -90.57134 27.38809 -90.57406 27.38206 -90.57225 27.38178 -90.57056 27.36855 -90.57174 27.37005 -90.57081 27.36839 -90.5695 27.36856 -90.56452 27.36528 -90.5639 27.36232 -90.56579 27.39117 -90.56259 27.40195 -90.56623 27.41157 -90.56134 27.36967 -90.5713 27.38542 -90.56676 27.37303 -90.57056 27.37509 -90.57137 27.36883 -90.57107 27.37422 -90.57522 27.37164 -90.57246 27.37599 -90.57185 27.37045 -90.57164 27.37292 -90.57402 27.36888 -90.57085 27.37247 -90.57532 27.36732 -90.56706 27.37387 -90.57415 27.3665 -90.56806 27.37178 -90.57541 27.36655 -90.56738 27.37359 -90.57607 27.36665 -90.56684 27.374 -90.57403 27.36677 -90.56922 27.37374 -90.57454 27.36662 -90.5681 27.37421 -90.57412 27.36566 -90.56776 27.37381 -90.57177 27.37259 -90.57047 27.36599 -90.56916 27.37712 -90.57537 27.36526 -90.56963 27.37528 -90.57032 27.36597 -90.57357 27.38278 -90.57462 27.36983 -90.57095 27.36966 -90.57195 27.37091 -90.56909 27.37143 -90.57018 27.36853 -90.57228 27.37044 -90.57235 27.36946 -90.56986 27.36911 -90.57209 27.37067 -90.57061 27.36907 -90.57138 27.37084 -90.57222 27.3694 -90.57274 27.36924 -90.57063 27.37056 -90.57176 27.36952 -90.57044 27.36933 -90.57293 27.3702 -90.57023 27.36962 -90.57259 27.38832 -90.57513 27.40627 -90.57343 28.33618 -90.56754 28.37407 -90.56238 28.38649 -90.56261 28.42846 -90.55602 28.45613 -90.55962 28.99739 -90.56263 29.03916 -90.56961 29.05837 -90.57732 29.07642 -90.58226 29.09875 -90.57647 29.10409 -90.57646 29.1567 -90.59794 29.2107 -90.64168</gml:posList>
+                  </gml:LinearRing>
+                </gml:exterior>
+              </gml:Polygon>
+            </gmd:polygon>
+          </gmd:EX_BoundingPolygon>
+        </gmd:geographicElement>
+          <gmd:temporalElement>
+            <gmd:EX_TemporalExtent>
+              <gmd:extent>
+                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                  <gml:description>ground condition</gml:description>
+                  <gml:beginPosition>2013-06-02</gml:beginPosition>
+                  <gml:endPosition>2013-06-11</gml:endPosition>
+                </gml:TimePeriod>
+              </gmd:extent>
+            </gmd:EX_TemporalExtent>
+          </gmd:temporalElement>
+              </gmd:EX_Extent>
+    </gmd:extent>
+    <gmd:supplementalInformation>
+      <gco:CharacterString>Date (MM/DD/YYYY), Time (HH:MM:SS), Latitude (decimal minutes); Longitude (decimal minutes); Fluorometer(ug per L, Volts); Barometric Pressure (Inches Hg, mbar); Relative Humidity (%); Transmissometer (Volts, %), Trimble (GPS GGA), Trimble (GPS VTG)</gco:CharacterString>
+    </gmd:supplementalInformation>
+  </gmd:MD_DataIdentification>
+</gmd:identificationInfo>
+
+<gmd:distributionInfo>
+  <gmd:MD_Distribution>
+    <gmd:distributor>
+      <gmd:MD_Distributor>
+        <gmd:distributorContact>
+          <gmd:CI_ResponsibleParty>
+            <gmd:organisationName>
+              <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:contactInfo>
+              <gmd:CI_Contact>
+                <gmd:phone>
+                  <gmd:CI_Telephone>
+                    <gmd:voice>
+                      <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                    </gmd:voice>
+                    <gmd:facsimile>
+                      <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                    </gmd:facsimile>
+                  </gmd:CI_Telephone>
+                </gmd:phone>
+                <gmd:address>
+                  <gmd:CI_Address>
+                    <gmd:deliveryPoint>
+                      <gco:CharacterString><![CDATA[6300 Ocean Drive Unit 5869]]></gco:CharacterString>
+                    </gmd:deliveryPoint>
+                    <gmd:city>
+                      <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                    </gmd:city>
+                    <gmd:administrativeArea>
+                      <gco:CharacterString>Texas</gco:CharacterString>
+                    </gmd:administrativeArea>
+                    <gmd:postalCode>
+                      <gco:CharacterString>78412-5869</gco:CharacterString>
+                    </gmd:postalCode>
+                    <gmd:country>
+                      <gco:CharacterString>USA</gco:CharacterString>
+                    </gmd:country>
+                    <gmd:electronicMailAddress>
+                      <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                    </gmd:electronicMailAddress>
+                  </gmd:CI_Address>
+                </gmd:address>
+                <gmd:onlineResource>
+                  <gmd:CI_OnlineResource>
+                    <gmd:linkage>
+                      <gmd:URL>https://data.gulfresearchinitiative.org</gmd:URL>
+                    </gmd:linkage>
+                    <gmd:protocol>
+                      <gco:CharacterString/>
+                    </gmd:protocol>
+                  </gmd:CI_OnlineResource>
+                </gmd:onlineResource>
+              </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+            </gmd:role>
+          </gmd:CI_ResponsibleParty>
+        </gmd:distributorContact>
+        <gmd:distributorFormat>
+          <gmd:MD_Format>
+          <gmd:name>
+            <gco:CharacterString>raw, txt</gco:CharacterString>
+          </gmd:name>
+            <gmd:version gco:nilReason="inapplicable"/>
+            <gmd:fileDecompressionTechnique>
+              <gco:CharacterString>zip</gco:CharacterString>
+            </gmd:fileDecompressionTechnique>
+          </gmd:MD_Format>
+        </gmd:distributorFormat>
+        <gmd:distributorTransferOptions>
+          <gmd:MD_DigitalTransferOptions>
+            <gmd:transferSize>
+              <gco:Real>3.57</gco:Real>
+            </gmd:transferSize>
+            <gmd:onLine>
+              <gmd:CI_OnlineResource>
+                <gmd:linkage>
+                  <gmd:URL>https://data.gulfresearchinitiative.org/data/R1.x132.134:0097</gmd:URL>
+                </gmd:linkage>
+                <gmd:protocol>
+                  <gco:CharacterString>https</gco:CharacterString>
+                </gmd:protocol>
+              </gmd:CI_OnlineResource>
+            </gmd:onLine>
+          </gmd:MD_DigitalTransferOptions>
+        </gmd:distributorTransferOptions>
+      </gmd:MD_Distributor>
+    </gmd:distributor>
+  </gmd:MD_Distribution>
+</gmd:distributionInfo>
+</gmi:MI_Metadata>

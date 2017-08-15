@@ -1,0 +1,555 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>R4.x257.229-0001-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Chuck Anderson</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Water Column Sonar Data Manager</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>(303) 497-4742</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[325 Broadway, Mail Code E/NE42]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Colorado</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>80305-3328</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>Charles.Anderson@noaa.gov</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2016-12-08T22:24:38+00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI><gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/R4.x257.229:0001</gco:CharacterString></gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Raw acoustic scattering data of organisms from the water column, R/V Point Sur, cruise DP01, May 1 - 8, 2015</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>DEEPEND: DP01 Acoustic Data</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2015-05-01</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="001">creation</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Patterns in acoustically derived biological scatter through the water column were collected with multi-frequency scientific echosounders (Simrad EK60) operating at 18kHz, 38kHz, 70kHz and 120kHz following protocols developed during the NOAA NRDA DAP data collection operations. Specifically, during each cruise, transducers were installed on a rigid pole mounted to the side of the ship, and calibrated at sea for operating conditions following protocols developed by Dr. Boswell during the ONSAP/DAP cruises. The dynamics of the mesopelagic scattering community were examined through the depth dependent scattering responses at both frequencies (18 and 38kHz) as well as through the difference between the mean volume backscattering strength (MVBS; in dB) at 18 kHz and 38 kHz (dMVBS(18-38)). In addition, scatterers in the upper water column (~150m) were examined by analyzing all four available frequencies. By integrating both methods, the magnitude of biological scattering at discrete-depth intervals was classified into major taxonomic components (e.g., fluid-like crustaceans, swimbladdered fishes) based on resonant properties and behavior. The biological data and ship data collected during this cruise are available in GRIIDC datasets R4.x257.226:0001 and R4.x257.226:0003, respectively.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>To examine the spatial and temporal dynamics of deep sea nekton in the Gulf of Mexico through a multidisciplinary approach.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Kevin Boswell</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Florida International University</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Assistant Professor</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>305-919-4009</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[3000 NE 151st St
+MSB 359]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>North Miami</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Florida</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>33181</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>kevin.boswell@fiu.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Bathymetry</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Seafloor Topography</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Acoustic Scattering</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Fisheries</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Marine Habitat</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Benthic Habitat</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Pelagic Habitat</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng;USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+              <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                       <gmd:EX_GeographicBoundingBox>
+                           <gmd:westBoundLongitude>
+                               <gco:Decimal>-88.0458199945127</gco:Decimal>
+                           </gmd:westBoundLongitude>
+                           <gmd:eastBoundLongitude>
+                               <gco:Decimal>-87.3497399952127</gco:Decimal>
+                           </gmd:eastBoundLongitude>
+                           <gmd:southBoundLatitude>
+                               <gco:Decimal>28.4793000069657</gco:Decimal>
+                           </gmd:southBoundLatitude>
+                           <gmd:northBoundLatitude>
+                               <gco:Decimal>29.0668499953577</gco:Decimal>
+                           </gmd:northBoundLatitude>
+                       </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement><gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiCurve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="curvedline">
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve1">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.011009998674 -88.0158999982322 29.02433999795 -88.0203499973754</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve2">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.9860699998129 -88.0097699997268 28.9909999996145 -88.0109099994477</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve3">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0335299973267 -88.0218499966828 29.0552899955387 -88.0237999948599</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve4">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0243499979493 -88.0203499973747 29.0335299973267 -88.0218499966828</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve5">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.991009999614 -88.010909999447 29.0109999986747 -88.015899998233</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve6">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0311399964929 -87.9931699959985 29.0194899974349 -87.9952999969128</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve7">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0552999955377 -88.023799994859 29.0661599944811 -88.0242299938689 29.0668499953577 -88.0458199945127 29.0634599944521 -88.0168799939202</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve8">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.007699995546 -87.5064600036417 28.9500899994814 -87.4610300006952 28.9034300009282 -87.4343599981193</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve9">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0194799974356  -87.9952999969135 29.0086599982344 -87.9978599977582</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve10">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.9871699995923 -88.0039699994187 28.9419700015287 -88.0212900029211 28.9241900022636 -88.0424500051545</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve11">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.9159600014032 -87.9978800029395 28.9330000012481 -88.0018300023664</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve12">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.9346700012253 -88.0021500023016 28.9860599998134 -88.0097699997274</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve13">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.9034300009282 -87.4343599981193 28.8509500012253 -87.4078599954151</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve14">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0162199947435 -87.5139200039863 28.9184400000973 -87.4750899998505 28.8968200006384 -87.4593399987665 28.9039100008507 -87.4391499983138 28.9090500007747 -87.4402699985291 28.9143500005763 -87.4481799989792</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve15">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.6651000001233 -87.553620000164 28.6542999999977 -87.5205999999965 28.6388399992555 -87.4434699985991 28.6095299977311 -87.3497399952127</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve16">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.5201300069288 -87.5546700039072 28.5225100065412 -87.5443600039903 28.5185100068618 -87.5420200041825</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve17">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.517470006949 -87.5415300042316 28.5006100078014 -87.5032700055411 28.4883200079523 -87.4605700065842 28.4793000069657 -87.4033100069323 28.4872600057595 -87.3940200060767 28.4929200039319 -87.3625700046681</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve18">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0048099986769 -88.0045299982539 29.0071699985243 -88.0041499980745</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve19">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0514099947911 -87.9949999944552 29.0578199941084 -87.9935099939003</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve20">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0034999987984 -88.0059699983977 28.9929399993953 -88.0068299991525 29.0047999986774 -88.0045299982546</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve21">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0417599955476 -87.9914799951488 29.0311399964929 -87.9931699959985</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve22">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.0086599982344 -87.9978599977582 28.9871799995916 -88.0039599994176</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                </gml:MultiCurve>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>Ground Condition</gml:description>
+                                    <gml:beginPosition>2015-05-01</gml:beginPosition>
+                                    <gml:endPosition>2015-05-08</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Raw acoustic scattering strength of nekton from water column - scattering intensity (Mean Volume Backscattering Strength, dB), time (hh:mm:ss), Latitude (decimal degrees), Longitude (decimal degrees),depth (m)|||||</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>301-713-3277</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>301-713-3300</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[1315 East-West Highway]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Silver Spring</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Maryland</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>20910-3282</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>wcd.info@noaa.gov</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>https://www.nodc.noaa.gov</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>https</gco:CharacterString>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>raw</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString/>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>1000</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://doi.org/10.7289/V5WD3XJS</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>http</gco:CharacterString>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Check and Save to File' (with form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-11-02T19:30:57+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

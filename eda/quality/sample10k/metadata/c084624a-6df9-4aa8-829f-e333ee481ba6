@@ -1,0 +1,463 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <idinfo>
+        <citation>
+            <citeinfo>
+                <origin>John C Nelson</origin>
+                <pubdate>20141001</pubdate>
+                <title>Illinois River, Brandon Pool 0.5m Contours</title>
+                <geoform>Vector Digital Data Set (Polyline)</geoform>
+                <onlink>http://www.umesc.usgs.gov/data_library/gis_data/lidar.html</onlink>
+            </citeinfo>
+        </citation>
+        <descript>
+            <abstract>LiDAR data is remotely sensed high-resolution elevation data collected by an airborne collection platform.  Using a combination of laser rangefinding, GPS positioning and inertial measurement technologies; LiDAR instruments are able to make highly detailed Digital Elevation Models (DEMs) of the earth's terrain, man-made structures and vegetation.</abstract>
+            <purpose>LiDAR data is used for 3D visualization, elevation based analysis and for feature extraction.</purpose>
+            <supplinf>Reflective surface data represents the DEM created by laser energy reflected from the first surface encountered by the laser pulse. Some energy may continue beyond this initial surface to be reflected by a subsequent surface as represented by the Last Return data. Intensity information is captured from the Reflective Surface pulse and indicates the relative energy returned to the sensor as compared to the energy transmitted.  Points are classified as on ground surface or not on ground surface to support creation of a bare earth model from the data.</supplinf>
+        </descript>
+        <timeperd>
+            <timeinfo>
+                <sngdate>
+                    <caldate>200404</caldate>
+                </sngdate>
+                <rngdates>
+                    <begdate>20080523</begdate>
+                    <enddate>20111228</enddate>
+                </rngdates>
+            </timeinfo>
+            <current>ground condition</current>
+        </timeperd>
+        <status>
+            <progress>Complete</progress>
+            <update>None planned</update>
+        </status>
+        <spdom>
+            <bounding>
+                <westbc>-88.121399711</westbc>
+                <eastbc>-88.041438221</eastbc>
+                <northbc>41.581486743</northbc>
+                <southbc>41.496999351</southbc>
+            </bounding>
+        </spdom>
+        <keywords>
+            <theme>
+                <themekt>None</themekt>
+                <themekey>elevation</themekey>
+                <themekey>lidar</themekey>
+                <themekey>laser</themekey>
+                <themekey>topography</themekey>
+                <themekey>digital elevation model</themekey>
+                <themekey>DEM</themekey>
+                <themekey>Surface Model</themekey>
+                <themekey>Contour</themekey>
+            </theme>
+            <place>
+                <placekt>U.S. Department of Commerce, 1995, Countries, Dependencies, Areas of Special Sovereignty, and Their Principal Administrative Divisions (Federal Information Processing Standard (FIPS) 10-4): Washington, D.C., National Institute of Standards and Technology</placekt>
+                <placekey>US</placekey>
+            </place>
+            <place>
+                <placekt>State location</placekt>
+                <placekey>Illinois</placekey>
+            </place>
+        </keywords>
+        <accconst>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty has been expressed or implied regarding the individual use of the data or aggregate use with other data, nor shall the act of distribution constitute any such warranty. It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</accconst>
+        <useconst>Although these data have been processed successfully on a computer system at the U.S. Geological Survey, no warranty has been expressed or implied regarding the individual use of the data or aggregate use with other data, nor shall the act of distribution constitute any such warranty. It is strongly recommended that these data are directly acquired from a U.S. Geological Survey server and not indirectly through other sources which may have changed the data in some way. It is also strongly recommended that careful attention be paid to the contents of the metadata file associated with these data. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and/or contained herein.</useconst>
+        <ptcontac>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Upper Midwest Environmental Sciences Center</cntorg>
+                </cntorgp>
+                <cntpos>Metadata Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical address</addrtype>
+                    <address>2630 Fanta Reed Rd</address>
+                    <city>La Crosse</city>
+                    <state>Wisconsin</state>
+                    <postal>54603</postal>
+                    <country>United States</country>
+                </cntaddr>
+                <cntvoice>608-783-6451</cntvoice>
+                <cntfax>608-783-6066</cntfax>
+            </cntinfo>
+        </ptcontac>
+        <datacred>Wilson &amp; Company and Sanborn Map Company combined to complete acquisition and processing of the LiDAR data.  AERO-METRIC, INC.</datacred>
+        <secinfo>
+            <secclass>Unclassified</secclass>
+        </secinfo>
+        <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 10.2 (Build 3552) Service Pack [N/A] (Build [N/A])</native>
+    </idinfo>
+    <dataqual>
+        <attracc>
+            <attraccr>Elevation measurements have been tested to be vertically accurate to within 0.28 feet RMSE.</attraccr>
+        </attracc>
+        <logic>All products were created from LAS data.  All LAS formatted LiDAR data are validated using commercial GIS software to ensure proper formatting and loading before delivery.  This validation procedure ensures that data on delivery media is in correct physical format and is readable. Data have been checked and validated to conform to attribute standards defined by the project</logic>
+        <complete>The LiDAR data is checked for quality and completeness during, and immediately following each mission. Coverage and accuracy is verified in the office as the data is sent. Elevation products are opened and visually reviewed for completeness. File sizes and numbers of files are also reviewed as products are loaded onto hard drives for delivery</complete>
+        <posacc>
+            <horizpa>
+                <horizpar>All these data products were acquired at 1700 meters above mean terrain (AMT) and have a horizontal accuracy of 0.31 meters, with a nominal point spacing of 1.2 meters.</horizpar>
+            </horizpa>
+            <vertacc>
+                <vertaccr>The LiDAR data as tested according to NSSDA achieved a vertical accuracy of 0.28 feet RMSE.</vertaccr>
+            </vertacc>
+        </posacc>
+        <lineage>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <origin>State of Illinois</origin>
+                        <title>Will County Lidar</title>
+                        <geoform>Digital and/or Hardcopy Resources</geoform>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>200404</caldate>
+                        </sngdate>
+                    </timeinfo>
+                </srctime>
+                <srccitea>ILWW lidar</srccitea>
+                <srccontr>Elevation Data</srccontr>
+            </srcinfo>
+            <srcinfo>
+                <srccite>
+                    <citeinfo>
+                        <pubdate>2011</pubdate>
+                        <title>ILWW Lidar</title>
+                        <geoform>Digital and/or Hardcopy Resources</geoform>
+                        <pubinfo>
+                            <publish>USACOE</publish>
+                        </pubinfo>
+                    </citeinfo>
+                </srccite>
+                <typesrc>Digital and/or Hardcopy Resources</typesrc>
+                <srctime>
+                    <timeinfo>
+                        <sngdate>
+                            <caldate>2008</caldate>
+                        </sngdate>
+                    </timeinfo>
+                    <srccurr>ground condition</srccurr>
+                </srctime>
+                <srccitea>Source Input 2</srccitea>
+                <srccontr>Source information used in support of the development of the data set.</srccontr>
+            </srcinfo>
+            <procstep>
+                <procdesc>LiDAR scans were collected over Will County using the Optec 30/70 LiDAR sensor to produce x,y,z ground data.</procdesc>
+                <procdate>2010</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>LAS files converted to raster DEMs</procdesc>
+                <procdate>2014</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Contour lines were constructed at the 0.5 meter level in ArcGIS using Spatial Analyst.</procdesc>
+                <procdate>2014</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>0.5 Meter Contour lines with lengths greater than 1 meter were selected and exported to the final file.  There were many extraneous lines that only took up space and did not add to the quality of the data.  These lines were removed with this step.</procdesc>
+                <procdate>2014</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>Products were clipped to USGS 24k Boundaries to minimize size for online storage and serving</procdesc>
+                <procdate>2014</procdate>
+            </procstep>
+            <procstep>
+                <procdesc>The LiDAR data was captured using AERO-METRIC's twin-engine Aero Commander equipped with a LiDAR system. The LiDAR system includes a differential GPS unit and inertial measurement system to provide superior accuracy. Acquisition parameters: 1. Scanner - Optech ALTM 3100EA 2. Flight Height - 1700m above mean terrain 3. Swath Width - 18degrees 4. Sidelap - 33% 5. Nominal Post Spacing - 1.2m. GPS and IMU processing parameters: 1. Processing Programs and version - Applanix - POSGPS and POSProc, versions 4.31 2. Max PDOP during LiDAR collection - 3.0 3. Max distance from GPS base stations during collection - less than 25km 4. Mean differential baseline length - 15km 5. Minimum number of base stations during LiDAR collection - 2 6. IMU processing monitored for consistency and smoothness - Yes. Point Cloud Processing: 1. Program and version - Dashmap, version 3.0005 2. Horizontal Datum - NAD83(NSRS2007) 3. Horizontal Coordinates - Illinois State Plane Coordinates, East Zone, in US Survey Feet 4. Vertical Datum - NAVD88 5. Geoid Model used to reduce satellite derived elevations to orthometric heights - NGS Geoid03. LIDAR Processing: 1. Processing Programs and versions - TerraSolid TerraScan (version 008.009) and TerraMatch (version 008.006) and Intergraph MicroStation (version.08.01.02.15). 2. Point Cloud data is imported to TerraScan in a Microstation V8 (V) CAD environment on an approximate 5000ft by 5000ft tiling scheme. 3. Analyze the data for overall completeness and consistency. This is to ensure that there are no voids in the data collection. 4. Inspect for calibration errors in the dataset using the TerraMatch software. This is accomplished by sampling the data collected accross all flight lines and classify the idividual lines to ground. The sofware will use the ground-classified lines to compute corrections (Heading, Pitch, Roll, and Scale). 5. Orientation corrections are then applied to the entire dataset. 6. Automatic ground classification is performed using algorithms with customized parameters to best fit the project area. Several areas of varying relief and planimetric features were inspected to verify the final ground surface. 7. AERO-METRIC, INC. provided Quality Assurance and Quality Control (QAQC) data for this project. AERO-METRIC captured 103 QA/QC points in multipled land cover categories that were used to test the accuracy of the LiDAR ground surface. TerraScan's Output Control Report (OCR) was used to compare the QAQC data to the LIDAR data. This routine searches the LIDAR dataset by X &amp; Y coordinate, finds the closest LIDAR point and compares the vertical (Z) values to the known data collected in the field. Based on the QAQC data, a bias adjustment of -0.459 feet was determined, and the results were applied to the LIDAR data. A final OCR was performed with a resulting RMSE of 0.28 feet. 8. Once the automatic processing and the testing of LiDAR is complete, AERO-METRIC meticulously reviews the generated bare-earth surface data to insure that proper classification was achieved as part of a Quality Control process. 9. Contour shapefiles were created and merged into a geodatabase. Topology checks were done in ArcInfo to check for dangles, overlaps, and self-intersecting contours. Several iterations of this process were done to ensure clean contour topology before the final shapefiles were created. 10. Final deliverable are generated. Final Deliverables: 1. One paper and digital copy of the ABGPS and Ground Survey Report and Vertical Assessment Report. 2. External Firewire drive(s) containing Bare Earth LiDAR data in ASCII format (x,y,z,i) - comma delimited. x=Easting (0.01 resolution), y=Northing (0.01 resolution), z=Elevation (0.01 resolution), i=Intensity (0.1 resolution) 3. External Firewire drive(s) containing the LiDAR classified data in .las format 4. External Firewire drive(s) containing the generated 2 foot contours in ESRI Shapefile format. 5. External Firewire drive(s) containing the breaklines in ESRI Shapefile format. 6. External Firewire drive(s) containing FGDC Compliant metadata</procdesc>
+                <procdate>20080523</procdate>
+            </procstep>
+        </lineage>
+        <cloud>Unknown</cloud>
+    </dataqual>
+    <spdoinfo>
+        <direct>Vector</direct>
+        <ptvctinf>
+            <esriterm Name="ar2e1_con">
+                <efeatyp Sync="TRUE">Simple</efeatyp>
+                <efeageom Sync="TRUE" code="3"/>
+                <esritopo Sync="TRUE">FALSE</esritopo>
+                <efeacnt Sync="TRUE">154682</efeacnt>
+                <spindex Sync="TRUE">TRUE</spindex>
+                <linrefer Sync="TRUE">FALSE</linrefer>
+            </esriterm>
+        </ptvctinf>
+    </spdoinfo>
+    <spref>
+        <horizsys>
+            <planar>
+                <planci>
+                    <plance>coordinate pair</plance>
+                    <coordrep>
+                        <absres>0.6096</absres>
+                        <ordres>0.6096</ordres>
+                    </coordrep>
+                    <plandu>Meter</plandu>
+                </planci>
+            </planar>
+            <geodetic>
+                <horizdn>D_North_American_1983</horizdn>
+                <ellips>GRS_1980</ellips>
+                <semiaxis>6378137.0</semiaxis>
+                <denflat>298.257222101</denflat>
+            </geodetic>
+        </horizsys>
+    </spref>
+    <eainfo>
+        <detailed Name="ar2e1_con">
+            <enttyp>
+                <enttypl>Attribute Table</enttypl>
+                <enttypd>Table containing attribute information associated with the data set.</enttypd>
+                <enttypds>Producer defined</enttypds>
+                <enttypt Sync="TRUE">Feature Class</enttypt>
+                <enttypc Sync="TRUE">154682</enttypc>
+            </enttyp>
+            <attr>
+                <attrlabl Sync="TRUE">FID</attrlabl>
+                <attalias Sync="TRUE">FID</attalias>
+                <attrtype Sync="TRUE">OID</attrtype>
+                <attwidth Sync="TRUE">4</attwidth>
+                <atprecis Sync="TRUE">0</atprecis>
+                <attscale Sync="TRUE">0</attscale>
+                <attrdef Sync="TRUE">Internal feature number.</attrdef>
+                <attrdefs Sync="TRUE">Esri</attrdefs>
+                <attrdomv>
+                    <udom Sync="TRUE">Sequential unique whole numbers that are automatically generated.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl Sync="TRUE">Shape</attrlabl>
+                <attalias Sync="TRUE">Shape</attalias>
+                <attrtype Sync="TRUE">Geometry</attrtype>
+                <attwidth Sync="TRUE">0</attwidth>
+                <atprecis Sync="TRUE">0</atprecis>
+                <attscale Sync="TRUE">0</attscale>
+                <attrdef Sync="TRUE">Feature geometry.</attrdef>
+                <attrdefs Sync="TRUE">Esri</attrdefs>
+                <attrdomv>
+                    <udom Sync="TRUE">Coordinates defining the features.</udom>
+                </attrdomv>
+            </attr>
+            <attr>
+                <attrlabl>ID</attrlabl>
+                <attrdef>Random Vector IDs</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>1</rdommin>
+                        <rdommax>183381</rdommax>
+                    </rdom>
+                </attrdomv>
+                <attalias Sync="TRUE">ID</attalias>
+                <attrtype Sync="TRUE">Double</attrtype>
+                <attwidth Sync="TRUE">10</attwidth>
+                <atprecis Sync="TRUE">10</atprecis>
+                <attscale Sync="TRUE">0</attscale>
+            </attr>
+            <attr>
+                <attrlabl>CONTOUR</attrlabl>
+                <attrdef>Contour Elevation</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>126</rdommin>
+                        <rdommax>209</rdommax>
+                        <attrunit>Meter</attrunit>
+                    </rdom>
+                </attrdomv>
+                <attalias Sync="TRUE">CONTOUR</attalias>
+                <attrtype Sync="TRUE">Double</attrtype>
+                <attwidth Sync="TRUE">14</attwidth>
+                <atprecis Sync="TRUE">13</atprecis>
+                <attscale Sync="TRUE">1</attscale>
+            </attr>
+            <attr>
+                <attrlabl>length</attrlabl>
+                <attrdef>Contour Length</attrdef>
+                <attrdefs>Producer defined</attrdefs>
+                <attrdomv>
+                    <rdom>
+                        <rdommin>1.00002386465</rdommin>
+                        <rdommax>58105.9502621</rdommax>
+                        <attrunit>Meter</attrunit>
+                    </rdom>
+                </attrdomv>
+                <attalias Sync="TRUE">length</attalias>
+                <attrtype Sync="TRUE">Double</attrtype>
+                <attwidth Sync="TRUE">19</attwidth>
+                <atprecis Sync="TRUE">0</atprecis>
+                <attscale Sync="TRUE">0</attscale>
+            </attr>
+        </detailed>
+        <overview>
+            <eaover>The entity and attribute information provided here describes the tabular data associated with the data set. Please review the detailed descriptions that are provided (the individual attribute descriptions) for information on the values that appear as fields/table entries of the data set.</eaover>
+            <eadetcit>The entity and attribute information was generated by the individual and/or agency identified as the originator of the data set. Please review the rest of the metadata record for additional details and information.</eadetcit>
+        </overview>
+    </eainfo>
+    <distinfo>
+        <distrib>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Upper Midwest Environmental Sciences Center</cntorg>
+                </cntorgp>
+                <cntpos>Metadata Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical address</addrtype>
+                    <address>2630 Fanta Reed Rd</address>
+                    <city>La Crosse</city>
+                    <state>Wisconsin</state>
+                    <postal>54603</postal>
+                    <country>United States</country>
+                </cntaddr>
+                <cntvoice>608-783-6451</cntvoice>
+                <cntfax>608-783-6066</cntfax>
+            </cntinfo>
+        </distrib>
+        <resdesc>Downloadable Data</resdesc>
+        <distliab>Distributor assumes no liability for misuse of data.</distliab>
+        <stdorder>
+            <digform>
+                <digtinfo>
+                    <formname>Vector Digital Data Set (Polyline)</formname>
+                    <transize>56.370</transize>
+                </digtinfo>
+                <digtopt>
+                    <onlinopt>
+                        <computer>
+                            <networka>
+                                <networkr>http://www.umesc.usgs.gov/data_library/gis_data/lidar.html</networkr>
+                            </networka>
+                        </computer>
+                    </onlinopt>
+                </digtopt>
+            </digform>
+            <fees>None. No fees are applicable for obtaining the data set.</fees>
+        </stdorder>
+    </distinfo>
+    <metainfo>
+        <metd>20141215</metd>
+        <metc>
+            <cntinfo>
+                <cntorgp>
+                    <cntorg>Upper Midwest Environmental Sciences Center.</cntorg>
+                    <cntper>Metadata Coordinator</cntper>
+                </cntorgp>
+                <cntpos>Metadata Coordinator</cntpos>
+                <cntaddr>
+                    <addrtype>mailing and physical address</addrtype>
+                    <address>2630 Fanta Reed Rd</address>
+                    <city>La Crosse</city>
+                    <state>Wisconsin</state>
+                    <postal>54603</postal>
+                    <country>United States</country>
+                </cntaddr>
+                <cntvoice>608-783-6451</cntvoice>
+                <cntfax>608-783-6066</cntfax>
+            </cntinfo>
+        </metc>
+        <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+        <metstdv>FGDC-STD-001-1998</metstdv>
+        <mettc>local time</mettc>
+        <metextns>
+            <onlink>http://www.Esri.com/metadata/Esriprof80.html</onlink>
+            <metprof>ESRI Metadata Profile</metprof>
+        </metextns>
+    </metainfo>
+    <dataIdInfo>
+        <envirDesc Sync="TRUE">Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.2.2.3552</envirDesc>
+        <dataLang>
+            <languageCode Sync="TRUE" value="eng"/>
+            <countryCode Sync="TRUE" value="USA"/>
+        </dataLang>
+        <idCitation>
+            <resTitle Sync="TRUE">ar2e1_con</resTitle>
+            <presForm>
+                <PresFormCd Sync="TRUE" value="005"/>
+            </presForm>
+        </idCitation>
+        <spatRpType>
+            <SpatRepTypCd Sync="TRUE" value="001"/>
+        </spatRpType>
+        <dataExt>
+            <geoEle>
+                <GeoBndBox esriExtentType="search">
+                    <exTypeCode Sync="TRUE">1</exTypeCode>
+                    <westBL Sync="TRUE">-88.121400</westBL>
+                    <eastBL Sync="TRUE">-88.041438</eastBL>
+                    <northBL Sync="TRUE">41.581487</northBL>
+                    <southBL Sync="TRUE">41.496999</southBL>
+                </GeoBndBox>
+            </geoEle>
+        </dataExt>
+    </dataIdInfo>
+    <mdLang>
+        <languageCode Sync="TRUE" value="eng"/>
+        <countryCode Sync="TRUE" value="USA"/>
+    </mdLang>
+    <Esri>
+        <DataProperties>
+            <itemProps>
+                <itemName Sync="TRUE">ar2e1_con</itemName>
+                <imsContentType Sync="TRUE">002</imsContentType>
+                <nativeExtBox>
+                    <westBL Sync="TRUE">907241.021118</westBL>
+                    <eastBL Sync="TRUE">913418.350220</eastBL>
+                    <southBL Sync="TRUE">4605785.081919</southBL>
+                    <northBL Sync="TRUE">4614847.081919</northBL>
+                    <exTypeCode Sync="TRUE">1</exTypeCode>
+                </nativeExtBox>
+                <itemSize Sync="TRUE">334.475</itemSize>
+                <itemLocation>
+                    <linkage Sync="TRUE">file://\\igsarfebfsnas03\LTRMP\LTRMP\LiDAR\Products\IR Brandon\Tier 1\Contours\ar2e1_con.shp</linkage>
+                    <protocol Sync="TRUE">Local Area Network</protocol>
+                </itemLocation>
+            </itemProps>
+            <coordRef>
+                <type Sync="TRUE">Projected</type>
+                <geogcsn Sync="TRUE">GCS_North_American_1983</geogcsn>
+                <csUnits Sync="TRUE">Linear Unit: Meter (1.000000)</csUnits>
+                <projcsn Sync="TRUE">NAD_1983_UTM_Zone_15N</projcsn>
+                <peXml Sync="TRUE">&lt;ProjectedCoordinateSystem xsi:type='typens:ProjectedCoordinateSystem' xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance' xmlns:xs='http://www.w3.org/2001/XMLSchema' xmlns:typens='http://www.esri.com/schemas/ArcGIS/10.1'&gt;&lt;WKT&gt;PROJCS[&amp;quot;NAD_1983_UTM_Zone_15N&amp;quot;,GEOGCS[&amp;quot;GCS_North_American_1983&amp;quot;,DATUM[&amp;quot;D_North_American_1983&amp;quot;,SPHEROID[&amp;quot;GRS_1980&amp;quot;,6378137.0,298.257222101]],PRIMEM[&amp;quot;Greenwich&amp;quot;,0.0],UNIT[&amp;quot;Degree&amp;quot;,0.0174532925199433]],PROJECTION[&amp;quot;Transverse_Mercator&amp;quot;],PARAMETER[&amp;quot;False_Easting&amp;quot;,500000.0],PARAMETER[&amp;quot;False_Northing&amp;quot;,0.0],PARAMETER[&amp;quot;Central_Meridian&amp;quot;,-93.0],PARAMETER[&amp;quot;Scale_Factor&amp;quot;,0.9996],PARAMETER[&amp;quot;Latitude_Of_Origin&amp;quot;,0.0],UNIT[&amp;quot;Meter&amp;quot;,1.0],AUTHORITY[&amp;quot;EPSG&amp;quot;,26915]]&lt;/WKT&gt;&lt;XOrigin&gt;-5120900&lt;/XOrigin&gt;&lt;YOrigin&gt;-9998100&lt;/YOrigin&gt;&lt;XYScale&gt;450445547.3910538&lt;/XYScale&gt;&lt;ZOrigin&gt;-100000&lt;/ZOrigin&gt;&lt;ZScale&gt;10000&lt;/ZScale&gt;&lt;MOrigin&gt;-100000&lt;/MOrigin&gt;&lt;MScale&gt;10000&lt;/MScale&gt;&lt;XYTolerance&gt;0.001&lt;/XYTolerance&gt;&lt;ZTolerance&gt;0.001&lt;/ZTolerance&gt;&lt;MTolerance&gt;0.001&lt;/MTolerance&gt;&lt;HighPrecision&gt;true&lt;/HighPrecision&gt;&lt;WKID&gt;26915&lt;/WKID&gt;&lt;LatestWKID&gt;26915&lt;/LatestWKID&gt;&lt;/ProjectedCoordinateSystem&gt;</peXml>
+            </coordRef>
+        </DataProperties>
+        <SyncDate>20141216</SyncDate>
+        <SyncTime>13592000</SyncTime>
+        <ModDate>20141216</ModDate>
+        <ModTime>13592000</ModTime>
+    </Esri>
+    <distInfo>
+        <distFormat>
+            <formatName Sync="TRUE">Shapefile</formatName>
+        </distFormat>
+        <distTranOps>
+            <transSize Sync="TRUE">334.475</transSize>
+        </distTranOps>
+    </distInfo>
+    <mdHrLv>
+        <ScopeCd Sync="TRUE" value="005"/>
+    </mdHrLv>
+    <mdHrLvName Sync="TRUE">dataset</mdHrLvName>
+    <refSysInfo>
+        <RefSystem>
+            <refSysID>
+                <identCode Sync="TRUE" code="26915"/>
+                <idCodeSpace Sync="TRUE">EPSG</idCodeSpace>
+                <idVersion Sync="TRUE">8.2.6</idVersion>
+            </refSysID>
+        </RefSystem>
+    </refSysInfo>
+    <spatRepInfo>
+        <VectSpatRep>
+            <geometObjs Name="ar2e1_con">
+                <geoObjTyp>
+                    <GeoObjTypCd Sync="TRUE" value="002"/>
+                </geoObjTyp>
+                <geoObjCnt Sync="TRUE">154682</geoObjCnt>
+            </geometObjs>
+            <topLvl>
+                <TopoLevCd Sync="TRUE" value="001"/>
+            </topLvl>
+        </VectSpatRep>
+    </spatRepInfo>
+    <mdDateSt Sync="TRUE">20141216</mdDateSt>
+</metadata>

@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/sir2016-5029_cfwgoshor_7b.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey, Oregon Water Science Center</origin>
+        <pubdate>20160330</pubdate>
+        <title>SIR2016-5029_cfwgoshor_7b: Flood Inundation Depth for a Flow of 46,800 cfs at the Gage Coast Fork Willamette River at Goshen, Oregon (Area of Uncertainty)</title>
+        <geoform>raster digital data</geoform>
+        <serinfo>
+          <sername>Scientific Investigations Report</sername>
+          <issue>2016-5029</issue>
+        </serinfo>
+        <othercit>This raster is a subset of the coast_7 raster from the Willamette Flood Insurance Study. This raster covers the area of uncertainty discussed in SIR2016-5029, page 6.</othercit>
+        <onlink>https://water.usgs.gov/lookup/getspatial?sir2016-5029_cfwgoshor_7b</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>US Geological Survey, Oregon Water Science Center</origin>
+            <pubdate>2016</pubdate>
+            <title>Flood-Inundation Maps for a 9.1–Mile Reach of the Coast Fork Willamette River near Creswell and Goshen, Lane County, Oregon.</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Scientific Investigations Report</sername>
+              <issue>2016-5029</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://dx.doi.org/10.3133/sir20165029</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>The domain of the model is as follows: Row River from Dorena dam to the confluence with the Coast Fork; Coast Fork from Cottage Grove dam to the confluence with the Middle Fork; Silk Creek from River Mile 1.7 to the confluence with the Coast Fork. The basis for these features is the Willamette Flood Insurance Study – Phase One (2013). The hydraulics and hydrology for the FIS were reused in the production of these polygons; the reports and information associated with the FIS are applicable to this product. The Digital Elevation Model (DEM) utilized for the Willamette FIS submittal was produced by combining multiple overlapping topographic surveys for the Middle Fork and Coast Fork of the Willamette River. This DEM was created from four sources: LiDAR of the Springfield area that was flown in 2008, LiDAR of Silk Creek that was flown in 2011, LiDAR of Fall Creek that was flown in 2012, and photogrammetry of the Middle Fork and Coast Fork of the Willamette River that was flown in 2004. In areas where no high-resolution elevation data were available, USGS National Elevation Dataset (NED) data were used to supplement the DEM. The shapefiles Hi_Res_Extents.shp and Low_Res_Extents.shp define the limits of these areas. The horizontal datum of the DEM is NAD 1983 State Plane-Oregon South HARN with units of International Feet (NAD83). The vertical datum of the elevation model is NAVD 1988 with units of international feet (NAVD-88). In addition, some areas show surveyed bathymetry within the channel. These can be noted by the sharp increase in apparent depth, creating a stripe across the depth grid when compared to the LiDAR data, which represents the water surface elevation at the time of the aerial data collection. Bridge decks are generally removed from DEMs as standard practice. Therefore, these features may be shown as inundated when they are not. An effort to clip flood extents on bridge decks was made, but judgement should be used when estimating the usefulness of a bridge during flood flow. Comparing the bridge to the surrounding ground can be more informative in this respect than simply looking at the bridge itself. The features and depth grids stop as the Coast Fork approaches the Middle Fork on the northern end of the reach. See cfwgoshOR_breach.shp for information regarding this file. This represents the depth grid for the 46,800 cfs profile.</abstract>
+      <purpose>This raster represents flood inundation depth for a flow of 46,800 cfs at the gage Coast Fork Willamette River at Goshen, OR (14157500). This raster has been clipped from the coast_7 raster to the Goshen studyarea along the Coastal Fork Willamette River from Creswell, Oregon to Goshen, Oregon. The coast_7 raster is from a currently unpublished FEMA flood insurance study conducted by The US Army Corps of Engineers, Portland, OR.</purpose>
+      <supplinf>A GIS application was used to produce a plane representing the flood-peak water surface. The application duplicates the [high-water-mark elevation data points, and/or water-surface-elevation data from cross-section points] across the flood plain perpendicular to the direction of the flood flow.  Elevations between [high-water marks, or water-surface points on the cross-sections] are proportional interpolations of the water-surface-elevation data and were positioned to generate a flood surface sloping with the water flow. A raster surface was created with the data points using a spline interpolation method, forming the estimated flood surface. A flood-depth grid was made by subtracting the DEM from the flood surface. The flood-peak inundation areas are available in a GIS format, polyline shapefile, that provides extent of the flood peak for each stage level. This format allows the GIS data to be overlain on maps and aerial photographs, and to be used for various GIS applications, such as FEMA's Hazards U.S. Multi-Hazards (HAZUS-MH) program (Federal Emergency Management Agency, 2010b) to estimate flood damages.  For more information on data processing and checking procedures, see the full report at https://pubs.usgs.gov/sir/2016/5029. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. Although this Federal Geographic Data Committee-compliant metadata file is intended to document the dataset in nonproprietary form, as well as in ArcGIS format, this metadata file may include some ArcGIS-specific terminology.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>2004</begdate>
+          <enddate>2012</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-123.048840045</westbc>
+        <eastbc>-122.949900456</eastbc>
+        <northbc>44.011530659</northbc>
+        <southbc>43.909466547</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>flood</themekey>
+        <themekey>river/stream</themekey>
+        <themekey>flood-inundation maps</themekey>
+        <themekey>high-water marks</themekey>
+        <themekey>flooded area</themekey>
+        <themekey>geospatial analysis</themekey>
+        <themekey>elevation</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>elevation</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Goshen</placekey>
+        <placekey>Creswell</placekey>
+        <placekey>Willamette Valley</placekey>
+        <placekey>Oregon</placekey>
+        <placekey>Coast Fork Willamette River</placekey>
+      </place>
+    </keywords>
+    <accconst>None. This dataset is provided by USGS as a public service.</accconst>
+    <useconst>The estimated inundated areas are based on flows at the Goshen gage (USGS 14157500), using the Willamette FIS Hydrology Report (phase one). The hydrology of a specific storm will likely be different than presented.  This feature should never be separated from the feature classes Hi_Res_Extents and Low_Res_Extents, which delineate the areas of 1m LiDAR (Light Detection and Ranging) and NED data.  The area downstream of the confluence with the Middle Fork (forming the mainstem Willamette River) is shown in the Middle feature class.  Flooding that is not due to the Coast Fork, Row or Silk Creek within the reaches shown above is not reflected in this feature class.
+		
+		Uncertainties and Limitations for Use of Flood-Inundation Maps: Although the flood-inundation maps represent the boundaries of inundated areas with a distinct line, some uncertainty is associated with these maps.  The flood boundaries shown were estimated based on water stages and streamflows at the USGS streamflow-gaging station 14157500, Coastal Fork Willamette River Near Goshen, OR. Water-surface elevations along the stream reaches were estimated by steady-state hydraulic modeling, assuming unobstructed flow, and using streamflows and hydrologic conditions anticipated at the USGS streamgage.  The hydraulic model reflects the land-cover characteristics and any bridge, dam, levee, or other hydraulic structures existing as of 2011.  Unique meteorological factors (timing and distribution of precipitation) may cause actual streamflows along the modeled reach to vary from those assumed during a flood, which may lead to deviations in the water-surface elevations and inundation boundaries shown.  Additional areas may be flooded due to unanticipated conditions such as: changes in the streambed elevation or roughness, backwater into major tributaries along a main stem river, or backwater from localized debris or ice jams. The accuracy of the floodwater extent portrayed on these maps will vary with the accuracy of the digital elevation model used to simulate the land surface.  Additional uncertainties and limitations pertinent to this study may be described elsewhere in this report. If this series of flood-inundation maps will be used in conjunction with National Weather Service (NWS) river forecasts, the user should be aware of additional uncertainties that may be inherent or factored into NWS forecast procedures.  The NWS uses forecast models to estimate the quantity and timing of water flowing through selected stream reaches in the United States.  These forecast models (1) estimate the amount of runoff generated by precipitation and snowmelt, (2) simulate the movement of floodwater as it proceeds downstream, and (3) predict the flow and stage (water-surface elevation) for the stream at a given location (AHPS forecast point) throughout the forecast period (every 6 hours and 3 to 5 days out in many locations).  For more information on AHPS forecasts, please see: http://water.weather.gov/ahps/pcpn_and_river_forecasting.pdf.
+				
+		Disclaimer for Flood-Inundation Maps: Inundated areas shown should not be used for navigation, regulatory, permitting, or other legal purposes. The USGS provides these maps “as-is” for a quick reference, emergency planning tool but assumes no legal liability or responsibility resulting from the use of this information. Although USGS intends to make this server available 24 hours a day, seven days a week, timely delivery of data and products from this server through the Internet is not guaranteed.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Oregon Water Science Center</cntorg>
+        </cntorgp>
+        <cntpos>Information Officer</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>2130 SW 5th Avenue</address>
+          <city>Portland</city>
+          <state>OR</state>
+          <postal>97201</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>503 251 3200</cntvoice>
+        <cntemail>info-or@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/sir2016-5029_cfwgoshor_7b.jpg</browsen>
+      <browsed>Illustration of the dataset.</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <datacred>This grid was created by the River and Hydrologic Engineering Section at the Portland District US Army Corps of Engineers (CENWP-EC-HY). Hydrology and hydraulics are taken from a HEC-RAS FEMA model of the Coast Fork of the Willamette River, the Row River and Silk Creek.</datacred>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 10.2 (Build 3497) Service Pack [N/A] (Build [N/A])</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>No formal attribute accuracy tests were conducted.</attraccr>
+    </attracc>
+    <logic>No formal logical accuracy tests were conducted.</logic>
+    <complete>This dataset is complete; there are no planned revisions or updates at this time. Data set is considered complete for the information presented, as described in the abstract. Users are advised to read the rest of the metadata record carefully for additional details.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>CENWP-EC-HY, Hydraulic Engineer</origin>
+            <pubdate>2013</pubdate>
+            <title>coast.shp</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Portland, OR</pubplace>
+              <publish>U.S. Army Corps of Engineers, Portland, OR</publish>
+            </pubinfo>
+            <onlink>http://www.nwp.usace.army.mil/Contact.aspx</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>CENWP-EC-HY, Hydraulic Engineer</origin>
+                <pubdate>2013</pubdate>
+                <title>Willamette Flood Insurance Study Update, Lane County, OR</title>
+                <geoform>Hydraulic report</geoform>
+                <pubinfo>
+                  <pubplace>Portland, OR</pubplace>
+                  <publish>U.S. Army Corps of Engineers, Portland, OR</publish>
+                </pubinfo>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <typesrc>report</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2013</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>coast_7</srccitea>
+        <srccontr>cfwgoshor_7b was clipped from coast_7 which is a raster produced during Flood Insurance Study for Coast Fork Willamette River, Oregon.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>A GIS application was used to produce a plane representing the flood-peak water surface. The application duplicates the [high-water-mark elevation data points, or water-surface-elevation data from cross-section points of the hydraulic model] across the flood plain perpendicular to the direction of the flood flow.  Elevations between [high-water marks, or water-surface points on the cross-sections] are proportional interpolations of the water-surface-elevation data and were positioned to generate a flood surface sloping with the water flow. A raster surface was created with the data points using a spline interpolation method, forming the estimated flood surface. The coast_7 flood-depth grid was made by subtracting the DEM from the flood surface raster.</procdesc>
+        <procdate>20130903</procdate>
+        <srcprod>coast_7</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Clipped coast_7 raster to the Goshen Studyarea.</procdesc>
+        <procdate>20151015</procdate>
+        <srcprod>cfwgoshor_7b</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>A GIS application was used to clip the flood depth rasters with the cfwgoshOR.shp flood-inundation polygons. Bridge locations were also clipped from the depth rasters for each layer where inundation depth exceeded bridge deck level.</procdesc>
+        <procdate>20160208</procdate>
+        <srcprod>cfwgoshor_7b</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>12159</rowcount>
+      <colcount>8325</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Lambert Conformal Conic</mapprojn>
+          <lambertc>
+            <stdparll>42.33333333333334</stdparll>
+            <stdparll>44.0</stdparll>
+            <longcm>-120.5</longcm>
+            <latprjo>41.66666666666666</latprjo>
+            <feast>4921259.842519685</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>3</absres>
+            <ordres>3</ordres>
+          </coordrep>
+          <plandu>feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D North American 1983</horizdn>
+        <ellips>GRS 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <depthsys>
+        <depthdn>Local surface</depthdn>
+        <depthres>0.01</depthres>
+        <depthdu>feet</depthdu>
+        <depthem>Explicit depth coordinate included with horizontal coordinates</depthem>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>cfwgoshor_7b</enttypl>
+        <enttypd>Floating point raster, no attribute table.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Depth for a Flow of 46,800 cfs at the Gage Coast Fork Willamette River at Goshen, Oregon.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>24.949</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of this data, software, or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government. 
+		
+		Uncertainties and Limitations for Use of Flood-Inundation Maps: Although the flood-inundation maps represent the boundaries of inundated areas with a distinct line, some uncertainty is associated with these maps.  The flood boundaries shown were estimated based on water stages and streamflows at the USGS streamflow-gaging station 14157500, Coastal Fork Willamette River Near Goshen, OR. Water-surface elevations along the stream reaches were estimated by steady-state hydraulic modeling, assuming unobstructed flow, and using streamflows and hydrologic conditions anticipated at the USGS streamgage.  The hydraulic model reflects the land-cover characteristics and any bridge, dam, levee, or other hydraulic structures existing as of 2011.  Unique meteorological factors (timing and distribution of precipitation) may cause actual streamflows along the modeled reach to vary from those assumed during a flood, which may lead to deviations in the water-surface elevations and inundation boundaries shown.  Additional areas may be flooded due to unanticipated conditions such as: changes in the streambed elevation or roughness, backwater into major tributaries along a main stem river, or backwater from localized debris or ice jams. The accuracy of the floodwater extent portrayed on these maps will vary with the accuracy of the digital elevation model used to simulate the land surface.  Additional uncertainties and limitations pertinent to this study may be described elsewhere in this report. If this series of flood-inundation maps will be used in conjunction with National Weather Service (NWS) river forecasts, the user should be aware of additional uncertainties that may be inherent or factored into NWS forecast procedures.  The NWS uses forecast models to estimate the quantity and timing of water flowing through selected stream reaches in the United States.  These forecast models (1) estimate the amount of runoff generated by precipitation and snowmelt, (2) simulate the movement of floodwater as it proceeds downstream, and (3) predict the flow and stage (water-surface elevation) for the stream at a given location (AHPS forecast point) throughout the forecast period (every 6 hours and 3 to 5 days out in many locations).  For more information on AHPS forecasts, please see: http://water.weather.gov/ahps/pcpn_and_river_forecasting.pdf.
+				
+		Disclaimer for Flood-Inundation Maps: Inundated areas shown should not be used for navigation, regulatory, permitting, or other legal purposes. The USGS provides these maps “as-is” for a quick reference, emergency planning tool but assumes no legal liability or responsibility resulting from the use of this information. Although USGS intends to make this server available 24 hours a day, seven days a week, timely delivery of data and products from this server through the Internet is not guaranteed.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>raster data are supplied in ESRI grid format</formname>
+          <formcont>Online accessible data</formcont>
+          <filedec>WinZip compressed file</filedec>
+          <transize>0.989</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/sir2016-5029_GIS_data.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by the USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20160314</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>Virginia</state>
+          <postal>20192</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8487 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+sir2016-5029_cfwgoshor_7b</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mercury>
+    <begdate>20040101</begdate>
+    <enddate>20121231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_sir2016-5029_cfwgoshor_7b.html</htmlurl>
+  </mercury>
+</metadata>

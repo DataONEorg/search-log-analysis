@@ -1,0 +1,1958 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/herbicide4.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Battaglin, W.A., and Goolsby, D.A.</origin>
+        <pubdate>1994</pubdate>
+        <title>Estimates of herbicide use for the sixty-first through the eightieth most-use herbicides in the conterminous United States</title>
+        <edition>1.0</edition>
+        <geoform>Series_Name  WRIR-94
+Issue_Identification  4176
+				</geoform>
+        <pubinfo>
+          <pubplace>Lakewood, CO</pubplace>
+          <publish>USGS</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?herbicide4</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Battaglin, W. A.; Goolsby, D. A.</origin>
+            <pubdate>1995</pubdate>
+            <title>Spatial data in geographic information system format on agricultural chemical use, land use, cropping practices in the United States</title>
+            <geoform>report</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Water Resources Investigative Report</sername>
+              <issue>WRIR 944176</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://pubs.er.usgs.gov/publication/wri944176</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This coverage contains estimates of herbicide use for the sixty-first
+through the eightieth most-used herbicides in the conterminous United
+States as reported in Gianessi and Puffer (1991). Herbicide-use estimates
+in this coverage are reported for each county polygon as acres treated,
+pounds of active ingredient used, and pounds used per square mile.
+
+The herbicide-use estimates provided by Gianessi and Puffer (1991) list
+acres treated and pounds of active ingredient applied for a given crop
+in each county for which use has been estimated. Cropping data are from the
+1987 Census of Agriculture, and are subject to occasional suppressions of
+acreage estimates at the county level due to problems of confidentiality
+and census disclosure rules. The herbicide-use estimates included in
+this coverage are totals of use on all crops treated in a given county.
+
+The polygons representing county boundaries in the conterminous United
+States, as well as lakes, estuaries, and other nonland-area features
+were derived from the Digital Line Graph (DLG) files representing the
+1:2,000,000-scale map in the National Atlas of the United States (1970).
+
+Herbicides
+Herbicide use
+Counties
+United States
+			</abstract>
+      <purpose>The herbicide-use estimates in this coverage are intended for use as
+a means for estimating regional herbicide use, and for producing
+maps showing relative rates of herbicide use across broad regions of
+the United States.
+			</purpose>
+      <supplinf>Procedures_Used:
+HERBICIDE-USE DATA
+
+An automated procedure was developed to process the raw herbicide-use
+data into ARC/INFO coverage attributes. The procedure is summarized below:
+
+(1) copy county2m coverage to coverage called herbicide%#%, and
+(2) run the AML herbadd.aml for each herbicide to be added.
+
+The herbadd.aml program runs a fortran program to total estimates of
+herbicide use on all crops by county, then processes these data, finally
+adding them as three columns of attribute data to the county coverage.
+Other programs were developed to calculate summary statistics of the
+herbicide-attribute data and to produce maps that show attribute values
+across the United States.
+
+COUNTY BOUNDARIES
+
+This series of maps was published as part of the National Atlas of the
+United States (U.S.Geological Survey, 1970).  The maps for the
+conterminous United States were digitized in 15 sheets and published in
+the Digital Line Graph (DLG) format as described by Domeratz and others
+(1983).
+
+Each sheet was prepared by reading the DLG files of the political and
+water-bodies layers, converting them to ARC/INFO; extracting the county
+boundaries and the coastline, respectively; and joining the two layers.
+FIPS codes were assigned to all polygons by using available sources and
+were checked manually.
+
+Boundaries with adjacent sheets of the 15-sheet set were edgematched
+manually; one of the sheets was chosen arbitrarily as the "correct"
+border. Egematching operations were used to adjust the linework as far as
+was necessary so that the coverages would fit to a tolerance of 100 meters
+(328.1 feet).  The coverage (referred to herein as Version 1.0) was stored
+as 49 separate coverages (48 States and the District of Columbia) because
+the ARC/INFO software in use at the time could not process the entire
+coverage.  Individual States could be joined by specifying a tolerance of
+100 meters.
+
+From time to time, adjustments were made to the State coverages to
+reflect changes in counties. The accuracy of these adjustments is believed
+to be comparable to that of the original linework.
+
+For Version 2.0, all State coverages were rejoined and manually edited
+to produce a perfect edgematch between all States.  For States on the
+original map-sheet boundaries, this adjustment averaged less than 20
+meters and in no case was more than 100 meters.  The whole coverage was
+CLEANed to a tolerance of 20 meters (65.6 feet), which resulted in few, if
+any, effects on small offshore islands. The coverage also was checked to
+ensure that it represented current counties or county equivalents.
+
+The coverage in Version 1.0 ended at the coastline. No attempt was made
+to depict offshore areas.  This created problems when the coverage was
+used to assign county codes to sampling stations located near the coast.
+To help in this matter, Version 2.0 includes offshore extensions of the
+county polygons.  The (water) boundaries of many of these polygons are
+arbitrary.
+
+The Canadian Great Lakes features are another new addition to Version
+2.0. They were added to improve the utility of the coverage for visual
+displays. Although the Canadian Great Lakes are represented logically by a
+single polygon, practical considerations--the inability of some software
+to plot polygons with a large number of vertices--made it necessary to
+separate them into four polygons.  The dividing lines are located in
+narrow channels to minimize interference with plotting patterns.  Canadian
+islands within the Great Lakes also were included.
+
+All tick marks were relocated to places that are easily visible on maps
+of the United States, to help in registering maps that otherwise may not
+have adequate registration information.
+
+To expedite accessing parts of the coverage, certain items have been
+indexed with the procedure INDEX_COUNTY.AML. See Section 3 above.  A
+spatial index also was created.
+
+When this coverage is used to clip or intersect other coverages, a
+tolerance as low as 2 meters (6.6 feet) can be used.
+
+The processing used to derive this coverage moved boundaries from their
+positions on the original maps.  In cases of conflicting lines, preference
+was given to forming the correct topology. Strictly speaking, this
+coverage is not identical to the source materials.  These changes were
+unavoidable in producing a continuous coverage of the conterminous United
+States.
+
+Revisions:
+COUNTY POLYGON DATA
+
+Revision 1.0, 12/17/90.  This revision represents many
+corrections and minor modifications made to this set of coverages
+from its construction in 1985 through the revision date.
+
+Revision 2.0,  3/18/91.  Major reworking of the coverage, combining
+all State coverages.
+
+Reviews_Applied_to_Data:
+The herbicide-use data-processing procedure and attribute data have been
+peer reviewed in 1993 by Leonard Orzol and Barbara Ruddy, U.S. Geological
+Survey hydrologists.
+
+The herbicide-use estimates prepared by Gianessi and Puffer (1991) were
+compared with National estimates provided by the Office of Pesticide
+Programs of the U.S. Environmental Protection Agency, and were reviewed by
+more than 20 individuals from the companies that registered the chemicals.
+
+The county boundaries in this coverage were not reviewed formally. They
+have, however, been used in numerous applications where serious errors
+would have been obvious.  Some State coverages were corrected following
+such use. The offshore polygon extensions and the Canadian Great Lakes
+polygons have not been reviewed.
+
+Related_Spatial_and_Tabular_Data_Sets:
+This coverage is part of series of 1:2,000,000-scale base maps that cover
+the United States.  Also available are:
+
+COUNTY--County boundaries.
+STATE--State boundaries (formed from COUNTY).
+WATERBOD--Water Bodies.
+STREAM--Streams.
+HUC--Hydrologic cataloging units (basins).
+
+Other_References_Cited:
+Domeratz, M. A., Hallam, C. A., Schmidt, W. E., and Calkins, H. W., 1983,
+USGS digital cartographic data standards--Digital line graphs from
+1:2,000,000-scale maps: U.S. Geological Survey Circular 895-D, 38 p.
+
+Gianessi, Leonard P. and Puffer, Cynthia, 1991, Herbicide
+use in the United States: Washington, D.C., Resources for the Future,
+December 1990 (revised April 1991), 128 p.
+
+Nebert, Douglas D.,1994, Design of the distributed spatial data library
+for the Water Resources Division, U.S. Geological Survey: U.S.
+Geological Survey Open-File Report, 94-327, 30 p.
+
+U.S. Department of Commerce, 1989a, Census of agriculture, 1987--Final
+county file: U.S. Department of Commerce, Bureau of the Census,
+[machine-readable data file]
+
+U.S. Department of Commerce, 1989b, Census of agriculture, 1987--Final
+county file technical documentation: U.S. Department of Commerce,
+Bureau of the Census, Data User Services Division.
+
+U.S. Geological Survey, 1970, National atlas of the United States
+of America: Washington, D.C., U. S. Geological Survey, 417 p.
+
+Notes:
+DOCUMENTATION
+
+The documentation for this coverage was generated by using the ARC macro
+language (AML) program document.aml available from the U.S. Geological
+Survey (Nebert, 1994).
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>0000</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>(Here you put information defining how the time period of
+content information, on the DOC file, was determined)
+			</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>(Here you pick one of the following entries that describes
+how often changes or additions are made to the data set.
+Pick one, and delete the rest)
+
+Continually
+Daily
+Weekly
+Monthly
+Annually
+Unknown
+As Needed
+Irregular
+None planned
+			</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-128.07002717</westbc>
+        <eastbc>-65.25698378</eastbc>
+        <northbc>48.26194027</northbc>
+        <southbc>22.67774911</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Herbicide use estimates for counties in the United States</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Conterminous United States</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>None</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>None</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>(describe any restrictions or legal prerequisites for accessing
+the data set.  Put "None" if there are no restrictions)
+		</accconst>
+    <useconst>HERBICIDE-USE DATA
+
+Estimates of herbicide use by county were generated by Gianessi
+and Puffer (1991) by using the following procedure:
+
+(1) collect statistics by State, by crop, on percentage of acres treated
+with a given herbicide, and average annual application rate of the
+herbicide from surveys sent to Extension Service weed scientists in
+1987 and 1989;
+
+(2) augment survey data with published information from some States;
+
+(3) establish herbicide-use profiles, by State, by crop, containing the
+percentage of acres treated, and average annual application rates;
+
+(4) apply data in herbicide-use profiles to county-level crop-acreage
+estimates from the 1987 Census of Agriculture (U.S. Department of
+Commerce, 1989a); and
+
+(5) tabulate pounds of active ingredient of herbicides used by crop, by
+county.
+
+Eighty-four crops were profiled, resulting in usage estimates for 96
+herbicide active ingredients. This coverage contains estimates of use
+for the sixty-first through the eightieth the most-used herbicides in the
+conterminous United States.
+
+Although crop-acreage data represent the 1987 growing year, the
+herbicide-use estimates generally reflect 1989 usage amounts
+(Gianessi and Puffer, 1991).
+
+Estimates of herbicide use by county were generated from a combination
+of data collected from surveys of weed scientists and from surveys of
+farmers. Herbicide-use profile data were generated from ancillary data
+sources or were calculated from profiles in neighboring states when
+no responses to surveys or published reports were available (Gianessi and
+Puffer, 1991). Sampling and statistics were used to account for
+nonresponding farm operations. Thus, the information describing crop
+acreages is subject to sampling variability as well as reporting and
+coverage errors (U.S. Department of Commerce, 1989b). Census disclosure
+rules also prevent the publication of information that would disclose
+the operation of individual farms.
+
+Before herbicide-use estimates entered into this coverage, the total
+use of individual herbicides on all crops for each county was calculated.
+
+COUNTY BOUNDARIES
+
+The original files for this map were provided in 15 sections.
+Boundaries near the edges of sections have been adjusted in edgematching.
+
+Polygons that extend into the water (an ocean or the Great Lakes)
+should be considered arbitrary.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>William A. Battaglin</cntper>
+          <cntorg>U.S. Geological Survey, Water Resources Div. (WRD)</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist, Office of the Regional Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>P.O. Box 25046, Denver Federal Center, Bldg. 25</address>
+          <city>Lakewood</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>303-236-5959</cntfax>
+        <cntemail>wbattagl@usgs.gov</cntemail>
+        <hours>8:00am-4:30pm MST</hours>
+        <cntinst>Please contact thru email</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/herbicide4.gif</browsen>
+      <browsed>Illlustration of data set</browsed>
+      <browset>GIF</browset>
+    </browse>
+    <datacred>(Here you acknowledge the agencies and organizations that gave
+you money, resources, and encouragement to digitize the data and
+to enter all this wonderful metadata.)
+		</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>dgux, 5.4R3.10, AViiON UNIX, ARC/INFO version 7.0.4</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity_Attribute_Information</attraccr>
+      <qattracc>
+        <attraccv>See Explanation</attraccv>
+        <attracce>Attribute accuracy is described, where present, with each
+attribute defined in the Entity and Attribute Section.
+				</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Polygon and chain-node topology present.</logic>
+    <complete>(Information in wordy narrative form describing omissions,
+selection criteria, generalization, definitions used, and other
+rules applied to derive the data set)
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>(An explanation of the accuracy of the horizontal coordinate
+measurements and a description of tests used, if any, to
+determine horizontal positional accuracy.  This is different
+from horizontal resolution as reported in the DOC file.
+Positional accuracy defines how correctly the digital features
+match real-world features and woiuld be related to the concept
+of the National Map Accuracy Standard -- xx% of well-defined
+point features fall within xx units of their true position.
+The resolution is the smallest unit of measure the GIS can
+reliably manage without truncation or rounding.)
+				</horizpar>
+        <qhorizpa>
+          <horizpav>approx. 1 km</horizpav>
+          <horizpae>Resolution as reported</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>(The same as above, but for vertical information that may
+be encoded with the 2-D features such as cell or contour
+estimates of a vertical dimension.  A description of the
+contour interval of input data and its basis could be described
+here.)
+				</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Unspecified</origin>
+            <pubdate>0000</pubdate>
+            <title>Unspecified</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>2,000,000</srcscale>
+        <typesrc>Unspecified</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>0000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Unspecified</srccurr>
+        </srctime>
+        <srccitea>Unspecified</srccitea>
+        <srccontr>Unspecified</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>RESELECT COUNTY2M COUNTY.NEW POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19911112</procdate>
+        <proctime>1528</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>LABELERRORS COUNTY.NEW</procdesc>
+        <srcused>None</srcused>
+        <procdate>19911112</procdate>
+        <proctime>1529</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>LABELERRORS COUNTY.NEW</procdesc>
+        <srcused>None</srcused>
+        <procdate>19911112</procdate>
+        <proctime>1556</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXTERNALALL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19911112</procdate>
+        <proctime>1721</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>RENAME COUNTY.NEW COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19911113</procdate>
+        <proctime>1249</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>CREATELABELS COUNTY2M 5000</procdesc>
+        <srcused>None</srcused>
+        <procdate>19911115</procdate>
+        <proctime>1656</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXTERNALALL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19911204</procdate>
+        <proctime>1410</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY COUNTY2M /ARC3/WORK/LIB/COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920102</procdate>
+        <proctime>0833</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY /ARC3/WORK/LIB/COUNTY2M COUNTY.AG</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920102</procdate>
+        <proctime>1527</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>RENAME COUNTY.AG CNTY.AG</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920102</procdate>
+        <proctime>1527</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY /ARC3/WORK/CNTY.AG COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920107</procdate>
+        <proctime>1423</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXPORT COVER COUNTY2M COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920117</procdate>
+        <proctime>1350</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY /ARC3/WORK/LIB/COUNTY2M COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920121</procdate>
+        <proctime>1549</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD COUNTY2M POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920121</procdate>
+        <proctime>1615</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>ARCEDIT /ARC3/WORK/COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920122</procdate>
+        <proctime>0948</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD COUNTY2M POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920122</procdate>
+        <proctime>0956</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>IDEDIT COUNTY2M POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920122</procdate>
+        <proctime>1101</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY COUNTY2M /ARC3/WORK/LIB/COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920122</procdate>
+        <proctime>1102</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>IDEDIT COUNTY2M POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920330</procdate>
+        <proctime>1537</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXPORT COVER COUNTY2M COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920608</procdate>
+        <proctime>1103</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>ARCEDIT /ARC3/WORK/LIB/COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920803</procdate>
+        <proctime>1748</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD COUNTY2M POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920803</procdate>
+        <proctime>1758</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>CLEAN COUNTY2M # 2 2 POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920803</procdate>
+        <proctime>1846</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY COUNTY2M /WB2/DB/USA/COUNTY2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920804</procdate>
+        <proctime>0919</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY /WB2/DB/USA/COUNTY2M HERBICIDE4</procdesc>
+        <srcused>None</srcused>
+        <procdate>19921231</procdate>
+        <proctime>1257</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT HERBICIDE4 DELETE WBATTAGL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930401</procdate>
+        <proctime>0931</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT HERBICIDE4 COPY /ARC3/EPA1/RFF/HERBICIDE3 WBATTAGL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930401</procdate>
+        <proctime>0932</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT HERBICIDE4 UPDATE WBATTAGL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930401</procdate>
+        <proctime>1017</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT HERBICIDE4 UPDATE WBATTAGL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930401</procdate>
+        <proctime>1044</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT HERBICIDE4 UPDATE WBATTAGL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930403</procdate>
+        <proctime>1151</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXPORT COVER HERBICIDE4 HERBICIDE4</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930413</procdate>
+        <proctime>1657</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY /ARC3/EPA1/RFF/HERBICIDE4 HERBICIDE4</procdesc>
+        <srcused>None</srcused>
+        <procdate>19941220</procdate>
+        <proctime>0940</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>PROJECTDEFINE COVER HERBICIDE4</procdesc>
+        <srcused>None</srcused>
+        <procdate>19941220</procdate>
+        <proctime>0942</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT HERBICIDE4 UPDATE WBATTAGL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19941220</procdate>
+        <proctime>1022</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXPORT COVER HERBICIDE4 HERBICIDE4</procdesc>
+        <srcused>None</srcused>
+        <procdate>19941220</procdate>
+        <proctime>1042</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT HERBICIDE4 UPDATE WBATTAGL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19941230</procdate>
+        <proctime>1005</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI   IMPORT COVER HERBICIDE4.E00 HERBICIDE4</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950308</procdate>
+        <proctime>1322</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Unspecified</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950308</procdate>
+        <proctime>1335</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI   EXPORT COVER HERBICIDE4 HERBICIDE4.E00</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950309</procdate>
+        <proctime>1833</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI ARCSDTS HERBICIDE4 HERBICIDE4.TAR.GZ PREF</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950309</procdate>
+        <proctime>1849</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI   EXPORT COVER HERBICIDE4 /SCRATCH_AREA1/MNEGRI/HERBICIDE4.E00 NONE</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950919</procdate>
+        <proctime>1658</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI EXPORT COVER /DSDL1/CUSA/TILES/CUSA/HERBICIDE4 HERBICIDE4.E00</procdesc>
+        <srcused>None</srcused>
+        <procdate>19960624</procdate>
+        <proctime>0856</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI EXPORT COVER /DSDL1/CUSA/TILES/CUSA/HERBICIDE4 HERBICIDE4.E00</procdesc>
+        <srcused>None</srcused>
+        <procdate>19960625</procdate>
+        <proctime>1126</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>4787</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>11926</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>4788</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96</longcm>
+            <latprjo>23</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>1.0</absres>
+            <ordres>1.0</ordres>
+          </coordrep>
+          <plandu>METERS</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>Unknown</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>HERBICIDE4.PAT</enttypl>
+        <enttypd>Polygon attribute table</enttypd>
+        <enttypds>ARC/INFO file</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of polygon in square coverage units (meters)</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of polygon in coverage units (meters)</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HERBICIDE4#</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HERBICIDE4-ID</attrlabl>
+        <attrdef>User-assigned feature number</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>5-digit County FIPS code</attrdef>
+        <attrdefs>Federal Information Processing Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>01001 - 56998, none = 0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ST</attrlabl>
+        <attrdef>two-character state abbreviation</attrdef>
+        <attrdefs>U.S. Postal Service</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>AL - WY, none = blank</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CNTYNAME</attrlabl>
+        <attrdef>County name</attrdef>
+        <attrdefs>U.S. Geological Survey Files</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>upper-case alphanumeric, none = blank</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PLYTYPE</attrlabl>
+        <attrdef>polygon type: 0=county land, others are lakes, estuaries, etc.</attrdef>
+        <attrdefs>see narrative</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0-4,9</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>WORKB</attrlabl>
+        <attrdef>variable for data processing</attrdef>
+        <attrdefs>n/a</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>any integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA.ACRES</attrlabl>
+        <attrdef>total county land area (all polygons) in acres</attrdef>
+        <attrdefs>calculated from area of polygons with like FIPS code and PLYTYPE=0</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1109.ACR</attrlabl>
+        <attrdef>acres treated with terbacil</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1109.LBS</attrlabl>
+        <attrdef>pounds of terbacil used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1109.USE</attrlabl>
+        <attrdef>rate of terbacil use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2070.ACR</attrlabl>
+        <attrdef>acres treated with hexazinone</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2070.LBS</attrlabl>
+        <attrdef>pounds of hexazinone used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2070.USE</attrlabl>
+        <attrdef>rate of hexazinone use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9000.ACR</attrlabl>
+        <attrdef>acres treated with imazethapyr</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9000.LBS</attrlabl>
+        <attrdef>pounds of imazethapyr used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9000.USE</attrlabl>
+        <attrdef>rate of imazethapyr use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9012.ACR</attrlabl>
+        <attrdef>acres treated with ethofumesate</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9012.LBS</attrlabl>
+        <attrdef>pounds of ethofumesate used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9012.USE</attrlabl>
+        <attrdef>rate of ethofumesate use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2250.ACR</attrlabl>
+        <attrdef>acres treated with pyrazon</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2250.LBS</attrlabl>
+        <attrdef>pounds of pyrazon used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2250.USE</attrlabl>
+        <attrdef>rate of pyrazon use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2158.ACR</attrlabl>
+        <attrdef>acres treated with propham</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2158.LBS</attrlabl>
+        <attrdef>pounds of propham used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2158.USE</attrlabl>
+        <attrdef>rate of propham use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9096.ACR</attrlabl>
+        <attrdef>acres treated with methazole</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9096.LBS</attrlabl>
+        <attrdef>pounds of methazole used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9096.USE</attrlabl>
+        <attrdef>rate of methazole use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4008.ACR</attrlabl>
+        <attrdef>acres treated with chlorimuron</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4008.LBS</attrlabl>
+        <attrdef>pounds of chlorimuron used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4008.USE</attrlabl>
+        <attrdef>rate of chlorimuron use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1374.ACR</attrlabl>
+        <attrdef>acres treated with difenzoquat</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1374.LBS</attrlabl>
+        <attrdef>pounds of difenzoquat used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1374.USE</attrlabl>
+        <attrdef>rate of difenzoquat use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1183.ACR</attrlabl>
+        <attrdef>acres treated with chlorpropham</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1183.LBS</attrlabl>
+        <attrdef>pounds of chlorpropham used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1183.USE</attrlabl>
+        <attrdef>rate of chlorpropham use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1888.ACR</attrlabl>
+        <attrdef>acres treated with pronamide</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1888.LBS</attrlabl>
+        <attrdef>pounds of pronamide used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1888.USE</attrlabl>
+        <attrdef>rate of pronamid use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4010.ACR</attrlabl>
+        <attrdef>acres treated with fomesafen</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4010.LBS</attrlabl>
+        <attrdef>pounds of fomesafen used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4010.USE</attrlabl>
+        <attrdef>rate of fomesafen use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4007.ACR</attrlabl>
+        <attrdef>acres treated with tridiphane</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4007.LBS</attrlabl>
+        <attrdef>pounds of tridiphane used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H4007.USE</attrlabl>
+        <attrdef>rate of tridiphane use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1948.ACR</attrlabl>
+        <attrdef>acres treated with endothall</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1948.LBS</attrlabl>
+        <attrdef>pounds of endothall used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1948.USE</attrlabl>
+        <attrdef>rate of endothall use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1982.ACR</attrlabl>
+        <attrdef>acres treated with ametryn</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1982.LBS</attrlabl>
+        <attrdef>pounds of ametryn used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1982.USE</attrlabl>
+        <attrdef>rate of ametryn use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2220.ACR</attrlabl>
+        <attrdef>acres treated with phenmedipham</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2220.LBS</attrlabl>
+        <attrdef>pounds of phenmedipham used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H2220.USE</attrlabl>
+        <attrdef>rate of phenmediphan use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1950.ACR</attrlabl>
+        <attrdef>acres treated with diquat</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1950.LBS</attrlabl>
+        <attrdef>pounds of diquat used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1950.USE</attrlabl>
+        <attrdef>rate of diquat use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9014.ACR</attrlabl>
+        <attrdef>acres treated with desmedipham</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9014.LBS</attrlabl>
+        <attrdef>pounds of desmedipham used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9014.USE</attrlabl>
+        <attrdef>rate of desmedipham use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1309.ACR</attrlabl>
+        <attrdef>acres treated with bifenox</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1309.LBS</attrlabl>
+        <attrdef>pounds of bifenox used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H1309.USE</attrlabl>
+        <attrdef>rate of bifenox use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9016.ACR</attrlabl>
+        <attrdef>acres treated with diallate</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9016.LBS</attrlabl>
+        <attrdef>pounds of diallate used</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>H9016.USE</attrlabl>
+        <attrdef>rate of diallate use in county polygon in pounds per square mile</attrdef>
+        <attrdefs>Gianessi and Puffer, 1991</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>numeric values greater than 0, missing = -99.000</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPSST</attrlabl>
+        <attrdef>two-digit state FIPS code</attrdef>
+        <attrdefs>Federal Information Processing Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>01 - 56, none = 0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPSCNTY</attrlabl>
+        <attrdef>three-digit county FIPS code</attrdef>
+        <attrdefs>Federal Information Processing Standard</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>001 - 998, none = 0</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>HERBICIDE4.AAT</enttypl>
+        <enttypd>Line attribute table</enttypd>
+        <enttypds>ARC/INFO file</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FNODE#</attrlabl>
+        <attrdef>Internal number of from-node</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TNODE#</attrlabl>
+        <attrdef>Internal number of to-node</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY#</attrlabl>
+        <attrdef>Internal number of polygon to left of arc</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY#</attrlabl>
+        <attrdef>Internal number of polygon to right of arc</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>Length of arc in coverage units (meters)</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HERBICIDE4#</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HERBICIDE4-ID</attrlabl>
+        <attrdef>User-assigned feature number</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BNDTYPE</attrlabl>
+        <attrdef>boundary type</attrdef>
+        <attrdefs>see narrative</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0-8</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>HERBICIDE-USE ATTRIBUTES
+
+Herbicide-use attributes are from tabular data files provided by
+Gianessi and Puffer (1991). Three attributes are added to an ARC/INFO
+coverage for each of the 96 herbicides.  Attributes with names ending
+in .ACR are estimates of the number of acres treated with a given
+herbicide. Attributes with names ending in .LBS are estimates of the
+number of pounds of active ingredient applied of a given herbicide.
+Attributes ending in .USE are estimates of a county-level herbicide-use
+rate in pounds per square mile.
+
+Attribute names are keyed to four-digit herbicide code numbers provided
+in the table below. A ranking of national herbicide-use amounts (Gianessi
+and Puffer, 1991) was used to divide herbicide-use data into five
+coverages (herbicide1, herbicide2, herbicide3, herbicide4, and herbicide5)
+
+Table 1. Herbicide codes for herbicide4 coverage
+
+Code  Herbicide
+_______________________
+1109  Terbacil
+2070  Hexazinone
+9000  Imazethapyr
+9012  Ethofumesate
+2250  Pyrazon
+
+2158  Propham
+9096  Methazole
+4008  Chlorimuron
+1374  Difenzoquat
+1183  Chlorpropham
+
+1888  Pronamide
+4010  Fomesafen
+4007  Tridiphane
+1948  Endothall
+1982  Ametryn
+
+2220  Phenmedipham
+1950  Diquat
+9014  Desmedipham
+1309  Bifenox
+9016  Diallate
+_______________________
+
+Herbicide-use estimates in counties represented by one polygon are
+equal to county totals. For counties described by more than one polygon,
+attribute values are provided for each polygon and are calculated as the
+county total multiplied by the ratio of the area of each county polygon
+divided by total area of the county.
+
+A missing-value code of -99.0 is used when no herbicide-attribute data
+are given for a county and for all nonland-area polygons. The
+missing-value code can indicate any of the following conditions:
+
+-- herbicide use not present in county (for example, no atrazine used
+in county)
+-- crop data withheld because of census disclosure rules
+-- crop data not available to the census
+-- crop data not published because county contains fewer than 10 farms.
+
+COUNTY POLYGON ATTRIBUTES
+
+Each county is identified by a five-digit Federal Information Processing
+Standard (FIPS) code.  The first two digits represent the State and the
+three remaining represent the county within the State. County names (in
+upper case) and the two-character State abbreviation also are included.
+
+All polygons are coded by polygon type (PLYTYPE) as follows:
+0 = U.S. land.
+1 = Extensions of counties into the ocean and estuaries. Some
+boundaries may be arbitrary.
+2 = U.S. Great Lakes.  Some boundaries between counties may
+be arbitrary.
+3 = Canadian Great Lakes.
+4 = Canadian islands in Great Lakes, included for visual
+cartographic purposes.
+9 = External polygon.
+
+All arcs are coded by boundary type (BNDTYPE) as follows:
+0 = Coastline of United States.
+1 = State-State border located on land.
+2 = County-county border, within State, located on land.
+3 = State-State border located on the ocean, an estuary, or a
+Great Lake.  Some of these borders are arbitrary.
+4 = County-county border, with State, but located on an ocean, an
+estuary, or Great Lake.  Some of these borders are arbitrary.
+5 = International border located on land.
+6 = International border located on water.
+7 = Canadian shoreline of the Great Lakes.
+8 = Arbitrary separation line between the Canadian portions of the
+Great Lakes.
+9 = Closure line with the external polygon.  This is arbitrary.
+
+All BNDTYPE values are determined from the adjoining polygons by the
+routine INDEX_COUNTY.AML.  The coverage is indexed (ARC: INDEXITEM) on
+FIPS code, State FIPS code, State abbreviation, county name, polygon type,
+and boundary type.
+			</eaover>
+      <eadetcit>Not Available</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/herbicide4.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>SDTS</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/herbicide4.sdts.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+herbicide4</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>00000101</begdate>
+    <enddate>00001231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_herbicide4.html</htmlurl>
+  </mercury>
+</metadata>

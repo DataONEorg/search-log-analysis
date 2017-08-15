@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="iesn.22.4" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow> <principal>uid=lrrhchen,o=TFRI,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>蓮華池研究中心藥用植物園氣象資料</title>
+ <creator id="1412847072311" scope="document"> <organizationName>林業試驗所</organizationName>
+ <address scope="document"> <deliveryPoint>南海路53號</deliveryPoint>
+ <city>臺北市</city>
+ <postalCode>10066</postalCode>
+ <country>中華民國</country>
+ </address>
+ <phone phonetype="voice">+886223039978</phone>
+ <onlineUrl>http://www.tfri.gov.tw</onlineUrl>
+ </creator>
+ <associatedParty id="1412847197874" scope="document"> <individualName> <givenName>照翔</givenName>
+ <surName>黃</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>技工</positionName>
+ <address scope="document"> <deliveryPoint>魚池鄉五城村華龍巷43號</deliveryPoint>
+ <city>南投縣</city>
+ <postalCode>55543</postalCode>
+ <country>中華民國</country>
+ </address>
+ <phone phonetype="voice">+886-49-2895535</phone>
+ <phone phonetype="fax">+886-49-2898627</phone>
+ <electronicMailAddress>taxus@tfri.gov.tw</electronicMailAddress>
+ <role>Content Provider</role>
+ </associatedParty>
+ <abstract> <para>本資料集所描述的是智慧生態計畫－生態及生物多樣性資訊基礎建設與應用計畫第二年度成果。
+透過計畫合作，介接本所科技計畫於蓮華池研究中心藥園所設置之氣象觀測系統，進行資料的收集與倉儲，而所有的氣象資料，均可於生態感測資料展示平台 (http://iesn.tfri.gov.tw) 上查閱，並以開放資料形式提供生態感測開放資料平台 (http://iesn.tfri.gov.tw/forestDW/OpenData) 作為資料來源之一。</para>
+ </abstract>
+ <keywordSet> <keyword>生態感測</keyword>
+ <keyword>智慧生態</keyword>
+ <keyword>蓮華池</keyword>
+ <keyword>藥園</keyword>
+ <keyword>氣象資料</keyword>
+ <keyword>DataTurbine</keyword>
+ <keyword>RBNB</keyword>
+ </keywordSet>
+ <intellectualRights> <para>本資料集所有資料內容歸屬於林業試驗所所有，任何引用與利用請註明出處。</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>林業試驗所蓮華池中心藥用植物園</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>120.891646</westBoundingCoordinate>
+ <eastBoundingCoordinate>120.891646</eastBoundingCoordinate>
+ <northBoundingCoordinate>23.923133</northBoundingCoordinate>
+ <southBoundingCoordinate>23.923133</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1422427971424" scope="document"> <individualName> <givenName>美如</givenName>
+ <surName>鄭</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>助理研究員</positionName>
+ <address scope="document"> <deliveryPoint>南海路53號</deliveryPoint>
+ <city>臺北市</city>
+ <postalCode>10066</postalCode>
+ <country>中華民國</country>
+ </address>
+ <phone phonetype="voice">+886-2-23039978-3887</phone>
+ <electronicMailAddress>beer@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <contact id="1412847101376" scope="document"> <individualName> <givenName>建文</givenName>
+ <surName>陳</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>聘用助理研究員</positionName>
+ <address scope="document"> <deliveryPoint>南海路53號</deliveryPoint>
+ <city>臺北市</city>
+ <postalCode>10066</postalCode>
+ <country>中華民國</country>
+ </address>
+ <phone phonetype="voice">+886223039978-2700</phone>
+ <electronicMailAddress>lrrhchen@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>氣象儀器架設</title>
+ <para>蓮華池藥用植物園氣象儀器是於本年度計畫開始之前既已架設。</para>
+ </section>
+ </description>
+ <instrumentation>Data logger: Campbell CR1000</instrumentation>
+ </methodStep>
+ <methodStep><description><section><title>氣象資料回傳</title>
+ <para>藉由Serial to ethernet設備，透過野外無線網路，將資料回傳至蓮華池研究中心機房。</para>
+ </section>
+ </description>
+ <instrumentation>Serial to ethernet device</instrumentation>
+ </methodStep>
+ <methodStep><description><section><title>氣象資料倉儲</title>
+ <para>每30分鐘由臺北林業試驗所機房的伺服器，將本測站的氣象資料，藉由RBNB Data turbine服務介接取回，讀取分析資料後，倉儲至Hadoop中。</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1412847986595" scope="document"> <entityName>蓮華池研究中心藥用植物園氣象資料OpenData資料下載目錄</entityName>
+ <physical scope="document"> <objectName>蓮華池研究中心藥用植物園氣象資料OpenData資料下載目錄</objectName>
+ <dataFormat> <textFormat> <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>http://iesn.tfri.gov.tw/forestDW/OpenData/opd_rbnb_0201</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1412847986596" scope="document"> <attributeName>sn</attributeName>
+ <attributeDefinition>檔案序號</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412847986597" scope="document"> <attributeName>info1</attributeName>
+ <attributeDefinition>氣象資料檔案收集日期 (自2014-11-03開始)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY-MM-DD</formatString>
+ <dateTimePrecision>1天</dateTimePrecision>
+ <dateTimeDomain> <bounds> <minimum exclusive="false">2014-11-03</minimum>
+ </bounds>
+ </dateTimeDomain>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412847986598" scope="document"> <attributeName>info3</attributeName>
+ <attributeDefinition>資料收集筆數</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412847986599" scope="document"> <attributeName>info2</attributeName>
+ <attributeDefinition>氣象資料檔案下載連結(URL)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>URL</definition>
+ <pattern>http:\/\/iesn\.tfri\.gov\.tw\/opd\/api\/downloadapi\.jsp\?fName=\/Fobs\/02\/0201\/20[0-9]{4}\/20[0-9]{6}_lhc_weather3\.csv</pattern>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1412948914856" scope="document"> <entityName>蓮華池研究中心藥用植物園氣象資料</entityName>
+ <physical scope="document"> <objectName>[YYYYMMDD]_lhc_weather3.csv</objectName>
+ <dataFormat> <textFormat> <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution> <online> <url>http://iesn.tfri.gov.tw/forestDW/OpenData/opd_rbnb_0201</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1412948914857" scope="document"> <attributeName>TIMESTAMP</attributeName>
+ <attributeLabel>Tiem stamp</attributeLabel>
+ <attributeDefinition>資料記錄日期時間 (每五分鐘記錄一筆)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY/M/D hh:mm</formatString>
+ <dateTimePrecision>5 min</dateTimePrecision>
+ <dateTimeDomain> <bounds> <minimum exclusive="true">2013/11/3 23:00</minimum>
+ </bounds>
+ </dateTimeDomain>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412948914858" scope="document"> <attributeName>WS_ms</attributeName>
+ <attributeLabel>Wind speed</attributeLabel>
+ <attributeDefinition>瞬間風速</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415263251" scope="document"> <attributeName>WindDir</attributeName>
+ <attributeLabel>Wind direction</attributeLabel>
+ <attributeDefinition>瞬間風向</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>degree</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">-180.000</minimum>
+ <maximum exclusive="false">180.00</maximum>
+ </bounds>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415286511" scope="document"> <attributeName>WS_ms_Avg</attributeName>
+ <attributeLabel>Wind speed average</attributeLabel>
+ <attributeDefinition>平均風速</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>metersPerSecond</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415371921" scope="document"> <attributeName>PAR_Tot_Tot</attributeName>
+ <attributeDefinition>日照計光強度</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>millimolePerSquareMeter</customUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415384603" scope="document"> <attributeName>PAR_Den_Avg</attributeName>
+ <attributeDefinition>日照計光密度</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>millimolePerSecondPerSquareMeter</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415397661" scope="document"> <attributeName>HFT3_AVG</attributeName>
+ <attributeDefinition>熱通量 (平均熱通量)</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>millivolt</standardUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415411963" scope="document"> <attributeName>Net07_AVG</attributeName>
+ <attributeDefinition>淨輻射平均值</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <customUnit>wattsPerSquareMeter</customUnit>
+ </unit>
+ <precision>0.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415430648" scope="document"> <attributeName>PTemp_C_Avg</attributeName>
+ <attributeLabel>Panel temperature</attributeLabel>
+ <attributeDefinition>Data logger 面板溫度</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412948914860" scope="document"> <attributeName>AirTC</attributeName>
+ <attributeLabel>Air Temperature</attributeLabel>
+ <attributeDefinition>平均氣溫 (每5分鐘)
+離地面高度1.5公尺處之氣溫。</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1412948914868" scope="document"> <attributeName>RH</attributeName>
+ <attributeLabel>Relative Humidity</attributeLabel>
+ <attributeDefinition>相對濕度
+離地面1.5公尺之測值。</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ <maximum exclusive="false">100</maximum>
+ </bounds>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415482810" scope="document"> <attributeName>Temp_C_Avg(1)</attributeName>
+ <attributeLabel>Average temperature at 0 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤0cm深處土壤溫度(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode> <code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415497341" scope="document"> <attributeName>Temp_C_Avg(2)</attributeName>
+ <attributeLabel>Average temperature at 10 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤10cm深處土壤溫度(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode> <code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415512341" scope="document"> <attributeName>Temp_C_Avg(3)</attributeName>
+ <attributeLabel>Average temperature at 20 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤20cm深處土壤溫度(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode> <code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415617732" scope="document"> <attributeName>Temp_C_Avg(4)</attributeName>
+ <attributeLabel>Average temperature at 30 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤30cm深處土壤溫度(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode> <code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415635569" scope="document"> <attributeName>Temp_C_Avg(5)</attributeName>
+ <attributeLabel>Average temperature at 50 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤50cm深處土壤溫度(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode> <code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415650906" scope="document"> <attributeName>Temp_C_Avg(6)</attributeName>
+ <attributeLabel>Average temperature at 100 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤100cm深處土壤溫度(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <interval> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ <missingValueCode> <code>NAN</code>
+ <codeExplanation>not available</codeExplanation>
+ </missingValueCode>
+ </attribute>
+ <attribute id="1422415683861" scope="document"> <attributeName>SW_10_Avg</attributeName>
+ <attributeLabel>Average moisture at 10 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤10cm深處水分測值(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415705331" scope="document"> <attributeName>SW_20_Avg</attributeName>
+ <attributeLabel>Average moisture at 20 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤20cm深處水分測值(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415722598" scope="document"> <attributeName>SW_30_Avg</attributeName>
+ <attributeLabel>Average moisture at 30 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤30cm深處水分測值(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415744306" scope="document"> <attributeName>SW_50_Avg</attributeName>
+ <attributeLabel>Average moisture at 50 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤50cm深處水分測值(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415759411" scope="document"> <attributeName>SW_100_Avg</attributeName>
+ <attributeLabel>Average moisture at 100 cm depth of soil</attributeLabel>
+ <attributeDefinition>土壤100cm深處水分測值(5分鐘平均值)</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1422415779970" scope="document"> <attributeName>Rain_mm_Tot</attributeName>
+ <attributeDefinition>累積雨量</attributeDefinition>
+ <storageType>float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>millimeter</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ <bounds> <minimum exclusive="false">0</minimum>
+ </bounds>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="millimolePerSquareMeter" multiplierToSI="1" name="millimolePerSquareMeter" parentSI="molesPerCubicMeter" unitType="amountofSubstanceDensity"> <description>millimolePerSquareMeter</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="millimolePerSecondPerSquareMeter" multiplierToSI="0.001" name="millimolePerSecondPerSquareMeter" parentSI="molesPerCubicMeter" unitType="amountofSubstanceDensityFlux"> <description>millimolePerSecondPerSquareMeter</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="wattsPerSquareMeter" name="wattsPerSquareMeter" parentSI="watt" unitType="powerdensity"> <description>wattsPerSquareMeter</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

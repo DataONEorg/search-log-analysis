@@ -1,0 +1,2541 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/ofr07-1056_up_post_vel_array.shp.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2007</pubdate>
+        <title>Postconstruction water velocity arrays collected at selected transects on the Missouri River downstream from Gavins Point Dam near River Mile 769.8</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?ofr07-1056_up_post_vel_array.shp</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Ryan F. Thompson</origin>
+            <origin>Michaela R. Johnson</origin>
+            <origin>Michael J. Anderson </origin>
+            <pubdate>2007</pubdate>
+            <title>Data Collected to Support Monitoring of Constructed Emergent Sandbar Habitat on the Missouri River Downstream from Gavins Point Dam, South Dakota and Nebraska 2004-2006</title>
+            <geoform>publication</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Scientific Investigations Report</sername>
+              <issue>2007-1056</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/of/2007/1056/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains arrays of water velocity collected on selected transects of the Missouri River below Gavin's Point Dam near River Mile 769.8.</abstract>
+      <purpose>This data was collected by the U.S. Geological Survey for the U.S. Army Corps of Engineers in support of monitoring requirements for created emergent sandbar habitat on the Missouri River.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2006</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-96.912755</westbc>
+        <eastbc>-96.822603</eastbc>
+        <northbc>42.736215</northbc>
+        <southbc>42.701457</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>Water Velocity</themekey>
+        <themekey>Accoustic Doppler Current Profile data</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Missouri River</placekey>
+        <placekey>South Dakota</placekey>
+        <placekey>Nebraska</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>none</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Ryan F. Thompson</cntper>
+        </cntorgp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>111 Kansas Ave SE</address>
+          <city>Huron</city>
+          <state>SD</state>
+          <postal>57350</postal>
+        </cntaddr>
+        <cntvoice>605 352-4241</cntvoice>
+        <cntemail>rcthomps@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.722</native>
+  </idinfo>
+  <dataqual>
+    <logic>The Accoustic Doppler Current Profiler was calibrated and allowed to run a self-diagnostic test each day before data collection.  Because of instrument limitations and vessel draft, the ADCP was used only in depths greater than approximately 3 feet.  Velocity data was collected using Mode 12 with a 10 centimeter bin cell size and a blanking distance of 20 / 25 centimeters.  Multiple bins arranged in a vertical column or "ensemble" occurred every 1.45 seconds.  Boat speed was maintained at or near 2.0 knots.  Data acquisition based off of boat speed and DGPS coverage occurred approximately every 5 ft.</logic>
+    <complete>Points have been checked and attributed.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A 12-channel differentially corrected Global Positioning System was used for navigation and to derive horizontal locations of the data.  Horizontal location is sub-meter accuracy.</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>The ADCP used to collect water-velocity profiles was a 1200-kHz Teledyne Rowe Deines Instruments (RDI) Rio Grande. The ADCP was mounted directly in front of the bathymetric transducer, off the starboard side near the bow of the survey vessel. ADCP data were logged into a ruggedized field laptop computer running WinRiver software. The ADCP derived its horizontal location from a DGPS antenna.  Velocity data were collected using Mode 12 with a 10-cm bin cell size and a blanking distance of 20-25 cm. Multiple bins arranged in a vertical column or "ensemble" occurred every 1.45 seconds. Boat speed was maintained at or near 2.0 knots. Data acquisition based on boat speed and DGPS coverage occurred approximately every 5 ft.</procdesc>
+        <procdate>2006</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>ADCP data was output from WinRiver into a text file, and used to build a shapefile.</procdesc>
+        <procdate>2006</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The ADCPdata shapefile was attributed and metadata prepared.</procdesc>
+        <procdate>2007</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Entity point</sdtstype>
+        <ptvctcnt>13951</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.999600</sfctrmer>
+            <longcm>-99.000000</longcm>
+            <latprjo>0.000000</latprjo>
+            <feast>1640416.666667</feast>
+            <fnorth>0.000000</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.000064</absres>
+            <ordres>0.000064</ordres>
+          </coordrep>
+          <plandu>survey feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>National Geodetic Vertical Datum of 1929</altdatum>
+        <altres>0.1</altres>
+        <altunits>feet</altunits>
+        <altenc>Attribute values</altenc>
+      </altsys>
+      <depthsys>
+        <depthdn>
+Local surface</depthdn>
+        <depthres>0.1</depthres>
+        <depthdu>feet</depthdu>
+        <depthem>Attribute values</depthem>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ofr07-1056_up_post_vel_array</enttypl>
+        <enttypd>point attribute table</enttypd>
+        <enttypds>ARC/INFO ® GIS Software</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>point identifier</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>id</edomv>
+            <edomvd>point identifier</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NORTHING</attrlabl>
+        <attrdef>UTM Zone 14 Northing, in U.S. feet</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Northing</edomv>
+            <edomvd>UTM Zone 14 Northing, in U.S. feet</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>EASTING</attrlabl>
+        <attrdef>UTM Zone 14 Easting, in U.S. feet</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Easting</edomv>
+            <edomvd>UTM Zone 14 Easting, in U.S. feet</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ENSEMBLE_N</attrlabl>
+        <attrdef>Ensemble number</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>ensemble_n</edomv>
+            <edomvd>Ensemble number</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D1</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D2</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D3</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D4</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D5</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D6</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D7</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D8</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D9</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D10</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D11</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D12</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D13</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D14</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D15</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D16</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D17</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D18</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D19</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D20</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D21</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D22</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D23</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D24</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D25</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D26</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D27</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D28</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D29</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D30</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D31</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D32</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D33</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D34</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D35</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D36</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D37</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D38</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D39</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D40</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D41</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D42</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D43</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D44</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D45</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D46</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D47</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D48</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D49</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D50</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D51</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D52</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D53</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D54</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D55</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D56</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D57</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D58</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D59</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D60</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D61</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D62</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D63</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D64</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D65</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D66</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D67</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D68</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D69</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D70</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D71</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D72</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D73</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D74</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D75</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D76</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D77</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D78</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D79</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D80</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D81</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D82</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D83</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D84</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D85</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D86</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D87</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D88</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D89</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D90</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D91</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>D92</attrlabl>
+        <attrdef>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>D</edomv>
+            <edomvd>Depth, in feet below water surface, of velocity measurement in corresponding bin number.  For example D1 is the depth of bin 1 and corresponds to the velocity found in R1</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R1</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R2</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R3</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R4</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R5</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R6</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R7</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R8</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R9</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R10</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R11</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R12</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R13</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R14</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R15</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R16</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R17</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R18</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R19</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R20</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R21</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R22</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R23</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R24</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R25</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R26</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R27</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R28</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R29</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R30</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R31</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R32</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R33</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R34</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R35</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R36</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R37</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R38</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R39</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R40</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R41</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R42</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R43</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R44</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R45</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R46</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R47</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R48</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R49</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R50</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R51</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R52</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R53</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R54</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R55</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R56</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R57</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R58</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R59</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R60</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R61</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R62</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R63</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R64</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R65</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R66</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R67</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R68</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R69</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R70</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R71</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R72</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R73</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R74</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R75</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R76</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R77</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R78</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R79</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R80</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R81</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R82</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R83</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R84</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R85</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R86</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R87</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R88</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R89</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R90</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R91</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>R92</attrlabl>
+        <attrdef>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>R</edomv>
+            <edomvd>Velocity, in feet per second, at corresponding bin number.  For example, R1 is the velocity measured in bin 1 at the depth found in D1.</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TRANSECT</attrlabl>
+        <attrdef>Transect number associated with the velocity measurements</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>transect</edomv>
+            <edomvd>Transect number associated with the velocity measurements</edomvd>
+            <edomvds>U.S. Geological Survey</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>The South Dakota and Nebraska Water Science Centers, the Water Resources Discipline (WRD) of the U.S. Geological Survey, and the U.S. Army Corps of Engineers make no guarantee nor offer any warranty concerning the accuracy, condition, or application of the information contained in these geographic data.
+
+The burden for determining fitness for use of this data lies entirely with the user.  Although these data have been used successfully on computers of WRD, no warranty, expressed or implied, is made by WRD regarding the use of these data on any other system, nor does the fact of distribution constitute or imply any such warranty.
+
+In no event shall the WRD have any liability whatsoever for payment of any consequential, incidental, indirect, special, or tort damages of any kind, including , but not limited to, any loss of profits arising out of the delivery, installation, operation, or support by WRD.
+
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ARC SHAPE FILE COMPRESSED</formname>
+          <transize>0.373</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/up_post_vel_array.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20070306</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ofr07-1056_up_post_vel_array.shp</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20060101</begdate>
+    <enddate>20061231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_ofr07-1056_up_post_vel_array.shp.html</htmlurl>
+  </mercury>
+</metadata>

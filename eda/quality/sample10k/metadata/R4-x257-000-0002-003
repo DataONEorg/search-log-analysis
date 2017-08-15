@@ -1,0 +1,1215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>R4.x257.000-0002-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Chuck Anderson</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Water Column Sonar Data Manager</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>(303)497-4742</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[325 Broadway, Mail Code E/NE42]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Boulder</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Colorado</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>80305-3328</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>Charles.Anderson@noaa.gov</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2016-12-08T22:10:01+00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI><gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/R4.x257.000:0002</gco:CharacterString></gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Raw acoustic scattering data of organisms from the water column, R/V Point Sur, Cruise DP02, August 8-21 2015</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>DEEPEND: DP02 Acoustic Data</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2015-08-05</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="creation" codeSpace="001">creation</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Patterns in acoustically derived biological scatter through the water column were collected with multi-frequency scientific echosounders (Simrad EK60) operating at 18kHz, 38kHz, 70kHz and 120kHz following protocols developed during the NOAA NRDA DAP data collection operations. Specifically, during each cruise, transducers were installed on a rigid pole mounted to the side of the ship, and calibrated at sea for operating conditions following protocols developed by Dr. Boswell during the ONSAP/DAP cruises. The dynamics of the mesopelagic scattering community were examined through the depth dependent scattering responses at both frequencies (18 and 38kHz) as well as through the difference between the mean volume backscattering strength (MVBS; in dB) at 18 kHz and 38 kHz (dMVBS(18-38)). In addition, scatterers in the upper water column (~150m) were examined by analyzing the all four available frequencies. By integrating both methods, the magnitude of biological scattering at discrete-depth intervals was classified into major taxonomic components (e.g., fluid-like crustaceans, swimbladdered fishes) based on resonant properties and behavior. The biological data and ship data collected during this cruise are available in GRIIDC datasets R4.x257.226:0001 and R4.x257.226:0011, respectively.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>To examine the spatial and temporal dynamics of deep sea nekton in the Gulf of Mexico through a multidisciplinary approach.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Keivn Boswell</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Florida International University</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Assistant Professor</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>305-919-4009</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[3000 NE 151st St
+MSB 359]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>North Miami</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Florida</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>33181</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>kevin.boswell@fiu.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Bathymetry</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Seafloor Topography</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Acoustic Scattering</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Fisheries</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Marine Habitat</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Benthic Habitat</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Pelagic Habitat</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng;USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                       <gmd:EX_GeographicBoundingBox>
+                           <gmd:westBoundLongitude>
+                               <gco:Decimal>-89.06371</gco:Decimal>
+                           </gmd:westBoundLongitude>
+                           <gmd:eastBoundLongitude>
+                               <gco:Decimal>-85.051129</gco:Decimal>
+                           </gmd:eastBoundLongitude>
+                           <gmd:southBoundLatitude>
+                               <gco:Decimal>26.846931</gco:Decimal>
+                           </gmd:southBoundLatitude>
+                           <gmd:northBoundLatitude>
+                               <gco:Decimal>29.037519</gco:Decimal>
+                           </gmd:northBoundLatitude>
+                       </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement><gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiCurve srsName="urn:ogc:def:crs:EPSG::4326" gml:id="curvedline">
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve1">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.978220 -89.008690 26.960310 -89.012740</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve2">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.934940 -86.962470 27.931050 -86.960290</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve3">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.988710 -89.005320 26.978590 -89.008550</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve4">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.011120 -88.999110 27.009720 -88.999400</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve5">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.008450 -88.999700 26.988710 -89.005320</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve6">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.012950 -88.998740 27.011120 -88.999110</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve7">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.512860 -87.542410 28.526050 -87.564290 28.534330 -87.565070 28.536870 -87.529680 28.552920 -87.481500</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve8">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.553590 -87.479560 28.549830 -87.466530</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve9">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.962720 -87.485180 27.996820 -87.501260 28.013070 -87.504910</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve10">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.948000 -87.002530 26.949610 -87.002350</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve11">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.022460 -88.989500 27.080720 -88.947840</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve12">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.471450 -86.972720 27.439940 -86.961420 27.439440 -86.972470 27.444950 -86.985790 27.402540 -86.981870 27.418550 -86.988310</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve13">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.549830 -87.466530 28.529310 -87.416470 28.505590 -87.380530</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve14">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.013070 -87.504900 28.046080 -87.499680 27.993040 -87.454520</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve15">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.871720 -88.599970 26.881520 -88.604020 26.891940 -88.595850 26.903570 -88.599980 26.948040 -88.544610 27.007190 -88.495190 27.003660 -88.495290 27.001630 -88.487360 26.989930 -88.490590</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve16">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.418560 -86.988310 27.457430 -86.988020</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve17">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.461360 -86.988370 27.498250 -86.996210</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve18">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.505590 -87.380520 28.480880 -87.348990 28.477700 -87.347500 28.480110 -87.365030</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve19">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.515410 -86.553760 27.479400 -86.537830</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve20">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.489340 -87.367680 28.510800 -87.373250</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve21">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.993040 -87.454520 27.971720 -87.441600</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve22">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.882410 -87.390680 27.905470 -87.416890 27.926070 -87.427390</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve23">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.869491 -88.523190 26.887440 -88.519490</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve24">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.020880 -88.997830 27.012960 -88.998740</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve25">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.999650 -88.005180 27.004870 -88.052700</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve26">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.498250 -86.996210 27.511740 -86.997650</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve27">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.524240 -87.014740 28.513670 -87.007520</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve28">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.488170 -86.991100 28.460200 -86.973500</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve29">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.510820 -87.373250 28.628720 -87.403490</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve30">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.479390 -86.537820 27.511020 -86.540030</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve31">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.926070 -87.427390 27.955410 -87.457020</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve32">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.004880 -88.052700 27.008870 -88.069860</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve33">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.960310 -89.012750 26.984960 -89.010100 27.033860 -88.993410 27.051420 -88.992590 27.060330 -88.998560</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve34">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.460190 -86.973490 28.441390 -86.963020 28.430100 -86.945120 28.427630 -86.926450 28.445490 -86.929910</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve35">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.955420 -87.457020 27.965750 -87.464910</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve36">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.999360 -87.998450 26.999660 -88.005170</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve37">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.008870 -88.069860 27.016010 -88.104600</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve38">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.949620 -85.051129 27.012450 -85.051129</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve39">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.931040 -86.960280 27.907700 -86.951030</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve40">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.511030 -86.540030 27.549800 -86.540340 27.566840 -86.534950 27.541560 -86.518260</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve41">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.016010 -88.104610 27.031360 -88.157090 27.041310 -88.146650 27.039260 -88.140620 27.043080 -88.134960 27.035030 -88.112820 27.023210 -88.056490</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve42">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.989920 -88.490590 26.869601 -88.523150</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve43">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.445490 -86.929900 28.459360 -86.928810 28.473350 -86.921900 28.491160 -86.975190 28.500630 -86.961820 28.476400 -86.919820</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve44">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.541550 -86.518250 27.522050 -86.503780 27.511500 -86.506120 27.476350 -86.479950 27.490760 -86.493760 27.491570 -86.499400 27.483560 -86.493700 27.491010 -86.498170 </gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve45">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.023210 -88.056490 27.023720 -88.053980</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve46">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.016550 -88.021070 27.000940 -87.982590 27.010540 -87.959900 26.996090 -88.046330</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve47">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.907700 -86.951030 27.945960 -86.963290 27.999720 -86.964740</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve48">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.475730 -86.918750 28.443260 -86.881300 28.392800 -86.843000</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve49">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.986189 -87.494840 29.009599 -87.504440</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve50">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.037519 -87.518710 29.036149 -87.517720</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve51">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.491010 -86.498170 27.522090 -86.535770 27.558290 -86.571670</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve52">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.060340 -88.998570 27.083540 -88.995130 27.049030 -88.993080</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve53">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.044650 -88.992660 27.022460 -88.989500</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve54">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.999720 -86.964740 28.002940 -86.964180 28.000820 -86.961710 27.940910 -86.921430 27.931300 -86.894350 27.943080 -86.938360</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve55">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.036139 -87.517710 29.008429 -87.501180 28.979549 -87.495380 28.941070 -87.463760</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve56">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.996090 -88.046340 26.975740 -88.113780</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve57">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.015380 -87.003620 26.993450 -87.005330</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve58">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.492280 -87.495680 27.501750 -87.502840</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve59">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.012460 -87.000000 27.019330 -87.001640</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve60">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.002500 -88.501750 26.925140 -88.535360 26.851061 -88.588070 26.846931 -88.592450 26.853141 -88.594510</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve61">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.854811 -88.594760 26.871720 -88.599970</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve62">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.943090 -86.938380 27.956260 -86.988870 27.925700 -86.965480 27.930290 -86.956820 27.946060 -86.962610</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve63">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.558300 -86.571680 27.564220 -86.584940</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve64">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.487980 -87.492320 27.492280 -87.495670</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve65">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.528280 -87.523620 27.566670 -87.549390</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve66">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.501760 -87.502850 27.528270 -87.523620</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve67">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.993440 -87.005330 26.935350 -87.019730</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve68">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.946070 -86.962610 27.963220 -86.972820</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve69">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.941060 -87.463750 28.912890 -87.437470 28.921520 -87.405390 28.934010 -87.376900</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve70">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.566660 -87.549380 27.482390 -87.470200 27.444170 -87.445370</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve71">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.444280 -87.447160 27.446140 -87.453140</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve72">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.935360 -87.019740 26.975830 -87.006800 27.009540 -86.990920</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve73">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.963220 -86.972820 27.986150 -86.982040</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve74">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.514260 -86.995810 27.456190 -86.984780</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve75">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.934010 -87.376890 28.936430 -87.360490 28.951620 -87.374120 28.992879 -87.443760 28.985979 -87.450620 28.983259 -87.446730</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve76">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.468870 -87.488450 28.465030 -87.463600</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve77">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.446140 -87.453150 27.457600 -87.468980 27.491660 -87.496620</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve78">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.009540 -86.990920 27.014630 -86.988130 27.008470 -86.986960 26.954210 -86.991340 26.988210 -87.000950 26.974330 -86.999810</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve79">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.455760 -86.984720 27.442230 -86.982990 27.446560 -86.990060 27.492200 -86.996690 27.518380 -87.005770</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve80">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.465040 -87.463590 28.474820 -87.462480 28.494330 -87.491240 28.503300 -87.508870 28.512860 -87.542410</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve81">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.491660 -87.496630 27.508300 -87.512430 27.514460 -87.522180 27.511130 -87.521480 27.495540 -87.513680 27.452760 -87.479900</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve82">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">26.974120 -86.999840 26.948780 -87.003620 26.904770 -87.003280 26.947990 -87.002530</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve83">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.518390 -87.005770 27.542120 -87.011460 27.473510 -86.973640</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve84">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.091380 -88.941000 27.035480 -88.996840 27.013460 -89.006830 27.002460 -88.998940 27.023750 -88.993770 27.032110 -88.995300 26.928230 -89.005260 26.868630 -89.000180 26.900460 -88.996280 26.961000 -88.996670 27.032420 -88.978540 26.976790 -89.010530 26.928110 -89.046670 26.912400 -89.063710</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve85">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.392820 -86.843020 28.263470 -86.894940 28.261140 -86.900510 28.260050 -86.897770 28.200200 -86.920730 28.190160 -86.921450 28.139420 -86.942240</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve86">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.982939 -87.446250 28.919160 -87.382640</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve87">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.983430 -86.981390 27.934910 -86.962470</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve88">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.919150 -87.382630 28.834790 -87.318280 28.627330 -87.120480 28.612210 -87.116380 28.524190 -87.025130 28.529000 -87.029340 28.534230 -87.021120 28.549930 -87.029810 28.524240 -87.014740</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve89">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.480120 -87.365040 28.489320 -87.367680</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve90">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.513660 -87.007510 28.488170 -86.991110</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve91">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.628740 -87.403490 28.636360 -87.405510</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve92">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.637550 -87.405750 28.811820 -87.450060</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve93">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">28.813040 -87.450200 28.986169 -87.494840</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve94">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">27.459410 -86.988000 27.461350 -86.988370</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                    <gml:curveMember>
+                                        <gml:Curve gml:id="curve95">
+                                            <gml:segments>
+                                                <gml:LineStringSegment>
+                                                    <gml:posList srsDimension="2">29.009599 -87.504440 29.037519 -87.518720</gml:posList>
+                                                </gml:LineStringSegment>
+                                            </gml:segments>
+                                        </gml:Curve>
+                                    </gml:curveMember>
+                                </gml:MultiCurve>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>Ground Condition</gml:description>
+                                    <gml:beginPosition>2015-08-09</gml:beginPosition>
+                                    <gml:endPosition>2015-08-21</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Raw acoustic scattering strength of nekton from water column -  scattering intensity (Mean Volume Backscattering Strength, dB), time (hh:mm:ss), Latitude (decimal degrees), Longitude (decimal degrees), depth (m)|||||</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>National Centers for Environmental Information, NESDIS, NOAA, U.S. Department of Commerce</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>301-713-3277</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>301-713-3300</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[1315 East-West Highway]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Silver Spring</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Maryland</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>20910-3282</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>wcd.info@noaa.gov</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>https://www.nodc.noaa.gov</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString>https</gco:CharacterString>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>raw</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString/>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>2000</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>http://doi.org/10.7289/V5RN35TF</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>http</gco:CharacterString>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Check and Save to File' (with form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-11-02T19:30:57+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Check and Save to File' (with form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-11-03T15:33:26+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

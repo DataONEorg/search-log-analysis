@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/supersite.136.6/html" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+    <dataset>
+        <title>Digital Elevation Model, Alice Mulga SuperSite, 2014</title>
+        <creator id="1432673654223">
+            <individualName>
+                <salutation>Professor</salutation>
+                <givenName>Derek</givenName>
+                <surName>Eamus</surName>
+            </individualName>
+            <organizationName>University of Technology Sydney</organizationName>
+            <address>
+                <deliveryPoint>PO Box 123</deliveryPoint>
+                <city>Broadway</city>
+                <administrativeArea>NSW</administrativeArea>
+                <postalCode>2007</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">02 9514 4154</phone>
+            <electronicMailAddress>Derek.Eamus@uts.edu.au</electronicMailAddress>
+        </creator>
+        <creator id="1432673672847">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>James</givenName>
+                <surName>Cleverly</surName>
+            </individualName>
+            <organizationName>University of Technology Sydney</organizationName>
+            <address>
+                <deliveryPoint>PO Box 123</deliveryPoint>
+                <city>Broadway</city>
+                <administrativeArea>NSW</administrativeArea>
+                <postalCode>2007</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">02 9514 8405</phone>
+            <electronicMailAddress>james.cleverly@uts.edu.au</electronicMailAddress>
+        </creator>
+        <pubDate>2015-05-26</pubDate>
+        <abstract>
+            <para>Airborne full waveform lidar and hyperspectral data in the VNIR bands was collected using the research aircraft of Flinders University – Airborne Research Australia (ARA).</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Lidar</keyword>
+            <keyword>DEM</keyword>
+            <keyword>Alice Mulga</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0502</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under TERN Attribution-Share Alike (TERN BY-SA) Data Licence v1.0. The licence lets others distribute, remix and build upon the work, even for commercial purposes, as long as they credit the original creator/s (and any other nominated parties) and licence any new creations based on the work under the same terms. All new derivative works will carry the same licence, so will also allow commercial use.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/supersite.136.6/html</url>
+            </online>
+        </distribution>
+        <coverage>
+            <geographicCoverage>
+                <geographicDescription>Alice Mulga SuperSite</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>133.251135</westBoundingCoordinate>
+                    <eastBoundingCoordinate>133.251135</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-22.28233</northBoundingCoordinate>
+                    <southBoundingCoordinate>-22.28233</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage>
+                <singleDateTime>
+                    <calendarDate>2012-10-01</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <contact>
+            <references>1432673672847</references>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Lidar Survey</title>
+                        <para>A Riegl Q560 Lidar together with GPS/IMU system was mounted in an underwing pod of ARA's ECO-Dimona research aircraft.</para>
+                    </section>
+                </description>
+            </methodStep>
+        </methods>
+        <project>
+            <title>Alice Mulga Supersite Soil Characterisation, Acoustic monitoring and Bird surveys</title>
+            <personnel>
+                <references>1432673654223</references>
+                <role>Principal Investigator</role>
+            </personnel>
+            <funding>
+                <para>TERN NCRIS 2014–2015</para>
+            </funding>
+        </project>
+        <dataTable id="1432674972453">
+            <entityName>asn_alic_dem_surface_2014.png</entityName>
+            <entityDescription>DEM image</entityDescription>
+            <physical>
+                <objectName>asn_alic_dem_surface_2014.png</objectName>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>png image file</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/supersite.136.6/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1432674972454">
+                    <attributeName>asn_alic_dem_surface_2014.png</attributeName>
+                    <attributeDefinition>DEM Image</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>png image file</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+        </dataTable>
+        <dataTable id="1432675176530">
+            <entityName>asn_alic_dem.zip</entityName>
+            <entityDescription>Zipped ArcGIS files</entityDescription>
+            <physical>
+                <objectName>asn_alic_dem.zip</objectName>
+                <dataFormat>
+                    <externallyDefinedFormat>
+                        <formatName>zip file</formatName>
+                    </externallyDefinedFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/supersite.136.6/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1432675176531">
+                    <attributeName>asn_alic_dem.zip</attributeName>
+                    <attributeDefinition>ARCGIS files</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>zip files</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <qualityControl timestamp="2016-01-06T01:01:04.864Z" username="cleverly"/>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,829 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>https://coastalmap.marine.usgs.gov/metadata/eastcoast/bathymetry/GOM03_v1_0meta.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2013</pubdate>
+        <title>3 arc second digital elevation model of the Gulf of Maine</title>
+        <geoform>gridded digital data</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2011-1127</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://geoport.whoi.edu/thredds/gom_bathy.html?dataset=bathy/gom03_v1_0</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Erin R. Twomey
+Richard P. Signell</origin>
+            <pubdate>2013</pubdate>
+            <title>Construction of a 3-arcsecond Digital Elevation Model for the Gulf of Maine</title>
+            <serinfo>
+              <sername>Open-File Report</sername>
+              <issue>2011-1127</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://pubs.usgs.gov/of/2011/1127/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A gap-free, region-wide combined topographic/bathymetric grid at a fixed resolution is useful for describing the topography of the seafloor and for a wide variety of oceanographic studies. Generating a bathymetric grid of this type consists of (1) locating and retrieving digital datasets from a variety of sources, (2) correcting errors and determining the dataset that best represents the topography in specific regions, (3) converting the depth data to common horizontal and vertical datums, and (4) selecting and applying a gridding algorithm to create the final seamless grid.</abstract>
+      <purpose>The purpose of these data are to provide a complete, higher resolution (than previously available) topography dataset to aid a variety of seafloor and oceanographic studies.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1859</begdate>
+          <enddate>2010</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition of the original data-sets</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Annually</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-71.5</westbc>
+        <eastbc>-63.0</eastbc>
+        <northbc>46.0</northbc>
+        <southbc>39.5</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Bathymetry</themekey>
+        <themekey>Digital Bathymetry</themekey>
+        <themekey>Sea Floor</themekey>
+        <themekey>Coastal and Marine Geology Program</themekey>
+        <themekey>CMGP</themekey>
+        <themekey>Woods Hole Coastal and Marine Science Center</themekey>
+        <themekey>WHCMSC</themekey>
+        <themekey>Gridded Data</themekey>
+        <themekey>Depth</themekey>
+        <themekey>Sea Floor Topography</themekey>
+        <themekey>Morphology</themekey>
+        <themekey>National Oceanic and Atmospheric Association</themekey>
+        <themekey>NOAA</themekey>
+        <themekey>National Aeronautics and Space Administration</themekey>
+        <themekey>NASA</themekey>
+        <themekey>Gulf of Maine Mapping Initiative</themekey>
+        <themekey>GOMMI</themekey>
+        <themekey>Naval Oceanographic Office</themekey>
+        <themekey>University of New Hampshire</themekey>
+        <themekey>Canadian Hydrographic Service</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+        <themekey>elevation</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>New England</placekey>
+        <placekey>Northwestern Atlantic Ocean</placekey>
+        <placekey>Gulf of Maine</placekey>
+        <placekey>Massachusetts Bay</placekey>
+        <placekey>Buzzards Bay</placekey>
+        <placekey>Bay of Fundy</placekey>
+        <placekey>Vineyard Sound</placekey>
+        <placekey>Nantucket Sound</placekey>
+        <placekey>Grand Manan Basin</placekey>
+        <placekey>Jordan Basin</placekey>
+        <placekey>Emerald Basin</placekey>
+        <placekey>Nova Scotian Shelf</placekey>
+        <placekey>Browns Bank</placekey>
+        <placekey>Jeffrey's Ledge</placekey>
+        <placekey>Wilkinson Basin</placekey>
+        <placekey>Georges Basin</placekey>
+        <placekey>Northeast Channel</placekey>
+        <placekey>Georges Bank</placekey>
+        <placekey>Nantucket Shoals</placekey>
+        <placekey>Great South Channel</placekey>
+        <placekey>Stellwagen Bank</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution.
+Please recognize the U.S. Geological Survey as the originator of the dataset.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Richard P. Signell</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2229</cntvoice>
+        <cntfax>508-547-2310</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; MATLAB Version 7.7.0.471 (R2008b);
+ESRI ArcGIS 9.2 (Build 1500); FWTools 2.4.7; Generic Mapping Tools 4.2.0; PROJ.4; Cygwin 2.573.2.2</native>
+    <crossref>
+      <citeinfo>
+        <origin>Naval Oceanographic Office/Naval Research Laboratory</origin>
+        <pubdate>1996</pubdate>
+        <title>Digital Bathymetric Data Base Variable Resolution (DBDB-V)</title>
+        <pubinfo>
+          <pubplace>Unknown</pubplace>
+          <publish>Naval Oceanographic Office, Naval Research Laboratory, Oceanography Division, Ocean Dynamics and Prediction Branch</publish>
+        </pubinfo>
+        <onlink>http://www7320.nrlssc.navy.mil/DBDB2_WWW/dbdb5/NRLCOM_dbdb2.html</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>JALBTCX (Joint Airborne Lidar Bathymetry Technical Center of eXpertise)</origin>
+        <pubdate>20090918</pubdate>
+        <title>2007 US Army Corps of Engineers (USACE) Topo/Bathy Lidar: Maine, Massachusetts, and Rhode Island</title>
+        <pubinfo>
+          <pubplace>Charleston, SC</pubplace>
+          <publish>NOAA's Ocean Service (NOS), Coastal Services Center (CSC)</publish>
+        </pubinfo>
+        <othercit>This data set has been extracted from one much larger. See the URL for the location of this larger data set.</othercit>
+        <onlink>http://www.csc.noaa.gov/lidar</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Ed Roworth</origin>
+        <origin>Richard P. Signell</origin>
+        <pubdate>1998</pubdate>
+        <title>Construction of Digital Bathymetry for the Gulf of Maine</title>
+        <serinfo>
+          <sername>Data Series</sername>
+          <issue>of98-801</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/1998/of98-801/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Bradford Butman</origin>
+        <origin>Page C. Valentine</origin>
+        <origin>T.J. Middleton</origin>
+        <origin>W.W. Danforth</origin>
+        <pubdate>2007</pubdate>
+        <title>A GIS Library of multibeam data for Massachusetts Bay and the Stellwagen Bank National Marine Sanctuary, Offshore of Boston, Massachusetts.</title>
+        <serinfo>
+          <sername>Data Series</sername>
+          <issue>U.S. Geological Survey Data Series 99, Version 1.0</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/ds/99/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>National Oceanic and Atmospheric Administration National Geophysical Data Center (NOAA/NGDC)</origin>
+        <pubdate>Unknown</pubdate>
+        <title>National Ocean Service Hydrographic Survey Data</title>
+        <pubinfo>
+          <pubplace>Unknown</pubplace>
+          <publish>National Oceanic and Atmospheric Administration National Geophysical Data Center (NOAA/NGDC)</publish>
+        </pubinfo>
+        <onlink>http://www.ngdc.noaa.gov/mgg/bathymetry/hydro.html</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Gulf of Maine Mapping Initiative (GOMMI)</origin>
+        <pubdate>Unknown</pubdate>
+        <title>Gulf of Maine Mapping Initiative (GOMMI) Coverage Map</title>
+        <pubinfo>
+          <pubplace>Unknown</pubplace>
+          <publish>Gulf of Maine Mapping Initiative (GOMMI)</publish>
+        </pubinfo>
+        <onlink>http://www.gulfofmaine.org/gommi/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>W.H.F. Smith</origin>
+        <origin>D.T. Sandwell</origin>
+        <pubdate>2009</pubdate>
+        <title>Global Seafloor Topography from satellite altimetry and ship depth soundings</title>
+        <edition>version 12.1</edition>
+        <pubinfo>
+          <pubplace>San Diego, California</pubplace>
+          <publish>University of California San Diego Global Topography</publish>
+        </pubinfo>
+        <othercit>Smith, W. H. F., and D. T. Sandwell, Global seafloor topography from satellite altimetry and ship depth soundings, Science, v. 277, p. 1957-1962, 26 Sept., 1997.</othercit>
+        <onlink>http://topex.ucsd.edu/cgi-bin/get_data.cgi</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>University of New Hampshire Center for Coastal and Ocean Mapping/Joint Hydrographic Center (CCOM/JHC)</origin>
+        <pubdate>2005</pubdate>
+        <title>Atlantic North Bathymetry, Atlantic Far North Bathymetry</title>
+        <pubinfo>
+          <pubplace>Durham, NH</pubplace>
+          <publish>University of New Hampshire Center for Coastal and Ocean Mapping/Joint Hydrographic Center (CCOM/JHC)</publish>
+        </pubinfo>
+        <onlink>http://ccom.unh.edu/theme/law-sea</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>National Oceanic and Atmospheric Administration National Geophysical Data Center (NOAA/NGDC), National Ocean Service (NOS)</origin>
+        <pubdate>1978</pubdate>
+        <title>NOS Scanned Bathymetry and Fishing Maps</title>
+        <pubinfo>
+          <pubplace>Uknown</pubplace>
+          <publish>National Oceanic and Atmospheric Administration National Geophysical Data Center (NOAA/NGDC), National Ocean Service (NOS)</publish>
+        </pubinfo>
+        <othercit>Additional publications dates of the maps are 1980 and 1983</othercit>
+        <onlink>http://www.ngdc.noaa.gov/mgg/bathymetry/maps/area1.html</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Geological Survey (USGS), EROS Data Center</origin>
+        <pubdate>1999</pubdate>
+        <title>National Elevation Dataset</title>
+        <pubinfo>
+          <pubplace>Sioux Falls, SD</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://ned.usgs.gov/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>International  Centre for Tropical  Agriculture (CIAT)</origin>
+        <pubdate>2008</pubdate>
+        <title>Shuttle Radar Topography Mission (SRTM) 90m Digital Elevation Data</title>
+        <edition>version 4.1</edition>
+        <pubinfo>
+          <pubplace>Unknown</pubplace>
+          <publish>Consortium for Spatial Information (CGIAR-CSI)</publish>
+        </pubinfo>
+        <onlink>http://seamless.usgs.gov/products/srtm3arc.php</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Digital and non-digital bathymetry data were sought in an effort to compile as many quality bathymetry data sets as possible for the Gulf of Maine region. All input data have gone through a series of quality assurance procedures.</attraccr>
+    </attracc>
+    <logic>All data were quality checked for accuracy. Any anomalies present in the final digital bathymetry grid surface may be a result of the tension option chosen for the gridding algorithm.</logic>
+    <complete>This gridded data format file is complete and contains all digital bathymetry data used to create the 3-arcsecond digital bathymetry grid of the Gulf of Maine. These data adequately represented the bathymetry of the Gulf of Maine at the time of grid creation. Remaining gaps in these data, if applicable, are a consequence of non-existing data or existing data that did not meet quality assurance standards.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Bathymetry and topographic data have been acquired from 1859 to 2010, the horizontal accuracy of which varies with respect to data source from which the original data were acquired. Respect to data source from which the non-digital were digitized, the fishing charts and nautical charts, and the time period.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Bathymetry and topographic data have been acquired from 1859 to 2010, the vertical accuracy of which varies with respect to data source  from the original data were acquired. Topographic data are referenced vertically to the NAVD88 datum.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Data Compilation: Bathymetry data were sought in an effort to compile as many quality bathymetry soundings as possible for the Gulf of Maine region. Digital bathymetry were acquired from: United States Geological Survey(USGS), National Oceanic and Atmospheric Association (NOAA) National Aeronautics and Space Administration (NASA), Gulf of Maine Mapping Initiative (GOMMI), Naval Oceanographic Office, University of New Hampshire, and Canadian Hydrographic Service . In order to fill gaps and supplement these data, images of fishing and nautical charts acquired from National Oceanic and Atmospheric Association (NOAA) were georeferenced and contours were digitized in ArcMap 9.2. In the case of digitizing contours, the contours were subsequently converted to points in ArcGIS 9.2 using XToolPro (v. 4.1.0 (Build 375))) by generating a points randomly along the line. The Generic Mapping Tool command 'blockmedian' was used to resample the data at intervals of six (6) arc-seconds. In addition to bathymetry data sources, land elevation data were acquired from United States Geological Survey(USGS), NASA (National Aeronautics and Space Administration), NGA (National Geospatial-Intelligence Agency, and NOAA's Ocean Service (NOS), Coastal Services Center (CSC).</procdesc>
+        <procdate>2009</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Research Associate</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2229</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Data Formatting: All data were converted to ASCII XYZ format including decimal degrees, positive up. The USGS Massachusetts Bay Bathymetry data, the National Elevation Data (NED), and the Shuttle Radar Mission Topography (SRTM version 4.1) were all in ESRI binary grid format. The Geospatial Data Abstraction Library (GDAL) tool gdal_translate  was used to convert these data to the gridded file format. The conversion from Gridded Data Format to ASCII XYZ was done using the GMT command 'grd2xyz'. The Northwest Atlantic Dataset in the Self Describing Structure (SDS) architecture utilized an SDS toolset to convert the data to ASCII XYZ format. Although in ASCII format, the NOAA Coastal Services Center Lidar had to be reformatted from a comma-delimited text file to  ASCII XYZ. The following data sets underwent a horizontal datum transformation before being formatted to ASCII XYZ: USGS Massachusetts Bay, USGS Middle Ground Shoals, NED, and SRTM.</procdesc>
+        <procdate>2009</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2229</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Manual Buffering and Clipping: NGDC/NOAA Hydrographic Soundings with depths greater than 400 meters were eliminated to avoid producing artifacts caused by data overlapping with deeper water, higher resolution data sets such as Smith and Sandwell (version 12.1) and the University of New Hampshire. This was done by mapping the surveys in ArcMap 9.2 to compare the spatial extent with the deeper water data. A buffer of 1000 meters was applied to the deep water data. Any NOAA survey point lying within the buffer was clipped from the data. The Gulf of Maine Mapping Initiative (GOMMI) data had to be processed to a coarser resolution of 30 meters due to the large size of the 5 meter resolution files. This procedure was done to increase the proficiency and speed of the gridding algorithm. The large data sets cause the algorithm to bog down and stop all together during initial processing. Generic Mapping Tools (GMT) blockmedian was used to decrease the resolution from 5 meters to 30 meters using a grid spacing of 30 meters for the region of interest (71.5 - 63.0 W and 39.5 - 46.0 N). A buffer of 1000 meters was applied to any higher resolution data overlapping the Smith and Sandwell Global Topography data. If any of the Smith and Sandwell data fell within the buffer, it was clipped (removed) to avoid producing artifacts during the surface interpolation of the final digital bathymetry grid. The Olex data were clipped to remove any points that fell within a 1000 meter buffer around the NWATL data to avoid producing artifacts. The clipping was done by using ArcMap 9.2 "near" tool from the ArcMap ArcToolbox Analysis tools. Any National Elevation Data (NED) points falling within the buffer were removed from the final data set to ensure there was no overlap between the data sets. This same method was used with the NOAA CSC Coastal Lidar data. Any National Elevation Data (NED) points falling within the buffer were removed from the final input data-set.</procdesc>
+        <procdate>2009</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2229</cntvoice>
+            <cntfax>508-457-5310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Horiztonal Datum Transformation:  The final horizontal coordinate system chosen for this work is geographic, NAD83. The USGS Massachusetts Bay bathymetry data used the GDAL tool  gdalwarp  to reproject the data from the original Mercator, NAD83 projection to geographic, NAD83. After the reprojection, the Generic Mapping Tool (GMT) grd2xyz was used to convert the gridded data format to ASCII XYZ. The Gulf of Maine Mapping Initiative Data (GOMMI) used the PROJ 4 Cartographic Projection library to reproject the UTM, Zone 19, NAD83 data to geographic, NAD83. The USGS Middle Ground Shoal bathymetry data used GDAL's gdalwarp tool to reproject the data from UTM, Zone 19, WGS84 to Geographic, NAD83.</procdesc>
+        <procdate>2009</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2229</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Vertical Datum Transformation: All depth values were converted to NAVD88 using information from the NOAA VDatum Project (http://vdatum.noaa.gov/). The VDatum software does not extend into Canadian waters, but the underlying ADCIRC tidal model does.  The MLLW and MLW surfaces from the model were used to convert depths from the MLW or MLLW datum into the tidal model datum. The depths were further transformed into the NAVD88 datum by subtracting 0.09 m, the median value of NAVD88 values above the tidal model datum obtained at five long-term tide gauges in the Gulf of Maine. The maximum cumulative uncertainty from these transformations is estimated to be 0.13 m (VDatum Team, 2011).</procdesc>
+        <procdate>2009</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2229</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Grid Input: Combine all the data into a single XYZ file using AWK.</procdesc>
+        <procdate>2009</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-547-8700 x2229</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Sub-region Processing: Clip ASCII XYZ data into 1.2 by 1.2 degree squares, which split total coverage area into 7 rows of latitude and 9 columns of longitude. This was done using MATLAB and AWK. Each sub-region was run through pre-filtering process using the GMT software tool blockmedian. Blockmedian reads in the ASCII XYZ values: longitude, latitude, and depth, along with the user specified region of interest and desired grid spacing. For the Gulf of Maine region, the region of interest was 71.5 to 63.0 W and 39.5 to 46.0 N and the grid spacing was 3-arcseconds. Each working sub-region was then run through GMT surface algorithm to create an adjustable tension continuous curvature surface. The construction of the Gulf of Maine grid used a tension factor of 0.35. The aspect ratio was set to 0.75, the convergence limit was set to 0.1, and the grid spacing was chosen as 3-arcseconds for the region of interest: 71.5 to 63.0 W and 39.5 to 46.0 N.</procdesc>
+        <procdate>2012</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-547-8700 x2229</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Sub-region Cropping: Crop the sub-regions from 1.2 by 1.2 to 1 by 1 degree. The continuous surface grid of each subregion was then clipped to 1 degree by 1 degree squares using the Generic Mapping Tool (GMT) grdcut. Grdcut works by extracting the user specified region from an existing grid file. For example, the sub-region 69.5 to 68.5 W and 41.0 to 42.0 N was extracted from working sub-region 69.6 to 68.4 W and 40.9 to 42.1 N.</procdesc>
+        <procdate>2012</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-547-8700 x2229</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Grid Cell Conversion: Convert grid cells from grid-line registered to pixel-registered. The Generic Mapping Tool command grdedit was used to modify the content of the final sub-regions of the digital bathymetry grid. This was done by specifying the "-T" option, which makes the necessary changes in the header to convert from grid-line registered to a pixel-registered grid, or vice-versa. This processing step was necessary to   assure no visible seams once the final product was pasted together. The grids had to be assembled exactly on the edges in order to provide a seamless image. Content of the final sub-regions of the digital bathymetry grid. This was done by specifying the "-T" option, which makes the necessary changes in the header to convert from grid-line registered to a pixel-registered grid, or vice-versa. This processing step was necessary to assure no visible seams once the final product was pasted together. The grids had to be assembled exactly on the edges in order to provide a seamless image.</procdesc>
+        <procdate>2012</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physical</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-547-8700 x2229</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Grid Assembly: The final digital bathymetry grid was assembled by pasting the sub-regions together on a common edge. This was done using Generic Mapping Tool's grdpaste. The user specifies two input grids and a single output grid file name. Grdpaste searches for the common edge and pastes the two grids together to form the final grid. Since there were many sub-regions of the Gulf of Maine, a pasting method had to be followed. Sub regions 1 and 2 of a specific row were pasted together as the base grid. Grdpaste was then done iteratively along each row, pasting the western-most sub-region adjacent to the adjacent sub-region to the east until each row was complete. Grdpaste was then done to each full row using the same method working from the southern-most row adding adjacent rows to the north.</procdesc>
+        <procdate>2012</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Richard P. Signell</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntaddr>
+              <addrtype>mailing and physcial</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543-1598</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-547-8700 x8700</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>rsignell@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The final grid grid file was uploaded to the THREDDS server where additional information was added to the file by virtue of NcML in the THREDDS catalog. This NetCDF file, downloaded from the THREDDS server is what is available.</procdesc>
+        <procdate>2012</procdate>
+        <srcprod>gom03_v1_0.nc</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>GDAL version 1.9.2 (part of OSgGeo4W) on a Windows 7 machine was used to convert the NetCDF file to a GeoTIFF image using the following command: gdal_translate -a_srs EPSG:4269 gom03_v1_0.nc gom02_v1_0.tif. The additional metadata information in the header of the NetCDF file is carried over to the GeoTIFF. The -a_srs flag specifies that the CRS is NAD83 (EPSG:4269) and that information is added to the GeoTIFF header. Additionally, an xml file (gom03_v1_0.tif.aux.xml) was created also containing the NcML metadata from the NetCDF file.</procdesc>
+        <srcused>gom03_v1_0.nc</srcused>
+        <procdate>2013</procdate>
+        <srcprod>gom03_v1_0.tif</srcprod>
+        <srcprod>gom03_v1_0.tif.aux.xml</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>GDAL version 1.9.2 (part of OSGeo4W) on a Windows 7 machine was used to convert the NetCDF file to an Arc/Info ASCII grid formation using the command: gdal_translate -a_srs EPSG:4269 gom03_v1_0.nc -ot Float32 -of AAIGrid gom03_v1_0.asc. This process also creates gom03_v1_0.prj and gom03_v1_0.asc.aux.xml. The prj file contains the projection information, and the xml file contains the additional NcML metadata from the NetCDF file.</procdesc>
+        <srcused>gom03_v1_0.tif</srcused>
+        <procdate>2013</procdate>
+        <srcprod>gom03_v1_0.asc</srcprod>
+        <srcprod>gom03_v1_0.prj</srcprod>
+        <srcprod>gom03_v1_0.asc.aux.xml</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Each data format file(s), combined with the FGDC compliant metadata were bundled into individual compressed files for download using WinZip version 14.</procdesc>
+        <procdate>2013</procdate>
+        <srcprod>gom03_v1_0tif.zip</srcprod>
+        <srcprod>gom03_v1_0nc.zip</srcprod>
+        <srcprod>gom03_v1_0asc.zip</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Edits to the metadata were made to fix any errors that MP v 2.9.30 flagged. This is necessary to enable the metadata to be successfully harvested for various data catalogs. In some cases, this meant adding text "Information unavailable" or "Information unavailable from original metadata" for those required fields that were left blank. Other minor edits were probably performed (title, publisher, publication place, etc.). The metadata date (but not the metadata creator) was edited to reflect the date of these changes. The metadata available from a harvester may supersede metadata bundled within a download file. Compare the metadata dates to determine which metadata file is most recent. </procdesc>
+        <procdate>20151104</procdate>
+        <proccont>
+          <cntinfo>
+            <cntorgp>
+              <cntorg>U.S. Geological Survey</cntorg>
+              <cntper>VeeAnn A. Cross</cntper>
+            </cntorgp>
+            <cntpos>Marine Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Rd.</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02556</postal>
+            </cntaddr>
+            <cntvoice>508-548-8700 x2251</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>vatnipp@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>79560000</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.0008333</latres>
+        <longres>0.0008333</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+    <vertdef>
+      <altsys>
+        <altdatum>North American Vertical Datum of 1988</altdatum>
+        <altres>0.01</altres>
+        <altunits>Meters</altunits>
+        <altenc>Explicit elevation coordinate included with horizontal coordinates</altenc>
+      </altsys>
+      <depthsys>
+        <depthdn>North American Vertical Datum of 1988</depthdn>
+        <depthres>0.01</depthres>
+        <depthdu>Meters</depthdu>
+        <depthem>Attribute values</depthem>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>GOM_061311_3sec</enttypl>
+        <enttypd>Digital bathymetry grid</enttypd>
+        <enttypds>U.S. Geological Survey</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Z</attrlabl>
+        <attrdef>Depth</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-5044.84</rdommin>
+            <rdommax>1912.6</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Richard P. Signell</cntper>
+          <cntorg>United States Geological Survey Woods Hole Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+        </cntaddr>
+        <cntvoice>(508) 548-8700 x2229</cntvoice>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable data</resdesc>
+    <distliab>Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Compressed ASCII file including Esri ASCII grid and projection information.</formname>
+          <formvern>7.2</formvern>
+          <formcont>The Esri ASCII grid, the xml metadata generated by gdal_translate, and the FGDC compliant metadata.</formcont>
+          <filedec>ZIP</filedec>
+          <transize>495</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pubs.usgs.gov/of/2011/1127/data/gom03_v1_0asc.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>32-bit GeoTIFF containing floating-point representation of the DEM</formname>
+          <formvern>1.0</formvern>
+          <formcont>The GeoTIFF image, the xml metadata generated by gdal_translate, and the FGDC compliant metadata.</formcont>
+          <filedec>ZIP</filedec>
+          <transize>268</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pubs.usgs.gov/of/2011/1127/data/gom03_v1_0tif.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>NetCDF file</formname>
+          <formvern>3.0</formvern>
+          <formcont>The NetCDF file and the FGDC compliant metadata.</formcont>
+          <filedec>ZIP</filedec>
+          <transize>268</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pubs.usgs.gov/of/2011/1127/data/gom03_v1_0nc.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>THREDDS Data Server Services</formname>
+          <formvern>4.3.16</formvern>
+          <formcont>Gridded data</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://geoport.whoi.edu/thredds/gom_bathy.html?dataset=bathy/gom03_v1_0</networkr>
+                <networkr>http://geoport.whoi.edu/thredds/gom_bathy.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Use a web browser to explore services to subset data from the digital elevation model</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>OPeNDAP Data URL</formname>
+          <formvern>2.0</formvern>
+          <formcont>DAP data subsets of gridded data</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://geoport.whoi.edu/thredds/dodsC/bathy/gom03_v1_0.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Use an OPeNDAP client to subset data from the digital elevation model</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>OGC Web Map Service (WMS)</formname>
+          <formvern>1.3.0</formvern>
+          <formcont>JPG or PNG images of maps of gridded data</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://geoport.whoi.edu/thredds/wms/bathy/gom03_v1_0?service=WMS&amp;amp;version=1.3.0&amp;amp;request=GetCapabilities</networkr>
+              </networka>
+            </computer>
+            <accinstr>Use WMS client to display maps of the digital elevation model</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>NetCDF Subset Service</formname>
+          <formcont>NetCDF subsets of gridded data</formcont>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://geoport.whoi.edu/thredds/ncss/grid/bathy/gom03_v1_0/dataset.html</networkr>
+              </networka>
+            </computer>
+            <accinstr>Use web form to extract netcdf subsets of data</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+    <techpreq>None</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20151105</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Richard P. Signell</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2229</cntvoice>
+        <cntfax>508-547-2310</cntfax>
+        <cntemail>rsignell@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mercury>
+    <begdate>18590101</begdate>
+    <enddate>20101231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/https___coastalmap.marine.usgs.gov_metadata_eastcoast_bathymetry_GOM03_v1_0meta.html</htmlurl>
+  </mercury>
+</metadata>

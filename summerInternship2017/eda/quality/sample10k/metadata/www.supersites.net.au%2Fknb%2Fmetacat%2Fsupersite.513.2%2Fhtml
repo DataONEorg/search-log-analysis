@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/supersite.513.2/html" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset scope="document">
+        <title>Fruit Phenology, Far North Queensland Rainforest SuperSite, Robson Creek, 25 ha Plot, 2014</title>
+        <creator id="1361834667775" scope="document">
+            <individualName>
+                <salutation>Mr</salutation>
+                <givenName>Matt</givenName>
+                <surName>Bradford</surName>
+            </individualName>
+            <organizationName>CSIRO</organizationName>
+            <positionName>Research Officer</positionName>
+            <address scope="document">
+                <deliveryPoint>PO Box 780</deliveryPoint>
+                <city>Atherton</city>
+                <administrativeArea>QLD</administrativeArea>
+                <postalCode>4883</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">07 40918825</phone>
+            <electronicMailAddress>matt.bradford@csiro.au</electronicMailAddress>
+        </creator>
+        <pubDate>2015-12-14</pubDate>
+        <abstract>
+            <para>Fruit phenology survey on the Robson Creek 25 ha plot commenced in July 2011 and was carried out by Matt Bradford (CSIRO, Atherton).  Three transects were established. Transect 1 from 100 m, 100 m to 400 m, 100 m.  Transect 2 from 100 m, 200 m to 400 m, 200 m.  Transect 3 from 100 m, 300 m to 400 m, 300 m.   Transects were 300 m in length and 5 m in width (2.5 m either side of the centre line).  All ripe fruit on and above the ground within the confines of the transect was counted or estimated. Surveys were conducted in the last last week of each month.  If a tagged individual was fruiting, the tag number was recorded.  If an untagged individual was fruiting, the distance along the transect and the species was recorded.  Data collection is ongoing.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>phenology</keyword>
+            <keyword>Robson Creek</keyword>
+            <keyword>FNQ Rainforest</keyword>
+            <keyword>Far North Queensland</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0705</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under TERN Attribution-Share Alike (TERN BY-SA) Data Licence v1.0. The licence lets others distribute, remix and build upon the work, even for commercial purposes, as long as they credit the original creator/s (and any other nominated parties) and licence any new creations based on the work under the same terms. All new derivative works will carry the same licence, so will also allow commercial use.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/supersite.513.2/html</url>
+            </online>
+        </distribution>
+        <coverage scope="document">
+            <geographicCoverage scope="document">
+                <geographicDescription>Robson Creek</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>144.875</westBoundingCoordinate>
+                    <eastBoundingCoordinate>145.5</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-17.125</northBoundingCoordinate>
+                    <southBoundingCoordinate>-17.7</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage scope="document">
+                <singleDateTime>
+                    <calendarDate>2014</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <contact scope="document">
+            <references>1361834667775</references>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Fruit phenology</title>
+                        <para>All ripe fruit on and above the ground within the confines of the transect was counted or estimated. Surveys were conducted in the last last week of each month.  If a tagged individual was fruiting, the tag number was recorded.  If an untagged individual was fruiting, the distance along the transect and the species was recorded.  Data collection is ongoing.</para>
+                    </section>
+                </description>
+            </methodStep>
+        </methods>
+        <dataTable id="1424696902419" scope="document">
+            <entityName>asn_fnqr_robson_veg_fruit_25ha_2014.csv</entityName>
+            <entityDescription>Robson Creek Fruit Phenology Data 2014</entityDescription>
+            <physical id="1424696790606" scope="document">
+                <objectName>asn_fnqr_robson_veg_fruit_25ha_2014.csv</objectName>
+                <size unit="byte">10420</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/supersite.513.2/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1424696902420" scope="document">
+                    <attributeName>Transect</attributeName>
+                    <attributeDefinition>Transect Number</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Transect</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1424696902421" scope="document">
+                    <attributeName>survey date</attributeName>
+                    <attributeDefinition>Date of survey</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>dd/mm/yyyy</formatString>
+                            <dateTimePrecision>0</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1424696902422" scope="document">
+                    <attributeName>distance</attributeName>
+                    <attributeDefinition>Distance along transect</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1424696902423" scope="document">
+                    <attributeName>Species</attributeName>
+                    <attributeDefinition>Species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>species</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1424696902424" scope="document">
+                    <attributeName>Family</attributeName>
+                    <attributeDefinition>Plant family name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>plant family</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1424696902425" scope="document">
+                    <attributeName>tag number</attributeName>
+                    <attributeDefinition>Tag number</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Tag ID</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1424696902426" scope="document">
+                    <attributeName>fruit on ground</attributeName>
+                    <attributeDefinition>Number of ripe fruit on ground</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1424696902427" scope="document">
+                    <attributeName>fruit above ground</attributeName>
+                    <attributeDefinition>Amount of ripe fruit above ground</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1424696902428" scope="document">
+                    <attributeName>% canopy on transect</attributeName>
+                    <attributeDefinition>Percentage of canopy on transect</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>174</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="Percentage" multiplierToSI="0.01" name="Percentage" parentSI="number" unitType="ratios">
+                    <description>per cent</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

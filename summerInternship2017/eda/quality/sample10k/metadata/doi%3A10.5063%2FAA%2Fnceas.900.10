@@ -1,0 +1,3073 @@
+<?xml version="1.0"?>
+<eml:eml packageId="nceas.900.10" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=mbauer,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>POD! Fish- DFG Bay Study_otter and midwater trawl, ringnet sampling 1980-2006</title>
+ <creator scope="document"> <organizationName>NCEAS 12192: Fleishman: Ecosystem analysis of pelagic organism declines in the Upper San Francisco Estuary</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Steve</givenName>
+ <surName>Slater</surName>
+ </individualName>
+ <organizationName>California Department of Fish and Game (DFG)</organizationName>
+ <electronicMailAddress>sslater@dfg.ca.gov</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Marissa</givenName>
+ <surName>Bauer</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Steve</givenName>
+ <surName>Slater</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <associatedParty scope="document"> <individualName> <givenName>Kathy</givenName>
+ <surName>Hieb</surName>
+ </individualName>
+ <role>Co-owner</role>
+ </associatedParty>
+ <pubDate>2008-04-01</pubDate>
+ <abstract> <para>The Bay Study was initiated to determine the effects of freshwater outflow on the distribution and abundance fish, caridean shrimp, and Cancer crabs of San Francisco Estuary. This data set contains otter and midwater trawl, and ringnet sampling from 1980-2006.
+
+Three types of sampling surveys were conducted: open water, beach seine, and ringnet.  The open water survey began in February 1980.  It collected samples monthly from 35 stations from South Bay to the Sacramento River at Sherman Island and the San Joaquin River at Antioch.  Seven stations were added in 1988, 4 in 1991, and 6 in 1994.  Data from the additional stations were only used for channel vs. shoal comparisons.
+The beach seine survey started in August 1980 at 27 shore stations located primarily in San Francisco and San Pablo bays but also with stations in the delta at Antioch and Sherman Island.  To reduce expenditures the beach seine survey ended in December 1986.
+In May 1982, a monthly ringnet survey for crabs began at 9 stations in San Francisco and San Pablo bays and in Carquinez Strait.  In 1990, sampling frequency was restricted to July to December and 3 new stations were added.  In 1994, 5 stations were added and the 4 stations south of Angel Island were dropped.</para>
+ </abstract>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="download">http://www.delta.dfg.ca.gov/baydelta/monitoring/baystudy.asp</url>
+ </online>
+ </distribution>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1980</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2006</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>Within San Francisco estuary, to just west of Alcatraz Island, south to immediately south of the Dumbarton Bridge, east to the mouth of Three Mile Slough on the Sacramento River and immediately upstream of the Antioch Bridge on the San Joaquin River and north into Grizzly Bay.</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>122.3833</westBoundingCoordinate>
+ <eastBoundingCoordinate>122.3833</eastBoundingCoordinate>
+ <northBoundingCoordinate>38.0833</northBoundingCoordinate>
+ <southBoundingCoordinate>38.0833</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Steve</givenName>
+ <surName>Slater</surName>
+ </individualName>
+ <organizationName>California Department of Fish and Game (DFG)</organizationName>
+ <electronicMailAddress>sslater@dfg.ca.gov</electronicMailAddress>
+ </contact>
+ <dataTable id="1253041298717" scope="document"> <entityName>Bay Study Crab 1980-2006 Catch Matrix_All Stations-1.csv</entityName>
+ <physical id="1253041298249" scope="document"> <objectName>Bay Study Crab 1980-2006 Catch Matrix_All Stations-1.csv</objectName>
+ <size unit="byte">1204677</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.62.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253041298733" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>Year of survey</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298749" scope="document"> <attributeName>Survey</attributeName>
+ <attributeDefinition>1-12, usually the same as the month sampled</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1-12, usually the same as the month sampled</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298764" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>Sample date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm-dd-yy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298780" scope="document"> <attributeName>Station</attributeName>
+ <attributeDefinition>Bay Study station number</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Bay Study station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298795" scope="document"> <attributeName>Series</attributeName>
+ <attributeDefinition>1 = original stations, 2 = stations added Dec 1987, 3 = stations added in 1991, 4 =  stations added in 1994</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>1</code>
+ <definition>original stations</definition>
+ </codeDefinition>
+ <codeDefinition> <code>2</code>
+ <definition>stations added Dec 1987</definition>
+ </codeDefinition>
+ <codeDefinition> <code>3</code>
+ <definition>stations added in 1991</definition>
+ </codeDefinition>
+ <codeDefinition> <code>4</code>
+ <definition>stations added in 1994</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298811" scope="document"> <attributeName>Bay</attributeName>
+ <attributeDefinition>Bay</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Bay</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298827" scope="document"> <attributeName>ChanShoal</attributeName>
+ <attributeDefinition>1 = Channel, 2 = Shoal</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = Channel, 2 = Shoal</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298842" scope="document"> <attributeName>Depth</attributeName>
+ <attributeDefinition>Maximum depth in feet</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>Foot_US</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298858" scope="document"> <attributeName>Secchi</attributeName>
+ <attributeDefinition>Secchi disk reading in cm</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298874" scope="document"> <attributeName>SalinBott</attributeName>
+ <attributeDefinition>Salinity (ppt) at lowest recorded depth</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Salinity (ppt) at lowest recorded depth</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298889" scope="document"> <attributeName>TempBott</attributeName>
+ <attributeDefinition>Temperature (&#176;C) at lowest recorded depth</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298905" scope="document"> <attributeName>EC Bottom</attributeName>
+ <attributeDefinition>Estimated Bottom Electrical Conductivity (&#181;S/cm) at 25&#176; Celsius</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>siemen</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298920" scope="document"> <attributeName>Net</attributeName>
+ <attributeDefinition>1 = midwater trawl and 2 = otter trawl</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = midwater trawl and 2 = otter trawl</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298936" scope="document"> <attributeName>Tow</attributeName>
+ <attributeDefinition>1, 54, 55, 56, 57 = all valid for fish; one tow per station per net</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1, 54, 55, 56, 57 = all valid for fish; one tow per station per net</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298952" scope="document"> <attributeName>Time</attributeName>
+ <attributeDefinition>Time of sample, 24-hour clock</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298967" scope="document"> <attributeName>Tide</attributeName>
+ <attributeDefinition>1=flood current, 2=ebb current, 3=low slack, 4=high slack</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1=flood current, 2=ebb current, 3=low slack, 4=high slack</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298983" scope="document"> <attributeName>Direction</attributeName>
+ <attributeDefinition>1=tow with current, 2=tow against current, 3=neither (slack current)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1=tow with current, 2=tow against current, 3=neither (slack current)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041298999" scope="document"> <attributeName>Duration</attributeName>
+ <attributeDefinition>Total time net was fishing, in minutes; for OT, time on bottom, for MWT, time from when net was set to when the doors were at the stern of the boat</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041299014" scope="document"> <attributeName>Distance</attributeName>
+ <attributeDefinition>Distance towed by otter trawl in nautical miles, used for calculation of tow area</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nauticalMile</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041299030" scope="document"> <attributeName>TowArea</attributeName>
+ <attributeDefinition>Estimated area sampled in m&#178; by the otter trawl (OT)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041299045" scope="document"> <attributeName>CMAGIS</attributeName>
+ <attributeDefinition>Dungeness crab</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <entityCodeList> <entityReference>1253041428872</entityReference>
+ <valueAttributeReference>1253041428888</valueAttributeReference>
+ <definitionAttributeReference>1253041429013</definitionAttributeReference>
+ </entityCodeList>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041299061" scope="document"> <attributeName>CGRACI</attributeName>
+ <attributeDefinition>graceful rock crab, Cancer gracilis</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>crab species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041299077" scope="document"> <attributeName>CANTEN</attributeName>
+ <attributeDefinition>Pacific rock crab	Cancer antennarius</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>crab species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041299092" scope="document"> <attributeName>CPRODU</attributeName>
+ <attributeDefinition>red rock crab	Cancer productus</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>crab species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041299108" scope="document"> <attributeName>ESINEN</attributeName>
+ <attributeDefinition>Chinese mitten crab	Eriocheir sinensis</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>crab species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>13374</numberOfRecords>
+ </dataTable>
+ <dataTable id="1253041428872" scope="document"> <entityName>Bay Study Crab 1980-2006 Catch Matrix_All Stations_species codes.csv</entityName>
+ <physical id="1253041428403" scope="document"> <objectName>Bay Study Crab 1980-2006 Catch Matrix_All Stations_species codes.csv</objectName>
+ <size unit="byte">1833</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.63.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253041428888" scope="document"> <attributeName>AlphaCode</attributeName>
+ <attributeDefinition>AlphaCode</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>AlphaCode</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041428903" scope="document"> <attributeName>Common Name</attributeName>
+ <attributeDefinition>Common Name</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Common Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041428919" scope="document"> <attributeName>Phylum</attributeName>
+ <attributeDefinition>Organism information</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Organism information</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041428934" scope="document"> <attributeName>Class</attributeName>
+ <attributeDefinition>Organism information</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Organism information</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041428950" scope="document"> <attributeName>Order</attributeName>
+ <attributeDefinition>Organism information</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Organism information</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041428966" scope="document"> <attributeName>Family</attributeName>
+ <attributeDefinition>Organism information</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Organism information</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041428981" scope="document"> <attributeName>Genus</attributeName>
+ <attributeDefinition>Organism information</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Organism information</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041428997" scope="document"> <attributeName>Species</attributeName>
+ <attributeDefinition>Organism information</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Organism information</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253041429013" scope="document"> <attributeName>Scientific Name</attributeName>
+ <attributeDefinition>Organism information</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Organism information</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>19</numberOfRecords>
+ </dataTable>
+ <dataTable id="1253043415003" scope="document"> <entityName>Bay Study MWT 1980-2006 Catch Matrix_All Stations.csv</entityName>
+ <physical id="1253043411940" scope="document"> <objectName>Bay Study MWT 1980-2006 Catch Matrix_All Stations.csv</objectName>
+ <size unit="byte">3569625</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.64.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253043415018" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>Year of survey</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415034" scope="document"> <attributeName>Survey</attributeName>
+ <attributeDefinition>1-12, usually the same as the month sampled</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1-12, usually the same as the month sampled</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415050" scope="document"> <attributeName>Station</attributeName>
+ <attributeDefinition>Bay Study station number</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Bay Study station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415065" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>Sample date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm-dd-yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415081" scope="document"> <attributeName>Time</attributeName>
+ <attributeDefinition>Time of sample, 24-hour clock</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415097" scope="document"> <attributeName>TempSurf</attributeName>
+ <attributeDefinition>Temperature (&#176;C) for first meter of water column</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415112" scope="document"> <attributeName>SalinSurf</attributeName>
+ <attributeDefinition>Salinity (ppt) for first meter of water column</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Salinity (ppt) for first meter of water column</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415128" scope="document"> <attributeName>EC Top</attributeName>
+ <attributeDefinition>Estimated Surface Electrical Conductivity (&#181;S/cm) at 25&#176; Celsius</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>siemen</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415143" scope="document"> <attributeName>Secchi</attributeName>
+ <attributeDefinition>Secchi disk reading in cm</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415159" scope="document"> <attributeName>Depth</attributeName>
+ <attributeDefinition>Maximum depth in feet</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>Foot_US</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415175" scope="document"> <attributeName>ChanShoal</attributeName>
+ <attributeDefinition>1 = Channel, 2 = Shoal</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = Channel, 2 = Shoal</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415190" scope="document"> <attributeName>Net</attributeName>
+ <attributeDefinition>1 = midwater trawl and 2 = otter trawl</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = midwater trawl and 2 = otter trawl</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415206" scope="document"> <attributeName>Tow</attributeName>
+ <attributeDefinition>1, 54, 55, 56, 57 = all valid for fish; one tow per station per net</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1, 54, 55, 56, 57 = all valid for fish; one tow per station per net</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415222" scope="document"> <attributeName>Series</attributeName>
+ <attributeDefinition>1 = original stations, 2 = stations added Dec 1987, 3 = stations added in 1991, 4 =  stations added in 1994</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = original stations, 2 = stations added Dec 1987, 3 = stations added in 1991, 4 =  stations added in 1994</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415237" scope="document"> <attributeName>TotalMeter</attributeName>
+ <attributeDefinition>Flow meter counts for the midwater trawl, used for calculation of tow volume</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Flow meter counts for the midwater trawl, used for calculation of tow volume</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415253" scope="document"> <attributeName>TowVolume</attributeName>
+ <attributeDefinition>Estimated area sampled in m&#179; by the midwater trawl (MWT)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>cubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415268" scope="document"> <attributeName>Age0 American shad</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Number of organisms caught</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415284" scope="document"> <attributeName>American shad</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Number of organisms caught</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415300" scope="document"> <attributeName>arrow goby</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Number of organisms caught</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415315" scope="document"> <attributeName>barred surfperch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415331" scope="document"> <attributeName>bat ray</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415347" scope="document"> <attributeName>bay goby</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415362" scope="document"> <attributeName>bay pipefish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415378" scope="document"> <attributeName>big skate</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415393" scope="document"> <attributeName>black bullhead</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415409" scope="document"> <attributeName>black crappie</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415425" scope="document"> <attributeName>black perch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415440" scope="document"> <attributeName>black rockfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415456" scope="document"> <attributeName>bluegill</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415472" scope="document"> <attributeName>bonyhead sculpin</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415487" scope="document"> <attributeName>brown bullhead</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415503" scope="document"> <attributeName>brown rockfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415518" scope="document"> <attributeName>brown smoothhound</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415534" scope="document"> <attributeName>calico surfperch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415550" scope="document"> <attributeName>California grunion</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415565" scope="document"> <attributeName>California halibut</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415581" scope="document"> <attributeName>California lizardfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415597" scope="document"> <attributeName>California tonguefish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415612" scope="document"> <attributeName>chameleon goby</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415628" scope="document"> <attributeName>channel catfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415643" scope="document"> <attributeName>cheekspot goby</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415659" scope="document"> <attributeName>Chinook salmon</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415675" scope="document"> <attributeName>coho salmon</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415690" scope="document"> <attributeName>common carp</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415706" scope="document"> <attributeName>Age0 delta smelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415722" scope="document"> <attributeName>delta smelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415737" scope="document"> <attributeName>diamond turbot</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415753" scope="document"> <attributeName>dwarf perch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415768" scope="document"> <attributeName>English sole</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415784" scope="document"> <attributeName>eulachon</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415800" scope="document"> <attributeName>goldfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415815" scope="document"> <attributeName>green sturgeon</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415831" scope="document"> <attributeName>green sunfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415847" scope="document"> <attributeName>hardhead</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415862" scope="document"> <attributeName>herring (shads) (Unid)</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415878" scope="document"> <attributeName>jack mackerel</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415893" scope="document"> <attributeName>jacksmelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415909" scope="document"> <attributeName>kelp greenling</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415925" scope="document"> <attributeName>largemouth bass</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415940" scope="document"> <attributeName>leopard shark</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415956" scope="document"> <attributeName>lingcod</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415972" scope="document"> <attributeName>Age0 longfin smelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043415987" scope="document"> <attributeName>longfin smelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416003" scope="document"> <attributeName>Mississippi silverside</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416018" scope="document"> <attributeName>night smelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416034" scope="document"> <attributeName>northern anchovy</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416050" scope="document"> <attributeName>Pacific barracuda</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416065" scope="document"> <attributeName>Pacific electric ray</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416081" scope="document"> <attributeName>Pacific herring</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416097" scope="document"> <attributeName>Pacific lamprey</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416112" scope="document"> <attributeName>Pacific pompano</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416128" scope="document"> <attributeName>Pacific sand lance</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416143" scope="document"> <attributeName>Pacific sanddab</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416159" scope="document"> <attributeName>Pacific sardine</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416175" scope="document"> <attributeName>Pacific staghorn sculpin</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416190" scope="document"> <attributeName>Pacific tomcod</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416206" scope="document"> <attributeName>pile perch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416222" scope="document"> <attributeName>plainfin midshipman</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416237" scope="document"> <attributeName>prickly sculpin</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416253" scope="document"> <attributeName>pumpkinseed</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416268" scope="document"> <attributeName>queenfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416284" scope="document"> <attributeName>rainwater killifish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416300" scope="document"> <attributeName>redear sunfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416315" scope="document"> <attributeName>redtail surfperch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416331" scope="document"> <attributeName>river lamprey</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416347" scope="document"> <attributeName>rockfish (Unid)</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416362" scope="document"> <attributeName>rubberlip seaperch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416378" scope="document"> <attributeName>Sacramento pikeminnow</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416393" scope="document"> <attributeName>Sacramento sucker</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416409" scope="document"> <attributeName>sand sole</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416425" scope="document"> <attributeName>shimofuri goby</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416440" scope="document"> <attributeName>shiner perch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416456" scope="document"> <attributeName>shokihaze goby</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416472" scope="document"> <attributeName>showy snailfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416487" scope="document"> <attributeName>silver surfperch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416503" scope="document"> <attributeName>speckled sanddab</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416518" scope="document"> <attributeName>spiny dogfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416534" scope="document"> <attributeName>Age0 splittail</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416550" scope="document"> <attributeName>splittail</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416565" scope="document"> <attributeName>starry flounder</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416581" scope="document"> <attributeName>steelhead</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416597" scope="document"> <attributeName>Age0 striped bass</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416612" scope="document"> <attributeName>striped bass</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416628" scope="document"> <attributeName>sunfish (Unid)</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416643" scope="document"> <attributeName>surf smelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416659" scope="document"> <attributeName>thornback</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416675" scope="document"> <attributeName>threadfin shad</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416690" scope="document"> <attributeName>threespine stickleback</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416706" scope="document"> <attributeName>thresher shark</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416721" scope="document"> <attributeName>topsmelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416737" scope="document"> <attributeName>tule perch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416753" scope="document"> <attributeName>wakasagi</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416768" scope="document"> <attributeName>walleye surfperch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416784" scope="document"> <attributeName>white catfish</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416800" scope="document"> <attributeName>white croaker</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416815" scope="document"> <attributeName>white seabass</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416831" scope="document"> <attributeName>white seaperch</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416846" scope="document"> <attributeName>white sturgeon</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416862" scope="document"> <attributeName>whitebait smelt</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253043416878" scope="document"> <attributeName>yellowfin goby</attributeName>
+ <attributeDefinition>Number of organisms caught</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Number of organisms caught</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>12614</numberOfRecords>
+ </dataTable>
+ <dataTable id="1253047062091" scope="document"> <entityName>Bay Study Otter Trawl 1980-2006 Catch Matrix_All Stations.csv</entityName>
+ <physical id="1253047054387" scope="document"> <objectName>Bay Study OT 1980-2006 OT Catch Matrix_All Stations.csv</objectName>
+ <size unit="byte">4581218</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.65.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253047062107" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>Year of survey</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062123" scope="document"> <attributeName>Survey</attributeName>
+ <attributeDefinition>1-12, usually the same as the month sampled</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1-12, usually the same as the month sampled</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062138" scope="document"> <attributeName>Station</attributeName>
+ <attributeDefinition>Bay Study station number</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Bay Study station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062154" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>Sample date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm-dd-yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062170" scope="document"> <attributeName>Time</attributeName>
+ <attributeDefinition>Time of sample, 24-hour clock</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062185" scope="document"> <attributeName>TempBott</attributeName>
+ <attributeDefinition>Temperature (&#176;C) at lowest recorded depth</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062201" scope="document"> <attributeName>SalinBott</attributeName>
+ <attributeDefinition>Salinity (ppt) at lowest recorded depth</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Salinity (ppt) at lowest recorded depth</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062216" scope="document"> <attributeName>EC Bottom</attributeName>
+ <attributeDefinition>Estimated Bottom Electrical Conductivity (&#181;S/cm) at 25&#176; Celsius</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>siemen</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062232" scope="document"> <attributeName>Secchi</attributeName>
+ <attributeDefinition>Secchi disk reading in cm</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062248" scope="document"> <attributeName>Depth</attributeName>
+ <attributeDefinition>Maximum depth in feet</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>Foot_US</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062263" scope="document"> <attributeName>ChanShoal</attributeName>
+ <attributeDefinition>1 = Channel, 2 = Shoal</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = Channel, 2 = Shoal</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062279" scope="document"> <attributeName>Net</attributeName>
+ <attributeDefinition>1 = midwater trawl and 2 = otter trawl</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = midwater trawl and 2 = otter trawl</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062295" scope="document"> <attributeName>Tow</attributeName>
+ <attributeDefinition>1, 54, 55, 56, 57 = all valid for fish; one tow per station per net</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1, 54, 55, 56, 57 = all valid for fish; one tow per station per net</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062310" scope="document"> <attributeName>Series</attributeName>
+ <attributeDefinition>1 = original stations, 2 = stations added Dec 1987, 3 = stations added in 1991, 4 =  stations added in 1994</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = original stations, 2 = stations added Dec 1987, 3 = stations added in 1991, 4 =  stations added in 1994</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062326" scope="document"> <attributeName>Distance</attributeName>
+ <attributeDefinition>Distance towed by otter trawl in nautical miles, used for calculation of tow area</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nauticalMile</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062342" scope="document"> <attributeName>TowArea</attributeName>
+ <attributeDefinition>Estimated area sampled in m&#178; by the otter trawl (OT)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062357" scope="document"> <attributeName>Duration</attributeName>
+ <attributeDefinition>Total time net was fishing, in minutes; for OT, time on bottom, for MWT, time from when net was set to when the doors were at the stern of the boat</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062373" scope="document"> <attributeName>American shad</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062388" scope="document"> <attributeName>arrow goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062404" scope="document"> <attributeName>barred surfperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062420" scope="document"> <attributeName>bat ray</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062435" scope="document"> <attributeName>bay goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062451" scope="document"> <attributeName>bay pipefish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062467" scope="document"> <attributeName>big skate</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062482" scope="document"> <attributeName>bigscale logperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062498" scope="document"> <attributeName>black bullhead</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062513" scope="document"> <attributeName>black crappie</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062529" scope="document"> <attributeName>black perch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062545" scope="document"> <attributeName>black rockfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062560" scope="document"> <attributeName>blue catfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062576" scope="document"> <attributeName>blue rockfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062592" scope="document"> <attributeName>bluegill</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062607" scope="document"> <attributeName>bocaccio</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062623" scope="document"> <attributeName>bonyhead sculpin</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062638" scope="document"> <attributeName>broadnose sevengill shark</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062654" scope="document"> <attributeName>brown bullhead</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062670" scope="document"> <attributeName>brown Irish lord</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062685" scope="document"> <attributeName>brown rockfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062701" scope="document"> <attributeName>brown smoothhound</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062717" scope="document"> <attributeName>buffalo sculpin</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062732" scope="document"> <attributeName>cabezon</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062748" scope="document"> <attributeName>calico surfperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062763" scope="document"> <attributeName>California halibut</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062779" scope="document"> <attributeName>California lizardfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062795" scope="document"> <attributeName>California tonguefish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062810" scope="document"> <attributeName>chameleon goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062826" scope="document"> <attributeName>channel catfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062842" scope="document"> <attributeName>cheekspot goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062857" scope="document"> <attributeName>Chinook salmon</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062873" scope="document"> <attributeName>C-O sole</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062888" scope="document"> <attributeName>common carp</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062904" scope="document"> <attributeName>curlfin sole</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062920" scope="document"> <attributeName>delta smelt</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062935" scope="document"> <attributeName>diamond turbot</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062951" scope="document"> <attributeName>Dover sole</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062967" scope="document"> <attributeName>dwarf perch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062982" scope="document"> <attributeName>English sole</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047062998" scope="document"> <attributeName>eulachon</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063013" scope="document"> <attributeName>goldfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063029" scope="document"> <attributeName>green sturgeon</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063045" scope="document"> <attributeName>green sunfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063060" scope="document"> <attributeName>hitch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063076" scope="document"> <attributeName>hornyhead turbot</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063092" scope="document"> <attributeName>hybrid sole (forkline)</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063107" scope="document"> <attributeName>jacksmelt</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063123" scope="document"> <attributeName>kelp greenling</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063139" scope="document"> <attributeName>lamprey (Unid)</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063154" scope="document"> <attributeName>largemouth bass</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063170" scope="document"> <attributeName>leopard shark</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063185" scope="document"> <attributeName>lingcod</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063201" scope="document"> <attributeName>Age0 longfin smelt</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063217" scope="document"> <attributeName>longfin smelt</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063232" scope="document"> <attributeName>longjaw mudsucker</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063248" scope="document"> <attributeName>minnow (Unid)</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063264" scope="document"> <attributeName>Mississippi silverside</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063279" scope="document"> <attributeName>mussel blenny</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063295" scope="document"> <attributeName>night smelt</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063310" scope="document"> <attributeName>onespot fringehead</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063326" scope="document"> <attributeName>Pacific electric ray</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063342" scope="document"> <attributeName>Pacific herring</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063357" scope="document"> <attributeName>Pacific lamprey</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063373" scope="document"> <attributeName>Pacific pompano</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063389" scope="document"> <attributeName>Pacific sand lance</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063404" scope="document"> <attributeName>Pacific sanddab</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063420" scope="document"> <attributeName>Pacific sardine</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063435" scope="document"> <attributeName>Pacific staghorn sculpin</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063451" scope="document"> <attributeName>Pacific tomcod</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063467" scope="document"> <attributeName>padded sculpin</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063482" scope="document"> <attributeName>pile perch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063498" scope="document"> <attributeName>plainfin midshipman</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063514" scope="document"> <attributeName>prickly sculpin</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063529" scope="document"> <attributeName>pygmy poacher</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063545" scope="document"> <attributeName>queenfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063560" scope="document"> <attributeName>rainbow seaperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063576" scope="document"> <attributeName>rainwater killifish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063592" scope="document"> <attributeName>red Irish lord</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063607" scope="document"> <attributeName>redear sunfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063623" scope="document"> <attributeName>redtail surfperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063639" scope="document"> <attributeName>river lamprey</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063654" scope="document"> <attributeName>rockfish (Unid)</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063670" scope="document"> <attributeName>rubberlip seaperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063685" scope="document"> <attributeName>Sacramento pikeminnow</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063701" scope="document"> <attributeName>Sacramento sucker</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063717" scope="document"> <attributeName>saddleback gunnel</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063732" scope="document"> <attributeName>sand sole</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063748" scope="document"> <attributeName>scalyhead sculpin</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063764" scope="document"> <attributeName>shimofuri goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063779" scope="document"> <attributeName>shiner perch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063795" scope="document"> <attributeName>Age0 shokihaze goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063811" scope="document"> <attributeName>shokihaze goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063826" scope="document"> <attributeName>shovelnose guitarfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063842" scope="document"> <attributeName>showy snailfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063857" scope="document"> <attributeName>silver surfperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063873" scope="document"> <attributeName>slipskin snailfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063889" scope="document"> <attributeName>snailfish (Unid)</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063904" scope="document"> <attributeName>speckled sanddab</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063920" scope="document"> <attributeName>spiny dogfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063936" scope="document"> <attributeName>Age0 splittail</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063951" scope="document"> <attributeName>splittail</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063967" scope="document"> <attributeName>spotfin surfperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063982" scope="document"> <attributeName>spotted cusk-eel</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047063998" scope="document"> <attributeName>Age0 starry flounder</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064014" scope="document"> <attributeName>starry flounder</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064029" scope="document"> <attributeName>Age0 striped bass</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064045" scope="document"> <attributeName>striped bass</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064061" scope="document"> <attributeName>striped seaperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064076" scope="document"> <attributeName>surf smelt</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064092" scope="document"> <attributeName>surfperch (Unid)</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064107" scope="document"> <attributeName>thornback</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064123" scope="document"> <attributeName>threadfin shad</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064139" scope="document"> <attributeName>threespine stickleback</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064154" scope="document"> <attributeName>topsmelt</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064170" scope="document"> <attributeName>tubesnout</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064186" scope="document"> <attributeName>tule perch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064201" scope="document"> <attributeName>vermillion rockfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064217" scope="document"> <attributeName>wakasagi</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064232" scope="document"> <attributeName>walleye surfperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064248" scope="document"> <attributeName>western brook lamprey</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064264" scope="document"> <attributeName>western mosquitofish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064279" scope="document"> <attributeName>white catfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064295" scope="document"> <attributeName>white croaker</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064311" scope="document"> <attributeName>white seabass</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064326" scope="document"> <attributeName>white seaperch</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064342" scope="document"> <attributeName>white sturgeon</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064357" scope="document"> <attributeName>whitebait smelt</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064373" scope="document"> <attributeName>yellow snake eel</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064389" scope="document"> <attributeName>Age0 yellowfin goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064404" scope="document"> <attributeName>yellowfin goby</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047064420" scope="document"> <attributeName>yellowtail rockfish</attributeName>
+ <attributeDefinition>Count of organism</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count of organism</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>13373</numberOfRecords>
+ </dataTable>
+ <dataTable id="1253047742114" scope="document"> <entityName>Bay Study Shrimp 1980-2005 Catch Matrix_All Stations.csv</entityName>
+ <physical id="1253047740129" scope="document"> <objectName>Bay Study Shrimp 1980-2005 Catch Matrix_All Stations.csv</objectName>
+ <size unit="byte">1296148</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.66.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253047742129" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>Year of survey</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742145" scope="document"> <attributeName>Survey</attributeName>
+ <attributeDefinition>1-12, usually the same as the month sampled</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1-12, usually the same as the month sampled</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742161" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>Sample date</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm-dd-yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742176" scope="document"> <attributeName>Station</attributeName>
+ <attributeDefinition>Bay Study station number</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Bay Study station number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742192" scope="document"> <attributeName>Series</attributeName>
+ <attributeDefinition>1 = original stations, 2 = stations added Dec 1987, 3 = stations added in 1991, 4 =  stations added in 1994</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = original stations, 2 = stations added Dec 1987, 3 = stations added in 1991, 4 =  stations added in 1994</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742207" scope="document"> <attributeName>Bay</attributeName>
+ <attributeDefinition>Bay</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Bay</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742223" scope="document"> <attributeName>ChanShoal</attributeName>
+ <attributeDefinition>1 = Channel, 2 = Shoal</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = Channel, 2 = Shoal</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742239" scope="document"> <attributeName>Depth</attributeName>
+ <attributeDefinition>Maximum depth in feet</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>Foot_US</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742254" scope="document"> <attributeName>Secchi</attributeName>
+ <attributeDefinition>Secchi disk reading in cm</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>centimeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742270" scope="document"> <attributeName>SalinBott</attributeName>
+ <attributeDefinition>Salinity (ppt) at lowest recorded depth</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Salinity (ppt) at lowest recorded depth</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742286" scope="document"> <attributeName>TempBott</attributeName>
+ <attributeDefinition>Temperature (&#176;C) at lowest recorded depth</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742301" scope="document"> <attributeName>EC Bottom</attributeName>
+ <attributeDefinition>Estimated Bottom Electrical Conductivity (&#181;S/cm) at 25&#176; Celsius</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>siemen</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742317" scope="document"> <attributeName>Net</attributeName>
+ <attributeDefinition>1 = midwater trawl and 2 = otter trawl</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1 = midwater trawl and 2 = otter trawl</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742332" scope="document"> <attributeName>Tow</attributeName>
+ <attributeDefinition>1, 54, 55, 56, 57 = all valid for fish; one tow per station per net</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1, 54, 55, 56, 57 = all valid for fish; one tow per station per net</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742348" scope="document"> <attributeName>Time</attributeName>
+ <attributeDefinition>Time of sample, 24-hour clock</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742364" scope="document"> <attributeName>Tide</attributeName>
+ <attributeDefinition>1=flood current, 2=ebb current, 3=low slack, 4=high slack</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1=flood current, 2=ebb current, 3=low slack, 4=high slack</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742379" scope="document"> <attributeName>Direction</attributeName>
+ <attributeDefinition>1=tow with current, 2=tow against current, 3=neither (slack current)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>1=tow with current, 2=tow against current, 3=neither (slack current)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742395" scope="document"> <attributeName>TowDuration</attributeName>
+ <attributeDefinition>Total time net was fishing, in minutes; for OT, time on bottom, for MWT, time from when net was set to when the doors were at the stern of the boat</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm:ss</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742411" scope="document"> <attributeName>Distance</attributeName>
+ <attributeDefinition>Distance towed by otter trawl in nautical miles, used for calculation of tow area</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nauticalMile</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742426" scope="document"> <attributeName>TowArea</attributeName>
+ <attributeDefinition>Estimated area sampled in m&#178; by the otter trawl (OT)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>squareMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742442" scope="document"> <attributeName>Cf</attributeName>
+ <attributeDefinition>Crangon franciscorum	California bay shrimp</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Crangon franciscorum	California bay shrimp</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742457" scope="document"> <attributeName>Cn</attributeName>
+ <attributeDefinition>Crangon nigricauda	blacktail bay shrimp</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Crangon nigricauda	blacktail bay shrimp</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742473" scope="document"> <attributeName>Cnm</attributeName>
+ <attributeDefinition>Crangon nigromaculata	blackspotted bay shrimp</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Crangon nigromaculata	blackspotted bay shrimp</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742489" scope="document"> <attributeName>Em</attributeName>
+ <attributeDefinition>Exopalaemon modestus	Siberian prawn</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Exopalaemon modestus	Siberian prawn</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742504" scope="document"> <attributeName>Hs</attributeName>
+ <attributeDefinition>Heptacarpus stimpsoni	Stimpson coastal shrimp</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Heptacarpus stimpsoni	Stimpson coastal shrimp</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742520" scope="document"> <attributeName>Ls</attributeName>
+ <attributeDefinition>Lissocrangon  stylirostris	smooth bay shrimp</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Lissocrangon  stylirostris	smooth bay shrimp</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742536" scope="document"> <attributeName>Pm</attributeName>
+ <attributeDefinition>Palaemon macrodactylus	oriental shrimp</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Palaemon macrodactylus	oriental shrimp</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742551" scope="document"> <attributeName>Misc</attributeName>
+ <attributeDefinition>Misc includes all minor species not assigned to a field in the matrix.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Misc includes all minor species not assigned to a field in the matrix.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253047742567" scope="document"> <attributeName>Total</attributeName>
+ <attributeDefinition>Total count</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Total count</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>12732</numberOfRecords>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="Number of organisms caught" name="Number of organisms caught" parentSI="mole" unitType="amount"> <description>Number of organisms caught</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="parts per thousand (ppt)" name="parts per thousand (ppt)" parentSI="molesPerCubicMeter" unitType="amountOfSubstanceConcentration"> <description>parts per thousand (ppt)</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="Count of organism" name="Count of organism" parentSI="mole" unitType="amount"> <description>Count of organism</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

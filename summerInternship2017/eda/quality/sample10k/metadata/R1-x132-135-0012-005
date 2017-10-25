@@ -1,0 +1,402 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>R1.x132.135-0012-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Matthew Saxton</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>University of Georgia</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>ECOGIG Managing Director</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>706-542-6818</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>230 Marine Sciences</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Athens</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Georgia</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>30602-3636</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>msaxton@uga.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2016-12-12T22:38:55+00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/R1.x132.135:0012</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Analytical data, cell counts, rate measurements and TEP data from the microcosms simulating DWH spill-like plumes</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString/>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2016-06-08</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>In laboratory experiments, we simulated environmental conditions comparable to deep seawater during the Deepwater Horizon discharge. This dataset reports nutrients, cell counts, bacterial production, hydrocarbon concentrations, hydrolysis rates, and transparent exopolymer production (TEP) for 3 replicates in each of 6 treatments over a period of 6 weeks. Results are reported at time 0 and after 1 week, 2.5, 4 and 6 weeks. This dataset was generated through laboratory microcosm experiments using amended water collected from a natural hydrocarbon seepage area at ~1200m depth.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>The purpose of this project was to determine how the addition of chemical dispersant impacts microbial oil degradation and overall microbial community structure in a natural community.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Matthew Saxton</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>University of Georgia</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>ECOGIG Managing Director</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>706-542-6818</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>320 Marine Sciences</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Athens</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Georgia</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>30602-3636</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>msaxton@uga.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Samantha B. (Mandy) Joye</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>University of Georgia</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Professor</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>706-542-5893</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>Room 159, Marine Sciences Bldg.</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Athens</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Georgia</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>30602-3636</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>mjoye@uga.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Sara Kleindienst</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>University of Georgia</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Graduate Student</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>706-542-6818</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>230 Marine Sciences</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Athens</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>Georgia</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>30602-3636</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>skleindi@uga.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Dispersants</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>microbial response to oil spills</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword gco:nilReason="inapplicable"/>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng; USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="descriptiveExtent">
+                    <gmd:description>
+                        <gco:CharacterString>This dataset was generated through laboratory microcosm experiments. Water collected from 27.36140, -90.6018 on March 7 2013 was used in these microcosm experiments.</gco:CharacterString>
+                    </gmd:description>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Treatment; Incubation Time (Weeks); Salinity (ppt); pH; Oxygen concentration (O2, uM); Dissolved Organic Carbon (DOC, uM); Dissolved Organic Nitrogen (DON, uM); Total Dissolved Nitrogen (TDN, uM); Total Dissolved Phosphorus (TDP, uM); NO3 (uM); NO2 (uM); PO4 (uM); NH4 (uM); Dissolved Inorganic Carbon (DIC, mM), Bacterial Abundance (Cell Counts; mL-1), Bacterial Production Rate (Bact.Prod., nM C/day); Naphthalene (Naphth., ug/L); Total Petroleum (ug/L); Hexadecane oxidation rate (14C Hexadec. rate, nM/day); Naphthalene oxidation rate (14C Naphth. rate, nM/day); Peptidase rate (nM/day); Glucosidase rate (nM/day); Lipase rate (nM/L); transparent exopolymer particles (TEP, Gxeq/L). |Sample collection at a natural hydrocarbon seep site. During R/V Pelican cruise PE13-21 (March 7th 2013), 160 L of seawater were collected from an oil vent at an active natural hydrocarbon seep (27.3614&#x2DA; N, 90.6018&#x2DA; W, depth = 1178 m) located at Green Canyon block 600 (GC600). The GC600 site hosts one of the most active natural oil seeps in the Gulf of Mexico (13-15). Indigenous pelagic microbial communities at GC600 seep sites are adapted to natural oil input into the sea. For collection of seawater, an instrumented CTD rosette equipped with twelve 10 L Niskin bottles was lowered into the plume using chirp sonar as guidance. After recovery, water samples were transferred into pre-cleaned (HCl-soaked, Milli-Q rinsed and dried) and sample water rinsed (3&#xD7;) 20 L carboys. Carboys were transported at 4&#xB0;C to the laboratory at UGA where the experiment and sampling was conducted in an 8&#xB0;C cold room. Water was stored for one month at 8&#xB0;C prior to the experiment. Water-accommodated fractions To produce the WAF, the dispersant-only solution, and CEWAFs, seawater was 0.2 &#x3BC;m-filtered and pasteurized (2 h at 65&#xB0;C). WAF was prepared with 0.85 L of sterile seawater amended with 0.15 L Louisiana sweet crude oil (Macondo surrogate oil from the Marlin Platform Dorado provided by BP). Dispersant-only solutions were comprised of 0.85 L of sterile seawater and 0.015 L of Corexit 9500. CEWAFs were prepared with 0.85 L of sterile seawater amended with 0.15 L Macondo surrogate oil and 0.015 L of Corexit 9500. Sterile seawater amended with oil and/or dispersant was mixed at 600 rpm (magnetic stirrer, Fisher Scientific Isotemp; Thermo Fisher Scientific Inc., Waltham, MA, USA) for 48 h at RT in the dark in clean 1 L glass bottles (furnace heat-treated; 500&#xB0;C for 4 h) with teflon-lined caps (acid-rinsed, Milli-Q rinsed, and dried). The fluid mixture was allowed to settle for 1 h and the aqueous phase was sub-sampled into clean glass bottles (combusted at 500&#xB0;C for 4 h), avoiding inclusion of the oil or dispersant phases. WAF, CEWAF and dispersant-only solution were prepared 3-5 days before initiation of the experiment, examined for potential cell contamination via DAPI staining, and stored at 4&#xB0;C until usage. Nutrient treatments were amended with trace metals (1/1000 vol/vol of 1000&#xD7; trace metal solution (16)) and nutrients (10 &#x3BC;M ammonium chloride, 10 &#x3BC;M potassium nitrate and 1 &#x3BC;M potassium phosphate, final concentrations, respectively). The effective dilution of the dispersant in seawater (dispersant to seawater ratio, v/v) was 1:60,000 in the dispersant only treatment, while the dispersant to seawater ratio was 1:30,000 v/v in the CEWAF (&#xB1;nutrients) setups. Setup and sampling of microcosms Establishment and sampling of microcosms was carried out at 8&#xB0;C. First, the entire volume (160 L) of seawater was mixed carefully in a clean (soaked in 10% HCl for 24 h, Milli-Q rinsed, and dried) 200 L HDPE-tank and then dispensed into clean, combusted (500&#xBA;C for 4 h) 2 L glass bottles with teflon-lined caps (acid-rinsed, Milli-Q rinsed, and dried). Next, 0.4 L of sterile WAF, dispersant-only, or CEWAF (&#xB1;nutrients) was added to 1.6 L seawater. To achieve comparable addition of dissolved organic carbon across treatments, the prepared solutions were diluted with an appropriate volume of sterile seawater (0.2 &#x3BC;m-filtered and pasteurized for 2 h at 65&#xB0;C). Dispersant was much more soluble in water than oil; to generate 0.4 L of diluted solutions, only 1.56 ml of original dispersant-only solution or 3.26 ml of CEWAF (&#xB1;nutrients) was added. For WAF, 0.4 L of undiluted WAF was added. The biotic control (no addition) and abiotic control (0.2 &#x3BC;m-filtered and pasteurized for 2 h at 65&#xB0;C) were prepared contemporaneously and were comprised of 1.6 L seawater plus 0.4 L of sterile seawater (0.2 &#x3BC;m-filtered and pasteurized for 2 h at 65&#xB0;C). Microcosms were established in triplicates and maintained at 8&#xB0;C on a roller table (Fig. S2) in the dark at a rotation speed of 15 rpm. All treatments except CEWAF+nutrients were sampled at five different points: T0 after 0 days, T1 after 1 week, T2 after 2 &#xBD; weeks, T3 after 4 weeks and T4 after 6 weeks. The CEWAF+nutrients treatment was sampled at T0, T1 and T4 only. Three replicates were sacrificed at each sampling point for WAF, dispersant-only, and CEWAF (&#xB1;nutrients) microcosms, respectively. For the abiotic and biotic controls, three replicates were sacrificed at T0 and T4. For intermediate time points (T1 to T3) the same biological triplicate bottles were sub-sampled. At each time point, sampling of the microcosms was performed by removing aliquots for each analysis described below in the following order: (DNA, oxygen, pH, salinity, DIC, NH4, nutrients [NO2/NO3, PO4, DOC, TDN, TDP], total cell counts, Corexit surfactant, 3H-leucine incorporation, 14C-hydrocarbon oxidation, enzyme activities, hydrocarbons, DOM), summarized in Supplementary Table 3 and Supplementary Table 4. Upon sampling, each bottle was gently inverted several times to distribute particles evenly (macroscopically visible particles were disrupted) and subsamples taken for the analysis described below. Total cell counts Samples for total cell counts were fixed with 3.7% formaldehyde for 1 h at RT and stored at -20&#xB0;C. The volume filtered was optimized for each time point and treatment, resulting in 30-100 cells per grid. Counts were performed with an epifluorescence microscope (Olympus BX40) after staining with 4&#x2032;,6-Diamidin-2-phenylindol (DAPI; 1 &#x3BC;g/ml). For each filter, a minimum of 10 grids was randomly counted. Dissolved organic matter analysis Aliquots of each bottle (ca. 200 ml) were filtered (pre-combusted Whatman GF/F) and the filtrates were acidified to pH 2 with HCl. Dissolved organic matter (DOM) was solid phase extracted (SPE) using PPL cartridges (Agilent Bond Elut, 200 mg) and eluted with methanol. Extraction efficiencies (based on organic carbon yield) were 20-30% in the dispersant-amended treatments and 65-70%, in the oil-only and seawater-only treatments. The SPE-DOM molecular composition was analyzed using a 15 Tesla Solarix Fourier-transform ion cyclotron resonance mass spectrometer (FT-ICR-MS) (Bruker Daltonics) with an electrospray ionization (ESI) source run in negative mode (32). Negative ionization was chosen because DOSS and EHSS are anionic compounds that are readily analyzable in this mode. The detected compounds had molecular masses &lt;850 Da. Instrument settings and DOM molecular formulae assignment procedures were described previously (32). Molecular formulae were unambiguously assigned to peaks with signal-to-noise ratios &gt;4 as described by Koch et al. with a mass tolerance &lt;0.5 ppm and using stable carbon isotope confirmation. Normalized peak heights (relative to the sum of peak heights of all identified molecular formulae per sample) were used to assess changes in the DOM molecular composition in the incubations with changes being considered significant if p &lt;0.01 (two-sided paired Student&#x2019;s t-test, comparing triplicates, n = 3) of T0 with T4. For statistical testing we only considered the common 1205 molecular formulae that were detected in all T0 samples of the oil-only and oil-dispersants treatments. Applying this approach to the abiotic control samples proved that it was robust as no significant changes in the molecular DOM composition were detected when comparing T0 to T4. A second approach was applied to address how dispersant amendment changed the relative proportion of S-containing compounds in the DOM. In this analysis, a compound was considered to be produced (degraded) when it was absent (present) at the initial time point (T0) but present (absent) after four weeks (T4) of incubation. Molecular formulae were considered only when they were detected in at least two of the three replicates of the treatments. 3H-leucine incorporation Rates of bacterial protein synthesis were determined using 3H-leucine incorporation (38) in the triplicate samples for each treatment. For each triplicate series, a killed control (mixed sample of triplicates) and a replicate (n = 2; random sample) were analyzed. Subsamples were stored overnight at 4&#xB0;C before the 3H-leucine incorporation assays were conducted at 8&#xBA;C. A final concentration of 6-9 nmol L-1 (T0-T3: 6 nmol L-1, T4: 9 nmol L-1) 3H-leucine (specific activity of 60 Ci mmol-1) was achieved. 1.5 ml of sample were incubated for 1-6 h (T0: 6 h, T1: 1.5 h, T2-T4: 1 h) at 8&#xB0;C. Killed controls were amended with trichloroacetic acid (TCA; final concentration of 6.25% v/v TCA) prior to incubations and the incubations were terminated using the same procedure (final concentration of 6.25% v/v TCA). Subsequently, the samples were washed with 5% w/v TCA and then with 80% ethanol (39) with minor modifications: centrifugation of 30 min for first pelleting and the pellet was not resuspended afterwards. Finally, the dried pellets were resuspended in 1 ml Scintillation Cocktail (Scintisafe Gel; Fisher) and analyzed immediately using a Beckman LS 6500 multi-purpose scintillation counter. Rates of bacterial production were calculated according to Kirchman. 14C-hydrocarbon oxidation rates We selected two hydrocarbon classes, alkanes and PAHs, for direct determination of biodegradation rate because chemically distinct and PAHs are inherently toxic and mutagenic. Rates of 14C-hydrocarbon oxidation were determined in triplicates. For each series, a killed control (mixed sample of triplicates) and a replicate (n = 2; random sample) were analyzed. Subsamples were stored overnight at 4&#xB0;C before the 14C-hydrocarbon oxidation assays were conducted. 8 ml of sample was incubated in headspace free scintillation vials with teflon-coated stoppers and caps. [1-14C]-hexadecane (American Radiolabel Chemicals; ARC) and [1-14C]-naphthalene (ARC) were diluted in ethanol. Hexane was evaporated from the [1-14C]-hexadecane prior to ethanol dissolution using a slow argon stream. Tracer volumes per 8 ml samples were 10-20 &#x3BC;l to prevent ethanol inhibition (final ethanol concentration &#x2264; 0.2%; units of radioactivity per sample = 1.4&#xD7;103 Bq). Killed controls were transferred to a 15 ml tube and amended with 1 M NaOH solution (final concentration of 0.2 mM NaOH) prior to tracer addition and activity were halted with the same procedure (final concentration of 0.2 mM NaOH). Samples were incubated for 12-24 h (T0 and T1: 24 h, T2-T4: 12 h) at 8&#xB0;C. To remove tracer [1-14C]-hydrocarbons, 1 g of activated carbon (Sigma Aldrich) was added to the samples in the 15 ml tubes and the samples were mixed (shaker table, 100 rpm) horizontally for 5 h to allow absorption of the hydrocarbons to the activated carbon. Afterwards, microbial [1-14C]-hydrocarbons degradation was measured via the accumulation of oxidation product (14C-DIC), which was released by acid digestion: samples and activated carbon were transferred to a 250-ml flask. Sample tubes were rinsed with Milli-Q to remove residual sample and activated carbon. The rinse water was transferred to the flask of the appropriate sample, respectively. Each flask was sealed with a black rubber stopper fitted with a holder for 7-ml glass scintillation vials. Scintillation vials contained &#xBC; of a glass fiber filter (Whatman) and 2 ml of Carbo-Sorb (Perkin Elmer). Samples (~50 ml including rinse water) were acidified to pH 1 by the addition of 5 ml phosphoric acid (H3PO4 &#x2265;85 wt. % in H2O). Then, samples were shaken at room temperature for 6 h (100 rpm) to release and trap 14C-CO2. After sample distillation, 4.5 ml of Scintillation Cocktail (Scintisafe Gel; Fisher) was added to the scintillation vial and radioactivity was quantified using a Beckman 6500 liquid scintillation counter. The rate of hydrocarbon oxidation was calculated using: hydrocarbon oxidation rate = rate constant (per hour) &#xD7; &#xB5;g/L concentration &#xD7; fractionation factor. Enzyme activities Potential enzyme activities were measured using fluorogenic substrate analogs for lipase (4-MUF-butyrate; final concentration: 100 &#xB5;M), &#x3B2;-glucosidase (4-MUF-&#x3B2;-D-glucopyranoside; 200 &#xB5;M), and peptidase (L-leucine-MCA hydrochloride; 400 &#xB5;M; all from Sigma-Aldrich) to determine enzymatic degradation of lipids, carbohydrates, and peptides, respectively. Shortly after sampling, water was added to disposable methacrylate cuvettes containing individual fluorogenic substrate analogs at saturation levels (total incubation volume: 3 ml). Fluorescence was measured immediately afterwards in a clean cuvette, containing 1 ml of the water-substrate solution and 1 ml of borate buffer (20 nM; pH 9.2), using a Turner Biosystems TBS-380 fluorometer, with excitation/emission channels set to &#x201C;UV&#x201D; (365 nm excitation, 440-470 nm emission). All cuvettes were incubated in the dark at 8&#xB0;C, and fluorescence was measured two more times over the course of 24 hours. Fluorescence changes were calibrated using standard solutions of 4-methylumbelliferone and 4-methylcoumarin in pasteurized control water, and used to calculate hydrolysis rates (expressed in nmol L-1 h-1). Changes in fluorescence measured in abiotic controls were always minimal for &#x3B2;-glucosidase and peptidase. Abiotic hydrolysis of MUF-butyrate in AC-bottles was detectable at every sampling time, but was considerably lower compared to the live treatments. Transparent exopolymeric particle (TEP) analysis and documentation of macroscopic particles Transparent exopolymeric particles (TEPs) were quantified colorimetrically in 3 replicates per bottle by filtration onto 0.4 &#x3BC;m PC filters (Poretics) and subsequent staining with Alcian Blue. TEP was only measured in bottles without Corexit, because Corexit interferes with the stain. Values in samples with oil were corrected for interference from oil. The dye solution was calibrated using Gum Xanthan and TEP are expressed as Gum Xanthan equivalents per liter (GXeq L&#x2212;1). TEP determinations are semi-quantitative as the chemical composition of TEP varies, is complex and unknown, and variation between replicate measurements are high. The methodological coefficient of variation (standard deviation divided by average) between replicate measurements within each container in our experiments was usually &#x2264;10% and was always &#x2264;20%. Standard deviations were calculated from replicate containers. Macroscopically visible particles were monitored every 2-3 days. Pictures of marine snow formations were taken with an SLR camera (Canon 500 EOS equipped with a 18-55 mm lens). ||||16S rRNA gene sequences associated with this project are deposited with the NCBI Sequence Read Archive under Bioproject PRJNA253405. Further metadata associated with these sequencing libraries can be found under GRIIDC UDI R1.x132.135:0016</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[6300 Ocean Drive Unit 5869]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString/>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>xlsx</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString>zip</gco:CharacterString>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>0.065</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/R1.x132.135:0012</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>https</gco:CharacterString>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+</gmi:MI_Metadata>

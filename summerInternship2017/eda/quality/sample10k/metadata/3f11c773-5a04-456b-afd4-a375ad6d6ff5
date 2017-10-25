@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>https://coastalmap.marine.usgs.gov/metadata/arc_services/atl_slc_longterm.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2011</pubdate>
+        <title>USGS Map service: National Shoreline Change - Long-Term Shoreline Change Rates</title>
+        <edition>1.0</edition>
+        <geoform>digital maps</geoform>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://coastalmap.marine.usgs.gov/cmgp/rest/services/National/slc_LongTerm/MapServer</onlink>
+        <onlink>http://coastalmap.marine.usgs.gov/</onlink>
+        <onlink>http://coastalmap.marine.usgs.gov/cmgp/services/National/slc_LongTerm/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+Beach erosion is a chronic problem along most open-ocean shores of the United States. As coastal populations continue to grow, and community infrastructures are threatened by erosion, there is increased demand for accurate information regarding past and present shoreline changes. There is also need for a comprehensive analysis of shoreline movement that is regionally consistent. To meet these national needs, the USGS National Assessment of Shoreline Change Project has collected and analyzed a comprehensive database of digital vector shorelines by compiling shoreline positions from pre-existing historical shoreline databases and by generating historical and modern shoreline data.  
+
+This dataset consists of long-term (100+ years) shoreline change rates.  Rate calculations were computed using the Digital Shoreline Analysis System (DSAS), an ArcGIS extension developed by the U.S. Geological Survey.  Long-term rates of shoreline change were calculated using a linear regression rate based on all available shoreline data. A reference baseline was used as the originating point for the orthogonal transects cast by the DSAS software. The transects intersect each shoreline establishing measurement points, which are then used to calculate long-term rates.
+
+To make these results more accessible to the public and other agencies, the USGS created this web service.  This web service was created utilizing ESRI ArcServer.  This service meets open geospatial consortium standards.
+
+The data compilation used to derive the shoreline change rates is available in a service with the title USGS Map service: National Shoreline Change - Historic Shorelines by State. The reference baseline used to derive the shoreline change rates is available in a service with the title USGS Map service: National Shoreline Change - Offshore Baseline. The locations of the transects used in the change rate calculation are available in a service with the title USGS Map service: National Shoreline Change - Intersection Points.
+
+The geographic information system (GIS) data layers from this web service are cataloged by state for ease of access.
+</abstract>
+      <purpose>This GIS service provides users with online access to long-term shoreline change rates.</purpose>
+      <supplinf>Cross-referenced citations are applicable to the dataset as a whole.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>2010</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>2006</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>2004</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>Publication date for the individual publications comprising this service.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.73</westbc>
+        <eastbc>-66.97</eastbc>
+        <northbc>49.37</northbc>
+        <southbc>24.96</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category Codes</themekt>
+        <themekey>oceans</themekey>
+        <themekey>oceans and coastal</themekey>
+        <themekey>oceans and estuaries</themekey>
+        <themekey>geoscientificInformation</themekey>
+      </theme>
+      <theme>
+        <themekt>General</themekt>
+        <themekey>oceans</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Coastal and Marine Geology Program</themekey>
+        <themekey>CMGP</themekey>
+        <themekey>Woods Hole Coastal and Marine Science Center</themekey>
+        <themekey>WHCMSC</themekey>
+        <themekey>Earth Science</themekey>
+        <themekey>geology</themekey>
+        <themekey>geomorphology of the gulf coast region</themekey>
+        <themekey>geoscientific information</themekey>
+        <themekey>environment</themekey>
+        <themekey>shoreline</themekey>
+        <themekey>shoreline change</themekey>
+        <themekey>shoreline change rates</themekey>
+        <themekey>Geographic Information System</themekey>
+        <themekey>GIS</themekey>
+        <themekey>coastal change</themekey>
+        <themekey>digital vector shoreline</themekey>
+        <themekey>vector shorelines</themekey>
+        <themekey>national assessment</themekey>
+        <themekey>national assessment of shoreline change</themekey>
+        <themekey>national assessment of coastal change</themekey>
+        <themekey>beach</themekey>
+        <themekey>erosion</themekey>
+        <themekey>accretion</themekey>
+        <themekey>coastal land loss</themekey>
+        <themekey>Light Detection and Ranging</themekey>
+        <themekey>LIDAR derived shoreline</themekey>
+        <themekey>digital data</themekey>
+        <themekey>vector layers</themekey>
+      </theme>
+      <place>
+        <placekt>General</placekt>
+        <placekey>United States</placekey>
+        <placekey>Atlantic Ocean</placekey>
+        <placekey>Gulf of Mexico</placekey>
+        <placekey>Pacific Ocean</placekey>
+        <placekey>North America</placekey>
+        <placekey>Maine</placekey>
+        <placekey>New Hampshire</placekey>
+        <placekey>Massachusetts</placekey>
+        <placekey>Rhode Island</placekey>
+        <placekey>New York</placekey>
+        <placekey>New Jersey</placekey>
+        <placekey>Delaware</placekey>
+        <placekey>Maryland</placekey>
+        <placekey>Virginia</placekey>
+        <placekey>North Carolina</placekey>
+        <placekey>South Carolina</placekey>
+        <placekey>Georgia</placekey>
+        <placekey>Florida</placekey>
+        <placekey>Alabama</placekey>
+        <placekey>Mississippi</placekey>
+        <placekey>Louisiana</placekey>
+        <placekey>Texas</placekey>
+        <placekey>California</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>Public domain data from the U.S. Government are freely redistributable with proper metadata and source attribution. Please recognize the U.S. Geological Survey as the originator of the dataset.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>John O'Malley</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2340</cntvoice>
+        <cntemail>jomalley@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <crossref>
+      <citeinfo>
+        <origin>Robert A. Morton</origin>
+        <origin>Tara L. Miller</origin>
+        <origin>Laura J. Moore</origin>
+        <pubdate>2004</pubdate>
+        <title>National Assessment of Shoreline Change: Part 1, Historical Shoreline Changes and Associated Coastal Land Loss Along the U.S. Gulf of Mexico</title>
+        <edition>1.0</edition>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2004-1043</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>U.S. Geological Survey, Center for Coastal and Watershed Studies</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2004/1043/</onlink>
+        <onlink>http://coastal.er.usgs.gov/national-assessment/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Tara L. Miller</origin>
+        <origin>Robert A. Morton</origin>
+        <origin>Asbury H. Sallenger</origin>
+        <origin>Laura J. Moore</origin>
+        <pubdate>2004</pubdate>
+        <title>The National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the U.S. Gulf of Mexico</title>
+        <edition>1.0</edition>
+        <geoform>digital map</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2004-1089</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>U.S. Geological Survey, Center for Coastal and Watershed Studies, St. Petersburg, FL</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2004/1089/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Robert A. Morton</origin>
+        <origin>Tara Miller</origin>
+        <pubdate>2005</pubdate>
+        <title>National Assessment of Shoreline Change: Part 2, Historical Shoreline Changes and Associated Coastal Land Loss Along the U.S. Southeast Atlantic Coast</title>
+        <edition>1.0</edition>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2005-1401</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>U.S. Geological Survey, Center for Coastal and Watershed Studies</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2005/1401/</onlink>
+        <onlink>http://coastal.er.usgs.gov/shoreline-change/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Tara L. Miller</origin>
+        <origin>Robert A. Morton</origin>
+        <origin>Asbury H. Sallenger</origin>
+        <pubdate>2005</pubdate>
+        <title>The National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the U.S. Southeast Atlantic Coast</title>
+        <edition>1.0</edition>
+        <geoform>digital data</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2005-1326</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>U.S. Geological Survey, Center for Coastal and Watershed Studies, St. Petersburg, FL</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2005/1326/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Cheryl J. Hapke</origin>
+        <origin>David Reid</origin>
+        <origin>Bruce M. Richmond</origin>
+        <origin>Peter Ruggiero</origin>
+        <origin>Jeff List</origin>
+        <pubdate>2006</pubdate>
+        <title>National Assessment of Shoreline Change Part 3: Historical Shoreline Change and Associated Coastal Land Loss Along Sandy Shorelines of the California Coast</title>
+        <edition>1.0</edition>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2006-1219</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Pacific Science Center, Santa Cruz, CA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2006/1219/</onlink>
+        <onlink>http://coastal.er.usgs.gov/shoreline-change/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Cheryl Hapke</origin>
+        <origin>David Reid</origin>
+        <pubdate>2006</pubdate>
+        <title>National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the Sandy Shorelines of the California Coast</title>
+        <edition>1.0</edition>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2006-1251</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Pacific Science Center, Santa Cruz, CA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2006/1251/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Cheryl J. Hapke</origin>
+        <origin>Emily A. Himmelstoss</origin>
+        <origin>Meredith G. Kratzmann</origin>
+        <origin>Jeffrey H. List</origin>
+        <origin>E. Robert Thieler</origin>
+        <pubdate>2010</pubdate>
+        <title>National Assessment of Shoreline Change: Historical Shoreline Change along the New England and Mid-Atlantic Coasts</title>
+        <edition>1.0</edition>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2010-1118</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2010/1118/</onlink>
+        <onlink>http://coastal.er.usgs.gov/shoreline-change/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Emily A. Himmelstoss</origin>
+        <origin>Meredith G. Kratzmann</origin>
+        <origin>Cheryl Hapke</origin>
+        <origin>E. Robert Thieler</origin>
+        <origin>Jeffrey List</origin>
+        <pubdate>2010</pubdate>
+        <title>National Assessment of Shoreline Change: A GIS Compilation of Vector Shorelines and Associated Shoreline Change Data for the New England and Mid-Atlantic Coasts</title>
+        <edition>1.0</edition>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2010-1119</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole Coastal and Marine Science Center, Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey, Coastal and Marine Geology Program</publish>
+        </pubinfo>
+        <onlink>http://pubs.usgs.gov/of/2010/1119/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S.  Geological Survey</cntorg>
+          <cntper>John O'Malley</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2340</cntvoice>
+        <cntemail>jomalley@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Live Data and Maps</resdesc>
+    <distliab>
+Neither the U.S. Government, the Department of the Interior, nor the USGS, nor any of their employees, contractors, or subcontractors, make any warranty, express or implied, nor assume any legal liability or responsibility for the accuracy, completeness, or usefulness of any information, apparatus, product, or process disclosed, nor represent that its use would not infringe on privately owned rights. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the USGS in the use of these data or related materials. 
+
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Web Mapping Service (WMS)</formname>
+          <formvern>1.1.1</formvern>
+          <formspec>Open Geospatial Consortium Web Mapping Service (version varies)</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://coastalmap.marine.usgs.gov/cmgp/services/National/slc_LongTerm/MapServer/WMSServer?request=GetCapabilities&amp;service=WMS</networkr>
+              </networka>
+            </computer>
+            <accinstr>This maps getCapabilities file can be accessed using the URI provided.  Please see the OGC WMS specification for use details.</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ArcGIS Server REST</formname>
+          <formspec>ESRI ArcGIS Server REST API</formspec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://coastalmap.marine.usgs.gov/cmgp/rest/services/National/slc_LongTerm/MapServer</networkr>
+              </networka>
+            </computer>
+            <accinstr>RESTful access to this map using the handle provided</accinstr>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd Sync="TRUE">20140714</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>John O'Malley</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>Mailing and Physical</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543-1598</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-548-8700 x2340</cntvoice>
+        <cntemail>jomalley@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20040101</begdate>
+    <enddate>20101231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/https___coastalmap.marine.usgs.gov_metadata_arc_services_atl_slc_longterm.html</htmlurl>
+  </mercury>
+</metadata>

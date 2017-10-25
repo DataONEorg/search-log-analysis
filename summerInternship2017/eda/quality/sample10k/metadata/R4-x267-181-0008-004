@@ -1,0 +1,726 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>R4.x267.181-0008-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Richard McKenzie</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>University of South Florida</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>GIS Analyst</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>1-813-974-2852</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[4202 E. Fowler Ave.
+LIB122]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Tampa</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>Florida</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>33620</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>rwmcken2@usf.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2017-01-04T21:37:51+00:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/R4.x267.181:0008</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Associations of metal exposure in otoliths with lesion formation in offshore, northeastern Gulf of Mexico fishes collected after the Deepwater Horizon oil spill (2011-2013)</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString/>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2016-04-11</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>This dataset contains annual metal concentrations for the years 2009-2011 within the otoliths of six, offshore Gulf of Mexico fishes: Red Grouper, Epinephelus morio; Red Porgy, Pagrus pagrus; Red Snapper, Lutjanus campechanus; Southern Hake, Urophycis floridana; Tilefish, Lopholatilus chamaeleonticeps; and Yellowedge Grouper, Hyporthodus flavolimbatus. Fish were collected from the northeastern Gulf of Mexico, from approximately the Louisiana Shelf to the West Florida Shelf. For each sample, a suite of 9 isotopes was measured within fish otoliths: 24Mg, 51V, 53Cr, 57Fe, 59Co, 60Ni, 63Cu, 64Zn, and 208Pb. Annual metal concentrations were determined by averaging metal concentrations corresponding to the annual increment widths in fish otoliths from approximately 2009-2011, although the exact time periods for each species are based on the timing of otolith annulus deposition. Lifetime metal concentrations are given in the dataset as the mean of entire otolith profiles (i.e. from the core to the edge of an otolith) for an individual. The dataset additionally contains information on individual fish collection location, sex, age, species, collection year, and lesion status.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>This dataset was constructed to (1) examine patterns of short- and long-term oil-associated metal exposure within the otoliths of several offshore fish species in varying conditions, as indicated by the presence of external skin lesions, and (2) determine if there was a change in otolith oil-associated metal concentrations concurrent with the DWH oil spill. These objectives were addressed by analyzing the lifetime otolith chemistries of six offshore fish species collected in the GoM following the DWH oil spill.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Ernst Peebles</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>University of South Florida, College of Marine Science</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Associate Professor</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>1-727-553-3983</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[140 Seventh Ave South]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>St. Petersburg</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>FL</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>33701</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>epeebles@marine.usf.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Metal</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Otolith</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Lesion</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Deepwater Horizon</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Red Snapper</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Red Grouper</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Tilefish</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Yellowedge Grouper</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Red Porgy</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Southern Hake</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Louisiana Shelf</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>DeSoto Canyon</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>West Florida Shelf</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Offshore</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng;USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>biota</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    
+                    <gmd:geographicElement>
+                       <gmd:EX_GeographicBoundingBox>
+                           <gmd:westBoundLongitude>
+                               <gco:Decimal>-91.917</gco:Decimal>
+                           </gmd:westBoundLongitude>
+                           <gmd:eastBoundLongitude>
+                               <gco:Decimal>-82.28397</gco:Decimal>
+                           </gmd:eastBoundLongitude>
+                           <gmd:southBoundLatitude>
+                               <gco:Decimal>25.99528</gco:Decimal>
+                           </gmd:southBoundLatitude>
+                           <gmd:northBoundLatitude>
+                               <gco:Decimal>30.07507</gco:Decimal>
+                           </gmd:northBoundLatitude>
+                       </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement><gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="Multipoint1">
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point1">
+                                            <gml:pos srsDimension="2">25.99528 -82.83685</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point2">
+                                            <gml:pos srsDimension="2">26.12435 -82.28397</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point3">
+                                            <gml:pos srsDimension="2">27.27417 -84.5165</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point4">
+                                            <gml:pos srsDimension="2">27.883 -90.6</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point5">
+                                            <gml:pos srsDimension="2">27.9 -91.917</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point6">
+                                            <gml:pos srsDimension="2">27.96587 -84.5518</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point7">
+                                            <gml:pos srsDimension="2">28 -91.917</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point8">
+                                            <gml:pos srsDimension="2">28.0729 -84.4396</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point9">
+                                            <gml:pos srsDimension="2">28.08678 -84.41707</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point10">
+                                            <gml:pos srsDimension="2">28.08895 -84.43235</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point11">
+                                            <gml:pos srsDimension="2">28.12957 -90.71408</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point12">
+                                            <gml:pos srsDimension="2">28.183 -91.917</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point13">
+                                            <gml:pos srsDimension="2">28.2178 -90.5845</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point14">
+                                            <gml:pos srsDimension="2">28.21962 -90.64148</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point15">
+                                            <gml:pos srsDimension="2">28.42705 -90.59645</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point16">
+                                            <gml:pos srsDimension="2">28.58832 -89.47605</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point17">
+                                            <gml:pos srsDimension="2">28.65 -91.917</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point18">
+                                            <gml:pos srsDimension="2">28.7 -90</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point19">
+                                            <gml:pos srsDimension="2">28.8241 -89.5074</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point20">
+                                            <gml:pos srsDimension="2">28.8259 -84.9092</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point21">
+                                            <gml:pos srsDimension="2">28.84793 -89.55908</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point22">
+                                            <gml:pos srsDimension="2">28.8512 -89.4845</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point23">
+                                            <gml:pos srsDimension="2">28.90665 -89.51313</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point24">
+                                            <gml:pos srsDimension="2">28.98 -88.717</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point25">
+                                            <gml:pos srsDimension="2">29.02263 -85.62068</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point26">
+                                            <gml:pos srsDimension="2">29.0373 -88.7373</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point27">
+                                            <gml:pos srsDimension="2">29.04628 -85.78658</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point28">
+                                            <gml:pos srsDimension="2">29.08945 -89.67862</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point29">
+                                            <gml:pos srsDimension="2">29.1093 -88.876</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point30">
+                                            <gml:pos srsDimension="2">29.133 -88.4</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point31">
+                                            <gml:pos srsDimension="2">29.15542 -88.85173</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point32">
+                                            <gml:pos srsDimension="2">29.18783 -88.8863</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point33">
+                                            <gml:pos srsDimension="2">29.1904 -88.3738</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point34">
+                                            <gml:pos srsDimension="2">29.20202 -88.6015</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point35">
+                                            <gml:pos srsDimension="2">29.20462 -85.55067</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point36">
+                                            <gml:pos srsDimension="2">29.23108 -88.46688</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point37">
+                                            <gml:pos srsDimension="2">29.2355 -88.5522</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point38">
+                                            <gml:pos srsDimension="2">29.25433 -87.98228</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point39">
+                                            <gml:pos srsDimension="2">29.285 -88.0184</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point40">
+                                            <gml:pos srsDimension="2">29.28807 -87.97627</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point41">
+                                            <gml:pos srsDimension="2">29.30062 -88.00915</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point42">
+                                            <gml:pos srsDimension="2">29.30908 -87.99203</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point43">
+                                            <gml:pos srsDimension="2">29.3319 -87.69873</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point44">
+                                            <gml:pos srsDimension="2">29.4007 -87.48435</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point45">
+                                            <gml:pos srsDimension="2">29.4017 -87.5017</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point46">
+                                            <gml:pos srsDimension="2">29.4396 -89.69175</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point47">
+                                            <gml:pos srsDimension="2">29.4525 -88.6525</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point48">
+                                            <gml:pos srsDimension="2">29.46395 -87.42888</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point49">
+                                            <gml:pos srsDimension="2">29.48643 -86.67123</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point50">
+                                            <gml:pos srsDimension="2">29.4941 -86.6688</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point51">
+                                            <gml:pos srsDimension="2">29.5263 -87.393</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point52">
+                                            <gml:pos srsDimension="2">29.54817 -87.34473</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point53">
+                                            <gml:pos srsDimension="2">29.63375 -88.09093</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point54">
+                                            <gml:pos srsDimension="2">29.6419 -86.6586</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point55">
+                                            <gml:pos srsDimension="2">29.66605 -86.72095</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point56">
+                                            <gml:pos srsDimension="2">29.719 -86.619</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point57">
+                                            <gml:pos srsDimension="2">29.74143 -87.18693</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point58">
+                                            <gml:pos srsDimension="2">29.74837 -87.26218</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point59">
+                                            <gml:pos srsDimension="2">29.7552 -87.1885</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point60">
+                                            <gml:pos srsDimension="2">29.75747 -86.67655</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point61">
+                                            <gml:pos srsDimension="2">29.7755 -87.2089</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point62">
+                                            <gml:pos srsDimension="2">29.79072 -86.50825</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point63">
+                                            <gml:pos srsDimension="2">29.80088 -87.16825</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point64">
+                                            <gml:pos srsDimension="2">29.8086 -87.2252</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point65">
+                                            <gml:pos srsDimension="2">29.84845 -87.2553</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point66">
+                                            <gml:pos srsDimension="2">29.88348 -87.22172</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point67">
+                                            <gml:pos srsDimension="2">30.07507 -86.29888</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                </gml:MultiPoint>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>Ground Condition</gml:description>
+                                    <gml:beginPosition>2011-06-01</gml:beginPosition>
+                                    <gml:endPosition>2013-08-31</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Species name: E. morio = Red Grouper, Epinephelus morio; P. pagrus = Red Porgy, Pagrus pagrus; L. campechanus = Red Snapper, Lutjanus campechanus; U. floridana = Southern Hake, Urophycis floridana; L. chamaeleonticeps = Tilefish, Lopholatilus chamaeleonticeps; and H. flavolimbatus = Yellowedge Grouper, Hyporthodus flavolimbatus. Metal concentrations: Concentrations of all of the following metals in fish otoliths in parts per million (ppm): 24Mg, 51V, 53Cr, 57Fe, 59Co, 60Ni, 63Cu, 64Zn, and 208Pb. Fish ID: Specific identification code for each individual. Collection Year: Year during which the individual fish was collected. Transect: Location of fish collection from a specific transect in the Gulf of Mexico. Depth: Depth of fish collection (m) from the Gulf of Mexico. Location: Location of fish collection from the Gulf of Mexico where 1 = Louisiana Shelf, 2 = DeSoto Canyon, 3 = West Florida Shelf. Sex: Sex of the individual fish where M = male, F = female, and UI = unidentified gender. Lesioned: Lesion status of the individual fish where Y = lesioned and N = not lesioned. Age: Age of the individual fish as determined through an examination of the otolith. Analyte Year(s): Year(s) for which averaged metal concentrations are given, either 2009, 2010, 2011, or &#x2018;lifetime&#x2019;, which represents the entire lifetime of the individual. Lat and Long: Latitude and longitude (Dec D) of fish collections from the Gulf of Mexico.|Longline surveys were conducted during the summer months (June &#x2013; August) of the three years that followed the DWH oil spill (2011 &#x2013; 2013) to evaluate the occurrence of diseased fish in the GoM. Fish were collected at stations along transects in the region of the DWH oil spill and off the West Florida Shelf (Fig. 1). Each station was fished for 2 h using baited demersal long lines in an 8 km string at a depth of approximately 30-390 m. Collection location and year, transect number, and lesion status (external breaks in the integument or severe skin irritation unrelated to mechanical damage) were recorded for the target fish species. Both sagittal otoliths were extracted from a subsample of the target species at the time of capture and stored for later processing. Otoliths were ablated in a sealed chamber using a PhotonMachines Analyte.193 excimer UV laser ablation (LA) system. An Agilent 7500CX Quadrupole Inductively Coupled Plasma-Mass Spectrometer (ICP-MS) was used to analyze the ablated otolith material. For each sample, a suite of 9 isotopes was measured: 24Mg, 51V, 53Cr, 57Fe, 59Co, 60Ni, 63Cu, 64Zn, and 208Pb. 43Ca was also measured for use as an internal standard. These isotopes were selected for analysis because they are less likely to have inter-element isobaric interferences during analysis and they have been measured in the Macondo crude oil from the DWH oil spill. The LA-ICP-MS instrumentation was tuned prior to data collection by ablating a National Institute of Standards (NIST) 612 glass wafer. Background element concentrations were measured prior to otolith ablation by analyzing a gas blank for 60 seconds. Samples were externally calibrated by ablating a NIST 612 glass wafer two times for 60 seconds before and after each sample transect run. Ablation of otoliths occurred along a transect with a diameter of 64.1&#x3BC;m extending from the primordium to the edge of the otolith along the sulcal groove at a rate of between 1 and 20&#x3BC;m/s. In most cases, 1-2 pre-ablation transects preceded the transect that was used for data analysis. After each otolith was analyzed, the ICP-MS was allowed to run for 60 seconds to ensure all sample material was flushed from the system. After analysis with the LA-ICP-MS, each otolith was imaged using PAX-it imaging software and aged by two independent readers. Laser ablation transect length and annual increment widths were measured using ImageJ software. The limits of detection were calculated using the Fathom toolbox for Matlab as three times the standard deviation of a sample that contains zero analyte. Limits of detection were adjusted for each sample based on ablation yield estimates. Readings below detection limits were adjusted to zero. Mean metal concentrations (ppm) were calculated from counts-per-second data using the Fathom toolbox algorithms. Annual metal concentrations were determined by averaging metal concentrations corresponding to the annual increment widths from approximately 2009-2011, although the exact time periods for each species are based on the timing of otolith annulus deposition. Lifetime metal concentrations were represented as the mean of entire otolith profiles (i.e. from the core to the edge of an otolith) for an individual. |PhotonMachines Analyte.193 excimer UV laser ablation (LA) system, Agilent 7500CX Quadrupole Inductively Coupled Plasma-Mass Spectrometer (ICP-MS), and Class 100 metal-free laminar flow bench||The limits of detection were calculated using the Fathom toolbox for Matlab as three times the standard deviation of a sample that contains zero analyte. Limits of detection were adjusted for each sample based on ablation yield estimates. Readings below detection limits were adjusted to zero.|</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[6300 Ocean Drive
+Unit 5869]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString/>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>xlsx</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString/>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>0.19</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/R4.x267.181:0008</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString/>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Check and Save to File' (with form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-06-15T18:50:03+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Check and Save to File' (with form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-06-23T21:13:52+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

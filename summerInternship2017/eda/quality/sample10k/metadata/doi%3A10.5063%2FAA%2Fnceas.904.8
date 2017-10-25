@@ -1,0 +1,240 @@
+<?xml version="1.0"?>
+<eml:eml packageId="nceas.904.8" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=mbauer,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>POD! Fish- Resident Fishes</title>
+ <creator scope="document"> <organizationName>NCEAS 12192: Fleishman: Ecosystem analysis of pelagic organism declines in the Upper San Francisco Estuary</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Fred</givenName>
+ <surName>Feyrer</surName>
+ </individualName>
+ <organizationName>California Department of Water Resources (DWR)</organizationName>
+ <electronicMailAddress>ffeyrer@water.ca.gov</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Marissa</givenName>
+ <surName>Bauer</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Fred</givenName>
+ <surName>Feyrer</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <pubDate>2008-04-01</pubDate>
+ <abstract> <para>Boat electrofishing sampling of nearshore fishes within the San Francisco Bay-Estuary</para>
+ </abstract>
+ <intellectualRights> <para>Obtain permission from data set owner(s)</para>
+ </intellectualRights>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1980</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2003</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>San Francisco Bay-Estuary</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>122.3833</westBoundingCoordinate>
+ <eastBoundingCoordinate>122.3833</eastBoundingCoordinate>
+ <northBoundingCoordinate>38.0833</northBoundingCoordinate>
+ <southBoundingCoordinate>38.0833</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Fred</givenName>
+ <surName>Feyrer</surName>
+ </individualName>
+ <organizationName>California Department of Water Resources (DWR)</organizationName>
+ <electronicMailAddress>ffeyrer@water.ca.gov</electronicMailAddress>
+ </contact>
+ <dataTable id="1257877106098"><entityName>Resident Fish survey total catch 1995-2003.csv</entityName>
+<physical id="1257877104645"><objectName>Resident Fish survey total catch 1995-2003.csv</objectName>
+<size unit="byte">191943</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/mbauer.966.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1257877106114"><attributeName>Location</attributeName>
+<attributeDefinition>Station location number. Refer to 'Resident Fish survey station location information.csv' for more information</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station location number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877106130"><attributeName>Station Number</attributeName>
+<attributeDefinition>Station Number</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Station Number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877106145"><attributeName>Date</attributeName>
+<attributeDefinition>Date of survey</attributeDefinition>
+<measurementScale><dateTime><formatString>mm-dd-yyyy</formatString>
+<dateTimePrecision>0</dateTimePrecision>
+</dateTime>
+</measurementScale>
+</attribute>
+<attribute id="1257877106161"><attributeName>Species</attributeName>
+<attributeDefinition>Fish species code. Refer to 'Resident Fish survey fish species codes.csv' for more information</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Fish species code.</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877106176"><attributeName>Number</attributeName>
+<attributeDefinition>Number of fish caught</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>5647</numberOfRecords>
+</dataTable>
+<dataTable id="1257877373051"><entityName>Resident Fish survey station location information.csv</entityName>
+<physical id="1257877371942"><objectName>Resident Fish survey station location information.csv</objectName>
+<size unit="byte">1975</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/mbauer.967.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1257877373067"><attributeName>Location Number</attributeName>
+<attributeDefinition>Resident fish survey location number ID</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Resident fish survey location number ID</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877373083"><attributeName>Location Name</attributeName>
+<attributeDefinition>Resident fish survey location name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Resident fish survey location name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877373098"><attributeName>Quad Map</attributeName>
+<attributeDefinition>Quad map station is found on</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Quad map station is found on</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877373114"><attributeName>GPS Name1</attributeName>
+<attributeDefinition>Name of GPS coordinates</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Name of GPS coordinates</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877373130"><attributeName>GPS Name2</attributeName>
+<attributeDefinition>Name of GPS coordinates</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Name of GPS coordinates</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877373145"><attributeName>Fix</attributeName>
+<attributeDefinition>Fix</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Fix</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877373161"><attributeName>End</attributeName>
+<attributeDefinition>Location of end of survey</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Location of end of survey</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877373176"><attributeName>Comments</attributeName>
+<attributeDefinition>Comments</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Comments</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>22</numberOfRecords>
+</dataTable>
+<dataTable id="1257877505098"><entityName>Resident Fish survey fish species codes.csv</entityName>
+<physical id="1257877504301"><objectName>Resident Fish survey fish species codes.csv</objectName>
+<size unit="byte">1382</size>
+<dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+<recordDelimiter>#x0A</recordDelimiter>
+<attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/mbauer.968.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1257877505114"><attributeName>Species</attributeName>
+<attributeDefinition>Species code</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Species code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877505130"><attributeName>Common Name</attributeName>
+<attributeDefinition>Common Name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Common Name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1257877505145"><attributeName>Family Name</attributeName>
+<attributeDefinition>Family Name</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>Family Name</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+</attributeList>
+<numberOfRecords>45</numberOfRecords>
+</dataTable>
+</dataset>
+ </eml:eml>

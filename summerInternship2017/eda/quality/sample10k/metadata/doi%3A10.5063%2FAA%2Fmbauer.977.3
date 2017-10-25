@@ -1,0 +1,1055 @@
+<?xml version="1.0"?>
+<eml:eml packageId="mbauer.977.3" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>POD! nceas_data_one: Fish abundance measurements and related parameters used in first POD! Change Point and MAR analyses.</title>
+ <creator id="1260470780937" scope="document"> <individualName> <salutation>Mr.</salutation>
+ <givenName>Fred</givenName>
+ <surName>Feyrer</surName>
+ </individualName>
+ <organizationName>United States Bureau of Reclaimation</organizationName>
+ <positionName>Manager</positionName>
+ </creator>
+ <abstract> <para>These data were provided by Fred Feyrer on 29 April 2008. The data are intended for the change point and MAR analyses. The first sheet has the data and the second sheet has the definitions for each variable. The data sheet has 110 columns representing variables and 40 rows representing years (1967-2006). Because there are so many variables, Fred added columns indicating which variable is associated with which analysis (on the definition sheet). There is a column for every variable we discussed during the 7-11 April meeting at NCEAS with the exception of prickly sculpin. Fred looked at the data from the Bay Study and the catches were low and sparse enough that he didn't feel the information was meaningful. Fred included a few extra variables for the measures of fish abundance. Initially we decided to use average catch per trawl for age-0 fish that were collected in the fall midwater trawl survey. However, using age-0 actually limits the number of years available for analysis because not all fish were measured for length in all years. Accordingly, Fred also included total catch per trawl, which is available for all years when the survey was conducted. Fred also included the CA Dept Fish and Game Abundance Indices (age-0 and total) for the same species as a comparison. Most of these are correlated because the gear samples age-0 fish best. The point is that using total catch per trawl will increase sample size and likely provides a result very similar to using age-0 catch per trawl.
+Keywords:</para>
+ </abstract>
+ <keywordSet> <keyword>abundance</keyword>
+ </keywordSet>
+ <keywordSet> <keyword>CPUE</keyword>
+ </keywordSet>
+ <intellectualRights> <para>Public has read-only rights
+For other rights, contact the POC listed in the metadata</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>Upper San Franscisco Estuary</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-122.383</westBoundingCoordinate>
+ <eastBoundingCoordinate>-122.26</eastBoundingCoordinate>
+ <northBoundingCoordinate>38.383</northBoundingCoordinate>
+ <southBoundingCoordinate>-38.08</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1995</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2006</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1260470780937</references>
+ </contact>
+ <dataTable id="1260476401953" scope="document"> <entityName>nceas_data_one.csv</entityName>
+ <entityDescription>Fish abundance measurements and related parameters used in first POD! Change Point and MAR analyses</entityDescription>
+ <physical id="1260471798703" scope="document"> <objectName>nceas_data_one.csv</objectName>
+ <size unit="byte">25408</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.976.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1260476401968" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>Measurement Year</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476401984" scope="document"> <attributeName>Fall midwater trawl total abundance index for delta smelt calculated by CA Dept. Fish and Game</attributeName>
+ <attributeDefinition>Index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402000" scope="document"> <attributeName>Fall midwater trawl age-0 abundance index for delta smelt calculated by CA Dept. Fish and Game</attributeName>
+ <attributeDefinition>index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402015" scope="document"> <attributeName>ds_cpue</attributeName>
+ <attributeDefinition>Fall midwater trawl age-0 abundance index for delta smelt calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402031" scope="document"> <attributeName>ds_cpue_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for total delta smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402046" scope="document"> <attributeName>ds_cpue(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl average age-0 catch per trawl for delta smelt</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402062" scope="document"> <attributeName>ds_cpue(age-0)_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for age-0 delta smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402078" scope="document"> <attributeName>ls_index</attributeName>
+ <attributeDefinition>Fall midwater trawl total abundance index for longfin smelt calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402093" scope="document"> <attributeName>ls_index(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl age-0 abundance index for longfin smelt calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402109" scope="document"> <attributeName>ls_cpue</attributeName>
+ <attributeDefinition>Fall midwater trawl average total catch per trawl for longfin smelt</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402125" scope="document"> <attributeName>ls_cpue_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for total longfin smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402140" scope="document"> <attributeName>ls_cpue(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl average age-0 catch per trawl for longfin smelt</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402156" scope="document"> <attributeName>ls_cpue(age-0)_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for age-0 longfin smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402171" scope="document"> <attributeName>sb_index(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl age-0 abundance index for striped bass smelt calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402187" scope="document"> <attributeName>sb_cpue(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl average age-0 catch per trawl for striped bass smelt</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402203" scope="document"> <attributeName>sb_cpue(age-0)_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for age-0 striped bass smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402218" scope="document"> <attributeName>ts_index</attributeName>
+ <attributeDefinition>Fall midwater trawl total abundance index for threadfin shad smelt calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402234" scope="document"> <attributeName>ts_index(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl age-0 abundance index for threadfin shad smelt calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402250" scope="document"> <attributeName>ts_cpue</attributeName>
+ <attributeDefinition>Fall midwater trawl average total catch per trawl for threadfin shad smelt</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402265" scope="document"> <attributeName>ts_cpue_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for total threadfin shad smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402281" scope="document"> <attributeName>ts_cpue(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl average age-0 catch per trawl for threadfin shad smelt</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402296" scope="document"> <attributeName>ts_cpue(age-0)_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for age-0 threadfin shad smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402312" scope="document"> <attributeName>as_index</attributeName>
+ <attributeDefinition>Fall midwater trawl total abundance index for American shad smelt calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402328" scope="document"> <attributeName>as_index(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl age-0 abundance index for American shad smelt calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402343" scope="document"> <attributeName>as_cpue</attributeName>
+ <attributeDefinition>Fall midwater trawl average total catch per trawl for American shad smelt</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402359" scope="document"> <attributeName>as_cpue_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for total American shad smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402375" scope="document"> <attributeName>as_cpue(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl average age-0 catch per trawl for American shad smelt</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402390" scope="document"> <attributeName>as_cpue(age-0)_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for age-0 American shad smelt catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402406" scope="document"> <attributeName>st_index</attributeName>
+ <attributeDefinition>Fall midwater trawl total abundance index for splittail calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402421" scope="document"> <attributeName>st_index(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl age-0 abundance index for splittail calculated by CA Dept. Fish and Game</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402437" scope="document"> <attributeName>st_cpue</attributeName>
+ <attributeDefinition>Fall midwater trawl average total catch per trawl for splittail</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402453" scope="document"> <attributeName>st_cpue_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for total splittail catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402468" scope="document"> <attributeName>st_cpue(age-0)</attributeName>
+ <attributeDefinition>Fall midwater trawl average age-0 catch per trawl for splittail</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402484" scope="document"> <attributeName>st_cpue(age-0)_se</attributeName>
+ <attributeDefinition>Fall midwater trawl one standard error for age-0 splittail catch per trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402500" scope="document"> <attributeName>na_cpue</attributeName>
+ <attributeDefinition>Average May-October total catch per trawl for Northern anchovy in the San Francisco Bay Study Midwater Trawl for stations with salinity ranging  from 2-15ppt (low salinity zone)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402515" scope="document"> <attributeName>na_cpue_se</attributeName>
+ <attributeDefinition>One standard error for total Northern anchovy catch per trawl May-October in the San Francisco Bay Study Midwater Trawl for stations with salinity ranging  from 2-15ppt (low salinity zone)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402531" scope="document"> <attributeName>yg_cpue</attributeName>
+ <attributeDefinition>Average May-August total catch per trawl for yellowfin goby in the San Francisco Bay Study Midwater Trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402546" scope="document"> <attributeName>yg_cpue_se</attributeName>
+ <attributeDefinition>One standard error for May-October yellowfin goby total catch per trawl in the San Francisco Bay Study Midwater Trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402562" scope="document"> <attributeName>yg_cpue(age-0)</attributeName>
+ <attributeDefinition>Average May-August age-0 catch per trawl for yellowfin goby in the San Francisco Bay Study Midwater Trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402578" scope="document"> <attributeName>yg_cpue(age-0)_se</attributeName>
+ <attributeDefinition>One standard error for May-October yellowfin goby age-0 catch per trawl in the San Francisco Bay Study Midwater Trawl</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402593" scope="document"> <attributeName>is_cpue</attributeName>
+ <attributeDefinition>Average catch per seine haul of inland silverside in the USWFS survey during July-September (for stations within the delta)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402609" scope="document"> <attributeName>is_cpue_se</attributeName>
+ <attributeDefinition>One standard error for inland silverside catch per seine haul</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402625" scope="document"> <attributeName>lb_cpue</attributeName>
+ <attributeDefinition>Average catch per seine haul of largemouth bass in the USWFS survey during July-September (for stations within the delta)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402640" scope="document"> <attributeName>lb_cpue_se</attributeName>
+ <attributeDefinition>One standard error for largemouth bass catch per seine haul</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402656" scope="document"> <attributeName>clam</attributeName>
+ <attributeDefinition>Binary variable for presence (1) or absence (0).  1967-1986 is absent (0), 1987-2006 is present (1).</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402671" scope="document"> <attributeName>x2</attributeName>
+ <attributeDefinition>Average February-March position of the 2ppt isohaline (X2) measured in kilometers upstream from the Golden Gate Bridge</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402687" scope="document"> <attributeName>x2_se</attributeName>
+ <attributeDefinition>One standard error for February-March position of the 2ppt isohaline (X2) measured in kilometers upstream from the Golden Gate Bridge</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402703" scope="document"> <attributeName>exports</attributeName>
+ <attributeDefinition>Total volume of water (cubic meters) exported by the CVP and SWP during February-May.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402718" scope="document"> <attributeName>ds_hab</attributeName>
+ <attributeDefinition>Habitat index for delta smelt.  Numbers are the average probability of occurrence for delta smelt based upon generalized additive modeling of the Fall midwater trawl survey data set.  The model is based on specific conductance and secchi depth.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402734" scope="document"> <attributeName>ds_hab_se</attributeName>
+ <attributeDefinition>One standard error for the delta smelt habitat index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402750" scope="document"> <attributeName>ls_hab</attributeName>
+ <attributeDefinition>Habitat index for longfin smelt.  Numbers are the average probability of occurrence for delta smelt based upon generalized additive modeling of the Fall midwater trawl survey data set.  The model is based on specific conductance, temperature and secchi depth.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402765" scope="document"> <attributeName>ls_hab_se</attributeName>
+ <attributeDefinition>One standard error for the longfin smelt habitat index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402781" scope="document"> <attributeName>sb_hab</attributeName>
+ <attributeDefinition>Habitat index for striped bass.  Numbers are the average probability of occurrence for delta smelt based upon generalized additive modeling of the Fall midwater trawl survey data set.  The model is based on specific conductance and secchi depth.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402796" scope="document"> <attributeName>sb_hab_se</attributeName>
+ <attributeDefinition>One standard error for the striped bass habitat index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402812" scope="document"> <attributeName>ts_hab</attributeName>
+ <attributeDefinition>Habitat index for threadfin shad.  Numbers are the average probability of occurrence for delta smelt based upon generalized additive modeling of the Fall midwater trawl survey data set.  The model is based on specific conductance and temperature.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402828" scope="document"> <attributeName>ts_hab_se</attributeName>
+ <attributeDefinition>One standard error for the threadfin shad habitat index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402843" scope="document"> <attributeName>as_hab</attributeName>
+ <attributeDefinition>Habitat index for American shad.  Numbers are the average probability of occurrence for delta smelt based upon generalized additive modeling of the Fall midwater trawl survey data set.  The model is based on specific conductance, temperature and secchi depth.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402859" scope="document"> <attributeName>as_hab_se</attributeName>
+ <attributeDefinition>One standard error for the American shad habitat index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>integer</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402875" scope="document"> <attributeName>st_hab</attributeName>
+ <attributeDefinition>Habitat index for splittail.  Numbers are the average probability of occurrence for delta smelt based upon generalized additive modeling of the Fall midwater trawl survey data set.  The model is based on specific conductance and secchi depth.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402890" scope="document"> <attributeName>sat_hab_se</attributeName>
+ <attributeDefinition>One standard error for the splittail habitat index</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402906" scope="document"> <attributeName>spcond</attributeName>
+ <attributeDefinition>Average specific conductance (micro-siemens/cm) for the Fall midwater trawl survey</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402921" scope="document"> <attributeName>spcond_se</attributeName>
+ <attributeDefinition>One standard error for specific conductance (micro-siemens/cm) for the Fall midwater trawl survey</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402937" scope="document"> <attributeName>secchi</attributeName>
+ <attributeDefinition>Average secchi depth (meters) for the Fall midwater trawl survey</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402953" scope="document"> <attributeName>secchi_se</attributeName>
+ <attributeDefinition>One standard error for specific conductance (micro-siemens/cm) for the Fall midwater trawl survey</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402968" scope="document"> <attributeName>temp</attributeName>
+ <attributeDefinition>Average water temperature (celsius) for the Fall midwater trawl survey</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476402984" scope="document"> <attributeName>temp_se</attributeName>
+ <attributeDefinition>One standard error for water temperature (celsius) for the Fall midwater trawl survey</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403000" scope="document"> <attributeName>pdo</attributeName>
+ <attributeDefinition>May value for PDO</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403015" scope="document"> <attributeName>sb_eggs</attributeName>
+ <attributeDefinition>Estimated striped bass egg supply. X 10^12</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403031" scope="document"> <attributeName>sb_eggs_var</attributeName>
+ <attributeDefinition>Variance of estimated egg supply. X 10^12</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403046" scope="document"> <attributeName>na_temp</attributeName>
+ <attributeDefinition>Average water temperature (celsius) for the period concurrent with that described above for northern anchovy (surface value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403062" scope="document"> <attributeName>na_temp_se</attributeName>
+ <attributeDefinition>Average water temperature (celsius) for the period concurrent with that described above for northern anchovy (surface value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403078" scope="document"> <attributeName>na_spcond</attributeName>
+ <attributeDefinition>Average specific conductance (millisiemens/cm) for the period concurrent with that described above for northern anchovy (surface value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403093" scope="document"> <attributeName>na_spcond_se</attributeName>
+ <attributeDefinition>One standard error of specific conductance (millisiemens/cm) for the period concurrent with that described above for northern anchovy (surface value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403109" scope="document"> <attributeName>na_secchi</attributeName>
+ <attributeDefinition>Average secchi depth (meters) for the period concurrent with that described above for northern anchovy (surface value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403125" scope="document"> <attributeName>na_secchi_se</attributeName>
+ <attributeDefinition>One standard error of secchi depth (meters) for the period concurrent with that described above for northern anchovy (surface value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403140" scope="document"> <attributeName>yg_temp</attributeName>
+ <attributeDefinition>Average water temperature (celsius) for the period concurrent with that described above for yellowfin goby (bottom value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403156" scope="document"> <attributeName>yg_temp_se</attributeName>
+ <attributeDefinition>One standard error of water temperature (celsius) for the period concurrent with that described above for yellowfin goby (bottom value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403171" scope="document"> <attributeName>yg_spcond</attributeName>
+ <attributeDefinition>Average specific conductance (millisiemens/cm) for the period concurrent with that described above for yellowfin goby (bottom value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403187" scope="document"> <attributeName>yg_spcond_se</attributeName>
+ <attributeDefinition>One standard error of specific conductance (millisiemens/cm) for the period concurrent with that described above for yellowfin goby (bottom value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403203" scope="document"> <attributeName>yg_secchi</attributeName>
+ <attributeDefinition>Average secchi depth (meters) for the period concurrent with that described above for yellowfin goby (bottom value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403218" scope="document"> <attributeName>yg_secchi_se</attributeName>
+ <attributeDefinition>One standard error of secchi depth (meters) for the period concurrent with that described above for yellowfin goby (bottom value)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403234" scope="document"> <attributeName>tssed</attributeName>
+ <attributeDefinition>Total suspended sediment (mg/L)- average July-September at station D4</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403250" scope="document"> <attributeName>tssed_se</attributeName>
+ <attributeDefinition>One standard error of total suspended sediment</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403265" scope="document"> <attributeName>chl_sp_fw</attributeName>
+ <attributeDefinition>Average mg CHL /m-3 during Spring (March-May) in freshwater (&lt; 0.5)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403281" scope="document"> <attributeName>chl_sp_ls</attributeName>
+ <attributeDefinition>Average mg CHL /m-3 during Spring (March-May) low salinity zone (.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403296" scope="document"> <attributeName>chl_su_fw</attributeName>
+ <attributeDefinition>Average mg CHL /m-3 during Summer (June-October) in freshwater (&lt; 0.5)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403312" scope="document"> <attributeName>chl_su_ls</attributeName>
+ <attributeDefinition>Average mg CHL /m-3 during Summer (June-October) low salinity zone (.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403328" scope="document"> <attributeName>p_fw_lim</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of limnoithona copepodites and adults during Spring (March-May) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403343" scope="document"> <attributeName>p_fw_cal</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of calanoid copepodites and adults during Spring (March-May) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403359" scope="document"> <attributeName>p_fw_nau</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of copepod nauplii during Spring (March-May) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403375" scope="document"> <attributeName>p_fw_clad</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of cladocera during Spring (March-May) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403390" scope="document"> <attributeName>p_fw_rot</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of rotifers during Spring (March-May) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403406" scope="document"> <attributeName>p_fw_oth</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of other (not including crab and barnacle larvae, cumaceans) during Spring (March-May) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403421" scope="document"> <attributeName>p_ls_lim</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of limnoithona copepodites and adults during Spring (March-May) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403437" scope="document"> <attributeName>p_ls_cal</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of calanoid copepodites and adults during Spring (March-May) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403453" scope="document"> <attributeName>p_ls_nau</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of copepod nauplii during Spring (March-May) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403468" scope="document"> <attributeName>p_ls_clad</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of cladocera during Spring (March-May) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403484" scope="document"> <attributeName>p_ls_rot</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of rotifers during Spring (March-May) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403500" scope="document"> <attributeName>p_ls_oth</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of other (not including crab and barnacle larvae, cumaceans) during Spring (March-May) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403515" scope="document"> <attributeName>s_fw_lim</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of limnoithona copepodites and adults during Summer (June-October) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403531" scope="document"> <attributeName>s_fw_cal</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of calanoid copepodites and adults during Summer (June-October) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403546" scope="document"> <attributeName>s_fw_nau</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of copepod nauplii during Summer (June-October) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403562" scope="document"> <attributeName>s_fw_clad</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of cladocera during Summer (June-October) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403578" scope="document"> <attributeName>s_fw_rot</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of rotifers during Summer (June-October) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403593" scope="document"> <attributeName>s_fw_oth</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) f other (not including crab and barnacle larvae, cumaceans) during Summer (June-October) in freshwater</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403609" scope="document"> <attributeName>s_ls_lim</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of limnoithona copepodites and adults during Summer (June-October) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403625" scope="document"> <attributeName>s_ls_cal</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of calanoid copepodites and adults during Summer (June-October) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403640" scope="document"> <attributeName>s_ls_nau</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of copepod nauplii during Summer (June-October) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403656" scope="document"> <attributeName>s_ls_clad</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of cladocera during Summer (June-October) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403671" scope="document"> <attributeName>s_ls_rot</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of rotifers during Summer (June-October) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1260476403687" scope="document"> <attributeName>s_ls_oth</attributeName>
+ <attributeDefinition>Average biomass (mg C m-3) of other (not including crab and barnacle larvae, cumaceans) during Summer (June-October) in the low salinity zone (0.5-10 ppt)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>41</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

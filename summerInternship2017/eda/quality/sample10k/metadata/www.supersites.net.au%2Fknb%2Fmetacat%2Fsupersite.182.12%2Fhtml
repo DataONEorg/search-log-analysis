@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/supersite.182.12/html" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+    <dataset scope="document">
+        <title>Soil Physico-Chemical Data, Victorian Dry Eucalypt SuperSite, Whroo, Core 1 ha, 2015</title>
+        <creator id="1438291174489" scope="document">
+            <individualName>
+                <salutation>Professor</salutation>
+                <givenName>Jason</givenName>
+                <surName>Beringer</surName>
+            </individualName>
+            <organizationName>University of Western Australia</organizationName>
+            <address scope="document">
+                <deliveryPoint>School of Earth and Environment</deliveryPoint>
+                <city>Crawley</city>
+                <administrativeArea>WA</administrativeArea>
+                <postalCode>6009</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">08 6488 2527</phone>
+            <electronicMailAddress>jason.beringer@uwa.edu.au</electronicMailAddress>
+        </creator>
+        <creator id="1438291288865" scope="document">
+            <individualName>
+                <givenName>Ian</givenName>
+                <surName>McHugh</surName>
+            </individualName>
+            <organizationName>Monash University</organizationName>
+            <positionName>Technical Officer</positionName>
+            <address scope="document">
+                <deliveryPoint>School of Earth, Atmosphere and Environment</deliveryPoint>
+                <city>Clayton</city>
+                <administrativeArea>Vic</administrativeArea>
+                <postalCode>3800</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">03 9905 4624</phone>
+            <electronicMailAddress>ian.mchugh@monash.edu</electronicMailAddress>
+        </creator>
+        <associatedParty id="1438292301547">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>Shaun</givenName>
+                <surName>Cummingham</surName>
+            </individualName>
+            <organizationName>Deakin University</organizationName>
+            <role>Content Provider</role>
+        </associatedParty>
+        <pubDate>2015-08-03</pubDate>
+        <abstract>
+            <para>This data package contains the results of physico-chemical soil analyses for the Whroo node of the Victorian Dry Eucalypt Supersite. Two separate analyses were undertaken: one for the soil pit co-located with the tower, and another for a set of soil cores taken at designated points within the core reference grid. The pit was dug with an excavator to a depth of 1.6m (bedrock level) and samples were taken from the face of the pit at depths commensurate with identifiable layers. This analysis was undertaken in March 2015, and both field and subsequent lab work (pre-preparation) was undertaken by a contracted professional soil scientist. With the exception of bulk density and gravimetric soil moisture, physical and chemical analyses were undertaken externally by a professional laboratory (Environmental Analysis Laboratory, Southen Cross University). The second analysis was undertaken in 2013, and samples were bulked from a nine-sample strategy (for each of two depths[0-10, 10-30cm]; see Supersite Protocol documents for details), then prepared and externally analysed.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>soil physico-chem</keyword>
+            <keyword>Whroo</keyword>
+            <keyword>Victorian Dry Eucalypt</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0501</keyword>
+            <keyword>0502</keyword>
+            <keyword>0503</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under Creative Commons - Attribution 4.0 International. The licence allows others copy, distribute, display, and perform the work and derivative works based upon it provided that they credit the original source and any other nominated parties.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/supersite.182.12/html</url>
+            </online>
+        </distribution>
+        <coverage scope="document">
+            <geographicCoverage scope="document">
+                <geographicDescription>Whroo goldfields region northeast (approximately 20km) of Nagambie, Victoria</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>145.02843</westBoundingCoordinate>
+                    <eastBoundingCoordinate>145.029247</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-36.672</northBoundingCoordinate>
+                    <southBoundingCoordinate>-36.673215</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage scope="document">
+                <singleDateTime>
+                    <calendarDate>2015-03-25</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <contact scope="document">
+            <references>1438291288865</references>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Soil core collection</title>
+                        <para>Nine cores (50 mm diameter; 0-10 cm and 10-30 cm depth) were taken in core plot from geo-referenced locations on the corners  (4) of the vegetation plot, equidistant from corners (4) and  a single geo-referenced core from the centre of the  plot (1).  These 9 cores were bulked according to depth. Soils were stored in a refrigerator prior to analysis in the laboratory.</para>
+                        <para>Additionally, a large pit was dug to bedrock (1.6m) using an excavator, and a full soil analysis undertaken for the identified layers.</para>
+                    </section>
+                </description>
+                <instrumentation>Excavator, shovels, Core, measuring tape, hammer, Ziploc bags</instrumentation>
+            </methodStep>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Data preparation</title>
+                        <para>Soils were dried and sieved to 2 mm diameter then sent to a professional laboratory for analysis.</para>
+                    </section>
+                </description>
+                <instrumentation>Drying oven, grinder, 2 mm sieve</instrumentation>
+            </methodStep>
+        </methods>
+        <dataTable id="1438295412409">
+            <entityName>asn_vicd_soil_chem_whroo_core_1ha_20150325.csv</entityName>
+            <entityDescription>Soil Physico-Chem, Whroo Core 1 ha, 2015</entityDescription>
+            <physical id="1438292707188">
+                <objectName>asn_vicd_soil_chem_whroo_core_1ha_20150325.csv</objectName>
+                <size unit="byte">1875</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/supersite.182.12/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1438295412425">
+                    <attributeName>date</attributeName>
+                    <attributeDefinition>Date samples were collected</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>yyyy-mm-dd</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412441">
+                    <attributeName>site</attributeName>
+                    <attributeDefinition>Bulked cores or soil pit</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>site</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412456">
+                    <attributeName>location_lat</attributeName>
+                    <attributeDefinition>Latitude (tower)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>degree</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412472">
+                    <attributeName>location_long</attributeName>
+                    <attributeDefinition>Longitude (tower)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>degree</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412487">
+                    <attributeName>depth</attributeName>
+                    <attributeDefinition>Depth range of layer</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>centimeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412503">
+                    <attributeName>horizon</attributeName>
+                    <attributeDefinition>Soil horizon</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>horizon</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412519">
+                    <attributeName>dry_bulk_density</attributeName>
+                    <attributeDefinition>dry bulk density</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>gramsPerCubicCentimeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412534">
+                    <attributeName>grav_water_cont</attributeName>
+                    <attributeDefinition>Gravimetric water content</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>gramsPerGram</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412550">
+                    <attributeName>volumetric_water_content</attributeName>
+                    <attributeDefinition>Volumetric water content</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>cubicCentimetersPerCubicCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412566">
+                    <attributeName>coarse_sand (&gt;50um)</attributeName>
+                    <attributeDefinition>Coarse sand</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412581">
+                    <attributeName>fine_sand (20-50um)</attributeName>
+                    <attributeDefinition>Fine sand</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412597">
+                    <attributeName>silt</attributeName>
+                    <attributeDefinition>Silt</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412612">
+                    <attributeName>clay</attributeName>
+                    <attributeDefinition>Clay</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412628">
+                    <attributeName>organic_c</attributeName>
+                    <attributeDefinition>Total organic carbon</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412644">
+                    <attributeName>total_c</attributeName>
+                    <attributeDefinition>Total carbon</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412659">
+                    <attributeName>total_n</attributeName>
+                    <attributeDefinition>Total nitrogen</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milligramsPerKilogram</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412675">
+                    <attributeName>total_p</attributeName>
+                    <attributeDefinition>Total phosphorus</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milligramsPerKilogram</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412691">
+                    <attributeName>ec</attributeName>
+                    <attributeDefinition>Electrical conductivity (dS/m)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>siemen</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412706">
+                    <attributeName>exc_ca</attributeName>
+                    <attributeDefinition>Cation exchange capacity Calcium (meq/100g)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milliequivalentPer100grams</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412722">
+                    <attributeName>exc_mg</attributeName>
+                    <attributeDefinition>Cation exchange capacity Magnesium (meq/100g)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milliequivalentPer100grams</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412737">
+                    <attributeName>exc_k</attributeName>
+                    <attributeDefinition>Cation exchange capacity Potassium (meq/100g)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milliequivalentPer100grams</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412753">
+                    <attributeName>exc_na</attributeName>
+                    <attributeDefinition>Cation exchange capacity Sodium (meq/100g)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milliequivalentPer100grams</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412769">
+                    <attributeName>exc_al</attributeName>
+                    <attributeDefinition>Cation exchange capacity Aluminium (meq/100g)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milliequivalentPer100grams</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412784">
+                    <attributeName>pH_calcium_chloride</attributeName>
+                    <attributeDefinition>pH level (CaCl2)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>pH</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412800">
+                    <attributeName>k_colwell</attributeName>
+                    <attributeDefinition>Potassium Colwell (mg/Kg)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milligramsPerKilogram</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412816">
+                    <attributeName>dtpa_cu</attributeName>
+                    <attributeDefinition>"DTPA (diethylenetriam inepentaacetic acid) extractable Copper (mg/Kg)"</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milligramsPerKilogram</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412831">
+                    <attributeName>dtpa_fe</attributeName>
+                    <attributeDefinition>"DTPA (diethylenetriam inepentaacetic acid) extractable Iron (mg/Kg)"</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milligramsPerKilogram</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412847">
+                    <attributeName>dtpa_mn</attributeName>
+                    <attributeDefinition>"DTPA (diethylenetriam inepentaacetic acid) extractable Manganese (mg/Kg)"</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milligramsPerKilogram</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412862">
+                    <attributeName>dtpa_zn</attributeName>
+                    <attributeDefinition>"DTPA (diethylenetriam inepentaacetic acid) extractable Zinc (mg/Kg)"</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>milligramsPerKilogram</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1438295412878">
+                    <attributeName>mineral_n</attributeName>
+                    <attributeDefinition>Mineralisable Nitrogen</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>number</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>7</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="Percentage" multiplierToSI="0.01" name="Percentage" parentSI="number" unitType="ratios">
+                    <description>per cent</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="milligramsPerKilogram" name="milligramsPerKilogram" parentSI="gramsPerGram" unitType="massPerMass">
+                    <description>milligramsPerKilogram</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="milliequivalentPer100grams" name="milliequivalentPer100grams" parentSI="molesPerCubicMeter" unitType="amountOfSubstanceConcentration">
+                    <description>milliequivalentPer100grams</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <qualityControl timestamp="2015-08-03T00:16:18.308Z" username="mchugh"/>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="pH" name="pH" parentSI="number" unitType="ph">
+                    <description>pH</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

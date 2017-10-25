@@ -1,0 +1,2905 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/nhd_bgeol.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Michael E. Wieczorek</origin>
+        <origin>Andrew E. LaMotte</origin>
+        <pubdate>2010</pubdate>
+        <title>Attributes for NHDPlus Catchments (Version 1.1) in the Conterminous United States: Bedrock Geology</title>
+        <geoform>tabular digital data</geoform>
+        <serinfo>
+          <sername>Digital Data Series</sername>
+          <issue>DS-490-05</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?nhd_bgeol</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set represents the area of bedrock geology types in square meters compiled for every catchment of NHDPlus for the conterminous United States. The source data set is the "Geology of the Conterminous United States at 1:2,500,000 Scale--A Digital Representation of the 1974 P.B. King and H.M. Beikman Map" (Schuben and others, 1994).  
+
+The NHDPlus Version 1.1 is an integrated suite of application-ready geospatial datasets that incorporates many of the best features of the National Hydrography Dataset (NHD) and the National Elevation Dataset (NED). The NHDPlus includes a stream network (based on the 1:100,00-scale NHD), improved networking, naming, and value-added attributes (VAAs). NHDPlus also includes elevation-derived catchments (drainage areas) produced using a drainage enforcement technique first widely used in New England, and thus referred to as "the New England Method." This technique involves "burning in" the 1:100,000-scale NHD and when available building "walls" using the National Watershed Boundary Dataset (WBD). The resulting modified digital elevation model (HydroDEM) is used to produce hydrologic derivatives that agree with the NHD and WBD. Over the past two years, an interdisciplinary team from the U.S. Geological Survey (USGS), and the U.S. Environmental Protection Agency (USEPA), and contractors, found that this method produces the best quality NHD catchments using an automated process (USEPA, 2007). The NHDPlus dataset is organized by 18 Production Units that cover the conterminous United States.
+
+The NHDPlus version 1.1 data are grouped by the U.S. Geologic Survey's  Major River Basins (MRBs, Crawford and others, 2006).  MRB1, covering the New England and Mid-Atlantic River basins, contains NHDPlus Production Units 1 and 2.  MRB2, covering the South Atlantic-Gulf and Tennessee River basins, contains NHDPlus Production Units 3 and 6.  MRB3, covering the Great Lakes, Ohio, Upper Mississippi, and Souris-Red-Rainy River basins, contains NHDPlus Production Units 4, 5, 7 and 9.  MRB4, covering the Missouri River basins, contains NHDPlus Production Units 10-lower and 10-upper.  MRB5, covering the Lower Mississippi, Arkansas-White-Red, and Texas-Gulf River basins, contains NHDPlus Production Units 8, 11 and 12.  MRB6, covering the Rio Grande, Colorado and Great Basin River basins, contains NHDPlus Production Units 13, 14, 15 and 16.  MRB7, covering the Pacific Northwest River basins, contains NHDPlus Production Unit 17.  MRB8, covering California River basins, contains NHDPlus Production Unit 18.</abstract>
+      <purpose>This spatial data set was created and used by the U.S. Geological Survey (USGS) specifically to estimate bedrock geology per watershed segment in the application of the national SPAtially Referenced Regression On Watershed attributes (SPARROW) model . The SPARROW model relates in-stream water-quality measurements to spatially referenced characteristics of watersheds, including contaminant sources and factors influencing terrestrial and stream transport. The model empirically estimates the origin and fate of contaminants in streams, and quantifies uncertainties in these estimates based on model coefficient error and unexplained variability in the observed data. For more information on the USGS SPARROW model please refer to: http://water.usgs.gov/nawqa/sparrow/intro/intro.html.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2002</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>
+-127.910792</westbc>
+        <eastbc>
+-65.327751</eastbc>
+        <northbc>
+51.657387</northbc>
+        <southbc>
+23.243486</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Bedrock Geology</themekey>
+        <themekey>Inlandwaters</themekey>
+        <themekey>NHDPlus</themekey>
+        <themekey>Catchment</themekey>
+        <themekey>NAWQA</themekey>
+        <themekey>SPARROW</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Conterminous United States</placekey>
+        <placekey>MRB</placekey>
+        <placekey>Major River Basin</placekey>
+        <placekey>MRB1</placekey>
+        <placekey>NEMA</placekey>
+        <placekey>New England and Mid-Atlantic</placekey>
+        <placekey>MRB2</placekey>
+        <placekey>SAGT</placekey>
+        <placekey>South Atlantic-Gulf and Tennessee</placekey>
+        <placekey>MRB3</placekey>
+        <placekey>GLMR</placekey>
+        <placekey>Great Lakes, Ohio, Upper Mississippi, and Souris-Red-Rainy</placekey>
+        <placekey>MRB4</placekey>
+        <placekey>MORI</placekey>
+        <placekey>Missouri</placekey>
+        <placekey>MRB5</placekey>
+        <placekey>LMTG</placekey>
+        <placekey>Lower Mississippi, Arkansas-White-Red, and Texas-Gulf</placekey>
+        <placekey>MRB6</placekey>
+        <placekey>COGB</placekey>
+        <placekey>Rio Grande, Colorado, and Great Basin</placekey>
+        <placekey>MRB7</placekey>
+        <placekey>PANW</placekey>
+        <placekey>Pacific Northwest</placekey>
+        <placekey>MRB8</placekey>
+        <placekey>CALI</placekey>
+        <placekey>California</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Michael E. Wieczorek</cntper>
+          <cntorg>US Geological Survey, Maryland Water Science Center</cntorg>
+        </cntperp>
+        <cntpos>Geographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>5522 Research Park Drive</address>
+          <city>Baltimore</city>
+          <state>MD</state>
+          <postal>21228</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>443-498-5550</cntvoice>
+        <cntfax></cntfax>
+        <cntemail>mewieczo@usgs.gov</cntemail>
+        <hours>8:00am-4:30pm MST</hours>
+        <cntinst>Please contact thru email</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/nhd_bgeol.jpg</browsen>
+      <browsed>Illustration of the dataset</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 3; ESRI ArcCatalog 9.3.1.3000</native>
+    <crossref>
+      <citeinfo>
+        <origin>Charles G. Crawford</origin>
+        <origin>Pixie A. Hamilton</origin>
+        <origin>Anne B. Hoos</origin>
+        <pubdate>October 5, 2006</pubdate>
+        <title>National Water-Quality Assessment Program--Modifications to the Status and Trends Network and Assessments of Streams and Rivers</title>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>Prepared by Charlie Crawford, Pixie Hamilton, and Anne Hoos for a NAWQA National Liaison Meeting, Washington D.C., October 5, 2006</othercit>
+        <onlink>http://water.usgs.gov/nawqa/studies/mrb/mrb_factsheet.pdf</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <logic>None</logic>
+    <complete>None</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for New England (Hydrologic Region 01)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/NewEngland/NHDPlus01V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 1.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Mid-Atlantic (Hydrologic Region 02)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/MidAtlantic/NHDPlus02V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 1.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the South-Atlantic Gulf (Hydrologic Region 03)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/SouthAtlanticGulf/NHDPlus03V01_02_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 2.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Great Lakes (Hydrologic Region 04)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/GreatLakes/NHDPlus04V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 3.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Mississippi (Hydrologic Regions 05)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Mississippi/NHDPlus05V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 3.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Mississippi (Hydrologic Region 06)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Mississippi/NHDPlus06V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 2.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Mississippi (Hydrologic Region 07)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Mississippi/NHDPlus07V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 3.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Mississippi (Hydrologic Region 08)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Mississippi/NHDPlus08V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 5.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Souris-Red-Rainy (Hydrologic Region 09)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/SourisRedRainy/NHDPlus09V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 3.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Mississippi (Hydrologic Region 10, Lower Missouri River)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Mississippi/NHDPlus10LV01_02_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 4.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Mississippi (Hydrologic Region 10, Upper Missouri River)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Mississippi/NHDPlus10UV01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 4.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Mississippi (Hydrologic Region 11)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Mississippi/NHDPlus11V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 5.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Texas Gulf (Hydrologic Region 12)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/TexasGulf/NHDPlus12V01_02_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 5.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Rio Grande (Hydrologic Region 13)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/RioGrande/NHDPlus13V01_02_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 6.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Colorado (Hydrologic Region 14)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Colorado/NHDPlus14V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 6.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Colorado (Hydrologic Region 15)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/Colorado/NHDPlus15V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 6.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Great Basin (Hydrologic Region 16)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/GreatBasin/NHDPlus16V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 6.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for the Pacific Northwest (Hydrologic Region 17)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/PacificNorthwest/NHDPlus17V01_02_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 7.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection</origin>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2007</pubdate>
+            <title>NHDPlus Catchments ( Version 1.1) for California (Hydrologic Region 18)</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>ftp://ftp.horizon-systems.com/NHDPlus/NHDPlusV1/California/NHDPlus18V01_01_Catshape.zip</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2007</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>NHD</srccitea>
+        <srccontr>The source data provided catchments for basin characterization for MRB 8.  COMID is the unique item in NHDPlus that relates to the dbf files containing artificial drainage information.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Schuben, Paul G.</origin>
+            <origin>Arndt, Raymond E.</origin>
+            <origin>Bawiec, Walter J.</origin>
+            <origin>King, Phillip B.</origin>
+            <origin>Beikman, Helen M.</origin>
+            <pubdate>1994</pubdate>
+            <title>Geology of the Conterminous United States at 1:2,500,000 Scale--A Digital Representation of the 1974 P.B. King and H.M. Beikman Map</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>Digital Data Series</sername>
+              <issue>DDS-11 (Release 2)</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/dds/dds11/kb.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1994</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>bgeol</srccitea>
+        <srccontr>The source data provided information on bedrock geology.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>1) Downloaded the polygon coverage of bedrock geology (BGEOL) from https://pubs.usgs.gov/dds/dds11/kb.html
+
+2) Converted the polygon coverage into a 30-meter GRID to match  the resolution of the NHDPlus catchment GRIDs downloaded from http://www.horizon-systems.com/nhdplus.
+
+3) Summarized the area of each bedrock geology type per catchment by using the COMBINE command in GRID.  The COMBINE command combines the geology and catchment GRIDs into one GRID.  The resulting GRID automatically tables the area of each geology type per catchment.
+
+4) Exported results into a dbf file format.</procdesc>
+        <procdate>2008</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <indspref>COMID code</indspref>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+bgeol</enttypl>
+        <enttypd>dbf tabular data</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COMID</attrlabl>
+        <attrdef>Unique ID to relate to the NHDPlus catchments</attrdef>
+        <attrdefs>NHDPlus</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_1</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is water</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_2</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Holocene</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_3</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Pleistocene</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_4</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Quaternary</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_5</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Quaternary Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_6</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Quaternary Felsic Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_7</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Pliocene</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_8</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Pliocene Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_9</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Pliocene Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_10</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Pliocene Felsic Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_11</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Miocene</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_12</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Miocene Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_13</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Miocene and Oligocene Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_14</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Tertiary Andesite</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_15</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Tertiary Intrusive Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_16</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Oligocene</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_17</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Oligocene Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_18</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Oligocene and Eocene Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_19</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Miocene volcanic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_20</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Miocene Felsic Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_21</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Eocene Jackson Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_22</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Eocene Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_23</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Eocene Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_24</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Tertiary Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_25</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Tertiary Felsic Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_26</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Eocene Claiborne Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_27</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Eocene</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_28</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Eocene Marine Pillow Basalt</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_29</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Tertiary Andesite</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_30</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Eocene Wilcox Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_31</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Eocene Lacustrine</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_32</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Paleocene</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_33</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Paleocene Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_34</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Navarro Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_35</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Taylor Group (Montana Group, unseparated)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_36</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Taylor Group (Montana Group, separated-a: In the Montana plains, separated into uK3a and b at base of Judith River Formation)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_37</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Latest Cretaceous Granitic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_38</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Taylor Group (Montana Group, separated-b: In the Montana plains, separated into uK3a and b at base of Judith River Formation)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_39</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Austin and Eagle Ford Groups</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_40</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Cretaceous Granitic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_41</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Cretaceous</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_42</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cretaceous Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_43</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cretaceous Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_44</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cretaceous Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_45</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cretaceous Granitic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_46</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Woodbine and Tuscaloosa Groups</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_47</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cretaceous Border Gneiss of Idaho Batholith</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_48</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Washita Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_49</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Fredericksburg Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_50</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Cretaceous</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_51</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Cretaceous Granitic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_52</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cretaceous Intrusive Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_53</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Trinity Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_54</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Mesozoic Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_55</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Jurassic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_56</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Jurassic Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_57</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Mesozoic Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_58</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Jurassic Granitic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_59</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Jurassic Mafic Intrusives</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_60</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Jurassic and Upper Triassic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_61</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Mesozoic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_62</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Mesozoic Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_63</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Mafic Lava interbedded in Triassic Newark Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_64</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Triassic Granitic Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_65</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Triassic Mafic Intrusives</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_66</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Triassic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_67</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Triassic and Permian Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_68</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Ochoan Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_69</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper part of Guadalupian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_70</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Guadalupian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_72</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower part of Guadalupian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_73</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Permian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_74</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Permian Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_75</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper part of Leonardian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_76</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Ultramafic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_77</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower part of Leonardian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_78</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Leonardian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_79</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Early Leonardian Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_80</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Wolfcampian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_81</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Wolfcampian Series Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_82</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cataclastic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_83</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Virgilian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_84</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Paleozoic Granitic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_85</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Missourian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_86</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Des Moinesian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_87</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Pennsylvanian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_88</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Schist and Phyllite</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_89</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Atokan and Morrowan Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_90</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Paleozoic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_91</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Paleozoic Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_92</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Felsic Paragneiss and Schist</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_93</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Atokan and Morrowan Series, Jackfork Sandstone</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_94</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Paleozoic Clastic Wedge Facies</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_95</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: mafic paragneiss (hornblendite, amphibolite)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_96</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Migmatite</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_97</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Chesterian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_98</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Paleozoic Mafic Intrusives</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_99</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: felsic orthogneiss (=granite geniss)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_100</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Meramecian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_101</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Mississippian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_102</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Osagean and Kinderhookian Series</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_103</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Devonian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_104</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Devonian Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_105</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Middle Paleozoic Granitic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_106</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Middle Devonian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_107</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Devonian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_108</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Middle Devonian Continental</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_109</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Devonian Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_110</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Devonian Volcanic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_111</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Devonian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_112</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Devonian and Silurian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_113</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Devonian and Silurian Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_114</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Devonian and Silurian Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_115</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Silurian Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_116</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Silurian Volcanic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_117</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Silurian (Cayugan)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_118</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Middle Silurian (Niagaran)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_119</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Silurian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_120</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Paleozoic Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_121</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Silurian (Alexandrian)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_122</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Silurian and Ordovician Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_123</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Upper Ordovician (Cincinnatian)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_124</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Paleozoic</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_125</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Middle Ordovician (Mohawkian)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_126</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Ordovician</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_127</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Ordovician Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_128</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Ordovician Volcanic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_129</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Paleozoic Granitic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_130</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Ordovician (Canadian, undivided)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_131</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Ordovician (Canadian, divided-a, in the Ozark Plateau of Missouri divided into O1a and b at base of Jefferson City Dolomite)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_132</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Ordovician (Canadian, divided-b, in the Ozark Plateau of Missouri divided into O1a and b at base of Jefferson City Dolomite)</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_133</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Lower Ordovician and Cambrian Carbonate Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_134</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cambrian</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_135</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cambrian Eugeosynclinal</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_136</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cambrian Volcanics</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_137</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Cambrian Granitic Rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_138</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Basal Lower Cambrian Clastic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_139</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Z sedimentary rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_140</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Z granitic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_141</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Z volcanic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_142</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Missoula Group</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_143</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Y sedimentary rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_144</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Y volcanic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_145</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Younger Y granitic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_146</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Syenite</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_147</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Paragneiss and Schist</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_148</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Wallace, Siyeh and Helena Formations</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_149</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Anorthosite</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_150</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Ravalli Group and Prichard Formation</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_151</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Older Y granitic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_152</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Mafic Intrusives</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_153</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: Orthogneiss</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_154</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: X metasedimentary rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_155</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: X volcanic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_156</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: X granitic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_157</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: X Orthogneiss and Paragneiss</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_158</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: W metasedimentary rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_159</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: W volcanic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_160</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: W granitic rocks</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_161</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: W mafic intrusives</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_162</attrlabl>
+        <attrdef>Estimated area, in square meters, of bedrock geology for each catchment that is described by the rock type: W Orthogneiss and Paragneiss</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BASIN_AREA</attrlabl>
+        <attrdef>Area of catchment</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>900.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NODATA_ARE</attrlabl>
+        <attrdef>Area of catchment that source GRID does not cover</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>67847760000.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COV_PERC</attrlabl>
+        <attrdef>Percent of catchment that source GRID covers</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>100.0</rdommax>
+            <attrunit>Percentage</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BGEOL_AREA</attrlabl>
+        <attrdef>Area of catchment that source GRID covers</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.0</rdommin>
+            <rdommax>9899175300.0</rdommax>
+            <attrunit>Square meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>Virginia</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>Although this dataset has been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+
+Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the U.S. Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>dbf</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>5284 KB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/nhd_bgeol_mrb1.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>dbf</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>12204 KB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/nhd_bgeol_mrb2.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>dbf</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>13034 KB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/nhd_bgeol_mrb3.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>dbf</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>11975 KB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/nhd_bgeol_mrb4.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>dbf</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>10815 KB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/nhd_bgeol_mrb5.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>dbf</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>9485 KB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/nhd_bgeol_mrb6.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>dbf</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>6511 KB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/nhd_bgeol_mrb7.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>dbf</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>3895KB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/nhd_bgeol_mrb8.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by the USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20100817</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>Virginia</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+nhd_bgeol</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20020101</begdate>
+    <enddate>20021231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_nhd_bgeol.html</htmlurl>
+  </mercury>
+</metadata>

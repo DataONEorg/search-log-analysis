@@ -1,0 +1,663 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>R1.x138.078-0034-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Christoph Aeppli</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Bigelow Laboratory for Ocean Sciences</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Senior Research Scientist</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>+1 207-315-2567 ext. 317</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[Bigelow Laboratory for Ocean Sciences 
+60 Bigelow Drive
+PO Box 380]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>East Boothbay</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>ME</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>04544</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>caeppli@bigelow.org</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Christopher Reddy</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Woods Hole Oceanographic Institution</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Senior Scientist</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>508-289-2316</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>Mailstop 04</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Woods Hole</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>MA</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>02543</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>creddy@whoi.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2016-01-14T16:20:55-06:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/R1.x138.078:0034</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Petroleum biomarkers in oiled samples collected in the Gulf of Mexico 2010 - 2012</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString/>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2016-01-11</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Analysis of petroleum biomarker was used to identify Macondo Well (MW) oil in samples collected in the Gulf of Mexico. To this end, oiled samples were collected in the Gulf of Mexico during April 2010 through August 2012. This sample set comprises MW oil collected from the well on June 21, 2010, surface slicks and oiled floating Deepwater Horizon debris samples collected on the sea surface during the spill, and samples washed on beaches (oil-soaked sand samples or &#x201C;sand patties&#x201D;, oil samples scraped off rocks or &#x201C;rock scrapings&#x201D;, and sand-free asphalt pieces &#x201C;tar balls&#x201D;). Sand patties, rock scrapings, and asphalt pieces were extracted in dichloromethane (DCM) and methanol (90/10 v/v). All samples were dissolved in DCM or DCM/methanol at concentrations of 10&#x2212;50 mg mL&#x2212;1 for analysis on GCxGC-FID (two-dimensional comprehensive gas chromatography with flame ionization detector).</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>To identify Macondo Well oil in samples collected throughout the Gulf of Mexico.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Christoph Aeppli</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Bigelow Laboratory for Ocean Sciences</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Senior Research Scientist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>+1 207-315-2567 ext. 317</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[Bigelow Laboratory for Ocean Sciences 
+60 Bigelow Drive
+PO Box 380]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>East Boothbay</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>ME</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>04544</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>caeppli@bigelow.org</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Christopher Reddy</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Woods Hole Oceanographic Institute</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Senior Scientist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>508-289-2316</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>Mailstop 04</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Woods Hole</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>MA</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>02543</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>creddy@whoi.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>petroleum biomarkers</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>two-dimensional comprehensive gas chromatography</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>GCxGC-FID</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>alkanes</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>PAHs</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf of Mexico</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng; USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-90.4948</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-87.3892</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>28.4083</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>34.2404</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="Multipoint1">
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point1">
+                                            <gml:pos srsDimension="2">30.2407 -87.7374</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point2">
+                                            <gml:pos srsDimension="2">29.9555 -88.8248</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point3">
+                                            <gml:pos srsDimension="2">29.9717 -88.8303</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point4">
+                                            <gml:pos srsDimension="2">29.95 -88.82</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point5">
+                                            <gml:pos srsDimension="2">30.2872 -87.4811</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point6">
+                                            <gml:pos srsDimension="2">30.2874 -87.4806</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point7">
+                                            <gml:pos srsDimension="2">30.2876 -87.4793</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point8">
+                                            <gml:pos srsDimension="2">30.2405 -87.7374</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point9">
+                                            <gml:pos srsDimension="2">30.2405 -87.7375</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point10">
+                                            <gml:pos srsDimension="2">30.2244 -88.0113</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point11">
+                                            <gml:pos srsDimension="2">30.2244 -88.011</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point12">
+                                            <gml:pos srsDimension="2">30.236 -88.1199</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point13">
+                                            <gml:pos srsDimension="2">29.1751 -90.0756</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point14">
+                                            <gml:pos srsDimension="2">29.175 -90.0756</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point15">
+                                            <gml:pos srsDimension="2">30.2885 -87.4771</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point16">
+                                            <gml:pos srsDimension="2">30.2884 -87.4772</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point17">
+                                            <gml:pos srsDimension="2">30.2468 -87.6931</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point18">
+                                            <gml:pos srsDimension="2">30.2404 -87.7376</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point19">
+                                            <gml:pos srsDimension="2">34.2403 -87.7373</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point20">
+                                            <gml:pos srsDimension="2">34.2403 -87.7374</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point21">
+                                            <gml:pos srsDimension="2">30.3045 -87.3892</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point22">
+                                            <gml:pos srsDimension="2">30.2318 -88.8964</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point23">
+                                            <gml:pos srsDimension="2">30.2352 -88.8892</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point24">
+                                            <gml:pos srsDimension="2">34.2404 -87.7368</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point25">
+                                            <gml:pos srsDimension="2">34.2404 -87.7369</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point26">
+                                            <gml:pos srsDimension="2">30.3114 -89.2502</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point27">
+                                            <gml:pos srsDimension="2">29.2628 -89.9492</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point28">
+                                            <gml:pos srsDimension="2">30.2821 -89.3685</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point29">
+                                            <gml:pos srsDimension="2">29.2308 -89.9922</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point30">
+                                            <gml:pos srsDimension="2">28.72 -88.3954</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point31">
+                                            <gml:pos srsDimension="2">28.4083 -88.4055</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point32">
+                                            <gml:pos srsDimension="2">29.2088 -89.0244</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point33">
+                                            <gml:pos srsDimension="2">28.74 -88.38</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point34">
+                                            <gml:pos srsDimension="2">29.8333 -87.8833</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point35">
+                                            <gml:pos srsDimension="2">29.2945 -90.4948</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point36">
+                                            <gml:pos srsDimension="2">29.2694 -90.4072</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point37">
+                                            <gml:pos srsDimension="2">30.241 -88.125</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point38">
+                                            <gml:pos srsDimension="2">29.2309 -89.9922</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point39">
+                                            <gml:pos srsDimension="2">29.1754 -90.0748</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point40">
+                                            <gml:pos srsDimension="2">29.175 -90.076</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                </gml:MultiPoint>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>ground condition</gml:description>
+                                    <gml:beginPosition>2010-05-07</gml:beginPosition>
+                                    <gml:endPosition>2012-08-31</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Sample ID; Sample type (sand patty, surface slick, rock scraping, tar ball, or crude oil); Sample Name; Collection date (M-D-YR); GPS latitude (decimal degrees); GPS Longitude (decimal degrees); biomarker abbreviation; biomarker compound (hopanes, steranes/diasteranes, triaromatic steroids, n-alkanes/isoprenoids, polycyclic aromatic hydrocarbons); biomarker integration height|Beside MW oil and field samples, five reference crude oils were analyzed: (i) a surrogate for MW oil provided by BP, produced from the Marlin Platform on Viosca Knoll lease block 915 (VK915),located 60 km NE of the MW; (ii) the EPA- API reference WP#681 Southern Louisiana Sweet crude (SLSC);(iii) crude oil from Eugene Island lease block 330 (EI330), located 340 km W of the MW; (iv) the petroleum standard reference material (SRM) 1582 from the National Institute of Standards and Technology (NIST), which is a Wilmington crude from the Monterey formation; and (v) cargo oil from the Exxon Valdez (EVC). GCxGC-FID peak integration results (peak heights) are given for select biomarker compounds, alkanes, and PAHs.||||</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[6300 Ocean Drive
+Unit 5869]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString/>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>excel</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString/>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>0.03</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/R1.x138.078:0034</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString/>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was automatically generated by the GRIIDC Metadata Generator from DIF and Registry information provided to GRIIDC for dataset: R1.x138.078:0034 on 2016-01-11T21:14:58+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was created using the 'Check and Save to File' (with form validation) function of the GRIIDC ISO 19115-2 Metadata Editor on 2016-01-13T18:50:47+00:00</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

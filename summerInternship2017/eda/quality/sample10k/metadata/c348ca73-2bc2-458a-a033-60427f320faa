@@ -1,0 +1,674 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/states2m.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Negri, M.</origin>
+        <pubdate>1994</pubdate>
+        <title>1:2,000,000-scale state boundaries of the conterminous United States</title>
+        <geoform>Digital Data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?states2m</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This coverage is of the state boundaries of the conterminous United
+States.  It was derived from the Digital Line Graph (DLG) files
+representing the 1:2,000,000-scale map in the National Atlas of the
+United States.
+
+Boundaries
+United States
+			</abstract>
+      <purpose>This coverage is intended as a basemap for a variety of
+applications.
+			</purpose>
+      <supplinf>Procedures_Used:
+This series of maps was published as part of the National Atlas of
+the United States (USGS, 1970).  The maps for the conterminous
+United States were digitized in 15 sheets and published in the
+Digital Line Graph (DLG) format as described by Domeratz and others
+(1983).
+
+First, land polygon types were RESELECTed from COUNTY2M, then a DISSOLVE
+on the item ST was run.
+
+See the narrative for COUNTY2M for more information.
+
+Revisions:
+Process_Step  Rev 1.0
+Remove second label point from Virginia (mainland polygon).  mnegri
+Process_Date  2/27/96
+Reviews_Applied_to_Data:
+This coverage has received no formal review.  It has, however, been
+used in numerous applications where serious errors would have been
+obvious.  Some state coverages were corrected following such use.
+The offshore polygon extensions and the Canadian Great Lakes
+polygons have had no review.
+
+Related_Spatial_and_Tabular_Data_Sets:
+This coverage is part of series of 1:2,000,000-scale basemaps
+covering the United States.  Layers in this set include:
+
+COUNTY -- County boundaries.
+STATE -- State boundaries (formed from COUNTY).
+WATERBOD -- Water Bodies.
+STREAM -- Streams.
+HUC -- Hydrologic cataloging units (basins).
+
+Other_References_Cited:
+Domeratz, M. A., Hallam, C. A., Schmidt, W. E., and Calkins, H. W.,
+1983.  USGS Digitral Cartographic Data Standards: Digital Line
+Graphs from 1:2,000,000-scale Maps.  U.S. Geological Survey
+Circular 895-D, 38p.
+
+U. S. Geological Survey, 1970.  National atlas of the United States
+of America: Washington D.C., U. S. Geological Survey, 417p.
+
+Notes:
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1994</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>1994
+			</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-127.87106262</westbc>
+        <eastbc>-65.35692717</eastbc>
+        <northbc>48.2441996</northbc>
+        <southbc>22.87753347</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>State boundaries of the conterminous United States</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Conterminous United States</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>None</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>None</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>The original files for this map were provided in 15 sections.
+Boundaries near the edges of sections have been adjusted in
+edgematching.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Water Resources Div. (WRD)</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>I.T. Specialist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>MS 445</address>
+          <address>12201 Sunrise Valley Drive</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>h2oteam@usgs.gov</cntemail>
+        <hours>8:00am-4:30pm MST</hours>
+        <cntinst>Please contact thru email</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/states2m.gif</browsen>
+      <browsed>Illlustration of data set</browsed>
+      <browset>GIF</browset>
+    </browse>
+    <datacred>U.S Geological Survey</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>dgux, 5.4R3.10, AViiON UNIX, ARC/INFO version 7.0.4</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity_Attribute_Information</attraccr>
+      <qattracc>
+        <attraccv>See Explanation</attraccv>
+        <attracce>Attribute accuracy is described, where present, with each
+attribute defined in the Entity and Attribute Section.
+				</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Polygon and chain-node topology present.</logic>
+    <complete>(Information in wordy narrative form describing omissions,
+selection criteria, generalization, definitions used, and other
+rules applied to derive the data set)
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>(An explanation of the accuracy of the horizontal coordinate
+measurements and a description of tests used, if any, to
+determine horizontal positional accuracy.  This is different
+from horizontal resolution as reported in the DOC file.
+Positional accuracy defines how correctly the digital features
+match real-world features and woiuld be related to the concept
+of the National Map Accuracy Standard -- xx% of well-defined
+point features fall within xx units of their true position.
+The resolution is the smallest unit of measure the GIS can
+reliably manage without truncation or rounding.)
+				</horizpar>
+        <qhorizpa>
+          <horizpav>approx. 1 km</horizpav>
+          <horizpae>Resolution as reported</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>(The same as above, but for vertical information that may
+be encoded with the 2-D features such as cell or contour
+estimates of a vertical dimension.  A description of the
+contour interval of input data and its basis could be described
+here.)
+				</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Unspecified</origin>
+            <pubdate>0000</pubdate>
+            <title>Unspecified</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>1:2,000,000</srcscale>
+        <typesrc>Unspecified</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>0000</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Unspecified</srccurr>
+        </srctime>
+        <srccitea>Unspecified</srccitea>
+        <srccontr>Unspecified</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>DISSOLVE STATES2M STATES2MD ST</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920526</procdate>
+        <proctime>1006</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>RENAME STATES2MD STATES2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920526</procdate>
+        <proctime>1031</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT STATES2M UPDATE MNEGRI</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920526</procdate>
+        <proctime>1050</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>RENAME STATES2M STATES2MX</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920526</procdate>
+        <proctime>1056</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY /DSDL/DATALIB/CUSA/TILES/CUSA/STATES2MX STATES2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920526</procdate>
+        <proctime>1056</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>ARCEDIT /DSDL/DATALIB/CUSA/TILES/CUSA/STATES2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920526</procdate>
+        <proctime>1422</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD STATES2M POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920526</procdate>
+        <proctime>1424</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>DOCUMENT STATES2M UPDATE MNEGRI</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920526</procdate>
+        <proctime>1440</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>IMPORT COVER STATES2M.E00 STATES2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920930</procdate>
+        <proctime>0235</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>COPY STATES2M /DSDL1/CUSA/TILES/CUSA/STATES2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19920930</procdate>
+        <proctime>0250</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXTERNALALL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930106</procdate>
+        <proctime>1112</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXTERNALALL</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930106</procdate>
+        <proctime>1115</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXPORT COVER /DSDL1/CUSA/TILES/CUSA/STATES2M STATES2M.E00</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930113</procdate>
+        <proctime>1053</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>BUILD /DSDL1/CUSA/TILES/CUSA/STATES2M LINE</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930623</procdate>
+        <proctime>1636</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>FOOTPRINT /DSDL1/CUSA/TILES/CUSA/STATES2M COMPLEX STATES2M.FOOT FOOTPRINT</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930623</procdate>
+        <proctime>1652</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXPORT COVER /DSDL1/CUSA/TILES/CUSA/STATES2M STATES2M_CUSA.E00</procdesc>
+        <srcused>None</srcused>
+        <procdate>19930720</procdate>
+        <proctime>0808</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>EXPORT COVER STATES2M STATES2M.E00</procdesc>
+        <srcused>None</srcused>
+        <procdate>19940825</procdate>
+        <proctime>1428</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>JPORTER DOCUMENT STATES2M DELETE JPORTER</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950118</procdate>
+        <proctime>0750</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>JPORTER DOCUMENT STATES2M COPY /HOME/GIS/LANFEAR/NEWDOC/COVERS/STATES2M JPORTER</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950118</procdate>
+        <proctime>0751</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI SDTSEXPORT /DSDL1/CUSA/TILES/CUSA/STATES2M STAT</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950119</procdate>
+        <proctime>1043</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>JPORTER EXPORT COVER /DSDL1/CUSA/TILES/CUSA/STATES2M STATES2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950120</procdate>
+        <proctime>1455</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>JPORTER   DOCUMENT STATES2M DELETE JPORTER</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950223</procdate>
+        <proctime>1417</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>JPORTER   DOCUMENT STATES2M COPY   /HOME/GIS/LANFEAR/NEWDOC/COVERS/STATES2M JPOR</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950223</procdate>
+        <proctime>1418</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI EXPORT COVER STATES2M STATES2M.E00</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950621</procdate>
+        <proctime>1233</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI EXPORT COVER STATES2M STATES2M.E00 NONE</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950919</procdate>
+        <proctime>1416</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI   EXPORT COVER STATES2M /SCRATCH_AREA1/MNEGRI/STATES2M.E00 NONE</procdesc>
+        <srcused>None</srcused>
+        <procdate>19950919</procdate>
+        <proctime>2112</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI ARCEDIT /DSDL1/CUSA/TILES/CUSA/STATES2M</procdesc>
+        <srcused>None</srcused>
+        <procdate>19960227</procdate>
+        <proctime>0814</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI DOCUMENT STATES2M UPDATE MNEGRI</procdesc>
+        <srcused>None</srcused>
+        <procdate>19960227</procdate>
+        <proctime>0859</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI EXPORT COVER STATES2M STATES2M.E00</procdesc>
+        <srcused>None</srcused>
+        <procdate>19960228</procdate>
+        <proctime>1249</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI EXPORT COVER STATES2M STATES2M.E00 NONE</procdesc>
+        <srcused>None</srcused>
+        <procdate>19960228</procdate>
+        <proctime>1300</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI BUILD STATES2M POLY</procdesc>
+        <srcused>None</srcused>
+        <procdate>19960409</procdate>
+        <proctime>1132</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>MNEGRI EXPORT COVER STATES2M STATES2M.E00 NONE</procdesc>
+        <srcused>None</srcused>
+        <procdate>19960409</procdate>
+        <proctime>1135</proctime>
+        <srcprod>None</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>1300</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>1623</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>1301</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96</longcm>
+            <latprjo>23</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>1.0</absres>
+            <ordres>1.0</ordres>
+          </coordrep>
+          <plandu>METERS</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>Unknown</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>STATES2M.PAT</enttypl>
+        <enttypd>Polygon Attribute Table</enttypd>
+        <enttypds>COUNTY2M</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of polygon in square coverage units</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of polygon in coverage units</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATES2M#</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATES2M-ID</attrlabl>
+        <attrdef>User-assigned feature number</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Integer</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ST</attrlabl>
+        <attrdef>2 character state abbreviation</attrdef>
+        <attrdefs>COUNTY2M</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>alpha</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>FIPS</attrlabl>
+        <attrdef>2 digit state FIPS Code</attrdef>
+        <attrdefs>COUNTY2M</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>01 - 56</edomv>
+            <edomvd>unspecified</edomvd>
+            <edomvds>unspecified</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Each State is identified by a 2-digit Federal Information Processing
+Standard (FIPS) code.
+			</eaover>
+      <eadetcit>Not Available</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+		
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>48</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/states2m.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>SDTS</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>41</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/states2m.sdts.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+states2m</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>19940101</begdate>
+    <enddate>19941231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_states2m.html</htmlurl>
+  </mercury>
+</metadata>

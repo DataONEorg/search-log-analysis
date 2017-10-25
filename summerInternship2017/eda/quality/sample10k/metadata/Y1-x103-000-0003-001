@@ -1,0 +1,578 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>Y1.x103.000-0003-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Andrew Mercer</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Mississippi State University, Department of Geosciences</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Assistant Professor</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>662-268-1032 ext 231</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[108 Hillbun Hall
+P.O. Box 5448]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Mississippi State</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>MS</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>39762-5448</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>mercer@hpc.msstate.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2015-03-26T17:05:55-05:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/Y1.x103.000:0003</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Northern Gulf of Mexico Salt Marsh Climate Data: Temperature, Pressure, and Wind Characteristics 2009-2010.</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString/>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2015-03-04</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>These date represent 5 climate variables deemed important for wetland health (u and v wind components at 10 meters, 2-m temperature, skin temperature (a proxy for SST over ocean), and mean sea level pressure). The data are derived from monthly mean North American Regional Reanalysis (NARR) data files, valid from January 2009 through December 2010, from a regional domain encompassing the study area (roughly -91E to -89E, 29N to 31N). The dataset includes 46 gridpoints of climate information in the study domain, spaced at 32 km intervals. These data were used to generate time-series of climate information over the study area to estimate climate impacts on the wetland health. The data are provided on a Lambert-conformal projection using the National Center for Environmental Prediction (NCEP) 221 grid configuration. These data were also collected using funding from a GoMRI RFP II Grant and is registered as dataset R3.x174.000:0003.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>This study intended to allow the identification of &#x2018;hotspots&#x2019; of marsh degradation and the extent of recovery (if any) post Deepwater Horizon Oil Spill. The overall goal of the proposed research was to quantify and map the ecological impact of the oil spill on the photosynthetic activity, physiological status, and primarily productivity of the coastal salt marshes to facilitate the prioritization of future restoration actions. The specific questions to be answered through study was: Was some of the damage due to local climatic perturbation and early senescence rather than the spill?</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Andrew Mercer</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Mississippi State University, Department of Geosciences</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Assistant Professor</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>662-268-1032 ext 231</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString>662-325-9423</gco:CharacterString>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[108 Hilburn Hall
+P.O. Box 5448]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Mississippi State</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>MS</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>39762-5448</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>mercer@hpc.msstate.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="principalInvestigator" codeSpace="008">principalInvestigator</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>land surface skin temperature</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>salt marsh</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>mean sea level pressure</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>2m Temperature</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>wind direction</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>weather research and forecasting model</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Southern Louisiana</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng;USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>climatologyMeteorologyAtmosphere</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-90.99828</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-89.04514</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>29.01134</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>30.95628</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiPoint srsName="urn:ogc:def:crs:EPSG::4326" gml:id="Multipoint1">
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point1">
+                                            <gml:pos srsDimension="2">29.25421 -90.95793</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point2">
+                                            <gml:pos srsDimension="2">29.19511 -90.65012</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point3">
+                                            <gml:pos srsDimension="2">29.13494 -90.34288</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point4">
+                                            <gml:pos srsDimension="2">29.07368 -90.0362</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point5">
+                                            <gml:pos srsDimension="2">29.01134 -89.73011</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point6">
+                                            <gml:pos srsDimension="2">29.52318 -90.89054</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point7">
+                                            <gml:pos srsDimension="2">29.46375 -90.58153</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point8">
+                                            <gml:pos srsDimension="2">29.40323 -90.27308</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point9">
+                                            <gml:pos srsDimension="2">29.34163 -89.9652</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point10">
+                                            <gml:pos srsDimension="2">29.27895 -89.65792</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point11">
+                                            <gml:pos srsDimension="2">29.21519 -89.35123</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point12">
+                                            <gml:pos srsDimension="2">29.15035 -89.04514</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point13">
+                                            <gml:pos srsDimension="2">29.79249 -90.8226</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point14">
+                                            <gml:pos srsDimension="2">29.73273 -90.51236</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point15">
+                                            <gml:pos srsDimension="2">29.67187 -90.2027</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point16">
+                                            <gml:pos srsDimension="2">29.60992 -89.89362</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point17">
+                                            <gml:pos srsDimension="2">29.54688 -89.58514</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point18">
+                                            <gml:pos srsDimension="2">29.48277 -89.27726</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point19">
+                                            <gml:pos srsDimension="2">30.06214 -90.75407</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point20">
+                                            <gml:pos srsDimension="2">30.00204 -90.44261</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point21">
+                                            <gml:pos srsDimension="2">29.94084 -90.13174</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point22">
+                                            <gml:pos srsDimension="2">29.87855 -89.82144</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point23">
+                                            <gml:pos srsDimension="2">29.81516 -89.51175</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point24">
+                                            <gml:pos srsDimension="2">29.75068 -89.20267</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point25">
+                                            <gml:pos srsDimension="2">30.39145 -90.99828</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point26">
+                                            <gml:pos srsDimension="2">30.33212 -90.68499</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point27">
+                                            <gml:pos srsDimension="2">30.27168 -90.3723</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point28">
+                                            <gml:pos srsDimension="2">30.21014 -90.06018</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point29">
+                                            <gml:pos srsDimension="2">30.1475 -89.74866</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point30">
+                                            <gml:pos srsDimension="2">30.08375 -89.43776</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point31">
+                                            <gml:pos srsDimension="2">30.01891 -89.12747</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point32">
+                                            <gml:pos srsDimension="2">30.66209 -90.92986</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point33">
+                                            <gml:pos srsDimension="2">30.60243 -90.61532</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point34">
+                                            <gml:pos srsDimension="2">30.54166 -90.30138</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point35">
+                                            <gml:pos srsDimension="2">30.47977 -89.98802</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point36">
+                                            <gml:pos srsDimension="2">30.41677 -89.67528</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point37">
+                                            <gml:pos srsDimension="2">30.35267 -89.36315</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point38">
+                                            <gml:pos srsDimension="2">30.28747 -89.05164</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point39">
+                                            <gml:pos srsDimension="2">30.93307 -90.86086</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point40">
+                                            <gml:pos srsDimension="2">30.87307 -90.54506</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point41">
+                                            <gml:pos srsDimension="2">30.81196 -90.22986</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point42">
+                                            <gml:pos srsDimension="2">30.74972 -89.91526</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point43">
+                                            <gml:pos srsDimension="2">30.68637 -89.60127</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point44">
+                                            <gml:pos srsDimension="2">30.62191 -89.28791</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point45">
+                                            <gml:pos srsDimension="2">30.95628 -89.52665</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="Point46">
+                                            <gml:pos srsDimension="2">30.89145 -89.21204</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                </gml:MultiPoint>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>ground condition, modeled period</gml:description>
+                                    <gml:beginPosition>2009-01-01</gml:beginPosition>
+                                    <gml:endPosition>2010-12-31</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Latitude (decimal degrees) Longitude (decimal degrees) 2m Temperature, the average maximum temperature at 2 m above the ground for the month (degrees Kelvin) Skin Temperature, average land surface skin temperature for the month (degrees Kelvin) MSLP, average mean sea level pressure for the month (Pascals) 10m U-wind, average east-west wind velocity measured 10m above the ground (meters/second) 10 m V-wind,average north-west wind velocity measured 10m above the ground (meters/second) |This dataset was generated using numerically processed gridded climate data (the North American Regional Reanalysis dataset downscaled to 500 m resolution, native is 32 km resolution). Weather Research and Forecasting model initialization downscaled the data to a high resolution to be compared to the marsh characteristics.||||2009 and 2010 data from the Normth American Regional Reanalysis http://www.emc.ncep.noaa.gov/mmb/rreanl/</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[6300 Ocean Drive
+Unit 5869]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString/>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>xlsx</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString/>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>.58</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/R3.x174.000:0003/</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>https</gco:CharacterString>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+</gmi:MI_Metadata>

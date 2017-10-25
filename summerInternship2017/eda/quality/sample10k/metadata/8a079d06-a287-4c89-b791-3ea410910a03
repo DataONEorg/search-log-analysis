@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata>
+  <Source>http://cmgds.marine.usgs.gov/metadata/12BIM03_IFB_xyz_metadata.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2014</pubdate>
+        <title>Interferometric Swath Bathymetric Data Collected in 2012 from the Chandeleur Islands, Louisiana (U.S. Geological Survey Field Activity Number 12BIM03)</title>
+        <geoform>ASCII</geoform>
+        <onlink>http://pubs.usgs.gov/ds/0847/data/ascii/Chan12_IFB_xyz.zip</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Nancy T. DeWitt</origin>
+            <origin>Julie C. Bernier</origin>
+            <origin>William R. Pfeiffer</origin>
+            <origin>Jennifer L. Miselis</origin>
+            <origin>James G. Flocks</origin>
+            <origin>B.J. Reynolds</origin>
+            <origin>Dana S. Wiese</origin>
+            <origin>Kyle W. Kelso</origin>
+            <pubdate>2014</pubdate>
+            <title>Coastal Bathymetry and Backscatter Data Collected in 2012 from the Chandeleur Islands, Louisiana</title>
+            <geoform>multimedia presentation</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Data Series</sername>
+              <issue>847</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>St. Petersburg, Florida</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/ds/847</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>As part of the Barrier Island Evolution Research Project, scientists from the U.S. Geological Survey's St. Petersburg Coastal and Marine Science Center conducted nearshore geophysical surveys off the northern Chandeleur Islands, Louisiana, in July of 2012. The overall objective of the study is to better understand barrier-island geomorphic evolution, particularly storm-related depositional and erosional processes that shape the islands over annual to interannual timescales (1-5 years). The collection of geophysical data will allow us to identify relationships between the geologic history of the island and its present day morphology and sediment distribution. This mapping effort was the first in a series of three planned surveys in this area. High resolution geophysical data collected in each of 3 consecutive years along this rapidly changing barrier-island system will provide a unique time-series dataset that will significantly further the analyses and geomorphological interpretations of this and other coastal systems, improving our understanding of coastal response and evolution over short time scales (1-5 years).
+This report serves as an archive of processed interferometric swath and single-beam bathymetry data that were collected during two cruises (USGS Field Activity Numbers 12BIM03 and 12BIM04) along the northern portion of the Chandeleur Islands, Breton National Wildlife Refuge, Louisiana in July of 2012. Geographic information system data products include a 50 m-cell-size interpolated bathymetry grid surface, trackline maps, and point data files. Additional files include error analysis maps, Field Activity Collection System logs, and formal Federal Geographic Data Committee metadata.</abstract>
+      <purpose>This zip archive contains processed x,y,z data points for the interferometric swath bathymetry data collected around Chandeleur Islands, La. in July 2012. The processed swath data are provided as ASCII x,y,z point data file.  These values are not the individual soundings but are the exported BASE (Bathymetry with Associated Statistical Error) surface at 5 meter spatial distances with associated CUBE surface (Combined Uncertainty and Bathymetry Estimator) sample surface created from the edited soundings dataset.  These are considered interpolated samples in which one value represents all soundings within a five meter node, weighted by uncertainty and proximity, giving the final value as a data sample within the specific grid cell.  No human editing has been applied: no erroneous point removal, interpretation, or validation has been done beyond this point.</purpose>
+      <supplinf>The swath bathymetry data were collected and processed in the ITRF2005 geodetic reference ellipsoid whereas the single-beam data were collected and processed in WGS84 (G1150)/ITRF00. Both datasets were subsequently transformed horizontally to NAD83 and then vertically to NAVD88 and MLLW, using the GEOID09 model with National Oceanic and Atmospheric Administration (NOAA) VDatum version 3.2 transformation software (http://vdatum.noaa.gov/). The final NAD83, NAVD88 x,y,z position data from each survey were merged to generate a digital elevation model with a cell-size resolution of 50 meters.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20120720</begdate>
+          <enddate>20120803</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>data collection interval</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-88.916344</westbc>
+        <eastbc>-88.797235</eastbc>
+        <northbc>30.095540</northbc>
+        <southbc>29.950490</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>oceans</themekey>
+        <themekey>elevation</themekey>
+        <themekey>location</themekey>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>imageryBaseMapsEarthCover</themekey>
+      </theme>
+      <theme>
+        <themekt>General</themekt>
+        <themekey>marine geology</themekey>
+        <themekey>bathymetry</themekey>
+        <themekey>interferometry</themekey>
+        <themekey>swath</themekey>
+        <themekey>Systems Engineering and Assessment</themekey>
+        <themekey>SEA</themekey>
+        <themekey>SWATHplus-H</themekey>
+        <themekey>hydrography</themekey>
+        <themekey>geophysical</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Coastal and Marine Geology Program</themekey>
+        <themekey>CMGP</themekey>
+        <themekey>St. Petersburg Coastal and Marine Science Center</themekey>
+        <themekey>SPCMSC</themekey>
+        <themekey>geophysical</themekey>
+        <themekey>Barrier Island Evolution Research Project</themekey>
+        <themekey>Barrier Island Mapping</themekey>
+        <themekey>12BIM03</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>Louisiana</placekey>
+        <placekey>Gulf of Mexico</placekey>
+        <placekey>Chandeleur Islands</placekey>
+        <placekey>Chandeleur Sound</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>datum</stratkey>
+        <stratkey>water</stratkey>
+        <stratkey>shoreline</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>July 2012</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>The U.S. Geological Survey requests that it be referenced as the originator of this dataset in any future products or research derived from these data.</accconst>
+    <useconst>The U.S. Geological Survey requests that it be referenced as the originator of this dataset in any future products or research derived from these data. These data should not be used for navigational purposes.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Nancy T. DeWitt</cntper>
+          <cntorg>U.S. Geological Survey - St. Petersburg Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(727) 502-8000</cntvoice>
+        <cntemail>ndewitt@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>U.S. Geological Survey, Coastal and Marine Geology Program, St. Petersburg Coastal and Marine Science Center</datacred>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcCatalog 10.1.0.3035</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The accuracy of the data is determined during data collection.  This dataset is from one research cruise and is therefore internally consistent. Methods are employed to maintain data collection consistency aboard the platform.  During mobilization, each piece of equipment is isolated to obtain internal and external offset measurements with respect to the survey platform. All the critical measurements are recorded manually and digitally entered into their respective programs. For the interferometric swath bathymetry, offsets between the sonar head and the DGPS antennas were measured and entered into the CodaOctopus F190R internal setup program. DGPS was provided through the OmniSTAR High Performance wide-area GPS service. DGPS is always implemented for navigational accuracy either during acquisition or as a post-processing step. These bathymetric data have not been independently verified for accuracy.</attraccr>
+    </attracc>
+    <logic>This file represents the post-processed bathymetric data (x,y,z)collected during a swath bathymetry survey. They represent data coverage for the swath portion of the 2012 Chandeleur survey, specifically Field Activity Number (FAN) 12BIM03.  Refer to the online data series linkage for field logs, vessel platform descriptions, and other survey information; this is directly available at http://pubs.usgs.gov/ds/847</logic>
+    <complete>These are complete post-processed xyz bathymetric data points from acoustic swath data collected in July 2012 from the northern Chandeleur Islands.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>The stated horizontal accuracy of the OmniSTAR HP navigation subscription used during swath bathymetry acquisition is reported by the service as +/-15 centimeters (cm) (95 percent of the time).</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>The stated vertical accuracy of the OmniSTAR HP navigation subscription used during swath bathymetry acquisition is +/-0.15 m (95 percent of the time). The Coda Octopus F190R IMU, which integrates the OmniSTAR HP position with motion, measures vessel velocity (+/- 0.014 meters/second (m/s)), roll and pitch (&lt; 0.025 degrees), heading (1 m baseline 0.1 degrees), and heave (5 cm per (m)of depth). The vertical accuracy for the SWATHplus-H system varies with depth and across track range. At 57 m it is accurate to 10 cm vertically. Maximum vertical transformation error reported by VDatum is 0.171 m or 17.1 centimeters for eastern Louisiana. The sum of the errors (plus or minus (+/-)0.15 m plus +/-0.171 m) in the vertical is equal to +/-.321 m or +/- 32.1 cm.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Swath Bathymetry Acquisition: The interferometric swath bathymetry data were collected aboard the R/V Survey Cat using a SEA SWATHplus-H 468 kHz interferometric sonar system mounted on a sled attached to a rail system fastened between the catamaran halls allowing the instrument to align directly below the GPS antennae to minimize geometry errors. Boat position and motion data were recorded in real-time with a CodaOctopus F190R wetpod inertial measurement unit (IMU) mounted underwater between the transducer heads to minimize lever arm geometry errors between the observed depths and vessel motion. Real-time corrected positions were acquired with OmniSTAR HP (High-Precision differential global navigation satellite system) satellite constellation subscription. OmniSTAR HP position correction data and motion data from the IMU were integrated with interferometric soundings in the SWATHplus software package versions 3.7.17, with positional and calibration offsets pre-defined by a session file (.sxs), allowing for real-time- corrected depths. Prior to deployment, all equipment offsets were surveyed in dry dock with a laser total station. During the survey, all swath tracklines were recorded in SEA SWATHplus raw data format (.sxr). A Valeport Mini Sound Velocity Sensor (SVS) was attached to the transducer mount and collected continuous speed of sound (SOS) measurements at the depth of the transducers. These values were directly read and incorporated into the SWATHplus acquisition software giving real-time speed of sound at the transducer while underway. In addition, a separate sound velocity profiler (Valeport miniSVP) was used to collect speed of sound profiles (water surface to seafloor) at intervals throughout the survey.</procdesc>
+        <procdate>2012</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Nancy T. DeWitt</cntper>
+              <cntorg>U.S. Geological Survey's St. Petersburg Coastal and Marine Science Center</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>600 4th Street South</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33701</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(727) 502-8000</cntvoice>
+            <cntemail>ndewitt@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Swath Bathymetry Processing: Position data recorded by the Coda-Octopus F190R IMU system were corrected in real time via the OmniSTAR HP differential navigation system. The IMU applied real-time motion corrections for heave, roll, and pitch to the vertical component of each position fix. The corrected positions were integrated with the observed bathymetric values to calculate a final ellipsoid height and position representing the elevation of the seafloor with respect to the geodetic reference frame ITRF05 across the swath range. SWATHplus serves as both an acquisition software and initial processing software. Preliminary roll calibration trackline data were collected and processed using Systems Engineering and Assessment Ltd SWATHplus and Grid Processor software version 3.7.17. Instrument offset and calibrations values were input into the session file (.sxs) and the raw data files (.sxr) were then processed using the updated system configuration containing roll calibration values, measured equipment offsets, acquisition parameters, navigation and motion from the F190R, SOS at the sonar head, and SVP cast data. Any calibration offsets or acoustic filtering applied in SWATHplus were also written to the processed data file (.sxp). The initial real time processing datum for the swath and backscatter data was ITRF05, which is the acquisition datum for OmniSTAR HP position and navigation data.
+All processed data files were imported into CARIS HIPS and SIPS version 7.1, and the original sounding data were edited for outliers using the program's depth filters and reference surfaces. Any remaining outliers were then edited out manually. A CARIS BASE (Bathymetry with Associated Statistical Error) surface with associated CUBE (Combined Uncertainty and Bathymetry Estimator) sample surface was created from the edited soundings dataset. A BASE hypothesis is the estimated value of a grid node representing all the soundings within a chosen resolution or grid-cell size (for example, 5 m) weighted by uncertainty and proximity; giving the final value as a "sample" of the data within the specific grid cell. This algorithm allows for multiple grid-node hypotheses to be verified or overridden by the user, while maximizing processing efficiency. A 5-m resolution CUBE surface was created to perform initial hypothesis editing using the CARIS Subset Editor tool, followed by higher resolution surface detail editing within subset editor. The sample x,y,z data were exported as ASCII text at a 5 x 5 m sample resolution in the ellipsoid datum of ITRF05.</procdesc>
+        <procdate>2013</procdate>
+        <srcprod>12BIM03_IFB_ITRF05.txt</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Nancy T. DeWitt</cntper>
+              <cntorg>U.S. Geological Survey St. Petersburg Coastal and Marine Science Center</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>600 4th Street South</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33701</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(727) 502-8000</cntvoice>
+            <cntemail>ndewitt@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Datum Transformation: The text file 12BIM03_IFB_ITRF05.txt was converted two separate times using VDatum version 3.2 producing two separate files with different vertical datums.  The first transformation was from the data acquisition and processing datum (International Terrestrial Reference Frame of 2005, ITRF05) to the North American Datum of 1983 (NAD83) reference frame and the North American Vertical Datum of 1988 (NAVD88) orthometric height using the National Geodetic Survey (NGS) geoid model of 2009 (GEOID09).  The second transformation was from ITRF05 to NAD83 for the horizontal reference frame and Mean Lower Low Water (MLLW) tidal datum using GEOID09.</procdesc>
+        <srcused>12BIM03_IFB_ITRF05_xyz.txt</srcused>
+        <procdate>2013</procdate>
+        <srcprod>12BIM03_IFB_NAD83_NAVD88_GEOID09_xyz.txt</srcprod>
+        <srcprod>12BIM03_IFB_NAD83_MLLW_xyz.txt</srcprod>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Nancy T. DeWitt</cntper>
+              <cntorg>U.S. Geological Survey St. Petersburg Coastal and Marine Science Center</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>600 4th Street South</address>
+              <city>St. Petersburg</city>
+              <state>FL</state>
+              <postal>33701</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>(727) 502-8000</cntvoice>
+            <cntemail>ndewitt@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>12BIM03_IFB_ITRF05_xyz.txt</enttypl>
+        <enttypd>ASCII text file containing the processed swath bathymetry x,y,z point data in the International Terrestrial Reference Frame of 2005 (ITRF05) and ellipsoid height.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>12BIM03_IFB_NAD83_NAVD88_GEOID09_xyz.txt</enttypl>
+        <enttypd>ASCII text file containing the processed 5-meter resolution interferometric swath bathymetry x,y,z samples transformed to the North American Datum of 1983 (NAD83) geodetic datum and North American Vertical Datum of 1988 (NAVD88) orthometric height, derived using the GEOID09 model.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>12BIM03_IFB_NAD83_MLLW_xyz.txt</enttypl>
+        <enttypd>ASCII text file containing the processed 5-meter resolution interferometric swath bathymetry x,y,z samples transformed to the World Geodetic System of 1984 (WGS84 G1150) geodetic datum and Mean Lower Low Water (MLLW) tidal datum.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ITRF05_X</attrlabl>
+        <attrdef>ITRF05 X-coordinate (easting) of sample point, in meters</attrdef>
+        <attrdefs>CARIS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>315300.000</rdommin>
+            <rdommax>326605.000</rdommax>
+            <attrmres>0.001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ITRF05_Y</attrlabl>
+        <attrdef>ITRF05 Y-coordinate (northing) of sample point, in meters</attrdef>
+        <attrdefs>CARIS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3314845.000</rdommin>
+            <rdommax>3330765.000</rdommax>
+            <attrmres>0.001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Ellipsoid</attrlabl>
+        <attrdef>TRF05 ellipsoid height of sample point, in meters</attrdef>
+        <attrdefs>CARIS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-43.960</rdommin>
+            <rdommax>-26.669</rdommax>
+            <attrmres>0.001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Year</attrlabl>
+        <attrdef>Year data was collected</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>2012</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DataType</attrlabl>
+        <attrdef>IFB = Interferometric Bathymetry; SPCMSC identifier of bathymetry data type.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Character string - IFB</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAD83_X</attrlabl>
+        <attrdef>NAD83 X-coordinate (easting) of sample point, in meters</attrdef>
+        <attrdefs>VDatum version 3.2</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>315300.7318</rdommin>
+            <rdommax>326605.7287</rdommax>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAD83_Y</attrlabl>
+        <attrdef>NAD83 Y-coordinate (northing) of sample point, in meters</attrdef>
+        <attrdefs>VDatum version 3.2</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3314844.3848</rdommin>
+            <rdommax>3330764.3814</rdommax>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NAVD88_g09</attrlabl>
+        <attrdef>NAVD88 orthometric height of sample point, in meters</attrdef>
+        <attrdefs>VDatum version 3.2</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-15.4884</rdommin>
+            <rdommax>-1.4484</rdommax>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MLLW</attrlabl>
+        <attrdef>MLLW tidal elevation of sample point, in meters</attrdef>
+        <attrdefs>VDatum version 3.2</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1.3915</rdommin>
+            <rdommax>15.4136</rdommax>
+            <attrmres>0.0001</attrmres>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Nancy T. DeWitt</cntper>
+          <cntorg>U.S. Geological Survey St. Petersburg Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(727) 502-8000</cntvoice>
+        <cntemail>ndewitt@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>This DVD publication was prepared by an agency of the United States Government.  Although these data were processed successfully on a computer system at the U.S. Geological Survey, no warranty expressed or implied is made regarding the display or utility of the data on any other system, nor shall the act of distribution imply any such warranty. The U.S. Geological Survey shall not be held liable for improper or incorrect use of the data described and (or) contained herein. Reference herein to any specific commercial product, process, or service by trade name, trademark, manufacturer, or otherwise does not constitute or imply its endorsement, recommendation, or favoring by the United States Government or any agency thereof.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <filedec>ZIP</filedec>
+          <transize>13.8</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pubs.usgs.gov/ds/0847/data/ascii/Chan12_IFB_xyz.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+          <offoptn>
+            <offmedia>DVD</offmedia>
+            <recfmt>DVD-R</recfmt>
+          </offoptn>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+    <techpreq>The ASCII text files contained in the .zip archive can be accessed with any standard text file reader.</techpreq>
+    <availabl>
+      <timeinfo>
+        <sngdate>
+          <caldate>2014</caldate>
+        </sngdate>
+      </timeinfo>
+    </availabl>
+  </distinfo>
+  <metainfo>
+    <metd>20160608</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Nancy T. DeWitt</cntper>
+          <cntorg>U.S. Geological Survey St. Petersburg Coastal and Marine Science Center</cntorg>
+        </cntperp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>600 4th Street South</address>
+          <city>St. Petersburg</city>
+          <state>FL</state>
+          <postal>33701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(727) 502-8000</cntvoice>
+        <cntemail>ndewitt@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metuc>The U.S. Geological Survey requests that it be referenced as the originator of this dataset in any future products or research derived from these data.</metuc>
+    <metsi>
+      <metscs>none</metscs>
+      <metsc>unclassified</metsc>
+      <metshd>None</metshd>
+    </metsi>
+  </metainfo>
+  <mercury>
+    <begdate>20120720</begdate>
+    <enddate>20120803</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/cmgds.marine.usgs.gov_metadata_12BIM03_IFB_xyz_metadata.html</htmlurl>
+  </mercury>
+</metadata>

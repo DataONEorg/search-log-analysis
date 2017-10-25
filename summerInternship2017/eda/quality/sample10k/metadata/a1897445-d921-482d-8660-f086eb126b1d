@@ -1,0 +1,1361 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/gwava-s_conf.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>Vulnerability of shallow ground water and drinking-water wells to nitrate in the United States: Model of predicted nitrate concentration in shallow, recently recharged ground water -- Input data set for confined manure (gwava-s_conf)</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_conf</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Nolan, B.T.</origin>
+            <origin>Hitt, K.J.</origin>
+            <pubdate>2006</pubdate>
+            <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States
+</title>
+            <serinfo>
+              <sername>Environmental Science and Technology</sername>
+              <issue>Volume 40, Number 24, pages 7834-7840</issue>
+            </serinfo>
+            <onlink>http://water.usgs.gov/nawqa/nutrients/pubs/est_v40_no24/</onlink>
+            <onlink>http://pubs3.acs.org/acs/journals/doilookup?in_doi=10.1021/es060911u</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+
+This data set represents the average annual nitrogen input from
+confined animal manure, 1992 and 1997, in kilograms per hectare,
+in the conterminous United States.
+
+The data set was used as an input data layer for a national
+model to predict nitrate concentration in shallow ground water.
+
+Nolan and Hitt (2006) developed two national models to predict
+contamination of ground water by nonpoint sources of
+nitrate. The nonlinear approach to national-scale Ground-WAter
+Vulnerability Assessment (GWAVA) uses components representing
+nitrogen (N) sources, transport, and attenuation.
+
+One model (GWAVA-S) predicts nitrate contamination of shallow
+(typically less than 5 meters deep), recently recharged ground
+water, which may or may not be used for drinking.  The other
+(GWAVA-DW) predicts ambient nitrate concentration in deeper
+supplies used for drinking.
+
+This data set is one of 17 data sets (1 output data set and 16
+input data sets) associated with the GWAVA-S model. Full details
+of the model development are in Nolan and Hitt (2006).
+
+For inputs to the model, spatial attributes representing 16
+nitrogen loading and transport and attenuation factors were
+compiled as raster data sets (1-km by 1-km grid cell size) for
+the conterminous United States (see table 1).
+
+&gt;Table 1.-- Parameters of nonlinear regression model for nitrate in shallow
+&gt;           ground water (GWAVA-S) and corresponding input spatial data sets.
+&gt;           [kg, kilograms; km2, square kilometers.]
+&gt;
+&gt;Nitrogen Source Factors                  Data Set Name
+&gt;   1 farm fertilizer (kg/hectare)        gwava-s_ffer
+&gt;   2 confined manure (kg/hectare)        gwava-s_conf
+&gt;   3 orchards/vineyards (percent)        gwava-s_orvi
+&gt;   4 population density  (people/km2)    gwava-s_popd
+&gt;   5 cropland/pasture/fallow (percent)   gwava-s_crpa
+&gt;
+&gt;Transport to Aquifer Factors
+&gt;   6 water input (km2/cm)                gwava-s_wtin
+&gt;   7 carbonate rocks (yes/no)            gwava-s_crox
+&gt;   8 basalt and volcanic rocks (yes/no)  gwava-s_vrox
+&gt;   9 drainage ditch (km2)                gwava-s_ddit
+&gt;  10 slope (percent x 1000)              gwava-s_slop
+&gt;  11 glacial till (yes/no)               gwava-s_gtil
+&gt;  12 clay sediment (percent x 1000)      gwava-s_clay
+&gt;
+&gt;Attenuation Factors
+&gt;  13 fresh surface water withdrawal      gwava-s_swus
+&gt;     for irrigation (megaliters/day)
+&gt;  14 irrigation tailwater recovery (km2) gwava-s_twre
+&gt;  15 histosol soil type (percent)        gwava-s_hist
+&gt;  16 wetlands (percent)                  gwava-s_wetl
+
+"Farm fertilizer" is the average annual nitrogen input from
+commercial fertilizer applied to agricultural lands, 1992-2001, in
+kilograms per hectare.
+
+"Confined manure" is the average annual nitrogen input from
+confined animal manure, 1992 and 1997, in kilograms per
+hectare.
+
+"Orchards/vineyards" is the percent of orchards/vineyards land
+cover classification.
+
+"Population density" is 1990 block group population density, in
+people per square kilometer.
+
+"Cropland/pasture/fallow" is the percent of
+cropland/pasture/fallow land cover classifications.
+
+"Water input" is the ratio of the total area of irrigated land
+to precipitation, in square kilometers per centimeter.
+
+"Carbonate rocks" is the presence or absence of Valley and Ridge
+carbonate rocks.
+
+"Basalt and volcanic rocks" is the presence or absence of basalt
+and volcanic rocks.
+
+"Drainage ditch" is the area of National Resources Inventory surface
+drainage, field ditch conservation practice, in square kilometers.
+
+"Slope" is the soil surface slope, in percent times 1000.
+
+"Glacial till" is the presence or absence of poorly sorted
+glacial till east of the Rocky Mountains.
+
+"Clay sediment" is the amount of clay sediment in the soil, in
+percent times 1000.
+
+"Fresh surface water withdrawal for irrigation" is the amount of
+fresh surface water withdrawal for irrigation, in megaliters per day.
+
+"Irrigation tailwater recovery" is the area of National
+Resources Inventory irrigation system, tailwater recovery
+conservation practice, in square kilometers.
+
+"Histosol soil type" is the amount of histosols soil taxonomic
+order, in percent.
+
+"Wetlands" is the percent of woody wetlands and emergent
+herbaceous wetlands land cover classifications.
+
+Reference cited:
+
+Nolan, B.T. and Hitt, K.J., 2006, Vulnerability of shallow
+ground water and drinking-water wells to nitrate in the United
+States: Environmental Science and Technology, vol. 40, no. 24,
+pages 7834-7840.
+</abstract>
+      <purpose>
+
+This particular data layer was created to help characterize
+nitrogen sources at a national level for input to a national
+model to predict nitrate concentration in shallow ground water.
+
+Nitrate is considered to be the most widespread contaminant in
+ground water. High nitrate concentration in ground water is a
+concern for human health, and protecting drinking water sources
+is a national priority.  The U.S. Geological Survey's National
+Water-Quality Assessment (NAWQA) Program monitors the occurrence
+and distribution of nitrate and other contaminants in ground
+water and streams. However, because monitoring everywhere for
+the occurrence and distribution of nitrate in ground water is
+impractical, national water-quality models are used to address
+data gaps. The goal of the current study was to predict ground
+water vulnerability to nitrate at the national scale, to
+complement measured data.
+</purpose>
+      <supplinf>
+
+The data set is provided as native ESRI ArcInfo Workstation GRID
+and as ASCII text (plain text) format.
+
+The file "gridname".tgz file contains the GRID in a directory
+(folder) called arctar00000, where "gridname" is the name of the
+data set. For example, a GRID without a VAT (value attribute
+table) has the following files:
+
+&gt;arctar00000/
+&gt;arctar00000/gridname/
+&gt;arctar00000/gridname/dblbnd.adf
+&gt;arctar00000/gridname/hdr.adf
+&gt;arctar00000/gridname/log
+&gt;arctar00000/gridname/metadata.xml
+&gt;arctar00000/gridname/prj.adf
+&gt;arctar00000/gridname/sta.adf
+&gt;arctar00000/gridname/w001001.adf
+&gt;arctar00000/gridname/w001001x.adf
+&gt;arctar00000/info/
+&gt;arctar00000/info/arc.dir
+&gt;arctar00000/info/arc0000.dat
+&gt;arctar00000/info/arc0000.nit
+&gt;arctar00000/info/arc0001.dat
+&gt;arctar00000/info/arc0001.nit
+&gt;arctar00000/log
+
+A GRID with a VAT (value attribute table) (gwava-s_orvi,
+gwava-s_crpa, gwava-s_crox, gwava-s_vrox, gwava-s_slop,
+gwava-s_gtil, gwava-s_clay, gwava-s_hist, gwava-s_wetl) has
+these files:
+
+&gt;arctar00000/
+&gt;arctar00000/gridname/
+&gt;arctar00000/gridname/dblbnd.adf
+&gt;arctar00000/gridname/hdr.adf
+&gt;arctar00000/gridname/log
+&gt;arctar00000/gridname/metadata.xml
+&gt;arctar00000/gridname/prj.adf
+&gt;arctar00000/gridname/sta.adf
+&gt;arctar00000/gridname/vat.adf
+&gt;arctar00000/gridname/w001001.adf
+&gt;arctar00000/gridname/w001001x.adf
+&gt;arctar00000/gridname.aux
+&gt;arctar00000/info/
+&gt;arctar00000/info/arc.dir
+&gt;arctar00000/info/arc0000.dat
+&gt;arctar00000/info/arc0000.nit
+&gt;arctar00000/info/arc0001.dat
+&gt;arctar00000/info/arc0001.nit
+&gt;arctar00000/info/arc0002.dat
+&gt;arctar00000/info/arc0002.nit
+&gt;arctar00000/info/arc0002r.001
+&gt;arctar00000/log
+
+To extract the ArcInfo Workstation GRID from the "gridname".tgz archive
+file, use TARARC, WINZIP, or the following commands:
+
+&gt;gunzip gridname.tgz
+&gt;tar xvof gridname.tar
+
+The data set is provided in ASCII text format in addition to the
+native ESRI ArcInfo Workstation GRID format in case the user's
+software cannot access the data in ArcInfo Workstation GRID
+format.
+
+The ASCII file is compressed using gzip as "gridname".txt.gz,
+where "gridname" is the data set name.
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <mdattim>
+          <sngdate>
+            <caldate>1991</caldate>
+          </sngdate>
+          <sngdate>
+            <caldate>2003</caldate>
+          </sngdate>
+        </mdattim>
+      </timeinfo>
+      <current>
+
+Water-quality data used in this study were collected during
+1991-2003 and represent the first full decade of sampling by the
+NAWQA program. The input data layers describe conditions in the
+mid 1990's, and so the predictions represent mid 1990's land-use
+and nitrogen-loading conditions.
+</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned.</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-128.30785909</westbc>
+        <eastbc>-65.14338696</eastbc>
+        <northbc>51.857984</northbc>
+        <southbc>22.73659812</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Ground water</themekey>
+        <themekey>Ground water contamination</themekey>
+        <themekey>Ground water pollution</themekey>
+        <themekey>Ground water susceptibility</themekey>
+        <themekey>Nutrients</themekey>
+        <themekey>Nitrate</themekey>
+        <themekey>National Water-Quality Assessment Program</themekey>
+        <themekey>NAWQA</themekey>
+        <themekey>Nonlinear model</themekey>
+        <themekey>Nitrate concentration</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>Confined animal manure</themekey>
+        <themekey>National Land Cover Data</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Conterminous United States</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>None</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>None</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>
+None.
+</accconst>
+    <useconst>
+
+This spatial data set is one of a group of data sets developed
+specifically for use in a national model of nitrate in ground
+water.  The data set should be used at the national or regional
+level, not at the local level.
+
+Users should consider the various assumptions that went into
+generating each spatial data set and the limitations inherent in
+the source data materials in deciding whether the data set is
+appropriate for use in other national or regional applications.
+
+Please acknowledge the U.S. Geological Survey in products derived
+from these data.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Kerri Hitt.</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>MS-413 National Center</address>
+          <address>12201 Sunrise Valley Drive</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>703 648-6854</cntvoice>
+        <cntemail>khitt@usgs.gov</cntemail>
+        <cntinst>Please contact thru email</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/gwava-dw_out.jpg</browsen>
+      <browsed>
+Map of nitrate concentration in U.S. ground water used for drinking,
+as predicted by the GWAVA-DW model.
+</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <datacred>
+Thanks to Nancy T. Baker who reviewed the metadata
+and provided useful comments.
+</datacred>
+    <native>
+Microsoft Windows XP Version 5.1 (Build 2600)
+Service Pack 2; ESRI ArcCatalog 9.0.0.535
+</native>
+    <crossref>
+      <citeinfo>
+        <origin>Nolan, B.T.</origin>
+        <pubdate>2001</pubdate>
+        <title>
+Relating nitrogen sources and aquifer susceptibility to
+nitrate in shallow ground waters of the United States
+</title>
+        <edition>1</edition>
+        <serinfo>
+          <sername>Ground Water</sername>
+          <issue>Volume 39, Number 2, pages 290-299</issue>
+        </serinfo>
+        <onlink>http://water.usgs.gov/nawqa/nutrients/pubs/gw_v39_no2/</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Nolan, B.T., Hitt, K.J., and Ruddy, B.C.</origin>
+        <pubdate>2002</pubdate>
+        <title>
+Probability of nitrate contamination of recently recharged groundwaters
+in the conterminous United States
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <serinfo>
+          <sername>Environmental Science &amp; Technology</sername>
+          <issue>Volume 36, Number 10, pages 2138-2145</issue>
+        </serinfo>
+        <onlink>http://water.usgs.gov/nawqa/nutrients/pubs/est_v36_no10/</onlink>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwrisk</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Nolan, B.T.</origin>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2006</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States
+</title>
+        <serinfo>
+          <sername>Environmental Science and Technology</sername>
+          <issue>Volume 40, Number 24, pages 7834-7840</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Denver, Colorado</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://water.usgs.gov/nawqa/nutrients/pubs/est_v40_no24/</onlink>
+        <onlink>http://pubs3.acs.org/acs/journals/doilookup?in_doi=10.1021/es060911u</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Model output data set (gwava-s_out)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_out</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for farm fertilizer (gwava-s_ffer)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_ffer</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for orchards/vineyards (gwava-s_orvi)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_orvi</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for population density (gwava-s_popd)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_popd</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for cropland/pasture/fallow (gwava-s_crpa)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_crpa</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for water input (gwava-s_wtin)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_wtin</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for carbonate rocks (gwava-s_crox)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_crox</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for basalt and volcanic rocks (gwava-s_vrox)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_vrox</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for drainage ditch (gwava-s_ddit)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_ddit</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for slope (gwava-s_slop)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_slop</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for glacial till (gwava-s_gtil)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_gtil</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for clay sediment  (gwava-s_clay)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_clay</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for fresh surface water withdrawal (gwava-s_swus)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_swus</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for irrigation tailwater recovery (gwava-s_twre)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_twre</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for histosols (gwava-s_hist)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_hist</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States:  Model of predicted nitrate concentration
+in shallow, recently recharged ground water -- Input data set for wetlands (gwava-s_wetl)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-s_wetl</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Hitt, K.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>
+Vulnerability of shallow ground water and drinking-water wells
+to nitrate in the United States: Model of predicted nitrate
+concentration in U.S. ground water used for drinking
+(simulation depth 50 meters) -- Model output data set (gwava-dw_out)
+</title>
+        <edition>1</edition>
+        <geoform>Raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia, USA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?gwava-dw_out</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Nakagaki, Naomi</origin>
+        <origin>Wolock, David M.</origin>
+        <pubdate>2005</pubdate>
+        <title>
+Estimation of agricultural pesticide use in drainage basins
+using land cover maps and county pesticide data
+</title>
+        <edition>1</edition>
+        <serinfo>
+          <sername>U.S. Geological Survey Open-File Report</sername>
+          <issue>2005-1188</issue>
+        </serinfo>
+        <onlink>https://pubs.usgs.gov/of/2005/1188/</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+The model results were checked using standard USGS review
+procedures.
+</attraccr>
+    </attracc>
+    <logic>Not applicable for raster data.</logic>
+    <complete>
+The data spans the conterminous United States.
+An output cell was assigned a value of "no data" if any of the
+corresponding input data cells at that location was "no data."
+</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Ruddy, B.C.</origin>
+            <origin>Lorenz, D.L.</origin>
+            <origin>Mueller, D.K.</origin>
+            <pubdate>2006</pubdate>
+            <title>
+County-level estimates of nutrient inputs to the land surface
+of the conterminous United States, 1982-2001
+</title>
+            <edition>Version 1.0</edition>
+            <geoform>tables</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Scientific Investigations Report</sername>
+              <issue>2006-5012</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>USGS</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/sir/2006/5012/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>On-line</typesrc>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>1982</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>2001</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>1990s</srccurr>
+        </srctime>
+        <srccitea>USGS SIR 2006-5012</srccitea>
+        <srccontr>
+
+The data set is the source for county estimates of total
+nitrogen (N) inputs from manure from confined animals (1982,
+1987, 1992, 1997).  The data set is in tabular format,
+organized by county code.  The units are kilograms of N per
+year.  For the model, county N input from confined animals was
+calculated as the average of the N input from confined animals
+for 1992 and 1997, to represent the decade of water quality
+sampling conducted by NAWQA.
+
+The county data was apportioned to mapped agricultural land
+use.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Vogelmann, J.E.</origin>
+            <origin>Howard, S.M.</origin>
+            <origin>Yang, L.</origin>
+            <origin>Larson, C.R.</origin>
+            <origin>Wylie, B.K.</origin>
+            <origin>Van Driel, N.</origin>
+            <pubdate>2001</pubdate>
+            <title>
+Completion of the 1990s National Land Cover Dataset for the
+conterminous United States from Landsat Thematic Mapper data and
+ancillary data sources
+</title>
+            <geoform>raster digital data</geoform>
+            <serinfo>
+              <sername>
+Photogrammetric Engineering and Remote Sensing
+Journal of the American Society for Photogrammetry and Remote Sensing
+</sername>
+              <issue>v. 67, no. 6, p. 650-662</issue>
+            </serinfo>
+            <othercit>http://www.mrlc.gov/nlcd2k1_product_desc.asp</othercit>
+            <onlink>http://www.asprs.org/publications/pers/2001journal/june/highlight.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>On-line</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1992</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Source imagery</srccurr>
+        </srctime>
+        <srccitea>NLCD 92</srccitea>
+        <srccontr>
+
+NLCD 92 (National Land Cover Dataset 1992) is a 21-category
+land cover classification scheme that has been applied
+consistently over the conterminous United States. It is based
+primarily on the unsupervised classification of Landsat TM
+(Thematic Mapper) 1992 imagery. Ancillary data sources
+included topography, census, agricultural statistics, soil
+characteristics, other land cover maps, and wetlands data. The
+NLCD 92 classification is provided as raster data with a
+spatial resolution of 30 meters.
+</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Price, Curtis</origin>
+            <origin>Nakagaki, Naomi</origin>
+            <origin>Hitt, Kerie</origin>
+            <origin>Clawges, Rick</origin>
+            <pubdate>2007</pubdate>
+            <title>
+Enhanced historical land-use and land-cover data sets
+of the U.S. Geological Survey
+</title>
+            <edition>Version 1.0</edition>
+            <geoform>map</geoform>
+            <serinfo>
+              <sername>U.S Geological Survey Data Series</sername>
+              <issue>240</issue>
+            </serinfo>
+            <onlink>https://pubs.usgs.gov/ds/2006/240/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>On-line</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1970</begdate>
+              <enddate>1985</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>USGS DS 240</srccitea>
+        <srccontr>
+
+A 30-m spatial resolution version of this land use and land
+cover (LULC) data set was used to develop an enhanced version
+of the NLCD 92 (called NLCDE 92) at 30-meter and 1-kilometer
+resolutions using methods described in:
+
+Nakagaki, N., and Wolock, D.M., 2005, Estimation of
+agricultural pesticide use in drainage basins using land cover
+maps and county pesticide data:  U.S. Geological Survey
+Open-File Report 2005-1188, pp.4-10.
+
+The LULC data were derived from aerial photography, and NLCD
+92 data were derived from satellite imagery. The NLCD was
+modified with selected land-use categories of LULC, as
+described in Nakagaki and Wolock (2005), because LULC data are
+a better source for some land categories that are difficult to
+distinguish using only satellite imagery (residential,
+orchards/vineyards/other, and tundra). The enhanced NLCD
+(NLCDE 92) includes 21 land-cover classifications from the
+original NLCD 92 plus an additional four categories from the
+LULC (LULC tundra, NLCD/LULC forested residential, LULC
+residential, and LULC orchards/vineyards/other) (Nakagaki and
+Wolock, 2005).
+
+The 30-m resolution NLCDE 92 was used to create a set of 25
+1-km resolution national grids of "percentage" land cover (one
+grid for each land cover class) using methods described in
+Nakagaki and Wolock (2005), pages 10-13.
+
+In each 1-km resolution national grid, the value of a grid
+cell was the percentage of the 1 km by 1 km area specific to
+that land cover class. For example, the grid of "pasture/hay"
+indicated the percentage of pasture/hay in each cell, and the
+grid of "row crops" indicated the percentage of row crops in
+each cell.
+</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+
+Spatial data sets representing nitrogen (N) loading and
+transport and attenuation factors were compiled for the
+conterminous United States.
+
+N source variables include farm fertilizer, manure from
+confined animal feeding operations, and loading surrogates
+that reflect additional sources of N. For example, population
+density is a surrogate for nonagricultural sources of N from
+septic tanks, sewers, and domestic animal waste in urban
+areas.
+
+Transport factors include water input, sediments, rock type,
+and selected management practices.  "Water input" is an
+interaction term expressed as the ratio of the total area of
+irrigated land to precipitation.  Attenuation factors include
+variables that are surrogates for dilution and/or
+denitrification.
+
+Each of the variables in the model was compiled within 1-km by
+1-km grid cells for prediction of nitrate concentration at the
+national scale.
+
+&gt;Table 2.-- Variables compiled for regression model GWAVA-S,
+&gt;           units and estimated coefficients
+&gt;           [kg, kilograms; km2, square kilometers.]
+&gt;
+&gt;Nitrogen Loading                    Units             Estimated coefficient
+&gt;   1 farm fertilizer                kg/hectare             0.2265
+&gt;   2 confined manure                kg/hectare             0.4049
+&gt;   3 orchards/vineyards             percent                1.9600
+&gt;   4 population density             people/km2             0.006658
+&gt;   5 cropland/pasture/fallow        percent                0.1473
+&gt;
+&gt;Transport Factors
+&gt;   6 water input                    km2/cm                 38.16
+&gt;   7 carbonate rocks                presence/absence        0.5630
+&gt;   8 basalt and volcanic rocks      presence/absence        0.5182
+&gt;   9 drainage ditch                 km2                    -6.483
+&gt;  10 slope                          percent*               -0.03861
+&gt;  11 glacial till                   presence/absence       -0.8141
+&gt;  12 clay sediment                  percent*               -0.04751
+&gt;
+&gt;Attenuation Factors
+&gt;  13 fresh surface water withdrawal megaliters/day          -1.078
+&gt;  14 irrigation tailwater recovery  km2                     -8.327
+&gt;  15 histosol soil type             percent                 -0.0185
+&gt;  16 wetlands                       percent                 -0.03213
+&gt;
+&gt;*Values in the SLOPE and CLAY grids were multiplied by 1000 to convert
+&gt; the grids from floating point to integer.
+</procdesc>
+        <procdate>200512</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+
+A national grid of average (1992 and 1997) N input from
+confined animal manure was generated by adding a spatial
+component to tabular county estimates of N from confined
+manure presented in Ruddy and others (2006). Mapped
+agricultural land cover from NLCDE 92 1-km resolution GRIDS
+was used to spatially refine the geographic location of N from
+manure from countywide tables to agricultural land within a
+county.
+
+In each NLCDE 92 1-km resolution national grid, the value of a
+grid cell was the percentage of the 1 km by 1 km area specific
+to that land cover class.  If a 1-km2 cell contained 78
+percent agricultural land, this translated to .78 km2 of
+agricultural land in the cell.
+
+Agricultural land where confined manure was applied was defined
+as the sum of these four percentage land cover classifications
+from NLCDE 92:
+
+&gt;Code     Land cover classification
+&gt; 81      Pasture/hay
+&gt; 82      Row crops
+&gt; 83      Small grains
+&gt; 84      Fallow
+
+The assumption was that confined manure was applied equally to
+these land cover categories.
+
+A 1-km resolution national grid of N input from confined
+manure was generated using steps similar to those used to
+generate a 1-km resolution pesticide use grid described in
+Nakagaki and Wolock (2005), pages 17-20.  The steps were:
+
+1. Compute the county area of NLCDE 92 pasture/hay, row crops,
+small grains, and fallow land cover classifications (in
+each county in the conterminous United States.
+
+a. The 1-km grid of percent values of pasture/hay, row
+crops, small grains, and fallow land was converted to a
+grid of km2 of agricultural land by dividing the value of
+each cell (percent) by 100.
+
+b. The area of pasture/hay, row crops, small grains, and
+fallow land was summed for each county by overlaying the
+cell values (km2) of the areal grid with a 1-km resolution
+county grid.
+
+2. Compute the county "intensity" (or "rate") of N input
+for each county in the conterminous United States.
+
+The "intensity" was computed by dividing the N input for
+the county (kg) by the county area of pasture/hay, row
+crops, small grains, and fallow land computed in step 1b
+(km2).
+
+The "intensity" data was linked to the 1-km national county
+grid using county FIPS codes.
+
+3. Create a national grid of estimated N input to pasture/hay, row
+crops, small grains, and fallow land.
+
+The cell values of the areal grid of km2 of pasture/hay, row
+crops, small grains, and fallow land (step 1a) were
+multiplied by the cell values of the areal grid of county N
+input "intensity" (step 2).  The cell values of the final
+grid represent the kg of N input for each 1 km by 1 km
+cell.
+
+Here is an example of how N input for one 1-km2 cell in Pierce
+County, Nebraska (FIPS 31119) was generated:
+
+&gt;Step 1a. Percent of NLCDE 92 pasture/hay, row crops, small
+&gt;grains, and fallow in cell = 13, so the amount of NLCDE 92 ag
+&gt;land in cell = .13 km2
+&gt;Step 1b. Total area of NLCDE 92 pasture/hay, row crops, small
+&gt;grains, and fallow in county = 1,302.17 km2
+&gt;Step 2. Total confined manure N input in county = 2,055,140.0 kg
+&gt;(average for 1992 and 1997, calculated from Ruddy and others, 2006)
+&gt;
+&gt;County "intensity" = 2,055,140 kg / 1302.17 km2 =  1578.24 kg/km2
+&gt;
+&gt;Step 3. Amount of confined manure N input in cell = .13 km2 *
+&gt;1578.2 kg/km2 = 205.172 kg
+&gt;The sum of confined manure N input calculated for all cells
+&gt;in Pierce county (FIPS 31119) equals 11,334,608.8 kg.
+
+These steps were repeated for all cells nationwide to generate
+a preliminary 1-km resolution national grid. Each cell value
+represented the amount (kg) of N input from confined manure in
+the cell.  The values were converted to kg/hectare (kg/ha) by
+multiplying each value by .01.
+
+Preliminary runs of the model resulted in unrealistically high
+nitrate predictions (more than 100 mg/L) in some areas. To
+prevent the model from overestimating nitrate concentration,
+sensitive input variables (population density, farm
+fertilizer, confined manure, and water input) were examined to
+establish criteria for removing input cells with values above
+certain thresholds.  The filtered input values were then put
+into the model. Because the model was based on network
+averages of inputs, all of the grid cells could have been
+averaged, but to preserve as much resolution as possible, only
+"problem" cells were averaged.
+
+The threshold established for confined manure N input was 300
+kg/ha.
+
+The "raw" confined manure N input numbers were filtered as
+follows:
+
+a) If the original confined manure N input was less than or
+equal to 300 kg/ha, the original confined manure N input value
+was written to the confined manure N input output grid.
+
+b) If the original confined manure N input was greater than
+300 kg/ha, a mean was calculated for that cell using the GRID
+function FOCALMEAN. FOCALMEAN computed the mean of selected
+cells surrounding the input cell using a 9 by 9 rectangular
+neighborhood of cells. Each cell was weighted equally except
+for the input cell itself, which was weighted zero and was
+excluded from the calculation. The MEAN of the surrounding
+cells was assigned to the output grid for confined manure N
+input.
+
+&gt;manfmha =  selectmask((focalmean(rawman,weight,kernel9x9.txt)),rawman)
+
+The kernel file (kernel9x9.txt) used to specify the 9 by 9
+rectangular neighborhood of cells and the weight of each cell
+used by FOCALMEAN was:
+
+&gt;9 9
+&gt;1 1 1 1 1 1 1 1 1
+&gt;1 1 1 1 1 1 1 1 1
+&gt;1 1 1 1 1 1 1 1 1
+&gt;1 1 1 1 1 1 1 1 1
+&gt;1 1 1 1 0 1 1 1 1
+&gt;1 1 1 1 1 1 1 1 1
+&gt;1 1 1 1 1 1 1 1 1
+&gt;1 1 1 1 1 1 1 1 1
+&gt;1 1 1 1 1 1 1 1 1
+
+The filtered grid of confined manure N input then was used as
+input to the GWAVA-S model.
+</procdesc>
+        <procdate>200512</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+
+To make the national map of predicted nitrate concentration,
+the values from the 1-km by 1-km grid cells for each of the
+input data layers were put in to the model equation to
+calculate a predicted concentration for each output cell.  An
+output cell was assigned a value of "no data" if any of the
+corresponding input data cells at that location was "no data."
+
+The following ArcInfo Workstation GRID commands produced the
+predicted nitrate concentration grid:
+
+&gt;/*Nonlinear regression model 1 for nitrate in shallow ground water
+&gt;/*Dec 23, 2005
+&gt;setwindow  -2380000.000 260000.000 2265000.000 3200000.000 gwava-s_orvi
+&gt;setcell 1000
+&gt;/*Set directory housing the filtered input grids for fertilizer, manure, population, and water input.
+&gt;&amp;s fdir = d:/ancill/model2005/dec2005/filtered
+&gt;/*
+&gt;/*Use filtered N input grids in kg/hectare.
+&gt;/*
+&gt;gwava-s_out =  ((0.226544 * %fdir%/gwava-s_ffer) + (0.404948 * %fdir%/gwava-s_conf) + (1.959994 * gwava-s_orvi) + (0.006658 * gwava-s_popd) + ~
+&gt;(0.147298 * gwava-s_crpa)) * ~
+&gt;exp ((0.562985 * gwava-s_crox) + (0.518172 * gwava-s_vrox) + (-6.48311 * gwava-s_ddit) + (-0.03861 * ((gwava-s_slop / 1000))) + ~
+&gt;(-0.81412 * gwava-s_gtil) + (-0.04751 * (gwava-s_clay / 1000)) + (38.16395 * %fdir%/gwava-s_wtin)) * ~
+&gt;exp ((-1.07756 * gwava-s_swus) + (-8.3267  * gwava-s_twre) + (-0.01846 * gwava-s_hist) + (-0.03213 * gwava-s_wetl))
+
+GRID cells were randomly selected from this data set and were
+checked by hand to ensure the correct values were calculated
+using the model equation and the input data layers.
+
+Areas with high N load, low to moderate clay content,
+sufficient water input, and low denitrification potential have
+the highest predicted nitrate concentration in ground water
+and therefore may be vulnerable to nitrate contamination.  The
+most extensive areas of predicted, severe contamination
+(nitrate greater than 10 mg/L) occur in the High Plains, and
+areas of predicted, moderate contamination (more than 5 to 10
+mg/L nitrate) occur extensively in the northern Midwest.
+</procdesc>
+        <procdate>200512</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+
+The input GRID was converted to ASCII (plain text) for
+distribution using ArcInfo Workstation command:
+
+&gt;gridascii gwava-s_conf gwava-s_conf.txt
+</procdesc>
+        <procdate>2007</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>2940</rowcount>
+      <colcount>4645</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96</longcm>
+            <latprjo>23</latprjo>
+            <feast>0.00000</feast>
+            <fnorth>0.00000</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>1000.0</absres>
+            <ordres>1000.0</ordres>
+          </coordrep>
+          <plandu>METERS</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>294.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
+
+Each 1-km by 1-km grid cell stores N input from confined animal
+manure in units of kilograms/hectare (filtered).
+
+Data Type:            Floating Point
+Minimum Value =                0.000
+Maximum Value =              321.059
+Mean          =                3.302
+Standard Deviation =           8.974
+
+The grid is floating point; a VAT is not present.
+
+In the ASCII text file, "no data" is indicated as -9999.
+</eaover>
+      <eadetcit>None.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+gwava-s_conf</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>
+
+Although this data set has been used by the U.S. Geological Survey,
+U.S. Department of the Interior, no warranty expressed or implied
+is made by the U.S. Geological Survey as to the accuracy of the
+data and related materials. The act of distribution shall not
+constitute any such warranty, and no responsibility is assumed by
+the U.S. Geological Survey in the use of this data, software, or
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ArcInfo Workstation GRID</formname>
+          <filedec>gzip -d; gunzip</filedec>
+          <transize>10648019 bytes</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/gwava-s/arctar/gwava-s_conf.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ASCII file</formname>
+          <filedec>gzip -d; gunzip</filedec>
+          <transize>13712675 bytes</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/gwava-s/gascii/gwava-s_conf.txt.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>
+Index to all files related to the GWAVA-S model to facilitate downloading
+all the GIS data sets
+</formname>
+          <formcont>Web page with links to all data sets</formcont>
+          <filedec>HTML</filedec>
+          <transize>5 bytes</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/gwava-s/index.html</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None.  This data set is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>200705</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>19910101</begdate>
+    <enddate>20031231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_gwava-s_conf.html</htmlurl>
+  </mercury>
+</metadata>

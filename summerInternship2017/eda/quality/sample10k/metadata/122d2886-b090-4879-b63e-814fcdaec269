@@ -1,0 +1,607 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/co_lfhbase_ha742.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Sharon Rafferty
+				</origin>
+        <pubdate>19980630</pubdate>
+        <title>Structure contours of base of Laramie-Fox Hills and Arapahoe aquifers</title>
+        <edition>Version 1.0, July 09, 1998</edition>
+        <geoform>Map</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?co_lfhbase_ha742</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This digital geospatial data set consists of structure contours
+of the base of the Laramie-Fox Hills aquifer and the base of the
+Arapahoe aquifer along the Front Range of Colorado.  The
+U.S. Geological Survey developed this data set as
+part of a project described in the report, "Structure, Outcrop, and Subcrop
+of the Bedrock Aquifers Along the Western Margin of the Denver Basin,
+Colorado" (Robson and others, 1998).
+			</abstract>
+      <purpose>This data set was created to display the altitude of the base of the
+Laramie-Fox Hills aquifer and the Arapahoe aquifer as depicted in
+the plates in Robson and others, (1988).
+			</purpose>
+      <supplinf>Procedures_Used:
+Structure contours of the base of the Laramie-Fox Hills aquifer,
+the base of the Arapahoe aquifer, and tic marks were scanned from
+1:50,000 maps (Robson and others, 1998) at 200 to 800 dots per inch.
+These scans then were saved into a TIFF (tagged image file format which
+is a bit-mapped file format).  The TIFF's were converted to unrectified
+grids (ARC/INFO raster geospatial datasets), by the ARC/INFO command
+IMAGEGRID.  Vector geospatial data sets, known as coverages in ARC/INFO
+terminology, were created from ascii files containing the latitude and
+longitude coordinates in degrees, minutes and seconds.  These coverages
+were projected into a State Plane projection that was specific to each county
+map. From these coverages, link files were then created to help register
+the grids to the coverages by use of the ARC/INFO command CONTROLPOINTS.
+
+Arc: controlpoints fig2_grid fig2_lin fig2_tics nominal identity # point
+
+Registration root mean square errors of 0.005 or less were acceptable for
+the creation of link files.
+
+The unrectified grids were georectified with the ARC/INFO command
+GRIDWARP, which transforms or rubber sheets a grid along a set of links
+by using a first-order polynomial transformation.  The grid cell size
+was resampled to a larger cell size to decrease processing time for
+conversion to coverages.
+
+GRID:  setcell 20
+GRID:  fig2_20grid = fig2_rgrid
+
+Line coverages were created from the georectified grids with the ARC/INFO
+command GRIDLINE, using a line thickness of 150 feet,a weed tolerance
+of 40 feet, and a default dangle of 0.7 times the thickness.
+
+GRID: fig2_cov = gridline (fig2_20grid,positive,thin,nofilter,
+round,noitem,150, #,40)
+
+The coverages then were built with line topology and attributed.
+To improve cartographic display, arcs
+were smoothed by splining and generalizing in Arcedit with weed
+tolerances ranging from 30 to 100 units.
+Individual coverages containing the same thematic data were plotted
+and checked for line accuracy and attribution. The individual coverages
+then were appended to form a single thematic coverage.
+
+The final coverage represents one thematic layer in
+Robson and others (1998).
+
+This data set is one of seven digital map data sets being published
+together for this area.  The other six data sets are:
+
+ARAPBASE -  structure contours on base of upper Arapahoe aquifer
+LFHTOP -    structure contours on top of Laramie-Fox Hills aquifer
+WELLS -     location of wells
+GEOSYMB -   point and line geologic structure information
+GEO -       geohydrologic unit boundaries
+STUDYAREA - outline of study area
+
+The following is an AML to generate a graphic of this coverage.
+
+map basecon.map
+mape studyarea
+mapunits feet
+pagesize 37 51
+mappos cen cen
+clearsel
+box 1.0 1.0 35 49.5
+arcs studyarea
+
+lineset carto
+linesymbol 214
+linesize .02
+linetype hardware
+linecolor red
+lineput 214
+resel lfhbase_cov arcs length gt 5813.285
+resel lfhbase_cov arcs dashed cn 'y'
+textfont 94022
+textsize 7 pt
+textcolor red
+arctext lfhbase_cov contnum # line blank /*noflip
+
+resel lfhbase_cov arcs length lt 5814.0
+resel lfhbase_cov arcs dashed cn 'y'
+linesymbol 214
+linesize .02
+linetype hardware
+linecolor red
+lineput 214
+arcs lfhbase_cov
+clearsel
+
+/*PRINTING LABELS OF  UNDASHED CONTOURS OF BASE
+lineset carto
+textfont 94022
+textsize 7 pt
+linesymbol 1
+linesize .02
+linecolor usgsred spot 100
+lineput 1
+resel lfhbase_cov arcs length gt 5813.285
+resel lfhbase_cov arcs dashed cn 'n'
+textcolor red
+arctext lfhbase_cov contnum # line blank /*noflip
+
+/*PRINTING UNDASHED CONTOURS OF BASE
+clearsel
+linesymbol 1
+linetype hardware
+linesize .02
+linecolor red
+lineput 1
+resel lfhbase_cov arcs length lt 5814.0
+resel lfhbase_cov arcs dashed cn 'n'
+arcs lfhbase_cov
+clearsel
+
+Reviews_Applied_to_Data:
+
+March 1998:  Colleague review of 1:50,000-scale maps that
+were generated from the original data set.  Manuscript review
+included validation of method as outlined in map report and
+inspection for positional accuracy.
+
+March 1998:  Inspection of copy generated from this data set.
+
+April 1998:  Colleague review of original digital data set
+and associated metadata.  Metadata review included verification
+of table and column/item identities and definitions, validation
+of the reference data sets and citations, verification of
+consistency between log file and documented procedures, and
+validation of development method as described in the documentation.
+
+References_Cited:
+
+Robson,S.G., 1998, Van Slyke, George, Graham, Glenn,
+Structure, outcrop, and subcrop of the
+bedrock aquifers along the western margin of the Denver
+Basin, Colorado:  U.S. Geological Survey Hydrologic
+Investigations Atlas HA-742, 5 sheets, scale 1:50,000.
+
+Available through the internet at
+&lt;URL:https://pubs.er.usgs.gov/publication/ha742&gt;
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>1998</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Current as of publication date.</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-105.25684011</westbc>
+        <eastbc>-104.59372543</eastbc>
+        <northbc>40.88766665</northbc>
+        <southbc>39.89907671</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>contour</themekey>
+        <themekey>aquifer</themekey>
+        <themekey>structure contour</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Front Range, Colorado</placekey>
+        <placekey>Denver, Colorado</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>These data are not to be used at scales greater than
+1:50,000.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Colorado District Chief</cntper>
+          <cntorg>U.S. Geological Survey
+Water Resources Division
+					</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>Box 25046, MS 415, Denver Federal Center</address>
+          <city>Denver</city>
+          <state>CO</state>
+          <postal>80225</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>303-236-2904</cntfax>
+        <cntemail>(wfhorak@usgs.gov)</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/lfhbase.jpg</browsen>
+      <browsed>Illustration of the dataset.</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <datacred>U.S. Geological Survey</datacred>
+    <native>dgux, 5.4R3.10, AViiON UNIX
+ARC/INFO version 7.0.4
+		</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Procedures used to develop contours are described
+in Hydrologic Atlas-742
+			</attraccr>
+    </attracc>
+    <logic>Chain-node topology present.</logic>
+    <complete>See Supplemental Information.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Scanned lines and data points
+are within 0.01 inch of original line work.
+				</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr></vertaccr>
+        <qvertpa>
+          <vertaccv>n/a</vertaccv>
+          <vertacce></vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>1998</pubdate>
+            <title>Structure, outcrop, and subcrop of the bedrock aquifers along the
+written edge of the Denver Basin, Colorado.
+						</title>
+            <geoform>Map</geoform>
+            <serinfo>
+              <sername>Hydrologic Investigations Atlas</sername>
+              <issue>HA-742</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Denver, CO</pubplace>
+              <publish>USGS, WRD</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>mylar separate</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1997</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>HA-742</srccitea>
+        <srccontr>Structure contours were hand drawn.
+Please see Robson and others, (1998).
+				</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>See Supplemental Information</procdesc>
+        <procdate>1998</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>119</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>13</utmzone>
+            <transmer>
+              <sfctrmer>implied</sfctrmer>
+              <longcm>implied</longcm>
+              <latprjo>implied</latprjo>
+              <feast>implied</feast>
+              <fnorth>implied</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>10.96863350259</absres>
+            <ordres>10.96863350259</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LFHBASE.AAT</enttypl>
+        <enttypd>Attribute table of LFHBASE</enttypd>
+        <enttypds>GIS software</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FNODE#</attrlabl>
+        <attrdef>Internal number of from-node</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>TNODE#</attrlabl>
+        <attrdef>Internal number of to-node</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LPOLY#</attrlabl>
+        <attrdef>Internal number of poly to left of arc</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RPOLY#</attrlabl>
+        <attrdef>Internal number of poly to right of arc</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive intege</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LENGTH</attrlabl>
+        <attrdef>Length of arc in coverage units</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LFHBASE#</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>GIS Software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LFHBASE-ID</attrlabl>
+        <attrdef>User-assigned feature number</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Integer</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DASHED</attrlabl>
+        <attrdef>Contour line sections inferred or interpolated</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>"y", "n"</edomv>
+            <edomvd>y for yes, inferred
+n for no, not inferred
+						</edomvd>
+            <edomvds>User assigned</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTNUM</attrlabl>
+        <attrdef>Number indicating feet above sea level
+of base of aquifer
+				</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>100 foot intervals</edomv>
+            <edomvd>n/a</edomvd>
+            <edomvds>User assigned</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>Item DASHED is a graphical indicator to represent whether
+data displayed was known or inferred.
+y = display line as dashed (inferred)
+n = display line as solid (known).
+
+Item CONTNUM indicates number of feet above sea level of
+base of aquifer.
+&gt;
+&gt;LFHBASE.AAT:
+&gt;
+&gt;COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC  ALTERNATE NAME
+&gt;    1  FNODE#                 4     5     B      -
+&gt;    5  TNODE#                 4     5     B      -
+&gt;    9  LPOLY#                 4     5     B      -
+&gt;   13  RPOLY#                 4     5     B      -
+&gt;   17  LENGTH                 8    18     F      5
+&gt;   25  LFHBASE#               4     5     B      -
+&gt;   29  LFHBASE-ID             4     5     B      -
+&gt;   33  DASHED                 2     2     C      -
+&gt;   35  CONTNUM                5     5     I      -
+&gt;
+&gt;
+			</eaover>
+      <eadetcit>Not available</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>shape file</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/lfhbase_shp.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/lfhbase.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/lfhbase.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+co_lfhbase_ha742</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>19980101</begdate>
+    <enddate>19981231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_co_lfhbase_ha742.html</htmlurl>
+  </mercury>
+</metadata>

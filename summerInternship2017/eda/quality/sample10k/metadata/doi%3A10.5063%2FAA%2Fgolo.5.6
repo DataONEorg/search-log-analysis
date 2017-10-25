@@ -1,0 +1,614 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="golo.5.6" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">  <access authSystem="knb" order="denyFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=gss1,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+</allow>
+</access>
+<dataset scope="document">  <title>Golondrinas Nests</title>
+<creator id="1328123887750"><individualName><salutation>Dr.</salutation>
+<givenName>David</givenName>
+<surName>Winkler</surName>
+</individualName>
+<organizationName>Cornell University</organizationName>
+<address><deliveryPoint>E 241 Corson Hall</deliveryPoint>
+<city>Ithaca</city>
+<administrativeArea>NY</administrativeArea>
+<postalCode>14850</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">607-254-4216</phone>
+<electronicMailAddress>dww4@cornell.edu</electronicMailAddress>
+<onlineUrl>http://ecologyandevolution.cornell.edu/people/faculty/david-winkler.cfm</onlineUrl>
+</creator>
+ <associatedParty><references>1328123887750</references>
+ <role>Principal Investigator</role>
+ </associatedParty>
+<abstract><para>Nest data from Golondrinas sites near Ithaca, NY
+These are data on the nest records of all Tree Swallow breeding attempts collected as part of David Winkler's studies of this species in and around Ithaca, New York, from 1986 to 2011. These studies, funded by grants from the Whitehall Foundation, the Environmental Protection Agency, National Science Foundation and US Department of Agriculture, have involved the dissertation research of PhD candidates from Cornell (J.P. McCarty, M.F. Wasson, D.R. Ardia, V. Ferretti, P. Llamb&#237;as, D. Cerasale, A.M. Forsman, A. Belmaker), Iowa State University (M. Haussmann, M.G. Palacios) and University of Montana (S. Patterson) as well as undergraduate and high school learning opportunities for a great number of students. The data comprises the entire nesting chronology of each Tree Swallow nesting attempt, including entires on the number of eggs laid, the number that hatched, and the number of chicks that fledged as well as dates of the first egg, first hatch and fledging.</para>
+</abstract>
+<keywordSet><keyword>field</keyword>
+<keyword>code</keyword>
+</keywordSet>
+<keywordSet><keyword>nest</keyword>
+<keyword>Tree Swallow</keyword>
+<keyword>Ithaca</keyword>
+<keyword>New York</keyword>
+<keyword>Golondrinas</keyword>
+<keyword>Life history</keyword>
+<keyword>Nesting Chronology</keyword>
+<keyword>Swallow</keyword>
+<keyword>Eggs</keyword>
+<keyword>Clutch</keyword>
+<keyword>Brood Size</keyword>
+</keywordSet>
+   <intellectualRights><para>Anyone wishing to use these data is welcome to do so. If there are any questions of interpretation, the user is encouraged to contact David Winkler (dww4@cornell.edu).</para>
+</intellectualRights>
+  <coverage scope="document">   <geographicCoverage><geographicDescription>Western New York</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-76.125</westBoundingCoordinate>
+<eastBoundingCoordinate>-74.75</eastBoundingCoordinate>
+<northBoundingCoordinate>43.125</northBoundingCoordinate>
+<southBoundingCoordinate>42.25</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><rangeOfDates><beginDate><calendarDate>1985</calendarDate>
+</beginDate>
+<endDate><calendarDate>2011</calendarDate>
+</endDate>
+</rangeOfDates>
+</temporalCoverage>
+<taxonomicCoverage><taxonomicClassification><taxonRankName>Genus</taxonRankName>
+<taxonRankValue>Tachicineta</taxonRankValue>
+<taxonomicClassification><taxonRankName>Species</taxonRankName>
+<taxonRankValue>bicolor</taxonRankValue>
+<commonName>Tree Swallow</commonName>
+</taxonomicClassification>
+</taxonomicClassification>
+</taxonomicCoverage>
+</coverage>
+<contact id="1328124045671"><individualName><salutation>Mr.</salutation>
+<givenName>Noah</givenName>
+<surName>Hamm</surName>
+</individualName>
+<organizationName>Cornell University</organizationName>
+<positionName>Research Assistant</positionName>
+<address><deliveryPoint>E241 Corson Hall</deliveryPoint>
+<city>Ithaca</city>
+<administrativeArea>New York</administrativeArea>
+<postalCode>14850</postalCode>
+<country>USA</country>
+</address>
+<phone phonetype="voice">607-254-4266</phone>
+</contact>
+<contact><references>1328123887750</references>
+</contact>
+<methods><methodStep><description><section><title>Observation of Nesting Tree Swallows</title>
+<para>Visisting and observing nesting activity on a regular basis from mid April through Late June.  Taking note nest building, egg laying, incubation, hatching, nestling growth, and fledging.</para>
+</section>
+</description>
+<instrumentation>Bandind, weighing, measuring.</instrumentation>
+</methodStep>
+<sampling><studyExtent><description><para>between 1985 and 2012 nesting swallows observed in the Ithaca Area</para>
+</description>
+</studyExtent>
+<samplingDescription><para>bird banding nest observations</para>
+</samplingDescription>
+</sampling>
+</methods>
+    <dataTable id="1328125927656" scope="document"> <entityName>nests.CSV</entityName>
+ <physical id="1328125010046" scope="document"> <objectName>nests.CSV</objectName>
+ <size unit="byte">1517916</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/golo.3.3</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1328125927671" scope="document"><attributeName>csiteid</attributeName>
+<attributeLabel>Site</attributeLabel>
+<attributeDefinition>Alpha code for physical location of nest boxes</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>&quot;LVC&quot;</code>
+<definition>Lee Vining Canyon</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;CU1&quot;</code>
+<definition>Warren Drive</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;CU2&quot;</code>
+<definition>Neimi Road</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;CU4&quot;</code>
+<definition>Mount Pleasant</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;CU5&quot;</code>
+<definition>Hanshaw Road</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;CU6&quot;</code>
+<definition>Daisy Hollow Road</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;CU7&quot;</code>
+<definition>Ellis Hollow Creek Road</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;CU8&quot;</code>
+<definition>test</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;CU9&quot;</code>
+<definition>Cayuga Lake</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927687" scope="document"><attributeName>cboxid</attributeName>
+<attributeLabel>Box ID</attributeLabel>
+<attributeDefinition>Alpha code identifying each box within a given site</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>box numbers usually from 1 to 300 ocassionally _1 or 1a</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927703" scope="document"><attributeName>nattempt</attributeName>
+<attributeLabel>Attempt number</attributeLabel>
+<attributeDefinition>within a given nest box this code refers to the nest building/ egg laying and whether it is the first second or third active nesting cycle in that nesting season.</attributeDefinition>
+<measurementScale><interval><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</interval>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927718" scope="document"><attributeName>nseason</attributeName>
+<attributeLabel>Season</attributeLabel>
+<attributeDefinition>Calendar year in which the majority of the breeding cycle took place for a given site and during which data was collected.</attributeDefinition>
+<measurementScale><dateTime><formatString>yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927734" scope="document"><attributeName>cspecies</attributeName>
+<attributeLabel>Species code</attributeLabel>
+<attributeDefinition>USGS Bird Banding Lab four letter species code</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>&quot;VGSW&quot;</code>
+<definition>Violet-Green Swallow</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;TRES&quot;</code>
+<definition>Tree Swallow</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;&quot;</code>
+<definition>junk</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927750" scope="document"><attributeName>ntryacc</attributeName>
+<attributeLabel>Attempt Accuracy</attributeLabel>
+<attributeDefinition>How certain is the coded attempt number?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>1</code>
+<definition>high accuracy</definition>
+</codeDefinition>
+<codeDefinition><code>2</code>
+<definition>could be an uncoded attempt prior to this nest</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927765" scope="document"> <attributeName>cnewbird</attributeName>
+ <attributeLabel>New bird</attributeLabel>
+ <attributeDefinition>Are breeders in attempt #2 (or #3,etc) different from the previous attempt?</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>y</code>
+ <definition>yes, different</definition>
+ </codeDefinition>
+ <codeDefinition> <code>p</code>
+ <definition>probably different</definition>
+ </codeDefinition>
+ <codeDefinition> <code>n</code>
+ <definition>NOT different</definition>
+ </codeDefinition>
+ <codeDefinition> <code>u</code>
+ <definition>unknown</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1328125927781" scope="document"><attributeName>cexpmtgrp</attributeName>
+<attributeLabel>Experimental Group</attributeLabel>
+<attributeDefinition>experimental group</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><entityCodeList><entityReference>1328201435312</entityReference>
+<valueAttributeReference>1328201435328</valueAttributeReference>
+<definitionAttributeReference>1328201435343</definitionAttributeReference>
+</entityCodeList>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927796" scope="document"> <attributeName>nbroodexp</attributeName>
+ <attributeDefinition>junk</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>junk</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1328125927812" scope="document"><attributeName>cbandm</attributeName>
+<attributeLabel>Male Band Number</attributeLabel>
+<attributeDefinition>Band number of male at nest</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>BBL band number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927828" scope="document"><attributeName>cbandf</attributeName>
+<attributeLabel>Female Band Number</attributeLabel>
+<attributeDefinition>Band number of Female at nest</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>BBL band number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927843" scope="document"><attributeName>caltpair</attributeName>
+<attributeLabel>Alternate Pair</attributeLabel>
+<attributeDefinition>Band numbers of aditional adult birds caught at this nest.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>BBL band number</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927859" scope="document"><attributeName>dlaydate</attributeName>
+<attributeLabel>Lay Date</attributeLabel>
+<attributeDefinition>Date first egg appears in nest</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927875" scope="document"><attributeName>nlayacc</attributeName>
+<attributeLabel>Lay Accuracy</attributeLabel>
+<attributeDefinition>Number of days between observations during which time laying occured.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>mole</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927890" scope="document"><attributeName>lfoundcomp</attributeName>
+<attributeLabel>Found Complete</attributeLabel>
+<attributeDefinition>Was the nest first onbserved with a complete clutch?</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>F</code>
+<definition>no</definition>
+</codeDefinition>
+<codeDefinition><code>T</code>
+<definition>yes</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927906" scope="document"><attributeName>dcompdate</attributeName>
+<attributeLabel>Completion date</attributeLabel>
+<attributeDefinition>Date of completed clutch observation</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927921" scope="document"><attributeName>ncompacc</attributeName>
+<attributeLabel>Completion Accuracy</attributeLabel>
+<attributeDefinition>Number of days between observations bracketing clutch completion event.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927937" scope="document"><attributeName>nclutch</attributeName>
+<attributeLabel>Clutch Size</attributeLabel>
+<attributeDefinition>Number of eggs layed in nest once incubation begins.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927953" scope="document"><attributeName>neggloss</attributeName>
+<attributeLabel>Egg Loss</attributeLabel>
+<attributeDefinition>Number of eggs lost during nesting attempt.  These losses, for example,  may be due to predation, weather or, human activity.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927968" scope="document"><attributeName>cwhyeloss</attributeName>
+<attributeLabel>Egg Loss Code</attributeLabel>
+<attributeDefinition>Cause of egg loss.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>U</code>
+<definition>Unknown</definition>
+</codeDefinition>
+<codeDefinition><code>X</code>
+<definition>Human activity</definition>
+</codeDefinition>
+<codeDefinition><code>P</code>
+<definition>Predation</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125927984" scope="document"><attributeName>dhatchdat</attributeName>
+<attributeLabel>Hatch Date</attributeLabel>
+<attributeDefinition>Date when first egg hatches.</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928000" scope="document"><attributeName>nhatchacc</attributeName>
+<attributeLabel>Hatch Accuracy</attributeLabel>
+<attributeDefinition>Nmber of days between observations bracketing the first hatching egg.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928015" scope="document"><attributeName>nbroodsiz</attributeName>
+<attributeLabel>Brood Size</attributeLabel>
+<attributeDefinition>Number of chicks in nest.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928031" scope="document"><attributeName>nnohatch</attributeName>
+<attributeLabel>No Hatch</attributeLabel>
+<attributeDefinition>Number of eggs that do not hatch.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928046" scope="document"><attributeName>nchikloss</attributeName>
+<attributeLabel>Chick Loss</attributeLabel>
+<attributeDefinition>Number of Chicks lost before fledging.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928062" scope="document"><attributeName>cwhycloss</attributeName>
+<attributeLabel>Chick Loss Code</attributeLabel>
+<attributeDefinition>Cause of chick loss.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>&quot;NL&quot;</code>
+<definition>No Loss</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;U&quot;</code>
+<definition>Unknown</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;S&quot;</code>
+<definition>Starved</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;-8&quot;</code>
+<definition>N/A (e.g. human caused  failure)</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;&quot;</code>
+<definition>N/A</definition>
+</codeDefinition>
+<codeDefinition><code>-7</code>
+<definition>Special Codes: -7	= if partial known losses, but poor nest checks later leave uncertainty of actual number (e.g. no post-fledging check) or known all chicks lost but not known how many hatched (broodsize = -7). -8	= if broodsize coded -8 -9	= unknown if any chicks lost. Use if broodsize coded -9 or if broodsize coded -7 and no nest checks from mid chicks period to long after fledging (when carcasses might be gone).</definition>
+</codeDefinition>
+<codeDefinition><code>-9</code>
+<definition>unknown if any chicks lost. Use if broodsize coded -9 or if broodsize coded -7 and no nest checks from mid chicks period to long after fledging (when carcasses might be gone).</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928078" scope="document"><attributeName>dbanddate</attributeName>
+<attributeLabel>Band Date</attributeLabel>
+<attributeDefinition>Date of chick banding for this nest.</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928093" scope="document"><attributeName>nfledgnum</attributeName>
+<attributeLabel>Number Fledged</attributeLabel>
+<attributeDefinition>Number of chicks fledged from nest.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928109" scope="document"><attributeName>cfate</attributeName>
+<attributeLabel>Nest Fate</attributeLabel>
+<attributeDefinition>Success/ failure of nesting attempt.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>&quot;FL&quot;</code>
+<definition>Fledged</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;A&quot;</code>
+<definition>Abandoned</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;D&quot;</code>
+<definition>Dead without obvious cause</definition>
+</codeDefinition>
+<codeDefinition><code>&quot;U&quot;</code>
+<definition>Unknown</definition>
+</codeDefinition>
+<codeDefinition><code>UF</code>
+<definition>Unknown excessive observation inverval</definition>
+</codeDefinition>
+<codeDefinition><code>P</code>
+<definition>Predation caused failure</definition>
+</codeDefinition>
+<codeDefinition><code>X</code>
+<definition>Human activity caused failure</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928125" scope="document"><attributeName>dfatedate</attributeName>
+<attributeLabel>Fate Date</attributeLabel>
+<attributeDefinition>Date (or best estimate) of final fate for the nest.</attributeDefinition>
+<measurementScale><dateTime><formatString>mm/dd/yyyy</formatString>
+</dateTime>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928140" scope="document"><attributeName>nfatedacc</attributeName>
+<attributeLabel>Fate Date Accuracy</attributeLabel>
+<attributeDefinition>Number of days between observations bracketing fate event.</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+</unit>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928156" scope="document"><attributeName>cuniqnest</attributeName>
+<attributeLabel>Uniquenest</attributeLabel>
+<attributeDefinition>Unique nest  ID containing site, box number, season, and attempt number.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>code</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928171" scope="document"><attributeName>cnotekey</attributeName>
+<attributeLabel>Note Key</attributeLabel>
+<attributeDefinition>Keyword field for values such as CP/ BP for sexing by Cloacal Protuberance/ Brood Patch</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>keyword</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928187" scope="document"><attributeName>caffectgrp</attributeName>
+<attributeLabel>Affect Group</attributeLabel>
+<attributeDefinition>Code referring to what part of the nesting cycle may have been affected by a given experiment, encounter type and responsible party.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain><codeDefinition><code>7</code>
+<definition>Ambiguous effect</definition>
+</codeDefinition>
+<codeDefinition><code>6</code>
+<definition>pre lay</definition>
+</codeDefinition>
+<codeDefinition><code>5</code>
+<definition>lay</definition>
+</codeDefinition>
+<codeDefinition><code>4</code>
+<definition>clutch</definition>
+</codeDefinition>
+<codeDefinition><code>3</code>
+<definition>hatch</definition>
+</codeDefinition>
+<codeDefinition><code>2</code>
+<definition>brood</definition>
+</codeDefinition>
+<codeDefinition><code>1</code>
+<definition>fledge</definition>
+</codeDefinition>
+<codeDefinition><code>0</code>
+<definition>post</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928203" scope="document"><attributeName>l9394</attributeName>
+<attributeLabel>l9394</attributeLabel>
+<attributeDefinition>Box numbers changed from  1993 to 1994 and updated.
+You can ignore this unused bookkeeping field.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>F</code>
+<definition>n</definition>
+</codeDefinition>
+<codeDefinition><code>t</code>
+<definition>y</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="1328125928218" scope="document"><attributeName>ldone</attributeName>
+<attributeLabel>done</attributeLabel>
+<attributeDefinition>Another bookkeeping field.  Nest record data entered.</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><enumeratedDomain enforced="yes"><codeDefinition><code>T</code>
+<definition>y</definition>
+</codeDefinition>
+<codeDefinition><code>F</code>
+<definition>n</definition>
+</codeDefinition>
+</enumeratedDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ </attributeList>
+ <numberOfRecords>6435</numberOfRecords>
+ </dataTable>
+ <dataTable id="1328201435312"><entityName>expcodes.CSV</entityName>
+ <entityDescription>description of experimental codes</entityDescription>
+ <physical id="1328201332484"><objectName>expcodes.CSV</objectName>
+ <size unit="byte">4191</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/golo.6.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1328201435328"><attributeName>cexpcode</attributeName>
+ <attributeDefinition>experimental code</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>codes</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1328201435343"><attributeName>cdescription</attributeName>
+ <attributeDefinition>descriptions of experimental protocol</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>descriptions of experimental protocol</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>62</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

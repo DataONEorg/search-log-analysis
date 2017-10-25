@@ -1,0 +1,1143 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/ds10cnrlvl_a10.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2015</pubdate>
+        <title>Geodatabase of the datasets used to represent the two subunits of the Central Valley aquifer system, California</title>
+        <geoform>Spatial data geodatabase</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?ds10cnrlvl_a10</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This geodatabase includes spatial datasets that represent the Central Valley aquifer system in the State of California. Included are: (1) polygon extents; datasets that represent the aquifer system extent, the entire extent subdivided into subareas or subunits, (2) raster datasets for the altitude of each aquifer subarea or subunit, (3) altitude, and thickness contours used to generate the surface rasters, (4) georeferenced images of the figures that were digitized to create the altitude or thickness contours. The images and digitized contours are supplied for reference.
+			
+The extent of the Central Valley aquifer system is from the spatial dataset of the USGS Professional Paper 1766 (USGS PP 1766) alluvial aquifer extent - modified to make internal areas where the aquifer is not present equal to "Null" - and was referenced to a digital version of the aquifer extent presented in the Groundwater Atlas of the United States (the U.S. Geological Survey Hydrologic Atlas 730-B (USGS HA 730-B).
+			
+The Central Valley aquifer system has two aquifer subunits, in order from the most surficial to the deepest: A1: continental deposits, A2: marine deposits. The altitude and thickness contours for each subunit were digitized from georeferenced figures of altitude contours in U.S. Geological Survey Professional Paper 1401-D (USGS PP 1401-D), and U.S. Geological Survey Open File Report 95-96 (USGS OFR 95-96). The resultant top and bottom altitude values were interpolated into surface rasters with a GIS using tools that create hydrologically correct surfaces from contour data, deriving the altitude from the thickness (depth from the land surface). The primary tool was a  version of "Topo to Raster" used in ArcGIS, ArcMap, Esri 2014.</abstract>
+      <purpose>These data were combined into geodatabases to be part of the Saline Groundwater Assessment Program datasets, collected under the auspices of the Office of Groundwater to be used to investigate the locations of usable inland brackish and saline groundwater across the United States.
+The National Water-Quality Assessment Project (NAWQA) also assisted with support, which enabled the data to be published in the USGS National Spatial Data Infrastructure (NSDI) Node archive, and therefore available for use by the public.</purpose>
+      <supplinf>This file geodatabase contains the following feature dataset, feature classes, images, and the surface rasters:
+1. ds10CNRLVL_altitude_thickness_contours: Feature dataset containing all line feature class altitude or thickness contours for the aquifer subunits-
+	a. ds10CRNLVL_A1_thk_PP1401D_f08_cnt_dep_thk; contours of thickness of subunit A1 (continental deposits) , from USGS PP1401-D figure 8. Figure 8 is titled "Thickness of the aquifer system, based on the generalized thickness of continental deposits. (After R.W. Page, 1981, written commun., and Page, 1974)".
+				
+	b. ds10CNRLVL_A2_bot_OFR1995_096_clip_sel; contours of top of basement of subunit A2 (marine deposits) , from USGS OFR 95-96 spatial dataset titled "ccb-cn". The bottom of the continental deposits is considered the top of the marine deposits. The contours were clipped by the Central Valley study area polygon buffered by 5 miles.
+				
+2. ds10CNRLVL_extents: Feature dataset containing polygon feature class areal extents for the Central Valley aquifer system-
+	a. ds10CNRLVL_erev_1766: Areal extent of the entire Central Valley aquifer system; from  USGS PP 1766 spatial dataset "pp1766_Alluvial_Bnd", modified to make internal areas where the aquifer is not present equal to "Null".
+			
+	b. ds10CNRLV_erev_w_Subunits_Subareas: extent of the entire Central Valley aquifer system with the subunit and subarea boundaries described.
+			
+3. Georeferenced image files of altitude contours-
+	gri10CNRLVL_A1_thk_PP1401D_f08: image of plate 20 figure 8  from USGS PP 1401-D
+	gri10CNRLVL_A2_bot_OFR_1995_096_f01_ccb: image of figure 1 from USGS OFR 95-96 (Existing spatial data from that report were used, rather than digitizing from the figure.)
+				
+4.  Altitude-corrected surface raster datasets of the top of each aquifer subunit, and the altitude corrected surface raster datasets of the altitude of the bottom of each aquifer subunit. The altitude values are in feet about the NAVD88 vertical datum.
+	a. r10CNRLVL_a1_top_a; Altitude of top layer of subunit A1 (continental deposits)
+	b. r10CNRLVL_a1_bot_a; Altitude of bottom layer of subunit A1 (continental deposits)
+	c. r10CNRLVL_a2_top_a; Altitude of top layer of subunit A2 (marine deposits)
+	d. r10CNRLVL_a2_bot_a; Altitude of bottom layer of subunit A2 (marine deposits)</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2015</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-123.088602404</westbc>
+        <eastbc>-118.490540422</eastbc>
+        <northbc>41.054039117</northbc>
+        <southbc>34.488034099</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>extent</themekey>
+        <themekey>groundwater</themekey>
+        <themekey>aquifer</themekey>
+        <themekey>aquifer system</themekey>
+        <themekey>Central Valley aquifer system</themekey>
+        <themekey>continental deposits</themekey>
+        <themekey>marine deposits</themekey>
+      </theme>
+      <place>
+        <placekt>Geographic Names Information System (GNIS)</placekt>
+        <placekey>United States</placekey>
+        <placekey>Central Valley</placekey>
+        <placekey>California</placekey>
+      </place>
+    </keywords>
+    <accconst>None.  Acknowledgement of the U.S. Geological Survey would be appreciated in products derived from these data.</accconst>
+    <useconst>The original data were intended to be used at a regional scale of 1:2,500,000. Users are advised to read the dataset's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Midwest Region</cntorg>
+          <cntper>Jennifer S. Stanton</cntper>
+        </cntorgp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>5231 South 19th Street</address>
+          <city>Lincoln</city>
+          <state>NE</state>
+          <postal>68512</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>402-261-0458</cntvoice>
+        <cntfax>402-331-9062</cntfax>
+        <cntemail>jstanton@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/ds10CNRLVL_A10.jpg</browsen>
+      <browsed>Illustration of dataset</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <datacred>Virginia L. McGuire, USGS, data compilation; Jeremy Vinton, USGS, for digitizing vector linework; Julian A. Heilman, USGS, for GIS processing and metadata creation; Roy Sando, USGS, for data and metadata review; Sharon Qi and Stephen Char, USGS, for metadata review; and the USGS NAWQA program for supporting data release.</datacred>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcCatalog 10.2 (Build 3497) Service Pack [N/A] (Build [N/A])</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Extent(s): The areal extent for the Central Valley aquifer system was created from the polygon dataset of the USGS PP 1766 alluvial boundary.
+			
+Contours: The subunit A1 thickness contour data were digitized from scanned images from USGS PP 1401-D figure 8. See Supplemental Information for figure numbers and descriptions. Attributes for the altitude for each line were added to the digital datasets of the contour lines.
+The altitude contours of the bottom of subunit A2 were clipped from spatial data from USGS OFR 95-96. 
+The attribute altitude values of both of these datasets were checked against the published values of thickness and altitude. 	
+		
+Surface Rasters: The surface rasters for the land surface and the aquifer subunits were checked against the original contours of the cited figures/datasets by creating contours from the surface raster, and comparing to the digitized originals via overlay processes. Resultant rasters were corrected for any instances where the processes created a cell where the altitude value of a top surface exceeded the altitude value of the land surface and where the altitude of an underlying surface exceeded that of the upper surface. 
+		
+To correct the altitude values of subsequent underlying surface raster datasets, values of underlying surface raster cells were compared to the values of the cells of the immediately overlying surface raster. When any cell of an underlying surface raster had a value greater than that of a spatially coincident cell of an immediately overlying surface raster, the cell from the underlying surface raster was given the value of the overlying surface raster at that cell, ensuring that the underlying surface raster altitude values would not exceed the altitude values of the cells of the overlying surface raster.
+		
+The correction steps were:
+(1) to change the altitude values of those cells that exceeded the altitude values of the land surface equal to the land surface
+(2) to make the value of the altitude of the bottom cells that exceeded the altitude values of the corrected altitudes of the top surface equal to the corrected top altitude values.
+		
+Scanned images: no attribute accuracy was assessed.</attraccr>
+    </attracc>
+    <logic>Extent(s): This layer was informally inspected for completeness and logical consistency by visual comparison to the original datasets and GIS overlay processes.
+		
+Contours: Digital lines were compared to the georeferenced USGS PP 1401-D figure 8 linework via and the spatial dataset from USGS OFR 95-96 GIS overlay processes, and corrected if any gaps or values were missing or incorrect.
+		
+Surface Rasters: Contour check lines were created from the rasters during the raster-creation processes. A cell-query check was done within a GIS to compare altitude values of the tops and bottoms of each subunit surface raster. Processes to correct the raster cells with altitude exceedance are outlined in the Attribute Accuracy section.
+		
+Scanned images: no logical consistency was assessed.</logic>
+    <complete>Extent(s): Data are complete as per the explanation in the Attribute Accuracy Report.
+		
+Contours: The contour data were checked against the original figures to ensure all linework was present, and that the linework was attributed correctly.
+		
+Surface Rasters: Cell values have been corrected as per procedures described in the Attribute Accuracy Report.
+		
+Scanned images: the images are complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Informal inspection of digitized linework aligned with original linework.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Informal inspection of altitude check contours agreed with original linework.
+		
+Spot check of surface raster top altitudes and bottom altitudes were in agreement, except for the areas of where aquifer bottom surfaces exceeded aquifer top surfaces. These were set to altitude of overlying surface raster.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20010801</pubdate>
+            <title>National Aquifer Code Reference List</title>
+            <geoform>Digital Resources</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://water.usgs.gov/ogw/NatlAqCode-reflist.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1998</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>National Aquifer Code Reference List</srccitea>
+        <srccontr>Source provided aquifer extent polygon as reference for the most surficial aquifer, in a zip file named "cenvalas.zip"</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Williamson, A.K., Prudic, D.E., and Swain, L.A.</origin>
+            <pubdate>1989</pubdate>
+            <title>Ground-water flow in the Central Valley, California</title>
+            <geoform>Digital and/or Hardcopy Resources</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.er.usgs.gov/publication/pp1401D</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1989</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>USGS PP 1401-D</srccitea>
+        <srccontr>Plate 20 figure 8 provided contours of thickness contours for subunit A1 bottom and A2 top. See Supplemental Information for a complete list.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Planert, M, and Williams, J.S.</origin>
+            <pubdate>1995</pubdate>
+            <title>Groundwater Atlas of the United States, Californai, Nevada</title>
+            <geoform>Digital and/or Hardcopy Resources</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/ha/ha730/ch_b/B-text3.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1995</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>USGS HA 730-B</srccitea>
+        <srccontr>Reference for aquifer system extent.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Reilly, T.E., Dennehy, K.F., Alley, W.M., and Cunningham, W.L.</origin>
+            <pubdate>2008</pubdate>
+            <title>Groundwater Availability in the United States; U.S. Geological Survey Circular 1323</title>
+            <geoform>Digital and/or Hardcopy Resources</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/circ/1323/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2008</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>USGS Circular 1323</srccitea>
+        <srccontr>Reference for National Aquifer Code Number attribute in extent</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2012</pubdate>
+            <title>100-meter Resolution Elevation of the Conterminous United States</title>
+            <geoform>Digital and/or Hardcopy Resources</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://nationalmap.gov/small_scale/mld/elev100.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2012</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>NED, 100-meter</srccitea>
+        <srccontr>Tiff file of land surface for use as surface altitude values when determining depth of aquifer units, and as snap raster for QA/QC purposes, in a zip file named "elev48i0100a_tif.zip".</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Faunt, C.C. (editor)</origin>
+            <pubdate>2009</pubdate>
+            <title>Groundwater Availability of the Central Valley Aquifer, California</title>
+            <geoform>Digital and/or Hardcopy Resources</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/pp/1766</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2009</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>USGS PP 1766</srccitea>
+        <srccontr>Areal extent of the Central Valley aquifer system</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Wentworth, C.M., Fisher, G.R., Levine, P, and Jachens, R.C.</origin>
+            <pubdate>1995</pubdate>
+            <title>The surface of crystalline basement, Great Valley and Sierra Nevada, California; a digital map database</title>
+            <geoform>Vector Digital Data Set</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.er.usgs.gov/publication/ofr9596</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1995</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication date</srccurr>
+        </srctime>
+        <srccitea>USGS OFR 95-96</srccitea>
+        <srccontr>Altitude contours of the bottom of subunit A2</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Extent(s): 
+1. Collection of spatial datasets of the extent from the input source.
+	a.  Digital dataset of alluvial boundary of Central Valley aquifer system extent from USGS PP 1766,  (http://ca.water.usgs.gov/projects/central-valley/central-valley-spatial-database.html)
+			
+	b. The alluvial boundary was modified to make internal areas where the aquifer is not present equal to "Null".
+			
+	c. Boundary was buffered by five miles to use as a clipping boundary.
+			
+2. Re-projection of digitized polygon into common coordinate system/projection for analysis  (USA_Contiguous_Albers_Equal_Area_Conic_USGS_version)</procdesc>
+        <procdate>20130905</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Surface Rasters preparation:
+1. Collection of digital data for creation of altitude and thickness contours for subunits.
+	a. PDF files of thickness from report USGS PP1401-D (figure 8 of plate 20); A1
+			
+	b. Spatial dataset of altitude contours from report USGS OFR 95-96; A2
+			
+	c. Collection of land surface tiff file of 100-meter resolution elevation from National Atlas (elev48i0100a_tif)
+			
+2. Thickness contours were digitized via on-screen digitizing in data's original projection. RMSe was within USGS standards.
+		
+3. Re-projection of digitized thickness contours and downloaded basement altitude contours into common coordinate system/projection for analysis  (USA_Contiguous_Albers_Equal_Area_Conic_USGS_version)
+		
+4. Conversion of land-surface tiff file of 100-meter resolution elevation of the conterminous United States into raster format compatible with analysis software.
+		
+5. Projected land-surface raster from WGS84 into common coordinate system/projection for analysis (USA_Contiguous_Albers_Equal_Area_Conic_USGS_version).
+		
+6. Converted the land-surface elevation values from meters to feet.</procdesc>
+        <procdate>20131203</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Surface Rasters creation:
+1. Created surfaces for Subunit A1 by:
+	a. Clipping land-surface altitude raster with Central Valley extent polygon
+			
+	b. Creating a thickness surface raster from the thickness contours. (Topo to Raster)
+			
+	c. Generating bottom altitude surface raster by subtracting the thickness raster from the assembled top surface raster.
+			
+	d.  Vertical datum was converted to vertical datum (NAVD 1988) if necessary.
+			
+2. Created surfaces for Subunit A2 by:
+	a. Copying the bottom altitude surface raster of A1 and renaming as top altitude surface raster of A2.
+		
+	b. Clipping the crystalline basement contour dataset from USGS OFR 95-96 with the Central Valley extent.
+			
+	c. Creating an altitude surface raster from the basement contours as bottom altitude surface raster of A2. (Topo to Raster)
+	</procdesc>
+        <procdate>20131203</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Surface Rasters quality assurance and quality control checks:
+1. Check contours were created from each surface raster and compared to the original contours used to create the surface raster.
+		
+2. To find areas of exceedance, the altitude of bottom of aquifer layer was subtracted from the altitude of top of aquifer layer for the entire subunit.
+		
+3. The altitude of the top surface was compared to the altitude of the land surface; any cells that exceeded the land surface altitude were changed to equal the land surface altitude.
+		
+4. The altitude of the bottom surface was compared to the altitude of the corrected top surface; any cells that exceeded the altitude of the top surface were changed to equal the top surface altitude.</procdesc>
+        <procdate>20140318</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Creation of metadata for geodatabase:
+1. Used the aquifer system extent polygon for boundary coordinates
+2. Used metaform pdf file values obtained from the originators as input to Metadata Wizard
+3. Added NSDI Node requirements via Notepad ++</procdesc>
+        <procdate>20150714</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>G-polygon</sdtstype>
+        <ptvctcnt>1</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>USA Contiguous Albers Equal Area Conic USGS version (ESRI Full Name: USA_Contiguous_Albers_Equal_Area_Conic_USGS_version)</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96.0</longcm>
+            <latprjo>23.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.6096</absres>
+            <ordres>0.6096</ordres>
+          </coordrep>
+          <plandu>Meter</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_North_American_1983</horizdn>
+        <ellips>GRS_1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222101</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>ds10CNRLVL_altitude_thickness_contours</enttypl>
+        <enttypd>Line Feature Dataset</enttypd>
+        <enttypds>Esri</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ds10CNRLVL_A1_thk_PP1401D_f08_cnt_dep_thk</enttypl>
+        <enttypd>Line Feature Class</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Identifying numeric used by software</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>40</rdommax>
+            <attrunit>None</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Used by software</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Polyline</edomv>
+            <edomvd>Polygon</edomvd>
+            <edomvds>Esri</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>THICK_FT</attrlabl>
+        <attrdef>Thickness of subunit A1</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1000</rdommin>
+            <rdommax>9000</rdommax>
+            <attrunit>Feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of line segment</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8219.891144</rdommin>
+            <rdommax>559015.781245</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ds10CNRLVL_altitude_thickness_contours</enttypl>
+        <enttypd>Line Feature Dataset</enttypd>
+        <enttypds>Esri</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ds10CNRLVL_A2_bot_OFR1995_096_clip_sel</enttypl>
+        <enttypd>Line Feature Class</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Identifying numeric used by software</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>196</rdommax>
+            <attrunit>None</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Used by software</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Polyline</edomv>
+            <edomvd>Polygon</edomvd>
+            <edomvds>Esri</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ELEV_M</attrlabl>
+        <attrdef>Elevation of bottom of Subunit A2, in meters</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-16000</rdommin>
+            <rdommax>1750</rdommax>
+            <attrunit>meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ELEV_FT</attrlabl>
+        <attrdef>Elevation of bottom of Subunit A2, in feet</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-52493</rdommin>
+            <rdommax>5741</rdommax>
+            <attrunit>feet</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of line segment</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>71.585365</rdommin>
+            <rdommax>358321.820801</rdommax>
+            <attrunit>Meters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ds10CNRLVL_extents</enttypl>
+        <enttypd>Polygon Feature Dataset</enttypd>
+        <enttypds>Esri</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ds10CNRLVL_erev_PP1766</enttypl>
+        <enttypd>Polygon Feature Class</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Identifying numeric used by software</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>number of polygons</edomvd>
+            <edomvds>USGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Type of feature class in a GIS</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Polygon ZM</edomv>
+            <edomvd>Polygon feature class</edomvd>
+            <edomvds>Esri</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROCK_NAME</attrlabl>
+        <attrdef>General lithology of the rocks that make up the aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Unconsolidated sand and gravel aquifers</edomv>
+            <edomvd>Lithology of this aquifer is unconsolidated sand and gravel</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROCK_TYPE</attrlabl>
+        <attrdef>Code for rock name</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>100</edomv>
+            <edomvd>Numeric code for "Unconsolidated sand and gravel aquifers"</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQ_NAME</attrlabl>
+        <attrdef>Name of aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Central Valley aquifer system</edomv>
+            <edomvd>National Aquifer Code name is Central Valley aquifer system</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQ_NO</attrlabl>
+        <attrdef>National Aquifer Code number of aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Numeric code number for Central Valley aquifer system</edomvd>
+            <edomvds>USGS Circular 1323, Figure 2 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQ_ID</attrlabl>
+        <attrdef>National Aquifer Code identifier of aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>10CNRLVL</edomv>
+            <edomvd>combination of AQ_NO and AQ_NAME abbreviation</edomvd>
+            <edomvds>USGS HA-730; USGS Circular 1323, Figure 2 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>USGS_National_Aquifer_Code</attrlabl>
+        <attrdef>USGS National Aquifer Code name for specific aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>S100CNRLVL</edomv>
+            <edomvd>Aquifer system (S) - Rock Type (100) - Aquifer Name (CNRLVL)</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumSubUnits</attrlabl>
+        <attrdef>Number of subunits within aquifer system</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>There are two subunits within this aquifer system</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SubUnitNames</attrlabl>
+        <attrdef>Name of each subunit within this aquifer system</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A1: Continental deposits, A2: Marine deposits</edomv>
+            <edomvd>Name of each subunit within this aquifer system</edomvd>
+            <edomvds>USGS PP 1766 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumSubAreas</attrlabl>
+        <attrdef>Number of subareas within aquifer system. Subareas are parts of the aquifer with different sources for aquifer top and bottom.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>This aquifer system has one subarea</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SubAreaName</attrlabl>
+        <attrdef>Name(s) of subarea within aquifer (system)</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Not Applicable</edomv>
+            <edomvd>There are no subarea names in this aquifer system</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of line segments of extent polygon (perimeter)</attrdef>
+        <attrdefs>Originator</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>3916530.81975452</edomv>
+            <edomvd>Length of line segments of extent polygon (perimeter), in meters</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of extent polygon</attrdef>
+        <attrdefs>Originator</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>53238702331.5295</edomv>
+            <edomvd>Area of extent polygon, in meters</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>ds10CNRLVL_erev_W_SubUnits_SubAreas_PP1766</enttypl>
+        <enttypd>Polygon Feature Class</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Identifying numeric used by software</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>number of polygons</edomvd>
+            <edomvds>USGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Type of feature class in a GIS</attrdef>
+        <attrdefs>Esri</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Polygon ZM</edomv>
+            <edomvd> Polygon feature class</edomvd>
+            <edomvds>Esri</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROCK_NAME</attrlabl>
+        <attrdef>General lithology of the rocks that make up the aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Unconsolidated sand and gravel aquifers</edomv>
+            <edomvd>Lithology of this aquifer is unconsolidated sand and gravel</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ROCK_TYPE</attrlabl>
+        <attrdef>Node for rock name</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>100</edomv>
+            <edomvd>Numeric code for "Unconsolidated sand and gravel aquifers"</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQ_NAME</attrlabl>
+        <attrdef>Name of aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Central Valley aquifer system</edomv>
+            <edomvd>National Aquifer Code name is Central Valley aquifer system</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQ_NO</attrlabl>
+        <attrdef>National Aquifer Code number of aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>Numeric code number for Central Valley aquifer system</edomvd>
+            <edomvds>USGS Circular 1323, Figure 2 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AQ_ID</attrlabl>
+        <attrdef>National Aquifer Code identifier of aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>10CNRLVL</edomv>
+            <edomvd>combination of AQ_NO and AQ_NAME abbreviation</edomvd>
+            <edomvds>USGS HA-730; USGS Circular 1323, Figure 2 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>USGS_National_Aquifer_Code</attrlabl>
+        <attrdef>USGS National Aquifer Code name for specific aquifer</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>S100CNRLVL</edomv>
+            <edomvd>Aquifer system (S) - Rock Type (100) - Aquifer Name (CNRLVL)</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumSubUnits</attrlabl>
+        <attrdef>Number of subunits within aquifer system</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>There are two subunits within this aquifer system</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumSubUnits</attrlabl>
+        <attrdef>Number of subunits within aquifer system</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>There are two subunits within this aquifer system</edomvd>
+            <edomvds>USGS HA-730 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SubUnitName</attrlabl>
+        <attrdef>Name of each subunit within this aquifer system</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>A1: Continental deposits, A2: Marine deposits</edomv>
+            <edomvd>Names of subunits within this aquifer system</edomvd>
+            <edomvds>USGS PP 1766 (see Lineage)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NumSubAreas</attrlabl>
+        <attrdef>Number of subareas within aquifer system. Subareas are parts of the aquifer with different sources for aquifer top and bottom.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>This aquifer system has one subarea</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SubAreaName</attrlabl>
+        <attrdef>Name(s) of subarea within aquifer (system)</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Not Applicable</edomv>
+            <edomvd>There are no subarea names in this aquifer system</edomvd>
+            <edomvds>Originator defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of line segments of extent polygon (perimeter)</attrdef>
+        <attrdefs>Originator</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>3916530.81975452</edomv>
+            <edomvd>Length of line segments of extent polygon (perimeter), in meters</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of extent polygon</attrdef>
+        <attrdefs>Originator</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>53238702331.5295</edomv>
+            <edomvd>Area of extent polygon, in meters</edomvd>
+            <edomvds>Producer defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>gri10CNRLVL_A1_thk_PP1401D_f08</enttypl>
+        <enttypd>Scanned image of USGS PP 1401-D, plate 20, figure 8</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>gri10CNRLVL_A2_bot_OFR_1995_096_f01_ccb</enttypl>
+        <enttypd>Scanned image of USGS OFR 95-96, figure 1</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>r10CNRLVL_a1_top_a</enttypl>
+        <enttypd>Corrected Raster dataset of top surface raster of subunit A1 of the Central Valley aquifer system</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Altitude, in feet above NAVD88</attrdef>
+        <attrdefs>Originator</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-68.89763641357422</rdommin>
+            <rdommax>4055.1181640625</rdommax>
+            <attrunit>feet above NAVD 1988</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>r10CNRLVL_a1_bot_a</enttypl>
+        <enttypd>Corrected Raster dataset of bottom surface raster of subunit A1 of the Central Valley aquifer system</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Altitude, in feet above NAVD88</attrdef>
+        <attrdefs>Originator</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-9108.1103515625</rdommin>
+            <rdommax>2080.465576171875</rdommax>
+            <attrunit>feet above NAVD 1988</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>r10CNRLVL_a2_top_a</enttypl>
+        <enttypd>Corrected Raster dataset of top surface raster of subunit A2 of the Central Valley aquifer system</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Altitude, in feet above NAVD88</attrdef>
+        <attrdefs>Originator</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-9108.1103515625</rdommin>
+            <rdommax>2080.465576171875</rdommax>
+            <attrunit>feet above NAVD 1988</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>r10CNRLVL_a2_bot_a</enttypl>
+        <enttypd>Corrected Raster dataset of bottom surface raster of subunit A2 of the Central Valley aquifer system</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Altitude, in feet above NAVD88</attrdef>
+        <attrdefs>Originator</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-52953.8984375</rdommin>
+            <rdommax>911.916015625</rdommax>
+            <attrunit>feet above NAVD 1988</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>This geodatabase includes spatial datasets that represent the Central Valley aquifer system in the State of California. Included are: (1) polygon extents; datasets that represent the aquifer system extent, the entire extent subdivided into subareas or subunits, (2) raster datasets for the altitude of each aquifer subarea or subunit, (3) altitude, and/or thickness contours used to generate the surface rasters, (4) georeferenced images of the figures that were digitized to create the altitude or thickness contours. The images and digitized contours are supplied for reference.</eaover>
+      <eadetcit>
+The extent of the Central Valley aquifer system is a spatial dataset of the Central Valley alluvial boundary from U.S. Geological Survey Professional Paper 1766 (USGS PP 1766)
+
+The Central Valley aquifer system has two subunits: (A1) Continental deposits, and (A2): Marine deposits.
+			</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey.  The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.
+		</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Spatial data geodatabase</formname>
+          <transize>95</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ds10CNRLVL_A10_gdb.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Zip file of datasets in non-proprietary formats: shapefiles of vectors and points, ASCII files of surface rasters, TIF files of georeferenced images</formname>
+          <transize>78</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ds10CNRLVL_non_prop.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. No fees are applicable for obtaining the dataset.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150714</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ds10CNRLVL_a10</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20150101</begdate>
+    <enddate>20151231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_ds10cnrlvl_a10.html</htmlurl>
+  </mercury>
+</metadata>

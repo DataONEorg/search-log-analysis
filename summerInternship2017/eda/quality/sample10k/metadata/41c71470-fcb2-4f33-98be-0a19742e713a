@@ -1,0 +1,326 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/varindexgrid.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Matthew T. Whitehead</origin>
+        <pubdate>20020201</pubdate>
+        <title>Grid of streamflow variability index for Ohio</title>
+        <edition>(Version 1.0, January 17, 2002)</edition>
+        <geoform>raster digital data</geoform>
+        <serinfo>
+          <sername>USGS Water-Resources Investigation Report</sername>
+          <issue>USGS WRIR 02-4068</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Columbus, Ohio</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?varindexgrid</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>A generalized streamflow-variability index coverage was created by interpolating
+a grid (with 6,066-ft^2 cells) from at-site values of the streamflow-variability
+index computed for 133 rural, unregulated streamflow-gaging stations in Ohio and
+nearby areas of adjacent states. Grid interpolation was done by means of the
+interpolate surface routine contained in the Spatial Analyst extension of ArcView.
+The inverse distance weighting (IDW) algorithm was used based on the 12 nearest
+neighbors.
+		
+The streamflow-variability index at a streamflow-gaging station is defined as the
+standard deviation of the logarithms of the 19 streamflow values at 5-percent
+class intervals from 5 to 95 percent on the flow-duration curve (Searcy, 1959) of
+daily mean streamflow for the analysis period.
+		
+Searcy, J.K., 1959, Flow-duration curves, manual of hydrology-part 2, low-flow
+techniques: U.S. Geological Survey Water-Supply Paper 1542-A, 33 p.
+			</abstract>
+      <purpose>This coverage was used to determine an estimate of the streamflow
+variability index at a given location on streams in Ohio.
+This information is required to use regression equations presented
+by Koltun and Whitehead (2002).
+		
+Koltun, G.F., and Whitehead, M.T., 2002, Techniques for Estimating
+Selected Streamflow Characteristics of Rural, Unregulated Streams in
+Ohio: U.S. Geological Survey Water-Resources Investigations
+Report 02-4068
+		
+Notes:
+		
+Any use of trade, product, or firm names is for descriptive purposes
+only and does not imply endorsement by the
+U.S. Government.
+		
+Although this Federal Geographic Data Committee-compliant metadata
+file is intended to document the data set in nonproprietary form,
+as well as in ArcInfo format, this metadata file may include some
+ArcInfo-specific terminology.
+			</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2002</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication Date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-85.23894406</westbc>
+        <eastbc>-80.21633057</eastbc>
+        <northbc>42.07920262</northbc>
+        <southbc>38.3753101</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>streamflow variability index</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Ohio</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>These data are intended for use with regression models given in
+Koltun and Whitehead (2002). Suitability for other uses has
+not been determined.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Matthew T Whitehead</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>6480 Doubletree Avenue</address>
+          <city>Columbus</city>
+          <state>Ohio</state>
+          <postal>43229</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>(614) 430-7777</cntfax>
+        <cntemail>(mtwhiteh@usgs.gov)</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <native>Windows_NT, 5.0, Intel
+ArcInfo version 8.0.2
+		</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>unknown</attraccr>
+    </attracc>
+    <logic>Not applicable for raster data.</logic>
+    <complete>100%</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>unknown</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20010522</pubdate>
+            <title>Streamflow variability indices computed by
+means of the NWIS/ADAPS DVSTAT program
+						</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>computer program</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20010522</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication</srccurr>
+        </srctime>
+        <srccitea>USGS</srccitea>
+        <srccontr>Original streamflow variability indices were computed from
+daily streamflow data in NWIS by means of DVSTAT program
+				</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>A generalized streamflow-variability index coverage was created by interpolating
+a grid (with 6,066-ft^2 cells) from at-site values of the streamflow-variability
+index computed for 133 rural, unregulated streamflow-gaging stations in Ohio and
+nearby areas of adjacent states. Grid interpolation was done by means of the
+interpolate surface routine contained in the Spatial Analyst extension of ArcView.
+The inverse distance weighting (IDW) algorithm was used based on the 12 nearest
+neighbors.
+				</procdesc>
+        <procdate>20010522</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>222</rowcount>
+      <colcount>225</colcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>State Plane Coordinate System 1927</gridsysn>
+          <spcs>
+            <spcszone>5001</spcszone>
+            <lambertc>
+              <stdparll>38.733333</stdparll>
+              <stdparll>40.033333</stdparll>
+              <longcm>-82.5</longcm>
+              <latprjo>38.</latprjo>
+              <feast>609601.21920</feast>
+              <fnorth>0.0</fnorth>
+            </lambertc>
+          </spcs>
+        </gridsys>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>6066.436726005</absres>
+            <ordres>6066.436726005</ordres>
+          </coordrep>
+          <plandu>Feet</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1927</horizdn>
+        <ellips>Clarke 1866</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>The field "Value" contains the estimated streamflow-variability index
+for the grid cell. The range of values for streamflow-variability index is
+approximately 0.24-1.13.
+		
+&gt;
+&gt;VARINDEXGRID.STA:
+&gt;
+&gt;COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC  ALTERNATE NAME
+&gt;    1  MIN                    8    15     F      3
+&gt;    9  MAX                    8    15     F      3
+&gt;   17  MEAN                   8    15     F      3
+&gt;   25  STDV                   8    15     F      3
+&gt;
+&gt;
+			</eaover>
+      <eadetcit>none</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+		
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/varindexgrid.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>sdts file</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/varindexgrid.sdts.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+varindexgrid</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20020101</begdate>
+    <enddate>20021231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_varindexgrid.html</htmlurl>
+  </mercury>
+</metadata>

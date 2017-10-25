@@ -1,0 +1,568 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="knb-lter-ntl.37.11"
+  system="https://pasta.lternet.edu"
+  xmlns:ds="eml://ecoinformatics.org/dataset-2.1.0"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.0"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 http://nis.lternet.edu/schemas/EML/eml-2.1.0/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <alternateIdentifier system="NTL-DEIMS">5733</alternateIdentifier>
+    <shortName>NTLPL03</shortName>
+    <title>North Temperate Lakes LTER: Zooplankton - Trout Lake Area 1982 - current</title>
+    <creator>
+      <positionName>NTL LTER Lead PI</positionName>
+      <organizationName>Center for Limnology</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Str.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <organizationName>NTL LTER</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Str.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </creator>
+    <metadataProvider>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </metadataProvider>
+    <pubDate>1983</pubDate>
+    <language>english</language>
+    <abstract>
+      <para>Zooplankton samples are collected from the seven primary northern lakes (Allequash, Big Muskellunge, Crystal, Sparkling, and Trout lakes and bog lakes 27-02 [Crystal Bog], and 12-15 [Trout Bog]) at two to nine depths using a 2 m long Schindler Patalas trap (53um mesh) and with vertical tows (1 m above the bottom of the lake to the surface) using a Wisconsin net (80um mesh). Zooplankton samples are preserved in buffered formalin (up until the year 2000) or 80% ethanol (2001 onwards) and archived. Data are summed over sex and stage and integrated volumetrically over the water column to provide a lake-wide estimate of organisms per liter for each species. A minimum of 5 samples per lake-year are identified and counted. Sampling Frequency: fortnightly during ice-free season - every 6 weeks during ice-covered season Number of sites: 7
+</para>
+    </abstract>
+    <keywordSet>
+      <keyword>abundance</keyword>
+      <keyword>density</keyword>
+      <keyword>populations</keyword>
+      <keyword>zooplankton</keyword>
+      <keywordThesaurus>LTER Keywords</keywordThesaurus>
+    </keywordSet>
+    <keywordSet>
+      <keyword>NTL LTER</keyword>
+      <keyword>North Temperate Lakes - LTER</keyword>
+      <keyword>plankton</keyword>
+      <keywordThesaurus>NTL Keywords</keywordThesaurus>
+    </keywordSet>
+    <intellectualRights>
+      <section>
+        <title>Data Policies</title>
+        <para>Copyright Board of Regents, University of Wisconsin, Madison. This information is released to the public and may be used for academic, educational, or commercial purposes subject to the following restrictions: The Data User must realize that these data sets are being actively used by others for ongoing research and that coordination may be necessary to prevent duplicate publication. The Data User is urged to contact the NTL lead Principal Investigator, leadpi@lter.limnology.wisc.edu, to check on other uses of the data. Where appropriate, the Data User may be encouraged to consider collaboration and/or co-authorship with original investigators.</para>
+        <para>The Data User must realize that the data may be misinterpreted if taken out of context. We request that you provide the NTL lead Principal Investigator, ATTN: Data Access, Center for Limnology, University of Wisconsin-Madison, 680 North Park St., Madison, WI 53706 with a copy of any manuscript using the data so that it may be reviewed and comments provided on the presentation of our data.</para>
+        <para>The Data User must acknowledge use of the data by an appropriate citation (see Citation) of the NTL-LTER database. A generic citation for our databases is: name of data set, North Temperate Lakes Long Term Ecological Research program, NSF, contact person for data set, Center for Limnology, University of Wisconsin-Madison. The data set name and contact person for each data set can be found in the metadata header of the online data sets.</para>
+        <para>The Data User must send two reprints of any publications resulting from use of the data to the address above. We would like to include such manuscripts in our LTER publications list.</para>
+        <para>The Data User must not redistribute original data and documentation without permission from Emily Stanley, lead Principal Investigator, (ehstanley@wisc.edu).</para>
+        <para>While substantial efforts are made to ensure the accuracy of data and documentation, complete accuracy of data sets cannot be guaranteed. All data are made available "as is". The North Temperate Lakes LTER shall not be liable for damages resulting from any use or misinterpretation of data sets. Data users should be aware that we periodically update data sets.</para>
+        <para>Our goal is to release all long term data associated with core research areas within 2 years of collection. These data and accompanying metadata will be available for download from the NTL-LTER web site.</para>
+        <para>By using these data, the Data User agrees to abide by the terms of this agreement. Thank you for your cooperation.
+</para>
+      </section>
+    </intellectualRights>
+    <distribution>
+      <online>
+        <url function="information">http://lter.limnology.wisc.edu/node/5733</url>
+      </online>
+    </distribution>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Allequash Lake, Big Muskellunge Lake, Crystal Lake, Sparkling Lake, Trout Lake, and unnamed lakes 27-02 (Crystal Bog) and 12-15 (Trout Bog), Vilas County, WI, USA
+</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-89.704</westBoundingCoordinate>
+          <eastBoundingCoordinate>-89.596</eastBoundingCoordinate>
+          <northBoundingCoordinate>46.079</northBoundingCoordinate>
+          <southBoundingCoordinate>45.999</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1982-02-23</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013-12-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <maintenance>
+      <description>
+        <para>ongoing
+</para>
+      </description>
+    </maintenance>
+    <contact>
+      <positionName>Information Manager</positionName>
+      <organizationName>LTER Network Office</organizationName>
+      <address>
+        <deliveryPoint>UNM Biology Department, MSC03-2020</deliveryPoint>
+        <deliveryPoint>1 University of New Mexico</deliveryPoint>
+        <city>Albuquerque</city>
+        <administrativeArea>NM</administrativeArea>
+        <postalCode>87131-0001</postalCode>
+        <country>USA</country>
+      </address>
+      <phone phonetype="voice">505 277-2535</phone>
+      <phone phonetype="fax">505 277-2541</phone>
+      <electronicMailAddress>tech-support@lternet.edu</electronicMailAddress>
+      <onlineUrl>http://www.lternet.edu</onlineUrl>
+    </contact>
+    <contact>
+      <positionName>NTL LTER Information Manager</positionName>
+      <organizationName>University of Wisconsin</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Street</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <contact>
+      <positionName>NTL LTER Lead PI</positionName>
+      <organizationName>Center for Limnology</organizationName>
+      <address>
+        <deliveryPoint>680 North Park Str.</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+    </contact>
+    <publisher>
+      <organizationName>North Temperate Lakes LTER</organizationName>
+      <address>
+        <deliveryPoint>Center for Limnology, UW Madison</deliveryPoint>
+        <city>Madison</city>
+        <administrativeArea>WI</administrativeArea>
+        <postalCode>53706</postalCode>
+        <country>United States</country>
+      </address>
+      <electronicMailAddress>infomgr@lter.limnology.wisc.edu</electronicMailAddress>
+    </publisher>
+    <pubPlace>North Temperate Lakes</pubPlace>
+    <methods>
+      <methodStep>
+        <description>
+          <section>
+            <para>Sample Collection: Schindler-Patalas Trap
+	For LTER lakes use the 2-meter high, 45L Schindler-Patalas trap with 53um mesh net and cup. The volume of the trap used should be indicated on the Volume by Weight form.
+	Collect samples from the target depths at the deep sampling station in each lake. Sample depths are measured from the middle of the trap.
+	Target Depths:
+	TR: 1, 3, 5, 7, 9, 15, 20, 27, 31 meters
+	CRorBM: 1, 3, 5, 7, 9, 11, 13, 15, 18 meters
+	SP: 1, 3, 5, 7, 9, 11, 13, 15, 17 meters
+	ALorTB: 1, 3, 6 meters
+	CB: 1 meter
+	Take samples starting at the surface and working down. Lower the trap slowly so that it remains vertical in the water. Pause at the target depth long enough to allow both trap doors to close completely, and check when it reaches the surface that both did close. Drain the trap through the net and cup, swirling the cup until the liquid level is below the mesh windows. Remove the cup from the net and pull out the center pin to drain the sample into jar, then rinse cup and pin several times with 95percent EtOH into the sample jar.
+	Sample Collection: Wisconsin Net
+	Lower the net to the bottom sample depth. Pull it up slowly, at a rate of about 3 seconds per meter. A slow haul prevents the net from pushing water and plankton away from the mouth of the net. Drain the cup until the water level is below the lower window, then pour contents into the sample jar. Rinse the cup with 95percent EtOH several times, adding the rinse to the sample jar.
+	Hypsometric Pooling
+	Rationale and Definition
+	In March 1986 the LTER Zooplankton Group decided to pool the discrete depth Schindler Patalas trap samples into one pooled sample per lake-date for counting. Counting pooled samples rather than all of the depth samples reduces the time to produce zooplankton count data. The group hoped to count pooled samples from the entire backlog of uncounted samples and eventually to count samples shortly after collection.
+	Samples are pooled considering lake hypsometry and, therefore, represent the entire lake. Previously, unpooled samples (2-9 samples per lake-date) or samples pooled considering only a water column were counted. Hypsometric pooling allows us to consider the zooplankton community as representing the entire lake, as our other limnological methods do, instead of just a column of water.
+	Lake hypsometry is a three dimensional image of a lake or basin. In a simplified example of hypsometry, a lake is similar to a cone filled with water. If the cone were divided into three layers by two equidistant horizontal planes, the volumes in those layers would be very different from each other. The uppermost layer would contain the most water. Similarly, the upper depths typically contain most of the volume of a lake.
+	Pooling is the creation of a new sample from subsamples of the Schindler trap samples collected from one lake-date. The volume of each subsample used to make the pooled sample reflects the depth range the sample represents and the volume of water that range represents relative to the entire lake volume. Samples pooled in this manner are called HP samples, for hypsometrically pooled, and are referred to as volume weighted because the volume of lake water each depth sample represents determines the subsample size.
+	In sum, the advantages to this method of pooling are quicker turnover time and representation of the entire lake in a volume weighted fashion. Disadvantages of this method include the time required to pool subsamples, errors introduced during pooling, and the loss of more specific depth information.
+	Pooling Procedure
+	Allow the sample jars to air dry for a day or two. Weigh the Wisconsin Net sample and record the weight on the Volume by Weight form. Mark the liquid level on the jar with a Sharpee brand permanent marker.
+	Add 95percent EtOH to each Schindler trap sample to bring liquid volume up to a weight of 105g, measured by weighing the sample jar with lid on the balance. If sample jars already contain more than 105g of liquid, allow some of the volume to evaporate in the hood, and then bring up to 105g. Record the final weight of jar plus sample plus EtOH on the Volume by Weight form.
+	Calculate the subsample volumes, called target volumes, using the hypsometric table for each lake. Record these volumes on the Volume by Weight form.
+	Mix the first sample gently and thoroughly by tilting the jar from side to side. Measure the target volume into a plastic graduated cylinder. Pour the subsample quickly and smoothly because the plankton settle out quite rapidly. Choose the smallest size graduated cylinder that can measure the target volume in one aliquot. Add the subsample to the labeled HP jar. Repeat with all other depth samples. When all of the subsamples have been added to the HP sample, rinse each graduated cylinder into the HP jar with several small volumes of EtOH.
+	Place the HP sample in the hood to evaporate the excess volume of EtOH. The final weight of the HP sample should be 105g. Mark the liquid level on the jar with a Sharpee brand permanent marker. If the samples are from the August quarterly, pour the remainder of each Schindler sample into a labeled jar for archival. For all other sample dates, discard what is left of the Schindler samples. Rinse and air dry the field sample jars.
+	Sample Storage and Record Keeping
+	Store samples in cardboard records boxes obtained from UW Stores, storing samples from each lake in a separate box. Approximately one year of samples will fit in one box. Fill out the forms for each sample and sample box, as noted below.
+	Box Inventory Form: A record of box contents. It remains in the sample storage box.
+	Volume by Weight Form: A record of samples collected for any one lake-date and their volumes, storage box number, and history of sample usage. Filed in 3-ring binders, one copy at the Zoology Museum and one copy with Corinna Gries.
+	Samples Stored Form: A record of all samples collected and storage box number for each. Current forms are kept in a binder at Trout Lake; archived forms are kept in the UW Zoology Museum. The data are eventually entered into the electronic LTER Museum Catalog.
+	When boxes become full, check the contents against the Inventory Form and Samples Stored Form, and transfer them to the sample storage room in the garage. LTER samples and related paperwork are eventually transferred to the Zoology Museum at UW-Madison.
+	Zooplankton Counting
+	Before removing a subsample from any zooplankton sample jar, weigh the sample to check for evaporation. If the weight is within 0.1 gram of the last weight recorded on the Volume by Weight sheet, no fluid replacement is necessary. If the weight is more than 0.1 gram low, add 95percent EtOH to the sample to bring it up to the correct volume.
+	Mix the sample well by turning the jar on its side and tipping back and forth gently. We use a Hensen-Stempel pipet with a 5-ml plunger for subsampling zooplankton samples. After mixing the sample, take the subsample as quickly as possible to avoid biasing the subsample as organisms begin to sink. There should be no air bubbles inside the Hensen-Stempel pipet. If there are, replace the subsample into the jar, completely dry the pipet, and begin again with the mixing. When you have a bubble-free subsample, dry the outside of the pipet and dispense the subsample into a cup with 53µ mesh bottom. Rinse the pipet into the cup with RO water, and continue rinsing the sample in the cup, washing the ethanol out of the sample through the mesh. Rinse the subsample into the counting tray with RO water, washing the mesh thoroughly to transfer all organisms into the tray.
+	After removing subsample(s) from the jar, weigh the sample jar, and record this weight in a new column of the Volume by Weight form. Record the balance used, your initials, and the date at the top of the column, and add a column header such as Column C minus subsamples removed for counting . Do not put the subsample back into the sample jar after counting. Mark the new liquid level on the jar with a permanent marker. Replace the sample jar into the proper storage box.
+	Count copepods and cladocerans first, identifying individuals to species wherever possible, and staging all copepodids. Measure a subset of each species. Then add a few drops of Lugol s solution to the subsample to stain it, and count the rotifers and nauplii. Count two subsamples for copepods and cladocerans. Count one subsample for rotifers and nauplii. If there are less than 100 of the dominant rotifer in one subsample, count a second subsample for rotifers and nauplii. Add milli-RO water to the tray as necessary to keep the surface of the subsample level. If the surface becomes concave as the subsample evaporates, it is difficult to focus clearly, and measurements may become distorted.
+	Count all eggs attached to any species. For copepods and cladocerans, keep track of the number of individuals with eggs as well as the total number of eggs. Total number of eggs is sufficient for rotifers.
+	Measurements are done as follows: Measure copepods from the tip of the head to the end of the urosome, excluding the caudal rami. Measure cladocerans from the tip of the head to the posterior of the carapace, excluding tailspine. However, measure helmeted Daphnia species from the anterior edge of the eye to the posterior of the carapace.
+	Rotifers are not routinely measured, but where they have been, the total body length excluding spines is measured. Body width rather than length is measured for Conochilus, Conochiloides, and Collotheca.
+	Describe, measure, and draw any unknown species on a separate sheet of paper. If possible, take a photograph of the unknown.
+</para>
+          </section>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>North Temperate Lakes LTER</title>
+      <personnel>
+        <positionName>NTL LTER Lead PI</positionName>
+        <organizationName>Center for Limnology</organizationName>
+        <address>
+          <deliveryPoint>680 North Park Str.</deliveryPoint>
+          <city>Madison</city>
+          <administrativeArea>WI</administrativeArea>
+          <postalCode>53706</postalCode>
+          <country>United States</country>
+        </address>
+        <electronicMailAddress>leadpi@lter.limnology.wisc.edu</electronicMailAddress>
+        <role>project personnel</role>
+      </personnel>
+      <abstract>
+        <para>North Temperate Lakes Long Term Ecological Research studies the ecology of lakes as one of a network of sites established by the National Science Foundation. We are interested in how biophysical setting, climate, and changing land use and cover interact to shape lake characteristics and dynamics over time (past, present, future).
+	Our primary study sites include a set of seven northern Wisconsin and four southern Wisconsin lakes and their surrounding landscapes. The project, which started in 1981, is administered by the Center for Limnology at the University of Wisconsin-Madison.
+Perception of Long-Term Change: How and why have the lake districts changed, and how will they change in the future?
+	Climatic Forcing of Change: What are the major ecological and social responses of lake districts to climate change?
+	Interacting Drivers, Scales of Space and Time, and Regional Change: How do multiple interacting drivers affect regional change in lake districts at multiple scales?
+	Ecosystem Services: Past, Present and Future: What are the magnitudes, interactions and potential future flows of ecosystem services in lake districts?
+</para>
+      </abstract>
+    </project>
+    <dataTable>
+      <entityName>zoop_allnl_summary_snap</entityName>
+      <entityDescription>North Temperate Lakes LTER: Zooplankton - Trout Lake Area</entityDescription>
+      <physical>
+        <objectName>zoopallnlsummarysnap</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/knb-lter-ntl/37/11/637918b87ed507ff2add85eb0f0dd8f6</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Crystal Bog is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a small and shallow bog lake. It has a surface area of 0.5 hectare, mostly undeveloped shoreline and a maximum depth of 2.5 meters.
+Bog lakes are isolated to a large extent from surrounding groundwater flow systems. However, they exhibit a similar pattern, across landscapes, to that exhibited by other lakes in general. The proportional input of groundwater to the bogs' hydrologic inputs increases with decreasing elevation in the landscape. More detailed studies of Crystal Bog reveal a complex interplay between conditions in the lake and in the surrounding wetland due to the groundwater flow regime and resulting chemical transfers.
+ 
+ 
+ 
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.606183</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.606183</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.007583</northBoundingCoordinate>
+            <southBoundingCoordinate>46.007583</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Trout Bog is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a small bog lake. It has a surface area of 1.1 hectare, a mostly undeveloped shoreline and a maximum depth of 7.9 meters.
+ 
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.686283</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.686283</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.04125</northBoundingCoordinate>
+            <southBoundingCoordinate>46.04125</southBoundingCoordinate>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Crystal Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand substrate. It has a surface area of 36.7 hectare, 2.3 kilometers of mostly undeveloped (campground) developed shoreline and a maximum depth of 20.4 meters.
+Crystal Lake represents one extreme in the groundwater input gradient, with a marked predominance of precipitation inputs. Groundwater accounts for only 5% of input water, yet, because groundwater is more concentrated chemically than precipitation, groundwater accounts for substantial amounts of incoming solutes. For example, about 50% of the silica budget comes into the lake via groundwater, exerting a major influence on primary production.
+The lake is an oligotrophic, dimictic lake high in the landscape with minimal groundwater input, a light attenuation coefficient of 0.24 per meter (average ice-free Secchi depth of 8 m), a mean depth of 11.4 m, and a maximum depth of 20.4 m. Crystal Lake is circular with a shoreline development factor very close to 1.0. The littoral zone is fairly homogenous and is dominated by sandy substrate with low macrophyte and coarse woody habitat densities. The fish community has been historically dominated by pelagic yellow perch. However, yellow perch drastically declined after the detection of rainbow smelt in 1985.
+ 
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.612</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.612</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.003</northBoundingCoordinate>
+            <southBoundingCoordinate>46.003</southBoundingCoordinate>
+            <boundingAltitudes>
+              <altitudeMinimum>502</altitudeMinimum>
+              <altitudeMaximum>502</altitudeMaximum>
+              <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Big Muskellunge Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand and gravel substrate. It has a surface area of 396.3 hectare, 16.1 kilometers of moderately developed shoreline and a maximum depth of 21.3 meters.
+ 
+ 
+ 
+ 
+ 
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.611783</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.611783</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.021067</northBoundingCoordinate>
+            <southBoundingCoordinate>46.021067</southBoundingCoordinate>
+            <boundingAltitudes>
+              <altitudeMinimum>500</altitudeMinimum>
+              <altitudeMaximum>500</altitudeMaximum>
+              <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Sparkling Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a seepage lake with predominantly sand and gravel substrate. It has a surface area of 64 hectare, 4.3 kilometers of moderately developed shoreline and a maximum depth of 20 meters.
+ 
+ 
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.701183</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.701183</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.007733</northBoundingCoordinate>
+            <southBoundingCoordinate>46.007733</southBoundingCoordinate>
+            <boundingAltitudes>
+              <altitudeMinimum>495</altitudeMinimum>
+              <altitudeMaximum>495</altitudeMaximum>
+              <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Allequash Lake is located within the Northern Highland-American Legion State Forest, Vilas County. T41N-R7E, Sections 16, 17, 20, 21. 398 acres. (detailed lake description by the WDNR)
+It is a drainage lake with predominantly sand and gravel substrate. It has a surface area of 168.4 hectare, 9.5 kilometers of mostly undeveloped shoreline and a maximum depth of 8 meters.
+ 
+ 
+ 
+ 
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.620617</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.620617</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.038317</northBoundingCoordinate>
+            <southBoundingCoordinate>46.038317</southBoundingCoordinate>
+            <boundingAltitudes>
+              <altitudeMinimum>494</altitudeMinimum>
+              <altitudeMaximum>494</altitudeMaximum>
+              <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+          </boundingCoordinates>
+        </geographicCoverage>
+        <geographicCoverage>
+          <geographicDescription>Location: Trout Lake is located within the Northern Highland-American Legion State Forest, Vilas County.
+It is a drainage lake with predominantly gravel and sand substrate. It has a surface area of 1607.9 hectare, 25.9 kilometers of mostly undeveloped shoreline and a maximum depth of 35.7 meters.
+ 
+ 
+</geographicDescription>
+          <boundingCoordinates>
+            <westBoundingCoordinate>-89.665017</westBoundingCoordinate>
+            <eastBoundingCoordinate>-89.665017</eastBoundingCoordinate>
+            <northBoundingCoordinate>46.029267</northBoundingCoordinate>
+            <southBoundingCoordinate>46.029267</southBoundingCoordinate>
+            <boundingAltitudes>
+              <altitudeMinimum>492</altitudeMinimum>
+              <altitudeMaximum>492</altitudeMaximum>
+              <altitudeUnits>meter</altitudeUnits>
+            </boundingAltitudes>
+          </boundingCoordinates>
+        </geographicCoverage>
+      </coverage>
+      <attributeList>
+        <attribute>
+          <attributeName>lakeid</attributeName>
+          <attributeLabel>lake name abbreviation</attributeLabel>
+          <attributeDefinition>lake name abbreviation</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>AL</code>
+                    <definition>Allequash Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>BM</code>
+                    <definition>Big Muskellunge Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CB</code>
+                    <definition>Bog 27-2  (Crystal Bog)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>CR</code>
+                    <definition>Crystal Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>SP</code>
+                    <definition>Sparkling Lake</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TB</code>
+                    <definition>Bog 12-15  (Trout Bog)</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TR</code>
+                    <definition>Trout Lake</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>year4</attributeName>
+          <attributeLabel>year</attributeLabel>
+          <attributeDefinition>year</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>nominalYear</standardUnit>
+              </unit>
+              <precision>1</precision>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>sample_date</attributeName>
+          <attributeLabel>sample date</attributeLabel>
+          <attributeDefinition>sample date</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>station</attributeName>
+          <attributeLabel>station number</attributeLabel>
+          <attributeDefinition>station number</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>station number</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species_code</attributeName>
+          <attributeLabel>numeric species code</attributeLabel>
+          <attributeDefinition>numeric species code</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>numeric species code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species_name</attributeName>
+          <attributeLabel>species name</attributeLabel>
+          <attributeDefinition>species name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>density</attributeName>
+          <attributeLabel>number per liter</attributeLabel>
+          <attributeDefinition>number per liter summed over sex and stage and volumetrically integrated over the water column</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>numberPerLiter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>individuals_measured</attributeName>
+          <attributeLabel>number of individuals measured</attributeLabel>
+          <attributeDefinition>number of individuals measured</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>number</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>avg_length</attributeName>
+          <attributeLabel>average length of measured</attributeLabel>
+          <attributeDefinition>average length of measured individuals</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>millimeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">15</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

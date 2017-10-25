@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/supersite.485.3/html" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <dataset scope="document">
+        <title>Bird Survey Data, Far North Queensland Rainforest SuperSite, Robson Creek, 2011</title>
+        <creator id="1336956366287" scope="document">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>David</givenName>
+                <surName>Westcott</surName>
+            </individualName>
+            <organizationName>CSIRO</organizationName>
+            <positionName>Research Scientist</positionName>
+            <electronicMailAddress>david.westcott@csiro.au</electronicMailAddress>
+        </creator>
+        <pubDate>2015-12-13</pubDate>
+        <abstract>
+            <para>This project is documenting the distribution of bird species and the structure of bird communities at the TERN 25 Ha Plot at Robson Creek.  The advantage of using the Plot as a point of focus is that the mapping and plant community data provide a phenological and ecological context for interpreting drivers of the bird community at that site.</para>
+            <para>The Robson Creek plot site was chosen because being situated at c. 700m it represents a ‘tension’ zone between different tropical forest communities that are likely to show shifts under climate change.  Bird communities below 600-800m can be characterised as current lowland, warm climate communities while those above 600-800m take on species with upland distributions, e.g. golden bowerbireds. grey-headed robins and fernwrens.  Robson Creek being situated at the current altitudinal boundaries of the distribution of the upland and lowland specialist species consequently represents an ideal site for monitoring the species and community responses to climate change over time.</para>
+            <para>In this project we are interested in species and community responses to climate change in three contexts.  First, at the species level we are interested in how individual species respond in abundance and seasonality.  Second, at the community level we are interested in i) describing changes in species distribution, ii) the effects of this on community composition and structure and iii) how this varies through the year.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>Birds</keyword>
+            <keyword>Assemblage</keyword>
+            <keyword>Diversity</keyword>
+            <keyword>Robson Creek</keyword>
+            <keyword>FNQ Rainforest</keyword>
+            <keyword>Far North Queensland</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0602</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under TERN Attribution-Share Alike (TERN BY-SA) Data Licence v1.0. The licence lets others distribute, remix and build upon the work, even for commercial purposes, as long as they credit the original creator/s (and any other nominated parties) and licence any new creations based on the work under the same terms. All new derivative works will carry the same licence, so will also allow commercial use.  A description of this licence can be found at http://tern.org.au/datalicence/TERN-BY-SA/1.0/</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/supersite.485.3/html</url>
+            </online>
+        </distribution>
+        <coverage scope="document">
+            <geographicCoverage scope="document">
+                <geographicDescription>Robson Creek TERN Plot</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>145.632308</westBoundingCoordinate>
+                    <eastBoundingCoordinate>145.632308</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-17.119962</northBoundingCoordinate>
+                    <southBoundingCoordinate>-17.119962</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage scope="document">
+                <singleDateTime>
+                    <calendarDate>2011</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <contact id="1450035003493" scope="document">
+            <individualName>
+                <givenName>Andrew</givenName>
+                <surName>Ford</surName>
+            </individualName>
+            <organizationName>CSIRO</organizationName>
+            <address scope="document">
+                <deliveryPoint>PO Box 780</deliveryPoint>
+                <city>Atherton</city>
+                <administrativeArea>QLD</administrativeArea>
+                <postalCode>4883</postalCode>
+                <country>Australia</country>
+            </address>
+            <electronicMailAddress>Andrew.Ford@csiro.au</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Bird survey</title>
+                        <para>Walking surveys for birds</para>
+                    </section>
+                </description>
+            </methodStep>
+            <sampling>
+                <studyExtent>
+                    <description>
+                        <para>Bird surveys are being conducted at the Robson Creek Supersite</para>
+                    </description>
+                </studyExtent>
+                <samplingDescription>
+                    <para>Bird surveys were conducted along a standard transect.   When a bird was detected the time since the start of the survey, species and number of individuals was recorded</para>
+                </samplingDescription>
+            </sampling>
+        </methods>
+        <dataTable id="1401318760189" scope="document">
+            <entityName>asn_fnqr_robson_fauna_birds_2011.csv</entityName>
+            <entityDescription>Robson Creek Bird Survey 2011</entityDescription>
+            <physical id="1401318640683" scope="document">
+                <objectName>asn_fnqr_robson_fauna_birds_2011.csv</objectName>
+                <size unit="byte">46387</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/supersite.485.3/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1401318760190" scope="document">
+                    <attributeName>Date</attributeName>
+                    <attributeDefinition>Date the survey was conducted</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>dd/mm/yyyy</formatString>
+                            <dateTimePrecision>0</dateTimePrecision>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1401318760191" scope="document">
+                    <attributeName>Time</attributeName>
+                    <attributeDefinition>Time survey was conducted</attributeDefinition>
+                    <measurementScale>
+                        <dateTime>
+                            <formatString>hh:mm</formatString>
+                        </dateTime>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1401318760192" scope="document">
+                    <attributeName>Animal Name</attributeName>
+                    <attributeDefinition>Name of bird species</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Bird names</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1401318760193" scope="document">
+                    <attributeName>Detection</attributeName>
+                    <attributeDefinition>Method of detection</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Method of detection</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1401318760194" scope="document">
+                    <attributeName>Number</attributeName>
+                    <attributeDefinition>Number of individuals observed</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>dimensionless</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1401318760195" scope="document">
+                    <attributeName>Observers</attributeName>
+                    <attributeDefinition>Observers</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>observers</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>1134</numberOfRecords>
+        </dataTable>
+    </dataset>
+</eml:eml>

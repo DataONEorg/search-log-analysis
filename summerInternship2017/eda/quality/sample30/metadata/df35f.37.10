@@ -1,0 +1,759 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="df35f.37.10" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset> <title>NOAA AFSC Species Predictions Data formatted for NCEAS Portfolio Effects working group groundfish analysis in the Gulf of Alaska</title>
+ <creator id="1460137145797"> <individualName><givenName>Andrew</givenName>
+ <surName>Shelton</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ </creator>
+ <associatedParty id="1460137159405"><individualName><givenName>Mary</givenName>
+ <surName>Hunsicker</surName>
+ </individualName>
+ <organizationName>University of California, Santa Barbara</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1460137185678"><individualName><givenName>Rachael</givenName>
+ <surName>Blake</surName>
+ </individualName>
+ <organizationName>University of California, Santa Barbara</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1460137195693"><individualName><givenName>Colette</givenName>
+ <surName>Ward</surName>
+ </individualName>
+ <organizationName>NCEAS</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1460137225781"><individualName><givenName>Janet</givenName>
+ <surName>Duffy-Anderson</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1460137236690"><individualName><givenName>Anne</givenName>
+ <surName>Hollowed</surName>
+ </individualName>
+ <organizationName>NOAA, National Fisheries Service</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1460137250805"><individualName><givenName>Ben</givenName>
+ <surName>Williams</surName>
+ </individualName>
+ <organizationName>University of Alaska, Fairbanks</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <associatedParty id="1460137259563"><individualName><givenName>Eric</givenName>
+ <surName>Ward</surName>
+ </individualName>
+ <organizationName>NOAA</organizationName>
+ <role>Contributor</role>
+ </associatedParty>
+ <abstract><para>These data are derived from the NOAA AFSC Bottom trawl data formatted for NCEAS Portfolio Effects working group ground fish analysis in the Gulf of Alaska (1984-2015) (df35f.22.15) in preparation for a spatial analysis of the effects of the Exxon Valdez oil spill on groundfish communities in the Gulf of Alaska. The majority of this analysis was conducted by Andrew Shelton from the NOAA Northwest Fisheries Science Center for the Portfolio Effects (PFX) working group at the National Center for Ecological Analysis and Synthesis (NCEAS) at the University of California, Santa Barbara. This analysis is part of the groundfish sub-project analysis for the PFX working group. The PFX working group’s goal is to assess how diversity may have buffered against effects of EVOS as well as other perturbations. The PFX working group is working with Gulf Watch Alaska to determine if there are any detectable changes in spatial distribution of groundfish related to the oil spill. Further and additional analyses can be accessed in additional packages in this repository.</para>
+ </abstract>
+ <keywordSet><keyword>Exxon Valdez</keyword>
+ <keyword>oil spill</keyword>
+ <keyword>Alaska</keyword>
+ <keyword>EVOS</keyword>
+ <keyword>EVOSTC</keyword>
+ <keyword>Exxon Valdez Oil Spill Trustee Council</keyword>
+ </keywordSet>
+ <intellectualRights><para>This material is based upon work funded by the Exxon Valdez Oil Spill Trustee Council (add other funders where necessary).  Any opinions, findings, conclusions, or recommendations expressed herein are those of the author(s) and do not necessarily reflect the views or positions of the Trustee Council.
+
+Standard scientific norms for attribution and credit should be followed when using these data including to the Owners, Exxon Valdez Oil Spill Trustee Council and other sources of funding. Please let the Owner know when these data are used.
+ 
+These data are licensed under CC0. The person who associated a work with this deed has dedicated the work to the public domain by waiving all of his or her rights to the work worldwide under copyright law, including all related and neighboring rights, to the extent allowed by law. You can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.</para>
+ </intellectualRights>
+ <contact><references>1460137145797</references>
+ </contact>
+ <dataTable id="1460142875021"><entityName>All_species_pos_pred_goa_deep.csv</entityName>
+ <physical id="1460141695249"><objectName>All_species_pos_pred_goa_deep.csv</objectName>
+ <size unit="byte">220385488</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.33.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460142875022"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species of groundfish</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460142875023"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460142875024"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460142875025"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460142875026"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460142875027"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2541351</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460146381421"><entityName>All_species_pos_pred_goa_mid.csv</entityName>
+ <physical id="1460144905230"><objectName>All_species_pos_pred_goa_mid.csv</objectName>
+ <size unit="byte">902010570</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.34.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460146381422"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460146381423"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460146381424"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460146381425"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460146381426"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460146381427"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>10479267</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460153413713"><entityName>All_species_pos_pred_goa_shallow.csv</entityName>
+ <physical id="1460152710911"><objectName>All_species_pos_pred_goa_shallow.csv</objectName>
+ <size unit="byte">1642954898</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.36.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460153413714"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460153413715"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460153413716"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460153413717"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460153413718"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460153413719"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>19064207</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460161186719"><entityName>All_species_pres_pred_goa_deep.csv</entityName>
+ <physical id="1460160221949"><objectName>All_species_pres_pred_goa_deep.csv</objectName>
+ <size unit="byte">231472842</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.38.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460161186720"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161186721"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161186722"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161186723"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161186724"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161186725"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2541351</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460161709770"><entityName>All_species_pres_pred_goa_mid.csv</entityName>
+ <physical id="1460161451335"><objectName>All_species_pres_pred_goa_mid.csv</objectName>
+ <size unit="byte">947600156</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.40.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460161709771"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161709772"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161709773"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161709774"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161709775"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460161709776"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>10479267</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460162099199"><entityName>All_species_pres_pred_goa_shallow.csv</entityName>
+ <physical id="1460161917280"><objectName>All_species_pres_pred_goa_shallow.csv</objectName>
+ <size unit="byte">1729656412</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.41.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460162099200"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460162099201"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460162099202"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460162099203"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460162099204"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460162099205"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>19064207</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460481760401"><entityName>All_species_uncond_pred_goa_deep.csv</entityName>
+ <physical id="1460480454283"><objectName>All_species_uncond_pred_goa_deep.csv</objectName>
+ <size unit="byte">230528125</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.42.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460481760402"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460481760403"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460481760404"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460481760405"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460481760406"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460481760407"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>2541351</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460482334806"><entityName>All_species_uncond_pred_goa_mid.csv</entityName>
+ <physical id="1460481995585"><objectName>All_species_uncond_pred_goa_mid.csv</objectName>
+ <size unit="byte">940705165</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.43.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460482334807"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460482334808"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460482334809"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460482334810"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460482334811"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460482334812"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>10479267</numberOfRecords>
+ </dataTable>
+ <dataTable id="1460739134713"><entityName>All_species_uncond_pred_goa_shallow.csv</entityName>
+ <physical id="1460482510374"><objectName>All_species_uncond_pred_goa_shallow.csv</objectName>
+ <size unit="byte">1715729334</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35f.44.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1460739134714"><attributeName>Species</attributeName>
+ <attributeLabel>Species</attributeLabel>
+ <attributeDefinition>Species name</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>species name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460739134715"><attributeName>MASTER_ID</attributeName>
+ <attributeLabel>Master ID</attributeLabel>
+ <attributeDefinition>Master identification number</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460739134716"><attributeName>Year</attributeName>
+ <attributeLabel>Year</attributeLabel>
+ <attributeDefinition>Year</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>nominalYear</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460739134717"><attributeName>Mean</attributeName>
+ <attributeLabel>Mean</attributeLabel>
+ <attributeDefinition>Mean</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460739134718"><attributeName>Median</attributeName>
+ <attributeLabel>Median</attributeLabel>
+ <attributeDefinition>Median</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1460739134719"><attributeName>SE</attributeName>
+ <attributeLabel>Standard error</attributeLabel>
+ <attributeDefinition>Standard error</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>19064207</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:geonet="http://www.fao.org/geonetwork">
+  <Source>http://cmgds.marine.usgs.gov/metadata/99.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Kathryn M. Scanlon(ed.)</origin>
+        <origin>Peter R. Briere(ed.)</origin>
+        <pubdate>19990901</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title>Shapefiles</title>
+        <edition>Geographic</edition>
+        <geoform>map</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Openfile Series</sername>
+          <issue>99-589</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Woods Hole, MA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <othercit>USGS Openfile CD-ROM</othercit>
+        <onlink>http://pubs.usgs.gov/of/1999/of99-589/</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>These shapefiles are provided in Geographic (latitude,
+longitude) coordinates. "Geographic Projection"
+
+For more information on the seismic surveys see http://woodshole.er.usgs.gov/operations/ia/public_ds_info.php?fa=1997-005-FA</abstract>
+      <purpose>To represent the geology of the West Florida Shelf Study area as delineated in U.S. Geological Survey Openfile Report 99-XXX by Scanlon, Briere, and Gledhill. These shapefiles are provided to facilitate the transfer of the interpretations to others in a GIS format or incorporation into other data sets.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19990901</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Publication Date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>Irregular</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-085.550000</westbc>
+        <eastbc>-085.290000</eastbc>
+        <northbc>+29.110000</northbc>
+        <southbc>+28.950000</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>Shelfbreak</themekt>
+        <themekey>Gulf of Mexico</themekey>
+        <themekey>Florida</themekey>
+        <themekey>Marine geology</themekey>
+        <themekey>sediment</themekey>
+        <themekey>sidescan sonar</themekey>
+        <themekey>bathymetry</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>credit or reference originators</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Kathryn M. Scanlon</cntper>
+          <cntorg>U.S Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Research Scientist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Rd</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02541</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>5084572323</cntvoice>
+        <cntemail>kscanlon@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>K.M. Scanlon P.R. Briere</datacred>
+    <secinfo>
+      <secsys>n/a</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>n/a</sechandl>
+    </secinfo>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Attribute accuracy is tested by comparison of sidescan sonar data with sediment grab samples.</attraccr>
+    </attracc>
+    <logic>Points are represented by two coordinate pairs. Nodes are represented by a single coordinate pair. Polygons are used to outline bottom geology and features. Lines are used to represent contoured bathymetry and the trackline.</logic>
+    <complete>All sidescan sonar interpretable areas are mapped.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>On-board GPS measurements are used and checked with navigational charts</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>on-board GPS measurements are used and checked with navigational charts.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>19990901</pubdate>
+            <title>Coastal and Marine Geology Program</title>
+            <geoform>remote-sensing image</geoform>
+          </citeinfo>
+        </srccite>
+        <typesrc>computer program</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19970901</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Publication Date</srccurr>
+        </srctime>
+        <srccitea>KMS</srccitea>
+        <srccontr>sidescan sonar from with geological features are interpreted</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Shapefiles were created through conversion of mapinfo files . Mapinfo files were generated based on a georeferenced image containing decimated sidescan sonar data.</procdesc>
+        <procdate>19990818</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <vpfterm>
+        <vpflevel>0</vpflevel>
+        <vpftype>Face</vpftype>
+      </vpfterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00001</latres>
+        <longres>0.00001</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+    </horizsys>
+    <vertdef>
+      <depthsys>
+        <depthdn>Mean sea level</depthdn>
+        <depthres>0.01</depthres>
+        <depthdu>Meters</depthdu>
+        <depthem>Explicit depth coordinate included with horizontal coordinates</depthem>
+      </depthsys>
+    </vertdef>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>sea floor geology</enttypl>
+        <enttypd>bottom type are represented by varying backscatter intensities on the sidescan sonar</enttypd>
+        <enttypds>Scanlon, Briere, Koenig. 1999. Oculina Bank. Sidescan Sonar and Sediment Data from a Deep-Water Coral Reef Habitat off East-Central Florida. U.S Geological Survey Open-File Report 99-10</enttypds>
+      </enttyp>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey-Earth Science Information Center</cntorg>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>507 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>22092</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-800-USA-MAPS</cntvoice>
+      </cntinfo>
+    </distrib>
+    <distliab>none</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Download GIS files</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pubs.usgs.gov/of/1999/of99-589/gis/shape/</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+    <techpreq>GIS software that can read or translate shapefile (*.shp) format.</techpreq>
+  </distinfo>
+  <metainfo>
+    <metd>20150602</metd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Kathryn M. Scanlon</cntper>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Rd</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02541</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>5084572323</cntvoice>
+        <cntemail>kscanlon@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>95</metstdv>
+    <mettc>universal time</mettc>
+    <metac>None</metac>
+    <metuc>credit originators</metuc>
+    <metsi>
+      <metscs>none</metscs>
+      <metsc>Other</metsc>
+      <metshd>na</metshd>
+    </metsi>
+  </metainfo>
+  <mercury>
+    <begdate>19990901</begdate>
+    <enddate>19990901</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/cmgds.marine.usgs.gov_metadata_99.html</htmlurl>
+  </mercury>
+</metadata>

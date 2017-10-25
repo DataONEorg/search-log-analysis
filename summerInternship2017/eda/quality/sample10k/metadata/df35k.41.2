@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="df35k.41.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+<permission>all</permission>
+</allow>
+</access>
+<dataset> <title>Anadromous Water Catalog (AWC) data for lower stream points in Prince William Sound districts 221–229, Alaska Department of Fish and Game 2013</title>
+ <creator id="1469576515752"> <individualName><salutation>Dr.</salutation>
+ <givenName>Steve</givenName>
+ <surName>Moffitt</surName>
+ </individualName>
+ <organizationName>Alaska Department of Fish and Game</organizationName>
+ <positionName>Research Biologist</positionName>
+ <address><deliveryPoint>401 Railroad Avenue, PO Box 669</deliveryPoint>
+ <city>Cordova</city>
+ <administrativeArea>AK</administrativeArea>
+ <postalCode>99574-0669</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(907) 424-3212</phone>
+ <electronicMailAddress>steve.moffitt@alaska.gov</electronicMailAddress>
+ </creator>
+ <abstract><para>These data have the current stream codes, names, spatial location and aerial survey codes from 1982. These codes were widely used in older studies of the Prince William Sound and provide current day designations for streams. Several Anadromous Water Catalog streams have the same Aerial Survey Number because the counts are combined from aerial surveys, e.g., aerial survey streams 51, 244, 264, 303, 458, 479, 665, and 849. Data are from 2013 Anadromous Waters Catalog.</para>
+ </abstract>
+ <keywordSet><keyword>Alaska, EVOSTC, Prince William Sound, aerial surveys, streams, Anadromous Water Catalog, Exxon Valdez Oil Spill Trustee Council</keyword>
+ </keywordSet>
+ <intellectualRights><para>Information provided by the Alaska Department of Fish and Game and is in the public domain.</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>Prince William Sound, Alaska</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-149.75</westBoundingCoordinate>
+ <eastBoundingCoordinate>-145.0</eastBoundingCoordinate>
+ <northBoundingCoordinate>62.125</northBoundingCoordinate>
+ <southBoundingCoordinate>59.125</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1982-07-26</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2013-07-26</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact><references>1469576515752</references>
+ </contact>
+ <project><title>Anadromous Water Catalog (AWC) data for lower stream points in Prince William Sound districts 221–229, Alaska Department of Fish and Game 2013</title>
+ <personnel><references>1469576515752</references>
+ <role>Editor</role>
+ </personnel>
+ <funding><para>Alaska Department of Fish and Game</para>
+ </funding>
+ </project>
+ <dataTable id="1469579577627"><entityName>Anadromous Water Catalog data for Prince William Sound districts 221–229</entityName>
+ <entityDescription>Anadromous Water Catalog (AWC) data for lower stream points in Prince William Sound districts 221–229  *Several AWC streams have the same Aerial Survey Number because the counts are combined from aerial surveys, e.g., aerial survey streams 51, 244, 264, 303, 458, 479, 665, and 849. Data are from 2013 Anadromous Waters Catalog.</entityDescription>
+ <physical id="1469579285698"><objectName>StreamCodes.csv</objectName>
+ <size unit="byte">18123</size>
+ <dataFormat><textFormat><numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/df35k.40.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1469579577628"><attributeName>STREAM_CODE</attributeName>
+ <attributeLabel>Stream code</attributeLabel>
+ <attributeDefinition>Overall stream code (as of 2013)
+Stream codes include 3 digit district numbers as of 1982.  Since 1982, the boundaries have changed for districts 222, 223, 224, and 229 were added.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Stream code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1469579577629"><attributeName>NAME</attributeName>
+ <attributeLabel>Stream name</attributeLabel>
+ <attributeDefinition>Name of stream. Some streams have several names while others have changed</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Stream name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1469579577630"><attributeName>LAT</attributeName>
+ <attributeLabel>Latitude</attributeLabel>
+ <attributeDefinition>Latitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>0.001</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1469579577631"><attributeName>LONG</attributeName>
+ <attributeLabel>Longitude</attributeLabel>
+ <attributeDefinition>Longitude</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <precision>0.001</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1469579577632"><attributeName>Dist_StatArea</attributeName>
+ <attributeLabel>District and statistical area</attributeLabel>
+ <attributeDefinition>District and statistical area</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>District and statistical area</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1469579577633"><attributeName>District_Num</attributeName>
+ <attributeLabel>District Number</attributeLabel>
+ <attributeDefinition>These are current district numbers (as of 2013). 
+The AWC district numbers are from the district boundaries as described in 1982. Since 1982 the boundaries of districts 222, 223, and 224 have changed.  Part of district 224 in Port Wells is now in district 223 and District 229 was carved out of district 222 in 1989.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>District Number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1469579577634"><attributeName>District_Name</attributeName>
+ <attributeLabel>District name</attributeLabel>
+ <attributeDefinition>These are current district names as of 2013.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>District Name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1469579577635"><attributeName>Aerial_Survey_Num</attributeName>
+ <attributeLabel>Aerial Survey Stream Code</attributeLabel>
+ <attributeDefinition>Aerial Survey stream codes used since the early 1980s.  
+Note that these codes originated from the middle 3 digits of the AWC Stream Code, e.g., Stream 2 is from AWC 221-10-00020.</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Stream Code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>228</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

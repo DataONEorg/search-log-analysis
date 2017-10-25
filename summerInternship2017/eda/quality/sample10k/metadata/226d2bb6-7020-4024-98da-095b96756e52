@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/ds412_statewidelayers.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Alan Rea</origin>
+        <origin>Kenneth D. Skinner</origin>
+        <pubdate>2009</pubdate>
+        <title>Statewide Datasets for Idaho StreamStats</title>
+        <onlink>https://water.usgs.gov/lookup/getspatial?ds412_statewidelayers</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Alan Rea</origin>
+            <origin>Kenneth D. Skinner</origin>
+            <pubdate>2009</pubdate>
+            <title>Estimated perennial streams of Idaho and related geospatial datasets</title>
+            <geoform>raster and vector digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Data Series</sername>
+              <issue>412</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/ds/412/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset consists of a workspace (folder) containing four
+gridded datasets and a personal geodatabase. The gridded datasets are
+a grid of mean annual precipitation, a grid of forest land cover, and
+region grids used in the Idaho StreamStats application. One region grid
+is for peak flow estimates, the other is for low flows, mean annual
+flows, and monthly flow statistics. The personal geodatabase contains a
+polygon feature class of exclusion polygons, which identify areas in
+which use the StreamStats application is restricted.</abstract>
+      <purpose>The forest and precipitation grids are used to compute percent
+forested area and mean annual precipitation, respectively, for basins
+that have been edited by the user within the StreamStats web
+application. The same grids were used to compute continuous parameter
+grids for percent forested area and mean annual precipitation. The
+continuous parameter grids are distributed with the ArcHydroHUC data
+sets for each 8-digit HUC, and provide percent forested area and mean
+annual precipitation estimates for unedited basins. The region grids are
+used to identify which regional regression equations to apply for
+estimating streamflow statistics in Idaho. The exclusion polygons are
+used to restrict or prevent use of the StreamStats application in areas
+where results may be invalid, or where its use is to be prevented for
+various reasons.</purpose>
+      <supplinf>Several USGS reports in recent years used these grids in
+developing regression equations for streamflow statistics. The reports
+and citations are as given below:
+		
+id_pkreg -- Berenbrock, 2002; Hortness and Berenbrock, 2003
+		
+id_lowreg -- Hortness and Berenbrock, 2001; Hortness, 2006;  Wood and others, 2009
+		
+forestg -- All below except Wood and others (2009)
+		
+precip_combo -- All below
+		
+		
+Full Citations:
+		
+Berenbrock, Charles, (2002), Estimating the magnitude of peak flows at
+selected recurrence intervals for streams in Idaho, U.S. Geological
+Survey Water Resources-Investigations Report 2002-4170. 
+		
+Hortness, J. E., (2006), Estimating low-flow frequency statistics for
+unregulated streams in Idaho, U.S. Geological Survey Scientific
+Investigations Report 2006-5035, 31 p. 
+		
+Hortness, J. E., and Berenbrock, Charles, (2001), Estimating monthly and
+annual streamflow statistics at ungaged sites in Idaho, U.S. Geological
+Survey Water Resources-Investigations Report 2001-4093, U.S. Geological
+Survey. 
+		
+Hortness, J. E., and Berenbrock, Charles, (2003), Estimating the
+magnitude of bankfull flows for streams in Idaho, U.S. Geological Survey
+Water Resources-Investigations Report 2003-4261, U.S. Geological Survey. 
+		
+Wood, M.S.., Rea, Alan., Skinner, K.D, and Hortness, J.E., (2009),
+Estimating locations of perennial streams in Idaho using a Generalized
+Least-Squares regression model of 7-day, 2-year low flows: U.S.
+Geological Survey Scientific Investigations Report 2009-5015, 26 p.
+		
+</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2009</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-120.686373</westbc>
+        <eastbc>-108.421923</eastbc>
+        <northbc>49.858931</northbc>
+        <southbc>39.651369</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>streamflow statistics</themekey>
+        <themekey>streamstats</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>precipitation</themekey>
+        <themekey>land cover</themekey>
+        <themekey>forested area</themekey>
+      </theme>
+      <place>
+        <placekt>GCMD Location Keywords</placekt>
+        <placekey>NORTH AMERICA</placekey>
+        <placekey>UNITED STATES</placekey>
+        <placekey>UNITED STATES OF AMERICA</placekey>
+        <placekey>Idaho ID</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;amp;subject=GIS+Dataset+ds412_statewidelayers</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <logic>Although the region grids are 10-meter resolution, they were created by
+projecting and resampling 30-meter resolution grids. Therefore, the true
+spatial resolution of the region grids is 30 meters.</logic>
+    <complete>The regions extend outside the state of Idaho to encompass
+full watersheds above the gages used to develop the regression
+equations. The regression equations, however, generally are considered
+valid only within Idaho.</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Myron Molnau</origin>
+            <origin>Cindy Newton</origin>
+            <pubdate>1995</pubdate>
+            <title>Mean Annual Precipitation and Variability in Idaho</title>
+            <geoform>map</geoform>
+            <onlink>http://snow.ag.uidaho.edu/Climate/reports.html</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>1000000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1961</begdate>
+              <enddate>1990</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>id_precip</srccitea>
+        <srccontr>mean annual precip within Idaho</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>C. Daly</origin>
+            <origin>G. Taylor</origin>
+            <pubdate>1998</pubdate>
+            <title>Western United States average monthly or annual precipitation, 1961-90</title>
+            <geoform>raster digital data</geoform>
+            <pubinfo>
+              <pubplace>Portland, OR</pubplace>
+              <publish>Water and Climate Center of the National Resources Conservation Service</publish>
+            </pubinfo>
+            <othercit>grid-cell resolution 4 km</othercit>
+            <onlink>http://www.ocs.orst.edu/prism/prism_new.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1961</begdate>
+              <enddate>1990</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>prism_precip</srccitea>
+        <srccontr>mean annual precip outside of Idaho</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <origin>U.S. Environmental Protection Agency</origin>
+            <origin>U.S. Forest Service</origin>
+            <origin>National Oceanic and Atmospheric Administration</origin>
+            <pubdate>2001</pubdate>
+            <title>National Land Cover Dataset 1992</title>
+            <edition>1992</edition>
+            <geoform>raster digital data</geoform>
+            <onlink>http://landcover.usgs.gov/natllandcover.php</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>disc</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1992</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>NLCD92</srccitea>
+        <srccontr>Land cover (forested categories only)</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The original publications (2001-2003) by Hortness and
+Berenbrock contained page-size illustrations of the regression regions.
+The region boundaries were determined based on similarity of basin
+characteristics at stream-gage locations, geographic and geomorphic
+features such as mountain ranges or breaks between mountains and plains,
+and professional judgement. More detailed region boundaries were
+digitized for the Idaho StreamStats application in consultation with the
+original report authors. Most boundaries were defined by drainage basin
+divides. However, some were defined along geomorphic boundaries such as
+the break in slope between mountains and plains. The boundaries that
+follow drainage basin divides generally were mapped using 30-meter
+elevation models. Other boundaries generally were digitized on-screen
+using 1:24,000-scale digital raster graphics (scanned topographic maps).
+The maps were then rasterized at 30-meter resolution and projected to
+the US Albers projection to match the EDNA data being used for Idaho
+StreamStats.</procdesc>
+        <procdate>2004</procdate>
+        <srcprod>RegionGridsAlbers</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The grids were projected to Idaho Transverse Mercator
+projection (IDTM83). The cell size was changed from 30 to 10 meters
+during the projection operation.</procdesc>
+        <srcused>RegionGridsAlbers</srcused>
+        <procdate>20080612</procdate>
+        <srcprod>IDSS_regions</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The precip grids were combined to cover whole study area,
+because id_precip covered only Idaho. The prism_precip and molnau grids
+were projected to IDTM projection (with old parameters but on NAD83),
+and resampled to 500-m grid-cell resolution. They were combined with the
+ESRI Grid Merge function. Later, the precip_combo grid was projected to
+the new IDTM83 projection, which added some large X, Y offsets, but
+otherwise is the same projection.</procdesc>
+        <srcused>id_precip</srcused>
+        <srcused>prism_precip</srcused>
+        <procdate>20000707</procdate>
+        <srcprod>precip_combo</srcprod>
+        <srcprod>precip_prj</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The FOREST grid was created from the NLCD92 land cover data.
+The appended NLCD92 data were acquired from Naomi Nakagaki (USGS
+California Water Science Center). The grid was reclassified to a grid
+having cell value 1 for every cell in the forest category (values 41-43
+in NLCD92), and having cell value 0 everywhere else.</procdesc>
+        <srcused>NLCD92</srcused>
+        <procdate>20030212</procdate>
+        <srcprod>forestg</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The exclusion polygons were developed by tracing downstream
+using the flowdirection grids, or tracing downstream with the Streams3D
+features in the HUC_Net geometric network stored in the global.mdb
+geodatabase. The traces were done from the points where major streams
+entered the U.S. from Canada. The selected lines were then buffered with
+a buffer distance of 8 meters. This made the exclusion polygon
+completely include all of the stream grid cells for these major streams. 
+		
+Exclusion polygons from the previous version of StreamStats also were
+added for the eastern Snake River Plain (an undefined area for
+streamflow regression equations), and an area surrounding the state
+boundary buffered by a distance of 1 kilometer. An exclusion polygon
+also was made for the Snake River below the confluence with the Owyhee
+River because parts of the Owyhee River basin were not processed.
+Several other river basins entering the Snake River from the west below
+this point also were not processed. </procdesc>
+        <procdate>20080915</procdate>
+        <srcprod>ExcludePolys</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Transverse Mercator</mapprojn>
+          <transmer>
+            <sfctrmer>0.999600</sfctrmer>
+            <longcm>-114.000000</longcm>
+            <latprjo>42.000000</latprjo>
+            <feast>2500000.000000</feast>
+            <fnorth>1200000.000000</fnorth>
+          </transmer>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>10</absres>
+            <ordres>10</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>
+id_lowreg.vat</enttypl>
+        <enttypd>Grid value attribute table</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Rowid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>Region ID number</attrdef>
+        <attrdefs>StreamStatsDB</attrdefs>
+        <attrdomv>
+          <udom>Region IDs assigned in StreamStatsDB, may change when equations are updated in DB.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+        <attrdef>Number of grid cells having that value</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Dependent on size of grid and region</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID_LOWREGNO</attrlabl>
+        <attrdef>ID regression region number</attrdef>
+        <attrdefs>See list of reports in Supplemental Information</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Undefined area</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Idaho low flows region 1</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Idaho low flows region 2</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Idaho low flows region 3</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Idaho low flows region 4</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Idaho low flows region 5</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Idaho low flows region 6</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>Idaho low flows region 7</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Idaho low flows region 8</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>id_pkreg.vat</enttypl>
+        <enttypd>Grid value attribute table</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Rowid</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>Region ID number</attrdef>
+        <attrdefs>StreamStatsDB</attrdefs>
+        <attrdomv>
+          <udom>Region IDs assigned in StreamStatsDB, may change when equations are updated in DB.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+        <attrdef>Number of grid cells having that value</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Dependent on size of grid and region</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID_PKREGNO</attrlabl>
+        <attrdef>Idaho regression region number</attrdef>
+        <attrdefs>See list of reports in Supplemental Information</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>Undefined area</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Idaho peak flows region 1</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>Idaho peak flows region 2</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>Idaho peak flows region 3</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>Idaho peak flows region 4</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>Idaho peak flows region 5</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>Idaho peak flows region 6</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>7a</edomv>
+            <edomvd>Idaho peak flows region 7a</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>7b</edomv>
+            <edomvd>Idaho peak flows region 7b</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>Idaho peak flows region 8</edomvd>
+            <edomvds>See Supplemental Information for list of reports using these region definitions.</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>Exclude_polys</enttypl>
+        <enttypd>Personal geodatabase feature attribute table</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OBJECTID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExcludeCode</attrlabl>
+        <attrdef>Code that specifies behavior of the StreamStats application when delineation point falls within polygon</attrdef>
+        <attrdefs>StreamStats</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>Delineation is not allowed</edomvd>
+            <edomvds>StreamStats</edomvds>
+          </edom>
+          <edom>
+            <edomv>All other values</edomv>
+            <edomvd>Delineation is allowed. Warning is given to user.</edomvd>
+            <edomvds>StreamStats</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ExcludeReason</attrlabl>
+        <attrdef>Reason for warning or restriction</attrdef>
+        <attrdefs>StreamStats</attrdefs>
+        <attrdomv>
+          <udom>Text description of reason for restriction</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Length</attrlabl>
+        <attrdef>Length of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape_Area</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Positive real numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been used by the U.S.
+Geological Survey, U.S. Department of the Interior, no warranty
+expressed or implied is made by the U.S. Geological Survey as to the
+accuracy of the data. The act of distribution shall not constitute any
+such warranty, and no responsibility is assumed by the U.S. Geological
+Survey in the use of these data, software, or related materials.  
+		
+The use of firm, trade, or brand names in this report is for
+identification purposes only and does not constitute endorsement by the
+U.S. Geological Survey. The names mentioned in this document may be
+trademarks or registered trademarks of their respective trademark
+owners.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRIWS</formname>
+          <formvern>9.2</formvern>
+          <formspec>ESRI Workspace</formspec>
+          <transize>86 MB</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ds412/index.html</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20080915</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Ask USGS</cntper>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ds412_statewidelayers</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20090101</begdate>
+    <enddate>20091231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_ds412_statewidelayers.html</htmlurl>
+  </mercury>
+</metadata>

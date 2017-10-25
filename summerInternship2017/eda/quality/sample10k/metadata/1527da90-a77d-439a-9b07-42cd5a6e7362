@@ -1,0 +1,1026 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/atra_hyd_use.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Michael G. Rupert</origin>
+        <pubdate>20030609</pubdate>
+        <title>Raster dataset showing the probability of detecting atrazine/desethyl-atrazine in ground water in Colorado, hydrogeomorphic regions and atrazine use estimates included.</title>
+        <edition>1.0</edition>
+        <geoform>Raster digital data</geoform>
+        <serinfo>
+          <sername>USGS Open-File Report</sername>
+          <issue>03-234</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?atra_hyd_use</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset is one of eight datasets produced by this study.
+Four of the datasets predict the probability of detecting
+atrazine and(or) desethyl-atrazine (a breakdown product of atrazine)
+in ground water in Colorado; the other four predict the probability
+of detecting elevated concentrations of nitrate in ground water in
+Colorado. The four datasets that predict the probability of
+atrazine and(or) desethyl-atrazine (atrazine/DEA) are differentiated
+by whether or not they incorporated atrazine use and whether
+or not they incorporated hydrogeomorphic regions. The four datasets
+that predict the probability of elevated concentrations of nitrate
+are differentiated by whether or not they incorporated fertilizer
+use and whether or not they incorporated hydrogeomorphic
+regions. Each of the eight datasets has its own unique strengths
+and weaknesses. The user is cautioned to read Rupert (2003, Probability
+of detecting atrazine/desethyl-atrazine and elevated concentrations
+of nitrate in ground water in Colorado: U.S. Geological Survey
+Water-Resources Investigations Report 02-4269, 35 p.,
+https://water.usgs.gov/pubs/wri/wri02-4269/) to determine if he(she)
+is using the most appropriate dataset for his(her) particular needs.
+This dataset specifically predicts the probability of detecting
+atrazine/DEA in ground water in Colorado with hydrogeomorphic
+regions and atrazine use estimates included. The following text
+was extracted from Rupert (2003).
+		
+Draft Federal regulations may require that each State develop a
+State Pesticide Management Plan for the herbicides atrazine,
+alachlor, metolachlor, and simazine. Maps were developed that the
+State of Colorado could use to predict the probability of detecting
+atrazine/DEA in ground water in Colorado. These maps can be
+incorporated into the State Pesticide Management Plan and can help
+provide a sound hydrogeologic basis for atrazine management in
+Colorado. Maps showing the probability of detecting elevated nitrite
+plus nitrate as nitrogen (nitrate) concentrations in ground water in
+Colorado also were developed because nitrate is a contaminant of
+concern in many areas of Colorado.
+		
+Maps showing the probability of detecting atrazine/DEA at or greater
+than concentrations of 0.1 microgram per liter and nitrate
+concentrations in ground water greater than 5 milligrams per liter
+were developed as follows: (1) Ground-water quality data were overlaid
+with anthropogenic and hydrogeologic data by using a geographic
+information system (GIS) to produce a dataset in which each well had
+corresponding data on atrazine use, fertilizer use, geology,
+hydrogeomorphic regions, land cover, precipitation, soils, and well
+construction. These data then were downloaded to a statistical
+software package for analysis by logistic regression. (2) Relations
+were observed between ground-water quality and the percentage of
+land-cover categories within circular regions (buffers) around wells.
+Several buffer sizes were evaluated; the buffer size that provided
+the strongest relation was selected for use in the logistic regression
+models. (3) Relations between concentrations of atrazine/DEA and
+nitrate in ground water and atrazine use, fertilizer use, geology,
+hydrogeomorphic regions, land cover, precipitation, soils, and
+well-construction data were evaluated, and several preliminary
+multivariate models with various combinations of independent variables
+were constructed. (4) The multivariate models that best predicted
+the presence of atrazine/DEA and elevated concentrations of nitrate
+in ground water were selected. (5) The accuracy of the multivariate
+models was confirmed by validating the models with an independent
+set of ground-water quality data. (6) The multivariate models were
+entered into a geographic information system and the probability
+GRIDS were constructed.
+			</abstract>
+      <purpose>Draft Federal regulations (U.S. Environmental Protection Agency,
+Pesticides and Ground Water State Management Plan Regulation; Proposed
+Rule, U.S. Federal Register, v. 61, no. 124, June 26, 1996,
+p. 33260-33301) may require that each State develop a State Pesticide
+Management Plan (PMP) for the herbicides atrazine, alachlor,
+metolachlor, and simazine. The Colorado Agricultural Chemicals
+and Groundwater Protection Program--a cooperative effort of the
+Colorado Department of Agriculture (CDA), the Colorado Department
+of Public Health and Environment (CDPHE), and the Colorado State
+University Cooperative Extension (CSUCE)--is developing a PMP for
+each of the herbicides and would benefit from a map that could be
+used to predict the probability of detecting atrazine and DEA in
+ground water. The map could be incorporated into the PMP and
+provide a sound hydrogeologic basis for atrazine management in
+Colorado. Other organizations and programs that could benefit
+from maps that predict the probability of detecting atrazine,
+DEA, and elevated concentrations of nitrate in ground water
+include the agri-chemical industry, county and city governments,
+farmers, planning and zoning commissions, education programs for
+applicators, and State programs related to Wellhead Protection,
+Drinking Water, Home-A-Syst, and Best Management Plans (BMP's).
+To address these needs, the U.S. Geological Survey (USGS), in
+cooperation with the CDA, CDPHE, and CSUCE, conducted a study to
+develop maps to predict the probability of detecting atrazine
+and(or) DEA and elevated concentrations of nitrate in
+ground water in Colorado.
+			</purpose>
+      <supplinf>The finest scale at which this dataset should be used is 1:250,000,
+which is the scale of the soils data used to develop this dataset.
+		
+This dataset was created by combining several different layers of GIS
+data, including herbicide use, fertilizer use, hydrogeomorphic
+regions, land cover, and soils. Herbicide-use data were obtained from
+Battaglin and Goolsby (1994), who prepared GIS coverages of herbicide-
+use estimates for the 20 most-used herbicides in the conterminous United
+States based on data compiled by Gianessi and Puffer (1991). Gianessi
+and Puffer's (1991) estimates for each county included the number of
+acres treated, pounds of active ingredient used, and pounds used per
+square mile. Although crop-acreage data represent the 1987 growing year,
+the herbicide-use estimates generally reflect 1989 usage amounts
+(Gianessi and Puffer, 1991). When the final probability GRIDS were
+created for this study, atrazine use was assigned only to areas in GIS
+coverages that delineate irrigated agricultural land cover (pasture/hay
+and row crops land-cover classification) because these are the areas
+where most, if not all, agricultural atrazine use occurs.
+		
+Estimates of nitrogen fertilizer use for 1997 were developed by David
+Lorenz (U.S. Geological Survey, written commun., 2001). First, estimates
+of the total amount of nitrogen fertilizer product that was sold in
+Colorado during 1997 were obtained from the Association of American
+Plant Food Control Officials (AAPFCO) at the University of Kentucky. The
+statewide total was prorated to each county based upon amounts of
+fertilizer expenditures by farmers that were reported in the 1997 Census
+of Agriculture. When the final probability GRIDS were created for this
+study, nitrogen fertilizer use was assigned only to areas in GIS
+coverages that delineate agricultural land cover (pasture/hay and row
+crops land-cover classification).
+		
+A GIS dataset delineating hydrogeomorphic regions in Colorado was
+developed for this study. Hydrogeomorphic regions are similar
+in concept to regional aquifers but are distinguished from regional
+aquifers in that hydrogeomorphic regions are delineated on the basis of
+general geographic locations of geologic materials and not on actual
+aquifer locations. A comprehensive coverage of regional aquifers for all
+of Colorado was not available, but hydrogeomorphic regions satisfied the
+needs of this study. Hydrogeomorphic regions were delineated by
+combining information from three sources. The first source was the
+geologic map of Colorado (Tweto, 1979), which was digitized by Green
+(1992). Unconsolidated alluvial regions were delineated by using
+the alluvial, gravel, eolian, and glacial deposits of Quaternary age
+that are delineated on the geologic map of Colorado. The second source
+was a GIS coverage delineating the boundary of the High Plains aquifer
+(Cederstrand and Becker, 1999) that was compiled from a digital coverage
+created for publication of paper maps in McGrath and Dugan (1993). The
+third source was a GIS coverage digitized from reports that delineate
+the boundary of the valley-fill aquifer in the lower Arkansas River
+Basin (Hurr and Moore, 1972; Nelson and others, 1989a, 1989b, 1989c).
+		
+Land-cover data for Colorado were obtained from National Land Cover Data
+(NLCD) developed by the U.S. Geological Survey (2000). NLCD were
+produced as part of a cooperative project between the U.S. Environmental
+Protection Agency and the USGS to produce a consistent land-cover GIS
+data layer for the conterminous United States based on 30-meter-
+resolution Landsat thematic mapper (TM) data. The NLCD contains 21
+categories of land-cover information. The NLCD files were too large for
+the computers available to this study to manipulate in raw form, so the
+files were generalized to 60-meter resolution. This generalization may
+have improved the consistency of the data by reducing the number of
+isolated single-cell occurrences of a particular land-cover
+classification, which were probably an artifact of spectral processing
+and not true differences in land cover.
+		
+Soils data were obtained from the State Soil Geographic (STATSGO)
+database (U.S. Department of Agriculture, 1991). The finer scale Soil
+Survey Geographic (SSURGO) database (U.S. Department of Agriculture,
+1995) was not available for all regions in Colorado. The STATSGO data
+were not suitable for use by this study in raw form, so STATSGO data
+compiled by Schwarz and Alexander (1995) were used. These later data
+included weighted averaging of many of the soil characteristics
+contained in the database. The U.S. Department of Agriculture
+(1993) provides more information on these soil characteristics.
+		
+REFERENCES CITED IN ABOVE TEXT
+		
+Battaglin, W.A., and Goolsby, D.A., 1994, Spatial data in GIS format on
+agricultural chemical use, land use, and cropping practices in the
+United States: U.S. Geological Survey Water-Resources Investigations
+Report 94-4176, 87 p., accessed July 3, 2001, from
+URL https://water.usgs.gov/lookup/getspatial?herbicide1
+		
+Cederstrand, J.R., and Becker, M.F., 1999, Digital map of aquifer
+boundary for the High Plains aquifer in parts of Colorado, Kansas,
+Nebraska, New Mexico, Oklahoma, South Dakota, Texas, and Wyoming:
+U.S. Geological Survey Open-File Report 99-267, accessed July 3, 2001,
+from URL https://water.usgs.gov/lookup/getspatial?ofr99-267_aqbound
+		
+Gianessi, L. P., and Puffer, Cynthia, 1991, Herbicide use in the
+United States: Washington, D.C., Resources for the Future, December
+1990 (revised April 1991), 128 p.
+		
+Green, G.N., 1992, The digital geologic map of Colorado in ARC/INFO
+format: U.S. Geological Survey Open-File Report 92-507, metadata
+accessed January 31, 2001, from URL
+https://geo-nsdi.er.usgs.gov/metadata/open-file/92-507/metadata.faq.html
+		
+Hurr, R.T., and Moore, J.E., 1972, Hydrogeologic characteristics of the
+valley-fill aquifer in the Arkansas River valley, Bent County, Colorado:
+U.S. Geological Survey Hydrologic Investigations Atlas HA-0461, scale
+1:62,500, 2 sheets.
+		
+McGrath, Timothy, and Dugan, J.T., 1993, Water-level changes in the
+High Plains aquifer--Predevelopment to 1991: U.S. Geological Survey
+Water-Resources Investigations Report 93-4088, 53 p.
+		
+Nelson, G.A., Hurr, R.T., and Moore, J.E., 1989a, Hydrogeologic
+characteristics of the valley-fill aquifer in the Arkansas River Valley,
+Prowers County, Colorado: U.S. Geological Survey Open-File Report
+89-254, scale 1:62,500, 3 sheets.
+		
+Nelson, G.A., Hurr, R.T., and Moore, J.E., 1989b, Hydrogeologic
+characteristics of the valley-fill aquifer in the Arkansas River Valley,
+Crowley and Otero Counties, Colorado: U.S. Geological Survey Open-File
+Report 89-255, scale 1:62,500, 3 sheets.
+		
+Nelson, G.A., Hurr, R.T., and Moore, J.E., 1989c, Hydrogeologic
+characteristics of the valley-fill aquifer in the Arkansas River Valley,
+Pueblo County, Colorado: U.S. Geological Survey Open-File Report
+89-256, scale 1:62,500, 3 sheets.
+		
+Rupert, M. G., 2003, Probability of detecting atrazine/desethyl-atrazine
+and elevated concentrations of nitrate in ground water in Colorado:
+U.S. Geological Survey Water-Resources Investigations Report 02-4269,
+35 p., https://water.usgs.gov/pubs/wri/wri02-4269/.
+		
+Schwarz, G.E., and Alexander, R.B., 1995, State Soil Geographic
+(STATSGO) data base for the conterminous United States: U.S. Geological
+Survey Open-File Report 95-449, accessed March 10, 2001, from URL
+https://water.usgs.gov/lookup/getspatial?ussoils
+		
+Tweto, Ogden, comp., 1979, Geologic map of Colorado: U.S. Geological
+Survey, scale 1:500,000, 1 sheet.
+		
+U.S. Department of Agriculture, 1991, State Soil Geographic (STATSGO)
+data base: U.S. Department of Agriculture, Soil Conservation Service,
+Miscellaneous Publication 1492, 88 p.
+		
+U.S. Department of Agriculture, 1993, Soil survey manual:
+U.S. Department of Agriculture, Handbook 18, 437 p.
+
+U.S. Department of Agriculture, 1995, Soil Survey Geographic
+(SSURGO) data base: U.S. Department of Agriculture, Natural Resources
+Conservation Service, Miscellaneous Publication 1527, 31 p.
+		
+U.S. Geological Survey, 2000, National land cover dataset:
+U.S. Geological Survey Fact Sheet 108-00, 3 p., accessed November 14,
+2000, from URL
+https://egsc.usgs.gov/isb//pubs/factsheets/fs10800.html
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2003</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>Variable, input data used to develop this dataset were developed
+during the 1980's and 1990's.
+			</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None Planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-109.813</westbc>
+        <eastbc>-101.475</eastbc>
+        <northbc>41.574</northbc>
+        <southbc>36.424</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Ground water</themekey>
+        <themekey>Ground-water vulnerability</themekey>
+        <themekey>Ground-water probability</themekey>
+        <themekey>Ground-water susceptibility</themekey>
+        <themekey>Vulnerability</themekey>
+        <themekey>Susceptibility</themekey>
+        <themekey>Probability</themekey>
+        <themekey>Nitrate</themekey>
+        <themekey>Atrazine</themekey>
+        <themekey>Desethyl-atrazine</themekey>
+        <themekey>Ground-water quality</themekey>
+        <themekey>Ground-water contamination</themekey>
+        <themekey>Probability of ground-water contamination</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Colorado</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>This dataset should not be used at a scale any larger than 1:250,000,
+which is the scale of the soils data used to construct the probability
+GRIDS. Soils data at a larger scale were not available for all
+regions of Colorado.
+		
+This dataset is one of eight datasets produced by this study. The
+user is cautioned to read Rupert (2003) to ensure that they are
+using the correct dataset for their particular needs.
+		
+The probability GRIDS developed by this study are designed to
+portray the potential for contamination of ground water in
+Colorado. These GRIDS do not show areas that are actually
+(currently) contaminated; rather, these GRIDS show the areas that
+have a potential (or likelihood) for being contaminated if a
+contaminant was released to the environment. More specifically,
+each GRID shows the probability of detection (in terms of a percent)
+of a particular chemical compound (the contaminant) in ground
+water. Probability is not the same as certainty; a well in a
+high probability area is not necessarily contaminated because
+contamination also can depend on well depth and other local
+factors not taken into account by the models used to produce these
+probability GRIDS.
+		
+The atrazine/DEA and nitrate probability GRIDS were specifically
+developed for use by the State of Colorado in its Pesticide
+Management Plan to help provide a sound hydrogeologic basis
+for the management of atrazine and nitrogen in Colorado. The
+GRIDS are intended to be a first approximation at developing a
+consistent rating method for the entire State. Additional
+site-specific data are needed before site-specific decisions
+are made, such as pesticide-use restrictions.
+		
+The most appropriate uses of these GRIDS are to focus prevention
+programs in areas of greatest concern, to focus ground-water
+sampling programs in areas of greatest potential for contamination,
+and to assist educational programs for ground-water quality
+protection.
+		
+The accuracy of the probability GRIDS would be improved if
+(1) larger scale soils data were available in digital form,
+(2) more complete and detailed chemical-use data were available,
+and (3) a larger number and wider distribution of ground-water
+quality data, particularly in rangeland areas, were available.
+Data differentiating between sprinkler and flood irrigation
+methods would probably improve the accuracy in agricultural
+areas. Some site-specific variables, such as improper well
+construction and local spills of contaminants, were not
+accounted for in the models. Accounting for ground-water flow
+direction was beyond the scope of this study. Depth to ground
+water was not evaluated by this study because a large-scale
+statewide coverage was not available. Depth to ground
+water may be an important coverage to develop for future studies.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Michael G. Rupert</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>201 W. 8th Street, Suite 200</address>
+          <city>Pueblo</city>
+          <state>Colorado</state>
+          <postal>81003</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>719-544-7155</cntfax>
+        <cntemail>mgrupert@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>This dataset was produced through a cooperative effort with Rob
+Wawrzynski of the Colorado Department of Agriculture, Bradford
+Austin of the Colorado Department of Public Health and Environment, and
+Regan Waskom and Troy Bauder of the Colorado State University Cooperative
+Extension.
+		</datacred>
+    <native>Microsoft Windows XP Professional
+Operating System Version 5.1.2600
+ArcInfo version 8.2
+		</native>
+    <crossref>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>20030609</pubdate>
+        <title>Digital geospacial datasets showing the probability of detecting
+atrazine/desethyl-atrazine and elevated concentrations of nitrate
+in ground water in Colorado
+				</title>
+        <geoform>Raster digital data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Open-File Report</sername>
+          <issue>03-234</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Denver, Colorado</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?atra_hyd_use</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>GRID cells were randomly selected from this dataset and checked to
+ensure the correct probability values were calculated using the logistic
+regression equation and the input datasets on herbicide use, fertilizer
+use, hydrogeomorphic regions, land cover, and soils.
+			</attraccr>
+    </attracc>
+    <logic>Not applicable for raster data</logic>
+    <complete>The extent of this dataset is the entire State of Colorado</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>This dataset was developed by combining information from multiple
+datasets; the horizontal accuracy is dependent on the combined
+accuracy from all of the input datasets, which is impossible to
+quantify. Probably the best estimate of the horizontal accuracy is
+determined by the STATSGO soils data, developed at 1:250,000 scale.
+				</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Battaglin, W.A., and Goolsby, D.A., U.S. Geological Survey
+						</origin>
+            <pubdate>1994</pubdate>
+            <title>Spatial data in GIS format on agricultural chemical use, land use, and cropping practices in the United States
+						</title>
+            <geoform>Vector digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Water-Resources Investigations Report
+							</sername>
+              <issue>U.S. Geological Survey Water-Resources Investigations Report 94-4176
+							</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Lakewood, Colorado</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>2,000,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1987</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based upon 1987 Census of Agriculture
+cropping data
+					</srccurr>
+        </srctime>
+        <srccitea>USGS WRIR 94-4176</srccitea>
+        <srccontr>Atrazine use for each county in Colorado</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Cederstrand, J.R., and Becker, M.F., U.S. Geological Survey</origin>
+            <pubdate>1999</pubdate>
+            <title>Digital map of aquifer boundary for the High Plains aquifer in
+parts of Colorado, Kansas, Nebraska, New Mexico, Oklahoma, South
+Dakota, Texas, and Wyoming
+						</title>
+            <edition>Version 1.0</edition>
+            <geoform>Vector digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Open-File Report</sername>
+              <issue>U.S. Geological Survey Open-File Report 99-267</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Oklahoma City, Oklahoma</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>1000000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1980</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Other_Citation_Details These data were compiled from paper maps developed by McGrath
+Online_Linkage https://water.usgs.gov/GIS/metadata/usgswrd/XML/ofr99-267.xml)</srccurr>
+        </srctime>
+        <srccitea>USGS OFR 99-267</srccitea>
+        <srccontr>One of three datasets used to delineate hydrogeomorphic regions in Colorado.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Green, G.N., U.S. Geological Survey</origin>
+            <pubdate>1992</pubdate>
+            <title>The digital geologic map of Colorado in ARC/INFO format</title>
+            <edition>Version 1.0</edition>
+            <geoform>Vector digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Open-File Report</sername>
+              <issue>U.S. Geological Survey Open-File Report 92-507
+							</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Denver, Colorado</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>These data were digitized from the original scribe sheets used to prepare the published Geologic Map of Colorado (Tweto, Ogden, 1979, Geologic map of Colorado: U.S. Geological Survey, scale 1:500,000, 1 sheet.
+						</othercit>
+            <onlink>https://geo-nsdi.er.usgs.gov/metadata/open-file/92-507
+/metadata.faq.html
+						</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1979</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on 1979 geologic map</srccurr>
+        </srctime>
+        <srccitea>USGS OFR 92-507</srccitea>
+        <srccontr>One of three datasets used to delineate hydrogeomorphic
+regions in Colorado.
+				</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>David Lorenz, U.S. Geological Survey</origin>
+            <pubdate>2001</pubdate>
+            <title>Estimates of nitrogen fertilizer use, 1997</title>
+            <geoform>Vector digital data</geoform>
+            <serinfo>
+              <sername>Data not formally published</sername>
+              <issue>Data not published</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Mounds View, Minnesota</pubplace>
+              <publish>David Lorenz, U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>Unpublished data on file at U.S. Geological Survey
+office, Mounds View, Minnesota
+						</othercit>
+          </citeinfo>
+        </srccite>
+        <srcscale>2,000,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1997</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on 1997 estimates</srccurr>
+        </srctime>
+        <srccitea>Not formally published</srccitea>
+        <srccontr>Estimates of fertilizer use in each county of
+Colorado during 1997.
+				</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Schwarz, G.E., and Alexander, R.B., U.S. Geological Survey</origin>
+            <pubdate>1995</pubdate>
+            <title>State Soil Geographic (STATSGO) database for the conterminous
+United States
+						</title>
+            <edition>Version 1.1</edition>
+            <geoform>Vector digital data</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Open-File Report</sername>
+              <issue>U.S. Geological Survey Open-File
+Report 95-449
+							</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>Soils data in this coverage were originally obtained from the
+State Soil Geographic (STATSGO) database (U.S. Department of
+Agriculture, 1991, State Soil Geographic (STATSGO) data base:
+U.S. Department of Agriculture, Soil Conservation Service,
+Miscellaneous Publication 1492, 88 p.). Schwarz and Alexander
+(1995) performed weighted averaging of many of the soil
+characteristics contained in the original STATSGO database.
+						</othercit>
+            <onlink>https://water.usgs.gov/lookup/getspatial?ussoils</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>250,000</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1991</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>STATSGO data published in 1991</srccurr>
+        </srctime>
+        <srccitea>USGS OFR 95-449</srccitea>
+        <srccontr>Soils data for the State of Colorado</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2000</pubdate>
+            <title>National land cover dataset</title>
+            <edition>Version 20000909</edition>
+            <geoform>Raster digital data</geoform>
+            <serinfo>
+              <sername>online data</sername>
+              <issue>online data</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Sioux Falls, South Dakota</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>Data should be considered preliminary because they were still
+being assessed for accuracy at the time of this publication.
+						</othercit>
+            <onlink>https://eros.usgs.gov/land-coverland-use/national-land-cover</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>30-meter GRID cells</srcscale>
+        <typesrc>Online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1992</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on 1992 satellite imagery</srccurr>
+        </srctime>
+        <srccitea>NLCD</srccitea>
+        <srccontr>This dataset supplied land use/land cover data for the State of Colorado.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>2001</pubdate>
+            <title>Boundary of valley-fill aquifer in the lower Arkansas River Basin</title>
+            <edition>1</edition>
+            <geoform>Vector digital data</geoform>
+            <serinfo>
+              <sername>not published</sername>
+              <issue>not published</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Pueblo, Colorado</pubplace>
+              <publish>Data not published</publish>
+            </pubinfo>
+            <othercit>Data not published. 
+Data were digitized from original mylar sheets
+produced by Hurr and Moore (1972, 
+Hydrogeologic characteristics
+of the valley-fill aquifer in the Arkansas River valley, Bent
+County, Colorado: U.S. Geological Survey Hydrologic Investigations
+Atlas HA-0461, scale 1:62,500, 2 sheets), 
+		
+Nelson, G.A., Hurr, R.T., and Moore, J.E. (1989a, Hydrogeologic characteristics of the
+valley-fill aquifer in the Arkansas River Valley, Prowers County,
+Colorado: U.S. Geological Survey Open-File Report 89-254,
+scale 1:62,500, 3 sheets), 
+		
+Nelson, G.A., Hurr, R.T., and Moore, J.E. (1989b, 
+Hydrogeologic characteristics of the valley-fill
+aquifer in the Arkansas River Valley, Crowley and Otero Counties,
+Colorado: U.S. Geological Survey Open-File Report 89-255,
+scale 1:62,500, 3 sheets), 
+		
+and Nelson, G.A., Hurr, R.T., and Moore, J.E. (1989c, 
+Hydrogeologic characteristics of the valley-fill
+aquifer in the Arkansas River Valley, Pueblo County, Colorado:
+U.S. Geological Survey Open-File Report 89-256, scale 1:62,500, 3 sheets).
+						</othercit>
+            <onlink>None</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>62,500</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1989</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>Based on 1989 publications</srccurr>
+        </srctime>
+        <srccitea>not published</srccitea>
+        <srccontr>One of three datasets used to delineate hydrogeomorphic
+regions in Colorado.
+				</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Projected all input datasets to a common projection and datum
+(Colorado Albers, NAD 27)
+				</procdesc>
+        <procdate>20010330</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The 30-meter NLCD GRIDS were too large for the computers available for
+this study to manipulate in raw form, so the files were generalized to
+60-meter resolution.
+		
+The "RESAMPLE" command with the "nearest neighbor assignment"
+option in GRID was used to generalize the NLCD GRIDS to 60 meters.
+				</procdesc>
+        <procdate>20011120</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>One of the independent variables used in the logistic regression
+models was the percentage of certain land-cover classifications within
+500-meter and 2,000-meter buffers around each well. To transfer these
+logistic regression models to the probability GRIDS, GRIDS were
+constructed that contained the percentage of certain land-cover
+classifications within 500-meter and 2,000-meter buffers around each
+individual grid cell. These GRIDS were produced from the 60-meter NLCD
+GRID produced by the previous step. These GRIDS were made in three
+substeps.
+		
+1) First, make individual GRIDS coded as one for "land cover present"
+and zero for "land cover not present" for the following land-cover
+classifications: low-intensity residential, shrubland, pasture/hay,
+row crops, and small grains land-cover classifications. As an example,
+low-intensity residential land cover is coded as "21" in the NLCD
+GRID, so the following equation was used in GRID to convert the
+dataset:
+low_res_g = con(nlcd_60m_g eq 21,1,0)
+		
+2) Second, add up the number of cells of low-intensity residential
+cells in each buffer:
+temp_num_g = focalsum(low_res_g,circle,33)
+where 33 is the 2,000-meter radius in number of cells. Use 8 if you
+are calculating 500-meter radius.
+		
+3) Third, calculate the percentage of low-intensity residential cells
+by dividing the number of cells in each buffer by the total possible:
+low_res_pct_g = (temp_num_g / float(3409)) * 100
+where 3409 is the total number of 60-meter cells within a 2,000-meter
+buffer. Use 197 if you are calculating 500-meter buffers.
+				</procdesc>
+        <procdate>20011203</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Convert polygon coverages of atrazine use, fertilizer use,
+hydrogeomorphic regions, and the various soils factors to 60-meter
+GRIDS. Use the "setwindow" and "setcell" commands in GRID to assure
+that all new GRIDS line up with the NLCD data, then use the "polygrid"
+command to convert the coverages to GRIDS.
+				</procdesc>
+        <procdate>20020520</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Construct new atrazine-use and fertilizer-use GRIDS where atrazine
+and fertilizer use estimates are only assigned to agricultural lands;
+all other land-cover categories are assigned values of zero. To do
+this, construct grids that are assigned 1 for agricultural land cover
+and zero for all other land-cover types. Multiply those GRIDS by the
+original atrazine and fertilizer use GRIDS. The resultant GRIDS have
+atrazine and fertilizer use estimates only for GRID cells in
+agricultural lands.
+				</procdesc>
+        <procdate>20020521</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Next, construct the actual probability GRIDS. The GRIDS were
+constructed by calculating the probability of detecting
+atrazine/desethyl-atrazine or nitrate in ground water using the
+equation developed with logistic regression (see Rupert, 2003,
+Probability of detecting atrazine/desethyl-atrazine and elevated
+concentrations of nitrate in ground water in Colorado:
+U.S. Geological Survey Water-Resources Investigations Report
+02-4269, 35 p., https://water.usgs.gov/pubs/wri/wri02-4269/). The
+following is an example of the logistic regression equation:
+		
+Prob = (e**(a + b*chem_use + c*land_cover + d*soils))/(1+e**(a + b*chem_use + c*land_cover + d*soils))
+		
+In other words, the probability of detecting the compound in ground
+water is equal to "e raised to the regression equation" divided by
+"one plus e raised to the regression equation," where "a," "b,"
+"c," and "d" are the model coefficients calculated by logistic
+regression.
+		
+The probability GRIDS were constructed in four steps. The first was
+to calculate the regression equation:
+"temp1 = (a + b*Chem_use + c*land_cover + d*soils)"
+		
+The second step was to calculate the actual probability value for
+every 60-meter cell in Colorado, times 100 to convert it to percent:
+"temp2 = 100 * (exp (temp1)/(1+exp(temp1))"
+		
+The third step was to clip out portions of the State that weren't
+included in the model (only alluvial aquifers were mapped, so the
+mountainous regions of the State were clipped out).
+temp3 = temp2 * clip_grid
+		
+The fourth step was to set all the non-mapped grid cells to "null"
+final_grid = setnull(temp3 eq 0, temp3)
+		
+The regression coefficients used for the eight probability GRIDS
+constructed by this project are listed in Rupert (2003)
+				</procdesc>
+        <procdate>20020522</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Randomly selected at least 20 GRID cells in each of the 8
+probability GRIDS and calculated probability value by hand to ensure
+that the probability values were correctly calculated.
+				</procdesc>
+        <procdate>20020523</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>First draft of metadata created by mgrupert using
+FGDCMETA.AML ver. 1.36 01/16/01 on ArcInfo
+g:\metadata\atra_use_g
+				</procdesc>
+        <procdate>20030130</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata imported.</procdesc>
+        <srcused>C:\DOCUME~1\MGRUPE~1.STA\LOCALS~1\Temp\xml27.tmp</srcused>
+        <procdate>0000</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>8353</rowcount>
+      <colcount>13523</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000617</latres>
+        <longres>0.000617</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>atra_hyd_use</enttypl>
+        <enttypd>unspecified</enttypd>
+        <enttypds>unspecified</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>unspecified</attrdef>
+        <attrdefs>unspecified</attrdefs>
+        <attrdomv>
+          <udom>unspecified</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>unspecified</attrdef>
+        <attrdefs>unspecified</attrdefs>
+        <attrdomv>
+          <udom>unspecified</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The values stored in the GRID cells equal the predicted probability of
+detecting atrazine/desethyl-atrazine in ground water in Colorado, in
+percent probability.
+			</eaover>
+      <eadetcit>none</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html </cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+		
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/atra_hyd_use.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/atra_hyd_use.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>SDTS</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/atra_hyd_use_sdts.tar.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+atra_hyd_use</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20030101</begdate>
+    <enddate>20031231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_atra_hyd_use.html</htmlurl>
+  </mercury>
+</metadata>

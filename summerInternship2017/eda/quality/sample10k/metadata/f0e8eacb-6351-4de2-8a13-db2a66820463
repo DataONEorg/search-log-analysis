@@ -1,0 +1,390 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/ofr_2015_1160_hsg_daymet_resolution.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Fred D Tillman</origin>
+        <pubdate>2015</pubdate>
+        <title>Hydrologic Soil Group for the Upper Colorado River Basin in Daymet Climate Data resolution (hsg_UCRB_Daymet_resolution.txt)</title>
+        <geoform>Esri ASCII Raster Digital Data Set</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?ofr_2015_1160_hsg_daymet_resolution</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Fred D Tillman</origin>
+            <pubdate>2015</pubdate>
+            <title>Documentation of input datasets for the soil-water balance groundwater recharge model of the Upper Colorado River Basin</title>
+            <geoform>Publication (Other)</geoform>
+            <serinfo>
+              <sername>Open-File Report</sername>
+              <issue>2015-1160</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://dx.doi.org/10.3133/ofr20151160</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>hsg_UCRB_Daymet_resolution.txt is an Esri ASCII grid representing the hydrologic soil group (HSG) for the Upper Colorado River Basin.  The HSG for an area is determined by the least water-transmitting layer in the soil column. The Natural Resources Conservation Service (NRCS) classifies four HSGs from Group A (high infiltration capacity and low overland flow potential) to Group D (low infiltration capacity and high overland flow potential). In Soil-Water Balance recharge simulations, a lookup table incorporates HSG and land-cover information for each grid cell to define unique runoff curve numbers, vegetation rooting depths, interception values, and maximum daily recharge values.</abstract>
+      <purpose>The hsg_UCRB_Daymet_resolution.txt grid was developed as part of the investigation of changes in groundwater recharge in the Upper Colorado River Basin in response to potential climate change.  This investigation uses the Soil-Water Balance model to estimate groundwater recharge.  This project was supported by the USGS Groundwater Resources Program and the Bureau of Reclamation.  The report documenting this and other datasets for the UCRB Soil-Water Balance recharge model is:  Tillman, F.D, 2015, Documentation of input datasets for the soil-water balance groundwater recharge model of the Upper Colorado River Basin: U.S. Geological Survey Open-File Report 2015–1160, 17 p., http://dx.doi.org/10.3133/ofr20151160.</purpose>
+      <supplinf>The control files, "UCRB_recharge_1950-99_MAURER.ctl", and "UCRB_recharge_1980-09_DAYMET.ctrl", plus the lookup table for landuse, "UCRB_LU_LOOKUP.txt" are included here as essential to completing the UCRB soils-water balance model. The control files are fully commented, and the lookup table is explained in great detail in the report, USGS OFR 2015-1160. They are located in a compressed file "ofr_2015_1160_ctl_lu_files.7z".</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2015</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>publication date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-113.920363928</westbc>
+        <eastbc>-104.972961005</eastbc>
+        <northbc>43.986766736</northbc>
+        <southbc>34.965779618</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>inlandWaters</themekey>
+        <themekey>groundwater</themekey>
+        <themekey>groundwater recharge</themekey>
+        <themekey>hydrologic soil group</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Upper Colorado River Basin</placekey>
+        <placekey>Arizona</placekey>
+        <placekey>California</placekey>
+        <placekey>Colorado</placekey>
+        <placekey>Nevada</placekey>
+        <placekey>New Mexico</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Wyoming</placekey>
+      </place>
+    </keywords>
+    <accconst>None. Please see 'Distribution Info' for details.</accconst>
+    <useconst>None. Users are advised to read the data set's metadata thoroughly to understand appropriate use and data limitations.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey, Southwest Region</cntorg>
+          <cntper>Fred D Tillman</cntper>
+        </cntorgp>
+        <cntpos>Research Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>520 North Park Avenue</address>
+          <city>Tucson</city>
+          <state>AZ</state>
+          <postal>85719</postal>
+        </cntaddr>
+        <cntvoice>520-670-6671 x223</cntvoice>
+        <cntfax>520-670-5592</cntfax>
+        <cntemail>ftillman@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/hsg_daymet_resolution.jpg</browsen>
+      <browsed>location of study area</browsed>
+      <browset>JPG</browset>
+    </browse>
+    <datacred>Support for the development of the Soil-Water Balance Groundwater Recharge Model of the Upper Colorado River Basin was provided by the USGS Groundwater Resources Program and the Bureau of Reclamation.</datacred>
+    <native>Environment as of Metadata Creation: Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; Esri ArcGIS 10.3.1 (Build 4959) Service Pack N/A (Build N/A)</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The hsg_UCRB_Daymet_resolution.txt ASCII grid combines information from gSSURGO (where available) and STATSGO2 datasets, which was then resampled to match the Daymet climate data resolution (1000m).</attraccr>
+    </attracc>
+    <logic>Quality assurance was performed by project hydrologist by comparing resampled HSG dataset to original datasets.</logic>
+    <complete>Data are complete.  ASCII grid cellsize is 1000 meters.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>A formal accuracy assessment of the horizontal positional information in the data set has not been conducted.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>A formal accuracy assessment of the vertical positional information in the data set has either not been conducted, or is not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Natural Resources Conservation Service (NRCS)</origin>
+            <pubdate>2015</pubdate>
+            <title>Gridded Soil Survey Geographic Database</title>
+            <geoform>Raster Digital Data Set</geoform>
+            <pubinfo>
+              <pubplace>Washington D.C.</pubplace>
+              <publish>US Department of Agriculture</publish>
+            </pubinfo>
+            <onlink>http://datagateway.nrcs.usda.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2015</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>gSSURGO</srccitea>
+        <srccontr>gSSURGO geodatabase raster of Hydrologic Soil Group for the Upper Colorado River Basin at 10 meter resolution</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Natural Resources Conservation Service (NRCS)</origin>
+            <pubdate>2015</pubdate>
+            <title>State Soil Geographic Dataset</title>
+            <geoform>Vector Digital Data Set</geoform>
+            <pubinfo>
+              <pubplace>Washington D.C.</pubplace>
+              <publish>US Department of Agriculture</publish>
+            </pubinfo>
+            <onlink>http://datagateway.nrcs.usda.gov/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital and/or Hardcopy Resources</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2015</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>STATSGO2</srccitea>
+        <srccontr>STATSGO2 shapefile and tabular data for Hydrologic Soil Group for the Upper Colorado River Basin</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Environmental Systems Research Institute, Inc. ("Esri")</origin>
+            <pubdate>2012</pubdate>
+            <title>ArcGIS Desktop</title>
+            <geoform>software</geoform>
+            <pubinfo>
+              <pubplace>Redlands, CA</pubplace>
+              <publish>Esri</publish>
+            </pubinfo>
+            <onlink>http://www.esri.com/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>computer program</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2012</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>Esri</srccitea>
+        <srccontr>geographic information system processing software, including "Mosaic to New Raster," "Extract by Mask," "CON," "Project Raster"</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>Downloaded gSSURGO and STATSGO2 soil information for all five basin states from http://datagateway.nrcs.usda.gov/</procdesc>
+        <procdate>2015</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The gSSURGO rasters were combined using the ArcGIS "mosaic to new raster" tool, and associated soil attribute tables were merged and joined to the combined raster. The combined gSSURGO raster was clipped to the UCRB study area using the ArcGIS "extract by mask" tool, and a separate Hydrologic Soil Group raster was created using the ArcGIS Reclass tool.</procdesc>
+        <procdate>2015</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>STATSGO2 data were merged into a single shapefile. Reports on Water Features (for HSG) were run in Microsoft Access and exported to Microsoft Excel. In Excel, Visual Basic for Applications (VBA) scripts were written to compute the majority HSG value for each map unit. HSG results were joined to the polygon shapefile and a raster was created using the ArcGIS "feature to raster" tool, using the same resolution as the gSSURGO data.</procdesc>
+        <procdate>2015</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>A merged raster of gSSURGO and STATSGO2 information was created for the HSG dataset using the CON tool, whereby gSSURGO information was used where available and STATSGO2 information was used where gSSURGO was missing.</procdesc>
+        <procdate>2015</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The HSG grid was resampled to obtain the same cell size, cell alignment, and geographic projection as the Daymet climate dataset using the ArcGIS "project raster" tool with the majority resampling technique, and the Daymet climate dataset raster to define the output cell size and "snap" raster.</procdesc>
+        <procdate>2015</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The final HSG raster was exported as an ASCII file.</procdesc>
+        <procdate>2015</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>894</rowcount>
+      <colcount>639</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>WGS 1984 Lambert Conformal Conic (ESRI Full Name: WGS_1984_Lambert_Conformal_Conic)</mapprojn>
+          <lambertc>
+            <stdparll>25.0</stdparll>
+            <stdparll>60.0</stdparll>
+            <longcm>-100.0</longcm>
+            <latprjo>42.5</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </lambertc>
+        </mapproj>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>1000.0</absres>
+            <ordres>1000.0</ordres>
+          </coordrep>
+          <plandu>m</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>D_WGS_1984</horizdn>
+        <ellips>WGS_1984</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257223563</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>Attribute Table</enttypl>
+        <enttypd>Table containing attribute information associated with the data set.</enttypd>
+        <enttypds>Producer defined</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>Hydrologic Soil Group for the Upper Colorado River Basin in Daymet Climate Data resolution (hsg_UCRB_Daymet_resolution.txt)</attrdef>
+        <attrdefs>U.S. Department of Agriculture, 1998, Soil Quality Resource Concerns, Available Water Capacity: Soil Quality Information Sheet, 2 p., available at http://www.nrcs.usda.gov/Internet/FSE_DOCUMENTS/nrcs142p2_051279.pdf.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>4</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>Unknown</attrdef>
+        <attrdefs>Producer defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>61387</rdommin>
+            <rdommax>315772</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>hsg_UCRB_Daymet_resolution.txt is an Esri ASCII grid representing the hydrologic soil group (HSG) for the Upper Colorado River Basin.  The HSG for an area is determined by the least water-transmitting layer in the soil column. The Natural Resources Conservation Service (NRCS) classifies four HSGs from Group A (high infiltration capacity and low overland flow potential) to Group D (low infiltration capacity and high overland flow potential). In Soil-Water Balance recharge simulations, a lookup table incorporates HSG and land-cover information for each grid cell to define unique runoff curve numbers, vegetation rooting depths, interception values, and maximum daily recharge values.</eaover>
+      <eadetcit>Tillman, F.D, 2015, Documentation of input datasets for the soil-water balance groundwater recharge model of the Upper Colorado River Basin: U.S. Geological Survey Open-File Report 2015–1160, 17 p., http://dx.doi.org/10.3133/ofr20151160.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>United States of America</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey.  The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Esri ASCII raster file</formname>
+          <formcont>raster data stored as a compressed ASCII file</formcont>
+          <filedec>WinZip</filedec>
+          <transize>0.121</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr_2015_1160_hsg_daymet_resolution.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>The control files, "UCRB_recharge_1950-99_MAURER.ctl", and "UCRB_recharge_1980-09_DAYMET.ctrl", plus the lookup table for landuse, "UCRB_LU_LOOKUP.txt" are included here as essential to completing the UCRB soils-water balance model. </formname>
+          <formcont>The control files are fully commented, and the lookup table is explained in great detail in the report, USGS OFR 2015-1160. They are located in a compressed file "ofr_2015_1160_ctl_lu_files.zip".</formcont>
+          <filedec>WinZip</filedec>
+          <transize>0.034</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ofr_2015_1160_ctl_lu_files.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150923</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>Mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>United States of America</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ofr_2015_1160_hsg_daymet_resolution</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20150101</begdate>
+    <enddate>20151231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_ofr_2015_1160_hsg_daymet_resolution.html</htmlurl>
+  </mercury>
+</metadata>

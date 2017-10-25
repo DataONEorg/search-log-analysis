@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/sir2007-5087_etunit.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>J. LaRue Smith</origin>
+        <pubdate>2007</pubdate>
+        <title>Evapotranspiration units in the Basin and Range carbonate-rock aquifer system, White Pine County, Nevada, and adjacent parts of Nevada and Utah</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?sir2007-5087_etunit</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Smith, J.L.</origin>
+            <origin>Laczniak, R.J.</origin>
+            <origin>Moreo, M.T.</origin>
+            <origin>Welborn, T.L.</origin>
+            <pubdate>2007</pubdate>
+            <title>Mapping Evapotranspiration Units in the Basin and Range Carbonate-rock Aquifer System, White Pine County, Nevada, and Adjacent Parts of Nevada and Utah</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Scientific Investigations Report</sername>
+              <issue>SIR 2007-5087</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://pubs.water.usgs.gov/sir20075087</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Accurate estimates of ground-water discharge are crucial in the development of a water budget for the Basin and Range Carbonate-rock Aquifer System (BARCAS) study area. One common method used throughout the southwest United States is to estimate ground-water discharge from evapotranspiration (ET). ET is a process by which water from the Earth's surface is transferred to the atmosphere. The volume of water lost to the atmosphere by ET can be computed as the product of the ET rate and the acreage of vegetation, open water, and moist soil through which ET occurs. The procedure used in the study, groups areas of similar vegetation, water, and soil conditions into different ET units and assigns an average annual ET rate to each unit. The data sets and the procedures used to delineate the ET-unit map are described in this metadata.</abstract>
+      <purpose>The ET-unit map described and documented was used specifically to calculate annual ET from potential areas of ground-water discharge. ET calculated from the ET-unit map was then partitioned into surface-water and ground-water components to estimate ground-water discharge from hydrographic areas and hydrographic-area subbasins within the study area.</purpose>
+      <supplinf>The data sets used to develop the ET-unit map are based on Landsat satellite data. The SWReGAP program developed a five state land cover map based on ecological systems. The ecological systems describing water, marshlands, and playa were used to delineate those ET units. Landsat data was acquired for the dates of July 3 and 12 of 2005. To delineate ET units of shrubs and grasses, the Landsat data was used to produce the Modified Soil Adjusted Vegetation Index (MSAVI), an index that relates to the greenness and density of plant growth. The ET units of meadowland, grassland, dense desert shrubland, moderately dense desert shrubland, and sparse desert shrubland were delineated. The 2005 imagery was also used to produce the Tasseled Cap transformation. The brightness, greenness, and moisture bands were used to identify ET units of moist bare soil. The 2005 imagery, along with Landsat imagery from 2002 and 2000 was used to identify recently irrigated croplands by photo interpretation.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1999</begdate>
+          <enddate>2005</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-116.402713</westbc>
+        <eastbc>-113.301769</eastbc>
+        <northbc>40.492549</northbc>
+        <southbc>37.863804</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None.</themekt>
+        <themekey>evapotranspiration</themekey>
+        <themekey>ET</themekey>
+        <themekey>ET unit</themekey>
+        <themekey>carbonate-rock aquifer system</themekey>
+        <themekey>Landsat</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>None.</placekt>
+        <placekey>White Pine County</placekey>
+        <placekey>eastern Nevada</placekey>
+        <placekey>western Utah</placekey>
+        <placekey>Basin and Range</placekey>
+        <placekey>Butte Valley</placekey>
+        <placekey>Cave Valley</placekey>
+        <placekey>Jakes Valley</placekey>
+        <placekey>Lake Valley</placekey>
+        <placekey>Little Smoky Valley</placekey>
+        <placekey>Long Valley</placekey>
+        <placekey>Newark Valley</placekey>
+        <placekey>Snake Valley</placekey>
+        <placekey>Spring Valley</placekey>
+        <placekey>Steptoe Valley</placekey>
+        <placekey>Tippett Valley</placekey>
+        <placekey>White River Valley</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>
+Although this Federal Geographic Data Committee (FGDC) compliant metadata file is intended to document the data set in nonproprietary form, as well as ArcGIS format, this metadata file may include some ArcGIS-specific terminology.
+
+These data are not intended to be used as a survey product and are for reference purposes only.
+
+Acknowledgment of the U.S. Geological Survey and the Bureau of Land Management would be appreciated in products derived from these data.
+</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological survey</cntorg>
+        </cntorgp>
+        <cntpos>Public Information Assistant</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>2730 North Deer Run Road</address>
+          <city>Carson City</city>
+          <state>NV</state>
+          <postal>89701</postal>
+        </cntaddr>
+        <cntvoice>775 887-7600</cntvoice>
+        <cntfax>775 887-7629</cntfax>
+        <cntemail>GS-W-NVpublic-info@usgs.gov</cntemail>
+        <cntinst>(Warning: Although accurate at the time of production, this information may have become obsolete. See the Metadata_Reference_Information section for a current contact.)</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>
+Compilation of this data set and the associated metadata was done in cooperation with the Bureau of Land Management.
+
+Technical review of this data set and metadata was provided by Rose L. Medina and Amy Mathie of the U.S. Geological Survey.
+</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.1.0.780</native>
+    <crossref>
+      <citeinfo>
+        <origin>Moreo, M.T.</origin>
+        <origin>Laczniak, R.J.</origin>
+        <origin>Stannard, D.I.</origin>
+        <pubdate>2007</pubdate>
+        <title>Evapotranspiration rate measurements of vegetation typical of ground-water discharge areas in the Basin and Range carbonate-rock aquifer system, White Pine County, Nevada, and adjacent areas in Nevada and Utah,</title>
+        <geoform>document</geoform>
+        <serinfo>
+          <sername>Scientific Investigations Report</sername>
+          <issue>2007-5078</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://pubs.water.usgs.gov/sir20075078</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Welborn, T.L.</origin>
+        <origin>Moreo, M.T.</origin>
+        <pubdate>2007</pubdate>
+        <title>Delineated irrigated acreage overlying the Basin and Range carbonate-aquifer system, White Pine County, Nevada, and adjacent parts of Nevada and Utah</title>
+        <geoform>document</geoform>
+        <serinfo>
+          <sername>Digital Data Series</sername>
+          <issue>273</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://pubs.water.usgs.gov/ds273</onlink>
+      </citeinfo>
+    </crossref>
+    <crossref>
+      <citeinfo>
+        <origin>Welch, A.H.</origin>
+        <origin>Bright, D.J.</origin>
+        <pubdate>2007</pubdate>
+        <title>Water resources of the Basin and Range carbonate-rock aquifer system in White Pine County, Nevada, and adjacent areas in Nevada and Utah</title>
+        <geoform>document</geoform>
+        <serinfo>
+          <sername>Open-File Report</sername>
+          <issue>2007-1156</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>http://pubs.water.usgs.gov/ofr20071156</onlink>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The final data set was checked on the computer monitor with the source data to verify that the correct ET units were placed into the final data set. The final data set was compared with the false color composite Landsat imagery of 2005.  The ET units visually appeared to represent what was on the ground.  A field accuracy assessment was conducted in August and September of 2006 and is reported in Smith and others (2007).</attraccr>
+    </attracc>
+    <logic>After geocorrection and mosaicking registration and seam lines were checked.  After MSAVI processing a slight difference in rangeland was noticed at seams.  After putting all data sets together no missing data was found.</logic>
+    <complete>Complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Each scene had 30 to 35 control points.  A first order polynomial was used.  After geocorrection the RMS error for each scene was around 30 meters.  After inspecting with other georeferenced data, some areas seemed to have greater than 30 meters, especially in the mountains.  SWReGAP positional accuracy is unknown.</horizpar>
+        <qhorizpa>
+          <horizpav>30</horizpav>
+          <horizpae>The value is the RMS error of the transformation in meters.</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey EROS Data Center</origin>
+            <pubdate>2005</pubdate>
+            <title>Landsat Thematic Mapper</title>
+            <geoform>remote-sensing image</geoform>
+            <pubinfo>
+              <pubplace>Sioux Falls, ND</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://edcsns17.cr.usgs.gov/EarthExplorer/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>20050703</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20050712</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>Landsat</srccitea>
+        <srccontr>Landsat data</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>RS/GIS Laboratory, College of Natural Resources, Utah State University</origin>
+            <pubdate>20040915</pubdate>
+            <title>Southwest Regional Gap Analysis Program</title>
+            <edition>Version 1.0</edition>
+            <geoform>raster digital data</geoform>
+            <onlink>http://earth.gis.usu.edu/swgap/index.html</onlink>
+            <lworkcit>
+              <citeinfo>
+                <origin>Lowry, J.H. Jr.</origin>
+                <origin>Ransey, K. Boykin</origin>
+                <origin>Bradford, D.</origin>
+                <origin>Comer, P.</origin>
+                <origin>Falzarano, S.</origin>
+                <origin>Kepner, W.</origin>
+                <origin>Kirby, J.</origin>
+                <origin>Langs, L.</origin>
+                <origin>Prior-Magee, J.</origin>
+                <origin>Manis, G.</origin>
+                <origin>O'Brien, L.</origin>
+                <origin>Sajwaj, T.</origin>
+                <origin>Thomas, K.A.</origin>
+                <origin>Rieth, W.</origin>
+                <origin>Schrader, S.</origin>
+                <origin>Schrupp, D.</origin>
+                <origin>Schulz, K.</origin>
+                <origin>Thompson, B.</origin>
+                <origin>Velasquez, C.</origin>
+                <origin>Wallace, C.</origin>
+                <origin>Waller, E.</origin>
+                <origin>Wolk, B.</origin>
+                <pubdate>2005</pubdate>
+                <title>Southwest Regional Gap Analysis Project: Final Report on Land Cover Mapping Methods</title>
+                <geoform>document</geoform>
+                <pubinfo>
+                  <pubplace>Logan, UT</pubplace>
+                  <publish>Utah State University</publish>
+                </pubinfo>
+                <onlink>http://earth.gis.usu.edu/swgap/swregap_landcover_report.pdf</onlink>
+              </citeinfo>
+            </lworkcit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1999</begdate>
+              <enddate>2001</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>SWReGAP</srccitea>
+        <srccontr>Land-cover classes</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Welborn, T.L.</origin>
+            <origin>Moreo, M.T.</origin>
+            <pubdate>2007</pubdate>
+            <title>Delineated irrigated acreage overlying the Basin and Range carbonate-rock aquifer system, White Pine County, Nevada, and adjacent areas in Nevada and Utah</title>
+            <geoform>vector digital data</geoform>
+            <serinfo>
+              <sername>Digital Data Series</sername>
+              <issue>273</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://pubs.water.usgs.gov/ds273</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <mdattim>
+              <sngdate>
+                <caldate>20000503</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20000604</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20000424</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20000510</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20020821</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20020821</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20050703</caldate>
+              </sngdate>
+              <sngdate>
+                <caldate>20050712</caldate>
+              </sngdate>
+            </mdattim>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>welborn 2007</srccitea>
+        <srccontr>irrigated croplands</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The SWReGAP landcover data set was acquired.  The BARCAS study area was subset out. The data set was projected to UTM zone 11, NAD27.</procdesc>
+        <srcused>SWReGAP</srcused>
+        <procdate>200512</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+Landsat Thematic Mapper imagery was acquired; entity-id lt5039032000019419, June 12, 2005 and entity-id lt5040032000018400, July 3, 2005.  All acquired imagery was georeferenced to allow geospatial evaluations and direct comparison with other spatially referenced datasets. Georeferencing assigns map coordinates to an image by using known ground control points and the corresponding image row and column. A mathematical transformation equation is determined to relate the image to map coordinates. Previously georeferenced Landsat imagery by the USGS that was acquired in 2000 was used in the georeferencing process. Corrections to georeference the 2005 images were applied by using a first-order polynomial equation. Each 2005 multi-path image used between 30 and 35 control points. The root mean square (RMS) error or positional accuracy for each multi-path image was about 100 ft.
+		
+Image standardization is the process of normalizing imaged spectral data for differences in sun illumination geometry, atmospheric effects, and instrument calibration. Standardization is required to accurately compare pixel spectral reflectance between images of different dates. Pixel values in each image were standardized by using software developed and distributed by the Remote Sensing and GIS Laboratory of Utah State University: http://www.gis.usu.edu/docs/projects/swgap/ImageStandardization.htm. For atmospheric corrections, the technique COST without Tau was used.  For each image, the haze correction was 8 and 4 digital numbers for bands 3 and 4, respectively.
+		
+A vegetation index is a number that is generated by the combination of remote sensing bands and has some relation to the amount of vegetation in a given pixel. The Modified Soil Adjusted Vegetation Index (MSAVI) is an index which removes soil influences from the vegetation index at sparse plant cover.  A ERDAS Imagine graphics model found at http://gi.leica-geosystems.com/LGISub2x236x8.aspx was used.
+		
+The Tasseled Cap transformation compresses all the TM spectral data into a few bands associated with physical scene characteristics of brightness, greenness, and wetness.  Programs to compute the Tasseled Cap were obtained from the EROS Data Center.  The Tasseled Cap brightness, greenness, and wetness bands were used to map areas of moist bare soil. An unsupervised classification (ISODATA) based on these three bands was performed on the data set. Unsupervised classification clusters pixels in a data set based on statistics only, without any user-defined training classes. Yelland Dry Lake in northern Spring Valley and an area around Twin Springs in northern Snake Valley were used to identify the moist bare soil classes in the classification.
+</procdesc>
+        <srcused>MSAVI Tasseledcap</srcused>
+        <procdate>200512 - 200602</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Recently irrigated cropland, identified by Welborn and Moreo (2007) were acquired, converted to raster format, and put into the data base. These investigators digitized cropland areas by using Landsat imagery from 2000, 2002, and 2005.</procdesc>
+        <srcused>Welborn 2007</srcused>
+        <procdate>200607</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+Selected classes of the SWReGAP that conform with characteristics of defined ET units were used in developing ET-unit distributions. The ET units defined by SWReGAP classes are marshlands, dry playa, and open water bodies. These were extracted from the data set.
+		
+MSAVI values are dimensionless and range from -1.0 to 1.0. For this study, values from 0 to 1 were scaled from 0 to 200. Values less than 0 were set to 0. Values 0 to 15 were identified as xerophyte, 16 to 20 are sparse desert shrubland, 21 to 28 are moderately dense desert shrubland, 29 to 43 are dense desert shrubland, 44 to 55 are grassland, and 56 to 92 are meadowland. The MSAVI values from 93 to 200 usually occurred where ET units were assigned to recently irrigated cropland or marshland. If not, they were assigned to meadowland.
+		
+The Tasseled Cap class value which identified the moist bare soil was extracted from the data set.
+		
+A filtering technique was applied to all ET units except those representing recently irrigated cropland and those developed from SWReGAP. The filtering technique added and removed pixels on the basis of a minimum mapping unit. The minimum mapping unit was set at four adjacent pixels which measure about 35,350 square feet or 0.8 acre in the source imagery. This was accomplished using REGIONGROUP with eight connectivity cells.  Those regions with a count of pixels less than or equal to 3 were identified and used as a mask with the NIBBLE command.  Each hydrographic area was filtered separately.  All areas were then merged back together.
+		
+The initial ET-unit map was assembled by first using the MSAVI data set. The moist bare soil ET unit, derived by the Tasseled Cap procedure, replaced the MSAVI data wherever moist bare soil occurred. The ET units of marshland, open water, and dry playa, derived from the SWReGAP data, replaced the previous MSAVI and Tasseled Cap data wherever those ET units occurred. Finally, the recently irrigated cropland, derived from photo interpretation of the three Landsat data sets, replaced ET units from the other data sets wherever recently irrigated cropland occurred.
+</procdesc>
+        <srcused>etu27</srcused>
+        <procdate>200603 - 200607</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The final ET-unit map was projected to UTM zone 11, NAD83 for distribution.  All analysis of the data was done using the ET-unit map projected at UTM zone 11, NAD27.</procdesc>
+        <srcused>etu83</srcused>
+        <procdate>2007</procdate>
+      </procstep>
+    </lineage>
+    <cloud>0</cloud>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Grid Cell</rasttype>
+      <rowcount>10032</rowcount>
+      <colcount>9165</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>11</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-117.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>28.500000</absres>
+            <ordres>28.500000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>etu_g</enttypl>
+        <enttypd>value attribute table</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>ObjectID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Value</attrlabl>
+        <attrdef>evapotranspiration-unit value</attrdef>
+        <attrdefs>user defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>0</edomv>
+            <edomvd>xerophyte</edomvd>
+            <edomvds>MSAVI scaled values 0 to 14</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>1</edomv>
+            <edomvd>marshland</edomvd>
+            <edomvds>SWReGAP ecological system - North American arid west emergent marsh, S100</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>2</edomv>
+            <edomvd>meadowland</edomvd>
+            <edomvds>MSAVI scaled values 56 - 200</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>3</edomv>
+            <edomvd>grassland</edomvd>
+            <edomvds>MSAVI scaled values 44 - 55</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>4</edomv>
+            <edomvd>dense desert shrubland</edomvd>
+            <edomvds>MSAVI scaled values 29-43</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>5</edomv>
+            <edomvd>moderately dense desert shrubland</edomvd>
+            <edomvds>MSAVI scaled values 21 - 28</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>6</edomv>
+            <edomvd>sparse desert shrubland</edomvd>
+            <edomvds>MSAVI scaled values 15 - 20</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>7</edomv>
+            <edomvd>moist bare soil</edomvd>
+            <edomvds>unsupervised classification class of Tasseled Cap brightness, greenness, and wetness bands.  Identified from Yelland Dry Lake, Nevada and Twin Springs, Utah</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>8</edomv>
+            <edomvd>open water</edomvd>
+            <edomvds>SWReGAP ecological system open water, N11</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>9</edomv>
+            <edomvd>dry playa</edomvd>
+            <edomvds>SWReGAP ecological system intermountain basins playa, S015</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>10</edomv>
+            <edomvd>recently irrigated cropland</edomvd>
+            <edomvds>interpreted from Landsat TM 2000, 2003, 2005</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>255</edomv>
+            <edomvd>no data, only in the BIL format</edomvd>
+            <edomvds>user defined</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Count</attrlabl>
+        <attrdef>number of pixels</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>8473</rdommin>
+            <rdommax>20400958</rdommax>
+            <attrunit>pixel count</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The field VALUE is a categorical unique number identifying an evapotranspiration unit.  COUNT is the number of pixels with VALUE.  If a grid is made from the BIL file, a VALUE of 255 is NODATA.</eaover>
+      <eadetcit>None.</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+Although this data set has been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and related materials.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of this data, software, or related materials.
+		
+The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey. The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>BIL in WinZip format</formname>
+          <formvern>9.0</formvern>
+          <filedec>WinZip</filedec>
+          <transize>6.597</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/sir2007-5087_etunit.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ARCE in WinZip format</formname>
+          <formvern>9.0</formvern>
+          <filedec>WinZip</filedec>
+          <transize>18.487</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/sir2007-5087_etunit_e00.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20070607</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h20eam&amp;amp;subject=GIS+Dataset+sir2007-5087_etunit</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+    <metextns>
+      <onlink>http://www.esri.com/metadata/esriprof80.html</onlink>
+      <metprof>ESRI Metadata Profile</metprof>
+    </metextns>
+  </metainfo>
+  <mercury>
+    <begdate>19990101</begdate>
+    <enddate>20051231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_sir2007-5087_etunit.html</htmlurl>
+  </mercury>
+</metadata>

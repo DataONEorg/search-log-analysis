@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/diffus.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Greene, D.C., and Wolfe, W.J.</origin>
+        <pubdate>1998</pubdate>
+        <title>Superfund GIS - Aquifer Diffusivity in Tennessee.</title>
+        <geoform>Series_Name  N/A
+Issue_Identification  N/A
+				</geoform>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?diffus</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This dataset represents aquifer diffusivity based on the streamflow-recession
+index areas from Bingham (1986).
+			</abstract>
+      <purpose>To provide information on spatial patterns of ground-water residence time,
+ground-water storage, and stream response to rainfall.  Applications might
+include models of streamflow and ground-water (or contaminant) infiltration,
+movement, and storage.
+			</purpose>
+      <supplinf>Procedures_Used:
+The 1:500,000 scale mylar maps from Bingham (1986), were scanned into a 200 dpi
+grayscale TIF image on a PC using a Contex FSS-3012t scanner.  The image was
+then georeferenced in Arc/Info using the REGISTER and RECTIFY commands.  The
+georeferenced images were used in ArcEdit as a backdrop for interactive on
+screen digitizing.  The digitized linework was cleaned and built as a polygon
+coverage.  The polygons were attributed with the recession index as reported
+by Bingham (1986).  The coverage was then intersected with a 1:100,000-stream
+coverage for Tennessee.  Stream mileage and square mileage area was attributed
+to each polygon.  For each polygon, the following formulae were used to
+calculate diffusivity:
+
+DD = drainage density = stream_mileage / square_mileage
+diffusivity = ( 0.933 * (DD / 2)^2 ) / recession_index
+
+Revisions:
+none
+
+Reviews_Applied_to_Data:
+none
+
+Related_Spatial_and_Tabular_Data_Sets:
+none
+
+Other_References_Cited:
+Bingham, R.H., 1986, Regionalization of winter-flow characteristics of
+Tennessee streams: U.S. Geological Survey Water-Resources Investigations
+Report 86-4007, 88 p.
+
+Notes:
+none
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>Unknown</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>n/a
+			</current>
+    </timeperd>
+    <status>
+      <progress>complete</progress>
+      <update>none planned
+			</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-90.311203</westbc>
+        <eastbc>-81.64650726</eastbc>
+        <northbc>36.67723846</northbc>
+        <southbc>34.97607803</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>aquifer, diffusivity, recession index areas</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>State of Tennessee</placekey>
+      </place>
+      <stratum>
+        <stratkt>None</stratkt>
+        <stratkey>None</stratkey>
+      </stratum>
+      <temporal>
+        <tempkt>None</tempkt>
+        <tempkey>None</tempkey>
+      </temporal>
+    </keywords>
+    <accconst>n/a
+		</accconst>
+    <useconst>The coverage was created from a base map scale of 1:500,000 and should be
+used only in situations appropriate for that scale.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>William J. Wolfe</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>640 Grassmere Park Drive,Suite 100</address>
+          <city>Nashville</city>
+          <state>TN</state>
+          <postal>37211</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntfax>(615) 837-4799</cntfax>
+        <cntemail>wjwolfe@usgs.gov</cntemail>
+        <hours>8:00am-4:30pm CST</hours>
+        <cntinst>Please contact by email</cntinst>
+      </cntinfo>
+    </ptcontac>
+    <datacred>n/a
+		</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Windows_NT, 5.0, Intel NT, ARC/INFO version 8.0.2</native>
+    <crossref>
+      <citeinfo>
+        <origin>Bingham, R.H.</origin>
+        <pubdate>1986</pubdate>
+        <title>Regionalization of Winter Low-flow Characteristics of Tennessee Streams</title>
+        <geoform>Map</geoform>
+        <serinfo>
+          <sername>WRIR 86</sername>
+          <issue>4007</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Nashville, TN</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+      </citeinfo>
+    </crossref>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See Entity_Attribute_Information</attraccr>
+      <qattracc>
+        <attraccv>See Explanation</attraccv>
+        <attracce>Attribute accuracy is described, where present, with each
+attribute defined in the Entity and Attribute Section.
+				</attracce>
+      </qattracc>
+    </attracc>
+    <logic>Polygon and chain-node topology present.</logic>
+    <complete>n/a
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>unknown
+				</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>n/a
+				</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Bingham, R.H.</origin>
+            <pubdate>1986</pubdate>
+            <title>Regionalization of Winter Low-flow Characteristics of Tennessee Streams</title>
+          </citeinfo>
+        </srccite>
+        <srcscale>500,000</srcscale>
+        <typesrc>digital</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>1996</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>None</srccurr>
+        </srctime>
+        <srccitea>N/A</srccitea>
+        <srccontr>USGS</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The 1:500,000-scale mylar maps from Bingham (1986), were scanned into a
+200 dpi grayscale TIF image on a PC using a Contex FSS-3012t scanner.
+				</procdesc>
+        <srcused>None</srcused>
+        <procdate>1997</procdate>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The image was georeferenced in ArcInfo using REGISTER and RECTIFY.</procdesc>
+        <srcused>None</srcused>
+        <procdate>1997</procdate>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The image was used as a backdrop in ArcEdit for on screen digitizing.
+The digitized linework was cleaned and built as a polygon coverage.
+				</procdesc>
+        <srcused>None</srcused>
+        <procdate>1997</procdate>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The polygons were attributed with the recession index Bingham (1986).</procdesc>
+        <srcused>None</srcused>
+        <procdate>1998</procdate>
+        <srcprod>None</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The coverage was intersected with 1:100,000 streams. Stream mileage and
+square mileage area was attributed to each polygon. Diffusity was attributed
+to each polygon using the following formula:
+
+DD = drainage density = stream_mileage / square_mileage
+diffusivity = ( 0.933 * (DD / 2)^2 ) / recession_index
+				</procdesc>
+        <srcused>None</srcused>
+        <procdate>1998</procdate>
+        <srcprod>None</srcprod>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>68</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>207</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>69</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000278</latres>
+        <longres>0.000278</longres>
+        <geogunit>Decimal Degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>GRS1980</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>DIFFUS.PAT</enttypl>
+        <enttypd>Polygon attribute table</enttypd>
+        <enttypds>Computed and Bingham (1986)</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Polygon attribute table</attrdef>
+        <attrdefs>Computed and Bingham (1986)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>2-dimensional element</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of poly/region in square coverage units</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>Area of region in coverage units</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of poly/region in coverage units</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive real numbers</edomv>
+            <edomvd>Perimeter of region in coverage units</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIFFUS#</attrlabl>
+        <attrdef>Internal feature number</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Sequential unique positive integer</edomv>
+            <edomvd>Internal feature number</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIFFUS-ID</attrlabl>
+        <attrdef>User-assigned feature number</attrdef>
+        <attrdefs>User-defined</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Integer</edomv>
+            <edomvd>User-assigned feature number</edomvd>
+            <edomvds>GIS software</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>POLY-REC-INDEX</attrlabl>
+        <attrdef>Streamflow-recession index</attrdef>
+        <attrdefs>Bingham (1986)</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive number</edomv>
+            <edomvd>Streamflow-recession index</edomvd>
+            <edomvds>Bingham (1986)</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DRAINAGE-DENSITY</attrlabl>
+        <attrdef>Drainage density</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive number</edomv>
+            <edomvd>Drainage density</edomvd>
+            <edomvds>Computed</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DIFFUSIVITY</attrlabl>
+        <attrdef>Diffusivity</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive number</edomv>
+            <edomvd>DIFFUSIVITY</edomvd>
+            <edomvds>Computed</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MILES-DRAINAGE</attrlabl>
+        <attrdef>Mileage of streams</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive number</edomv>
+            <edomvd>Mileage of streams</edomvd>
+            <edomvds>Computed</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SQ-MILE-AREA</attrlabl>
+        <attrdef>Square mileage</attrdef>
+        <attrdefs>Computed</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Positive number</edomv>
+            <edomvd>Square mileage</edomvd>
+            <edomvds>Computed</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>The &lt;coverage&gt;.PAT data file contains four data fields.  POLY-REC-INDEX is
+the streamflow-recession index for that polygon as reported by Bingham, 1986.
+DRAINAGE-DENSITY is the miles of stream per square mile in that polygon.
+DIFFUSIVITY is the aquifer diffusivity calculated for that polygon based on
+the formula in the Procedures section of this document.  MILES-DRAINAGE is
+the mileage of streams for that polygon.  SQ-MILE-AREA is the square mileage
+contained in that polyon.
+			</eaover>
+      <eadetcit>Not Available</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html </cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/diffus.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Other</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/diffus.sdts.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+diffus</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>Unknown</begdate>
+    <enddate>Unknown</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_diffus.html</htmlurl>
+  </mercury>
+</metadata>

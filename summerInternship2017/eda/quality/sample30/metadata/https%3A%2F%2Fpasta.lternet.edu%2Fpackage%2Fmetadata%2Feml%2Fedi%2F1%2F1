@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="edi.1.1" system="https://pasta.lternet.edu"
+  xmlns:eml="eml://ecoinformatics.org/eml-2.1.1"
+  xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1"
+  xmlns:xs="http://www.w3.org/2001/XMLSchema"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1  http://nis.lternet.edu/schemas/EML/eml-2.1.1/eml.xsd">
+  <access authSystem="https://pasta.lternet.edu/authentication"
+    order="allowFirst" scope="document" system="https://pasta.lternet.edu">
+    <allow>
+      <principal>uid=NTL,o=LTER,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+    <allow>
+      <principal>public</principal>
+      <permission>read</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Long-term studies of secondary succession and community assembly in the prairie-forest
+			ecotone of eastern Kansas, Old-field succession experiment</title>
+    <creator>
+      <individualName>
+        <givenName>Bryan</givenName>
+        <surName> Foster</surName>
+      </individualName>
+      <organizationName> University of Kansas</organizationName>
+      <electronicMailAddress> bfoster@ku.edu</electronicMailAddress>
+    </creator>
+    <pubDate>2016</pubDate>
+    <abstract>
+      <para> Local and regional-scale processes interact to govern the assembly, diversity and
+				functioning of ecological communities. Evaluating the interplay of these differently-scaled
+				processes in the regulation of ecological systems is a challenging problem, but is crucial
+				towards understanding and predicting the potential effects of accelerated human activity on
+				biological diversity and ecosystem sustainability. Since 2000, two long-term field
+				experiments have been underway in grasslands of eastern Kansas to investigate the interplay
+				of soil resource availability, species interactions and regional processes governing plant
+				secondary succession, community assembly, biodiversity, and ecosystem functioning. Both
+				experiments involve manipulations of soil nutrients in permanent grassland study plots and
+				employ multi-species seed addition treatments to evaluate the contribution of dispersal
+				limitation and regional constraints on local species pools to the regulation of plant
+				community dynamics. </para>
+      <para> Old-field succession experiment, previously funded by the National Science Foundation,
+				was initiated in 2001 in a section of the abandoned hay field that was sprayed with
+				herbicide, plowed and disked prior to the start of the study to investigate plant community
+				dynamics in the context of old-field succession initiated on bare soil. The experimental
+				design involves factorial experimental gradients of nitrogen (N) supply (four levels of N
+				fertilization), phosphorus (P) supply (two levels of P fertilization) and plant propagule
+				input achieved by adding seeds of 50+ native and naturalized species to half of the study
+				plots. With annual sampling this experiment allows us to examine old-field succession and
+				community assembly unfolding along gradients of N and P fertilization and under conditions
+				of ambient and experimentally-enriched species pools. </para>
+    </abstract>
+    <keywordSet>
+      <keyword>LTREB</keyword>
+      <keyword>NSF</keyword>
+      <keyword>plant community</keyword>
+      <keyword>succession</keyword>
+      <keyword>fertilization</keyword>
+    </keywordSet>
+    <intellectualRights>
+      <para> We encourage the use of these LTREB data. However, any users intending to publish these
+				data in any form are required to obtain written permission from the project PI beforehand.
+				The Data User must realize that these data sets are being actively used by others for
+				ongoing research and that coordination may be necessary to prevent duplicate publication.
+				The Data User is urged to contact the authors of this dataset. Where appropriate, the Data
+				User may be encouraged to consider collaboration and/or co-authorship with original
+				investigators. The Data User must realize that the data may be misinterpreted if taken out
+				of context. The Data User must acknowledge use of the data by an appropriate citation. A
+				generic citation for our databases is provided on this website. While substantial efforts
+				are made to ensure the accuracy of data and documentation, complete accuracy of data sets
+				cannot be guaranteed. All data are made available "as is". The data authors shall not be
+				liable for damages resulting from any use or misinterpretation of data sets. Data users
+				should be aware that we periodically update data sets. By using these data, the Data User
+				agrees to abide by the terms of this agreement. Thank you for your cooperation. </para>
+    </intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>the University of Kansas Field Station (KUFS) located in eastern
+					Kansas in the prairie-forest ecotone region of the central USA. KUFS and is located just
+					north of Lawrence, Kansas, USA.</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-95.1976</westBoundingCoordinate>
+          <eastBoundingCoordinate>-95.1834</eastBoundingCoordinate>
+          <northBoundingCoordinate>39.0525</northBoundingCoordinate>
+          <southBoundingCoordinate>39.0408</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2001-07-01</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2015-07-31</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Bryan</givenName>
+        <surName>Foster</surName>
+      </individualName>
+      <electronicMailAddress>bfoster@ku.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>
+          <para> Field Site </para>
+          <para> Our long-term field studies are conducted at the University of Kansas Field Station
+						(KUFS) located in eastern Kansas in the prairie-forest ecotone region of the central
+						USA. KUFS and is located just north of Lawrence, Kansas. Historically, the area was
+						dominated by tall-grass prairie and savanna vegetation prior to settlement. Experiments
+						1 and 2 were established in a 20+ hectare former cool-season hay field that had been
+						maintained as grassland by periodic mowing since abandonment from hay production in the
+						early 1980’s. At the start of our studies in 2000, the field was dominated by introduced
+						C3 hay-grasses, Bromus inermis (Smooth Brome) and Schedonorus arundinaceus (Tall
+						Fescue). </para>
+          <para> Design and Setup: </para>
+          <para> In preparation for experiment 1 a 70 x 120 m rectangular area of the field was
+						sprayed with glyphosate herbicide summer 2000 and then plowed and disked March-April
+						2001. In mid-April 2001 we established 96 4 x 5 m experimental plots, laid out in a 12 x
+						8 plot grid. The plot array was divided into 6 rectangular blocks of 16 plots, arranged
+						to control for spatial effects associated with a slight field slope. Each block was
+						further divided into two clusters of 8 plots. Blocks were separated by 12 m buffers,
+						clusters nested within blocks were separated by 10 m buffers, and plots nested within
+						clusters were separated by 2 m buffers. To the array of plots we applied 16 unique
+						treatment combinations (n = 6) in a 4 x 2 x 2 factorial nested design. Nested in each
+						cluster of each block, the first two factors were fully crossed in a 4 x 2
+						configuration: nitrogen (N) fertilizer added to plots as ammonium-nitrate at four levels
+						(0, 4, 8 and 16 g N m-2 yr-1); and phosphorus (P) added as superphosphate at two levels
+						(0 and 8 g P m-2 yr-1). In each block, one of the two clusters of eight plots was
+						randomly selected to receive multi-species seed additions (sowing treatment) to
+						experimentally enhance the pool of species available to plots. To accomplish sowing,
+						seeds of 50+ native and naturalized species were sown in April 2002 and 2003. All sown
+						species are members of the regional pool, chosen to represent a range of life histories,
+						functional guilds, historical origins and habitat affinities. Seeds were sown at rates
+						ranging from 10-320 seeds m-2 yr-1 year; depending on availability. To maintain plots as
+						grassland, a schedule of spring prescribed burns was initiated in 2005 on a return
+						frequency of once every three years. </para>
+          <para> Data Collection: </para>
+          <para> Core data consists of plant species % cover and plant biomass data collected during
+						annual vegetation surveys/harvests of all experiment plots. The annual core data
+						time-series currently spans 2001-2015. </para>
+          <para> Percent cover - Cover surveys of vegetation are conducted annually in late June -
+						early July by taking ocular estimates of percent cover for each species rooted within in
+						two permanently-marked 1 x 1 m sampling quadrats in each plot (192 quadrats in all). </para>
+          <para> Plant biomass - Biomass harvests of all plots are conducted annually in mid-late
+						July. From each plot, one 0.1 x 2 m strip of aboveground plant material is harvested
+						with electric clippers. Biomass is clipped at ground level and all litter collected.
+						Samples are separated into live and litter fractions. All biomass fractions are dried to
+						constant mass at 70C in a forced-air oven and then weighed </para>
+        </description>
+      </methodStep>
+    </methods>
+    <project>
+      <title>Long-term studies of secondary succession and community assembly in the prairie-forest
+				ecotone of eastern Kansas</title>
+      <personnel>
+        <individualName>
+          <givenName>Bryan</givenName>
+          <surName>Foster</surName>
+        </individualName>
+        <electronicMailAddress>bfoster@ku.edu</electronicMailAddress>
+        <userId directory="http://orcid.org">http://orcid.org/0000-0002-1210-059X</userId>
+        <role>Principal Investigator</role>
+      </personnel>
+      <funding>National Science Foundation LTREB 0950100</funding>
+    </project>
+    <dataTable>
+      <entityName>E1 Plant Biomass 6 16.csv</entityName>
+      <entityDescription>This file contains data on plant community biomass (live and
+				litter,expressed in gramsPerMeterSquared) harvested from each of the 96 experimental plots
+				(2001-2015).</entityDescription>
+      <physical>
+        <objectName>E1 Plant Biomass 6 16.csv</objectName>
+        <size unit="bytes"/>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/1/1/cba4645e845957d015008e7bccf4f902</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>UID</attributeName>
+          <attributeDefinition>Unique Case Identifier across all years</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique Case Identifier across all years</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year of data collection</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy</formatString>
+              <dateTimeDomain>
+                <bounds>
+                  <minimum exclusive="false">2001</minimum>
+                  <maximum exclusive="false">2015</maximum>
+                </bounds>
+              </dateTimeDomain>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>month of data collection</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>M</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeDefinition>Unique identifier for all 96 experimental units/plots within the
+						experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for all 96 experimental units/plots within the
+										experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block</attributeName>
+          <attributeDefinition>Experimental block (one of six experimental
+						blocks)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Experimental block (one of six experimental blocks)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Gradient</attributeName>
+          <attributeDefinition>Gradient refers to one of two N x P gradients within each block.
+						Gradients 1 and 2 are on the west and east sides of a block
+						respectively</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>West side of a block</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>East side of a block</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeDefinition>Plot 1-8 within each gradient</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot 1-8 within each gradient</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seed</attributeName>
+          <attributeDefinition>Seed addition treatment factor (0, 1)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>no seed additions</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>seed additions</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N</attributeName>
+          <attributeDefinition>Nitrogen addition treatment factor (0, 4, 8 or
+						16)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMeterSquaredPerYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">16</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>P</attributeName>
+          <attributeDefinition>Phosphorus addition treatment factor (0, 8 P from
+						superphosphate)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMeterSquaredPerYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Live_Biomass</attributeName>
+          <attributeDefinition>Live fraction of biomass harvest</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Litter_Biomass</attributeName>
+          <attributeDefinition>Dead fraction of biomass harvest</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerSquareMeter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2500</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>E1_Plant_Species_composition_6_16_long.csv</entityName>
+      <entityDescription>This file contains data on plant species composition (abundance of each
+				component species expressed in % cover) in each of the 96 experimental 4 x 5 m plots
+				(2002-2015).</entityDescription>
+      <physical>
+        <objectName>E1_Plant_Species_composition_6_16_long.csv</objectName>
+        <size unit="bytes"/>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://pasta.lternet.edu/package/data/eml/edi/1/1/482fef41e108b34ad816e96423711470</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>UID</attributeName>
+          <attributeDefinition>Unique Case Identifier across all years</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique Case Identifier across all years</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year of data collection</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>yyyy</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Month</attributeName>
+          <attributeDefinition>month of data collection</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>M</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Unit</attributeName>
+          <attributeDefinition>Unique identifier for all 96 experimental units/plots within the
+						experiment</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Unique identifier for all 96 experimental units/plots within the
+										experiment</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Block</attributeName>
+          <attributeDefinition>Experimental block (one of six experimental
+						blocks)</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Experimental block (one of six experimental blocks)</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Gradient</attributeName>
+          <attributeDefinition>Gradient refers to one of two N x P gradients within each block.
+						Gradients 1 and 2 are on the west and east sides of a block
+						respectively</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>West side of a block</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>East side of a block</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Plot</attributeName>
+          <attributeDefinition>Plot 1-8 within each gradient</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Plot 1-8 within each gradient</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>Seed</attributeName>
+          <attributeDefinition>Seed addition treatment factor</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>0</code>
+                    <definition>no seed additions</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>seed additions</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>N</attributeName>
+          <attributeDefinition>Nitrogen addition treatment factor (0, 4, 8 or
+						16)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMeterSquaredPerYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">16</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>P</attributeName>
+          <attributeDefinition>Phosphorus addition treatment factor (0, 8 P from
+						superphosphate)</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gramsPerMeterSquaredPerYear</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">8</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>Species binomial</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Species binomial</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>cover</attributeName>
+          <attributeDefinition>percent cover</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">100</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+    </dataTable>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,880 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/qsitesdd.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>David Wolock</origin>
+        <pubdate>2003</pubdate>
+        <pubtime>Unknown</pubtime>
+        <title>Flow characteristics at U.S. Geological Survey streamgages in the conterminous United States.</title>
+        <geoform>vector digital data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Open-File Report</sername>
+          <issue>03-146</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?qsitesdd</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+This dataset represents point locations and flow characteristics for current (as of November 20, 2001) and historical U.S. Geological Survey (USGS) streamgages in the conterminous United States. The flow characteristics were computed from the daily streamflow data recorded at each streamgage for the period of record.
+
+The attributes associated with each streamgage include:
+
+Station number
+Station name
+Station latitude (decimal degrees in North American Datum of 1983, NAD 83)
+Station longitude (decimal degrees in NAD 83)
+First date (year, month, day) of streamflow data
+Last date (year, month, day) of streamflow data
+Number of days of streamflow data
+Minimum and maximum daily flow for the period of record (cubic feet per second)
+Percentiles (1, 5, 10, 20, 25, 50, 75, 80, 90, 95, 99) of daily flow for the period of record (cubic feet per second)
+Average and standard deviation of daily flow for the period of record (cubic feet per second)
+Mean annual base-flow index (BFI: see supplemental information) computed for the period of record (fraction, ranging from 0 to 1)
+Year-to-year standard deviation of the annual base-flow index computed for the period of record (fraction)
+Number of years of data used to compute the base-flow index (years)
+Reported drainage area (square miles)
+Reported contributing drainage area (square miles)
+National Water Information System (NWIS)-Web page URL for streamgage
+Hydrologic Unit Code (HUC, 8 digit)
+Hydrologic landscape region (HLR)
+River Reach File 1 (RF1) segment identification number (E2RF1##)
+
+Station numbers, names, locations, and drainage areas were acquired through the National Water Information System (NWIS)-Web (http://water.usgs.gov/nwis) on November 20, 2001. The streamflow data used to compute flow characteristics were copied from the Water server (water.usgs.gov:/www/htdocs/nwisweb/data1/discharge/) on November 2, 2001.
+
+The missing value indicator for all attributes is -99. Some streamflow characteristics are missing for: (1) streamgages measuring flow subject to tidal effects, which cause flow to reverse directions, (2) streamgages with site information but no streamflow data at the time the data were retrieved, and (3) streamgages with record length too short to compute the base-flow index.
+			</abstract>
+      <purpose>These data were compiled to provide summary information about current and historical USGS streamgages in the conterminous United States. The USGS has several programs (including the National Water-Quality Assessment Program and the National Streamflow Information Program) that need the summary data for improvement of study design and analysis.</purpose>
+      <supplinf>
+Base-flow index estimation:
+
+A base-flow index (BFI) was computed for the streamgages using a Fortran program written by Tony Wahl (Bureau of Reclamation. U.S. Department of the Interior) and Ken Wahl (U.S. Geological Survey) (http://www.usbr.gov/pmts/hydraulics_lab/twahl/bfi/index.html). The computer program name is bfi41.f and was the most current version available at the time. The computer program was compiled on a Sun Unix system and run with the default parameter values.
+
+The BFI Web page (http://www.usbr.gov/pmts/hydraulics_lab/twahl/bfi/index.html) states:
+
+"The BFI program was developed to make the base-flow separation process less tedious and more objective. The program implements a deterministic procedure proposed in 1980 by the British Institute of Hydrology. The method combines a local minimums approach with a recession slope test. The program estimates the annual base-flow volume of unregulated rivers and streams and computes an annual base-flow index (BFI, the ratio of base flow to total flow volume for a given year) for multiple years of data at one or more gage sites. Although the method may not yield the true base flow as might be determined by a more sophisticated analysis, the index has been found to be consistent and indicative of base flow, and thus may be useful for analysis of long term base-flow trends. Users should be very cautious about using methods such as this for short-term storm events or for locations where streamflow is affected by upstream regulation, such as reservoir releases. In general, the method interprets most regulated releases as base flow. If the program is used for regulated streams, the effects of regulation must be carefully accounted for through manual adjustment of the program output."
+
+BFI references:
+
+Wahl, K.L., and Wahl, T.L., 1995, Determining the flow of Comal Springs at New Braunfels, Texas, In Proceedings of Texas Water '95, American Society of Civil Engineers, August 16-17, 1995 San Antonio, Texas: American Society of Civil Engineers,  p. 77-86, information available on the World Wide Web, accessed March 25, 2003 , at URL http://www.usbr.gov/pmts/hydraulics_lab/twahl/bfi/texaswater95/comalsprings.html
+
+Wahl, K.L., and Wahl, T.L., 1988, Effects of regional ground-water declines on streamflows in the Oklahoma Panhandle, In Proceedings of Symposium on Water-Use Data for Water Resources Management: Tucson, Arizona, American Water Resources Association, p. 239-249, information available on the World Wide Web, accessed March 25, 2003, at URL http://www.usbr.gov/pmts/hydraulics_lab/twahl/bfi/bfi_beaver_river.pdf
+
+The use of firm, trade, and brand names is for identification purposes only and does not constitute endorsement by the U.S. government.
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2001</caldate>
+          <time>unknown</time>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.669121</westbc>
+        <eastbc>-67.248322</eastbc>
+        <northbc>49.002617</northbc>
+        <southbc>25.320950</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>U.S. Geological Survey streamgage flow characteristics</themekey>
+      </theme>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>None</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>David Wolock</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Research Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>USGS</address>
+          <address>4821 Quail Crest Place</address>
+          <city>Lawrence</city>
+          <state>KS</state>
+          <postal>66049</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>785-832-3528</cntvoice>
+        <cntfax>785-832-3500</cntfax>
+        <cntemail>dwolock@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 2000 Version 5.1 (Build 2600) Service Pack 1; ESRI ArcCatalog 8.2.0.700</native>
+  </idinfo>
+  <dataqual>
+    <logic>none</logic>
+    <complete>none</complete>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <pubtime>Unknown</pubtime>
+            <title>NWIS-Web streamflow data</title>
+            <edition>1.0</edition>
+            <geoform>vector digital data</geoform>
+            <onlink>http://waterdata.usgs.gov/nwis</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>Digital Data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20011102</caldate>
+              <time>unknown</time>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>USGS-NWIS</srccitea>
+        <srccontr>Point locations and hydrologic data</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+The steps used to generate the dataset are listed below.
+
+1. The station identification number, station name, degrees-minutes-seconds (DMS) latitude, DMS longitude, latitude-longitude datum, State code, drainage area, and contributing drainage for each streamgage with daily discharge values in all States in the conterminous United States were obtained from NWIS-Web (http://water.usgs.gov/nwis).
+
+2. The ARCINFO computer program infopoint.aml (Curtis Price, USGS, written commun., 2001) was used to generate a point coverage of the streamgage locations. In generating the point coverage, all the North American Datum of 1927 (NAD 27) points were projected into NAD 83.
+
+3. Daily streamflow data for all streamgages were copied from the files located in the subdirectories of water.usgs.gov/www/htdocs/nwisweb/data1/discharge/.
+
+4. The Perl program getstat.pl (Xiaodong Jian, USGS, written commun., 2001) was used to compute the time period and flow statistics for each streamgage.
+
+5. A base-flow index (BFI) program (http://www.usbr.gov/pmts/hydraulics_lab/twahl/bfi/) was used to estimate the fraction of "base flow" in total streamflow. Base flow is the slowly varying component of streamflow and is assumed to be from ground-water discharge to streams. (See Supplemental_Information.)
+
+6. The dataset was projected into decimal degrees (NAD 83) and saved as a shapefile for compatibility with the National Atlas of the United States. In addition, the attribute table was saved as a tab-delimited text file for use in MapInfo, ArcView3, Atlas GIS, and Microsoft Excel.
+
+The use of firm, trade, and brand names is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey.
+				</procdesc>
+        <procdate>Unknown</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Point</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Label point</sdtstype>
+        <ptvctcnt>19589</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Point</sdtstype>
+        <ptvctcnt>19589</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.00027</latres>
+        <longres>0.00027</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>qsitesdd.pat</enttypl>
+        <enttypd>Point attribute table</enttypd>
+        <enttypds>Environmental Systems Research Institute (ESRI), Inc., Redlands, California</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AREA</attrlabl>
+        <attrdef>Area of feature in internal units squared.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Area is always zero for point coverages.  Values are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>PERIMETER</attrlabl>
+        <attrdef>Perimeter of feature in internal units.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Perimeter is always zero for point coverages.  Values are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QSITESDD#</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>QSITESDD-ID</attrlabl>
+        <attrdef>User-defined feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATION_NO</attrlabl>
+        <attrdef>Station number</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <udom>Station number is a unique identifier with up to 15 digits.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YRMONDY1</attrlabl>
+        <attrdef>First date (year, month, day) of daily streamflow data</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>18831001</rdommin>
+            <rdommax>20000912</rdommax>
+            <attrunit>YEARMNDY</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YRMONDYN</attrlabl>
+        <attrdef>Last day (year, month, day) of daily streamflow data</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>18891130</rdommin>
+            <rdommax>20010223</rdommax>
+            <attrunit>YEARMNDY</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AVE</attrlabl>
+        <attrdef>Average daily streamflow value (cubic feet per second)</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1598860.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STD</attrlabl>
+        <attrdef>Standard deviation of daily streamflow values (cubic feet per second)</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>373909.31</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LONDD</attrlabl>
+        <attrdef>Longitude (NAD 83, decimal degrees)</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-124.67</rdommin>
+            <rdommax>-67.248890</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>LATDD</attrlabl>
+        <attrdef>Latitude (NAD83, decimal degrees)</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>25.32</rdommin>
+            <rdommax>49.00</rdommax>
+            <attrunit>decimal degrees</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NDAYS</attrlabl>
+        <attrdef>Number of days of historical streamflow data</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>46444.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MIN</attrlabl>
+        <attrdef>Minimum daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1290000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P1</attrlabl>
+        <attrdef>1st percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1302800.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P5</attrlabl>
+        <attrdef>5th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1310000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P10</attrlabl>
+        <attrdef>10th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1420000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P20</attrlabl>
+        <attrdef>20th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1513000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P25</attrlabl>
+        <attrdef>25th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1540000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P50</attrlabl>
+        <attrdef>50th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1600000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P75</attrlabl>
+        <attrdef>75th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1740000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P80</attrlabl>
+        <attrdef>80th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1740000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P90</attrlabl>
+        <attrdef>90th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1771000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P95</attrlabl>
+        <attrdef>95th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1800000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>P99</attrlabl>
+        <attrdef>99th percentile daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1800000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MAX</attrlabl>
+        <attrdef>Maximum daily streamflow value (cubic feet per second) for the period of record</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>3400000.00</rdommax>
+            <attrunit>cubic feet per second</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>YEARSBFI</attrlabl>
+        <attrdef>Number of years used in the base-flow index computation</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>5.00</rdommin>
+            <rdommax>127.00</rdommax>
+            <attrunit>years</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BFI</attrlabl>
+        <attrdef>Average annual base-flow index value (fraction)</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>1.00</rdommax>
+            <attrunit>fraction</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>BFISD</attrlabl>
+        <attrdef>Standard deviation of annual base-flow index value (fraction)</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.00</rdommin>
+            <rdommax>0.72</rdommax>
+            <attrunit>fraction</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATION_NM</attrlabl>
+        <attrdef>Station name</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <udom>Station name is the name of the streamgage.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE_CD</attrlabl>
+        <attrdef>State code for the streamgage</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>56</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>STATE_ABBV</attrlabl>
+        <attrdef>State abbreviation</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <udom>Two-letter abbreviation for the state where the streamgage is located.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>DRAIN_AREA</attrlabl>
+        <attrdef>Reported drainage area (square miles)</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.01</rdommin>
+            <rdommax>1130600.00</rdommax>
+            <attrunit>square miles</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>CONTRIB_DR</attrlabl>
+        <attrdef>Reported contributing area (square miles)</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.01</rdommin>
+            <rdommax>414900.00</rdommax>
+            <attrunit>square miles</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>NWIS_URL</attrlabl>
+        <attrdef>NWIS-Web URL</attrdef>
+        <attrdefs>NWIS-Web</attrdefs>
+        <attrdomv>
+          <udom>NWIS-Web URL (Web address)</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HUC8</attrlabl>
+        <attrdef>8-digit hydrologic unit code</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1010001</rdommin>
+            <rdommax>18100200</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>HLR</attrlabl>
+        <attrdef>Hydrologic landscape region</attrdef>
+        <attrdefs>Wolock</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>1</rdommin>
+            <rdommax>20</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>SGRF1-ID</attrlabl>
+        <attrdef>River Reach File 1 (RF1) segment identification number (E2RF1##)</attrdef>
+        <attrdefs>David Stewart</attrdefs>
+        <attrdomv>
+          <udom>Unique number assigned to each RF1 segments.</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <overview>
+      <eaover>
+The streamgage characteristics include:
+
+Station number
+Station name
+Station latitude
+Station longitude
+NWIS-Web page URL for streamgage
+Reported drainage area (square miles)
+Reported contributing drainage area (square miles)
+Hydrologic Unit Code (HUC, 8 digit)
+Hydrologic landscape region (HLR)
+River Reach File 1 (RF1) segment identification number (E2RF1##)
+
+The flow-characteristics information for each streamgage include:
+
+Minimum and maximum daily flow for the period of record (cubic feet per second)
+Percentiles (1, 5, 10, 20, 25, 50, 75, 80, 90, 95, 99) of daily flow for the period of record (cubic feet per second)
+Average and standard deviation of daily flow for the period of record (cubic feet per second)
+Mean annual base-flow index (BFI) computed for the period of record (fraction, ranging from 0 to 1)
+Year-to-year standard deviation of the annual base-flow index computed for the period of record (fraction)
+Number of years of data used to compute the base-flow index (years)
+First date (year, month, day) of streamflow data
+Last date (year, month, day) of streamflow data
+Number of days of streamflow data
+			</eaover>
+      <eadetcit>None</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Shape File</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Winzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd_shp.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Winzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd.e00.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Database File</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Winzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd.dbf.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Gunzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Shape</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Gunzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd_shp.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Database File</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Gunzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd_dbf.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Coverage</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Tar-gunzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd_shp.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Coverage</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Gunzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd.e00.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>Database File</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>Gunzipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/qsitesdd.dbf.tgz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+qsitesdd</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20010101</begdate>
+    <enddate>20011231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_qsitesdd.html</htmlurl>
+  </mercury>
+</metadata>

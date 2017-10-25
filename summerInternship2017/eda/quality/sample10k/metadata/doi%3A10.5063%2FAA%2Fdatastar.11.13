@@ -1,0 +1,365 @@
+<?xml version="1.0"?>
+<eml:eml packageId="datastar.11.13" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd">  <access authSystem="knb" order="denyFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=gss1,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+<allow><principal>uid=datastar,o=unaffiliated,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+<permission>write</permission>
+<permission>changePermission</permission>
+</allow>
+</access>
+<dataset> <title>Ice Cover data for Oneida and Cazenovia Lakes, New York, 1826-2011</title>
+ <creator id="1239627629781"><individualName><givenName>Lars</givenName>
+ <surName>Rudstam</surName>
+ </individualName>
+ <organizationName>Cornell Biological Field Station</organizationName>
+ <positionName>Director</positionName>
+ <address><deliveryPoint>900 Shackelton Point Road</deliveryPoint>
+ <city>Bridgeport</city>
+ <administrativeArea>NY</administrativeArea>
+ <postalCode>13030</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(315) 633-9243</phone>
+ <electronicMailAddress>lgr1@cornell.edu</electronicMailAddress>
+ <onlineUrl>http://www.dnr.cornell.edu/people/faculty/profiles/rudstam.html</onlineUrl>
+ </creator>
+ <creator id="1239629100531"><individualName><givenName>James R.</givenName>
+ <surName>Jackson</surName>
+ </individualName>
+ <organizationName>Cornell Biological Field Station</organizationName>
+ <positionName>Associate Director</positionName>
+ <address><deliveryPoint>900 Shackelton Point Road</deliveryPoint>
+ <city>Bridgeport</city>
+ <administrativeArea>NY</administrativeArea>
+ <postalCode>13030</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(315) 633-9243</phone>
+ <electronicMailAddress>jrj26@cornell.edu</electronicMailAddress>
+ </creator>
+ <abstract><para>The Cornell Biological Field Station (CBFS) serves as a primary field site for aquatic research at Cornell University (more information can be found at http://www.cbfs.dnr.cornell.edu) and is part of the Department of Natural Resources, College of Agriculture and Life Sciences. The centerpiece of the station's research program is a 50-year database on the food web of Oneida Lake, New York, that has been collected with support from the Cornell University Brown Endowment and from the New York State Department of Environmental Conservation. The data are collected by personnel from the Cornell Biological Field Station and include limnology, benthos, zooplankton, phytoplankton, and fish survey data, primarily from Oneida Lake and spanning 1957 to the present. This dataset reports the data on ice cover of Oneida Lake and the nearby Cazenovia Lake.</para>
+ </abstract>
+ <keywordSet><keyword>Oneida Lake, New York</keyword>
+ <keyword>Oneida County, New York</keyword>
+ <keyword>Madison County, New York</keyword>
+ <keyword>Oswego County, New York</keyword>
+ <keyword>Onondaga County, New York</keyword>
+ </keywordSet>
+ <keywordSet><keyword>Lakes</keyword>
+ <keyword>Lake ice</keyword>
+ <keywordThesaurus>Global Change Master Directory Science Keywords</keywordThesaurus>
+ </keywordSet>
+<intellectualRights><para>This data set is made available under the Open Data Commons Attribution License: http://www.opendatacommons.org/licenses/by/1.0/.
+
+Users of this data set are very strongly encouraged to check with the data set Owner or the individual listed as the Contact for this data set to verify that they have the most current and correct version of the data. Users are also encouraged to notify the data set Owner/Contact to describe their intended use of the data set, including planned publications, and to supply the Owner/Contact with a copy of any publication or derivative work using or citing the data set.</para>
+</intellectualRights>
+  <coverage> <geographicCoverage><geographicDescription>Oneida Lake, New York State</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-76.140606</westBoundingCoordinate>
+ <eastBoundingCoordinate>-75.729718</eastBoundingCoordinate>
+ <northBoundingCoordinate>43.256445</northBoundingCoordinate>
+ <southBoundingCoordinate>43.146888</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <geographicCoverage><geographicDescription>Cazenovia Lake, New York State</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>-75.890931</westBoundingCoordinate>
+ <eastBoundingCoordinate>-75.861005</eastBoundingCoordinate>
+ <northBoundingCoordinate>42.978128</northBoundingCoordinate>
+ <southBoundingCoordinate>42.924632</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage><rangeOfDates><beginDate><calendarDate>1826</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2011</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ </coverage>
+ <contact id="1239373955078"><individualName><givenName>Kristen</givenName>
+ <surName>Holeck</surName>
+ </individualName>
+ <organizationName>Cornell Biological Field Station</organizationName>
+ <positionName>Research Support Specialist</positionName>
+ <address><deliveryPoint>900 Shackelton Point Road</deliveryPoint>
+ <city>Bridgeport</city>
+ <administrativeArea>NY</administrativeArea>
+ <postalCode>13030</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(315) 633-9243</phone>
+ <electronicMailAddress>kth1@cornell.edu</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>Methods</title>
+ <para>These data are based on observations by CBFS personnel, information from the Constantia Fish Culture Station, diary information from Mr Asa Eastwood (1827 &#8211; 1865) and Mr James Bernard (1846-1900).  We used the Bernard diary data for the few years of overlap as those diary also included ice-on dates.  The Eastwood diaries were provided by Jack Henke as part of his research for a book on Oneida Lake (Henke 2004) and are kept at the Syracuse University Library&#8217;s rare book collection.  The Bernard diaries were read and interpreted by C. Hoffman of CBFS.  These diaries are kept by the family.  Data from 1901 to 1974 were provided by different observers and kept at the Oneida Fish Culture Center.  The persons responsible for the observations are noted. The diary data replaces previous data from 1844 to 1900 which were found to be in error.  These previous data were used by Magnuson et al. (2000) and are what is in the national ice data base in 2009.  Updates for the data presented here can also be obtained through the Center for Limnology, University of Wisconsin, Madison, Wisconsin.</para>
+ <para>In general, the ice out dates are easier to define as the ice often leaves the lake in a few days.  But this is not always the case.  The diary notes related to the dates when most of the ice was gone from the lake.  Ice on dates are trickier as there is often temporary ice formation that breaks up again before the final freeze over.  It is not entirely certain which of these dates the diaries refer to.  This is also a problem in the notes from CBFS for the period 1975-current data, as sometimes a temporary break-up periods were noted but not always with exact dates.  Here, the ice on dates is defined as the first date that the lake completely froze over which follows the convention of the National Ice Database.  Additional times the lake was broken up and refroze are noted.  Other time periods with ice cover are noted in the notes column.  Ice duration is calculated from the day of first freeze over to the day of ice break up and subtracting the number of days the lake was open between the first day of ice coverage and ice-out.  Extra dates of leap years are included in the ice duration calculations and in the day of year calculations for the ice-out day.</para>
+ <para>The data on Cazenovia Lake is from the national ice database but was checked, corrected and complemented through a review of available diaries at the Lorenzo mansion State Historical Site on the lake (P. G. Rudstam 2006), and information from Dr. Ken Stewart, University of Buffalo.  The diaries were kept from 1839 by consecutive owners of the Lorenzo mansion (members of the Ledyard family) and are kept at the library of the Lorenzo mansion State Historical Site.</para>
+ <para>The data is most recently used in DeStasio et al. (2009) and the uncorrected data from both lakes were used by Magnuson et al. (2000).</para>
+ <para>Data columns include Lake, Fall year, Spring year, Date of first freeze over, Date of ice off, Column indication that the lake did freeze over that year (Yes or No), Day of year of ice-out, Ice duration in days, Notes of days when the lake was open between the first freeze and final ice off dates, Notes of data source.</para>
+ <para>DeStasio, B., A. Joice, K. Prescott, G. Gal, D. Hamilton, and L. G. Rudstam. 2009. Interactions between water clarity and climate warming on hydrodynamics of Oneida Lake: applications of a dynamic reservoir model. Page submitted in E. L. Mills, L. G. Rudstam, J. R. Jackson, and D. J. Stewart, editors. Oneida Lake: Long-term dynamics of a managed ecosystem and its fisheries. American Fisheries Society, Bethesda, Maryland.</para>
+ <para>Henke, J. 2004. From &quot;The Beach&quot; to Brewerton. Stories of Oneida Lake. North Country Books Inc., Utica, New York.</para>
+ <para>Magnuson, J. J., D. M. Robertson, B. J. Benson, R. H. Wynne, D. M. Livingstone, T.Aria, R. A. Assel, R. G. Barry, V. Card, E. Kuusisto, N. G. Granin, T. D. Prowse, K. M. Stewart, and V. S. Vuglinski. 2000. Historical trends in lake and river ice cover in the northern hemisphere. Science 289:1743-1746.</para>
+ <para>Rudstam, P. G. 2006. Ice cover in central New York and its effects on phytoplankton, Daphnia and yellow perch (Perca flavescens). CBFS project report.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <project><title>Cornell Biological Field Station long term dataset</title>
+ <personnel id="1239629763640"><individualName><givenName>Lars</givenName>
+ <surName>Rudstam</surName>
+ </individualName>
+ <organizationName>Cornell Biological Field Station</organizationName>
+ <positionName>Director</positionName>
+ <address><deliveryPoint>900 Shackelton Point Road</deliveryPoint>
+ <city>Bridgeport</city>
+ <administrativeArea>NY</administrativeArea>
+ <postalCode>13030</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">(315) 633-9243</phone>
+ <electronicMailAddress>lgr1@cornell.edu</electronicMailAddress>
+ <onlineUrl>http://www.dnr.cornell.edu/people/faculty/profiles/rudstam.html</onlineUrl>
+ <role>Principal Investigator</role>
+ </personnel>
+ <personnel id="1239629848687"><individualName><givenName>James R.</givenName>
+ <surName>Jackson</surName>
+ </individualName>
+ <organizationName>Cornell Biological Field Station</organizationName>
+ <positionName>Associate Director</positionName>
+ <address><deliveryPoint>900 Shackelton Point Road</deliveryPoint>
+ <city>Bridgeport</city>
+ <administrativeArea>NY</administrativeArea>
+ <postalCode>13030</postalCode>
+ <country>NY</country>
+ </address>
+ <phone phonetype="voice">(315) 633-9243</phone>
+ <electronicMailAddress>jrj26@cornell.edu</electronicMailAddress>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>New York Department of Environmental Conservation, Cornell University Brown Endowment</para>
+ </funding>
+ </project>
+ <dataTable id="1239380944671"> <entityName>Oneida Ice Data</entityName>
+ <entityDescription>Ice cover data for Oneida Lake, NY (1826-2011)</entityDescription>
+ <physical id="1239380941843"> <objectName>OneidaIceData.txt</objectName>
+ <size unit="byte">14704</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/datastar.9.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1239380944687"> <attributeName>Lake</attributeName>
+ <attributeLabel>Lake</attributeLabel>
+ <attributeDefinition>lake name</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Lake name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944703"> <attributeName>Fall_Year</attributeName>
+ <attributeLabel>fall year</attributeLabel>
+ <attributeDefinition>Year in which preceding fall occurs (for winters when freeze occurs before January 1, will be the same year as freeze date)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944718"> <attributeName>Spring_Year</attributeName>
+ <attributeLabel>spring year</attributeLabel>
+ <attributeDefinition>Year in which following spring occurs (typically same as ice out year)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944734"> <attributeName>FirstFreezeDate</attributeName>
+ <attributeLabel>first freeze date</attributeLabel>
+ <attributeDefinition>Date lake is first entirely frozen over (see methods section for details). -999=missing data.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYYMMDD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944750"> <attributeName>IceOutDate</attributeName>
+ <attributeLabel>Ice out date</attributeLabel>
+ <attributeDefinition>Date when most of ice disappears from lake (see methods for details). -999=missing data.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYYMMDD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944765"> <attributeName>Lake_Froze_Y_N</attributeName>
+ <attributeLabel>Lake froze - yes or no</attributeLabel>
+ <attributeDefinition>Indicates whether lake froze in a given winter. -999=missing data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>Y</code>
+ <definition>Yes (lake did freeze)</definition>
+ </codeDefinition>
+ <codeDefinition> <code>N</code>
+ <definition>No (lake did not freeze)</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944781"> <attributeName>IceoutDOY</attributeName>
+ <attributeLabel>Ice out, day of year</attributeLabel>
+ <attributeDefinition>Day of year of ice out. -999=missing data.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>nominalDay</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944796"> <attributeName>IceDurCalc</attributeName>
+ <attributeLabel>Calculated ice duration</attributeLabel>
+ <attributeDefinition>Calculated ice duration, in days. -999=missing data.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>nominalDay</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944812"> <attributeName>Notes</attributeName>
+ <attributeLabel>Notes</attributeLabel>
+ <attributeDefinition>Additional notes on dates lake was open  before final ice out. -999=missing data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Additional notes on dates lake was open  before final ice out.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239380944828"> <attributeName>Source</attributeName>
+ <attributeLabel>Source</attributeLabel>
+ <attributeDefinition>Data source (see methods). -999=missing data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Data source</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>180</numberOfRecords>
+ </dataTable>
+ <dataTable id="1239381325125"> <entityName>Cazenovia Ice Data</entityName>
+ <entityDescription>Ice cover data for Cazenovia Lake, NY (1938-2010)</entityDescription>
+ <physical id="1239381324250"> <objectName>CazeonviaIceData.txt</objectName>
+ <size unit="byte">14429</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/datastar.10.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1239381325140"> <attributeName>Lake</attributeName>
+ <attributeLabel>Lake</attributeLabel>
+ <attributeDefinition>lake name</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Lake name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325156"> <attributeName>Fall_Year</attributeName>
+ <attributeLabel>fall year</attributeLabel>
+ <attributeDefinition>Year in which preceding fall occurs (for winters when freeze occurs before January 1, will be the same year as freeze date)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325171"> <attributeName>Spring_Year</attributeName>
+ <attributeLabel>spring year</attributeLabel>
+ <attributeDefinition>Year in which following spring occurs (typically same as ice out year)</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325187"> <attributeName>FirstFreezeDate</attributeName>
+ <attributeLabel>first freeze date</attributeLabel>
+ <attributeDefinition>Date lake is first entirely frozen over (see methods section for details). -999=missing data.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYYMMDD</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325203"> <attributeName>IceOutDate</attributeName>
+ <attributeLabel>Ice out date</attributeLabel>
+ <attributeDefinition>Date when most of ice disappears from lake (see methods for details). -999=missing data.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>YYYY</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325218"> <attributeName>Lake_Froze_Y_N</attributeName>
+ <attributeLabel>Lake froze - yes or no &#160;</attributeLabel>
+ <attributeDefinition>Indicates whether lake froze in a given winter. -999=missing data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain> <codeDefinition> <code>Y</code>
+ <definition>Yes (lake did freeze)</definition>
+ </codeDefinition>
+ <codeDefinition> <code>N</code>
+ <definition>No (lake did not freeze)</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325234"> <attributeName>IceoutDOY</attributeName>
+ <attributeLabel>Ice out, day of year &#160;</attributeLabel>
+ <attributeDefinition>Day of year of ice out. -999=missing data.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>nominalDay</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325250"> <attributeName>IceDurCalc</attributeName>
+ <attributeLabel>Calculated ice duration</attributeLabel>
+ <attributeDefinition>Calculated ice duration, in days. -999=missing data.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>nominalDay</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325265"> <attributeName>Notes</attributeName>
+ <attributeLabel>Notes</attributeLabel>
+ <attributeDefinition>Additional notes on dates lake was open before final ice out. -999=missing data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Additional notes on dates lake was open before final ice out.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1239381325281"> <attributeName>Source</attributeName>
+ <attributeLabel>Source</attributeLabel>
+ <attributeDefinition>Data source (see methods). -999=missing data.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Data source</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>173</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

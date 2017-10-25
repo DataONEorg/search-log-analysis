@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="naman.318.3" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ <allow><principal>cn=datamanagers,o=PPBio-CENBAM,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ </access>
+ <dataset>  <title>Deforestation corrected SRTM DEM</title>
+<creator id="1391029786308"><individualName><givenName>Gabriel Massaine</givenName>
+<surName>Moulatlet</surName>
+</individualName>
+<organizationName>Instituto Nacional de Pesquisas da Amaz&#244;nia &#8211; INPA</organizationName>
+<address><deliveryPoint>Coordena&#231;&#227;o de Pesquisas em Biodiversidade &#8211; CBIO</deliveryPoint>
+<deliveryPoint>Av. Andr&#233; Ara&#250;jo, 2936, 69011-970</deliveryPoint>
+<city>Manaus</city>
+<administrativeArea>Amazonas</administrativeArea>
+<country>Brazil</country>
+</address>
+<phone phonetype="voice">+55 92 3643-1892</phone>
+<electronicMailAddress>mandaprogabriel@gmail.com</electronicMailAddress>
+<onlineUrl>http://lattes.cnpq.br/1539963599734036</onlineUrl>
+</creator>
+<creator id="1391029898476"><individualName><givenName>Camilo Daleles</givenName>
+<surName>Renn&#243;</surName>
+</individualName>
+<electronicMailAddress>camilo@dpi.inpe.br</electronicMailAddress>
+<onlineUrl>http://lattes.cnpq.br/7712719010541171</onlineUrl>
+</creator>
+  <associatedParty id="1391029971890"><individualName><givenName>Livia</givenName>
+ <surName>Naman</surName>
+ </individualName>
+ <organizationName>Instituto Nacional de Pesquisa da Amaz&#244;nia - INPA</organizationName>
+ <address><deliveryPoint>Coordena&#231;&#227;o de Biodiversidade - CBio</deliveryPoint>
+ <deliveryPoint>Avenida Efig&#234;nio Sales, 2239, Aleixo, CEP 69011-970,</deliveryPoint>
+ <city>Manaus,</city>
+ <administrativeArea>Amazonas,</administrativeArea>
+ <postalCode>P. O. Box 478</postalCode>
+ <country>Brasil</country>
+ </address>
+ <phone phonetype="voice">+55 92 3643 1912 (voice)</phone>
+ <electronicMailAddress>livianaman@gmail.com</electronicMailAddress>
+ <onlineUrl>http://lattes.cnpq.br/6854740773901351</onlineUrl>
+ <role>Custodian/Steward</role>
+ </associatedParty>
+<abstract><para>The Digital Elevation Model (DEM) derived from data of the Shuttle Radar Topographic Mission (SRTM) has been broadly used as base for extraction of hydrological metrics. However the fact that the SRTM DEM maps the canopy of the vegetation instead of the terrain elevation precludes the use of the data for forests with presence of patches of deforestation. Deforestation features induce the presence of false drainage channels on the extraction of hydrological metrics on the SRTM DEM. We identified deforestation features along the area between the Purus and Madeira Rivers using the dataset of the PRODES project (http://www.obt.inpe.br/prodes/). The polygons of deforestation were corrected using a software developed in IDL/ENVI which allow to raise the pixel values of the SRTM DEM. The correction of deforestation polygons aims to minimize errors related to extraction of drainage networks and topographic features on the SRTM DEM.</para>
+</abstract>
+<keywordSet><keyword>SRTM</keyword>
+<keyword>Deforestation</keyword>
+<keyword>Digital elevation models</keyword>
+<keyword>DEM</keyword>
+<keyword>Purus-Madeira Interfluve</keyword>
+<keyword>BR-319</keyword>
+<keyword>Amaz&#244;nia</keyword>
+<keyword>PPBio</keyword>
+</keywordSet>
+   <intellectualRights><para>Todos os dados do PPBio ser&#227;o publicados no m&#225;ximo 1 ano ap&#243;s sua coleta, desde que creditados os respons&#225;veis pela mesma e disponibiliza&#231;&#227;o dos dados em qualquer publica&#231;&#227;o que os utilizem. Recomendamos aos interessados em utilizar os dados entrar em contato com os respons&#225;veis e assim discutir o interesse de uso e possibilidade de participa&#231;&#227;o no corpo de autores. A pol&#237;tica de dados do PPBio est&#225; dispon&#237;vel no seguinte link: &lt;http://ppbio.inpa.gov.br/politicadados &gt;</para>
+ </intellectualRights>
+ <coverage>  <temporalCoverage><rangeOfDates><beginDate><calendarDate>2000</calendarDate>
+ </beginDate>
+ <endDate><calendarDate>2001</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage><geographicDescription>The dataset cover the area between Rivers Purus and Madeira (WGS-84).</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>-70.89208333</westBoundingCoordinate>
+<eastBoundingCoordinate>-58.48213297</eastBoundingCoordinate>
+<northBoundingCoordinate>-2.82041667</northBoundingCoordinate>
+<southBoundingCoordinate>-11.39788236</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+</coverage>
+ <contact><references>1391029786308</references>
+ </contact>
+<methods><methodStep><description><section><title>Informa&#231;&#245;es sobre M&#233;todos de Coleta</title>
+<para>As informa&#231;&#245;es sobre o MDE SRTM utilizado est&#227;o dispon&#237;veis em Farr et al (2000) e referem-se a miss&#227;o realizada em fevereiro de 2000. As corre&#231;&#245;es foram realizadas entre abril e outubro de 2011 e utilizaram dados de desmatamento do PRODES de 2000/2001.</para>
+<para>Os dados SRTM encontram-se dispon&#237;veis em http://dds.cr.usgs.gov/srtm/version2_1/SRTM3. Os dados relativos ao Interfl&#250;vio Purus-Madeira foram selecionados e mosaicados usando as ferramentas dispon&#237;veis no ENVI sendo o produto salvo no formato geotiff, tendo 7200 pixels (colunas) por 6000 pixels (linhas), com resolu&#231;&#227;o espacial de 3 arcos de segundo ou 0,00083 graus (cerca de 90 m pr&#243;ximo a linha do Equador). Esta sele&#231;&#227;o foi feita de forma a cobrir todos os m&#243;dulos do PPBio existentes at&#233; o momento do in&#237;cio da corre&#231;&#227;o. A partir dos dados de desmatamento dispon&#237;veis no projeto PRODES (http://www.obt.inpe.br/prodes/index.php), as &#225;reas associadas com a constru&#231;&#227;o da BR-319 foram identificadas. Com a utiliza&#231;&#227;o do programa DEM_CORR (Renn&#243;, 2009),  que adiciona ou subtrai valores altim&#233;tricos de cada pixel do SRTM, o desmatamento foi corrigido. A adi&#231;&#227;o de valores aos pixels foi baseada na altura das &#225;reas n&#227;o desmatadas mais pr&#243;ximas. Para isso, perfis altim&#233;tricos foram tra&#231;ados a fim de tornar a corre&#231;&#227;o mais realista fazendo com que o artefato criado pelo desmatamento no MDE SRTM desaparecesse no produto final corrigido. Como a &#234;nfase nessa etapa era minimizar os efeitos do desmatamento em atributos derivados do MDE SRTM que tivessem efeito direto nos m&#243;dulos do PPBio, &#225;reas desmatadas muito distantes da BR-319 n&#227;o foram corrigidas. As &#225;reas pr&#243;ximas ao ramal do Purupuru (Km 34 da BR-319) e &#224; sede do munic&#237;pio de Humait&#225;, nos extremos da BR-319) devem ser interpretadas com cautela, pois os resultados das corre&#231;&#245;es para esses lugares foram menos efetivos por causa da complexidade encontrada nas &#225;reas antropizadas resultantes de um mosaico de padr&#245;es de desmatamento que incluem regenera&#231;&#227;o da vegeta&#231;&#227;o de diferentes idades. O arquivo com o final .tif pode ser aberto em qualquer programa de Sensoriamento Remoto.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Methods of data collection</title>
+<para>Information about the SRTM DEM can be found in Farr et al (2000). The deforestation corrections were done between April and October of 2011 using the PRODES dataset for 2000/2001. SRTM data can be downloaded at http://dds.cr.usgs.gov/srtm/version2_1/SRTM3. SRTM data for the Purus-Madeira Interfluve were selected and mosaicked using the tools available in the software ENVI v 4.7. The product of this processing has a spatial resolution of 3 arcseconds (approximately 90 m close to Ecuador), measuring 7200 columns by 6000 rows. The selection of deforestation polygons on the SRTM DEM along the BR-319 road were made from the data available by the PRODES project (http://www.obt.inpe.br/prodes/index.php). We used the software DEM_CORR (Renn&#243;, 2009), which provides tools to add or subtract elevation values of each pixel of the SRTM DEM. The criterion for adding values to the pixels was based on the height of the surrounding primary forests by the definition of elevation profiles. Deforested areas not included in our selection were not corrected. The original coverage of the patches of vegetation in variable regeneration stages was much more challenging to restore by our correction method than areas where forest was cut at ground level, since the variation of the pixels values on these large regenerating patches is higher. The deforestation-corrected SRTM DEM product is available in geoTIFF format.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>Refer&#234;ncias bibliogr&#225;ficas</title>
+<para>Farr, T.G., M. Kobrick, 2000, Shuttle Radar Topography Mission produces a wealth of data, Amer. Geophys. Union Eos, v. 81, p. 583-585</para>
+<para>Renn&#243;, C.D. 2009. Redu&#231;&#227;o dos efeitos do desmatamento sobre modelo digital de eleva&#231;&#227;o do SRTM usando imagem TM/LANDSAT. In: SIMP&#211;SIO BRASILEIRO DE SENSORIAMENTO REMOTO, 14. (SBSR), Natal. Anais. S&#227;o Jos&#233; dos Campos: INPE, 2009. p. 7095-7102. DVD, On-line. ISBN 978-85-17-00044-7. Dispon&#237;vel em: &lt;http://urlib.net/dpi.inpe.br/sbsr@80/2008/11.15.22.13&gt;</para>
+</section>
+</description>
+</methodStep>
+</methods>
+  <project><title>1.Planejamento de levantamentos da biodiversidade e monitoramento de processos ecossist&#234;micos para inclus&#227;o cient&#237;fica de comunidades rurais ao longo da BR-319 no estado do Amazonas/ 2. HIDROVEG: Rela&#231;&#245;es Estruturantes entre hidrologia e vegeta&#231;&#227;o no interfl&#250;vio Purus-Madeira</title>
+ <personnel id="1391030487813"><individualName><givenName>Fl&#225;via R. C.</givenName>
+ <surName>Costa</surName>
+ </individualName>
+ <organizationName>Instituto Nacional de Pesquisas da Amaz&#244;nia &#8211; INPA</organizationName>
+ <address><deliveryPoint>Coordena&#231;&#227;o de Pesquisas em Biodiversidade &#8211; CBIO</deliveryPoint>
+ <deliveryPoint>Av. Andr&#233; Ara&#250;jo, 2936, 69011-970</deliveryPoint>
+ <city>Manaus</city>
+ <administrativeArea>Amazonas</administrativeArea>
+ <country>Brasil</country>
+ </address>
+ <phone phonetype="voice">+55 92 3643 189</phone>
+ <electronicMailAddress>flaviacosta001@gmail.com</electronicMailAddress>
+ <onlineUrl>http://lattes.cnpq.br/1934019865788119</onlineUrl>
+ <role>Principal Investigator</role>
+ </personnel>
+ <funding><para>1. Programa PRONEX Edital FAPEAM/CNPq no 16/2006 / 2. Edital FAPESP/FAPEAM n&#186; 006/2009 / 3. Bolsa de mestrado concedida pelo CNPq, processo 132610/2010-8</para>
+ </funding>
+ </project>
+ <otherEntity><entityName>srtm_editado.tif</entityName>
+ <physical><objectName>srtm_editado.tif</objectName>
+ <size unit="byte">86448385</size>
+ <dataFormat><externallyDefinedFormat><formatName>image/tiff</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution id="1391114405915"><online><url function="download">ecogrid://knb/naman.323.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>Other</entityType>
+ </otherEntity>
+ </dataset>
+ </eml:eml>

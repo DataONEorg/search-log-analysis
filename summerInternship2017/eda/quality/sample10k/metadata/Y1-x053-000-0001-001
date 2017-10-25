@@ -1,0 +1,368 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>Y1.x053.000-0001-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Robert Weisberg</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>University of South Florida</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Distinguished University Professor</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>727-553-1568</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>University of South Florida College of Marine Science 140 7th Ave S</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>St. Petersburg</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>FL</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>33701</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>weisberg@usf.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2014-06-27T10:05:24-05:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/Y1.x053.000:0001</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Modeling the 2007 west Florida coastal ocean by downscaling from the deep ocean, across the continental shelf and into the estuaries.</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>Zheng and Weisberg 2012 west Florida coastal ocean circulation model</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2014-06-27</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>We arrive at a coastal ocean circulation model, suitable for downscaling from the deep ocean, across the continental shelf and into the estuaries, by nesting the unstructured grid, Finite Volume Coastal Ocean Model (FVCOM, inner model) into the structured grid, Global Hybrid Coordinate Model (HYCOM, outer model). The coastal ocean circulation model is three-dimensional, density dependent and inclusive of tides (eight constituents). A calendar year 2007 simulation for the west Florida continental shelf is quantitatively tested against in situ observations of sea level from coastal tide gauges and water column currents and temperature from moored acoustic Doppler current profilers. Agreements between model simulations and observations for both tides and low frequency variability over the calendar year demonstrate the usefulness of our approach. Model horizontal resolution varies from around 12 km at the open boundary to 150 m in the estuaries. Sensitivity experiments for vertical resolution led to the adoption of 21 &#x3C3;-layers. Several model limitations are discussed, including seasonal steric effects and deep ocean (outer) model errors that may propagate through the inner model. With adequate observations spanning the inner model domain, we may determine when the outer model is in error at the nesting zone. This finding further highlights the need for coordinating coastal ocean observing and modeling programs. The nesting of unstructured and structured grid models is a new approach to coastal ocean circulation modeling. It provides a means for circulation hindcasts and nowcasts/forecasts, and, after combining with biological process models, may provide a framework for multi-disciplinary modeling of coastal ocean ecology from the deep ocean to the head of tides. Zheng, L. and R.H. Weisberg, 2012. Modeling the west Florida coastal ocean by downscaling from the deep ocean, across the continental shelf and into the estuaries. Ocean Modelling, 48: 10-29, doi: 10.1016/j.ocemod.2012.02.002</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>To provide a three dimensional, density dependent coastal ocean circulation model that includes both local and deep ocean influences.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Robert Weisberg</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>University of South Florida</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Distinguished University Professor</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>727-553-1568</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>University of South Florida College of Marine Science 140 7th Ave S</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>St. Petersburg</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>FL</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>33701</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>weisberg@usf.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>coastal ocean circulation</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>nested models</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>FVCOM</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Global HYCOM</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>west Florida continental shelf and estuaries</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>west Florida continental shelf</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Tampa Bay</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Florida Bay</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Charlotte Harbor</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>lower Florida keys</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng; USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>oceans</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>imageryBaseMapsEarthCover</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-87.60498</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-80.222168</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>24.347097</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>30.372875</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:Polygon gml:id="Polygon" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:exterior>
+                                        <gml:LinearRing>
+                                            <gml:coordinates>30.259067,-87.604980 30.372875,-86.330566 29.611670,-85.056152 30.088108,-84.067383 29.113775,-82.814941 27.839076,-82.946777 25.284438,-81.166992 25.443275,-80.222168 24.347097,-80.639648 24.846565,-84.396973 28.516969,-87.495117 30.259067,-87.604980</gml:coordinates>
+                                        </gml:LinearRing>
+                                    </gml:exterior>
+                                </gml:Polygon>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>modeled period</gml:description>
+                                    <gml:beginPosition>2007-01-01</gml:beginPosition>
+                                    <gml:endPosition>2007-12-31</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Surface elevation and three dimensional water velocity, temperature and salinity, all in MKS units. place names are [Key Colony Beach, Vaca Key, Big Carlos Pass, Key West, Naples, Ft. Myers, Port Manatee, St. Petersburg, Port Tampa, Clearwater Beach, Cedar Key, Apalachicola, Panama City, Pensacola]. buoy names are [C10, C11, C12, C13, C14, C15, C16, C17, C18, C19]. adcp.ll-- Coordinates of the ADCP buoys: longitude (decimal degrees), latitude (decimal degrees), buoy name. elev.ll-- Coordinates of the tidal gauges: longitude (decimal degrees), latitude (decimal degrees), station name. obs_wl.dat-- Observed hourly sea level (meters), place name. obs_elev_filt.dat-- Filtered Observed sea level (meters), place name. fvcom_coast.dat-- west Florida shelf coastline data: longitude (decimal degrees), latitude (decimal degrees). tch_dep.dat-- to generate the depth contours: longitude (decimal degrees), latitude (decimal degrees), water depth (meters). tch_line.dat-- to generate the triangle grid: longitude (decimal degrees), latitude (decimal degrees). grid_infor.dat-- length of the three sides of each triangle: x coordinate of the triangle center, y coordinate of the triangle center, lengths of the three sides of the triangle (meters). mod_buoyname_harm.dat-- Modeled tide ellipse parameters at buoy name. tch_cell.ll-- coordinates of the triangle centers: longitude (decimal degrees), latitude (decimal degrees). grid_type[1,2]-- mask of the grid points: longitude (decimal degrees), latitude (decimal degrees), mask value (meters). mod_wl.dat-- Simulated hourly sea level (meters), place name. tch_wl_filt-- modeled sea level filtered (meters), place name. tch_elev_bc_gauged.dat-- filtered HYCOM simulated sea level (meters), place name. adcp_buoyname_filt-- Observed adcp filtered current at buoy name station: [surface, mid-depth, bottom] [eastern, northern] component of velocity (cm/s). buoyname_[e, n]_filt-- Observed filtered [eastern, northern] component of velocity (cm/s). tch_uv132.ll-- current data: longitude (decimal degrees), latitude (decimal degrees), eastern component of velocity (m/s), northern component of velocity (m/s). adcp_staN_[u, v].dat-- HYCOM simulated filtered [eastern, northern] component of velocity (cm/s) at buoy name station N. adcp_surf_filt-- WFCOM simulated surface filtered current (cm/s): [eastern, northern] component of velocity (cm/s), buoy name stations. adcp_buoyname_[e, n]filt-- WFCOM simulated filtered [eastern, northern] component of velocity (cm/s) at each sigma layers at buoy name station. tch_uv143.xy-- WFCOM simulated current data: x-coordinate, y-coordinate, [eastern, northern] component of velocity (m/s), [eastern, northern] component of wind velocity (m/s). hycom_uv072.dat-- HYCOM simulated current data: longitude (decimal degrees), latitude (decimal degrees), [eastern, northern] component of velocity (m/s). fig07_hycom_nesting.m-- matlab code for plotting a day's FVCOM surface current. temp_buoyname_filt-- Observed filtered temperature at each bin at given buoy name station: year (YYYY), month (MM), day (DD), filtered temperatures (Celsius). buoyname_hourly_T.mat-- Matlab data file with observed temperature (Celsius) at buoy name station. temp_[bot, sur].dat-- [Bottom, Surface] data: [x, y]-coordinates, sea elevation (m), salinity (psu), temperature (Celsius). tem_buoyname_filt-- WFCOM simulated filtered temperature at each sigma layers for given buoy name station (Celsius).|||||Zheng, L., &amp; Weisberg, R. H. (2012). Modeling the west Florida coastal ocean by downscaling from the deep ocean, across the continental shelf and into the estuaries. Ocean Modelling, 48, 10&#x2013;29, doi.org/10.1016/j.ocemod.2012.02.002.</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>6300 Ocean Drive Unit 5869</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>TX</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>https://data.gulfresearchintitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString/>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>.ll, .dat, matlab .m, .mat</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version>
+                                <gco:CharacterString/>
+                            </gmd:version>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString>zip</gco:CharacterString>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>50.7</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/Y1.x053.000:0001</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString>https</gco:CharacterString>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was automatically generated from information provided to GRIIDC for dataset: Y1.x053.000:0001</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>
+<!--Created with GRIIDC Metadata Editor 13.09 on 2014-06-27T10:11:49-05:00-->

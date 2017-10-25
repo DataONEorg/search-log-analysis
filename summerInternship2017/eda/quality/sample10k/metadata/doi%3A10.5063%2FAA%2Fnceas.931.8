@@ -1,0 +1,550 @@
+<?xml version="1.0"?><eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.0.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ds="eml://ecoinformatics.org/dataset-2.0.1" packageId="nceas.931.8" scope="system" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.0.1 eml.xsd"> <dataset scope="document"> <title>Lockwood: Late Cretaceous Molluscan Abundance Data (Sohl and Koch)</title>
+ <creator scope="document"> <organizationName>NCEAS 12081: Lockwood: RarityAndExtinction</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>NCEAS 3980: Alroy: Paleobiology Database (Hosted by NCEAS)</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Rowan</givenName>
+ <surName>Lockwood</surName>
+ </individualName>
+ <organizationName>NCEAS</organizationName>
+ <address scope="document"> <deliveryPoint>Department of Geology,
+College of William and Mary,
+PO Box 8795,</deliveryPoint>
+ <city>Williamsburg</city>
+ <administrativeArea>Virginia</administrativeArea>
+ <postalCode>23187-8795</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">757-272-2125</phone>
+ <phone phonetype="Fax">757-221-2093</phone>
+ <electronicMailAddress>rxlock@wm.edu</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Rowan</givenName>
+ <surName>Lockwood</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Rowan</givenName>
+ <surName>Lockwood</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <pubDate>2008-05-27</pubDate>
+ <abstract><para>This data set contains abundance data for fossil mollusk genera from the Late Cretaceous of the U.S. Coastal Plain published by Sohl and Koch (1983, 1984, 1987). It also contains global stratigraphic ranges, global geographic ranges, and taxonomic information for genera, downloaded from the Paleobiology Database (PBDB) at http://paleodb.org in February 2008. This data set is used to examine the link between rarity and extinction across the end-Cretaceous mass extinction in Coastal Plain mollusks.</para>
+ </abstract>
+ <keywordSet> <keyword>fossil</keyword>
+ <keyword>mollusk</keyword>
+ <keyword>Cretaceous</keyword>
+ <keyword>Maastrichtian</keyword>
+ <keyword>U.S. Coastal Plain</keyword>
+ <keyword>rarity</keyword>
+ <keyword>abundance</keyword>
+ <keyword>survivorship</keyword>
+ <keyword>selectivity</keyword>
+ <keyword>extinction</keyword>
+ <keyword>KT extinction</keyword>
+ <keywordThesaurus>None</keywordThesaurus>
+ </keywordSet>
+ <intellectualRights> <para>Obtain permission from data set owner(s)</para>
+ </intellectualRights>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1920</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>1987</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>U.S. Coastal Plain, including Texas, Mississippi, Alabama, Georgia, South Carolina, Tennessee, Missouri, Arkansas, Maryland, New Jersey.</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-106.0000</westBoundingCoordinate>
+ <eastBoundingCoordinate>-74.0000</eastBoundingCoordinate>
+ <northBoundingCoordinate>32.0000</northBoundingCoordinate>
+ <southBoundingCoordinate>40.0000</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <taxonomicCoverage scope="document"> <taxonomicClassification> <taxonRankName>Mollusca</taxonRankName>
+ <taxonRankValue>Class</taxonRankValue>
+ </taxonomicClassification>
+ </taxonomicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Rowan</givenName>
+ <surName>Lockwood</surName>
+ </individualName>
+ <organizationName>NCEAS</organizationName>
+ <address scope="document"> <deliveryPoint>Department of Geology,
+College of William and Mary,
+PO Box 8795,</deliveryPoint>
+ <city>Williamsburg</city>
+ <administrativeArea>Virginia</administrativeArea>
+ <postalCode>23187-8795</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">757-272-2125</phone>
+ <phone phonetype="Fax">757-221-2093</phone>
+ <electronicMailAddress>rxlock@wm.edu</electronicMailAddress>
+ </contact>
+<methods><methodStep><description><section><title>Sohl and Koch 1983, 1984, 1987 methods</title>
+<para>Fossil abundance data for mollusks collected from bulk and non-bulk samples. See Sohl and Koch for more details:</para>
+<para>Sohl and Koch 1983, 1984, 1987. USGS Open File Report 83-451; 84-687, 87-194.</para>
+<para>Global stratigraphic and geographic range data downloaded from the PBDB February 2008 using &quot;Analyze taxonomic range&quot;  tool.</para>
+<para>Taxonomic data downloaded from the PBDB February 2008.</para>
+<para>See metadata column descriptions for more detail.</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>R Script was used to transform the data table</title>
+<para>R Software version 2.7.0  from the R Project for Statistical Computing at (http://www.r-project.org) was used to transform the data tables to make it easier to document the original table. The script is included in this data set as a dowloadable r file called lockwood_transform.r. There is also a lockwood_recreate.r script that will recreate Rowan Lockwood&apos;s original data table by joining the two tables that are stored in the data repository.</para>
+</section>
+</description>
+</methodStep>
+<sampling><studyExtent><description><para>Original fossil abundance data compiled by Sohl and Koch from the literature and their own field samples up until 1980&apos;s. Taxonomic, stratigraphic, and geographic range data compiled in PBDB.</para>
+</description>
+</studyExtent>
+<samplingDescription><para>Fossil abundance data collected in part via bulk sampling.</para>
+</samplingDescription>
+</sampling>
+</methods>
+  <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=lockwood,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataTable id="1214256360025" scope="document"> <entityName>lockwood_traits.csv</entityName>
+ <entityDescription>Species Traits information</entityDescription>
+ <physical id="1214256353116" scope="document"> <objectName>lockwood_traits.csv</objectName>
+ <size unit="byte">84263</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/nceasadmin.911.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1214256360026" scope="document"> <attributeName>&quot;Number&quot;</attributeName>
+ <attributeDefinition>Unique identifier for the record, internal numbering system</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Unique identifier for the record</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360027" scope="document"> <attributeName>&quot;Class_name&quot;</attributeName>
+ <attributeDefinition>taxonomic class name (PBDB)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>class</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360028" scope="document"> <attributeName>&quot;Order_name&quot;</attributeName>
+ <attributeDefinition>taxonomic order name (PBDB)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>order</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360029" scope="document"> <attributeName>&quot;Family_name&quot;</attributeName>
+ <attributeDefinition>taxonomic family name (PBDB)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>family</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360030" scope="document"> <attributeName>&quot;Genus_name&quot;</attributeName>
+ <attributeDefinition>taxonomic genus name (PBDB)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>genus</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360031" scope="document"> <attributeName>&quot;Subgenus_name&quot;</attributeName>
+ <attributeDefinition>taxonomic subgenus name (PBDB)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>subgenus</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360032" scope="document"> <attributeName>&quot;Singleton&quot;</attributeName>
+ <attributeDefinition>genus is singleton (=only one individual of genus recorded in Sohl and Koch dataset; 1) or not (0)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>1</code>
+ <definition>only one individual of genus recorded in Sohl and Koch dataset</definition>
+ </codeDefinition>
+ <codeDefinition> <code>0</code>
+ <definition>only one individual or genus not recorded</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360033" scope="document"> <attributeName>&quot;Singleloc&quot;</attributeName>
+ <attributeDefinition>genus is singleloc (=genus only recorded in one locality in Sohl and Koch dataset; 1) or not (0)</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>1</code>
+ <definition>genus only recorded in one locality</definition>
+ </codeDefinition>
+ <codeDefinition> <code>0</code>
+ <definition>genus not recorded in only one locality</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360034" scope="document"> <attributeName>&quot;FO&quot;</attributeName>
+ <attributeDefinition>first occurrence (i.e., oldest global stratigraphic occurrence of genus (millions of years ago))(PBDB)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360035" scope="document"> <attributeName>&quot;LO&quot;</attributeName>
+ <attributeDefinition>last occurrences (i.e., youngest global stratigraphic occurrence of genus (millions of years ago))(PBDB)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360036" scope="document"> <attributeName>&quot;Dur&quot;</attributeName>
+ <attributeDefinition>global stratigraphic duration of genus (Last Occurrence - First Occurrence; millions of years)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360037" scope="document"> <attributeName>&quot;DurwCI&quot;</attributeName>
+ <attributeDefinition>global stratigraphic duration of genus (Last Occurence - First Occurrence) plus confidence intervals (millions of years)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360038" scope="document"> <attributeName>&quot;Predur&quot;</attributeName>
+ <attributeDefinition>Last Occurrences minus date of the KT (Cretaceous–Tertiary) mass extinction (65.5 Ma)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360039" scope="document"> <attributeName>&quot;Postdur&quot;</attributeName>
+ <attributeDefinition>Date of the KT mass extinction (65.5Ma) minus First Occurrence</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360040" scope="document"> <attributeName>&quot;KT&quot;</attributeName>
+ <attributeDefinition>genus is victim (=0) or survivor (=1) of KT (Cretaceous–Tertiary) mass extinction; based on global stratigraphic range</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360041" scope="document"> <attributeName>&quot;Extant&quot;</attributeName>
+ <attributeDefinition>genus ranges to the Recent (=1) or not (=0); based on global stratigraphic range</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360042" scope="document"> <attributeName>&quot;CI&quot;</attributeName>
+ <attributeDefinition>length of 95% stratigraphic confidence interval (millions of years; PBDB; see also Strauss &amp; Sadler 1989 Mathematical Geology 21:411-427)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360043" scope="document"> <attributeName>&quot;Horizons&quot;</attributeName>
+ <attributeDefinition>number of stratigraphic occurrences in which genus is recorded (PBDB)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360044" scope="document"> <attributeName>&quot;GCDsphere&quot;</attributeName>
+ <attributeDefinition>great circle distance (assuming spherical Earth) for genus occurrences, based on global paleolat/long data (PBDB)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360045" scope="document"> <attributeName>&quot;GCDoblate&quot;</attributeName>
+ <attributeDefinition>great circle distance (assuming oblate Earth) for genus occurrences, based on global paleolat/long data (PBDB)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360046" scope="document"> <attributeName>&quot;Equalcells&quot;</attributeName>
+ <attributeDefinition>number of equal area grid cells (2deg x 2deg) in which a genus occurs, based on global paleolat/long data (PBDB; see also Foote 2008 Paleobiology 33:517-529)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360047" scope="document"> <attributeName>&quot;Occupancy&quot;</attributeName>
+ <attributeDefinition>proportion of Sohl and Koch localities in which genus occurs (PBDB)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360048" scope="document"> <attributeName>&quot;SDDCA&quot;</attributeName>
+ <attributeDefinition>measure of habitat breadth; standard deviation of first axis of detrended correspondence analyses of Sohl and Koch data for localities in which each genus occurs (PBDB; see also Holland et al. 2001 Palaios 16:205-217)</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360049" scope="document"> <attributeName>&quot;Sumabun&quot;</attributeName>
+ <attributeDefinition>sum of raw abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360050" scope="document"> <attributeName>&quot;Meanabun&quot;</attributeName>
+ <attributeDefinition>mean of raw abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360051" scope="document"> <attributeName>&quot;CVabun&quot;</attributeName>
+ <attributeDefinition>coefficient of variation of raw abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360052" scope="document"> <attributeName>&quot;Ranksum&quot;</attributeName>
+ <attributeDefinition>sum of rank abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360053" scope="document"> <attributeName>&quot;Rankmean&quot;</attributeName>
+ <attributeDefinition>mean of rank abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360054" scope="document"> <attributeName>&quot;RankCV&quot;</attributeName>
+ <attributeDefinition>coefficient of variation of rank abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360055" scope="document"> <attributeName>&quot;Propsum&quot;</attributeName>
+ <attributeDefinition>sum of proportional abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360056" scope="document"> <attributeName>&quot;Propmean&quot;</attributeName>
+ <attributeDefinition>mean of proportional abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214256360057" scope="document"> <attributeName>&quot;PropCV&quot;</attributeName>
+ <attributeDefinition>coefficient of variation of proportional abundance for genus across Sohl and Koch dataset</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>290</numberOfRecords>
+ </dataTable>
+ <dataTable id="1214258434441" scope="document"> <entityName>lockwood_abundance.csv</entityName>
+ <entityDescription>Abundance data</entityDescription>
+ <physical id="1214258432601" scope="document"> <objectName>lockwood_abundance.csv</objectName>
+ <size unit="byte">1388366</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/nceasadmin.912.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1214258434442" scope="document"> <attributeName>&quot;Number&quot;</attributeName>
+ <attributeDefinition>This number references the trait record in the traits table</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Unique id</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214258434443" scope="document"> <attributeName>&quot;Location&quot;</attributeName>
+ <attributeDefinition>Location number</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>location number</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214258434444" scope="document"> <attributeName>&quot;X&quot;</attributeName>
+ <attributeDefinition>raw abundance for Sohl and Koch</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214258434445" scope="document"> <attributeName>&quot;PX&quot;</attributeName>
+ <attributeDefinition>proportional abundance for Sohl and Koch</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.000000001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1214258434446" scope="document"> <attributeName>&quot;RX&quot;</attributeName>
+ <attributeDefinition>rank abundance for Sohl and Koch</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>75170</numberOfRecords>
+ </dataTable>
+ <otherEntity id="1214844576979" scope="document"><entityName>lockwood_transform.r</entityName>
+ <entityDescription>R script for transforming Rowan Lockwood&apos;s original data into the two  tables that are included in the data registry.</entityDescription>
+ <physical id="1214844575476" scope="document"><objectName>lockwood_transform.r</objectName>
+ <size unit="byte">2108</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter> </fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/nceasadmin.914.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>r script</entityType>
+ </otherEntity>
+ <otherEntity id="1214844685156" scope="document"><entityName>lockwood_recreate.r</entityName>
+ <entityDescription>R script for recreating Rowan Lockwood&apos;s original data table by  joining the two tables that are stored in the data repository.</entityDescription>
+ <physical id="1214844684065" scope="document"><objectName>lockwood_recreate.r</objectName>
+ <size unit="byte">821</size>
+ <dataFormat><textFormat><numHeaderLines>0</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter> </fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"><online><url function="download">ecogrid://knb/nceasadmin.915.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <entityType>r script</entityType>
+ </otherEntity>
+ </dataset>
+ <additionalMetadata> <describes>1214256353116</describes>
+ <consecutiveDelimiters>true</consecutiveDelimiters>
+ </additionalMetadata>
+ </eml:eml>

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="dhwang.24.1" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+<allow><principal>uid=beer,o=TFRI,dc=ecoinformatics,dc=org</principal>
+<permission>read</permission>
+</allow>
+</access>
+ <dataset> <title>中部地區台灣肖楠林分生長模擬體系之建立</title>
+ <creator id="1460079933061"> <individualName><givenName>大雄</givenName>
+<surName>汪</surName>
+</individualName>
+<organizationName>行政院農業委員會林業試驗所</organizationName>
+<positionName>研究員</positionName>
+<address><deliveryPoint>100台北市南海路53號</deliveryPoint>
+<city>台北市</city>
+<postalCode>100</postalCode>
+</address>
+<phone phonetype="voice">23039978-1319</phone>
+<electronicMailAddress>dhwang@tfri.gov.tw</electronicMailAddress>
+</creator>
+ <abstract><para>就選擇之台灣中部地區不同齡級，不同地位台灣肖楠造林地人工林樣區，進行各樣區肖楠人工林屬性之分析，地位木胸高直徑生長之解析，林分密度模式配置。建立肖楠人工林地位指數模式，分析林分空間結構，和建立胸徑分化指標模式。 並撰寫程式，進行台灣肖楠生長模擬器軟體之開發與設計。</para>
+</abstract>
+<keywordSet><keyword>肖楠</keyword>
+<keyword>人工林</keyword>
+<keyword>樹幹解析</keyword>
+<keyword>蓮華池</keyword>
+</keywordSet>
+<intellectualRights><para>需與汪大雄博士聯繫，並取得汪大雄博士同意，方可使用研究資料。</para>
+</intellectualRights>
+<coverage><geographicCoverage><geographicDescription>林業試驗所蓮華池研究中心與林務局位在中部地區台灣肖楠人工林所設置之永久樣區</geographicDescription>
+<boundingCoordinates><westBoundingCoordinate>121.0</westBoundingCoordinate>
+<eastBoundingCoordinate>121.0</eastBoundingCoordinate>
+<northBoundingCoordinate>24.0</northBoundingCoordinate>
+<southBoundingCoordinate>24.0</southBoundingCoordinate>
+</boundingCoordinates>
+</geographicCoverage>
+<temporalCoverage><singleDateTime><calendarDate>2015</calendarDate>
+</singleDateTime>
+</temporalCoverage>
+</coverage>
+<contact><references>1460079933061</references>
+</contact>
+<methods><methodStep><description><section><title>選木</title>
+<para>就台灣中部地區台灣肖楠造林地，選擇五處地區, 不同齡級(10年生至70年生</para>
+<para>)，不同地位和不同育林策略下之 人工林設置樣區，進行林木生長之監測與資料收</para>
+<para>集。</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>分析</title>
+<para>收集台灣肖楠過去有關生長研究結果並進行分析。</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>取樣</title>
+<para>使用生長錐進行蓮華池肖楠人工林地位木之木條取樣。</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>選區</title>
+<para>使用林務局位在中部地區台灣肖楠人工林所設置之永久樣區。</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>評估</title>
+<para>進行林分地位生產力之評估。</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>計算分析</title>
+<para>以經驗式或理論模式對林分胸徑、樹高、斷面積、材積、林木枯死和林分密度等</para>
+<para>各項生長進行單項模式之配置。</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>生長模擬</title>
+<para>整合各單項生長之推估模式，組合成一整體之台灣肖楠生長模式，並進行 台灣肖楠林分生長之模擬。</para>
+</section>
+</description>
+</methodStep>
+<methodStep><description><section><title>撰寫軟體</title>
+<para>撰寫軟體，進行台灣肖楠生長模擬器軟體之開發與設計。</para>
+</section>
+</description>
+</methodStep>
+</methods>
+<dataTable id="1460081272084"><entityName>蓮華池肖楠人工林樹幹解析</entityName>
+<entityDescription>蓮華池肖楠人工林樣木各年度年輪寬平均數據</entityDescription>
+<physical><objectName>tree.csv</objectName>
+<dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+<simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+</simpleDelimited>
+</textFormat>
+</dataFormat>
+<distribution><online><url>ecogrid://knb/dhwang.23.1</url>
+</online>
+</distribution>
+</physical>
+<attributeList><attribute id="1460081272100"><attributeName>year</attributeName>
+<attributeDefinition>該樣木在某西元年生長資料</attributeDefinition>
+<measurementScale><dateTime><formatString>YYYY</formatString>
+<dateTimePrecision>1年</dateTimePrecision>
+</dateTime>
+</measurementScale>
+<missingValueCode><code>NA</code>
+<codeExplanation>資料缺失</codeExplanation>
+</missingValueCode>
+</attribute>
+<attribute id="1460081272115"><attributeName>number</attributeName>
+<attributeDefinition>樹木編號</attributeDefinition>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>樣區_樹號</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+<attribute id="1460081272131"><attributeName>width</attributeName>
+<attributeDefinition>該年度樣木生長的年輪寬度</attributeDefinition>
+<measurementScale><ratio><unit><standardUnit>millimeter</standardUnit>
+</unit>
+<precision>0.01</precision>
+<numericDomain><numberType>natural</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+<missingValueCode><code>NA</code>
+<codeExplanation>資料缺失</codeExplanation>
+</missingValueCode>
+</attribute>
+</attributeList>
+</dataTable>
+</dataset>
+ </eml:eml>

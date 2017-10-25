@@ -1,0 +1,3596 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:stmml="http://www.xml-cml.org/schema/stmml-1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packageId="df35b.248.3" system="knb" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+  <access order="allowFirst" authSystem="knb">
+    <allow>
+      <principal>cn=evos,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+      <permission>all</permission>
+    </allow>
+  </access>
+  <dataset>
+    <title>Analysis of hydrocarbons following the Exxon Valdez oil spill, Gulf of Alaska, 1989 - 2014</title>
+    <creator id="1428093495114">
+      <individualName>
+        <givenName>Mark</givenName>
+        <surName>Carls</surName>
+      </individualName>
+      <organizationName>National Oceanic and Atmospheric Administration (NOAA) Alaska Fisheries Science Center (AFSC) Auke Bay Laboratories (ABL)</organizationName>
+      <address>
+        <deliveryPoint>17109 Point Lena Loop Road</deliveryPoint>
+        <city>Juneau</city>
+        <administrativeArea>AK</administrativeArea>
+        <postalCode>99801</postalCode>
+      </address>
+      <electronicMailAddress>mark.carls@noaa.gov</electronicMailAddress>
+    </creator>
+    <associatedParty id="1428093714703">
+      <individualName>
+        <givenName>Jessica</givenName>
+        <surName>Couture</surName>
+      </individualName>
+      <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+      <positionName>Research Assistant</positionName>
+      <address>
+        <deliveryPoint>735 State St., Suite 300</deliveryPoint>
+        <city>Santa Barbara</city>
+        <administrativeArea>CA</administrativeArea>
+        <postalCode>93101</postalCode>
+        <country>USA</country>
+      </address>
+      <electronicMailAddress>couture@nceas.ucsb.edu</electronicMailAddress>
+      <role>Metadata Provider</role>
+    </associatedParty>
+    <abstract>
+      <para>This hydrocarbon database was initiated after the Exxon Valdez oil spill in 1989. The first version was as an RBase database, PWSOIL(Short, Heintz et al. 1996). It migrated to a proprietary structure in 1997, EVTHD (Exxon Valdez Oil Spill
+                Trustee Council Hydrocarbon Database) and contained the collection and hydrocarbon analysis information for environmental samples obtained for the Exxon Valdez National Resource Damage Assessment and Restoration efforts. The data were organized into
+                three matrix types, tissues, sediment, and seawater. The analytical results included concentrations of 63 hydrocarbons, summary statistics for the evaluation of the hydrocarbon sources and laboratory quality control data. Features of the database
+                included identification of replicate samples, presentation of results in dry or wet weight, optional correction for method detection limits (MDL) of the analytes, and easy identification of samples contaminated with Exxon Valdez crude oil. This
+                structure, written in Visual Basic, ceased to function well when Windows operating systems were upgraded to XP and the data were moved to a Microsoft Access format. The 2014 version continues in Access and is described in the included lexicon
+                document. The 2014 version also includes a data analysis tool (Excel Office 2007 or greater) that flags recovery problems, provides method detection limit filtration (MDL), and source oil modeling. The data should not be used without understanding
+                these details. Further instructions are in the lexicon document. These data are included here as exported csv files of the individual tables from the original MS Access database file available at
+                http://portal.aoos.org/gulf-of-alaska.php#metadata/91b73240-b68d-43d8-bd64-aea4ea14e976/project/files. The DataDownload.R script used to download these csv files is also included here. The data have been manipulated and combined using the R script
+                below (Total_PAH_and_Alkanes_GoA_Hydrocarbons_Clean.R), and output into the Total_Aromatic_Alkanes_PWS.csv file.</para>
+    </abstract>
+    <keywordSet>
+      <keyword>Exxon Valdez</keyword>
+      <keyword>oil spill</keyword>
+      <keyword>hydrocarbon</keyword>
+      <keyword>oil</keyword>
+      <keyword>pah</keyword>
+      <keyword>alkane</keyword>
+      <keyword>Alaska</keyword>
+      <keyword>EVOS</keyword>
+    </keywordSet>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Gulf of Alaska, Alaksa</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-159.8752</westBoundingCoordinate>
+          <eastBoundingCoordinate>-121.65</eastBoundingCoordinate>
+          <northBoundingCoordinate>61.77312</northBoundingCoordinate>
+          <southBoundingCoordinate>43.83333</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>1989</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2014</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <references>1428093495114</references>
+    </contact>
+    <contact id="1428093606116">
+      <individualName>
+        <givenName>Mandy</givenName>
+        <surName>Lindeberg</surName>
+      </individualName>
+      <organizationName>National Oceanic and Atmospheric Administration (NOAA)</organizationName>
+      <electronicMailAddress>mandy.lindeberg@noaa.gov</electronicMailAddress>
+    </contact>
+    <dataTable id="1428534893270">
+      <entityName>Total_Aromatic_Alkanes_PWS.csv</entityName>
+      <entityDescription>Combined dataset from PAH, Alkane and Sample tables documenting samples collected after the Exxon Valdez oil spill in Prince William Sound, AK</entityDescription>
+      <physical id="1428519741541">
+        <objectName>Total_Aromatic_Alkanes_PWS.csv</objectName>
+        <size unit="byte">2801033</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/urn:uuid:44108e76-405d-4d58-b1b3-fb4b55e3fff9</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1428534893271">
+          <attributeName>Funding</attributeName>
+          <attributeDefinition>Funding source for sample collected</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>EVOSTC</code>
+                    <definition>Exxon Valdez Oil Spill Trustee Council</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893272">
+          <attributeName>Sin</attributeName>
+          <attributeDefinition>Sample Identification Numbers uniquely identify each sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample ID</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893273">
+          <attributeName>Rep</attributeName>
+          <attributeDefinition>Rep is sample replicate number and is determined by the analytical laboratory</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>natural</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893274">
+          <attributeName>LAB</attributeName>
+          <attributeDefinition>Identifies the laboratory where the analysis was performed (Auke Bay Laboratory)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ABL</code>
+                    <definition>Auke Bay Laboratory</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>GERG</code>
+                    <definition>Geochemical and Environmental Research Group, Texas A&amp;M</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NECD</code>
+                    <definition>National Emission Ceilings Directive</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893275">
+          <attributeName>QCbatch</attributeName>
+          <attributeDefinition>Sample string; structure is either Ammddy, where A = analyst's initial or "R" for restoration, mm = month, dd = day, and yy = year or yyyy-mmddAA, where yyyy = year, mm = month, dd = day, and AA are analyst's initials</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893276">
+          <attributeName>strMAT</attributeName>
+          <attributeDefinition>String matrix. Contains the same basic information as Analysis type - but a single string can have more than one matrix represented.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>string matrix</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893277">
+          <attributeName>Vol</attributeName>
+          <attributeDefinition>Sample volume in milliliters (water only)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1428534893278">
+          <attributeName>Proportion</attributeName>
+          <attributeDefinition>Proportion of passive sample analyzed (generally 0.5 or 1)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1428534893279">
+          <attributeName>DryWt</attributeName>
+          <attributeDefinition>Sample dry weight in grams</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893280">
+          <attributeName>WetWt</attributeName>
+          <attributeDefinition>Sample wet weight in grams</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893281">
+          <attributeName>AnalysisType</attributeName>
+          <attributeDefinition>Each matrix is processessed according to a specific method. These methods are PEMD (passive samplers), SPMD (an alternative passive sampler), sediment, tissue, water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SEDIMENT</code>
+                    <definition>sediment</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TISSUE</code>
+                    <definition>tissue</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATER</code>
+                    <definition>water</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893282">
+          <attributeName>Catno</attributeName>
+          <attributeDefinition>Alphanumeric identifier to track groups of samples released by the database manager to an analytical laboratory for analysis</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample group</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893283">
+          <attributeName>comment</attributeName>
+          <attributeDefinition>comment</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>notes</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1428534893284">
+          <attributeName>TtlAromatic</attributeName>
+          <attributeDefinition>Sum of all measured polycyclic aromatic hydrocarbons (PAH) from PAH table (including "DIMETH"", "TRIMETH", and "MEPHEN1"; see "TPAH_adj" for sum excluding these three anlaytes)</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute>
+          <attributeName>TPAH_adj</attributeName>
+          <attributeDefinition>Sum of measured polycyclic aromatic hydrocarbons (PAH) from PAH table, excluding "DIMETH"", "TRIMETH", and "MEPHEN1"</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893286">
+          <attributeName>TOTALKANES</attributeName>
+          <attributeDefinition>Total alkane concentration, including both calibrated and uncalibrated compounds</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893287">
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Optional sample depth in meters, measured from mean lower low water (MLLW) as measured or estimated by the sample collector</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>integer</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893288">
+          <attributeName>Project</attributeName>
+          <attributeDefinition>Abbreviated names for Exxon Valdez Trustee Natural Resource Damage Assessment and Restoration projects</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>project</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893289">
+          <attributeName>projectCode</attributeName>
+          <attributeDefinition>Provides the project number assigned by the funding agency (required for EVOSTC projects). For further project detail, use projectCode with the EVOSTC website search engine (http://www.evostc.state.ak.us/Projects/SearchStart.cfm)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>evostc project code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893290">
+          <attributeName>invest</attributeName>
+          <attributeDefinition>Alphanumeric identifier assigned to the sample by field personnel or the principal investigator.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>invest</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893291">
+          <attributeName>CollectMethod</attributeName>
+          <attributeDefinition>Method used to collect the sample. See table Collection Methods for further detail.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <entityCodeList>
+                    <entityReference>1428535541526</entityReference>
+                    <valueAttributeReference>1428535541527</valueAttributeReference>
+                    <definitionAttributeReference>1428535541528</definitionAttributeReference>
+                  </entityCodeList>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893292">
+          <attributeName>matrix</attributeName>
+          <attributeDefinition>Identifies sample type. Valid sample types (as of 2013) are agarose, blank, coal, creosote, oil, suspended particulate matter (PARTICLT), peat, PEMD, sediment, SPMD, tissue, rinse, and water.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>SEDIMENT</code>
+                    <definition>sediment, nanogramsPerGram, parts per billion</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TISSUE</code>
+                    <definition>tissue, nanogramsPerGram, parts per billion</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>WATER</code>
+                    <definition>water, nanogramsPerLiter, parts per trillion</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893293">
+          <attributeName>SubMatrix</attributeName>
+          <attributeDefinition>Specific additional information about matrix [such as WHOLE (whole specimen), egg, stomach, tarball and asphalt].</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>matrix detail</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893294">
+          <attributeName>species</attributeName>
+          <attributeDefinition>Species used for tissue samples. See table species for further explanation</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>species code</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893295">
+          <attributeName>DateCollected</attributeName>
+          <attributeDefinition>Date sample was collected (required).</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>dd-Mon-YY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893296">
+          <attributeName>Year</attributeName>
+          <attributeDefinition>Year sample was collected (required)</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893297">
+          <attributeName>location</attributeName>
+          <attributeDefinition>General sample collection area (required); see table LOCATION for abbreviations. Location refers to general areas, not specific latitudes and longitudes. Lat and Long also provided.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>locations</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893298">
+          <attributeName>sampler</attributeName>
+          <attributeDefinition>Last name of individual responsible for the collecting, handling, and security of field samples.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sampler name</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893299">
+          <attributeName>agency</attributeName>
+          <attributeDefinition>Organization responsible for sample collection</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>NMFS ABL</code>
+                    <definition>NOAA National Marine Fisheries Service, Auk Bay Labs</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ADF&amp;G</code>
+                    <definition>Alaska Dept of Fish and Game</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS KOD</code>
+                    <definition>NOAA National Marine Fisheries Service, Kodiak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UA IMS</code>
+                    <definition>Univ of Alaska, Institute of Marine Science</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UA IAB</code>
+                    <definition>Univ of Alaska, Institute of Arctic Biology</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ADEC</code>
+                    <definition>Alaska Department of Environmental Conservation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FWS</code>
+                    <definition>US Fish and Wildlife Service</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not applicable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS ECD</code>
+                    <definition>NOAA National Marine Fisheries Service, ECD</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS MML</code>
+                    <definition>NOAA National Marine Fisheries Service, MML</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893300">
+          <attributeName>LAT</attributeName>
+          <attributeDefinition>Latitude in decimal degrees</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893301">
+          <attributeName>LONG</attributeName>
+          <attributeDefinition>Longitude in decimal degrees</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428534893302">
+          <attributeName>SampleType</attributeName>
+          <attributeDefinition>Identifies the type of sample: ENV = environmental, EXP = experimental, blank = blank sample for quality assurance purposes, spike = spiked blank, OTHR = other type of sample (e.g., samples collected to test municipal water supply).</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>ENV</code>
+                    <definition>environmental</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>Not applicable</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>Not applicable</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="1428534893303">
+          <attributeName>QCERROR</attributeName>
+          <attributeDefinition>Identifier of reliability of the analytical results for individual samples. Good = no problems, BIAS = probable problems with the analytical data (Short et al. 1996b)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>GOOD</code>
+                    <definition>no problems</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NA</code>
+                    <definition>not applicable</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NECD</code>
+                    <definition>necd</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>12142</numberOfRecords>
+    </dataTable>
+    <dataTable id="1428535541526">
+      <entityName>CollectionMethods.csv</entityName>
+      <entityDescription>Collection method codes</entityDescription>
+      <physical id="1428535374675">
+        <objectName>CollectionMethods.csv</objectName>
+        <size unit="byte">793</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>0</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/urn:uuid:66c416af-84e6-4c7e-92a9-4413cf8acd7b</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1428535541527">
+          <attributeName>methodCode</attributeName>
+          <attributeDefinition>Collection method abbreviation as designated in data tables</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Collection method abbreviation</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="1428535541528">
+          <attributeName>Description</attributeName>
+          <attributeDefinition>Description of collection method</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>collection method description</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>38</numberOfRecords>
+    </dataTable>
+    <dataTable id="1428535802456">
+      <entityName>Non-EVOS_SINs.csv</entityName>
+      <entityDescription>Sample ID numbers that are not funded by EVOSTC, used in R script to isolate EVOS samples</entityDescription>
+      <physical id="1428535705153">
+        <objectName>Non-EVOS_SINs.csv</objectName>
+        <size unit="byte">3545</size>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>u</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/urn:uuid:ae595730-172a-43d0-91f8-3173663d7dce</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="1428535802457">
+          <attributeName>Sin</attributeName>
+          <attributeDefinition>Sample Identification Numbers uniquely identify each sample. This set represents samples that were funded by sources other than the Exxon Valdez Oil Spill Trustee Council (EVOSTC)</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sin</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>392</numberOfRecords>
+    </dataTable>
+    <dataTable>
+      <entityName>PAH.csv</entityName>
+      <physical>
+        <objectName>PAH.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/urn:uuid:5cde46ff-2e8e-4f40-97a1-eb4c4851f22f</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SIN</attributeName>
+          <attributeLabel>Sample Identification Number</attributeLabel>
+          <attributeDefinition>A number that unique identifies each sample.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>4 digit codes in the format 9999</definition>
+                  <pattern>[0-9]{4}</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>type</attributeName>
+          <attributeDefinition>The type of the sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The type of the sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Rep</attributeName>
+          <attributeDefinition>Rep is sample replicate number and is determined by the analytical laboratory</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Rep is sample replicate number and is determined by the analytical laboratory</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LAB</attributeName>
+          <attributeDefinition>Identifies the laboratory where the analysis was performed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Identifies the laboratory where the analysis was performed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>QCbatch2010</attributeName>
+          <attributeDefinition>Sample string, structure is either AMMDDYY, where A = initial of analyst or "R" for restoration, or YYYYMMDDAA</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sample string, structure is either AMMDDYY, where A = initial of analyst or "R" for restoration, or YYYYMMDDAA</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DateExtracted</attributeName>
+          <attributeDefinition>The date the sample was extracted.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>strMat</attributeName>
+          <attributeDefinition>String matrix. Contains the same basic information as analysis type but a single string can have more than one matrix represented</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>String matrix. Contains the same basic information as analysis type but a single string can have more than one matrix represented</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LabSam</attributeName>
+          <attributeDefinition>Lab sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lab sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Vol</attributeName>
+          <attributeDefinition>The volume of the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Proportion</attributeName>
+          <attributeDefinition>Proportion of passive sample analyzed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DryWt</attributeName>
+          <attributeDefinition>Sample dry weight</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WetWt</attributeName>
+          <attributeDefinition>Sample wet weight</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AnalysisType</attributeName>
+          <attributeDefinition>Each matrix is processed according to a specific model. These methods are PEMD (passive samplers), SPMD (an alternative passive sampler), sediment, tissue, water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Each matrix is processed according to a specific model. These methods are PEMD (passive samplers), SPMD (an alternative passive sampler), sediment, tissue, water</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Catno</attributeName>
+          <attributeDefinition>Alphanumeric identifier to track groups of samples released by the database manager to an analytical laboratory for analysis</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alphanumeric identifier to track groups of samples released by the database manager to an analytical laboratory for analysis</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>NaphD8</attributeName>
+          <attributeDefinition>The percent of naphthalene-D8 in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Acend10</attributeName>
+          <attributeDefinition>The percent of acenaphthene-d10 in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Phend10</attributeName>
+          <attributeDefinition>The percent of phenanthrene-d10 in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Anthra10</attributeName>
+          <attributeDefinition>The amount of anthracene-d10 in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Banth12</attributeName>
+          <attributeDefinition>The percent of benzo(a)anthracene-d12 in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Chryd12</attributeName>
+          <attributeDefinition>The percent of chrysene-d12 in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Benad12</attributeName>
+          <attributeDefinition>The percent of benzo(a)pyrene-d12 in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Peryd12</attributeName>
+          <attributeDefinition>The percent of perylene-d12 in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Units</attributeName>
+          <attributeDefinition>The units of the sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The units of the sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Naph</attributeName>
+          <attributeDefinition>The amount of naphthalene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Menap2</attributeName>
+          <attributeDefinition>The amount of 2-methylnaphthalene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MENAP1</attributeName>
+          <attributeDefinition>The amount of 1-methylnaphthalene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DIMETH</attributeName>
+          <attributeDefinition>The amount of dimethylnaphthalene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TRIMETH</attributeName>
+          <attributeDefinition>The amount of trimethylnaphthalene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C3NAPH</attributeName>
+          <attributeDefinition>The amount of C3 naphthalene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BIPHENYL</attributeName>
+          <attributeDefinition>The amount of biphenyl in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ACENTHY</attributeName>
+          <attributeDefinition>The amount of acenaphthylene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ACENTHE</attributeName>
+          <attributeDefinition>The amount of acenaphthene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Fluorene</attributeName>
+          <attributeDefinition>The amount of fluorene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C1FLUOR</attributeName>
+          <attributeDefinition>The amount of C1-fluorene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C2FLUOR</attributeName>
+          <attributeDefinition>The amount of C2-fluorene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C3FLUOR</attributeName>
+          <attributeDefinition>The amount of C3-fluorene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C4FLUOR</attributeName>
+          <attributeDefinition>The amount of C4-fluorene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DITHIO</attributeName>
+          <attributeDefinition>The amount of dibenzothiuophene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C1DITHIO</attributeName>
+          <attributeDefinition>The amount of C1-dibenzothiophene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C2DITHIO</attributeName>
+          <attributeDefinition>The amount of C2-dibenzothiophene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C3DITHIO</attributeName>
+          <attributeDefinition>The amount of C3-dibenzothiophene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C4DITHIO</attributeName>
+          <attributeDefinition>The amount of C4-dibenzothiophene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PHENANTH</attributeName>
+          <attributeDefinition>The amount of phenanthrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>MEPHEN1</attributeName>
+          <attributeDefinition>The amount of 1-methylphenanthrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C1PHENAN</attributeName>
+          <attributeDefinition>The amount of C1-phenanthrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C2PHENAN</attributeName>
+          <attributeDefinition>The amount of C2-phenanthrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C3PHENAN</attributeName>
+          <attributeDefinition>The amount of C3-phenanthrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C4PHENAN</attributeName>
+          <attributeDefinition>The amount of C4-phenanthrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>ANTHRA</attributeName>
+          <attributeDefinition>The percent of benzo(a)anthracene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FLUORANT</attributeName>
+          <attributeDefinition>The amount of benzo(b)fluoranthene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PYRENE</attributeName>
+          <attributeDefinition>The amount of ideno(1,2,3-cd)pyrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C1FLUORA</attributeName>
+          <attributeDefinition>The amount of C1-fluoranthene/pyrenes in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C2FLUORA</attributeName>
+          <attributeDefinition>The amount of C2-fluoranthene/pyrenes in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C3FLUORA</attributeName>
+          <attributeDefinition>The amount of C3-fluoranthene/pyrenes in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C4FLUORA</attributeName>
+          <attributeDefinition>The amount of C4-fluoranthene/pyrenes in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BENANTH</attributeName>
+          <attributeDefinition>The amount of benz[a]anthracene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CHRYSENE</attributeName>
+          <attributeDefinition>The amount of chrysene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C1CHRYS</attributeName>
+          <attributeDefinition>The amount of C1-chrysene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C2CHRYS</attributeName>
+          <attributeDefinition>The amount of C2-chrysene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C3CHRYS</attributeName>
+          <attributeDefinition>The amount of C3-chrysene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C4CHRYS</attributeName>
+          <attributeDefinition>The amount of C4-chrysene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BENZOBFL</attributeName>
+          <attributeDefinition>The amount of benzo[b]fluoranthene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BENZOKFL</attributeName>
+          <attributeDefinition>The amount of benzo[k]fluoranthene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BENEPY</attributeName>
+          <attributeDefinition>The amount of benzo[e]pyrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PERYLENE</attributeName>
+          <attributeDefinition>The amount of perylene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>INDENO</attributeName>
+          <attributeDefinition>The amount of indeno[1,2,3-c,d]pyrene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DIBENZ</attributeName>
+          <attributeDefinition>The amount of dibenz[ah]anthracene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>BENZOP</attributeName>
+          <attributeDefinition>The amount of benzo[ghi]perylene in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>comment</attributeName>
+          <attributeDefinition>Comment on the observation, if any</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Comment on the observation, if any</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>Alkane.csv</entityName>
+      <physical>
+        <objectName>Alkane.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/urn:uuid:d31ea97c-e061-43f8-af06-62664671f166</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SIN</attributeName>
+          <attributeLabel>Sample Identification Number</attributeLabel>
+          <attributeDefinition>A number that unique identifies each sample.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>4 digit codes in the format 9999</definition>
+                  <pattern>[0-9]{4}</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>type</attributeName>
+          <attributeDefinition>The type of the sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The type of the sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Rep</attributeName>
+          <attributeDefinition>Rep is sample replicate number and is determined by the analytical laboratory</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Rep is sample replicate number and is determined by the analytical laboratory</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LAB</attributeName>
+          <attributeDefinition>Identifies the laboratory where the analysis was performed</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Identifies the laboratory where the analysis was performed</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>QCbatch2010</attributeName>
+          <attributeDefinition>Sample string, structure is either AMMDDYY, where A = initial of analyst or "R" for restoration, or YYYYMMDDAA</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sample string, structure is either AMMDDYY, where A = initial of analyst or "R" for restoration, or YYYYMMDDAA</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DateExtracted</attributeName>
+          <attributeDefinition>The date the sample was extracted.</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>strMat</attributeName>
+          <attributeDefinition>String matrix. Contains the same basic information as analysis type but a single string can have more than one matrix represented</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>String matrix. Contains the same basic information as analysis type but a single string can have more than one matrix represented</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LabSam</attributeName>
+          <attributeDefinition>Lab sample</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Lab sample</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Vol</attributeName>
+          <attributeDefinition>The volume of the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>milliliter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Proportion</attributeName>
+          <attributeDefinition>Proportion of passive sample analyzed</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DryWt</attributeName>
+          <attributeDefinition>Sample dry weight</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>WetWt</attributeName>
+          <attributeDefinition>Sample wet weight</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>gram</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>AnalysisType</attributeName>
+          <attributeDefinition>Each matrix is processed according to a specific model. These methods are PEMD (passive samplers), SPMD (an alternative passive sampler), sediment, tissue, water</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Each matrix is processed according to a specific model. These methods are PEMD (passive samplers), SPMD (an alternative passive sampler), sediment, tissue, water</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Catno</attributeName>
+          <attributeDefinition>Alphanumeric identifier to track groups of samples released by the database manager to an analytical laboratory for analysis</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Alphanumeric identifier to track groups of samples released by the database manager to an analytical laboratory for analysis</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C12d26</attributeName>
+          <attributeDefinition>The percent of deuterated Dodecane in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C16d34</attributeName>
+          <attributeDefinition>The percent of deuterated Hexadecane in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C20d42</attributeName>
+          <attributeDefinition>The percent of deuterated Eicosane in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C24d50</attributeName>
+          <attributeDefinition>The percent of deuterated hexacosane in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C30d64</attributeName>
+          <attributeDefinition>The percent of deuterated triacontane in the sample. Deuterated samples are used to determine percent recovery.</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <standardUnit>dimensionless</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Units</attributeName>
+          <attributeDefinition>Sample reporting units</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Sample reporting units</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C9ALK</attributeName>
+          <attributeDefinition>Concentration of n-nonane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C10ALK</attributeName>
+          <attributeDefinition>Concentration of n-decane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C11ALK</attributeName>
+          <attributeDefinition>Concentration of n-undecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C12ALK</attributeName>
+          <attributeDefinition>Concentration of n-dodecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C13ALK</attributeName>
+          <attributeDefinition>Concentration of n-tridecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C14ALK</attributeName>
+          <attributeDefinition>Concentration of n-tetradecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C15ALK</attributeName>
+          <attributeDefinition>Concentration of n-pentadecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C16ALK</attributeName>
+          <attributeDefinition>Concentration of n-hexadecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C17ALK</attributeName>
+          <attributeDefinition>Concentration of n-heptadecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>PRISTANE</attributeName>
+          <attributeDefinition>Concentration of n-pristane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C18ALK</attributeName>
+          <attributeDefinition>Concentration of n-octadecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Phytane</attributeName>
+          <attributeDefinition>Concentration of n-phytane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C19ALK</attributeName>
+          <attributeDefinition>Concentration of n-nonadecane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C20ALK</attributeName>
+          <attributeDefinition>Concentration of n-icosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C21ALK</attributeName>
+          <attributeDefinition>Concentration of n-heneicosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C22ALK</attributeName>
+          <attributeDefinition>Concentration of n-docosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C23ALK</attributeName>
+          <attributeDefinition>Concentration of n-tricosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C24ALK</attributeName>
+          <attributeDefinition>Concentration of n-tetracosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C25ALK</attributeName>
+          <attributeDefinition>Concentration of n-pentacosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C26ALK</attributeName>
+          <attributeDefinition>Concentration of n-methylpentaicosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C27ALK</attributeName>
+          <attributeDefinition>Concentration of n-heptacosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C28ALK</attributeName>
+          <attributeDefinition>Concentration of n-octacosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C29ALK</attributeName>
+          <attributeDefinition>Concentration of n-nonacosane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C30ALK</attributeName>
+          <attributeDefinition>Concentration of n-triacontane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C31ALK</attributeName>
+          <attributeDefinition>Concentration of n-hentriacontane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C32ALK</attributeName>
+          <attributeDefinition>Concentration of n-dotriacontane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C33ALK</attributeName>
+          <attributeDefinition>Concentration of n-tritriacontane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C34ALK</attributeName>
+          <attributeDefinition>Concentration of n-tetratriacontane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C35ALK</attributeName>
+          <attributeDefinition>Concentration of n-pentatracontane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>C36ALK</attributeName>
+          <attributeDefinition>Concentration of n-hexatriacontane in the sample</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>TOTALKANES</attributeName>
+          <attributeDefinition>Total alkane concentration, including both calibrated and uncalibrated compounds</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>UCM</attributeName>
+          <attributeDefinition>Unresolved complex mixture</attributeDefinition>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>nanogramsPerGram</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>comment</attributeName>
+          <attributeDefinition>Any comment about the observation, if any.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Any comment about the observation, if any.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <dataTable>
+      <entityName>Sample.csv</entityName>
+      <physical>
+        <objectName>Sample.csv</objectName>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>#x0A</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://cn.dataone.org/cn/v2/resolve/urn:uuid:5f57c5d3-65f2-4d46-83f5-67f8104c62dd</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute>
+          <attributeName>SIN</attributeName>
+          <attributeLabel>Sample Identification Number</attributeLabel>
+          <attributeDefinition>A number that unique identifies each sample.</attributeDefinition>
+          <measurementScale>
+            <ordinal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>4 digit codes in the format 9999</definition>
+                  <pattern>[0-9]{4}</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </ordinal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>depth</attributeName>
+          <attributeDefinition>Optional sample depth in meters, measured from mean lower low water (MLLW) as measured or estimated by the sample collector</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>meter</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>Project</attributeName>
+          <attributeDefinition>The name of the project.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The name of the project</definition>
+                  <pattern>Either an explicit name in free-form text or a code.</pattern>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>FundingSource</attributeName>
+          <attributeDefinition>The name of the funding source for the particular data observation.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>EVOSTC</code>
+                    <definition>Exxon Valdez Oil Spill Trustee Council</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NOS</code>
+                    <definition>Prince William Sound Regional Citizens Advisory Council</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS</code>
+                    <definition>National Marine Fisheries Service</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UAF</code>
+                    <definition>University of Alaska Fairbanks</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NOAA</code>
+                    <definition>National Oceanic and Atmospheric Administration</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ADFG</code>
+                    <definition>Alaska Department of Fish &amp; Game</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>USFS</code>
+                    <definition>United States Forest Service</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>EYAK</code>
+                    <definition>The Eyak people</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>USFWS</code>
+                    <definition>United States Fish and Wildlife Service</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Queens</code>
+                    <definition>Queens</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UAS</code>
+                    <definition>University of Alaska Southeast</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NPS</code>
+                    <definition>National Park Service</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>projectCode</attributeName>
+          <attributeDefinition>The code for the project. Can be numeric or alphanumeric.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The code for the project</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>invest</attributeName>
+          <attributeDefinition>Extra information regarding the data.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Extra information regarding the data</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>CollectMethod</attributeName>
+          <attributeDefinition>The method of collection.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The method of collection.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>matrix</attributeName>
+          <attributeDefinition>What the sample was drawn from.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>What the sample was drawn from.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SubMatrix</attributeName>
+          <attributeDefinition>From where in the matrix the sample is drawn</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>From where in the matrix the sample is drawn</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>species</attributeName>
+          <attributeDefinition>The species of the observation.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The species of the observation.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DateCollected</attributeName>
+          <attributeDefinition>The date of collection</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD-Month-YY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>year</attributeName>
+          <attributeDefinition>The year of the observation</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>location</attributeName>
+          <attributeDefinition>The location of the sample.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The location of the sample.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>sampler</attributeName>
+          <attributeDefinition>The surname of the person who sampled the data.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The surname of the person who sampled the data.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>agency</attributeName>
+          <attributeDefinition>The code for the agency.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>NMFS ABL</code>
+                    <definition>NMFS Auke Bay Laboratories</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS NWFSC</code>
+                    <definition>NMFS Northwest Fisheries Science Center</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>FWS</code>
+                    <definition>Fish and Wildlife Service</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ADFG</code>
+                    <definition>Alaska Department of Fish and Game</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS</code>
+                    <definition>National Marine Fisheries Service</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>USGS</code>
+                    <definition>United States Geological Survey</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PWS-RCAC</code>
+                    <definition>Prince William Sound Regional Citizens' Advisory Council</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>USCG</code>
+                    <definition>United States Coast Guard</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>PWSAC</code>
+                    <definition>Prince William Sound Aquaculture Corporation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NPS</code>
+                    <definition>National Park Service</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS KOD</code>
+                    <definition>NMFS Kodiak</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UA IAB</code>
+                    <definition>University of Alaska Fairbanks Institute of Arctic Biology</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UA IMS</code>
+                    <definition>University of Alaska Fairbanks Institude of Marine Science</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ADEC</code>
+                    <definition>Alaska Department of Environmental Conservation</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS ECD</code>
+                    <definition>NMFS Environmental Conservation Division</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NIST</code>
+                    <definition>National Institute of Standards and Technology</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NMFS MML</code>
+                    <definition>NMFS National Marine Mammal Laboratory</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>ADNR</code>
+                    <definition>Alaska Department of Natural Resources</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NBS</code>
+                    <definition>National Bureau of Standards</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>UAF</code>
+                    <definition>University of Alaska Fairbanks</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+                <textDomain>
+                  <definition>Field also contained some free-form text data.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LAT</attributeName>
+          <attributeDefinition>The latitude of the observation.</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>LONG</attributeName>
+          <attributeDefinition>The longitude of the observation.</attributeDefinition>
+          <measurementScale>
+            <interval>
+              <unit>
+                <standardUnit>degree</standardUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+              </numericDomain>
+            </interval>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SUBID</attributeName>
+          <attributeDefinition>The ID of the sub</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The ID of the sub</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>DATEVER</attributeName>
+          <attributeDefinition>The date</attributeDefinition>
+          <measurementScale>
+            <dateTime>
+              <formatString>DD-Month-YY</formatString>
+            </dateTime>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>SampleType</attributeName>
+          <attributeDefinition>The type of the sample.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The type of the sample.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>QCERROR</attributeName>
+          <attributeDefinition>The error of the observation.</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>The error of the observation.</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute>
+          <attributeName>comment</attributeName>
+          <attributeDefinition>Column for comments</attributeDefinition>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>Column for comments</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>No data for this observation</codeExplanation>
+          </missingValueCode>
+        </attribute>
+      </attributeList>
+    </dataTable>
+    <otherEntity>
+      <entityName>Data merging R script</entityName>
+      <entityDescription>R script used to combine PAH.csv, alkane.csv and samples.csv datasets into one datatable. Formatting and cleaning were also done using this script and the Non-EVOS_SINs.csv file included in this data package.</entityDescription>
+      <physical>
+        <objectName>Total_PAH_and_Alkanes_GoA_Hydrocarbons_Clean.R</objectName>
+        <size unit="byte">5080</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="1430343777960">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:a8ed4776-1e17-426f-9f54-98073ae35b5f</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Locations map R script</entityName>
+      <entityDescription>R script used to plot sample locations in the Gulf of Alaska and Northern Gulf of Alaska with sample type represented in colors</entityDescription>
+      <physical>
+        <objectName>hcdbSites.R</objectName>
+        <size unit="byte">3005</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="1430344389113">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:9490ce50-b7bc-4fe8-89d1-5b00736df835</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Map of sampling locations in the Northern Gulf of Alaska</entityName>
+      <entityDescription>Map of where hydrocarbon samples were collected in the Northern Gulf of Alaska with sample type designated by color.</entityDescription>
+      <physical>
+        <objectName>hcdbSampleLocs.png</objectName>
+        <size unit="byte">101868</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/png</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="1430344494697">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:b4b3cc45-4953-43d3-910a-847528577531</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>Map of sampling locations in the Gulf of Alaska</entityName>
+      <entityDescription>Map of where hydrocarbon samples were collected in the broader Gulf of Alaska with sample type designated by color.</entityDescription>
+      <physical>
+        <objectName>hcdbSamplesGOA.png</objectName>
+        <size unit="byte">58073</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>image/png</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution id="1430344529775">
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:780a5cff-6071-47d1-a52f-8f7a60c24625</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+    <otherEntity>
+      <entityName>DataDownload.R</entityName>
+      <entityDescription>R script used to download PAH.csv, Alkane.csv, Sample.csv, and CollectionMethods.csv from the original MS Access database.</entityDescription>
+      <physical>
+        <objectName>DataDownload.R</objectName>
+        <size unit="byte">1846</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>application/R</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://cn.dataone.org/cn/v2/resolve/urn:uuid:c2f47e88-cc2b-47db-a105-101b80e80334</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>Other</entityType>
+    </otherEntity>
+  </dataset>
+  <additionalMetadata>
+    <metadata>
+      <unitList>
+        <unit id="nanogramsPerGram" multiplierToSI="0.000000001" name="nanogramsPerGram" parentSI="gramsPerGram" unitType="massPerMass">
+          <description>nanogramsPerGram</description>
+        </unit>
+      </unitList>
+    </metadata>
+  </additionalMetadata>
+</eml:eml>

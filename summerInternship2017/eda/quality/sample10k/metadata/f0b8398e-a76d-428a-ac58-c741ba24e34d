@@ -1,0 +1,530 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/mean_water_temp_streams.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>20120301</pubdate>
+        <title>Long Term Mean Annual Water Temperature For Stream Reaches In Pacific Northwest United States</title>
+        <geoform>tabular digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?mean_water_temp_streams</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Long-term mean annual water temperature (degrees Celsius) was estimated for the E2RF1 stream network (Brakebill and Terziotti, 2011) located within the Pacific Northwest region of the United States (HUC2 = 17; the Columbia River basin, the Puget Sound watershed, the coastal drainages of Washington and Oregon, and the closed basins in southern Oregon). Multiple linear regressions were used to select reach-scale watershed attributes (explanatory variables) for predicting the long-term mean annual water temperature (dependent variable) at a set of USGS water-quality monitoring stations. The results from the multiple linear regressions were used to predict the long-term mean water temperature for the Pacific Northwest reaches in the E2RF1 network.</abstract>
+      <purpose>This data set was compiled as part of an assessment of water vulnerability in the Columbia River basin (Chang, et al., publication pending).</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>19740930</begdate>
+          <enddate>20040930</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-127.859452</westbc>
+        <eastbc>-65.377389</eastbc>
+        <northbc>51.549102</northbc>
+        <southbc>23.243486</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Categories</themekt>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Long-term mean annual stream temperature</themekey>
+        <themekey>E2RF1 stream network</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>PNW</placekey>
+        <placekey>Pacific Northwest, United States</placekey>
+      </place>
+    </keywords>
+    <accconst>No access constraints.</accconst>
+    <useconst>The U.S. Geological Survey should be acknowledged as the data source in products derived from these data. Caveat: There may be large differences in predicted water temperature between contiguous reaches that have different primary land cover types and non-contiguous reaches in the same area that have different primary land cover types.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Dan Wise</cntper>
+          <cntorg>U.S. Geological Survey, Northwest Area (WRD District Office)</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>2130 SW 5th Avenue</address>
+          <city>Portland</city>
+          <state>OR</state>
+          <postal>97201</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>503 251 3212</cntvoice>
+        <cntemail>dawise@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/LongTermMeanAnnualWaterTemperatureForStreamReachesInPacificNorthwestUnitedStates.jpg</browsen>
+      <browsed>Compares the predicted and measured long-term mean annual water temperature values for the 125 water-quality stations that were used in the regression equations.</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <datacred>Daniel Wise, Hydrologist, Oregon Water Science Center, 2130 SW 5th Ave., Portland, OR 97201</datacred>
+    <secinfo>
+      <secsys>None</secsys>
+      <secclass>Unclassified</secclass>
+      <sechandl>None</sechandl>
+    </secinfo>
+    <native>Microsoft Windows 7 Version 6.1 (Build 7601) Service Pack 1; ESRI ArcGIS 10.0.5.4400</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>See processing steps for methodology used in estimates.</attraccr>
+    </attracc>
+    <logic>The LongTermMeanAnnualWaterTemperatureForStreamReachesInPacificNorthwestUnitedStates.dbf table relates to the MRB_E2RF1 arc attribute table by the MRB_ID field. Only stream reaches in the MRB_E2RF1 coverage with HUC2 code of 17 (Pacific Northwest) have entries in the LongTermMeanAnnualWaterTemperatureForStreamReachesInPacificNorthwestUnitedStates.dbf table.</logic>
+    <complete>Data are complete for Pacific Northwest.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not applicable.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Not applicable.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>20110101</pubdate>
+            <title>USGS, National Water Information System data available on the World Wide Web</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>accessed October 6, 2011</othercit>
+            <onlink>http://waterdata.usgs.gov/nwis</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20111006</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>date accessed</srccurr>
+        </srctime>
+        <srccitea>NWIS</srccitea>
+        <srccontr>The water temperature data used in the regressions were obtained from the USGS National Water Information System (USGS, 2011).</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Schwarz, G.E., Hoos, A.B., Alexander, R.B., and Smith, R.A.</origin>
+            <pubdate>20060101</pubdate>
+            <title>The SPARROW Surface Water-Quality Model--Theory, Applications and User Documentation: U.S. Geological Survey, Techniques and Methods 6-B3</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://pubs.usgs.gov/tm/2006/tm6b3/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20060101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>SPARROW</srccitea>
+        <srccontr>SPARROW model reference.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Wieczorek, M. and Lamotte, A.</origin>
+            <pubdate>20110101</pubdate>
+            <title>Attributes for MRB_E2RF1 Catchments by Major River Basins in the Conterminous United States</title>
+            <edition>U.S. Geological Survey Digital Data Series DS-491</edition>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>accessed June 1, 2012</othercit>
+            <onlink>http://water.usgs.gov/nawqa/modeling/rf1attributes.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20110101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>BASINS</srccitea>
+        <srccontr>Selected attributes from this dataset are used in the prediction equations that estimate the mean annual water temperatures.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Brakebill, J.W., Terziotti, S.E.</origin>
+            <pubdate>20110101</pubdate>
+            <title>A digital Hydrologic Network Supporting NAWQA MRB SPARROW Modeling--MRB_E2RF1</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>accessed October 1, 2011</othercit>
+            <onlink>https://water.usgs.gov/GIS/metadata/usgswrd/XML/mrb_e2rf1.xml#stdorder</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>500</srcscale>
+        <typesrc>onLine</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20110101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>MRB_E2RF1</srccitea>
+        <srccontr>Vector data for which this table was created. Relate item in MRB_E2RF1 arc attribute table is MRB_ID.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Chang, H., publication pending</origin>
+            <pubdate>unknown</pubdate>
+            <title>An integrated approach to assessing spatial water resources vulnerability in the Columbia River Basin, USA</title>
+            <geoform>map</geoform>
+            <pubinfo>
+              <pubplace>Canada</pubplace>
+              <publish>Atmosphere-Ocean</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>PUB_PENDING</srccitea>
+        <srccontr>Publication for which the LongTermMeanAnnualWaterTemperatureForStreamReachesInPacificNorthwestUnitedStates.dbf was created.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Homer, C., Huang, C., Yang, L., Wylie, B., and Coan, M.</origin>
+            <pubdate>20040101</pubdate>
+            <title>Development of a 2001 National Landcover Database for the United States</title>
+            <pubinfo>
+              <pubplace>http://www.asprs.org/Photogrammetric-Engineering-and-Remote-Sensing/PE-RS-Journals.html</pubplace>
+              <publish>Photogrammetric Engineering and Remote Sensing</publish>
+            </pubinfo>
+            <onlink>http://www.asprs.org/PE-RS-Journals-2004/PE-RS-July-2004.html</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20040101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>DEV_NLCD</srccitea>
+        <srccontr>Land cover, land use information used in prediction equations. NLCD data were used to determine the primary land cover within the reach-scale watersheds.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Wise, D.R. and Johnson, H.M.</origin>
+            <pubdate>20110101</pubdate>
+            <title>Surface-Water Nutrient Conditions and Sources in the United States Pacific Northwest</title>
+            <pubinfo>
+              <pubplace>http://www.awra.org/jawra/</pubplace>
+              <publish>Journal of the American Water Resources Association</publish>
+            </pubinfo>
+            <onlink>http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3307616/</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>None</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>20110101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date</srccurr>
+        </srctime>
+        <srccitea>JAWRA</srccitea>
+        <srccontr>SPARROW model reference.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The final data set of water-temperature measurements was obtained from 125 water-quality monitoring stations located on streams where the water-temperature record satisfied the following criteria: 1) spanned at least 10 years; 2) included at least 50 measurements representing individual days; and 3) at least 20 percent of the samples were collected during each season. Water-quality monitoring stations that were influenced by geothermal activity were not included.</procdesc>
+        <srcused>NWIS</srcused>
+        <procdate>20120101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Selected features from MRB_E2RF1 arc coverage in HUC2 region 17 (Pacific Northwest) and calculated mean annual water temperature.</procdesc>
+        <srcused>MRB_E2RF1</srcused>
+        <procdate>20120101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>Each water-quality monitoring station was identified with a reach-scale watershed and its associated attributes. Multiple linear regressions were completed for three separate data sets based on the primary land cover within the reach-scale watersheds obtained from the 2001 National Land Cover Database (NLCD)(Homer, et al., 2004): forest land (NLCD 41, 42, 43) (n = 66), agricultural land (NLCD 81, 82) (n = 25), and scrub land (NLCD 52) (n = 34). This distribution of land cover generally reflected the distribution of land cover for the entire set of E2RF1 reach-scale watersheds. There were a small number of watersheds (less than 1% of the total number in the E2RF1 reach-scale watersheds) where the primary land cover type was developed land. No regression equations were developed for these reaches because of the small number of water-quality stations (6) meeting the selection criteria. All significant explanatory variables (p-value less than 0.05) were considered for inclusion in the regression equation for each land cover category. Additional analysis revealed, however, that some of these significant explanatory variables were strongly correlated with other variables (rho greater than 0.50 or less than -0.50; p-value less than 0.0001) and were not included in the final regression equations. The results from the multiple linear regressions were used to predict the long-term mean water temperature for each reach in the E2RF1 network. The following prediction equations were used. For forest land the prediction equation was: mean_wtemp_C = 1.32461 + (0.53185 * TMAX30_MEAN) + (0.00003261 * demtarea) + (0.00028297 * PPT30MEAN) - (0.16748 * rchslope); R2 = 0.620; RMSE = 1.37. For agricultural land the prediction equation was: mean_wtemp_C = -1.38503 + (0.79183 * TMAX30_MEAN) + (-0.00229 * STRM_DENS); R2 = 0.807; RMSE = 0.91. For scrub land the prediction equation was: mean_wtemp_C = 2.69545 + (0.48557 * TMAX30_MEAN) - (0.00641 * MEAN_RCHRG); R2 = 0.541; RMSE = 1.30. RMSE is the root mean squared error of the regression (that is, the standard deviation of the unexplained variance in degrees C). Figure at https://water.usgs.gov/GIS/browse/LongTermMeanAnnualWaterTemperatureForStreamReachesInPacificNorthwestUnitedStates.jpg compares the predicted and measured long-term mean annual water temperature values for the 125 water-quality stations that were used in the regression equations. See entity attributes section for explanation of equation parameters. There 1730 E2RF1 reaches for which no predictions were made of mean annual water temperature. For 1509 of these reaches the reason was that at least one of the reach-scale watershed attributes was outside the range of values used in the regression analysis. For 220 of these reaches the reason was that the primary land cover in the corresponding reach-scale watershed was not forest land, agricultural land, or scrub land. There was also one line segment in the E2RF1 stream network (MRB-ID = 527404) that did not actually represent a stream. Its inclusion reflects the requirement that each catchment in the E2RF1 data base have an associated reach. No prediction of long-term mean water temperature was made for this line segment. The final data set contained mean annual water temperature predictions for 10,309 of the 12,037 E2RF1 stream reaches.</procdesc>
+        <srcused>DEV_NLCD</srcused>
+        <procdate>20120101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The water temperature data used in the regressions were obtained from the USGS National Water Information System (USGS, 2011).</procdesc>
+        <srcused>NWIS</srcused>
+        <procdate>20120101</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>The reach-scale watershed attributes used in the multiple linear regressions were compiled as part of regional assessment of surface waters across the Pacific Northwest using the USGS SPARROW model (Wise and Johnson, 2011; Schwarz et al., 2006; Wieczorek and Lamotte, 2011).</procdesc>
+        <srcused>BASINS</srcused>
+        <procdate>20120101</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Spatial</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>Standalone table</sdtstype>
+        <ptvctcnt>1204</ptvctcnt>
+      </sdtsterm>
+      <sdtsterm>
+        <sdtstype>Spatial information related to water temperature in degrees celsius</sdtstype>
+        <ptvctcnt>MRB_ID</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>LongTermMeanAnnualWaterTemperatureForStreamReachesInPacificNorthwestUnitedStates</enttypl>
+        <enttypd>dbase table</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>OID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>MRB_ID</attrlabl>
+        <attrdef>Unique reach identification number for this dataset. Used to relate ancillary data for 2002 MRB nutrient SPARROW models.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mean_wtemp</attrlabl>
+        <attrdef>Long-term mean annual water temperature for related stream reach.  This table relates to the MRB_E2RF1 arc attribute table by the MRB_ID field.</attrdef>
+        <attrdefs>U.S. Geological Survey</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>36.7265</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+    <detailed>
+      <enttyp>
+        <enttypl>prediction equation parameters</enttypl>
+        <enttypd>Parameters used in prediction equations for estimating mean annual water temperature for stream reaches in Pacific Northwest, US.</enttypd>
+        <enttypds>USGS</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>mean_wtemp_C</attrlabl>
+        <attrdef>An estimate of the long-term mean annual water temperature.</attrdef>
+        <attrdefs>National Water Information System</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3.68</rdommin>
+            <rdommax>14.51</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>tmax30_mean</attrlabl>
+        <attrdef>Mean annual maximum daily air temperature for the period 1971–2000 (degrees C). The positive coefficient for this explanatory variable reflects the positive relationship expected between maximum mean annual air temperature and long-term mean annual water temperature. This variable explained most of the variation in each of the regression equations and, therefore, was the most powerful predictor of long-term mean annual water temperature.</attrdef>
+        <attrdefs>Wieczorek, M. and A. Lamotte, 2011. Attributes for MRB_E2RF1 Catchments by Major River Basins in the Conterminous United States (U.S. Geological Survey Digital Data Series DS-491), http://water.usgs.gov/nawqa/modeling/rf1attributes.html, accessed June 1, 2012. </attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>712</rdommin>
+            <rdommax>1905</rdommax>
+            <attrunit>degrees Celsius</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>demtarea</attrlabl>
+        <attrdef>Total upstream drainage area (km2). The positive coefficient for this explanatory variable might be due to the tendency of watersheds to include a larger percentage of developed land (agricultural and urban areas) than smaller watersheds, and runoff from agricultural and urban areas is often reused water that is warmer than source water.</attrdef>
+        <attrdefs>Brakebill, J.W. and Terziotti, S.E., 2011. A Digital Hydrologic Network Supporting NAWQA MRB SPARROW Modeling--MRB_E2RF1, https://water.usgs.gov/GIS/metadata/usgswrd/XML/mrb_e2rf1.xml#stdorder, accessed October 1, 2011.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>16.8</rdommin>
+            <rdommax>178578.0</rdommax>
+            <attrunit>square kilometers</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ppt30mean</attrlabl>
+        <attrdef>mean annual precipitation for the period 1971 – 2000 (mm). The positive coefficient for this explanatory variable might be due to the tendency of watersheds with higher precipitation to have a higher percentage of total runoff from surface water compared to watersheds with lower precipitation. Watersheds with a high proportion of surface runoff likely have higher mean annual water temperatures than watersheds with a lower percentage, because surface water is more sensitive to air temperature than ground water (and air temperature is greater than ground water temperature during most of the year throughout most of the Pacific Northwest).</attrdef>
+        <attrdefs>Wieczorek, M. and A. Lamotte, 2011. Attributes for MRB_E2RF1 Catchments by Major River Basins in the Conterminous United States (U.S. Geological Survey Digital Data Series DS-491), http://water.usgs.gov/nawqa/modeling/rf1attributes.html, accessed June 1, 2012.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>18135</rdommin>
+            <rdommax>315209</rdommax>
+            <attrunit>millimeters</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>mean_rchrg</attrlabl>
+        <attrdef>Mean estimate of groundwater recharge as compiled by Wieczorek and Lamotte, 2011.</attrdef>
+        <attrdefs>Wieczorek, M. and A. Lamotte, 2011. Attributes for MRB_E2RF1 Catchments by Major River Basins in the Conterminous United States (U.S. Geological Survey Digital Data Series DS-491), http://water.usgs.gov/nawqa/modeling/rf1attributes.html, accessed June 1, 2012.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>6.53</rdommin>
+            <rdommax>1636.98</rdommax>
+            <attrunit>millimeters per year</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>rchslope</attrlabl>
+        <attrdef>Reach slope (percent); STRM_DENS = stream density (m/m2); and MEAN_RCHRG = mean estimate of ground recharge (mm/yr). The negative coefficients for these explanatory variables might be due to the tendency of watersheds with higher reach slopes, stream density, and ground water recharge to have a higher contribution of total flow from ground water compared to watersheds with lower stream density. This is because ground water is typically cooler than surface water.</attrdef>
+        <attrdefs>Wieczorek, M. and A. Lamotte, 2011. Attributes for MRB_E2RF1 Catchments by Major River Basins in the Conterminous United States (U.S. Geological Survey Digital Data Series DS-491), http://water.usgs.gov/nawqa/modeling/rf1attributes.html, accessed June 1, 2012.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0</rdommin>
+            <rdommax>.185</rdommax>
+            <attrunit>percent</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>strm_dens</attrlabl>
+        <attrdef>Stream density, as compiled by Wieczorek and Lamotte, 2011.</attrdef>
+        <attrdefs>Wieczorek, M. and A. Lamotte, 2011. Attributes for MRB_E2RF1 Catchments by Major River Basins in the Conterminous United States (U.S. Geological Survey Digital Data Series DS-491), http://water.usgs.gov/nawqa/modeling/rf1attributes.html, accessed June 1, 2012.</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>.000002</rdommin>
+            <rdommax>.003398</rdommax>
+            <attrunit>meters of stream per square meter of watershed</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+Long Term Mean Annual Water Temperature For Stream Reaches In Pacific Northwest United States</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials. The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey. The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>tabular data, dbase table</formname>
+          <formvern>ArcGIS 10</formvern>
+          <formcont>PKZIP compression</formcont>
+          <filedec>Winzip</filedec>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/watertempdata.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20130219</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>US</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standard for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <mettc>local time</mettc>
+  </metainfo>
+  <mercury>
+    <begdate>19740930</begdate>
+    <enddate>20040930</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_mean_water_temp_streams.html</htmlurl>
+  </mercury>
+</metadata>

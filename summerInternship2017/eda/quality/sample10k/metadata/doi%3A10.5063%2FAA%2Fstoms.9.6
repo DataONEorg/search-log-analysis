@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<eml:eml packageId="stoms.9.6" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>POD! GIS Shapefile of Hydrodynamic Subregions of the Upper San Francisco Estuary</title>
+ <creator id="1252690414737" scope="document"> <individualName> <salutation>Dr.</salutation>
+ <givenName>David</givenName>
+ <surName>Stoms</surName>
+ </individualName>
+ <organizationName>NCEAS 12192: Fleishman: Ecosystem analysis of pelagic organism declines in the Upper San Francisco Estuary</organizationName>
+ <positionName>Associate Researcher</positionName>
+ <address scope="document"> <deliveryPoint>Donald Bren School of Environmental Science and Management</deliveryPoint>
+ <city>Santa Barbara</city>
+ <administrativeArea>California</administrativeArea>
+ <postalCode>93106-5131</postalCode>
+ <country>USA</country>
+ </address>
+ <phone phonetype="voice">805.893.7655</phone>
+ <electronicMailAddress>stoms@bren.ucsb.edu</electronicMailAddress>
+ <onlineUrl>http://www.biogeog.ucsb.edu/</onlineUrl>
+ </creator>
+ <abstract> <para>This is an ESRI (ArcGIS) shapefile of the hydrodynamic subregions of the Upper San Francisco Estuary, California, as sketched conceptually by the Delta Regional Ecosystem Restoration Implementation Plan team (J. Burau, USGS, unpublished data). It was digitized from a drawing to allow for general level assessments of land use and other environmental effects within ecologically meaningful spatial units.</para>
+ </abstract>
+ <keywordSet> <keyword>estuary</keyword>
+ <keyword>GIS</keyword>
+ <keyword>Pelagic Organism Decline</keyword>
+ <keyword>watersheds</keyword>
+ </keywordSet>
+ <intellectualRights> <para>This layer can be shared freely within the public scientific domain. It is intended to provide a general spatial framework for assessment of land use and other environmental effects within the Upper San Francisco estuary. It is not intended to be used for land use or regulatory decisions. The boundaries are only approximations made by digitizing lines from a small scale drawing.</para>
+ </intellectualRights>
+ <coverage scope="document"> <geographicCoverage scope="document"> <geographicDescription>San Francisco Bay-Delta</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>-122.6</westBoundingCoordinate>
+ <eastBoundingCoordinate>-121.1</eastBoundingCoordinate>
+ <northBoundingCoordinate>38.6</northBoundingCoordinate>
+ <southBoundingCoordinate>37.7</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ <temporalCoverage scope="document"> <singleDateTime> <calendarDate>2008</calendarDate>
+ </singleDateTime>
+ </temporalCoverage>
+ </coverage>
+ <contact scope="document"> <references>1252690414737</references>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Digitize map</title>
+ <para>I digitized the boundaries of the subregions based on a graphic of a conceptual model developed by the Delta Regional Ecosystem Restoration Implementation Plan (DRERIP) team (J. Burau, U. S. Geological Survey, unpublished data). The foundation of the subregions layer was a GIS layer of the boundary of the legal Delta from the Department of Water Resources. I used highways and other geographic features to guide to digitize both the interior boundaries between subregions as well as the three downstream subregions of North Bay, Suisun Marsh, and Suisun Bay. Note that the interior boundaries are approximate, given the simplified boundaries provided in the conceptual model. Note too that the boundary between the Western Delta and the Suisun Bay subregions is not static, but is dynamically defined by the position of the 2-psu isohaline (termed &#8220;X2&#8221;) that shifts in response to freshwater flows. I assumed for this exploratory analysis that the boundary is fixed as digitized.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1253819378933" scope="document"> <entityName>Hydrodynamic Subregions Shapefile</entityName>
+ <entityDescription>zip file containing an ESRI shapefile of the hydrodynamic subregions for the Upper San Francisco Estuary</entityDescription>
+ <physical scope="document"> <objectName>Hydro_subregion.zip</objectName>
+ <dataFormat> <externallyDefinedFormat> <formatName>ESRI shapefile</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/stoms.12.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253819378949" scope="document"> <attributeName>Subregion</attributeName>
+ <attributeDefinition>Proper name of the hydrodynamic subregion</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>proper names of subregion</definition>
+ <source>DRERIP conceptual model</source>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253819378965" scope="document"> <attributeName>Abbrev</attributeName>
+ <attributeLabel>Abbreviation</attributeLabel>
+ <attributeDefinition>abbreviation of proper subregion name</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>abbreviations of names</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253819378980" scope="document"> <attributeName>Delta</attributeName>
+ <attributeDefinition>a dummy variable indicating that the subregion belongs to the larger estuary</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">integer</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>1</code>
+ <definition>subregion belongs to estuary</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253819378996" scope="document"> <attributeName>Area_km2</attributeName>
+ <attributeDefinition>area of the subregion as measure by GIS operation</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">float</storageType>
+ <measurementScale> <ratio> <unit> <standardUnit>squareKilometers</standardUnit>
+ </unit>
+ <precision>0.1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253819379011" scope="document"> <attributeName>Legal_Delta</attributeName>
+ <attributeDefinition>a variable defining whether the subregion does or does not occur within the description of the Legal Delta</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <enumeratedDomain enforced="yes"> <codeDefinition> <code>Legal Delta</code>
+ <definition>subregion occurs in the Legal Delta</definition>
+ </codeDefinition>
+ <codeDefinition> <code>Other Subregions</code>
+ <definition>subregion occurs outside the Legal Delta</definition>
+ </codeDefinition>
+ </enumeratedDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253819379027" scope="document"> <attributeName>MapName</attributeName>
+ <attributeDefinition>a simpler version of the Subregion name for cartographic uses</attributeDefinition>
+ <storageType typeSystem="http://www.w3.org/2001/XMLSchema-datatypes">text</storageType>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>subregion name</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </eml:eml>

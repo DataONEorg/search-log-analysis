@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/ds796.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Tyler D. Johnson</origin>
+        <origin>Kenneth Belitz</origin>
+        <pubdate>20140618</pubdate>
+        <title>DS796  California Groundwater Units</title>
+        <geoform>vector digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?ds796</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Tyler D. Johnson and Kenneth Belitz</origin>
+            <pubdate>June 17, 2014</pubdate>
+            <title>California Groundwater Units</title>
+            <geoform>report</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Data Series</sername>
+              <issue>Data Series 796</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>http://dx.doi.org/10.3133/ds796</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+The California Groundwater Units dataset classifies and delineates the State into one of three groundwater based polygon units:  (1) those areas defined as alluvial groundwater basins or sub-basins (DWR, 2002), (2) highland areas that are adjacent to and topographically upgradient of groundwater basins, and (3) highland areas not associated with any groundwater basin. In total, 938 Groundwater Units are represented.  The Groundwater Unit dataset relates existing groundwater basins with their newly delineated highland areas which can be used in subsequent hydrologic studies.  The method used to delineate highland areas is similar to methods used to delineate a contributing area, the difference being that highland areas are constrained to the immediately surrounding upslope (upsteam) area.
+
+Highland areas were delineated based upon the surficial contributing area (watershed) immediately adjacent to each groundwater basin.  The method of delineation is comparable to the method used for stream segments.  However, highland areas are not intended to represent the entire surficial contributing area for a groundwater basin.  Upslope (upstream) groundwater basins, which may be contiguous with a downstream basin, are not included in the delineation for the downstream basin because the upstream basins will have their own highland areas delineated.  In addition, many groundwater basins in the Central Valley are divided along a river:  one groundwater basin along the right bank, and another along the left bank.  Therefore, each groundwater basin will have its own highland area delineated for each side of the river.  Groundwater units can be combined if desired.
+
+Some groundwater basins do not have an associated highland because the basin was completely bordered by other groundwater basins, or a combination of groundwater basins and the ocean.
+</abstract>
+      <purpose>This dataset was developed to classify and delineate all areas of California into three categories which will be used in subsequent hydrologic studies.   Many studies and reports including the Groundwater Ambient and Assessment Program (GAMA) use the DWR groundwater basin (or sub-basin) as the basic unit.  With this dataset, it is now possible to relate a groundwater basin with its highland area.  Highland areas not associated with a groundwater basin were also identified.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>2012</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>ground condition</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-124.507642</westbc>
+        <eastbc>-113.488240</eastbc>
+        <northbc>42.067151</northbc>
+        <southbc>32.425413</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>geoscientificInformation</themekey>
+        <themekey>inlandWaters</themekey>
+        <themekey>environment</themekey>
+      </theme>
+      <theme>
+        <themekt>None</themekt>
+        <themekey>Groundwater</themekey>
+        <themekey>Highland areas</themekey>
+        <themekey>Groundwater basin</themekey>
+        <themekey>Groundwater Ambient Monitoring Assessment Program</themekey>
+        <themekey>GAMA</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>United States</placekey>
+        <placekey>Western United States</placekey>
+        <placekey>California</placekey>
+      </place>
+    </keywords>
+    <accconst>None</accconst>
+    <useconst>These data are not intended to be used as a survey product and are for reference purposes only. Although this Federal Geographic Data Committee (FGDC) compliant metadata file is intended to document the data set in nonproprietary form, as well as ArcGIS format, this metadata file may include some ArcGIS-specific terminology. Acknowledgment of the U.S. Geological Survey would be appreciated in products derived from these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Tyler D. Johnson</cntper>
+          <cntorg>U.S. Geological Survey, California Water Science Center</cntorg>
+        </cntperp>
+        <cntpos>Geographer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>4165 Spruance Rd, Suite 200</address>
+          <city>San Diego</city>
+          <state>California</state>
+          <postal>92101</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(619) 225-6100</cntvoice>
+        <cntfax>(619) 225-6101</cntfax>
+        <cntemail>tyjohns@usgs.gov</cntemail>
+        <hours>7:30 a.m. to 4:00 p.m. Pacific Time</hours>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/ds796.jpg</browsen>
+      <browsed>Illlustration of data set</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <native>Microsoft Windows 7 Enterprise, Service Pack 1; ESRI ArcCatalog 10.1, Service Pack 1 (Build 3143)</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>Groundwater basins were acquired from California Department of Water Resources, no accuracy report was performed. Highland areas were autogenerated using GIS software and derived from a 300 meter pixel DEM.  Due to overlaps when merging basins and highlands, small sliver "artifacts" were created.  These were deleted wherever possible.  Dataset not to be used at greater than 1:250,000 scale.</attraccr>
+    </attracc>
+    <logic>Spot check examination of the delineated highland areas was performed.  No inconsistencies were observed</logic>
+    <complete>Complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>Not for use at scales greater than 1:250,000.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>None</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>California Department of Water Resources</origin>
+            <pubdate>03052002</pubdate>
+            <title>B118_v2.0_NAD27UTM10.shp</title>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <othercit>
+This dataset is no longer available, however a newer updated version is available at: B118_v3_BasinBoundaries_NAD83_unprojected.shp available at http://www.water.ca.gov/groundwater/bulletin118/gwbasin_maps_descriptions.cfm
+Volcanic basins were ignored.
+</othercit>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>2002</begdate>
+              <enddate>2011</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DWR_GWBasins</srccitea>
+        <srccontr>Provided the initial polygon boundaries of the groundwater basins.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>USGS</origin>
+            <pubdate>00002011</pubdate>
+            <title>National Hydrologic Dataset Plus (NHDPlus) - Digital Elevation Model.</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online raster data</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2011</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>DEM</srccitea>
+        <srccontr>Provided the topographical basis by which the highland areas were delineated.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>ESRI</origin>
+            <pubdate>00002005</pubdate>
+            <title>U.S. Water Bodies</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2005</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>lakes</srccitea>
+        <srccontr>Provided the lakes and water body polygons that were "burned" into the DEM.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>ESRI</origin>
+            <pubdate>00002005</pubdate>
+            <title>Rivers_Regional</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>CD-ROM</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2005</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>rivers</srccitea>
+        <srccontr>Provided the river segments that were "burned" into the DEM.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>California Department of Fish and Game</origin>
+            <pubdate>00002004</pubdate>
+            <title>cnty24k97_1</title>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>2004</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>ground condition</srccurr>
+        </srctime>
+        <srccitea>cabnd</srccitea>
+        <srccontr>Provided the California State boundary polygon from which the highland areas outside of groundwater basins were formed.  This dataset is no longer available but has been superseded by a new dataset called "cnty24k09_1" available from the California Department of Forestry and Fire Protection available here http://frap.cdf.ca.gov/data/frapgisdata/download.asp?rec=cnty24k.</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+
+1) DEMs were downloaded, merged, and resampled to 300 meter pixel size using bilinear interpolation. Values were multiplied by 100 to convert vertical units from meters to centimeters.
+
+2) Lake polygons were selected from the ESRI water bodies dataset by selecting FTYPE &lt;&gt; Canal/Ditch AND FTYPE &lt;&gt; Ice Mass AND SQMI &gt; 1.  Selected polygons were converted to a 300 meter raster dataset snapped to the DEM.
+
+3) All river polylines were selected from the ESRI Regional Rivers dataset. Selected polygons were converted to a 300 meter raster dataset snapped to the DEM.
+
+4) A 300 meter cell size raster dataset called lks_rivrs was created from the lake and river datasets and snapped to the DEM.  This dataset was burned into the DEM by -20 meters using the following expression: Con(IsNull(lks_rivrs),DEM,DEM-2000).
+
+5) Sinks were filled using an unconstrained z. A flow direction grid was created using standard ArcGIS tools.
+
+6) A tool was written to automate the highland generation process (The Highland tool). This tool essentially selected one groundwater basin at a time from the DWR groundwater basins dataset.  It re-codes the flow direction grid to 1000 (no flow) where all the other basins existed, essentially creating a custom flow direction grid for each groundwater basin selected.  This process prevented flow from one groundwater basin into another.  The ArcGIS Watershed tool was used to generate the highland area for each selected groundwater basin.  The process would repeat until all groundwater basins in the DWR dataset were processed.
+
+7) All the individual highland areas generated from the Watershed tool were merged into one raster dataset and converted to a polygon dataset.
+
+8) Groundwater basin polygons were erased from the highland dataset using the ArcGIS Erase tool. The ArcGIS Merge tool was used to add the groundwater basins polygons and create the CA_GWU dataset.
+
+9) Areas outside of both groundwater basins and highland areas but within the State boundary of California were identified and classified as Highland area  Province.
+
+10) Removed any sliver polygons that were created when merging the various datasets together and clipped by the cabnd dataset.
+</procdesc>
+        <procdate>20110512</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>GT-polygon composed of chains</sdtstype>
+        <ptvctcnt>938</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-120.0</longcm>
+            <latprjo>23.0</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>0.0001</absres>
+            <ordres>0.0001</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 1980</ellips>
+        <semiaxis>6378137.0</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>CA_GUs.shp</enttypl>
+        <enttypd>Polygon feature class</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>FID</attrlabl>
+        <attrdef>Internal feature number.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Sequential unique whole numbers that are automatically generated.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature geometry.</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Coordinates defining the features.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GU_ID</attrlabl>
+        <attrdef>Unique groundwater unit identifier.  For goundwater basins, these identification numbers mostly correspond to the Department of Water Resources groundwater basin designations ("DWR_").  In the Central Valley, GWU_IDs mostly correspond with the subbasin designation ("SUBBSN_").   Highland areas have the same groundwater basin ID as they correspond to, but are indicated with a "H-" prefix.  Highland areas that do not correspond to a groundwater basin are designated by a "H-P-" for "Highland - Province".  These province highland areas are labeled in geographical order beginning with the Northwest portion of the State.  Each whole integer represents a different Province.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Unique identifier used to identify the groundwater units.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GU_Name</attrlabl>
+        <attrdef>Groundwater unit name.  Groundwater unit names are derived from the DWR basin or subbasin name.  Highland groundwater units have a "Highland -" prefix.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <udom>Groundwater unit names.</udom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>GU_Type</attrlabl>
+        <attrdef>Type of groundwater unit.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>Groundwater Basin</edomv>
+            <edomvd>groundwater basin or sub-basin as defined by DWR, except where noted.</edomvd>
+            <edomvds>USGS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Highland area - Groundwater Basin</edomv>
+            <edomvd>A highland area that is associated with a groundwater basin.</edomvd>
+            <edomvds>USGS</edomvds>
+          </edom>
+        </attrdomv>
+        <attrdomv>
+          <edom>
+            <edomv>Higland area - Province</edomv>
+            <edomvd>A highland area that is not associated with a groundwater basin.</edomvd>
+            <edomvds>USGS</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>AreaKm</attrlabl>
+        <attrdef>Area of features in kilometers</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>0.49</rdommin>
+            <rdommax>8237.24</rdommax>
+            <attrunit>kilometers squared</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>RelatedGWB</attrlabl>
+        <attrdef>Related DWR groundwater basins/sub-basin</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <codesetd>
+            <codesetn>DWR or SUBBSN, depending on whether the basin is a basin or subbasin</codesetn>
+            <codesets>California Department of Water Resources</codesets>
+          </codesetd>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Downloadable Data</resdesc>
+    <distliab>
+Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data.  The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey.  The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.
+</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>ESRI Shapefile</formname>
+          <formvern>10.1</formvern>
+          <formspec>ESRI shapefile</formspec>
+          <formcont>Spatial and attribute information</formcont>
+          <filedec>Winzip</filedec>
+          <transize>5.974 mg</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/ds796_GIS.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None.  This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20140619</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+          <cntper>Ask USGS -- Water Webserver Team</cntper>
+        </cntorgp>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+ds796</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>20120101</begdate>
+    <enddate>20121231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_ds796.html</htmlurl>
+  </mercury>
+</metadata>

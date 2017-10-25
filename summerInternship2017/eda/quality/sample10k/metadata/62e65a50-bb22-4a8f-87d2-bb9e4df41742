@@ -1,0 +1,1229 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/erf1.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Richard B. Alexander, John W. Brakebill, Robert E. Brew, and Richard A. Smith</origin>
+        <pubdate>19990228</pubdate>
+        <title>ERF1 -- Enhanced River Reach File 1.2</title>
+        <edition>Version 1.2, August 01, 1999</edition>
+        <geoform>map--digital data</geoform>
+        <serinfo>
+          <sername>U.S. Geological Survey Open-File Report 99-457</sername>
+          <issue>ERF1</issue>
+        </serinfo>
+        <pubinfo>
+          <pubplace>Reston, Virginia</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?erf1</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>
+        U.S. Environmental Protection Agency's River Reach File 1 (RF1)to
+        ensure the hydrologic integrity of the digital reach traces and
+        to quantify the mean water time of travel in river reaches and reservoirs
+        [see USEPA (1996) for a description of the original RF1].
+			</abstract>
+      <purpose>
+        reaches capable of supporting regional and national water-quality and
+        river-flow modeling and transport investigations in the
+        water-resources community.
+        ERF1 has been recently used at the U.S.
+        Geological Survey to support interpretations of stream water-quality
+        monitoring network data (see Alexander and others, 1996; Smith and
+        others, 1995).  In these analyses, the reach network has been used to
+        determine flow pathways between the sources of point and nonpoint
+        pollutants (e.g., fertilizer use, municipal wastewater discharges) and
+        downstream water-quality monitoring locations in support of
+        predictive water-quality models of stream nutrient transport.
+			</purpose>
+      <supplinf>
+        Any use of trade, product, or firm names is for descriptive
+        purposes only and does not imply endorsement by the
+        U.S. Government.
+        Although this Federal Geographic Data Committee-compliant metadata
+        file is intended to document the data set in nonproprietary form,
+        as well as in ARC/INFO format, this metadata file may include some
+        ARC/INFO-specific terminology.
+			</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <sngdate>
+          <caldate>19990107</caldate>
+        </sngdate>
+      </timeinfo>
+      <current>none</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>As Needed</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-127.81690486</westbc>
+        <eastbc>-65.55541404</eastbc>
+        <northbc>48.19323122</northbc>
+        <southbc>23.24701718</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>stream</themekey>
+        <themekey>river</themekey>
+        <themekey>network</themekey>
+        <themekey>sparrow</themekey>
+        <themekey>reach</themekey>
+        <themekey>RF1</themekey>
+        <themekey>Water Quality</themekey>
+        <themekey>Reservoir</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Conterminous United States</placekey>
+      </place>
+    </keywords>
+    <accconst>
+      none
+		</accconst>
+    <useconst>
+      The version of RF1 used to compile ERF1 was an early edition of a USGS
+      RF1 translation and was recently updated by USEPA (1996).  The capability
+      of the enhanced version of RF1 (ERF1) and the current USEPA version has
+      not been evaluated.  The user is referred to the USEPA version
+      [see Web address given in the USEPA (1996) reference] for discussions
+      of streamflow accuracy and general background on the origin of RF1.
+		</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Richard B. Alexander</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Hydrologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>12201 Sunrise Valley Dr., MS 413</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>1-888-275-8747</cntvoice>
+        <cntemail>ralex@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+    <datacred>
+      David L. Lorenz of the U.S. Geological Survey assembled
+      the majority of the documentation for this data set.
+		</datacred>
+    <native>
+      dgux, R4.11MU04, AViiON UNIX
+      ARC/INFO version 7.1.1
+      ARC/INFO version 7.2.1, NT
+		</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>
+        The direct drainage area of each reach (RCHAREA) was computed by
+        Smith and others (1997) using a Theissen method.  It considers solely
+        the distance to the nearest reach and does not consider any
+        topographic features. It provides reasonably good estimates for
+        higher-order streams, but is less accurate for lower orders.
+        See process steps 3, 4, and 5, to assess the accuracy of MEANV,
+        RCHTOT, and RESTOT.
+			</attraccr>
+    </attracc>
+    <logic>
+      This data set is believed to provide complete and accurate
+      connectivity among the streams represented. These arcs representing
+      streams are intended to be presented in a TNODE to FNODE
+      orientation. The arcs are pointing in a downstream direction.
+		</logic>
+    <complete>
+      The set of streams represented reflects the choices in the
+      U.S. Environmental Protection Agency's "Reach File 1." See
+      DeWald and others, 1985.
+		</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>
+          Reservoir and lake boundaries were removed from the original RF1
+          data set. They are represented by a single trace to satisfy
+          the connectivity requirements of the dataset.  ArcEdit functions
+          were used to delineate centerlines within the RF1 shoreline
+          boundaries.  The centerline reaches approximate the thalweg of each
+          reservoir or lake.
+          Shorlines of major estuaries and some coastal areas were added
+          to the data set to serve as a stopping location for trace
+          routines. Existing reaches extending within estuaries were deleted.
+				</horizpar>
+      </horizpa>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Smith, R.A., Schwarz, G.E., and Alexander, R.B.</origin>
+            <pubdate>19971201</pubdate>
+            <title>Regional interpretation of water-quality monitoring data</title>
+            <geoform>model</geoform>
+            <serinfo>
+              <sername>Water Resources Research</sername>
+              <issue>Volume 33, Number 12, pp. 2781-2798</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>American Geophysical Union</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Arc/INFO coverage and ASCII files</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19971201</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>none</srccurr>
+        </srctime>
+        <srccitea>Smith and others, 1997</srccitea>
+        <srccontr>Linework, connectivity, areas</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Smith, R.A., Alexander, R.B., and Schwarz, G.E.</origin>
+            <pubdate>19950602</pubdate>
+            <title>Quantifying fluvial interstate pollution transfers</title>
+            <geoform>map</geoform>
+            <serinfo>
+              <sername>Spring Meeting</sername>
+              <issue>June 2, 1995, Baltimore, Maryland.</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>American Geophysical Union</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>map</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19950602</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>none</srccurr>
+        </srctime>
+        <srccitea>Smith and others, 1995</srccitea>
+        <srccontr>Linework, connectivity, areas</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Alexander, R.B., Smith, R.A., and Schwarz, G.E.</origin>
+            <pubdate>19960101</pubdate>
+            <title>the Gulf of Mexico</title>
+            <geoform>map</geoform>
+            <serinfo>
+              <sername>Management Conference</sername>
+              <issue>December 5-6, 1995, Kenner, Louisiana.</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Washington, DC</pubplace>
+              <publish>USEPA</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>map</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19971201</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>none</srccurr>
+        </srctime>
+        <srccitea>Alexander and others, 1996</srccitea>
+        <srccontr>Linework, connectivity, areas</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>DeWald, T., Horn, R., Greenspun, R., and Taylor, P.</origin>
+            <pubdate>19850101</pubdate>
+            <title>STORET Reach Retrieval Documentation</title>
+            <geoform>model</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Arc/INFO coverage</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19950101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>none</srccurr>
+        </srctime>
+        <srccitea>DeWald and others, 1985</srccitea>
+        <srccontr>Linework and attributes</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Environmental Protection Agency</origin>
+            <pubdate>19960101</pubdate>
+            <title>United States (CONUS)</title>
+            <geoform>model</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>U.S. Environmental Protection Agency</publish>
+            </pubinfo>
+            <onlink>http://www.epa.gov/waterscience/basins/metadata/rf1.htm</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Arc/INFO Export</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19960101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>none</srccurr>
+        </srctime>
+        <srccitea>USEPA 1996</srccitea>
+        <srccontr>Linework and attributes</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>National Oceanic and Atmospheric Administration</origin>
+            <pubdate>19971201</pubdate>
+            <title>
+              United States (CONUS) as enhanced for NOAA's Strategic
+              Environmental Assessments Division
+						</title>
+            <geoform>model</geoform>
+            <pubinfo>
+              <pubplace>Washington, D.C.</pubplace>
+              <publish>National Oceanic and Atmospheric Administration</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <srcscale>500000</srcscale>
+        <typesrc>Arc/INFO Coverage</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19971201</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>none</srccurr>
+        </srctime>
+        <srccitea>NOAA, 1997</srccitea>
+        <srccontr>Linework and attributes</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Ruddy, B.C., and Hitt, K.J.</origin>
+            <pubdate>19900101</pubdate>
+            <title>United States and Puerto Rico</title>
+            <geoform>model</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Open-file Report</sername>
+              <issue>90-163</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Arc/INFO coverage</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19900101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            April, 1998 on the World Wide Web at
+            https://water.usgs.gov/lookup/getspatial?reservoir
+					</srccurr>
+        </srctime>
+        <srccitea>Ruddy and Hitt, 1990</srccitea>
+        <srccontr>Points and attributes for reservoirs.</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Omernik, J.M.</origin>
+            <pubdate>19870101</pubdate>
+            <title>Aquatic ecoregions of the conterminous United States</title>
+            <geoform>model</geoform>
+            <serinfo>
+              <sername>Annals of the Association of American Geographers</sername>
+              <issue>Volume 77, pp. 118-125</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>unknown</pubplace>
+              <publish>Association of American Geographers</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>map</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19870101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>none</srccurr>
+        </srctime>
+        <srccitea>Omernik, 1987</srccitea>
+        <srccontr>Ecoregions</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Allord, G.J..</origin>
+            <pubdate>19920101</pubdate>
+            <title>conterminous United States.</title>
+            <geoform>model</geoform>
+            <serinfo>
+              <sername>U.S. Geological Survey Open-file Report</sername>
+              <issue>90-163</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Arc/INFO coverage</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19920101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            April, 1998 on the World Wide Web at
+            https://water.usgs.gov/lookup/getspatial?huc2m
+					</srccurr>
+        </srctime>
+        <srccitea>Allord, 1992</srccitea>
+        <srccontr>Hydrologic unit boundaries</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>19970101</pubdate>
+            <title>Federal Land Features of the U.S. (Polygon)</title>
+            <geoform>model</geoform>
+            <serinfo>
+              <sername>The National Atlas of the United States of America</sername>
+              <issue>fedlandsm</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Arc/INFO coverage</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19920101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            July, 1998 on the World Wide Web at
+            http://www-atlas.usgs.gov/
+					</srccurr>
+        </srctime>
+        <srccitea>USGS, 1997a</srccitea>
+        <srccontr>Federal land polygons</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>19970101</pubdate>
+            <title>Federal Land Features of the U.S. (Linear)</title>
+            <geoform>model</geoform>
+            <serinfo>
+              <sername>The National Atlas of the United States of America</sername>
+              <issue>parkwaysm</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reston, Virginia</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+          </citeinfo>
+        </srccite>
+        <typesrc>Arc/INFO coverage</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>19920101</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>
+            July, 1998 on the World Wide Web at
+            http://www-atlas.usgs.gov/
+					</srccurr>
+        </srctime>
+        <srccitea>USGS, 1997a</srccitea>
+        <srccontr>Wild amp Scenic Rivers</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>
+          (a) The RF1 trace file was edited to exclude reservoir shorelines.
+          Segments with a TYPE='L' (lake shoreline segment) were removed from
+          the file.
+          (b) ArcEdit functions were used to create centerlines within the RF1
+          shoreline boundaries.  A separate coverage of the shoreline segments
+          was superpositioned as a backcover in ArcEdit and used as a guide in
+          the manual positioning of the centerlines.  The downstream nodes of
+          tributary reaches were moved (using the VERTEX MOVE ArcEdit command)
+          and joined with other tributary nodes to form centerlines. The
+          VERTEX ADD ArcEdit function was applied to centerline reaches in
+          ArcEdit to ensure that the new arcs approximated the thalweg of each
+          reservoir.
+          A total of 4,180 reaches in 1,146 reservoirs were added as
+          centerlines to produce a total of 60,298 reaches in ERF1 trace file.
+          [Note that in one case the interior reach extends beyond the
+          reservoir boundaries (ERF1##=10117).  In future editions of the
+          file, a node will be added at the reservoir outlet.  Also note that
+          the attributes listed in the ERF1.AAT file may not be accurate for
+          centerlines because these reaches were created from reservoir
+          tributary reaches.]
+				</procdesc>
+        <procdate>19981207</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+          Using the ArcPlot TRACE function, the connectivity of reaches was
+          determined by navigating upstream from all reaches where there
+          is no downstream reach. These reaches are called terminal reaches.
+          Disruptions in navigation resulting from disconnected nodes or, more
+          commonly, improperly oriented arcs were corrected in ArcEdit by
+          joining nodes or "flipping" the arc direction, respectively.  To
+          conform with TRACE requirements, from-nodes (FNODE#) were located at
+          the downstream end of each reach and to-nodes (TNODE#) were located
+          at the upstream end of the reaches.  This node orientation is
+          maintained in the final version of ERF1.
+          Fewer than 10 disruptions were detected in navigation in each of
+          water-resources regions.  Additional edits were performed to
+          correct a few instances of circular reaches (identical to- and
+          from-nodes) and inaccurate digital representations of rivers.
+				</procdesc>
+        <procdate>19981207</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+          For approximately 5,600 reaches with missing mean velocity values
+          (and positive mean streamflow values), estimates of mean velocity
+          were made using the regression-based approach developed by W.E. Gates
+          and Associates (USEPA, written communication, Nov 1982, "Reach
+          File Enhancements, Chapter 3, Development of time-of-travel
+          predictions).  The authors developed regression relations for each
+          of 9 stream orders from USGS topographic sheets that were used to
+          predict velocity as a function of streamflow and stream order.  The
+          calibration data set consisted of 2229 time-of-travel/velocity/
+          discharge measurements.  Velocity is related to log-transformed
+          flow and flow squared separately for data from each stream order.
+          Because of differences in stream order of USGS topographic maps and
+          RF1 scale digitizations, a probability matrix was established to
+          compute a stream-order weighted estimate of velocity for ERF1.
+				</procdesc>
+        <procdate>19981207</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+          The reach time-of-travel (RCHTOT) in units of days was computed as
+          the quotient of reach length and reach velocity for 59,364 reaches
+          with positive values of velocity such that
+                   RCHTOT = C1 * LENGTH / MEANV                    (1)
+          where C1 is a conversion factor of 0.00003797 ft-day/meter-second,
+          LENGTH is the length in meters of the Arc reach segment, and MEANV
+          is the mean velocity in feet per second.  Reaches with missing
+          time-of-travel are assigned a value of zero.
+				</procdesc>
+        <procdate>19981207</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+          (a) ERF1 centerlines were associated with the RF1
+          shoreline features and attributes (i.e., reservoir name in
+          PNAME and unique reservoir code in PNMCD) by converting reservoir
+          shoreline segments to polygons and intersecting these polygons
+          with the centerlines.  A total of 4,180 reaches were linked
+          to 1,146 reservoirs with shoreline boundaries in RF1.
+          (b) These centerline reaches were digitally matched with
+          reservoirs identified in the USGS reservoir file (Ruddy and Hitt,
+          1990) by linking each reservoir to the nearest centerline within
+          10 kilometers using the Arc NEAR function.  The USGS reservoir
+          file consists of 2,728 reservoirs with normal capacity of at least
+          5,000 acre-feet or maximum capacities of at least 25,000 acre-feet
+          and that were completed as of January 1, 1988.  These reservoirs
+          are digitally represented by points in an Arc coverage which represent
+          the location of the center of the dam. [see Web location cited in
+          references for Ruddy and Hitt (1990)].
+          Manual verification of reservoir-RF1 reach links were completed by
+          comparing the river and reservoir names in RF1 to those in the
+          USGS reservoir file, and by visual inspection for agreement
+          between the centerlines and reservoir shoreline boundaries.
+          A total of 815 reservoirs were matched with RF1 shorelines
+          features (350 unmatched RF1 water bodies).  Of these 815
+          reservoirs, there are 19 pairs of reservoirs that match the same
+          RF1 water body (i.e., duplicate PNMCD-RES values in the file
+          ERF1.RESINT), and 2 RF1 water bodies that match the same USGS
+          reservoir RESERVOIR##=1004).  Reservoir residence time (i.e.,
+          time-of-travel or RESTOT) in units of days was computed for 810
+          reservoirs with available values of normal capacity and outflow
+          such that
+                 RESTOT = NORMCAP / MEANQ-OUT * C2               (2)
+          where NORMCAP is the normal capacity in acre-feet from the USGS
+          reservoir file, MEANQ-OUT is the mean streamflow for the immediate
+          reach downstream of the reservoir, and C2 is a conversion factor
+          of 0.50416 cubic feet-day/acre feet-second.  Reservoirs with
+          missing time-of-travel values are assigned a value of zero.
+          The reservoir attributes for 1,165 reservoirs appear in the file
+          ERF1.RESINT.
+          (c) Remaining reservoirs in the USGS reservoir file were initially
+          matched to RF1 reaches located outside of the RF1 shoreline
+          boundaries using the Arc NEAR criterion of 10 kilometers described
+          previously.  Manual verification of links was initially completed
+          by comparing the river names with those in the USGS reservoir
+          file.
+          An automated graphical display using AML was created to allow visual
+          verification and correction of the remaining reservoir-reach links
+          and previous links that were in question.  USGS topographic maps
+          were used in combination with the display aml to obtain accurate
+          reservoir-reach matches.
+          A total of 1,322 reservoirs were matched to 1,245 RF1 reaches
+          external to RF1 shoreline boundaries (RESCODE = 3, 4, or 5).
+          Multiple reservoirs were linked to 67 reaches (2 reaches with 4
+          reservoirs each; 6 reaches with 3 reservoirs each; and 59 reaches
+          with 2 reservoirs each).  Reservoir residence time in units of
+          days (RESTOT) was computed for 1,296 reservoirs with available
+          values of normal capacity and streamflow such that
+                   RESTOT = NORMCAP / MEANQ * C2                  (3)
+          where MEANQ is the RF1 reach mean streamflow.
+          The reservoir attributes for 1,322 reservoirs appear in the file
+          ERF1.RESEXT.
+				</procdesc>
+        <procdate>19981207</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+          Major estuaries and coastal shorelines were added from the
+          National Oceanic and Atmospheric Administration USEPA Reach
+          File Version 1.0 (RF1) (NOAA, 1997) for the Conterminous United
+          States (CONUS) as enhanced for NOAA's Strategic Environmental
+          Assessments Division. Shorelines and estuary boundaries were
+          snapped to existing reaches and assigned ERF1## and E2RF1## values of
+          80000.
+          For identification purposes, the shorelines and estuary boundaries
+          maintained the USEPA items for identification purpose.
+          In addition, TERMFLAG = 3 for these shoreline segments.
+				</procdesc>
+        <procdate>19990404</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+          Major river basins where MEANQ gt 5000 were checked for connectivity
+          and orientation using the ARCPLOT TRACE commands. The following
+          corrections were made. Numbers represent attribute ERF1##. An item
+          E2RF1## was added to reflect changes in the unique identifier of
+          reaches and will be used in future modeling applications.
+          ERF1## and E2RF1## are equal except for the first three transport
+          reaches corrected listed below.
+          4368  Susquehanna confluence is at the wrong location.
+               Used all attributes from the downstream reach
+               3422. New E2RF1## = 65000
+          32047 snapped to 32051, Calc TERMFLAG = 0
+          upstream 32051 E2RF1## calculated to 65001
+          32048 snapped to 32051, Calc TERMFLAG = 0
+          upstream 32051 E2RF1## calculated to 65002
+          54175 and 54176 snapped to 53437. New upstream reach created and
+          merged (unsplit) with ERF1## 53438.
+          2817 and 3038 intertwined at upstream end
+          split reach 3083 at 1:2m hydrologic unit boundary (Huc bnd)
+          and deleted upstream end .
+          6734 - Upper reach duplicated by 10493 (Little Ogeechee R.)
+          split 10493 at huc bnd and deleted upstream end
+          11945 and 12634 intertwined upstream
+          split both at Huc bnd, deleted upstream ends
+          13879 and 13880 are intertwined
+          Deleted 13880, wrong location
+          15384 and 15402 - intertwined at upstream ends
+          split 15402 at Huc bnd, deleted upstream end
+          17258 and 7875 - intertwined at upstream end
+          split 7875 at Huc bnd, deleted upstream end
+          19453 and 19452 - intertwined,
+          Deleted 19452, wrong location
+          23117 and 32841 intertwined at upstream ends
+          split 23117 at Huc bnd, deleted upstream
+          52204 and 47249 intertwined at upstream ends
+          split both 52204 and 47249 at Huc bnd and deleted
+          upstream ends
+          53575 and 53574 intertwined upstream
+          split both 53575 and 53574  at Huc bnd and deleted
+          upstream ends
+          53786 and 54262 intertwined upstream
+          split 54262 at huc bnd and deleted upstream end
+          3322  - deleted unnecessary arcs, corrected node toploogy
+          5645  - deleted unnecessary arcs, corrected node toploogy
+          10527 - Snapped to 10534, W. Br. Cooper R.
+          6187 - Snapped to 6195, S. Santee
+          6720 - deleted unnecessary arcs, corrected node topology
+          11829 - corrected topology
+          13559 deleted zingers, L shaped arcs
+          16257 and 16636 - unsnapped nodes at upstream end
+          15979 and 16584 - unsnapped nodes at upstream end
+          Unsnapped nodes at upstream 21922 from 21911
+          22744 removed and unsplit to 22745
+          re-calculated RCHAREA
+          Flipped 31870 31873, Calc TERMFLAG = 0
+          32013 snapped, Calc TERMFLAG = 0
+          57137 and 57141 Flipped and snapped
+          57101 snapped to node
+          51065 snapped to node
+          31249 and 34050 intertwined at upstream ends
+          split 31249 at Huc bnd, deleted upstream end.
+				</procdesc>
+        <procdate>19990501</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+          All coastal shoreline reachs (E2RF1## gt 80000), TERMFLAG = 3.
+          TERMFLAG for disconnected reaches and reaches flowing
+          outside continental US = 2. TERMFLAG for reaches ending
+          at the shoreline to terminate modeling applications = 1.
+				</procdesc>
+        <procdate>19990519</procdate>
+      </procstep>
+      <procstep>
+        <procdesc>
+          Reaches with missing or zero MEANQ or MEANV values (932) were
+          assigned -9999.99. RESTOT and RCHTOT that would result in a
+          negative values were also assigned -9999.99.
+				</procdesc>
+        <procdate>19990719</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+    <ptvctinf>
+      <sdtsterm>
+        <sdtstype>String</sdtstype>
+        <ptvctcnt>60298</ptvctcnt>
+      </sdtsterm>
+    </ptvctinf>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <mapproj>
+          <mapprojn>Albers Conical Equal Area</mapprojn>
+          <albers>
+            <stdparll>29.5</stdparll>
+            <stdparll>45.5</stdparll>
+            <longcm>-96</longcm>
+            <latprjo>23</latprjo>
+            <feast>0.0</feast>
+            <fnorth>0.0</fnorth>
+          </albers>
+        </mapproj>
+        <planci>
+          <plance>coordinate pair</plance>
+          <coordrep>
+            <absres>459.9369506835</absres>
+            <ordres>459.9369506835</ordres>
+          </coordrep>
+          <plandu>Meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Spheroid GRS1980</ellips>
+        <semiaxis>6378206.4</semiaxis>
+        <denflat>294.98</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <overview>
+      <eaover>
+        Brief description of the attributes of the ERF1 geospatial data
+        set and associated INFO files. Fields defined in original RF1 may
+        not have the correct information because of enhancement processing.
+        See USEPA (1996) for documentation for RF1.  See Ruddy and Hitt (1990)
+        for documentation of reservoir codes. See NOAA (1997) for
+        documentation for NOAA codes.
+        &gt;
+        ERF1.AAT: Arc Attribute Table
+        &gt;    1  FNODE#                 4     5     B
+        &gt;    5  TNODE#                 4     5     B
+        &gt;    9  LPOLY#                 4     5     B
+        &gt;   13  RPOLY#                 4     5     B
+        &gt;   17  LENGTH                 4    12     F
+        &gt;   21  ERF1#                  4     5     B
+        &gt;   25  ERF1-ID                4     5     B
+        &gt;   29  HUC                    8     8     I
+        &gt;   37  SEG                    3     3     I
+        &gt;   40  RFLAG                  1     1     C
+        &gt;   41  OWFLAG                 1     1     C
+        &gt;   42  TFLAG                  1     1     C
+        &gt;   43  SFLAG                  1     1     C
+        &gt;   44  TYPE                   1     1     C
+        &gt;   45  SEGL                   4     5     F
+        &gt;   49  LEV                    2     2     I
+        &gt;   51  PNAME                 30    30     C
+        &gt;   81  PNMCD                 11    11     C
+        &gt;   92  OWNAME                30    30     C
+        &gt;  122  OWNMCD                11    11     C
+        &gt;  133  RESCODE                4     5     B
+        &gt;  137  RESVOIR1               4     5     B
+        &gt;  141  RESVOIR2               4     5     B
+        &gt;  145  RESVOIR3               4     5     B
+        &gt;  149  RESVOIR4               4     5     B
+        &gt;  153  ERF1##                 4     5     B
+        &gt;  157  E2RF1##                4     5     B
+        &gt;  161  PNAME-RES             30    30     C
+        &gt;  191  PNMCD-RES             11    11     C
+        &gt;  202  MEANQ                  4    10     F
+        &gt;  206  MEANV                  4    10     F
+        &gt;  210  RCHAREA                4     9     F
+        &gt;  214  TOTAREA                4     9     F
+        &gt;  218  STRAHLER               4     5     B
+        &gt;  222  STATE1                 2     2     I
+        &gt;  224  STATE2                 2     2     I
+        &gt;  226  STATE3                 2     2     I
+        &gt;  228  RCHTOT                 4    12     F
+        &gt;  232  RESTOT                 4    12     F
+        &gt;  236  TERMFLAG               4     5     B
+        &gt;  240  CONTFLAG               4     5     B
+        &gt;  244  LRATIO                 4    12     F
+        &gt;  248  EDACDA                 5     5     C
+        &gt;  253  EDANAME               50    50     C
+        &gt;           **  REDEFINED ITEMS  **
+        &gt;   29  RR                    11    11     C
+        &gt;   29  HUC2                   2     2     I
+        &gt;   29  HUC4                   4     4     I
+        &gt;   29  HUC6                   6     6     I
+        &gt;
+        &gt; Item Name      Description
+        &gt;
+        &gt; CONTFLAG       Continental flag (see below).
+        &gt; EDACDA         NOAA code identifying estuarine/coastal drainage
+        &gt;                areas for major estuaries in the United States.
+        &gt; EDANAME        NOAA name identifying estuarine/coastal drainage
+        &gt;                areas for major estuaries in the United States.
+        &gt; ERF1#          Arc internal number of the arc.
+        &gt; ERF1##         Unique key identifying the reach Version 1 files.
+        &gt; E2RF1##        A secondary unique reach identification number that
+        &gt;                reflects revisions in process steps 6 and 7.
+        &gt; ERF1-ID        Arc identification number.
+        &gt; FNODE#         Internal number of the from node.
+        &gt; HUC            Hydrologic Cataloging unit of the reach.
+        &gt; HUC2           Hydrologic Region of the reach.
+        &gt; HUC4           Hydrologic Subregion of the reach.
+        &gt; HUC6           Hydrologic Accounting unit of the reach.
+        &gt; LENGTH         Reach length in meters.
+        &gt; LEV            The stream level used for hierarchical relationships, defined in RF1.
+        &gt; LPOLY#         Internal number of the left polygon, always zero.
+        &gt; LRATIO         Indicates fraction of reach lying within continental
+        &gt;                boundaries, see CONTFLAG.
+        &gt; MEANQ          Mean streamflow for reach, in cubic feet per second.
+        &gt;                -9999.99 = nodata
+        &gt; MEANV          Velocity corresponding to mean streamflow for reach,
+        &gt;                in feet per second.
+        &gt; OWFLAG         Open water flag defined in RF1.
+        &gt; OWNAME         Open water name defined in RF1.
+        &gt; OWNMCD         Open water name code, defined in RF1.
+        &gt; PNAME          Name of the reach defined in RF1.
+        &gt; PNAME-RES      Reservoir name, defined in RF1.
+        &gt; PNMCD          Reach name code defined in RF1.
+        &gt; PNMCD-RES      Reservoir name code, defined in RF1.  Link from arc
+        &gt;                attribute table (ERF1.AAT) to the resint table
+        &gt;                (ERF1.RESINT).
+        &gt; RCHAREA        Total area associated with reach, in square kilometers.
+        &gt; RCHTOT         Reach water time of travel (days). -9999.99 = nodata
+        &gt; RESCODE        Reservoir reach type code (see below).
+        &gt; RESTOT         Reservoir time of travel associated with the reach,
+        &gt;                in days (see below). -9999.99 = nodata
+        &gt; RESVOIR1       Reservoir identification number 1 (see below).
+        &gt; RESVOIR2       Reservoir identification number 2 (see below).
+        &gt; RESVOIR3       Reservoir identification number 3 (see below).
+        &gt; RESVOIR4       Reservoir identification number 4 (see below).
+        &gt; RFLAG          Transport reach flag defined in RF1.
+        &gt; RPOLY#         Internal number of the right polygon, always zero.
+        &gt; RR             "River Reach" identifier. Key to RF1.
+        &gt; SEG            The 3-digit segment number.
+        &gt; SEGL           The reach length defined in RF1.
+        &gt; SFLAG          Start flag defined in RF1.
+        &gt; STATE1         State fips code 1.
+        &gt; STATE2         State fips code 2.
+        &gt; STATE3         State fips code 3.
+        &gt; STRAHLER       Strahler stream order of the reach.
+        &gt; TERMFLAG       Terminal reach flag used for model applications.
+        &gt; TFLAG          Terminal flag defined in RF1.
+        &gt; TNODE#         Internal number of the TO node.
+        &gt; TOTAREA        Total area above reach outlet, in square kilometers.
+        &gt; TYPE           The reach type defined in RF1.
+        &gt;
+        &gt; ERF1.NAT: Node Attribute Table
+        &gt;
+        &gt; COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC
+        &gt;    1  ARC#                   4     5     B      -
+        &gt;    5  ERF1#                  4     5     B      -
+        &gt;    9  ERF1-ID                4     5     B      -
+        &gt;
+        &gt; ARC#           Internal number in the node attribute table.
+        &gt; ERF1#          Internal number of the arc.
+        &gt; ERF1-ID        Unique identifier. Primary key.
+        &gt;
+        &gt;ERF1.RESATTS: Reservoir Statistics table
+        &gt;
+        &gt;COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC
+        &gt;    1  FIPS                   5     5     I      0
+        &gt;    6  STATE                  2     2     C      -
+        &gt;    8  NUM                    3     3     I      -
+        &gt;   11  DAMNAME               37    37     C      -
+        &gt;   48  RESNAME               26    26     C      -
+        &gt;   74  OWNERNAME             20    20     C      -
+        &gt;   94  OWNERCODE              1     1     C      -
+        &gt;   95  SIZECODE               1     1     C      -
+        &gt;   96  MAXCAP                 9     9     N      0
+        &gt;  105  NORMCAP                9     9     N      0
+        &gt;  114  SURFCAP                9     9     N      0
+        &gt;  123  POPNAME               37    37     C      -
+        &gt;  160  HUC                    8     8     I      -
+        &gt;  168  RIVER                 29    29     C      -
+        &gt;  197  YEAR                   4     4     I      -
+        &gt;  201  PURP                  10    10     C      -
+        &gt;  211  HEIGHT                 5     5     N      0
+        &gt;  216  HYDCAP                 8     8     N      0
+        &gt;  224  LOCKS                  1     1     I      -
+        &gt;  225  SOURCE                 1     1     C      -
+        &gt;  226  SURFAREA               9     9     N      0
+        &gt;  235  SURFACODE              1     1     C      -
+        &gt;  236  STORAT                 4     4     N      2
+        &gt;  240  STORATCODE             1     1     C      -
+        &gt;  241  DRAINAREA              9     9     N      2
+        &gt;  250  STLINE                 1     1     I      -
+        &gt;  251  ALTST                  2     2     C      -
+        &gt;  253  ALTID                  5     5     I      -
+        &gt;  258  REV                    4     4     F      1
+        &gt;  262  LONDD                  4    12     F      6
+        &gt;  266  LATDD                  4    12     F      6
+        &gt;  270  RESERVOIR##            4     5     B      -
+        &gt;     **  REDEFINED ITEMS  **
+        &gt;    1  FIPSST                 2     2     I      -
+        &gt;    3  FIPSCNTY               3     3     I      -
+        &gt;    6  STATENUM               5     5     C      -
+        &gt;  160  HUC2                   2     2     I      -
+        &gt;  160  HUC4                   4     4     I      -
+        &gt;  160  HUC6                   6     6     I      -
+        &gt;
+        &gt; ALTID          Alternate state id number, defined in reservoir.
+        &gt; ALTST          Adjacent state FIPS code, defined in reservoir.
+        &gt; DAMNAME        Name of dam, defined in reservoir.
+        &gt; DRAINAREA      Drainage area above dam, in square miles.  Defined in
+        &gt;                reservoir.
+        &gt; FIPS           The 5-digit FIPS code for the state and county.
+        &gt; FIPSCNTY       The 3-digit FIPS code for the county.
+        &gt; FIPSST         The 2-digit FIPS code for the state.
+        &gt; HEIGHT         Height of dam, in feet.  Defined in reservoir.
+        &gt; HYDCAP         Installed power capacity of dam, in megawatts.
+        &gt;                Defined in reservoir.
+        &gt; LATDD          Latitude of dam, defined in reservoir.
+        &gt; LOCKS          The number of navigation locks, defined in reservoir.
+        &gt; LONDD          Longitude of dam, defined in reservoir.
+        &gt; MAXCAP         Maximum capacity of reservoir, in acre feet. Defined
+        &gt;                in reservoir.
+        &gt; NORMCAP        Normal capacity, acre-ft, of the reservoir of which
+        &gt;                the reach is part.  Defined in reservoir.
+        &gt; NUM            Arbitrary sequence number of dam, defined in reservoir.
+        &gt; OWNERCODE      Owner of dam code, defined in reservoir.
+        &gt; OWNERNAME      Name of owner of dam, defined in reservoir.
+        &gt; POPNAME        Popular name of dam, defined in reservoir.
+        &gt; PURP           Major purpose of dam, defined in reservoir.
+        &gt; RESERVOIR##    Link between the arc attribute table and reservoir tables.
+        &gt; RESNAME        Name of reservoir, defined in reservoir.
+        &gt; REV            Revision number for reservoir data, defined in reservoir.
+        &gt; RIVER          Name of river on which dam is built, defined in
+        &gt;                reservoir.
+        &gt; SIZECODE       Reservoir size code, defined in reservoir.
+        &gt; SOURCE         Source of changes to reservoir files, defined in
+        &gt;                reservoir.
+        &gt; STATE          State fips code, defined in reservoir.
+        &gt; STATENUM       State and sequence number for reservoir, defined in
+        &gt;                reservoir.
+        &gt; STLINE         Flag to indicate dam is on state line, defined in
+        &gt;                reservoir.
+        &gt; STORAT         Storage ratio, defined in reservoir.
+        &gt; STORATCODE     Storage ration code, defined in reservoir.
+        &gt; SURFACODE      Surface area code, defined in reservoir.
+        &gt; SURFAREA       Surface area of reservoir, in acres.  Defined in
+        &gt;                reservoir.
+        &gt; SURFCAP        Capacity used to calculate surface area, defined in
+        &gt;                reservoir.
+        &gt; YEAR           The year the dam was completed, defined in reservoir.
+        **********************************************************************************
+        &gt;ERF1.RESEXT: Reservoir Statistics table
+        &gt;
+        &gt;COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC
+        &gt;    1  ERF1##                 4     5     B      -
+        &gt;    5  RESERVOIR##            4     5     B      -
+        &gt;    9  RESCODE                4     5     B      -
+        &gt;   13  PNAME-RES             30    30     C      -
+        &gt;   43  PNMCD-RES             11    11     C      -
+        &gt;   54  MEANQ                  4    10     F      2
+        &gt;   58  RESTOT                 4    12     F      5
+        &gt;
+        &gt; ERF1##         Unique key identifying the reach.
+        &gt; MEANQ          Mean streamflow for reach, in cubic feet per second.
+        &gt; PNAME-RES      Reservoir name, defined in RF1.
+        &gt; PNMCD-RES      Reservoir name code, defined in RF1.  Link from arc
+        &gt; RESCODE        Reservoir reach type code (see below).
+        &gt; RESERVOIR##    Link between the arc attribute table and reservoir tables.
+        &gt; RESTOT         Reservoir time of travel associated with the reach,
+        &gt;                 in days (see below).
+        ********************************************************************************
+        &gt;ERF1.RESINT:
+        &gt;
+        &gt;COLUMN   ITEM NAME        WIDTH OUTPUT  TYPE N.DEC
+        &gt;    1  RESERVOIR##            4     5     B      -
+        &gt;    5  RESCODE                4     5     B      -
+        &gt;    9  PNAME-RES             30    30     C      -
+        &gt;   39  PNMCD-RES             11    11     C      -
+        &gt;   50  RESTOT                 4    12     F      5
+        &gt;   54  MEANQ-OUT              4    10     F      2
+        &gt;
+        &gt; MEANQ-OUT      Mean streamflow for reach below reservoir, in cubic
+        &gt;                 feet per second.
+        &gt; PNAME-RES      Reservoir name, defined in RF1.
+        &gt; PNMCD-RES      Reservoir name code, defined in RF1.  Link from arc
+        &gt; RESCODE        Reservoir reach type code (see below).
+        &gt; RESERVOIR##    Link between the arc attribute table and reservoir tables.
+        &gt; RESTOT         Reservoir time of travel associated with the reach,
+        &gt;                 in days (see below).
+        *******************************************************************************
+        &gt;Additional explanation and domains of items in ERF1 and reservor tables.
+        &gt;Some attributes are from original RF1 data, and may have changed due to
+        &gt;enhanced processing.
+        &gt;
+        CONTFLAG
+        &gt; Code to approximately separate fresh-water from tidally
+        &gt; influenced reaches.
+        &gt;    0 == Fresh-water reach, LRATIO gt= .50.
+        &gt;    1 == Tidal reach, LRATIO lt .50.
+        OWFLAG -- RF1 attribute
+        &gt; Open Water Flag
+        &gt;    0 == Non Open Water
+        &gt;    1 == Open Water
+        RESCODE
+        &gt; [Note that hydraulic data displayed in the file RESV%%%%.TXT
+        &gt; (where %%%% is a unique supplier intake and reach identification
+        &gt; number), including water time of travel,  are not available for
+        &gt; all impoundments]
+        &gt;    1,2 == The reach is interior to RF1 shoreline features
+        &gt;    3   == The reach is the outlet reach for a reservoir with RF1
+        &gt;           shoreline features
+        &gt;    4   == No shoreline features are present in the RF1 coverage
+        &gt;    5   == No shoreline features are present in the RF1 coverage;
+        &gt;           the reservoir is an "offstream" facility that may divert
+        &gt;           river flow (no reservoir characteristics are reported
+        &gt;           for these cases)
+        &gt;
+        RESTOT
+        &gt; Where RESTOT is a positive value, the reservoir residence time
+        &gt; (computed  as quotient of the normal capacity of the reservoir
+        &gt; and the streamflow at the outlet of the reservoir) is used to
+        &gt; define the water time of travel in the  reach.  Where multiple
+        &gt; reaches are associated with a single reservoir, the reach share
+        &gt; of the reservoir residence time is proportional to the reach
+        &gt; length relative to the total reach length of the reservoir.
+        &gt;
+        RESVOIR1, RESVOIR2, RESVOIR3, RESVOIR4
+        &gt; Identification number for impoundments with hydraulic data.  The
+        &gt; ID number corresponds to RESERVOIR## in the ERF1.RESATTS file.
+        &gt; Note that multiple reservoirs may be associated with a reach.
+        &gt;
+        RFLAG -- RF1 attribute
+        &gt;     0 == Non-Transport reach
+        &gt;     1 == Transport reach, RF1 attribute
+        SFLAG -- RF1 attribute
+        &gt;     0 == Non-Start reach, RF1 attribute
+        &gt;     1 == Start reach, RF1 attribute
+        TFLAG -- RF1 attribute
+        &gt;     0 == Non-Terminal Reach, RF1 attribute
+        &gt;     1 == Terminal reach, RF1 attribute
+        TERMFLAG -- Modeling applications
+        &gt;     0 == Transport reach
+        &gt;     1 == Terminal reach
+        &gt;     2 == Non-connected, or exits to a closed basin
+        &gt;     3 == Shoreline reach
+        TYPE -- RF1 attribute
+        &gt; Reach Type - The term "reach type", not to be confused with any of the
+        &gt; Reach File record types, refers to a one-character code assigned to each
+        &gt; RF1 reach to categorize transport reaches and shoreline reaches as follows:
+        &gt;     A. Artificial Lake Reach (A transport reach). An artificial reach
+        &gt;        within a lake or reservoir inserted in the file to provide
+        &gt;        connection between input and output reaches of the open water.
+        &gt;     B. Bi-directional Reach (A transport reach). A reach for which the
+        &gt;        direction of flow is ambiguous.
+        &gt;     C. Coastal or Continental Shoreline Segment (A shoreline reach) A
+        &gt;        reach which represents a segment of a shoreline of a gulf, sea, or
+        &gt;        ocean.
+        &gt;     D. Dam Reach (A transport reach). A reach which is a dam through
+        &gt;        which and/or around which water flows. This type of reach has the
+        &gt;        same primary and open water names as the next reach upstream.
+        &gt;     E. Entry Reach (A transport reach). A reach which receives flow
+        &gt;        from Canada or Mexico.
+        &gt;     F. Falls Reach (A transport reach). A reach which is either a
+        &gt;        waterfall, drop spillway, or a reach of rapids.
+        &gt;     G. Great Lakes Shoreline Segment (A shoreline reach). A reach which
+        &gt;        represents a segment of a shoreline of the the Great Lakes.
+        &gt;     I. Island Shoreline Segment (A shoreline reach). A reach which
+        &gt;        represents a segment of a shoreline of an island.
+        &gt;     L. Lake Shoreline Segment (A shoreline reach). A segment which follows
+        &gt;        the shoreline of a lake other than one of the Great Lakes.
+        &gt;     M. Artificial Open Water Reach (A transport reach). An artificial
+        &gt;        reach within any open water, other than a lake or reservoir, to
+        &gt;        provide connection between input and output reaches of the open
+        &gt;        water.
+        &gt;     N. Non-Connected Reach (A transport reach). A reach not having codes
+        &gt;        to link it to other reaches.
+        &gt;     R. Regular Reach (A transport reach). A reach which has upstream and
+        &gt;        downstream reaches connected to it and which is not classified as
+        &gt;        another type of reach.
+        &gt;     S. Start Reach (A transport reach). A headwater reach which has no
+        &gt;        reaches above it and either one or two transport reaches connected
+        &gt;        to its downstream end.
+        &gt;     T. Terminal Reach (A transport reach). A reach downstream of which
+        &gt;        there is no other reach (for example, a reach which terminates
+        &gt;        into an ocean, a land-locked lake, or the ground). This type of
+        &gt;        reach has either one or two reaches connected to its upstream end.
+        &gt;     V. Open Water Terminal Reach (A transport reach). A reach which is both
+        &gt;        a terminal reach and an artificial open water reach.
+        &gt;     W. Wide-River Shoreline Segment (A shoreline reach). A reach which
+        &gt;        represents a segment of the left or right bank of a stream.
+        &gt;     X. Terminal Start Reach (A transport reach). A reach which is both a
+        &gt;        terminal reach and a start reach.
+        &gt;     Y. International Boundary Reach (A transport reach). A reach extending
+        &gt;        along a portion of an international boundary. Occurences of this
+        &gt;        type of reach are not actual surface water features. Instead, they
+        &gt;        are a type of artificial reach. They have been inserted in the file
+        &gt;        for database navigation between reaches along streams which flow
+        &gt;        out and then back into the US. They are not intended for usual
+        &gt;        studies of streamflow or the fate of pollutants.
+        &gt;     Z. Terminal Entry Reach (A transport reach). A reach which is both a
+        &gt;        terminal reach and an entry reach.
+			</eaover>
+      <eadetcit>none</eadetcit>
+    </overview>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS - Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+erf1</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although this data set has been used by the U.S. Geological
+Survey, U.S. Department of the Interior, no warranty expressed or
+implied is made by the U.S. Geological Survey as to the accuracy
+of the data and related materials. The act of distribution shall not 
+constitute any such warranty, and no responsibility is assumed by 
+the U.S. Geological Survey in the use of this data, software, or 
+related materials.
+
+Any use of trade, product, or firm names is for descriptive
+purposes only and does not imply endorsement by the U.S.
+Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>Export</formname>
+          <formcont>Full coverage</formcont>
+          <filedec>zipped</filedec>
+          <transize>1</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/erf1.e00.gz</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This dataset is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20041108</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html </cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>19990107</begdate>
+    <enddate>19990107</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_erf1.html</htmlurl>
+  </mercury>
+</metadata>

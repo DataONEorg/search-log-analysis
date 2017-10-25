@@ -1,0 +1,546 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/supersite.247.14/html" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+    <dataset>
+        <title>Coarse Woody Debris, Tumbarumba Wet Eucalypt SuperSite, Core 1 ha, 2015</title>
+        <creator id="1439242915144">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>Heather</givenName>
+                <surName>Keith</surName>
+            </individualName>
+            <organizationName>Australian National University</organizationName>
+            <positionName>Research Fellow</positionName>
+            <address>
+                <deliveryPoint>Fenner School of Environment &amp; Society</deliveryPoint>
+                <city>Canberra</city>
+                <administrativeArea>ACT</administrativeArea>
+                <postalCode>2601</postalCode>
+                <country>Australia</country>
+            </address>
+            <electronicMailAddress>Heather.Keith@anu.edu.au</electronicMailAddress>
+        </creator>
+        <pubDate>2015-09-16</pubDate>
+        <abstract>
+            <para>A plot-based assessment for coarse woody debris was conducted using the line intersect method as described by: Van Wagner CE 1968. The line intersect method in forest fuel sampling. Forest Science 14: 20-26. McKenzie N et al. 2001. Sampling, measurement and analytical protocols for carbon estimation in soil, litter and coarse woody debris. Technical Report No. 14 National Carbon Accounting System. Australian Greenhouse Office.</para>
+        </abstract>
+        <keywordSet>
+            <keyword>vegetation</keyword>
+            <keyword>agb</keyword>
+            <keyword>above ground biomass</keyword>
+            <keyword>Tumbarumba</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0602</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under Creative Commons - Attribution 4.0 International. The licence allows others copy, distribute, display, and perform the work and derivative works based upon it provided that they credit the original source and any other nominated parties.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/supersite.247.14/html</url>
+            </online>
+        </distribution>
+        <coverage>
+            <temporalCoverage>
+                <singleDateTime>
+                    <calendarDate>2015</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+            <geographicCoverage>
+                <geographicDescription>Tumbarumba Wet Eucalypt SuperSite</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>148.2257425</westBoundingCoordinate>
+                    <eastBoundingCoordinate>148.2257425</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-35.4897222</northBoundingCoordinate>
+                    <southBoundingCoordinate>-35.4897222</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+        </coverage>
+        <contact>
+            <references>1439242915144</references>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Coarse Woody Debris</title>
+                        <para>The method used was the line intersect method as described by:</para>
+                        <para>Van Wagner CE 1968. The line intersect method in forest fuel sampling. Forest Science 14: 20-26.</para>
+                        <para>McKenzie N et al. 2001. Sampling, measurement and analytical protocols for carbon estimation in soil, litter and coarse woody debris. Technical Report No. 14 National Carbon Accounting System. Australian Greenhouse Office.</para>
+                    </section>
+                </description>
+            </methodStep>
+        </methods>
+        <dataTable id="1441144019292">
+            <entityName>asn_tumb_veg_cwd_core_1_ha_2015.csv</entityName>
+            <entityDescription>Coarse Woody Debris, Tumbarumba Wet Eucalypt, 2015</entityDescription>
+            <physical id="1441140555053">
+                <objectName>asn_tumb_veg_cwd_core_1_ha_2015.csv</objectName>
+                <size unit="byte">13132</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>0</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/supersite.247.14/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1441144019308">
+                    <attributeName>transect</attributeName>
+                    <attributeDefinition>Transect number</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>transect</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019323">
+                    <attributeName>grid no.</attributeName>
+                    <attributeDefinition>Grid number</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>grid number</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019339">
+                    <attributeName>log diameter (cm)</attributeName>
+                    <attributeDefinition>log diameter decay class 1</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019355">
+                    <attributeName>log diameter (cm)</attributeName>
+                    <attributeDefinition>log diameter decay class 2</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019370">
+                    <attributeName>log diameter (cm)</attributeName>
+                    <attributeDefinition>log diameter decay class 3</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019386">
+                    <attributeName>log diameter (cm)</attributeName>
+                    <attributeDefinition>log diameter decay class 4</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019402">
+                    <attributeName>log diameter (cm)</attributeName>
+                    <attributeDefinition>log diameter decay class 5</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019417">
+                    <attributeName>% void</attributeName>
+                    <attributeDefinition>% void</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019433">
+                    <attributeName>d2</attributeName>
+                    <attributeDefinition>d2</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>d2</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019448">
+                    <attributeName>log diameter2 minus void (cm2)</attributeName>
+                    <attributeDefinition>log diameter 2 decay class 1</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019464">
+                    <attributeName>log diameter2 minus void (cm2)</attributeName>
+                    <attributeDefinition>log diameter 2 decay class 2</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019480">
+                    <attributeName>log diameter2 minus void (cm2)</attributeName>
+                    <attributeDefinition>log diameter 2 decay class 3</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019495">
+                    <attributeName>log diameter2 minus void (cm2)</attributeName>
+                    <attributeDefinition>log diameter 2 decay class 4</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019511">
+                    <attributeName>log diameter2 minus void (cm2)</attributeName>
+                    <attributeDefinition>log diameter 2 decay class 5</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019558">
+                    <attributeName>transect</attributeName>
+                    <attributeDefinition>Transect number</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>transect id</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019573">
+                    <attributeName>Sum of DC1 (cm2)</attributeName>
+                    <attributeDefinition>Sum of (cm2) decay class 1</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019589">
+                    <attributeName>Sum of DC2 (cm2)</attributeName>
+                    <attributeDefinition>Sum of (cm2) decay class 2</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019605">
+                    <attributeName>Sum of DC3 (cm2)</attributeName>
+                    <attributeDefinition>Sum of (cm2) decay class 3</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019620">
+                    <attributeName>Sum of DC4 (cm2)</attributeName>
+                    <attributeDefinition>Sume of (cm2) decay class 4</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019636">
+                    <attributeName>Sum of DC5 (cm2)</attributeName>
+                    <attributeDefinition>Sum of (cm2) decay class 5</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>squareCentimeters</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019667">
+                    <attributeName>Volume (m3/ha)</attributeName>
+                    <attributeDefinition>Volume decay class 1</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>cubicMeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019683">
+                    <attributeName>Volume (m3/ha)</attributeName>
+                    <attributeDefinition>Volume decay class 2</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>cubicMeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019698">
+                    <attributeName>Volume (m3/ha)</attributeName>
+                    <attributeDefinition>Volume decay class 3</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>cubicMeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019714">
+                    <attributeName>Volume (m3/ha)</attributeName>
+                    <attributeDefinition>Volume decay class 4</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>cubicMeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019730">
+                    <attributeName>Volume (m3/ha)</attributeName>
+                    <attributeDefinition>Volume - decay class 5</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>cubicMeter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019761">
+                    <attributeName>Carbon stock (tC/ha)</attributeName>
+                    <attributeDefinition>Carbon stock - decay class 1</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>tonnePerHectare</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019777">
+                    <attributeName>Carbon stock (tC/ha)</attributeName>
+                    <attributeDefinition>Carbon stock - decay class 2</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>tonnePerHectare</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019792">
+                    <attributeName>Carbon stock (tC/ha)</attributeName>
+                    <attributeDefinition>Carbon stock - decay class 3</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>tonnePerHectare</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019808">
+                    <attributeName>Carbon stock (tC/ha)</attributeName>
+                    <attributeDefinition>Carbon stock - decay class 4</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>tonnePerHectare</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019823">
+                    <attributeName>Carbon stock (tC/ha)</attributeName>
+                    <attributeDefinition>Carbon stock - decay class 5</attributeDefinition>
+                    <measurementScale>
+                        <interval>
+                            <unit>
+                                <standardUnit>tonnePerHectare</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </interval>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1441144019839">
+                    <attributeName>Total</attributeName>
+                    <attributeDefinition>Total</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>tonnePerHectare</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>103</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="Percentage" multiplierToSI="0.01" name="Percentage" parentSI="number" unitType="ratios">
+                    <description>per cent</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <qualityControl timestamp="2016-06-29T22:16:12.326Z" username="supersite"/>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

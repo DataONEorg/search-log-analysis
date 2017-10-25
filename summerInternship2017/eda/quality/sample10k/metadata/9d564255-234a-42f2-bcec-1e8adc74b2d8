@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:geonet="http://www.fao.org/geonetwork">
+  <Source>http://cmgds.marine.usgs.gov/metadata/104.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>U.S. Geological Survey</origin>
+        <pubdate>2003</pubdate>
+        <title>Geophysical Surveys of Bear Lake, Utah-Idaho, September, 2002 - Bathymetry (5m contours)</title>
+        <geoform>Vector Data</geoform>
+        <onlink>http://pubs.usgs.gov/of/2003/of03-150</onlink>
+        <onlink>http://pubs.usgs.gov/of/2003/of03-150/arcview/bathy/bathygrd.zip</onlink>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>Bear Lake is a tectonic lake that has existed for at
+least several hundred thousand years. The lake basin
+is a relatively simple half graben, a spoon-shaped depression
+tilted toward the main fault on the east side of the lake. The U.S.
+Geological Survey, in cooperation with researchers from several
+universities, has been studying the sediments of Bear Lake since
+1996. The general purpose of this effort is to reconstruct past
+limnological conditions and regional climate on a range of timescales,
+from hundreds of years to hundreds of thousands of years. This research
+relates to a variety of human concerns, including water usage in
+the Bear River basin. Past work has included several coring operations,
+a seismic-reflection survey, sediment-trap deployments, a barge-mounted
+drilling operation with the GLAD800 drill rig, and a variety of
+other studies.
+The objectives of the September, 2002 operations, preliminarily
+reported here, were (1) to compile a detailed bathymetric map of
+the lake using swath-mapping techniques, in order to provide baseline
+data for a variety of applications and studies, and (2) to complete
+a sidescan-sonar survey of the lake, providing a nearly complete
+acoustic image of the lake floor. Limited amounts of subbottom acoustic-reflection
+data (chrip) were also collected, along with samples of lake-floor
+sediments representative of different kinds of backscatter patterns.
+These surveys followed an earlier subbottom acoustic-reflection
+survey (1997), using boomer and 3.5 kHz systems (S. M. Colman, unpublished
+data).</abstract>
+      <purpose>The bathymetric contours will be used as a reference for depth information within Bear Lake, Utah-Idaho. No bathymetric surveys have been conducted in the Lake since the 1970's. This dataset represents the most up-to-date bathymetric information for the area.</purpose>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>20020904</begdate>
+          <enddate>20020916</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>Publication Date</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-111.5</westbc>
+        <eastbc>-111.17</eastbc>
+        <northbc>42.2</northbc>
+        <southbc>41.08</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>General</themekt>
+        <themekey>bathymetry</themekey>
+        <themekey>swath bathymetry</themekey>
+        <themekey>interferometry</themekey>
+        <themekey>U.S. Geological Survey</themekey>
+        <themekey>USGS</themekey>
+        <themekey>Coastal and Marine Geology Program</themekey>
+        <themekey>CMGP</themekey>
+        <themekey>Woods Hole Field Center</themekey>
+      </theme>
+      <place>
+        <placekt>None</placekt>
+        <placekey>Bear Lake</placekey>
+        <placekey>Utah</placekey>
+        <placekey>Idaho</placekey>
+        <placekey>Western Lakes</placekey>
+        <placekey>North America</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>None.</accconst>
+    <useconst>Bathymetry is not to be used for navigational purposes. The USGS asks to be referenced in any use of these data.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jane F. Denny</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-457-2311</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>jdenny@usgs.gov</cntemail>
+      </cntinfo>
+    </ptcontac>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>These data are internally consistent; all data were acquired with an SEA 2000 Series Submetrix interferometric sonar.</attraccr>
+    </attracc>
+    <logic>These data are were checked for consistency by plotting the point data with the contoured surface and eliminating suprious and anomolous soundings.</logic>
+    <complete>These data are complete.</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>All navigation data were acquired using the Wide Area Augmentation System (WAAS), a GPS-based navigation and landing system providing precision guidance to aircraft. Horizontal accuracy of the WAAS network is assumed to be accurate &lt; 3 meters.</horizpar>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Vertical accuracy is dependant on the navigation system. All navigation data were acquired using the Wide Area Augmentation System (WAAS), a GPS-based navigation and landing system providing precision guidance to aircraft. The Wide Area Augmentation System (WAAS) is assumed to have a vertical accuracy of +/- 5 meters.  All ship motion was recorded by a TSS DMS 2-05 Attitude Sensor.</vertaccr>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <procstep>
+        <procdesc>Bathymetric data were corrected for variations in the speed of sound throughout the water column; sound velocity profiles were acquired at locations throughout the lake and throughout the survey period. Attitude sensor and compass information were incorporated into the header of the bathymetric data files using the SEA RTS2000 acquiistion and processing system. The resultant data files were imported into SEA GRID2000 program and gridded to a 10 meter grid cell size.</procdesc>
+        <procdate>20020916</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jane F. Denny</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-457-2311</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>jdenny@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The SEA GRID2000 file was then exported as x,y,z. The weighgrid command within the University of New Brunswick, Ocean Mapping Group, SwathEd software was used to interpolate the data to fill in between line data gaps.  An interpolation of 300 meter radius was used.</procdesc>
+        <procdate>20020916</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jane F. Denny</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-457-2311</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>jdenny@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>The grid file was then converted to an ASCII Raster file and imported to ESRI ArcView 3.2.</procdesc>
+        <procdate>20020916</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jane F. Denny</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-457-2311</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>jdenny@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+      <procstep>
+        <procdesc>Contour data were generated from the bathymetric grid within ArcView. However, in contouring the grid within ArcView, grid artifacts were carried over into the contour data,  The grid artifacts are primarily a result of interpolating between line data gaps to generate a continuous surface.  Smoothing the contours and further hand editting (based on non-interpolated bathymetric soundings) generated a reasonable contour map. The final contour interval was chosen as five meter.</procdesc>
+        <procdate>20020916</procdate>
+        <proccont>
+          <cntinfo>
+            <cntperp>
+              <cntper>Jane F. Denny</cntper>
+              <cntorg>U.S. Geological Survey</cntorg>
+            </cntperp>
+            <cntpos>Geologist</cntpos>
+            <cntaddr>
+              <addrtype>mailing and physical address</addrtype>
+              <address>384 Woods Hole Road</address>
+              <city>Woods Hole</city>
+              <state>MA</state>
+              <postal>02543</postal>
+              <country>USA</country>
+            </cntaddr>
+            <cntvoice>508-457-2311</cntvoice>
+            <cntfax>508-457-2310</cntfax>
+            <cntemail>jdenny@usgs.gov</cntemail>
+          </cntinfo>
+        </proccont>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Vector</direct>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <geograph>
+        <latres>0.000089992</latres>
+        <longres>0.000089992</longres>
+        <geogunit>Decimal degrees</geogunit>
+      </geograph>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>bathy_5m.shp</enttypl>
+        <enttypd>ESRI ArcView 3.2 shapefile</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>Shape</attrlabl>
+        <attrdef>Feature Geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>point</edomv>
+            <edomvd>feature geometry name</edomvd>
+            <edomvds>Arcview</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Length</attrlabl>
+        <attrdef>feature geometry</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>vector</edomv>
+            <edomvd>feature geometry name</edomvd>
+            <edomvds>Arcview</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>ID</attrlabl>
+        <attrdef>Internal Feature ID</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <edom>
+            <edomv>point</edomv>
+            <edomvd>internal feature id</edomvd>
+            <edomvds>ESRI</edomvds>
+          </edom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Depth_m_</attrlabl>
+        <attrdef>Contour Interval Labels</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-65</rdommin>
+            <rdommax>-5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>Contour</attrlabl>
+        <attrdef>Contour Interval Labels Lables with an 'a' signify vectors that were editted by hand. The 'a' is a way to distinguish hand editted vectors.</attrdef>
+        <attrdefs>USGS</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>-65</rdommin>
+            <rdommax>-5</rdommax>
+          </rdom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jane F. Denny</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-457-2311</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>jdenny@usgs.gov</cntemail>
+      </cntinfo>
+    </distrib>
+    <resdesc>Bathymetric Contours (5 meter interval)</resdesc>
+    <distliab>Altough this data set and its lineage have been used by the USGS, no warranty, expressed or implied, is made by the USGS as to the accuracy of the data and/or it's related materials. The act of distribution shall not constitute any such warranty, and no resposibility is assumed by the USGS in the use of these data or related items. Users must assume resposibility for the proper use of this data. This data should not be used at resolutions for which it is not intended. This data has no been reviewed for conformity with U.S. Geological Survey editorial standards, or the North American Strigraphic code. Any use of trade, product, or firm names is for descriptive purposes only and does not imply endorsement by the US Government.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>GIS download files</formname>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>http://pubs.usgs.gov/of/2003/of03-150/arcview/bathy/bathygrd.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>none</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20150603</metd>
+    <metrd>2002</metrd>
+    <metc>
+      <cntinfo>
+        <cntperp>
+          <cntper>Jane F. Denny</cntper>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntperp>
+        <cntpos>Geologist</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>384 Woods Hole Road</address>
+          <city>Woods Hole</city>
+          <state>MA</state>
+          <postal>02543</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>508-457-2311</cntvoice>
+        <cntfax>508-457-2310</cntfax>
+        <cntemail>jdenny@usgs.gov</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+    <metac>None</metac>
+    <metuc>None</metuc>
+  </metainfo>
+  <mercury>
+    <begdate>20020904</begdate>
+    <enddate>20020916</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Coastal_and_Marine_Geology_Program/cmgds.marine.usgs.gov_metadata_104.html</htmlurl>
+  </mercury>
+</metadata>

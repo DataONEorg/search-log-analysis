@@ -1,0 +1,1008 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="jtchao.53.13" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">  <access authSystem="knb" order="allowFirst"><allow><principal>public</principal>
+<permission>read</permission>
+</allow>
+</access>
+<dataset> <title>以感測器網絡監測試驗林地物理環境(2/2)</title>
+ <creator id="1428389568644"> <individualName><givenName>Jung-Tai</givenName>
+ <surName>Chao</surName>
+ </individualName>
+ <organizationName>TFRI</organizationName>
+ <positionName>研究員</positionName>
+ <address><deliveryPoint>台北市南海路53號</deliveryPoint>
+ <city>Taipei</city>
+ <postalCode>100</postalCode>
+ </address>
+ <phone phonetype="voice">(02)23039978*2509</phone>
+ <phone phonetype="fax">(02)23757469</phone>
+ <electronicMailAddress>jtchao@tfri.gov.tw</electronicMailAddress>
+ </creator>
+ <abstract><para>前期計畫已整合一自動化資料收集系統，能將台灣南部及東部的野外資料，透過有線及無線傳輸、ADSL及網際網路等通訊資訊技術，儲存於台北總所的資料庫中，進行後續分析與分享。為使系統臻於完善，本計畫其目的在於一、維護、更新、改善本系統；二、以更低廉的成本獲取更完整的紫斑蝶棲地特性數據。本年度主要工作包括，(一)六龜及茂林具通風效果之防水箱補強，改善熱當及進水問題；(二)維修或更換故障六龜乙太網供電(POE)及插座；(三) 排除茂林C點nport故障、重接鬆脫之乙太網供電、更換斷路器；(四)更換大武RS232-485轉換器6台、維修故障氣象資料紀錄器及面板2台、替換故障螢幕及檢測工業電腦與無線電各1台；(五)更換總所儲存設備之損壞硬碟1台。監測儀器異常情形目前僅發生20次，異常情形明顯降低。2013年12月至2014年11月自動回傳至總所之數據超過150萬筆，符合期中預期值。</para>
+ </abstract>
+ <keywordSet><keyword>森林物理環境(Forest Physical Environment)</keyword>
+ <keyword>棲地監測(Habitat Monitoring)</keyword>
+ <keyword>無線感測網路(Wireless Sensor Network)</keyword>
+ </keywordSet>
+ <intellectualRights><para>僅供學術使用</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>高雄六龜</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>120.65</westBoundingCoordinate>
+ <eastBoundingCoordinate>120.65</eastBoundingCoordinate>
+ <northBoundingCoordinate>23.0</northBoundingCoordinate>
+ <southBoundingCoordinate>23.0</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact><references>1428389568644</references>
+ </contact>
+ <methods><methodStep><description><section><title>更新儀器</title>
+ <para>更新儀器</para>
+ </section>
+ </description>
+ <instrumentation>乙太網供電(POE)、斷路器、儲存設備（主機硬碟）</instrumentation>
+ </methodStep>
+ <methodStep><description><section><title>裝置不斷電系統</title>
+ <para>裝置不斷電系統</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>安裝散熱裝置</title>
+ <para>安裝散熱裝置</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>安裝避雷突波設備</title>
+ <para>安裝避雷突波設備</para>
+ </section>
+ </description>
+ </methodStep>
+ <methodStep><description><section><title>分析資料</title>
+ <para>分析資料</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1428465009785"><entityName>大武_A</entityName>
+ <entityDescription>從大武測站傳輸回來之氣象資料</entityDescription>
+ <physical><objectName>Unamed-table-7111477045932363114.tmp</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.59.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428465009786"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428465009787"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428465009788"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428465009789"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428465009790"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428465009791"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428474898419"><entityName>大武-B</entityName>
+ <entityDescription>從大武觀測站B點傳輸回來之氣象資料</entityDescription>
+ <physical><objectName>大武-B.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.62.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428474898435"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MMM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428474898450"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428474898466"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428474898481"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>氣溫</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428474898497"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428474898513"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428475455467"><entityName>大武－C</entityName>
+ <entityDescription>從大武觀測站C點傳回來之氣象資料</entityDescription>
+ <physical><objectName>大武-C.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.63.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428475455482"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475455498"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475455513"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475455529"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>氣溫</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475455545"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475455560"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428475923323"><entityName>大武-D</entityName>
+ <entityDescription>從大武觀測站D點傳回之氣象資料</entityDescription>
+ <physical><objectName>大武-D.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.64.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428475923339"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475923354"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475923370"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475923385"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475923401"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428475923417"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428480130791"><entityName>茂林-A</entityName>
+ <entityDescription>從茂林觀測站A點傳回之氣象資料</entityDescription>
+ <physical><objectName>A.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.65.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428480130792"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480130793"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480130794"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480130795"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480130796"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480130797"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428480457866"><entityName>茂林-B</entityName>
+ <entityDescription>從茂林觀測站B點傳回來之氣象資料</entityDescription>
+ <physical><objectName>B.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.66.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428480457867"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MMDD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480457868"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480457869"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480457870"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480457871"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480457872"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428480757631"><entityName>茂林-C</entityName>
+ <entityDescription>從茂林觀測站C點傳回來之氣象資料</entityDescription>
+ <physical><objectName>C.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.67.1</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428480757632"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480757633"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480757634"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480757635"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480757636"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428480757637"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428484944127"><entityName>六龜-A</entityName>
+ <entityDescription>從六龜觀測站A點傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-A.csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.68.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428484944128"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428484944129"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428484944130"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428484944131"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428548920253"><entityName>六龜-B(2M)</entityName>
+ <entityDescription>從六龜觀測站B點2M高度之sensor傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-B(2M).csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.69.3</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428548920254"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428548920255"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428548920256"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428548920257"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428549678982"><entityName>六龜-B(4M)</entityName>
+ <entityDescription>從六龜觀測站B點4M高度之sensor傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-B(4M).csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.71.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428549678983"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428549678984"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428549678985"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428551228237"><entityName>六龜-C(4M)</entityName>
+ <entityDescription>從六龜觀測站C點4M高度之sensor傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-C(4M).csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.73.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428551228238"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428551228239"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428551228240"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428551501207"><entityName>六龜-C(6M)</entityName>
+ <entityDescription>從六龜觀測站C點６M高度之sensor傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-C(6M).csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.74.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428551501208"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428551501211"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428551501212"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428552266091"><entityName>六龜-C(8M)</entityName>
+ <entityDescription>從六龜觀測站C點８M高度之sensor傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-C(8M).csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.75.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428552266092"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552266093"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552266094"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552266095"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552266096"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552266097"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428552605078"><entityName>六龜-C(2M)</entityName>
+ <entityDescription>從六龜觀測站C點2M高度之sensor傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-C(2M).csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.76.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428552605079"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552605080"><attributeName>WS(mps)</attributeName>
+ <attributeDefinition>風速</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>milesPerHour</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552605081"><attributeName>WD(Deg)</attributeName>
+ <attributeDefinition>風向</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>degree</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552605082"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552605083"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428552605084"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428558722091"><entityName>六龜-D(4M)</entityName>
+ <entityDescription>從六龜觀測站D點4M高度之sensor傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-D(4M).csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.77.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428558722092"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428558722093"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428558722094"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428558722095"><attributeName>SR(W/m2)</attributeName>
+ <attributeDefinition>日照</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>watt</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="1428558917182"><entityName>六龜-E(4M)</entityName>
+ <entityDescription>從六龜觀測站E點4M高度之sensor傳回之氣象資料</entityDescription>
+ <physical><objectName>六龜-E(4M).csv</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/jtchao.78.2</url>
+ </online>
+ <access authSystem="knb" order="allowFirst"><deny><principal>public</principal>
+<permission>read</permission>
+</deny>
+</access>
+</distribution>
+ </physical>
+ <attributeList><attribute id="1428558917198"><attributeName>Date Time</attributeName>
+ <attributeDefinition>日期</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428558917213"><attributeName>AT(Percent C)</attributeName>
+ <attributeDefinition>溫度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1428558917229"><attributeName>RH(Percent)</attributeName>
+ <attributeDefinition>濕度</attributeDefinition>
+ <measurementScale><ratio><unit><standardUnit>gramsPerGram</standardUnit>
+ </unit>
+ <numericDomain><numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </eml:eml>

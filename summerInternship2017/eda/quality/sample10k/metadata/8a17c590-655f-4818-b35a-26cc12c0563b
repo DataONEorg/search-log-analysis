@@ -1,0 +1,556 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<metadata xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://water.usgs.gov/GIS/metadata/usgswrd/fgdc-std-001-1998.xsd">
+  <Source>http://water.usgs.gov/GIS/metadata/usgswrd/XML/jnwra_v4n2_pzm1in.xml</Source>
+  <idinfo>
+    <citation>
+      <citeinfo>
+        <origin>Rose L. Medina</origin>
+        <origin>Thomas J. Lopes</origin>
+        <pubdate>2007</pubdate>
+        <title>Mean Annual Precipitation in West-Central Nevada using the Precipitation-Zone Method</title>
+        <geoform>raster digital data</geoform>
+        <pubinfo>
+          <pubplace>Reston, VA</pubplace>
+          <publish>U.S. Geological Survey</publish>
+        </pubinfo>
+        <onlink>https://water.usgs.gov/lookup/getspatial?jnwra_v4n2_pzm1in</onlink>
+        <lworkcit>
+          <citeinfo>
+            <origin>Thomas J. Lopes</origin>
+            <origin>Rose L. Medina</origin>
+            <pubdate>2007</pubdate>
+            <title>Precipitation Zones of West-Central Nevada</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Journal of Nevada Water Resources Association</sername>
+              <issue>Volume 4, Number 2</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reno, NV</pubplace>
+              <publish>Nevada Water Resources Association</publish>
+            </pubinfo>
+            <onlink>http://www.nvwra.org/journal/</onlink>
+          </citeinfo>
+        </lworkcit>
+      </citeinfo>
+    </citation>
+    <descript>
+      <abstract>This data set contains 1971-2000 mean annual precipitation estimates for west-central Nevada.  This is a raster data set developed using the precipitation-zone method, which uses elevation-based regression equations to estimate mean annual precipitation for defined precipitation zones (Lopes and Medina, 2007.)  This data set is based on the 30-meter National Elevation Dataset.
+		
+Reference Cited
+Lopes, T.J., and Medina, R.L., 2007, Precipitation Zones of West-Central Nevada: Journal of Nevada Water Resources Association, v. 4, no 2, p. 21.</abstract>
+      <purpose>The intended uses of this data set include, but are not limited to, natural resource modeling, mapping, and visualization applications.</purpose>
+      <supplinf>Precipitation estimates change abruptly between zones, especially along high elevations of the zone boundary. This is different than other precipitation maps that show precipitation varies continuously across Nevada but, as data indicate, precipitation can abruptly change over short distances (Lopes and Medina, 2007.)
+		
+The following table is the summary of the precipitation regression analysis (Lopes and Medina, 2007.)
+&gt;Precipitation   N   Intercept  Slope             Adjusted   MAE,         MAE,
+&gt;Zone                           inches/year/foot  R squared  inches/year  percent
+&gt;--------------------------------------------------------------------------------
+&gt;Carson	         19   -9.2      0.00382           0.92       1.4          10
+&gt;Sierra Slope    36  -31.0      0.01010           0.89       3.9          17
+&gt;Truckee         21  -21.0      0.00670           0.95       2.0          12
+&gt;Walker          30   -2.3      0.00167           0.90       0.8          12
+		
+Reference Cited
+Lopes, T.J., and Medina, R.L., 2007, Precipitation Zones of West-Central Nevada: Journal of Nevada Water Resources Association, v. 4, no 2, p. 21.</supplinf>
+    </descript>
+    <timeperd>
+      <timeinfo>
+        <rngdates>
+          <begdate>1971</begdate>
+          <enddate>2000</enddate>
+        </rngdates>
+      </timeinfo>
+      <current>the publication date of the source data</current>
+    </timeperd>
+    <status>
+      <progress>Complete</progress>
+      <update>None planned</update>
+    </status>
+    <spdom>
+      <bounding>
+        <westbc>-120.801940</westbc>
+        <eastbc>-116.904360</eastbc>
+        <northbc>41.695168</northbc>
+        <southbc>37.123672</southbc>
+      </bounding>
+    </spdom>
+    <keywords>
+      <theme>
+        <themekt>none</themekt>
+        <themekey>mean annual precipitation</themekey>
+        <themekey>precipitation-zone method</themekey>
+        <themekey>PZM</themekey>
+      </theme>
+      <theme>
+        <themekt>ISO 19115 Topic Category</themekt>
+        <themekey>climatologyMeteorologyAtmosphere</themekey>
+        <themekey>inlandWaters</themekey>
+      </theme>
+      <place>
+        <placekt>none</placekt>
+        <placekey>Nevada</placekey>
+        <placekey>Great Basin</placekey>
+        <placekey>United States</placekey>
+      </place>
+    </keywords>
+    <accconst>none</accconst>
+    <useconst>Acknowledgment of the U.S. Geological Survey and the Bureau of Reclamation would be appreciated in products derived from these data.
+		
+Although this Federal Geographic Data Committee (FGDC) compliant metadata file is intended to document the data set in nonproprietary form, this metadata file may include some ArcGIS-specific terminology.
+		
+These data are not intended to be used as a survey product and are for reference only.</useconst>
+    <ptcontac>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey Nevada Water Science Center</cntorg>
+        </cntorgp>
+        <cntpos>Public Information Officer</cntpos>
+        <cntaddr>
+          <addrtype>mailing and physical address</addrtype>
+          <address>2730 N. Deer Run Road</address>
+          <city>Carson City</city>
+          <state>NV</state>
+          <postal>89701</postal>
+          <country>USA</country>
+        </cntaddr>
+        <cntvoice>(775)887-7600</cntvoice>
+        <cntfax>(775)887-7629</cntfax>
+      </cntinfo>
+    </ptcontac>
+    <browse>
+      <browsen>https://water.usgs.gov/GIS/browse/jnwra_v4n2_pzm1in.jpg</browsen>
+      <browsed>Image of the distribution of 1971-2000 precipitation normals in west-central Nevada estimated using the Precipitation-Zone Method</browsed>
+      <browset>jpg</browset>
+    </browse>
+    <datacred>Compilation of this data set and the associated metadata was done in cooperation with the Bureau of Reclamation.
+		
+Technical review of this database was done by Susan G. Buto and J. LaRue Smith of the U.S. Geological Survey.</datacred>
+    <native>Microsoft Windows XP Version 5.1 (Build 2600) Service Pack 2; ESRI ArcCatalog 9.2.4.1420</native>
+  </idinfo>
+  <dataqual>
+    <attracc>
+      <attraccr>The attribute value is the mean annual precipitation derived from the regression equations. When the data set was grouped into a data range, the grouped data value was compared to the original data value at selected areas.</attraccr>
+    </attracc>
+    <logic>Throughout the processing, tests of valid values were determined. All areas were completely described. No inconsistencies were determined.</logic>
+    <complete>Complete for west-central Nevada</complete>
+    <posacc>
+      <horizpa>
+        <horizpar>All attempts were made to compare the raster data representation to the original source data by visual inspection of selected areas. The horizontal accuracy of the data is based on the National Elevation Dataset (NED) which is variable.  The primary source data of the NED were the U.S. Geological Survey 7.5-minute (30-meter or 10-meter resolution) Digital Elevation Models (DEMs) (U.S. Geological Survey, 2007b).  7.5-minute DEM accuracy is "similar to manual interpretations of information as printed at map scales not larger than 1:24,000-scale" (U.S. Geological Survey, 2007a).
+National Map Accuracy Standards (NMAS) established for the United States in 1947 (U.S. Geological Survey, 1988) state that no more than 10 percent of features shall be more than 1/50th of an inch from their intended location on maps of scale smaller than 1:20,000.  National Standards for Spatial Data Accuracy (NSSDA) published by the Federal Geographic Data Committee (FGDC) in 1998 relate the National Map Accuracy Standards (NMAS) to the digital geospatial data standard by multiplying the NMAS accuracy by a factor of 1.1406 resulting in expected error in the geospatial data at 1:24,000-scale as 14 meters.
+		
+References Cited
+FGDC, Subcommittee for Base Cartographic data, 1998, Geospatial Positioning Accuracy Standards, Part 3: National Standard for Spatial Data Accuracy, FGDC-STD-007.3-1998, last accessed 03/29/2007 at URL http://www.fgdc.gov/standards/projects/FGDC-standards-projects/accuracy/part3/chapter3
+		
+U.S. Geological Survey, 1988, National mapping program technical instructions - Part 2: Specifications, Standards for Digital Line Graphs:  U.S. Geological Survey, 56 p.
+		
+U.S. Geological Survey, 2007a, Digital Elevation Model Guide: DEM Accuracy, last accessed 09/10/2007 at URL http://eros.usgs.gov/guides/dem.html#accuracy.
+		
+U.S. Geological Survey, 2007b, National Elevation Dataset: Accuracy of the National Elevation Dataset, last accessed 09/07/2007 at URL http://ned.usgs.gov/Ned/accuracy.asp.</horizpar>
+        <qhorizpa>
+          <horizpav>14 meters</horizpav>
+          <horizpae>The horizontal positional error is deductively estimated at 14 meters.</horizpae>
+        </qhorizpa>
+      </horizpa>
+      <vertacc>
+        <vertaccr>Vertical accuracy of the source data can vary.</vertaccr>
+        <qvertpa>
+          <vertaccv>7 to 15 meters</vertaccv>
+          <vertacce>average vertical accuracy of the NED (accessed August 21, 2007 at URL http://ned.usgs.gov/Ned/faq.asp#vertical)</vertacce>
+        </qvertpa>
+      </vertacc>
+    </posacc>
+    <lineage>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>U.S. Geological Survey</origin>
+            <pubdate>Unknown</pubdate>
+            <title>National Elevation Dataset (30-meter)</title>
+            <geoform>raster digital data</geoform>
+            <onlink>http://gisdata.usgs.gov/NED</onlink>
+          </citeinfo>
+        </srccite>
+        <srcscale>24000</srcscale>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <sngdate>
+              <caldate>unknown</caldate>
+            </sngdate>
+          </timeinfo>
+          <srccurr>publication date of source DEM</srccurr>
+        </srctime>
+        <srccitea>NED</srccitea>
+        <srccontr>spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Rose L. Medina</origin>
+            <origin>Thomas J. Lopes</origin>
+            <pubdate>2007</pubdate>
+            <title>Precipitation Zones of West-Central Nevada</title>
+            <geoform>vector digital data</geoform>
+            <pubinfo>
+              <pubplace>Reston, VA</pubplace>
+              <publish>U.S. Geological Survey</publish>
+            </pubinfo>
+            <onlink>https://water.usgs.gov/lookup/getspatial?jnwra_v4n2_pzb</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>online</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1971</begdate>
+              <enddate>2000</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>the publication date of the source data</srccurr>
+        </srctime>
+        <srccitea>PZB</srccitea>
+        <srccontr>spatial and attribute information</srccontr>
+      </srcinfo>
+      <srcinfo>
+        <srccite>
+          <citeinfo>
+            <origin>Thomas J. Lopes</origin>
+            <origin>Rose L. Medina</origin>
+            <pubdate>2007</pubdate>
+            <title>Precipitation Zones of West-Central Nevada</title>
+            <geoform>document</geoform>
+            <serinfo>
+              <sername>Journal of Nevada Water Resources Association</sername>
+              <issue>Volume 4, Number 2</issue>
+            </serinfo>
+            <pubinfo>
+              <pubplace>Reno, NV</pubplace>
+              <publish>Nevada Water Resources Association</publish>
+            </pubinfo>
+            <onlink>http://www.nvwra.org/journal/vol4no2.asp</onlink>
+          </citeinfo>
+        </srccite>
+        <typesrc>document</typesrc>
+        <srctime>
+          <timeinfo>
+            <rngdates>
+              <begdate>1971</begdate>
+              <enddate>2000</enddate>
+            </rngdates>
+          </timeinfo>
+          <srccurr>the publication date of the source</srccurr>
+        </srctime>
+        <srccitea>regEQ</srccitea>
+        <srccontr>attribute information</srccontr>
+      </srcinfo>
+      <procstep>
+        <procdesc>The NED was acquired, merged, and projected to NAD 1983 UTM Zone 11N.
+		
+Details are unknown.</procdesc>
+        <srcused>NED</srcused>
+        <procdate>Unknown</procdate>
+        <srcprod>NED83</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>NED83 was masked to the extent of precipitation-zone boundaries (PZB).  The extent was set to PZB.  The snap raster and the cell size were set to NED83.
+		
+ArcGIS 9.2: ArcToolbox&gt;Spatial Analyst Tools&gt;Extraction&gt;Extract by Mask</procdesc>
+        <srcused>NED83</srcused>
+        <srcused>PZB</srcused>
+        <procdate>200708</procdate>
+        <srcprod>elev30</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Elev30 was converted to integer format.  The extent, snap raster and cell size were set to elev30.
+		
+ArcToolbox&gt;Spatial Analyst Tools&gt;Map Algebra&gt;Single Output Map Algebra: "elev30 + 0.5" elev30_r #
+ArcToolbox&gt;Spatial Analyst Tools&gt;Math&gt;Int</procdesc>
+        <srcused>elev30</srcused>
+        <procdate>200708</procdate>
+        <srcprod>elev30i</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Elev30i values were rounded to the nearest ten feet in Microsoft Excel using the add-in function "USGSRound" to apply U.S. Geological Survey rounding rules.
+1. Exported attribute table: ArcCatalog&gt;Preview Table&gt;Options button&gt;Export...
+2. Imported into Microsoft Excel: Data&gt;Import External Data&gt;Import Data
+3. Converted meters to feet using a factor of 3.280839895.
+4. Feet rounded to nearest ten feet using the USGSRound add-in function and saved to the remap text file, remap10.txt.
+Where remap10.txt:
+1013 : 3320
+1014 : 3330
+1015 : 3330
+etc.</procdesc>
+        <srcused>elev30i</srcused>
+        <procdate>200708</procdate>
+        <srcprod>remap10.txt</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Elev30i was reclassified from meters to feet (rounded to the nearest ten feet) using remap10.txt.
+The extent, snap raster and cell size were set to elev30i.
+		
+ArcGIS 9.2: ArcToolbox&gt;Spatial Analyst Tools&gt;Reclass&gt;Reclass by ASCII File</procdesc>
+        <srcused>elev30i</srcused>
+        <srcused>remap10.txt</srcused>
+        <procdate>200708</procdate>
+        <srcprod>elev10ft</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Each precipitation zone in PZB was made into an individual feature class.  The PZB data set was used as the input and split features and ZoneName was the split field.
+		
+ArcGIS 9.2: ArcToolbox&gt;Analysis Tools&gt;Extract&gt;Split</procdesc>
+        <srcused>PZB</srcused>
+        <procdate>200708</procdate>
+        <srcprod>CarsonPZ</srcprod>
+        <srcprod>SierraSlopePZ</srcprod>
+        <srcprod>TruckeePZ</srcprod>
+        <srcprod>WalkerPZ</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Elev10ft was masked to each precipitation-zone feature class.  The extent was set to each precipitation-zone feature class.  The snap raster and the cell size were set to elev10ft.
+		
+ArcGIS 9.2: ArcToolbox&gt;Spatial Analyst Tools&gt;Extraction&gt;Extract by Mask</procdesc>
+        <srcused>elev10ft</srcused>
+        <srcused>CarsonPZ</srcused>
+        <srcused>SierraSlopePZ</srcused>
+        <srcused>TruckeePZ</srcused>
+        <srcused>WalkerPZ</srcused>
+        <procdate>200708</procdate>
+        <srcprod>elev10ftCPZ</srcprod>
+        <srcprod>elev10ftSPZ</srcprod>
+        <srcprod>elev10ftTPZ</srcprod>
+        <srcprod>elev10ftWPZ</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Elevation values (elev10ft*PZ) were used with the corresponding regression equation (regEQ) to determine an estimated precipitation value.
+1. Exported each table: ArcCatalog&gt;Preview Table&gt;Options button&gt;Export...
+2. Regression equation applied
+3. A remap file containing elevation and corresponding precipitation estimate (inchX10) was produced.</procdesc>
+        <srcused>elev10ftCPZ</srcused>
+        <srcused>elev10ftSPZ</srcused>
+        <srcused>elev10ftTPZ</srcused>
+        <srcused>elev10ftWPZ</srcused>
+        <srcused>regEQ</srcused>
+        <procdate>200708</procdate>
+        <srcprod>remap_CPZ.txt</srcprod>
+        <srcprod>remap_SPZ.txt</srcprod>
+        <srcprod>remap_TPZ.txt</srcprod>
+        <srcprod>remap_WPZ.txt</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Each elev10ft*PZ was reclassified from elevation values to precipitation estimate values (inch X 10) using remap_*PZ.txt.
+Where remap_*PZ.txt:
+3380 : 37
+3390 : 37
+3400 : 38
+etc.
+		
+The extent, snap raster and cell size were set to elev10ft*PZ.
+		
+ArcGIS 9.2: ArcToolbox&gt;Spatial Analyst Tools&gt;Reclass&gt;Reclass by ASCII File</procdesc>
+        <srcused>elev10ftCPZ</srcused>
+        <srcused>elev10ftSPZ</srcused>
+        <srcused>elev10ftTPZ</srcused>
+        <srcused>elev10ftWPZ</srcused>
+        <srcused>remap_CPZ.txt</srcused>
+        <srcused>remap_SPZ.txt</srcused>
+        <srcused>remap_TPZ.txt</srcused>
+        <srcused>remap_WPZ.txt</srcused>
+        <procdate>200708</procdate>
+        <srcprod>CPZinX10</srcprod>
+        <srcprod>SPZinX10</srcprod>
+        <srcprod>TPZinX10</srcprod>
+        <srcprod>WPZinX10</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The four precipitation estimate rasters (*PZinX10) were merged into one.
+The extent, snap raster and cell size were set to elev10ft.
+		
+ArcGIS 9.2: ArcMap&gt;Spatial Analyst Toolbar&gt;Raster Calculator&gt;PZinX10 = merge([CPZinX10],[SPZinX10],[TPZinX10,[WPZinX10])</procdesc>
+        <srcused>CPZinX10</srcused>
+        <srcused>SPZinX10</srcused>
+        <srcused>TPZinX10</srcused>
+        <srcused>WPZinX10</srcused>
+        <procdate>200708</procdate>
+        <srcprod>PZinX10</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>The merged precipitation estimate raster was reclassified from inch X 10 to the nearest inch using remap_1in.txt.
+Where remap_1in.txt:
+24 34 : 3
+34 44 : 4
+44 54 : 5
+etc.
+		
+The extent, snap raster and cell size were set to PZinX10.
+		
+ArcGIS 9.2: ArcToolbox&gt;Spatial Analyst Tools&gt;Reclass&gt;Reclass by ASCII File</procdesc>
+        <srcused>PZinX10</srcused>
+        <srcused>remap_1in.txt</srcused>
+        <procdate>200708</procdate>
+        <srcprod>PZ1in</srcprod>
+      </procstep>
+      <procstep>
+        <procdesc>Metadata structured and validated using the U.S. Geological Survey Geospatial Metadata Validation Service, accessed August 28, 2007 at URL http://geo-nsdi.er.usgs.gov/validation/.</procdesc>
+        <procdate>200708</procdate>
+      </procstep>
+    </lineage>
+  </dataqual>
+  <spdoinfo>
+    <direct>Raster</direct>
+    <rastinfo>
+      <rasttype>Pixel</rasttype>
+      <rowcount>16713</rowcount>
+      <colcount>10822</colcount>
+      <vrtcount>1</vrtcount>
+    </rastinfo>
+  </spdoinfo>
+  <spref>
+    <horizsys>
+      <planar>
+        <gridsys>
+          <gridsysn>Universal Transverse Mercator</gridsysn>
+          <utm>
+            <utmzone>11</utmzone>
+            <transmer>
+              <sfctrmer>0.999600</sfctrmer>
+              <longcm>-117.000000</longcm>
+              <latprjo>0.000000</latprjo>
+              <feast>500000.000000</feast>
+              <fnorth>0.000000</fnorth>
+            </transmer>
+          </utm>
+        </gridsys>
+        <planci>
+          <plance>row and column</plance>
+          <coordrep>
+            <absres>30.000000</absres>
+            <ordres>30.000000</ordres>
+          </coordrep>
+          <plandu>meters</plandu>
+        </planci>
+      </planar>
+      <geodetic>
+        <horizdn>North American Datum of 1983</horizdn>
+        <ellips>Geodetic Reference System 80</ellips>
+        <semiaxis>6378137.000000</semiaxis>
+        <denflat>298.257222</denflat>
+      </geodetic>
+    </horizsys>
+  </spref>
+  <eainfo>
+    <detailed>
+      <enttyp>
+        <enttypl>PZM1in</enttypl>
+        <enttypd>raster data</enttypd>
+        <enttypds>ESRI</enttypds>
+      </enttyp>
+      <attr>
+        <attrlabl>VALUE</attrlabl>
+        <attrdef>Mean annual precipitation estimate</attrdef>
+        <attrdefs>user-defined</attrdefs>
+        <attrdomv>
+          <rdom>
+            <rdommin>3</rdommin>
+            <rdommax>79</rdommax>
+            <attrunit>inch</attrunit>
+          </rdom>
+        </attrdomv>
+      </attr>
+      <attr>
+        <attrlabl>COUNT</attrlabl>
+        <attrdef>Number of 30 meter square cells with VALUE</attrdef>
+        <attrdefs>ESRI</attrdefs>
+        <attrdomv>
+          <udom>Integer automatically generated with raster development</udom>
+        </attrdomv>
+      </attr>
+    </detailed>
+  </eainfo>
+  <distinfo>
+    <distrib>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://water.usgs.gov/user_feedback_form.html</cntemail>
+      </cntinfo>
+    </distrib>
+    <distliab>Although these data have been used by the U.S. Geological Survey, U.S. Department of the Interior, no warranty expressed or implied is made by the U.S. Geological Survey as to the accuracy of the data and related materials. The act of distribution shall not constitute any such warranty, and no responsibility is assumed by the U.S. Geological Survey in the use of these data, software, or related materials.
+		
+The use of firm, trade, or brand names in this report is for identification purposes only and does not constitute endorsement by the U.S. Geological Survey. The names mentioned in this document may be trademarks or registered trademarks of their respective trademark owners.</distliab>
+    <stdorder>
+      <digform>
+        <digtinfo>
+          <formname>File Geodatabase</formname>
+          <formcont>Spatial and attribute information</formcont>
+          <filedec>WinZip</filedec>
+          <transize>9.41</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/jnwra_v4n2_pz.gdb.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <digform>
+        <digtinfo>
+          <formname>ASCII</formname>
+          <formcont>Spatial and attribute information</formcont>
+          <filedec>WinZip</filedec>
+          <transize>10.8</transize>
+        </digtinfo>
+        <digtopt>
+          <onlinopt>
+            <computer>
+              <networka>
+                <networkr>https://water.usgs.gov/GIS/dsdl/jnwra_v4n2_pzm1in.asc.zip</networkr>
+              </networka>
+            </computer>
+          </onlinopt>
+        </digtopt>
+      </digform>
+      <fees>None. This data set is provided by USGS as a public service.</fees>
+    </stdorder>
+  </distinfo>
+  <metainfo>
+    <metd>20071030</metd>
+    <metc>
+      <cntinfo>
+        <cntorgp>
+          <cntorg>U.S. Geological Survey</cntorg>
+        </cntorgp>
+        <cntpos>Ask USGS -- Water Webserver Team</cntpos>
+        <cntaddr>
+          <addrtype>mailing address</addrtype>
+          <address>445 National Center</address>
+          <city>Reston</city>
+          <state>VA</state>
+          <postal>20192</postal>
+        </cntaddr>
+        <cntvoice>1-888-275-8747 (1-888-ASK-USGS)</cntvoice>
+        <cntemail>https://answers.usgs.gov/cgi-bin/gsanswers?pemail=h2oteam&amp;subject=GIS+Dataset+jnwra_v4n2_pzm1in</cntemail>
+      </cntinfo>
+    </metc>
+    <metstdn>FGDC Content Standards for Digital Geospatial Metadata</metstdn>
+    <metstdv>FGDC-STD-001-1998</metstdv>
+  </metainfo>
+  <mercury>
+    <begdate>19710101</begdate>
+    <enddate>20001231</enddate>
+    <htmlurl>http://mercury-ops2.ornl.gov/metadata/devcatalog/html/Water_National_Spatial_Data_Infrastructure_Node/water.usgs.gov_GIS_metadata_usgswrd_XML_jnwra_v4n2_pzm1in.html</htmlurl>
+  </mercury>
+</metadata>

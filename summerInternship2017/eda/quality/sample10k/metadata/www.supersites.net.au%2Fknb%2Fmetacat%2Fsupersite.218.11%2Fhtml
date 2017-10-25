@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/supersite.218.11/html" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd">
+    <dataset>
+        <title>General Vegetation Structure Description, Tumbarumba Wet Eucalypt SuperSite, Core 1 ha, 2015</title>
+        <creator>
+            <references>1466545294034</references>
+        </creator>
+        <pubDate>2016-06-21</pubDate>
+        <abstract>
+            <para>Data describes the dominant overstorey and understorey species and the percentage cover of each, classified to NVIS level 5 (http://www.environment.gov.au/topics/science‐ and‐research/databases‐and‐maps/national‐vegetation‐information‐system)</para>
+        </abstract>
+        <keywordSet>
+            <keyword>0602</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <keywordSet>
+            <keyword>vegetation</keyword>
+            <keyword>structure</keyword>
+            <keyword>Tumbarumba</keyword>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under TERN Attribution-Share Alike (TERN BY-SA) Data Licence v1.0. The licence lets others distribute, remix and build upon the work, even for commercial purposes, as long as they credit the original creator/s (and any other nominated parties) and licence any new creations based on the work under the same terms. All new derivative works will carry the same licence, so will also allow commercial use.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/supersite.218.11/html</url>
+            </online>
+        </distribution>
+        <coverage>
+            <temporalCoverage>
+                <singleDateTime>
+                    <calendarDate>2015</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+            <geographicCoverage>
+                <geographicDescription>Tumbarumba Wet Eucalypt SuperSite</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>148.2257425</westBoundingCoordinate>
+                    <eastBoundingCoordinate>148.2257425</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-35.4897222</northBoundingCoordinate>
+                    <southBoundingCoordinate>-35.4897222</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+        </coverage>
+        <contact id="1466545294034">
+            <individualName>
+                <salutation>Dr</salutation>
+                <givenName>Heather</givenName>
+                <surName>Keith</surName>
+            </individualName>
+            <organizationName>Australian National University</organizationName>
+            <positionName>Research Fellow</positionName>
+            <address>
+                <deliveryPoint>Fenner School of Environment &amp; Society</deliveryPoint>
+                <city>Canberra</city>
+                <administrativeArea>ACT</administrativeArea>
+                <postalCode>2601</postalCode>
+                <country>Australia</country>
+            </address>
+            <electronicMailAddress>Heather.Keith@anu.edu.au</electronicMailAddress>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Data Collection</title>
+                        <para>:Methodology as described in SuperSites Vegetation Monitoring Protocols (http://www.tern-supersites.net.au/images/resource/SuperSites_Vegetation_Monitoring_Protocols_Ver1.22.pdf)</para>
+                    </section>
+                </description>
+            </methodStep>
+        </methods>
+        <dataTable id="1439333776878">
+            <entityName>asn_tumb_veg_struct_core_1_ha_2015.csv</entityName>
+            <entityDescription>Vegetation Abundance Cover Structure, Tumbarumba Wet Eucalypt SuperSite, 2015</entityDescription>
+            <physical id="1439333057017">
+                <objectName>asn_tumb_veg_struct_core_1_ha_2015.csv</objectName>
+                <size unit="byte">702</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>0</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution>
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/supersite.218.11/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1439333776893">
+                    <attributeName>NVIS level</attributeName>
+                    <attributeDefinition>NVIS Level</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>nvis</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333776909">
+                    <attributeName>stratum</attributeName>
+                    <attributeDefinition>Stratum</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>stratum</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333776924">
+                    <attributeName>dominant growth form</attributeName>
+                    <attributeDefinition>dominant growth form</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>growth</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333776940">
+                    <attributeName>height range</attributeName>
+                    <attributeDefinition>Height range (m)</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <standardUnit>meter</standardUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333776956">
+                    <attributeName>Height class</attributeName>
+                    <attributeDefinition>Height class as per NVIS Summary</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Height class</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333776971">
+                    <attributeName>cover</attributeName>
+                    <attributeDefinition>** Percentage cover (%) as Foliage Projective Cover or Crown Cover</attributeDefinition>
+                    <measurementScale>
+                        <ratio>
+                            <unit>
+                                <customUnit>Percentage</customUnit>
+                            </unit>
+                            <numericDomain>
+                                <numberType>natural</numberType>
+                            </numericDomain>
+                        </ratio>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333776987">
+                    <attributeName>cover type</attributeName>
+                    <attributeDefinition>Foliage Projective Cover (fpc) or Crown Cover (cc)</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <enumeratedDomain>
+                                    <codeDefinition>
+                                        <code>cc</code>
+                                        <definition>crown cover</definition>
+                                    </codeDefinition>
+                                    <codeDefinition>
+                                        <code>fpc</code>
+                                        <definition>foliage projective cover</definition>
+                                    </codeDefinition>
+                                </enumeratedDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333777003">
+                    <attributeName>cover class</attributeName>
+                    <attributeDefinition>d/c/i/r/bi/bc See table in NVIS Summary</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>cover class</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333777018">
+                    <attributeName>dominant genera</attributeName>
+                    <attributeDefinition>dominant genera name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>dominant genera</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333777034">
+                    <attributeName>species 1</attributeName>
+                    <attributeDefinition>Genera and species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>species 1</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333777049">
+                    <attributeName>species 2</attributeName>
+                    <attributeDefinition>Genera and species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>species 2</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1439333777065">
+                    <attributeName>species 3</attributeName>
+                    <attributeDefinition>Genera and species name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>species 3</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>19</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="Percentage" multiplierToSI="0.01" name="Percentage" parentSI="number" unitType="ratios">
+                    <description>per cent</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <qualityControl timestamp="2016-06-29T22:13:13.086Z" username="supersite"/>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

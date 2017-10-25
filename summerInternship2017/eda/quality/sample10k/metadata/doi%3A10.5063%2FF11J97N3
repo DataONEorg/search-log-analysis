@@ -1,0 +1,725 @@
+<eml:eml xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:ds="eml://ecoinformatics.org/dataset-2.1.1" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:stmml="http://www.xml-cml.org/schema/stmml_1.1" packageId="pressure_two_2013_uv_mol_20150714063348" system="doi">
+  <dataset scope="document">
+    <title>Cumulative human impacts: pressure and cumulative impacts data (2008 and 2013, subset of pressures)</title>
+    <creator>
+      <individualName>
+        <givenName>Benjamin</givenName>
+        <surName>Halpern</surName>
+      </individualName>
+      <electronicMailAddress>halpern@bren.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Melanie</givenName>
+        <surName>Frazier</surName>
+      </individualName>
+      <electronicMailAddress>frazier@nceas.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>John</givenName>
+        <surName>Potapenko</surName>
+      </individualName>
+      <electronicMailAddress>potapenko@umail.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kenneth</givenName>
+        <surName>Casey</surName>
+      </individualName>
+      <electronicMailAddress>kenneth.casey@noaa.gov</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kellee</givenName>
+        <surName>Koenig</surName>
+      </individualName>
+      <electronicMailAddress>kkoenig@conservation.org</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Catherine</givenName>
+        <surName>Longo</surName>
+      </individualName>
+      <electronicMailAddress>longo@nceas.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Julia</givenName>
+        <surName>Lowndes</surName>
+      </individualName>
+      <electronicMailAddress>lowndes@nceas.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Cotton</givenName>
+        <surName>Rockwood</surName>
+      </individualName>
+      <electronicMailAddress>rrockwood@ucsd.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Elizabeth</givenName>
+        <surName>Selig</surName>
+      </individualName>
+      <electronicMailAddress>eselig@conservation.org</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Kimberly</givenName>
+        <surName>Selkoe</surName>
+      </individualName>
+      <electronicMailAddress>selkoe@nceas.ucsb.edu</electronicMailAddress>
+    </creator>
+    <creator>
+      <individualName>
+        <givenName>Shaun</givenName>
+        <surName>Walbridge</surName>
+      </individualName>
+      <electronicMailAddress>shaun.walbridge@gmail.com</electronicMailAddress>
+    </creator>
+    <pubDate>2015-07-14</pubDate>
+    <abstract>This is a portion of the data used to calculate 2008 and 2013 cumulative human impacts  
+in: Halpern et al. 2015. Spatial and temporal changes in cumulative human impacts on the world's ocean.  
+
+Seven data packages are available for this project:  
+(1) supplementary data (habitat data and other files); 
+(2) raw stressor data (2008 and 2013);  
+(3) stressor data rescaled by one time period (2008 and 2013, scaled from 0-1); 
+(4) stressor data rescaled by two time periods (2008 and 2013, scaled from 0-1); 
+(5) pressure and cumulative impacts data (2013, all pressures);
+(6) pressure and cumulative impacts data (2008 and 2013, subset of pressures updated for both time periods);
+(7) change in pressures and cumulative impact (2008 to 2013).
+All raster files are .tif format and coordinate reference system is mollweide wgs84.
+
+Here is an overview of the calculations:
+Raw stressor data -&gt; rescaled stressor data (values between 0-1) -&gt; 
+pressure data (stressor data after adjusting for habitat/pressure vulnerability) -&gt; 
+cumulative impact (sum of pressure data) -&gt; difference between 2008 and 2013 pressure and cumulative impact data. 
+
+This data package includes the 2013 and 2008 pressure and final cumulative impacts data.  
+The pressure data are the stressor data after adjusting for the vulnerability of the habitats 
+to a given pressure.  These pressure data are then summed to calculate the cumulative impacts data.   
+These data do not include pressures: sea level rise, ocean pollution, invasives, and shipping because 
+data was not available for 2008.
+
+These files should be used for comparisons of 2008 and 2013 data, but it is important to note that 
+they do not include all pressures. Pressure data was calculated for each stressor by: (1) multiplying the 
+rescaled stressor (rescaled using the maximum value across both 2008 and 2013 data) by each habitat layer and 
+the corresponding stressor/habitat vulnerability score (for each stressor this generates: 20 rasters); 
+(2) summing the resulting stressor/habitat/vulnerability rasters (generates 1 raster for each stressor); 
+(3) dividing by the number of habitats found in each raster cell layer.  The cumulative impacts was calculated by summing all the pressure rasters. 
+
+For both 2008 and 2013, there are N=15 pressure rasters and N=1 cumulative impact raster.</abstract>
+    <intellectualRights>CC0, http://creativecommons.org/publicdomain/zero/1.0</intellectualRights>
+    <coverage>
+      <geographicCoverage>
+        <geographicDescription>Global Oceans</geographicDescription>
+        <boundingCoordinates>
+          <westBoundingCoordinate>-180</westBoundingCoordinate>
+          <eastBoundingCoordinate>180</eastBoundingCoordinate>
+          <northBoundingCoordinate>90</northBoundingCoordinate>
+          <southBoundingCoordinate>-90</southBoundingCoordinate>
+        </boundingCoordinates>
+      </geographicCoverage>
+      <temporalCoverage>
+        <rangeOfDates>
+          <beginDate>
+            <calendarDate>2008</calendarDate>
+          </beginDate>
+          <endDate>
+            <calendarDate>2013</calendarDate>
+          </endDate>
+        </rangeOfDates>
+      </temporalCoverage>
+    </coverage>
+    <contact>
+      <individualName>
+        <givenName>Benjamin</givenName>
+        <surName>Halpern</surName>
+      </individualName>
+      <electronicMailAddress>halpern@bren.ucsb.edu</electronicMailAddress>
+    </contact>
+    <methods>
+      <methodStep>
+        <description>For methods please refer to the paper.</description>
+      </methodStep>
+    </methods>
+    <otherEntity scope="document">
+      <entityName>cumulative_impact_two_2008_global_cumul_impact_2008_all_layers_except_shipping_oceanpollution_invasives_mol.zip</entityName>
+      <physical>
+        <objectName>cumulative_impact_two_2008_global_cumul_impact_2008_all_layers_except_shipping_oceanpollution_invasives_mol.zip</objectName>
+        <size>2093527131</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/cumulative_impact_two_2008_global_cumul_impact_2008_all_layers_except_shipping_oceanpollution_invasives_mol_20150714064603</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>cumulative_impact_two_2013_global_cumul_impact_2013_all_layers_except_shipping_oceanpollution_invasives_slr_mol.zip</entityName>
+      <physical>
+        <objectName>cumulative_impact_two_2013_global_cumul_impact_2013_all_layers_except_shipping_oceanpollution_invasives_slr_mol.zip</objectName>
+        <size>2103489617</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/cumulative_impact_two_2013_global_cumul_impact_2013_all_layers_except_shipping_oceanpollution_invasives_slr_mol_20150714063701</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_artisanal_fishing_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_artisanal_fishing_mol.zip</objectName>
+        <size>18169903</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_artisanal_fishing_mol_20150714063816</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_demersal_destructive_fishing_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_demersal_destructive_fishing_mol.zip</objectName>
+        <size>225997023</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_demersal_destructive_fishing_mol_20150714063831</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_demersal_nondest_high_bycatch_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_demersal_nondest_high_bycatch_mol.zip</objectName>
+        <size>226782218</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_demersal_nondest_high_bycatch_mol_20150714063854</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_demersal_nondest_low_bycatch_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_demersal_nondest_low_bycatch_mol.zip</objectName>
+        <size>239323519</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_demersal_nondest_low_bycatch_mol_20150714063916</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_inorganic_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_inorganic_mol.zip</objectName>
+        <size>72274088</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_inorganic_mol_20150714063931</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_night_lights_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_night_lights_mol.zip</objectName>
+        <size>3782994</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_night_lights_mol_20150714063936</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_ocean_acidification_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_ocean_acidification_mol.zip</objectName>
+        <size>60527846</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_ocean_acidification_mol_20150714063941</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_oil_rigs_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_oil_rigs_mol.zip</objectName>
+        <size>533322</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_oil_rigs_mol_20150714063945</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_pelagic_high_bycatch_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_pelagic_high_bycatch_mol.zip</objectName>
+        <size>27512538</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_pelagic_high_bycatch_mol_20150714063948</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_pelagic_low_bycatch_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_pelagic_low_bycatch_mol.zip</objectName>
+        <size>210881161</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_pelagic_low_bycatch_mol_20150714064002</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_plumes_fert_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_plumes_fert_mol.zip</objectName>
+        <size>69099518</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_plumes_fert_mol_20150714064015</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_plumes_pest_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_plumes_pest_mol.zip</objectName>
+        <size>47455010</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_plumes_pest_mol_20150714064022</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_population_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_population_mol.zip</objectName>
+        <size>10886282</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_population_mol_20150714064026</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_sst_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_sst_mol.zip</objectName>
+        <size>400787663</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_sst_mol_20150714064048</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2008_uv_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2008_uv_mol.zip</objectName>
+        <size>1910290137</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2008_uv_mol_20150714064250</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_artisanal_fishing_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_artisanal_fishing_mol.zip</objectName>
+        <size>18169900</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_artisanal_fishing_mol_20150714062846</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_demersal_destructive_fishing_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_demersal_destructive_fishing_mol.zip</objectName>
+        <size>228829354</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_demersal_destructive_fishing_mol_20150714062903</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_demersal_nondest_high_bycatch_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_demersal_nondest_high_bycatch_mol.zip</objectName>
+        <size>229492237</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_demersal_nondest_high_bycatch_mol_20150714062926</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_demersal_nondest_low_bycatch_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_demersal_nondest_low_bycatch_mol.zip</objectName>
+        <size>242865958</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_demersal_nondest_low_bycatch_mol_20150714062949</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_inorganic_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_inorganic_mol.zip</objectName>
+        <size>72274083</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_inorganic_mol_20150714063003</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_night_lights_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_night_lights_mol.zip</objectName>
+        <size>3734576</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_night_lights_mol_20150714063008</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_ocean_acidification_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_ocean_acidification_mol.zip</objectName>
+        <size>60527840</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_ocean_acidification_mol_20150714063015</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_oil_rigs_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_oil_rigs_mol.zip</objectName>
+        <size>535599</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_oil_rigs_mol_20150714063019</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_pelagic_high_bycatch_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_pelagic_high_bycatch_mol.zip</objectName>
+        <size>28044596</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_pelagic_high_bycatch_mol_20150714063023</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_pelagic_low_bycatch_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_pelagic_low_bycatch_mol.zip</objectName>
+        <size>213750945</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_pelagic_low_bycatch_mol_20150714063038</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_plumes_fert_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_plumes_fert_mol.zip</objectName>
+        <size>69794433</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_plumes_fert_mol_20150714063052</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_plumes_pest_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_plumes_pest_mol.zip</objectName>
+        <size>47849423</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_plumes_pest_mol_20150714063059</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_population_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_population_mol.zip</objectName>
+        <size>10873690</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_population_mol_20150714063104</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_sst_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_sst_mol.zip</objectName>
+        <size>471266224</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_sst_mol_20150714063130</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+    <otherEntity scope="document">
+      <entityName>pressure_two_2013_uv_mol.zip</entityName>
+      <physical>
+        <objectName>pressure_two_2013_uv_mol.zip</objectName>
+        <size>1904467216</size>
+        <dataFormat>
+          <externallyDefinedFormat>
+            <formatName>ESRI Arc/View ShapeFile</formatName>
+          </externallyDefinedFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url>https://knb.ecoinformatics.org/knb/d1/mn/v1/pressure_two_2013_uv_mol_20150714063348</url>
+          </online>
+        </distribution>
+      </physical>
+      <entityType>application/zip</entityType>
+    </otherEntity>
+  </dataset>
+</eml:eml>

@@ -1,0 +1,604 @@
+<?xml version="1.0"?>
+<gmi:MI_Metadata xmlns="http://www.isotc211.org/2005/gmi" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gmi="http://www.isotc211.org/2005/gmi" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmx="http://www.isotc211.org/2005/gmx" xmlns:gsr="http://www.isotc211.org/2005/gsr" xmlns:gss="http://www.isotc211.org/2005/gss" xmlns:gts="http://www.isotc211.org/2005/gts" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmi http://www.ngdc.noaa.gov/metadata/published/xsd/schema.xsd">
+    <gmd:fileIdentifier>
+        <gco:CharacterString>R3.x177.000-0001-metadata.xml</gco:CharacterString>
+    </gmd:fileIdentifier>
+    <gmd:language>
+        <gco:CharacterString>eng; USA</gco:CharacterString>
+    </gmd:language>
+    <gmd:characterSet>
+        <gmd:MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8" codeSpace="004">utf8</gmd:MD_CharacterSetCode>
+    </gmd:characterSet>
+    <gmd:hierarchyLevel>
+        <gmd:MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset" codeSpace="005">dataset</gmd:MD_ScopeCode>
+    </gmd:hierarchyLevel>
+    <gmd:contact>
+        <gmd:CI_ResponsibleParty>
+            <gmd:individualName>
+                <gco:CharacterString>Christopher Reddy</gco:CharacterString>
+            </gmd:individualName>
+            <gmd:organisationName>
+                <gco:CharacterString>Woods Hole Oceanographic Institution</gco:CharacterString>
+            </gmd:organisationName>
+            <gmd:positionName>
+                <gco:CharacterString>Senior Scientist</gco:CharacterString>
+            </gmd:positionName>
+            <gmd:contactInfo>
+                <gmd:CI_Contact>
+                    <gmd:phone>
+                        <gmd:CI_Telephone>
+                            <gmd:voice>
+                                <gco:CharacterString>508-289-2316</gco:CharacterString>
+                            </gmd:voice>
+                            <gmd:facsimile>
+                                <gco:CharacterString/>
+                            </gmd:facsimile>
+                        </gmd:CI_Telephone>
+                    </gmd:phone>
+                    <gmd:address>
+                        <gmd:CI_Address>
+                            <gmd:deliveryPoint>
+                                <gco:CharacterString>
+                                    <![CDATA[266 Woods Hole Road]]>
+</gco:CharacterString>
+                            </gmd:deliveryPoint>
+                            <gmd:city>
+                                <gco:CharacterString>Woods Hole</gco:CharacterString>
+                            </gmd:city>
+                            <gmd:administrativeArea>
+                                <gco:CharacterString>MA</gco:CharacterString>
+                            </gmd:administrativeArea>
+                            <gmd:postalCode>
+                                <gco:CharacterString>02543</gco:CharacterString>
+                            </gmd:postalCode>
+                            <gmd:country>
+                                <gco:CharacterString>USA</gco:CharacterString>
+                            </gmd:country>
+                            <gmd:electronicMailAddress>
+                                <gco:CharacterString>creddy@whoi.edu</gco:CharacterString>
+                            </gmd:electronicMailAddress>
+                        </gmd:CI_Address>
+                    </gmd:address>
+                </gmd:CI_Contact>
+            </gmd:contactInfo>
+            <gmd:role>
+                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+            </gmd:role>
+        </gmd:CI_ResponsibleParty>
+    </gmd:contact>
+    <gmd:dateStamp>
+        <gco:DateTime>2015-10-27T11:33:52-05:00</gco:DateTime>
+    </gmd:dateStamp>
+    <gmd:metadataStandardName>
+        <gco:CharacterString>ISO 19115-2 Geographic Information - Metadata - Part 2: Extensions for Imagery and Gridded Data</gco:CharacterString>
+    </gmd:metadataStandardName>
+    <gmd:metadataStandardVersion>
+        <gco:CharacterString>ISO 19115-2:2009(E)</gco:CharacterString>
+    </gmd:metadataStandardVersion>
+    <gmd:dataSetURI>
+        <gco:CharacterString>https://data.gulfresearchinitiative.org/metadata/R3.x177.000:0001</gco:CharacterString>
+    </gmd:dataSetURI>
+    <gmd:identificationInfo>
+        <gmd:MD_DataIdentification>
+            <gmd:citation>
+                <gmd:CI_Citation>
+                    <gmd:title>
+                        <gco:CharacterString>Gulf Coast Tar Samples, Louisiana, Mississippi, Alabama, July-November 2011.</gco:CharacterString>
+                    </gmd:title>
+                    <gmd:alternateTitle>
+                        <gco:CharacterString>Gulf Coast Sample Repository: collection of oiled samples along the Gulf Coast</gco:CharacterString>
+                    </gmd:alternateTitle>
+                    <gmd:date>
+                        <gmd:CI_Date>
+                            <gmd:date>
+                                <gco:Date>2015-02-26</gco:Date>
+                            </gmd:date>
+                            <gmd:dateType>
+                                <gmd:CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication" codeSpace="002">publication</gmd:CI_DateTypeCode>
+                            </gmd:dateType>
+                        </gmd:CI_Date>
+                    </gmd:date>
+                </gmd:CI_Citation>
+            </gmd:citation>
+            <gmd:abstract>
+                <gco:CharacterString>Following the Deepwater Horizon oil spill, coastal beaches were oiled. Some remnants continued to persist and may provide invaluable clues on the fate of oil in the marine environment. To track such changes, samples were collected for concurrent and future analyses. This dataset includes a list of all samples collected and available by request from Woods Hole Oceanographic Institution. The information for these samples, and to make a request for samples, please visit https://www.whoi.edu/page.do?pid=73756. The dataset includes a pdf with a photograph of each sample, the date the sample was collected, the general area where the sample was collected and the latitude and longitude. Additionally an Excel spreadsheet is included that provides more detailed collection information for each sample.</gco:CharacterString>
+            </gmd:abstract>
+            <gmd:purpose>
+                <gco:CharacterString>The ultimate goal was to collect and archive oiled samples that would be available to my research group as well as others.</gco:CharacterString>
+            </gmd:purpose>
+            <gmd:status>
+                <gmd:MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed" codeSpace="001">completed</gmd:MD_ProgressCode>
+            </gmd:status>
+            <gmd:pointOfContact>
+                <gmd:CI_ResponsibleParty>
+                    <gmd:individualName>
+                        <gco:CharacterString>Christopher Reddy</gco:CharacterString>
+                    </gmd:individualName>
+                    <gmd:organisationName>
+                        <gco:CharacterString>Woods Hole Oceanographic Institution</gco:CharacterString>
+                    </gmd:organisationName>
+                    <gmd:positionName>
+                        <gco:CharacterString>Senior Scientist</gco:CharacterString>
+                    </gmd:positionName>
+                    <gmd:contactInfo>
+                        <gmd:CI_Contact>
+                            <gmd:phone>
+                                <gmd:CI_Telephone>
+                                    <gmd:voice>
+                                        <gco:CharacterString>508-289-2316</gco:CharacterString>
+                                    </gmd:voice>
+                                    <gmd:facsimile>
+                                        <gco:CharacterString/>
+                                    </gmd:facsimile>
+                                </gmd:CI_Telephone>
+                            </gmd:phone>
+                            <gmd:address>
+                                <gmd:CI_Address>
+                                    <gmd:deliveryPoint>
+                                        <gco:CharacterString>
+                                            <![CDATA[266 Woods Hole Road]]>
+</gco:CharacterString>
+                                    </gmd:deliveryPoint>
+                                    <gmd:city>
+                                        <gco:CharacterString>Woods Hole</gco:CharacterString>
+                                    </gmd:city>
+                                    <gmd:administrativeArea>
+                                        <gco:CharacterString>MA</gco:CharacterString>
+                                    </gmd:administrativeArea>
+                                    <gmd:postalCode>
+                                        <gco:CharacterString>02543</gco:CharacterString>
+                                    </gmd:postalCode>
+                                    <gmd:country>
+                                        <gco:CharacterString>USA</gco:CharacterString>
+                                    </gmd:country>
+                                    <gmd:electronicMailAddress>
+                                        <gco:CharacterString>creddy@whoi.edu</gco:CharacterString>
+                                    </gmd:electronicMailAddress>
+                                </gmd:CI_Address>
+                            </gmd:address>
+                        </gmd:CI_Contact>
+                    </gmd:contactInfo>
+                    <gmd:role>
+                        <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact" codeSpace="007">pointOfContact</gmd:CI_RoleCode>
+                    </gmd:role>
+                </gmd:CI_ResponsibleParty>
+            </gmd:pointOfContact>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>tar ball</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>tar patties</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>oiled sand patties</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>beach</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>coast</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme" codeSpace="005">theme</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:descriptiveKeywords>
+                <gmd:MD_Keywords>
+                    <gmd:keyword>
+                        <gco:CharacterString>Perdido Beach</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf Shores</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Bon Secour National Wildlife Refuge</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Dauphin Island</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulfport</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Pass Christian Harbor</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Waveland</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Grand Isle</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Elmer&amp;#039;s Island</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Port Fourchon Beach</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Gulf State Park</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Alabama</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Florida</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Mississippi</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:keyword>
+                        <gco:CharacterString>Louisiana</gco:CharacterString>
+                    </gmd:keyword>
+                    <gmd:type>
+                        <gmd:MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="place" codeSpace="002">place</gmd:MD_KeywordTypeCode>
+                    </gmd:type>
+                </gmd:MD_Keywords>
+            </gmd:descriptiveKeywords>
+            <gmd:language>
+                <gco:CharacterString>eng; USA</gco:CharacterString>
+            </gmd:language>
+            <gmd:topicCategory>
+                <gmd:MD_TopicCategoryCode>environment</gmd:MD_TopicCategoryCode>
+            </gmd:topicCategory>
+            <gmd:extent>
+                <gmd:EX_Extent id="boundingExtent">
+                    <gmd:geographicElement>
+                        <gmd:EX_GeographicBoundingBox>
+                            <gmd:westBoundLongitude>
+                                <gco:Decimal>-90.191</gco:Decimal>
+                            </gmd:westBoundLongitude>
+                            <gmd:eastBoundLongitude>
+                                <gco:Decimal>-87.479</gco:Decimal>
+                            </gmd:eastBoundLongitude>
+                            <gmd:southBoundLatitude>
+                                <gco:Decimal>29.104</gco:Decimal>
+                            </gmd:southBoundLatitude>
+                            <gmd:northBoundLatitude>
+                                <gco:Decimal>30.364</gco:Decimal>
+                            </gmd:northBoundLatitude>
+                        </gmd:EX_GeographicBoundingBox>
+                    </gmd:geographicElement>
+                    <gmd:geographicElement>
+                        <gmd:EX_BoundingPolygon>
+                            <gmd:polygon>
+                                <gml:MultiPoint gml:id="MultiPoint1" srsName="urn:ogc:def:crs:EPSG::4326">
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint1">
+                                            <gml:pos srsDimension="2">29.104 -90.191</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint2">
+                                            <gml:pos srsDimension="2">29.105 -90.19</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint3">
+                                            <gml:pos srsDimension="2">29.106 -90.183</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint4">
+                                            <gml:pos srsDimension="2">29.107 -90.183</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint5">
+                                            <gml:pos srsDimension="2">29.151 -90.189</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint6">
+                                            <gml:pos srsDimension="2">29.153 -90.189</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint7">
+                                            <gml:pos srsDimension="2">29.168 -90.096</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint8">
+                                            <gml:pos srsDimension="2">29.172 -90.073</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint9">
+                                            <gml:pos srsDimension="2">29.174 -90.077</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint10">
+                                            <gml:pos srsDimension="2">29.175 -90.075</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint11">
+                                            <gml:pos srsDimension="2">29.176 -90.073</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint12">
+                                            <gml:pos srsDimension="2">29.228 -89.999</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint13">
+                                            <gml:pos srsDimension="2">29.229 -89.997</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint14">
+                                            <gml:pos srsDimension="2">29.231 -89.992</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint15">
+                                            <gml:pos srsDimension="2">29.232 -90.006</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint16">
+                                            <gml:pos srsDimension="2">29.233 -90.003</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint17">
+                                            <gml:pos srsDimension="2">29.234 -90.003</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint18">
+                                            <gml:pos srsDimension="2">29.235 -90.001</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint19">
+                                            <gml:pos srsDimension="2">29.253 -89.949</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint20">
+                                            <gml:pos srsDimension="2">29.255 -89.954</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint21">
+                                            <gml:pos srsDimension="2">29.256 -89.953</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint22">
+                                            <gml:pos srsDimension="2">29.257 -89.952</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint23">
+                                            <gml:pos srsDimension="2">29.258 -89.952</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint24">
+                                            <gml:pos srsDimension="2">29.259 -89.951</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint25">
+                                            <gml:pos srsDimension="2">29.26 -89.951</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint26">
+                                            <gml:pos srsDimension="2">29.261 -89.951</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint27">
+                                            <gml:pos srsDimension="2">29.262 -89.95</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint28">
+                                            <gml:pos srsDimension="2">29.263 -89.949</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint29">
+                                            <gml:pos srsDimension="2">30.224 -88.012</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint30">
+                                            <gml:pos srsDimension="2">30.235 -88.119</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint31">
+                                            <gml:pos srsDimension="2">30.236 -88.12</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint32">
+                                            <gml:pos srsDimension="2">30.24 -87.737</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint33">
+                                            <gml:pos srsDimension="2">30.241 -87.737</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint34">
+                                            <gml:pos srsDimension="2">30.246 -87.693</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint35">
+                                            <gml:pos srsDimension="2">30.247 -87.693</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint36">
+                                            <gml:pos srsDimension="2">30.249 -87.686</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint37">
+                                            <gml:pos srsDimension="2">30.26 -89.404</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint38">
+                                            <gml:pos srsDimension="2">30.282 -89.369</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint39">
+                                            <gml:pos srsDimension="2">30.287 -87.483</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint40">
+                                            <gml:pos srsDimension="2">30.288 -87.479</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint41">
+                                            <gml:pos srsDimension="2">30.311 -89.25</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                    <gml:pointMember>
+                                        <gml:Point gml:id="multipoint42">
+                                            <gml:pos srsDimension="2">30.364 -89.086</gml:pos>
+                                        </gml:Point>
+                                    </gml:pointMember>
+                                </gml:MultiPoint>
+                            </gmd:polygon>
+                        </gmd:EX_BoundingPolygon>
+                    </gmd:geographicElement>
+                    <gmd:temporalElement>
+                        <gmd:EX_TemporalExtent>
+                            <gmd:extent>
+                                <gml:TimePeriod gml:id="boundingTemporalExtent">
+                                    <gml:description>Ground condition</gml:description>
+                                    <gml:beginPosition>2011-07-17</gml:beginPosition>
+                                    <gml:endPosition>2011-11-28</gml:endPosition>
+                                </gml:TimePeriod>
+                            </gmd:extent>
+                        </gmd:EX_TemporalExtent>
+                    </gmd:temporalElement>
+                </gmd:EX_Extent>
+            </gmd:extent>
+            <gmd:supplementalInformation>
+                <gco:CharacterString>Reddy_GoMRI RFP-III_Samples.pdf (accessible at https://www.whoi.edu/page.do?pid=73756)-- Tar Sample Image (photo), Sample ID (internal reference number), Date collected (MM/DD/YY), Area collected (geographical place name), Latitude (Degrees Minutes Seconds), Longitude (Degrees Minutes Seconds) Reddy_GRI-III-015-Final Report_Sampling Locations.xlsx-- 1. Overview (all tar ball and tar patty samples are archived at WHOI): Field Operation ID, Field Collection Date(s) field expedition start and end dates, Chief Scientist for field expedition, Number of samples collected (count) 2. [Field Operations #1 thru #7]: Tar Sample ID (internal reference number), Collected by (name or initials of person who collected the sample), Collection location (geographical place name), Collection Date (MM/DD/YYYY), Collection Time, Status [archived, depleted], Picture File of tar sample (photo filename .NEF or jpg format), Latitude (Degrees Minutes Seconds), Longitude (Degrees Minutes Seconds) Sampling conditions (general comments), Sampling notes (general comments) |||||</gco:CharacterString>
+            </gmd:supplementalInformation>
+        </gmd:MD_DataIdentification>
+    </gmd:identificationInfo>
+    <gmd:distributionInfo>
+        <gmd:MD_Distribution>
+            <gmd:distributor>
+                <gmd:MD_Distributor>
+                    <gmd:distributorContact>
+                        <gmd:CI_ResponsibleParty>
+                            <gmd:organisationName>
+                                <gco:CharacterString>Gulf of Mexico Research Initiative Information and Data Cooperative (GRIIDC)</gco:CharacterString>
+                            </gmd:organisationName>
+                            <gmd:positionName/>
+                            <gmd:contactInfo>
+                                <gmd:CI_Contact>
+                                    <gmd:phone>
+                                        <gmd:CI_Telephone>
+                                            <gmd:voice>
+                                                <gco:CharacterString>+1-361-825-3604</gco:CharacterString>
+                                            </gmd:voice>
+                                            <gmd:facsimile>
+                                                <gco:CharacterString>+1-361-825-2050</gco:CharacterString>
+                                            </gmd:facsimile>
+                                        </gmd:CI_Telephone>
+                                    </gmd:phone>
+                                    <gmd:address>
+                                        <gmd:CI_Address>
+                                            <gmd:deliveryPoint>
+                                                <gco:CharacterString>
+                                                    <![CDATA[6300 Ocean Drive
+Unit 5869]]>
+</gco:CharacterString>
+                                            </gmd:deliveryPoint>
+                                            <gmd:city>
+                                                <gco:CharacterString>Corpus Christi</gco:CharacterString>
+                                            </gmd:city>
+                                            <gmd:administrativeArea>
+                                                <gco:CharacterString>Texas</gco:CharacterString>
+                                            </gmd:administrativeArea>
+                                            <gmd:postalCode>
+                                                <gco:CharacterString>78412-5869</gco:CharacterString>
+                                            </gmd:postalCode>
+                                            <gmd:country>
+                                                <gco:CharacterString>USA</gco:CharacterString>
+                                            </gmd:country>
+                                            <gmd:electronicMailAddress>
+                                                <gco:CharacterString>griidc@gomri.org</gco:CharacterString>
+                                            </gmd:electronicMailAddress>
+                                        </gmd:CI_Address>
+                                    </gmd:address>
+                                    <gmd:onlineResource>
+                                        <gmd:CI_OnlineResource>
+                                            <gmd:linkage>
+                                                <gmd:URL>http://data.gulfresearchinitiative.org</gmd:URL>
+                                            </gmd:linkage>
+                                            <gmd:protocol>
+                                                <gco:CharacterString/>
+                                            </gmd:protocol>
+                                        </gmd:CI_OnlineResource>
+                                    </gmd:onlineResource>
+                                </gmd:CI_Contact>
+                            </gmd:contactInfo>
+                            <gmd:role>
+                                <gmd:CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor" codeSpace="005">distributor</gmd:CI_RoleCode>
+                            </gmd:role>
+                        </gmd:CI_ResponsibleParty>
+                    </gmd:distributorContact>
+                    <gmd:distributorFormat>
+                        <gmd:MD_Format>
+                            <gmd:name>
+                                <gco:CharacterString>pdf, xlsx</gco:CharacterString>
+                            </gmd:name>
+                            <gmd:version gco:nilReason="inapplicable"/>
+                            <gmd:fileDecompressionTechnique>
+                                <gco:CharacterString>zip</gco:CharacterString>
+                            </gmd:fileDecompressionTechnique>
+                        </gmd:MD_Format>
+                    </gmd:distributorFormat>
+                    <gmd:distributorTransferOptions>
+                        <gmd:MD_DigitalTransferOptions>
+                            <gmd:transferSize>
+                                <gco:Real>11</gco:Real>
+                            </gmd:transferSize>
+                            <gmd:onLine>
+                                <gmd:CI_OnlineResource>
+                                    <gmd:linkage>
+                                        <gmd:URL>https://data.gulfresearchinitiative.org/data/R3.x177.000:0001</gmd:URL>
+                                    </gmd:linkage>
+                                    <gmd:protocol>
+                                        <gco:CharacterString/>
+                                    </gmd:protocol>
+                                </gmd:CI_OnlineResource>
+                            </gmd:onLine>
+                        </gmd:MD_DigitalTransferOptions>
+                    </gmd:distributorTransferOptions>
+                </gmd:MD_Distributor>
+            </gmd:distributor>
+        </gmd:MD_Distribution>
+    </gmd:distributionInfo>
+    <gmd:metadataMaintenance>
+        <gmd:MD_MaintenanceInformation>
+            <gmd:maintenanceAndUpdateFrequency gco:nilReason="unknown"/>
+            <gmd:maintenanceNote>
+                <gco:CharacterString>This ISO metadata record was automatically generated from information provided to GRIIDC for dataset: R3.x177.000:0001</gco:CharacterString>
+            </gmd:maintenanceNote>
+        </gmd:MD_MaintenanceInformation>
+    </gmd:metadataMaintenance>
+</gmi:MI_Metadata>

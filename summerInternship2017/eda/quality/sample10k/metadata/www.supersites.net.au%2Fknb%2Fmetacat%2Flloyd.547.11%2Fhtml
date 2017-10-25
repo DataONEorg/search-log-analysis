@@ -1,0 +1,580 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="www.supersites.net.au/knb/metacat/lloyd.547.11/html" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation=" ">
+    <dataset scope="document">
+        <title>Leaf Area Index and Cover of Four 1 ha Plots, Great Western Woodlands SuperSite, 2013</title>
+        <creator id="1353487226657" scope="document">
+            <individualName>
+                <givenName>Suzanne</givenName>
+                <surName>Prober</surName>
+            </individualName>
+            <organizationName>CSIRO Ecosystem Science</organizationName>
+            <address scope="document">
+                <city>Floreat</city>
+                <administrativeArea>WA</administrativeArea>
+                <postalCode>6014</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">08 9333 6789</phone>
+            <electronicMailAddress>Suzanne.Prober@csiro.au</electronicMailAddress>
+        </creator>
+        <creator id="1353487527827" scope="document">
+            <individualName>
+                <givenName>Craig</givenName>
+                <surName>Macfarlane</surName>
+            </individualName>
+            <organizationName>CSIRO Ecosystem Science</organizationName>
+            <address scope="document">
+                <city>Floreat</city>
+                <administrativeArea>WA</administrativeArea>
+                <postalCode>6014</postalCode>
+                <country>Australia</country>
+            </address>
+            <phone phonetype="voice">08 9333 6789</phone>
+            <electronicMailAddress>Craig.Macfarlane@csiro.au</electronicMailAddress>
+        </creator>
+        <pubDate>2013-11-06</pubDate>
+        <abstract>
+            <para>Leaf area index and cover of four 1 ha plots at the GWW Supersite, collected during October 2013</para>
+        </abstract>
+        <keywordSet>
+            <keyword>leaf area index</keyword>
+            <keyword>LAI</keyword>
+            <keyword>digital cover photography</keyword>
+            <keyword>Great Western Woodlands</keyword>
+            <keyword>GWW</keyword>
+        </keywordSet>
+        <keywordSet>
+            <keyword>0502</keyword>
+            <keywordThesaurus>anzsrc-for</keywordThesaurus>
+        </keywordSet>
+        <intellectualRights>
+            <para>This work is licensed under Creative Commons - Attribution 4.0 International. The licence allows others copy, distribute, display, and perform the work and derivative works based upon it provided that they credit the original source and any other nominated parties.</para>
+        </intellectualRights>
+        <distribution>
+            <online>
+                <url>http://www.supersites.net.au/knb/metacat/lloyd.547.11/html</url>
+            </online>
+        </distribution>
+        <coverage scope="document">
+            <geographicCoverage scope="document">
+                <geographicDescription>The Great Western Woodlands flux station and supersite was established in 2012 on Credo Station, 110 km NNW of Kalgoorlie, WA.</geographicDescription>
+                <boundingCoordinates>
+                    <westBoundingCoordinate>120.6541388888889</westBoundingCoordinate>
+                    <eastBoundingCoordinate>120.6541388888889</eastBoundingCoordinate>
+                    <northBoundingCoordinate>-30.191333333333333</northBoundingCoordinate>
+                    <southBoundingCoordinate>-30.191333333333333</southBoundingCoordinate>
+                </boundingCoordinates>
+            </geographicCoverage>
+            <temporalCoverage scope="document">
+                <singleDateTime>
+                    <calendarDate>2013-10-01</calendarDate>
+                </singleDateTime>
+            </temporalCoverage>
+        </coverage>
+        <contact scope="document">
+            <references>1353487226657</references>
+        </contact>
+        <methods>
+            <methodStep>
+                <description>
+                    <section>
+                        <title>Digital Cover Photography</title>
+                        <para>See Macfarlane, C., 2011. Classification method of mixed pixels does not affect canopy metrics from digital images of forest overstorey. Agricultural and Forest Meteorology, 151: 833-840 for methods.  81 images were captured in each one hectare plot at 10m spacing.</para>
+                    </section>
+                </description>
+                <instrumentation>Nikon D90 DSLR camera and 50mm lens</instrumentation>
+            </methodStep>
+        </methods>
+        <dataTable id="1383668610529" scope="document">
+            <entityName>asn_gwwl_veg_lai_gimlet_20131017.csv</entityName>
+            <entityDescription>GIM200W</entityDescription>
+            <physical id="1383668471051" scope="document">
+                <objectName>asn_gwwl_veg_lai_gimlet_20131017.csv</objectName>
+                <size unit="byte">2516</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/lloyd.547.11/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1383668610530" scope="document">
+                    <attributeName>Folder</attributeName>
+                    <attributeDefinition>Folder Name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Folder</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668610531" scope="document">
+                    <attributeName>Filename</attributeName>
+                    <attributeDefinition>Image Filename</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Image filename</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668610532" scope="document">
+                    <attributeName>GF</attributeName>
+                    <attributeDefinition>Gap Fraction</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Gap Fraction</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668610533" scope="document">
+                    <attributeName>FC</attributeName>
+                    <attributeDefinition>Foliage cover</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>foliage cover</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668610534" scope="document">
+                    <attributeName>CC</attributeName>
+                    <attributeDefinition>Crown Cover</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Crown cover</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668610535" scope="document">
+                    <attributeName>CP</attributeName>
+                    <attributeDefinition>Crown Porosity</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Crown porosity</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668610536" scope="document">
+                    <attributeName>LAI</attributeName>
+                    <attributeDefinition>Leaf Area Index</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>LAI</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>80</numberOfRecords>
+        </dataTable>
+        <dataTable id="1383668838800" scope="document">
+            <entityName>asn_gwwl_veg_lai_salmon_core_1ha_20131017.csv</entityName>
+            <entityDescription>SG100E</entityDescription>
+            <physical id="1383668662553" scope="document">
+                <objectName>asn_gww_veg_lai_salmon_core_1ha_20131017.csv</objectName>
+                <size unit="byte">1694</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/lloyd.547.11/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1383668838801" scope="document">
+                    <attributeName>Folder</attributeName>
+                    <attributeDefinition>Folder Name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Folder</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668838802" scope="document">
+                    <attributeName>Filename</attributeName>
+                    <attributeDefinition>Image Filename</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>Image file name</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668838803" scope="document">
+                    <attributeName>GF</attributeName>
+                    <attributeDefinition>Gap Fraction</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>gap fraction</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668838804" scope="document">
+                    <attributeName>FC</attributeName>
+                    <attributeDefinition>Foliage Cover</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>foliage cover</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668838805" scope="document">
+                    <attributeName>CC</attributeName>
+                    <attributeDefinition>Crown Cover</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>crown cover</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668838806" scope="document">
+                    <attributeName>CP</attributeName>
+                    <attributeDefinition>Crown Porosity</attributeDefinition>
+                    <measurementScale>
+                        <ordinal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>crown porosity</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </ordinal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383668838807" scope="document">
+                    <attributeName>LAI</attributeName>
+                    <attributeDefinition>Leaf Area Index</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>LAI</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>19</numberOfRecords>
+        </dataTable>
+        <dataTable id="1383669020009" scope="document">
+            <entityName>asn_gwwl_veg_lai_redwood_20131017.csv</entityName>
+            <entityDescription>TC</entityDescription>
+            <physical id="1383668880065" scope="document">
+                <objectName>asn_gwwl_veg_lai_redwood_20131017.csv</objectName>
+                <size unit="byte">3012</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/lloyd.547.11/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1383669020010" scope="document">
+                    <attributeName>Folder</attributeName>
+                    <attributeDefinition>Folder Name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>folder</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669020011" scope="document">
+                    <attributeName>Filename</attributeName>
+                    <attributeDefinition>Image File Name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>image file name</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669020012" scope="document">
+                    <attributeName>GF</attributeName>
+                    <attributeDefinition>Gap Fraction</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>gap fraction</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669020013" scope="document">
+                    <attributeName>FC</attributeName>
+                    <attributeDefinition>Foliage Cover</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>folage cover</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669020014" scope="document">
+                    <attributeName>CC</attributeName>
+                    <attributeDefinition>Crown Cover</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>crown cover</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669020015" scope="document">
+                    <attributeName>CP</attributeName>
+                    <attributeDefinition>Crown Porosity</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>crown porosity</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669020016" scope="document">
+                    <attributeName>LAI</attributeName>
+                    <attributeDefinition>Leaf Area Index</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>LAI</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>33</numberOfRecords>
+        </dataTable>
+        <dataTable id="1383669174411" scope="document">
+            <entityName>asn_gwwl_veg_lai_blackbutt_20131017.csv</entityName>
+            <entityDescription>BB</entityDescription>
+            <physical id="1383669083438" scope="document">
+                <objectName>asn_gwwl_veg_lai_blackbutt_20131017.csv</objectName>
+                <size unit="byte">5925</size>
+                <dataFormat>
+                    <textFormat>
+                        <numHeaderLines>1</numHeaderLines>
+                        <recordDelimiter>#x0A</recordDelimiter>
+                        <attributeOrientation>column</attributeOrientation>
+                        <simpleDelimited>
+                            <fieldDelimiter>,</fieldDelimiter>
+                        </simpleDelimited>
+                    </textFormat>
+                </dataFormat>
+                <distribution scope="document">
+                    <online>
+                        <url function="download">http://www.supersites.net.au/knb/metacat/lloyd.547.11/html</url>
+                    </online>
+                </distribution>
+            </physical>
+            <attributeList>
+                <attribute id="1383669174412" scope="document">
+                    <attributeName>Folder</attributeName>
+                    <attributeDefinition>Folder Name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>folder</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669174413" scope="document">
+                    <attributeName>Filename</attributeName>
+                    <attributeDefinition>Image File Name</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>image file name</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669174414" scope="document">
+                    <attributeName>GF</attributeName>
+                    <attributeDefinition>Gap Fraction</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>gap fraction</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669174415" scope="document">
+                    <attributeName>FC</attributeName>
+                    <attributeDefinition>Foliage Cover</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>foliage cover</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669174416" scope="document">
+                    <attributeName>CC</attributeName>
+                    <attributeDefinition>Crown Cover</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>crown cover</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669174417" scope="document">
+                    <attributeName>CP</attributeName>
+                    <attributeDefinition>Crown Porosity</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>crown porosity</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+                <attribute id="1383669174418" scope="document">
+                    <attributeName>LAI</attributeName>
+                    <attributeDefinition>Leaf Area Index</attributeDefinition>
+                    <measurementScale>
+                        <nominal>
+                            <nonNumericDomain>
+                                <textDomain>
+                                    <definition>LAI</definition>
+                                </textDomain>
+                            </nonNumericDomain>
+                        </nominal>
+                    </measurementScale>
+                </attribute>
+            </attributeList>
+            <numberOfRecords>128</numberOfRecords>
+        </dataTable>
+    </dataset>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="percent" name="percent" parentSI="number" unitType="dimensionless">
+                    <description>expressed as a fraction of 100</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <unitList>
+                <unit id="Watts per square metre" name="Watts per square metre" parentSI="watt" unitType="irradiance">
+                    <description>SI unit of irradiance</description>
+                </unit>
+            </unitList>
+        </metadata>
+    </additionalMetadata>
+    <additionalMetadata>
+        <metadata>
+            <qualityControl timestamp="2014-11-19T19:38:32.225Z" username="datalibrarian"/>
+        </metadata>
+    </additionalMetadata>
+</eml:eml>

@@ -1,0 +1,499 @@
+<?xml version="1.0"?>
+<eml:eml packageId="nceas.912.9" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=mbauer,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>POD! Bird data for San Francisco Bay-Delta (Christmas Bird Count_ National Audubon Society)</title>
+ <creator scope="document"> <organizationName>NCEAS 12192: Fleishman: Ecosystem analysis of pelagic organism declines in the Upper San Francisco Estuary</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Gonzalo</givenName>
+ <surName>Castillo</surName>
+ </individualName>
+ <organizationName>U.S. Fish %26amp; Wildlife Service</organizationName>
+ <electronicMailAddress>gonzalo_castillo@fws.gov</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Marissa</givenName>
+ <surName>Bauer</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Graham</givenName>
+ <surName>Chisholm</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <pubDate>2008-04-03</pubDate>
+ <abstract> <para>The Christmas Bird Count is organized by the National Audubon Society. Available bird data for the Christmas Bird Counts obtained from Count Data by areas (by Count Circles):
+ http://www.audubon.org/bird/cbc/hr/
+Count circles are mapped in:
+http://www.stanislausbirds.org/Events/california_cbc_circles.htm
+Based on the above map I selected data for the locations included in the
+Delta-Suisun Bay/Marsh (the circle code is indicated in the file name,
+after the name (e.g. CARC, CASM, CAEC, CABE, CAST).
+The attached PDF explains each of the colums in the files.
+As you will see data are sporadic but at least give you an idea of
+counts
+per species per unit of time.</para>
+ </abstract>
+ <additionalInfo> <para>The book %26quot;Baylands Ecosystem Species and Community Profiles%26quot;  included
+the
+following fish/mollusc/crustacean eating birds in the Suisun Bay/Marsh
+area:
+snowy egret
+black-crowned night heron
+California clapper rail
+Foster's tern
+California gull
+Caspian tern
+
+The following species are also known to prey on fish/mollusc/crustacean:
+American avocet
+stilt
+great blue heron
+great egret
+
+Obligate piscivores include: western grebe, Foster's tern, double
+crested
+cormorans
+Facultative piscivores include: great egret, California gull</para>
+ </additionalInfo>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="download">http://www.natureali.org/cbcs.htm</url>
+ </online>
+ </distribution>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1970</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2006</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>San Francisco Bay-Delta</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>22.3833</westBoundingCoordinate>
+ <eastBoundingCoordinate>22.3833</eastBoundingCoordinate>
+ <northBoundingCoordinate>38.0833</northBoundingCoordinate>
+ <southBoundingCoordinate>38.0833</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Gonzalo</givenName>
+ <surName>Castillo</surName>
+ </individualName>
+ <organizationName>U.S. Fish %26amp; Wildlife Service</organizationName>
+ <electronicMailAddress>gonzalo_castillo@fws.gov</electronicMailAddress>
+ </contact>
+ <dataTable id="1209071512176" scope="document"> <entityName>Benicia_CABE_1-107-1.txt</entityName>
+ <physical id="1209071510410" scope="document"> <objectName>Benicia_CABE_1-107-1.txt</objectName>
+ <size unit="byte">282849</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.5.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1209071512191" scope="document"> <attributeName>species ID</attributeName>
+ <attributeDefinition>The unique code for the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The unique code for the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209071512207" scope="document"> <attributeName>species common Name</attributeName>
+ <attributeDefinition>The common name of the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The common name of the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209071512223" scope="document"> <attributeName>year</attributeName>
+ <attributeDefinition>The CBC count year for these observations. CBC count years start at count year 1 for the 1900-01 season.</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>The CBC count year for these observations. CBC count years start at count year 1 for the 1900-01 season.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209071512238" scope="document"> <attributeName>number</attributeName>
+ <attributeDefinition>The sum of all observed individuals for the selected query region and species. This is computed as the sum of the individual CBC_OBS. HOW_MANY values from each observation.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>whole</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209071512254" scope="document"> <attributeName>number Per Hour</attributeName>
+ <attributeDefinition>The average of the individual number per party hour values for each count circle in the region. In the case of no observations of a given species by a circle within the query region, a value of 0 per party hour will be averaged in.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>hour</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209071512270" scope="document"> <attributeName>hours</attributeName>
+ <attributeDefinition>The sum of all party hours for each submission in the given query region and count year.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>hour</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209071512285" scope="document"> <attributeName>flags</attributeName>
+ <attributeDefinition>CBC Regional Editor flags:
+
+Flags included with species are: UH - Unusually High Number US - Unusual Species CW - Reported in the area during Count Week, but not reported during the count.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>CBC Regional Editor flags</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5835</numberOfRecords>
+ </dataTable>
+ <dataTable id="1209075677635" scope="document"> <entityName>COSUMNES_ CARC_1-107-1.txt</entityName>
+ <physical id="1209075674073" scope="document"> <objectName>COSUMNES_ CARC_1-107-1.txt</objectName>
+ <size unit="byte">90607</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.7.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1209075677651" scope="document"> <attributeName>species ID</attributeName>
+ <attributeDefinition>The unique code for the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The unique code for the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209075677667" scope="document"> <attributeName>species common Name</attributeName>
+ <attributeDefinition>The common name of the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The common name of the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209075677682" scope="document"> <attributeName>year</attributeName>
+ <attributeDefinition>The CBC count year for these observations. CBC count years start at count year 1 for the 1900-01 season.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>nominalYear</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209075677698" scope="document"> <attributeName>number</attributeName>
+ <attributeDefinition>The sum of all observed individuals for the selected query region and species. This is computed as the sum of the individual CBC_OBS.HOW_MANY values from each observation.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209075677714" scope="document"> <attributeName>number Per Hour</attributeName>
+ <attributeDefinition>The average of the individual number per party hour values for each count circle in the region. In the case of no observations of a given species by a circle within the query region, a value of 0 per party hour will be averaged in.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.001</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209075677729" scope="document"> <attributeName>hours</attributeName>
+ <attributeDefinition>The sum of all party hours for each submission in the given query region and count year.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>hour</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1209075677745" scope="document"> <attributeName>flags</attributeName>
+ <attributeDefinition>CBC Regional Editor flags:  Flags included with species are: UH - Unusually High Number US - Unusual Species CW - Reported in the area during Count Week, but not reported during the count.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>CBC Regional Editor flags</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1821</numberOfRecords>
+ </dataTable>
+ <dataTable id="1210281819457" scope="document"> <entityName>East Contra Costa County_CAEC_1-107.txt</entityName>
+ <physical id="1210281817894" scope="document"> <objectName>East Contra Costa County_CAEC_1-107.txt</objectName>
+ <size unit="byte">51797</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.9.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1210281819472" scope="document"> <attributeName>species ID</attributeName>
+ <attributeDefinition>The unique code for the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The unique code for the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210281819488" scope="document"> <attributeName>species common Name</attributeName>
+ <attributeDefinition>The common name of the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The common name of the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210281819504" scope="document"> <attributeName>year</attributeName>
+ <attributeDefinition>The CBC count year for these observations. CBC count years start at count year 1 for the 1900-01 season.</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>The CBC count year for these observations. CBC count years start at count year 1 for the 1900-01 season.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210281819519" scope="document"> <attributeName>number</attributeName>
+ <attributeDefinition>The sum of all observed individuals for the selected query regionand species. This is computed as the sum of the individual CBC_OBS.HOW_MANY values from each observation.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210281819535" scope="document"> <attributeName>number Per Hour</attributeName>
+ <attributeDefinition>The average of the individual number per party hour values for each count circle in the region. In the case of no observations of a given species by a circle within the query region, a value of 0 per party hour will be averaged in.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210281819551" scope="document"> <attributeName>hours</attributeName>
+ <attributeDefinition>The sum of all party hours for each submission in the given query region and count year.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>hour</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210281819566" scope="document"> <attributeName>flags</attributeName>
+ <attributeDefinition>Flags included with species are: UH - Unusually High Number US - Unusual Species CW - Reported in the area during Count Week, but not reported during the count.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>CBC Regional Editor flags</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>1082</numberOfRecords>
+ </dataTable>
+ <dataTable id="1210282491575" scope="document"> <entityName>Sacramento_CASM_1-107.txt</entityName>
+ <physical id="1210282485950" scope="document"> <objectName>Sacramento_CASM_1-107.txt</objectName>
+ <size unit="byte">368297</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.10.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1210282491590" scope="document"> <attributeName>species ID</attributeName>
+ <attributeDefinition>The unique code for the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The unique code for the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210282491606" scope="document"> <attributeName>species common Name</attributeName>
+ <attributeDefinition>The common name of the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The common name of the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210282491622" scope="document"> <attributeName>year</attributeName>
+ <attributeDefinition>The CBC count year for these observations. CBC count years start at count year 1 for the 1900-01 season.</attributeDefinition>
+ <measurementScale> <ordinal> <nonNumericDomain> <textDomain> <definition>The CBC count year for these observations. CBC count years start at count year 1 for the 1900-01 season.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </ordinal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210282491637" scope="document"> <attributeName>number</attributeName>
+ <attributeDefinition>The sum of all observed individuals for the selected query region and species. This is computed as the sum of the individual CBC_OBS.HOW_MANY values from each observation.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210282491653" scope="document"> <attributeName>number Per Hour</attributeName>
+ <attributeDefinition>The average of the individual number per party hour values for each count circle in the region. In the case of no observations of a given species by a circle within the query region, a value of 0 per
+party hour will be averaged in.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210282491668" scope="document"> <attributeName>hours</attributeName>
+ <attributeDefinition>The sum of all party hours for each submission in the given query region and count year.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>hour</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210282491684" scope="document"> <attributeName>flags</attributeName>
+ <attributeDefinition>Flags included with species are: UH - Unusually High Number US - Unusual Species CW - Reported in the area during Count Week, but not reported during the count.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>CBC Regional Editor flags</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>7715</numberOfRecords>
+ </dataTable>
+ <dataTable id="1210283124708" scope="document"> <entityName>STOCKTON_CAST_1-107.txt</entityName>
+ <physical id="1210283123833" scope="document"> <objectName>STOCKTON_CAST_1-107.txt</objectName>
+ <size unit="byte">237484</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>#x09</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.11.2</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1210283124723" scope="document"> <attributeName>species ID</attributeName>
+ <attributeDefinition>The unique code for the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The unique code for the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210283124739" scope="document"> <attributeName>species common Name</attributeName>
+ <attributeDefinition>The common name of the species being reported</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The common name of the species being reported</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210283124755" scope="document"> <attributeName>year</attributeName>
+ <attributeDefinition>The CBC count year for these observations. CBC count years start at count year 1 for the 1900-01 season.</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>nominalYear</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210283124770" scope="document"> <attributeName>number</attributeName>
+ <attributeDefinition>The sum of all observed individuals for the selected query region and species. This is computed as the sum of the individual CBC_OBS.HOW_MANY values from each observation.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210283124786" scope="document"> <attributeName>number Per Hour</attributeName>
+ <attributeDefinition>The average of the individual number per party hour values for each count circle in the region. In the case of no observations of a given species by a circle within the query region, a value of 0 per
+party hour will be averaged in.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210283124802" scope="document"> <attributeName>hours</attributeName>
+ <attributeDefinition>The sum of all party hours for each submission in the given query region and count year.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>mole</standardUnit>
+ </unit>
+ <precision>.01</precision>
+ <numericDomain> <numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1210283124817" scope="document"> <attributeName>flags</attributeName>
+ <attributeDefinition>Flags included with species are: UH - Unusually High Number US - Unusual Species CW - Reported in the area during Count Week, but not reported during the count.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>CBC Regional Editor flags</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>5057</numberOfRecords>
+ </dataTable>
+ </dataset>
+ </eml:eml>

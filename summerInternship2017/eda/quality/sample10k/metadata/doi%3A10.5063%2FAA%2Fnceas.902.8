@@ -1,0 +1,1532 @@
+<?xml version="1.0"?>
+<eml:eml packageId="nceas.902.8" scope="system" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.0 eml.xsd"> <access authSystem="knb" order="denyFirst" scope="document"> <allow> <principal>uid=nceasadmin,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>uid=mbauer,o=NCEAS,dc=ecoinformatics,dc=org</principal>
+ <permission>all</permission>
+ </allow>
+ <allow> <principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset scope="document"> <title>POD! Fish- DFG Fall Midwater trawl sampling Sept.-Dec.1967-2006</title>
+ <creator scope="document"> <organizationName>NCEAS 12192: Fleishman: Ecosystem analysis of pelagic organism declines in the Upper San Francisco Estuary</organizationName>
+ </creator>
+ <creator scope="document"> <organizationName>National Center for Ecological Analysis and Synthesis</organizationName>
+ </creator>
+ <creator scope="document"> <individualName> <givenName>Dave</givenName>
+ <surName>Contreras</surName>
+ </individualName>
+ <organizationName>California Department of Fish and Game (DFG)</organizationName>
+ <electronicMailAddress>dcontreras@dfg.ca.gov</electronicMailAddress>
+ </creator>
+ <metadataProvider scope="document"> <individualName> <givenName>Marissa</givenName>
+ <surName>Bauer</surName>
+ </individualName>
+ </metadataProvider>
+ <associatedParty scope="document"> <individualName> <givenName>Dave</givenName>
+ <surName>Contreras</surName>
+ </individualName>
+ <role>associatedParty</role>
+ </associatedParty>
+ <pubDate>2008-04-01</pubDate>
+ <abstract> <para>Midwater trawl sampling September-December 1967-2006
+
+Purpose of DFG's Fall Midwater Trawl survey is to evaluate potential water project effects on survival of young striped bass. The objective of the fall midwater trawl survey is to produce an index of monthly abundance of young striped bass. The sum of the monthly indices is compared to the summer townet abundance index to evaluate survival. 
+
+
+Midwater Trawl Field Activities:
+From 1967 to 1978 the survey length was variable, sometimes starting in July or August, with September the usual starting month. The survey was never run beyond March. In 1980 the survey was shortened to cover the period of September to December due to variability in abundance indices associated with winter storm events.
+Midwater trawl Sampling stations cover a broad range of habitats.</para>
+ </abstract>
+ <intellectualRights> <para>no restrictions</para>
+ </intellectualRights>
+ <distribution scope="document"> <online> <url function="download">http://www.delta.dfg.ca.gov/data/mwt/</url>
+ </online>
+ </distribution>
+ <distribution scope="document"> <offline> <mediumName>digital</mediumName>
+ </offline>
+ </distribution>
+ <coverage scope="document"> <temporalCoverage scope="document"> <rangeOfDates> <beginDate> <calendarDate>1967</calendarDate>
+ </beginDate>
+ <endDate> <calendarDate>2006</calendarDate>
+ </endDate>
+ </rangeOfDates>
+ </temporalCoverage>
+ <geographicCoverage scope="document"> <geographicDescription>San Francisco Bay-Estuary</geographicDescription>
+ <boundingCoordinates> <westBoundingCoordinate>122.3833</westBoundingCoordinate>
+ <eastBoundingCoordinate>122.3833</eastBoundingCoordinate>
+ <northBoundingCoordinate>38.0833</northBoundingCoordinate>
+ <southBoundingCoordinate>38.0833</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact scope="document"> <individualName> <givenName>Dave</givenName>
+ <surName>Contreras</surName>
+ </individualName>
+ <organizationName>California Department of Fish and Game (DFG)</organizationName>
+ <electronicMailAddress>dcontreras@dfg.ca.gov</electronicMailAddress>
+ </contact>
+ <methods> <methodStep> <description> <section> <title>Equipment Net Description</title>
+ <para>A mouth opening of 12 foot by 12 foot (3.7 m2). The mesh size decreases from 8 inch mesh in the forward panel to one half inch mesh at the cod end.</para>
+ </section>
+ </description>
+ </methodStep>
+ </methods>
+ <dataTable id="1253052942637" scope="document"> <entityName>FMWT 1967-2006 Catch Matrix for NCEAS.csv</entityName>
+ <physical id="1253052941153" scope="document"> <objectName>FMWT 1967-2006 Catch Matrix for NCEAS DC Edits-1.csv</objectName>
+ <size unit="byte">5496538</size>
+ <dataFormat> <textFormat> <numHeaderLines>1</numHeaderLines>
+ <recordDelimiter>#x0A</recordDelimiter>
+ <attributeOrientation>column</attributeOrientation>
+ <simpleDelimited> <fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution scope="document"> <online> <url function="download">ecogrid://knb/mbauer.67.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList> <attribute id="1253052942653" scope="document"> <attributeName>Year</attributeName>
+ <attributeDefinition>Survey year</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>yyyy</formatString>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942668" scope="document"> <attributeName>Survey Number</attributeName>
+ <attributeDefinition>The number ascribed to each month of the survey starting in July (1) and  ending in June (12).  The index surveys are from September to November, surveys 3 through 6 respectively.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>The number ascribed to each month of the survey starting in July (1) and  ending in June (12).  The index surveys are from September to November, surveys 3 through 6 respectively.</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942684" scope="document"> <attributeName>Station Code</attributeName>
+ <attributeDefinition>A three digit code ascribed to each station within a geographic series ie all stations in the Sacramento River Region are in the 700s.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Station code</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942700" scope="document"> <attributeName>Date</attributeName>
+ <attributeDefinition>Date on which the station data was collected.</attributeDefinition>
+ <measurementScale> <dateTime> <formatString>mm-dd-yyyy</formatString>
+ <dateTimePrecision>0</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942715" scope="document"> <attributeName>Temperature</attributeName>
+ <attributeDefinition>Water temperature recorded in degrees Celsius.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>celsius</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942731" scope="document"> <attributeName>Top EC</attributeName>
+ <attributeDefinition>Conductivity Top:  The Specific Conductivity of the first foot of water from the surface in micro-siemens.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>siemen</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942747" scope="document"> <attributeName>Bottom EC</attributeName>
+ <attributeDefinition>Conductivity Bottom: The Specific Conductivity of the first foot of water from the bottom in micro-siemens.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>siemen</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942762" scope="document"> <attributeName>Secchi</attributeName>
+ <attributeDefinition>A measure of water clarity based on the observers ability to see alternating white portions of a disk with white and black painted quarters. The measurement in meters from the disk to the waters surface when the white portion of the disk is no longer visible.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>meter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942778" scope="document"> <attributeName>Depth</attributeName>
+ <attributeDefinition>Maximum depth in feet</attributeDefinition>
+ <measurementScale> <interval> <unit> <standardUnit>Foot_US</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942793" scope="document"> <attributeName>Core</attributeName>
+ <attributeDefinition>Core</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>Core</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942809" scope="document"> <attributeName>MeterStart</attributeName>
+ <attributeDefinition>Flowmeter Start: The flowmeter is thrown into the water once the sample tow has begun, which corresponds to the time at which the full length of warp has been paid out to the longest length at the beginning of the tow, the brake is set in place and the gear begins fishing.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>MeterStart</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942825" scope="document"> <attributeName>MeterEnd</attributeName>
+ <attributeDefinition>Flowmeter End: The flowmeter is taken out of the water when the net has been retrieved to within 25 ft of the stern of the towing vessel.</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>MeterEnd</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942840" scope="document"> <attributeName>TotalMeter</attributeName>
+ <attributeDefinition>TotalMeter</attributeDefinition>
+ <measurementScale> <nominal> <nonNumericDomain> <textDomain> <definition>TotalMeter</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942856" scope="document"> <attributeName>TowVolume</attributeName>
+ <attributeDefinition>MeterCounts: 
+Volume: ([MeterCounts]*0.02687*13.4)
+
+IIf([MeterEnd]&lt;[MeterStart],((999999-[MeterStart])+[MeterEnd]), ([MeterEnd]-[MeterStart]))</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>cubicMeter</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942872" scope="document"> <attributeName>American shad</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942887" scope="document"> <attributeName>arrow goby</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942903" scope="document"> <attributeName>bat ray</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942918" scope="document"> <attributeName>bay goby</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942934" scope="document"> <attributeName>bay pipefish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <standardUnit>dimensionless</standardUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942950" scope="document"> <attributeName>big skate</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>The total number of fish of a given species caught in a given tow.</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942965" scope="document"> <attributeName>bigscale logperch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>The total number of fish of a given species caught in a given tow.</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942981" scope="document"> <attributeName>black crappie</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>The total number of fish of a given species caught in a given tow.</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052942997" scope="document"> <attributeName>black perch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>The total number of fish of a given species caught in a given tow.</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943012" scope="document"> <attributeName>bluegill</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>The total number of fish of a given species caught in a given tow.</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943028" scope="document"> <attributeName>broadnose sevengill shark</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>The total number of fish of a given species caught in a given tow.</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943043" scope="document"> <attributeName>brown bullhead</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>The total number of fish of a given species caught in a given tow.</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943059" scope="document"> <attributeName>brown smoothhound</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943075" scope="document"> <attributeName>California grunion</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943090" scope="document"> <attributeName>California halibut</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943106" scope="document"> <attributeName>chameleon goby</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943122" scope="document"> <attributeName>channel catfish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943137" scope="document"> <attributeName>Chinook salmon</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943153" scope="document"> <attributeName>common carp</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943168" scope="document"> <attributeName>Crangon spp_</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943184" scope="document"> <attributeName>delta smelt</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943200" scope="document"> <attributeName>diamond turbot</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943215" scope="document"> <attributeName>dwarf perch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943231" scope="document"> <attributeName>English sole</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943247" scope="document"> <attributeName>Exopalaemon modestus (Siberian prawn)</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943262" scope="document"> <attributeName>flatfish (Unid)</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943278" scope="document"> <attributeName>golden shiner</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943293" scope="document"> <attributeName>goldfish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943309" scope="document"> <attributeName>green sturgeon</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943325" scope="document"> <attributeName>green sunfish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943340" scope="document"> <attributeName>grey smoothhound</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943356" scope="document"> <attributeName>hitch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943372" scope="document"> <attributeName>jacksmelt</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <interval> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </interval>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943387" scope="document"> <attributeName>jellyfish (Unid)</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>The total number of fish of a given species caught in a given tow.</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943403" scope="document"> <attributeName>largemouth bass</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943418" scope="document"> <attributeName>leopard shark</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943434" scope="document"> <attributeName>lingcod</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943450" scope="document"> <attributeName>longfin smelt</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943465" scope="document"> <attributeName>Maeotias marginata</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943481" scope="document"> <attributeName>Mississippi silverside</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943497" scope="document"> <attributeName>moon jelly (Aurelia spp_)</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943512" scope="document"> <attributeName>night smelt</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943528" scope="document"> <attributeName>northern anchovy</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943543" scope="document"> <attributeName>Pacific electric ray</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943559" scope="document"> <attributeName>Pacific halibut</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943575" scope="document"> <attributeName>Pacific herring</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943590" scope="document"> <attributeName>Pacific lamprey</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943606" scope="document"> <attributeName>Pacific pompano</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943622" scope="document"> <attributeName>Pacific sanddab</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943637" scope="document"> <attributeName>Pacific sardine</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943653" scope="document"> <attributeName>Pacific staghorn sculpin</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943668" scope="document"> <attributeName>Pacific tomcod</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943684" scope="document"> <attributeName>Palaemon spp_</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943700" scope="document"> <attributeName>pile perch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943715" scope="document"> <attributeName>plainfin midshipman</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943731" scope="document"> <attributeName>Pleurobrachia bachei</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943747" scope="document"> <attributeName>Polyorchis penicillatus</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943762" scope="document"> <attributeName>prickly sculpin</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943778" scope="document"> <attributeName>redear sunfish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943793" scope="document"> <attributeName>river lamprey</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943809" scope="document"> <attributeName>rock sole</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943825" scope="document"> <attributeName>rubberlip seaperch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943840" scope="document"> <attributeName>Sacramento blackfish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943856" scope="document"> <attributeName>Sacramento perch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943872" scope="document"> <attributeName>Sacramento pikeminnow</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943887" scope="document"> <attributeName>Sacramento sucker</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943903" scope="document"> <attributeName>sand sole</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943918" scope="document"> <attributeName>Scrippsia pacifica</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943934" scope="document"> <attributeName>shimofuri goby</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943950" scope="document"> <attributeName>shiner perch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943965" scope="document"> <attributeName>shokihaze goby</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943981" scope="document"> <attributeName>smelt (Unid)</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052943997" scope="document"> <attributeName>speckled sanddab</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944012" scope="document"> <attributeName>spiny dogfish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944028" scope="document"> <attributeName>splittail</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944043" scope="document"> <attributeName>spotfin surfperch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944059" scope="document"> <attributeName>starry flounder</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944075" scope="document"> <attributeName>steelhead</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944090" scope="document"> <attributeName>striped bass age0</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944106" scope="document"> <attributeName>striped bass age1</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944122" scope="document"> <attributeName>striped bass age2plus</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944137" scope="document"> <attributeName>surf smelt</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944153" scope="document"> <attributeName>threadfin shad</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944168" scope="document"> <attributeName>threespine stickleback</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944184" scope="document"> <attributeName>topsmelt</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944200" scope="document"> <attributeName>tule perch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944215" scope="document"> <attributeName>wakasagi</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944231" scope="document"> <attributeName>walleye surfperch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944247" scope="document"> <attributeName>western mosquitofish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944262" scope="document"> <attributeName>white catfish</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944278" scope="document"> <attributeName>white crappie</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944293" scope="document"> <attributeName>white croaker</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944309" scope="document"> <attributeName>white seabass</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944325" scope="document"> <attributeName>white seaperch</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944340" scope="document"> <attributeName>white sturgeon</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944356" scope="document"> <attributeName>whitebait smelt</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944372" scope="document"> <attributeName>wolf eel</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="1253052944387" scope="document"> <attributeName>yellowfin goby</attributeName>
+ <attributeDefinition>The total number of fish of a given species caught in a given tow.</attributeDefinition>
+ <measurementScale> <ratio> <unit> <customUnit>Count</customUnit>
+ </unit>
+ <numericDomain> <numberType>natural</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <numberOfRecords>21536</numberOfRecords>
+ </dataTable>
+ <dataTable id="1257878875453"><entityName>FMWT 1967-2006 Data for NCEAS.mdb</entityName>
+ <entityDescription>Microsoft Access Data Base file contains three individual tables contain results of fish species census activity
+conducted at 177 census locations. 
+
+The first table,&quot;FMWT Station Lats and Longs All Stations&quot;. contains the latitude/longitude for each census station.
+The second table, &quot;LTM Fish Names 10Jan08&quot; contains the names and ID codes for  211 fish species represented in the count data.
+The third table,&quot;FMWT1967-2006 Length-Freq Data_All Stations&quot; contains the fish count data and supporting attributes.</entityDescription>
+ <physical><objectName>FMWT 1967-2006 Data for NCEAS.mdb</objectName>
+ <dataFormat> <externallyDefinedFormat><formatName>Microsoft Access</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><online><url>ecogrid://knb/mbauer.969.1</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1257878875468"><attributeName>ProjectName</attributeName>
+ <attributeDefinition>Name of the data collection project</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>Text String (name)</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="FMWT Station Lats and Longs_All Stations"><entityName>FMWT Station Lats and Longs_All Stations</entityName>
+ <physical><objectName>FMWT 1967-2006 Data for NCEAS.mdb</objectName>
+ <dataFormat><externallyDefinedFormat><formatName>Microsoft Access</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="FMWT Station Lats and Longs_All Stations.PrjStation"><attributeName>PrjStation</attributeName>
+ <attributeDefinition>Project Station</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.Active"><attributeName>Active</attributeName>
+ <attributeDefinition>Active Flag</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.ChanShoal"><attributeName>ChanShoal</attributeName>
+ <attributeDefinition>Channel Shoal Flag</attributeDefinition>
+ <storageType>Decimal</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.Comments"><attributeName>Comments</attributeName>
+ <attributeDefinition>Comments</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.Core"><attributeName>Core</attributeName>
+ <attributeDefinition>Core</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.DWRStationNo"><attributeName>DWRStationNo</attributeName>
+ <attributeDefinition>DWR Station Number</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.LatD"><attributeName>LatD</attributeName>
+ <attributeDefinition>Latitude Degrees</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.LatM"><attributeName>LatM</attributeName>
+ <attributeDefinition>Latitude Minutes</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.LatS"><attributeName>LatS</attributeName>
+ <attributeDefinition>Latitude Seconds</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.Location"><attributeName>Location</attributeName>
+ <attributeDefinition>Location</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.LonD"><attributeName>LonD</attributeName>
+ <attributeDefinition>Longitude Degrees</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.LonM"><attributeName>LonM</attributeName>
+ <attributeDefinition>Longitude Minutes</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.LonS"><attributeName>LonS</attributeName>
+ <attributeDefinition>Longitude Seconds</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.MeanDepth"><attributeName>MeanDepth</attributeName>
+ <attributeDefinition>Mean Depth</attributeDefinition>
+ <storageType>Decimal</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.Prj"><attributeName>Prj</attributeName>
+ <attributeDefinition>Prj</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.ProjectName"><attributeName>ProjectName</attributeName>
+ <attributeDefinition>Project Name</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.RKI"><attributeName>RKI</attributeName>
+ <attributeDefinition>RKI</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.Series"><attributeName>Series</attributeName>
+ <attributeDefinition>Series</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.Station"><attributeName>Station</attributeName>
+ <attributeDefinition>Station Name</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.YearEnd"><attributeName>YearEnd</attributeName>
+ <attributeDefinition>Ending Year</attributeDefinition>
+ <storageType>Decimal</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="FMWT Station Lats and Longs_All Stations.YearStart"><attributeName>YearStart</attributeName>
+ <attributeDefinition>Starting Year</attributeDefinition>
+ <storageType>Decimal</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <constraint><primaryKey><constraintName>Primary Key</constraintName>
+ <key><attributeReference>FMWT Station Lats and Longs_All Stations.PrjStation</attributeReference>
+ </key>
+ </primaryKey>
+ </constraint>
+ </dataTable>
+ <dataTable id="FMWT1967-2006 Length-Freq Data_All Stations"><entityName>FMWT1967-2006 Length-Freq Data_All Stations</entityName>
+ <physical><objectName>FMWT 1967-2006 Data for NCEAS.mdb</objectName>
+ <dataFormat><externallyDefinedFormat><formatName>Microsoft Access</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="FMWT1967-2006 Length-Freq Data_All Stations.Catch"><attributeName>Catch</attributeName>
+<attributeDefinition>Catch</attributeDefinition>
+<storageType>Integer</storageType>
+<measurementScale><ratio><unit><standardUnit>number</standardUnit>
+</unit>
+<precision>1</precision>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.CommonName"><attributeName>CommonName</attributeName>
+<attributeDefinition>Species common name</attributeDefinition>
+<storageType>String</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.Core"><attributeName>Core</attributeName>
+<attributeDefinition>Core</attributeDefinition>
+<storageType>String</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.Date"><attributeName>Date</attributeName>
+<attributeDefinition>Date string</attributeDefinition>
+<storageType>String</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.Length"><attributeName>Length</attributeName>
+<attributeDefinition>Length</attributeDefinition>
+<storageType>String</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.LengthFrequency"><attributeName>LengthFrequency</attributeName>
+<attributeDefinition>Length Frequency</attributeDefinition>
+<storageType>Integer</storageType>
+<measurementScale><ratio><unit><standardUnit>number</standardUnit>
+</unit>
+<precision>1</precision>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.OrganismCodeMWT"><attributeName>OrganismCodeMWT</attributeName>
+<attributeDefinition>Midwinter Trawl Organism Code</attributeDefinition>
+<storageType>String</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.Station"><attributeName>Station</attributeName>
+<attributeDefinition>Station name</attributeDefinition>
+<storageType>String</storageType>
+<measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+</textDomain>
+</nonNumericDomain>
+</nominal>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.Survey"><attributeName>Survey</attributeName>
+<attributeDefinition>Survey name</attributeDefinition>
+<storageType>Integer</storageType>
+<measurementScale><ratio><unit><standardUnit>number</standardUnit>
+</unit>
+<precision>1</precision>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ <attribute id="FMWT1967-2006 Length-Freq Data_All Stations.Year"><attributeName>Year</attributeName>
+<attributeDefinition>Year sample was taken</attributeDefinition>
+<storageType>Integer</storageType>
+<measurementScale><ratio><unit><standardUnit>number</standardUnit>
+</unit>
+<precision>1</precision>
+<numericDomain><numberType>integer</numberType>
+</numericDomain>
+</ratio>
+</measurementScale>
+</attribute>
+ </attributeList>
+ </dataTable>
+ <dataTable id="LTM Fish Names 10Jan08"><entityName>LTM Fish Names 10Jan08</entityName>
+ <physical><objectName>FMWT 1967-2006 Data for NCEAS.mdb</objectName>
+ <dataFormat><externallyDefinedFormat><formatName>Microsoft Access</formatName>
+ </externallyDefinedFormat>
+ </dataFormat>
+ <distribution><offline><mediumName>hard drive</mediumName>
+ </offline>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="LTM Fish Names 10Jan08.CommonName"><attributeName>CommonName</attributeName>
+ <attributeDefinition>Species Common Name</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.Family"><attributeName>Family</attributeName>
+ <attributeDefinition>Family name</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.FieldName"><attributeName>FieldName</attributeName>
+ <attributeDefinition>Field Name</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.Native"><attributeName>Native</attributeName>
+ <attributeDefinition>Native Flag</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.OrganismCode"><attributeName>OrganismCode</attributeName>
+ <attributeDefinition>Organism Code</attributeDefinition>
+ <storageType>Decimal</storageType>
+ <measurementScale><ratio><unit><standardUnit>number</standardUnit>
+ </unit>
+ <precision>1</precision>
+ <numericDomain><numberType>real</numberType>
+ </numericDomain>
+ </ratio>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.OrganismCodeMWT"><attributeName>OrganismCodeMWT</attributeName>
+ <attributeDefinition>Organism Code for Midwinter Trawl</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="LTM Fish Names 10Jan08.ScientificName"><attributeName>ScientificName</attributeName>
+ <attributeDefinition>Scienrtific Name</attributeDefinition>
+ <storageType>String</storageType>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>String Field</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ <constraint><primaryKey><constraintName>Primary Key</constraintName>
+ <key><attributeReference>LTM Fish Names 10Jan08.CommonName</attributeReference>
+ </key>
+ </primaryKey>
+ </constraint>
+ </dataTable>
+ </dataset>
+ <additionalMetadata> <metadata> <unitList> <unit id="The total number of fish of a given species caught in a given tow." name="The total number of fish of a given species caught in a given tow." parentSI="mole" unitType="amount"> <description>The total number of fish of a given species caught in a given tow.</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ <additionalMetadata> <metadata> <unitList> <unit id="Count" name="Count" parentSI="mole" unitType="amount"> <description>Count</description>
+ </unit>
+ </unitList>
+ </metadata>
+ </additionalMetadata>
+ </eml:eml>

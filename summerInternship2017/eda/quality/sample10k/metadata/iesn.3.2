@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eml:eml packageId="iesn.3.2" system="knb" xmlns:eml="eml://ecoinformatics.org/eml-2.1.1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="eml://ecoinformatics.org/eml-2.1.1 eml.xsd"> <access authSystem="knb" order="allowFirst"> <allow><principal>public</principal>
+ <permission>read</permission>
+ </allow>
+ </access>
+ <dataset> <title>台北植物園花曆植物開花照片</title>
+ <creator id="1411973302420"> <organizationName>林業試驗所</organizationName>
+ <address><deliveryPoint>南海路５３號</deliveryPoint>
+ <city>台北市</city>
+ <administrativeArea>台灣</administrativeArea>
+ <postalCode>１００</postalCode>
+ <country>中華民國</country>
+ </address>
+ <onlineUrl>http://www.tfri.gov.tw</onlineUrl>
+ </creator>
+ <associatedParty id="1411976087931"><individualName><givenName>奐宇</givenName>
+ <surName>林</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>助理研究員</positionName>
+ <electronicMailAddress>hylin@tfri.gov.tw</electronicMailAddress>
+ <role>Processor</role>
+ </associatedParty>
+ <abstract><para>本資料集所描述的是智慧生態計畫－生態及生物多樣性資訊基礎建設與應用計畫自１０２年１１月底開始，以人工方式每周至台北植物園進行５５種花曆植物的開花程度調查與開花照片拍攝，並將資料介由台北植物源網絡平台管理後台將資料上傳，經過系統運算後，可同時於台北植物園網站(http://tpbg.tfri.gov.tw)與生態感測資料展示平台（http://iesn.tfri.gov.tw）上查閱，並以開放資料形式提供生態感測開放資料平台(http://iesn.tfri.gov.tw/forestDW/OpenData)作為資料來源之一。</para>
+ </abstract>
+<keywordSet><keyword>台北植物園</keyword>
+<keyword>花曆植物</keyword>
+<keyword>開花照片</keyword>
+<keyword>智慧生態</keyword>
+<keyword>生態感測</keyword>
+</keywordSet>
+  <intellectualRights><para>本資料集所有資料內容歸屬於林業試驗所所有，任何引用與利用請註明出處。</para>
+ </intellectualRights>
+ <coverage><geographicCoverage><geographicDescription>台北植物園</geographicDescription>
+ <boundingCoordinates><westBoundingCoordinate>121.5152188</westBoundingCoordinate>
+ <eastBoundingCoordinate>121.5152188</eastBoundingCoordinate>
+ <northBoundingCoordinate>25.0251983</northBoundingCoordinate>
+ <southBoundingCoordinate>25.0251983</southBoundingCoordinate>
+ </boundingCoordinates>
+ </geographicCoverage>
+ </coverage>
+ <contact id="1411975978151"><individualName><givenName>美如</givenName>
+ <surName>鄭</surName>
+ </individualName>
+ <organizationName>林業試驗所</organizationName>
+ <positionName>助理研究員</positionName>
+ <address><deliveryPoint>南海路５３號</deliveryPoint>
+ <city>台北市</city>
+ <administrativeArea>台灣</administrativeArea>
+ <postalCode>１００</postalCode>
+ <country>中華民國</country>
+ </address>
+ <electronicMailAddress>beer@tfri.gov.tw</electronicMailAddress>
+ </contact>
+ <methods><methodStep><description><section><title>拍攝照片</title>
+ <para>每周於植物園進行所挑選的55種花曆植物(共超過100株)開花觀察記錄，自出現花苞起即記錄開花程度，同時拍攝照片。</para>
+ </section>
+ </description>
+ <instrumentation>Nikon D7000</instrumentation>
+ </methodStep>
+ <sampling><studyExtent><description><para>花曆植物若未有花苞或已全數凋謝，則不做任何記錄。</para>
+ </description>
+ </studyExtent>
+ <samplingDescription><para>所選的55種花曆植物及其單株，由植物園組林奐宇選取，調查人員每周至少赴植物園進行一次全面調查。</para>
+ </samplingDescription>
+ </sampling>
+ </methods>
+ <dataTable id="1411983407181"><entityName>台北植物園花曆植物開花照片</entityName>
+ <physical><objectName>台北植物園花曆植物開花照片</objectName>
+ <dataFormat> <textFormat><attributeOrientation>column</attributeOrientation>
+ <simpleDelimited><fieldDelimiter>,</fieldDelimiter>
+ </simpleDelimited>
+ </textFormat>
+ </dataFormat>
+ <distribution><online><url>http://iesn.tfri.gov.tw/forestDW/OpenData/Detail?setId=opd_ppo_102</url>
+ </online>
+ </distribution>
+ </physical>
+ <attributeList><attribute id="1411983407182"><attributeName>species_name</attributeName>
+ <attributeLabel>物種名稱</attributeLabel>
+ <attributeDefinition>物種中文名稱</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>free text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ <attribute id="1411983407183"><attributeName>file_time</attributeName>
+ <attributeLabel>檔案拍攝時間</attributeLabel>
+ <attributeDefinition>拍攝照片時間</attributeDefinition>
+ <measurementScale><dateTime><formatString>YYYY-MM-DD hh:mm:ss</formatString>
+ <dateTimePrecision>1 day</dateTimePrecision>
+ </dateTime>
+ </measurementScale>
+ </attribute>
+ <attribute id="1411983407184"><attributeName>file_name</attributeName>
+ <attributeLabel>檔案名稱</attributeLabel>
+ <attributeDefinition>照片檔案名稱</attributeDefinition>
+ <measurementScale><nominal><nonNumericDomain><textDomain><definition>free text</definition>
+ </textDomain>
+ </nonNumericDomain>
+ </nominal>
+ </measurementScale>
+ </attribute>
+ </attributeList>
+ </dataTable>
+ </dataset>
+ </eml:eml>

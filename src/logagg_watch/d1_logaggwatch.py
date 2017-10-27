@@ -6,11 +6,10 @@ Requires python 3
 This script reads records from the aggregated logs solr index and writes
 each record to a log file on disk, one record per line. Each line is formatted as:
 
-  TIMESTAMP logagg INFO: JSON_DATA
+  JSON_DATA
 
 where:
 
-  TIMESTAMP = value of dateLogged from the record
   JSON_DATA = JSON representation of the record as retrieved from solr
 
 Output log files are rotated based on size, with rotation scheduled at 1GB. A

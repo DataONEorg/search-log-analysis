@@ -2,12 +2,15 @@
 # -*- coding: utf-8 -*-
 
 from datetime import datetime
-from dateutil import parser
+from dateutil import parser as dateparser
 from dateutil.tz import tzutc
 from elasticsearch import Elasticsearch
+#from luqum.parser import parser as solrparser
+#from luqum.parser import ParseError
 
 import argparse
 import json
+import re
 import sys
 
 
@@ -39,8 +42,8 @@ def main(args):
 
 
 def processlog(indexname):
-  batchsize = 1000
-
+  batchsize = 5000
+  counter = 0
   while True:
     ES.indices.refresh(indexname)
     mark = get_first_unprocessed_event_datetime(indexname)
@@ -49,12 +52,31 @@ def processlog(indexname):
     live_sessions = get_live_sessions_before_mark(indexname, mark)
     new_events = get_new_events(indexname, batchsize)
     process_new_events(indexname, new_events, live_sessions)
+    print "processed batch ", counter
+    counter = counter + 1
 
   return 1
 
 
+def updaterecord(indexname, record):
+  ES.update(index=indexname,
+            id=record["_id"],
+            doc_type="logevent",
+            body={"doc": record["_source"]}
+           )
+
+
 def process_new_events(indexname, new_events, live_sessions):
   for record in new_events["hits"]["hits"]:
+
+    #check for records that failed to parse in logstash
+    recordtags = record["_source"].get("tags")
+    if ("_jsonparsefailure" in recordtags
+      or "_geoip_lookup_failure" in recordtags):
+      record["_source"]["sessionid"] = -1
+      updaterecord(indexname, record)
+      continue
+
     timestamp = record["_source"].get("@timestamp")
     clientip = record["_source"]["geoip"].get("ip")
 
@@ -69,7 +91,7 @@ def process_new_events(indexname, new_events, live_sessions):
       session = live_sessions.get(clientip)
     
     #check the session timestamp to see if ttl expired before current event
-    delta = parser.parse(timestamp) - parser.parse(session["timestamp"])
+    delta = dateparser.parse(timestamp) - dateparser.parse(session["timestamp"])
     if ((delta.total_seconds() / 60) > TTL_MINUTES):
       live_sessions[clientip]["sessionid"] = next(SESSION_ID)
     
@@ -77,17 +99,15 @@ def process_new_events(indexname, new_events, live_sessions):
     session["timestamp"] = timestamp
     record["_source"]["sessionid"] = session["sessionid"]
 
+    request = record["_source"].get("request", "")
+    if request.startswith("/cn/v2/query/solr/"):
+      record["_source"]["searchevent"] = True
+    
     #print clientip, session
-    
-    #FIXME: add decomposition of SOLR query, if present
-    
+
     # update the elasticsearch document with the session id
     # block until refresh confirmed
-    ES.update(index=indexname,
-              id=record["_id"],
-              doc_type="apache_event",
-              body={"doc": record["_source"]}
-             )
+    updaterecord(indexname, record)
 
   return
 
@@ -97,11 +117,15 @@ def get_new_events(indexname, batchsize=10000):
     "from": 0, "size": batchsize,
     "query": {
       "bool": {
+        "must": [ {
+            "term": {"_type": "logevent"}
+          }
+        ],
         "should": [ {
-            "term": {"_type": "apache_event"}
+            "term": {"beat.name": "search"}
           },
           {
-            "term": {"_type": "download_event"}
+            "term": {"beat.name": "eventlog"}
           }
         ],
         "must_not": {
@@ -152,11 +176,15 @@ def get_live_sessions_searchbody(mark):
     "from": 0, "size": 0,
     "query": {
       "bool": {
+        "must": [ {
+            "term": {"_type": "logevent"}
+          }
+        ],
         "should": [ {
-            "term": {"_type": "apache_event"}
+            "term": {"beat.name": "search"}
           },
           {
-            "term": {"_type": "download_event"}
+            "term": {"beat.name": "eventlog"}
           }
         ],
         "filter": {
@@ -206,11 +234,15 @@ def get_first_unprocessed_event_datetime(indexname):
     "from": 0, "size": 0,
     "query": {
       "bool": {
+        "must": [ {
+            "term": {"_type": "logevent"}
+          }
+        ],
         "should": [ {
-            "term": {"_type": "apache_event"}
+            "term": {"beat.name": "search"}
           },
           {
-            "term": {"_type": "download_event"}
+            "term": {"beat.name": "eventlog"}
           }
         ],
         "must_not": {
@@ -328,3 +360,4 @@ def parse_args(args):
 if __name__ == "__main__":
   SESSION_ID = generate_next_sessionid()
   main(sys.argv)
+

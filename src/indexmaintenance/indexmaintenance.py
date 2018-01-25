@@ -4,7 +4,7 @@
 from datetime import datetime
 from dateutil import parser as dateparser
 from dateutil.tz import tzutc
-from elasticsearch import Elasticsearch
+from elasticsearch5 import Elasticsearch
 #from luqum.parser import parser as solrparser
 #from luqum.parser import ParseError
 
@@ -42,26 +42,95 @@ def main(args):
 
 
 def processlog(indexname):
-  batchsize = 5000
+  batchsize = 500
   counter = 0
+
+  ES.indices.refresh(indexname)
+  count = get_count_unprocessed_event(indexname)
+  #print 'unprocessed count', count
+  total_batches = count / batchsize + bool(count % batchsize)
+  #print 'total_batches', total_batches
+
   while True:
     ES.indices.refresh(indexname)
     mark = get_first_unprocessed_event_datetime(indexname)
     if mark is None:
       return 0
+    print 'mark', mark
+    
     live_sessions = get_live_sessions_before_mark(indexname, mark)
+    #print 'live_sessions', live_sessions
+    
     new_events = get_new_events(indexname, batchsize)
+    #print 'new_events', new_events
+    
+    #process_new_events(indexname, new_events, live_sessions)
     process_new_events(indexname, new_events, live_sessions)
-    print "processed batch ", counter
+    
+    print 'processed batch', counter, 'of', total_batches
     counter = counter + 1
+    #return 1
 
   return 1
 
 
-def updaterecord(indexname, record):
+def remove_stale_sessionids(indexname, ip, timestamp):
+  searchbody = {
+    "script": {
+      "inline": "ctx._source.remove(\"sessionid\")",
+      "lang": "painless"
+    },
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "term": {"_type": "logevent"}
+          },
+          {
+            "exists": {
+              "field": "sessionid"
+            }
+          },
+          {
+            "range": {
+              "sessionid": {"gt": 0}
+            }
+          },
+          {
+            "term": {"geoip.ip": ip}
+          },
+          {
+            "range": {
+              "@timestamp": {"gt": timestamp.isoformat()}
+            }
+          }
+        ],
+        "should": [ {
+            "term": {"beat.name": "search"}
+          },
+          {
+            "term": {"beat.name": "eventlog"}
+          }
+        ]
+      }
+    }
+  }
+
+  ES.indices.refresh(indexname)
+  results = ES.update_by_query(index=indexname, body=searchbody,
+    conflicts='proceed', wait_for_completion='true') #search_timeout='1m')
+  #results = ES.search(index=indexname, body=searchbody)
+  ES.indices.refresh(indexname)
+  #print ip, results["hits"]["total"]
+  print results
+
+  return results
+
+
+def updaterecord(indexname, record, doctype="logevent"):
   ES.update(index=indexname,
             id=record["_id"],
-            doc_type="logevent",
+            doc_type=doctype,
             body={"doc": record["_source"]}
            )
 
@@ -69,7 +138,8 @@ def updaterecord(indexname, record):
 def process_new_events(indexname, new_events, live_sessions):
   for record in new_events["hits"]["hits"]:
 
-    #check for records that failed to parse in logstash
+    # check for records that failed to parse in logstash
+    # and assign a sessionid of -1. This is uncommon.
     recordtags = record["_source"].get("tags")
     if ("_jsonparsefailure" in recordtags
       or "_geoip_lookup_failure" in recordtags):
@@ -77,25 +147,37 @@ def process_new_events(indexname, new_events, live_sessions):
       updaterecord(indexname, record)
       continue
 
+    # grab the timestamp and ip of the new event
     timestamp = record["_source"].get("@timestamp")
     clientip = record["_source"]["geoip"].get("ip")
 
-    #try to get session info from the live_sessions list
+    # check to see if this event is historic
+    # if it is, then clear the sessionids of later events
+    lastentrydate = get_last_processed_event_datetime_by_ip(indexname, clientip)
+    if lastentrydate is not None:
+      #print lastentrydate, dateparser.parse(timestamp)
+      if (lastentrydate > dateparser.parse(timestamp)):
+        print 'found events after', timestamp, 'for', clientip
+        remove_stale_sessionids(indexname, clientip, dateparser.parse(timestamp))
+        print 'after update', get_last_processed_event_datetime_by_ip(indexname, clientip)
+        #continue
+
+    # try to get session info from the live_sessions list
     session = live_sessions.get(clientip)
 
-    #if no session is found, create a new session
+    # if no session is found, create a new session
     if session is None:
       live_sessions[clientip] = {}
       live_sessions[clientip]["sessionid"] = next(SESSION_ID)
       live_sessions[clientip]["timestamp"] = timestamp
       session = live_sessions.get(clientip)
     
-    #check the session timestamp to see if ttl expired before current event
+    # check the session timestamp to see if ttl expired before current event
     delta = dateparser.parse(timestamp) - dateparser.parse(session["timestamp"])
     if ((delta.total_seconds() / 60) > TTL_MINUTES):
       live_sessions[clientip]["sessionid"] = next(SESSION_ID)
     
-    #update the session timestamp and id
+    # update the session timestamp and id
     session["timestamp"] = timestamp
     record["_source"]["sessionid"] = session["sessionid"]
 
@@ -106,7 +188,6 @@ def process_new_events(indexname, new_events, live_sessions):
     #print clientip, session
 
     # update the elasticsearch document with the session id
-    # block until refresh confirmed
     updaterecord(indexname, record)
 
   return
@@ -117,10 +198,9 @@ def get_new_events(indexname, batchsize=10000):
     "from": 0, "size": batchsize,
     "query": {
       "bool": {
-        "must": [ {
+        "must": {
             "term": {"_type": "logevent"}
-          }
-        ],
+          },
         "should": [ {
             "term": {"beat.name": "search"}
           },
@@ -151,6 +231,8 @@ def get_new_events(indexname, batchsize=10000):
 
 
 def get_live_sessions_before_mark(indexname, mark):
+  # Find sessions that have not expired as of the mark
+
   live_sessions = {}
 
   searchbody = get_live_sessions_searchbody(mark)
@@ -172,14 +254,18 @@ def get_live_sessions_before_mark(indexname, mark):
 
 
 def get_live_sessions_searchbody(mark):
+  # Construct the search body for
+  # get_live_sessions_before_mark
+  # based upon the time given in the mark
+  # minus the TTL_MINUTES value
+
   searchbody = {
     "from": 0, "size": 0,
     "query": {
       "bool": {
-        "must": [ {
+        "must": {
             "term": {"_type": "logevent"}
-          }
-        ],
+          },
         "should": [ {
             "term": {"beat.name": "search"}
           },
@@ -230,14 +316,17 @@ def get_live_sessions_searchbody(mark):
 
 
 def get_first_unprocessed_event_datetime(indexname):
+  # In the given index, find the chronologically earliest
+  # search or eventlog event that has no sessionid and
+  # return the datetime of that event in UTC
+
   searchbody = {
     "from": 0, "size": 0,
     "query": {
       "bool": {
-        "must": [ {
+        "must": {
             "term": {"_type": "logevent"}
-          }
-        ],
+          },
         "should": [ {
             "term": {"beat.name": "search"}
           },
@@ -261,12 +350,105 @@ def get_first_unprocessed_event_datetime(indexname):
     }
   }
 
-  # get top elasticsearch sessionid, increment and return
   try:
     results = ES.search(index=indexname, body=searchbody)
     esvalue = results["aggregations"]["min_timestamp"]["value"] or None
+    #print results["hits"]["hits"][0]["_source"]["geoip"]["ip"]
     if not esvalue:
       return None
+    mark = datetime.fromtimestamp(esvalue / 1000, tz=tzutc())
+  except Exception as e:
+    print e
+    return None
+  else:
+    return mark
+
+
+def get_count_unprocessed_event(indexname):
+  # In the given index, count the search or
+  # eventlog events that have no sessionid
+  searchbody = {
+    "from": 0, "size": 0,
+    "query": {
+      "bool": {
+        "must": {
+            "term": {"_type": "logevent"}
+          },
+        "should": [ {
+            "term": {"beat.name": "search"}
+          },
+          {
+            "term": {"beat.name": "eventlog"}
+          }
+        ],
+        "must_not": {
+          "exists": {
+            "field": "sessionid"
+          }
+        }
+      }
+    }
+  }
+
+  try:
+    results = ES.search(index=indexname, body=searchbody)
+    count = results["hits"]["total"]
+    if not count:
+      return None
+  except Exception as e:
+    print e
+    return None
+  else:
+    return count
+
+
+def get_last_processed_event_datetime_by_ip(indexname, ip):
+  searchbody = {
+    "from": 0, "size": 0,
+    "query": {
+      "bool": {
+        "must": [
+          {
+            "term": {"_type": "logevent"}
+          },
+          {
+            "exists": {
+              "field": "sessionid"
+            }
+          },
+          {
+            "range": {
+              "sessionid": {"gt": 0}
+            }
+          },
+          {
+            "term": {"geoip.ip": ip}
+          }
+        ],
+        "should": [ {
+            "term": {"beat.name": "search"}
+          },
+          {
+            "term": {"beat.name": "eventlog"}
+          }
+        ]
+      }
+    },
+    "aggs": {
+      "max_timestamp": {
+        "max": {
+          "field": "@timestamp"
+        }
+      }
+    }
+  }
+
+  try:
+    results = ES.search(index=indexname, body=searchbody)
+    esvalue = results["aggregations"]["max_timestamp"]["value"] or None
+    if not esvalue:
+      return None
+    #print results["hits"]["hits"][0]["_source"]
     mark = datetime.fromtimestamp(esvalue / 1000, tz=tzutc())
   except Exception as e:
     print e
@@ -280,6 +462,10 @@ def generate_next_sessionid(indexname=None):
   # The first time the generator is called, it gets
   # (the largest session id from elasticsearch) + 1,
   # after that it increments by 1 each time
+  #
+  # sessionid is stored as long in ES with a max
+  # value of (2^63)-1, so we don't need to worry
+  # about overflow for a while
 
   searchbody = {
     "from": 0, "size": 0,
@@ -315,6 +501,8 @@ def delete_index(indexname):
 
 
 def init_index(indexname):
+  # Create an index including specific attributes
+  # in order to assign their data types
   indexconfig = {
     "mappings": {
       "apacheLine" : {
@@ -331,7 +519,6 @@ def init_index(indexname):
   except Exception as e:
     print e
     return 1
-
   return 0
 
 

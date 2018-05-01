@@ -50,7 +50,7 @@ APP_LOG = "app"
 PAGE_SIZE = 10000 #Number of records to reetrieve per request
 DEFAULT_CORE = "event_core" #name of the solr core to query
 MAX_LOGFILE_SIZE = 1073741824 #1GB
-MAX_LOG_BACKUPS = 150 #max of 100GB of log files stored
+MAX_LOG_BACKUPS = 250 #max of about 200GB of log files stored
 #LOGMATCH_PATTERN = '^(\d*\-\d*\-\d*T\d*\:\d*\:\d*([0-9\.])*Z) logagg INFO: {'  #used to match lines to a log entry
 LOGMATCH_PATTERN = '^{'
 LOG_DATE_FIELD = "dateLogged" #Name of field in record used as log entry time stamp
@@ -95,7 +95,7 @@ class SolrSearchResponseIterator(object):
     self._next_page(self.c_record)
     self._num_hits = 0
     if self.res['response']['numFound'] > 1000:
-      self.logger.warn("Retrieving %d records...", self.res['response']['numFound'])
+      self.logger.warning("Retrieving %d records...", self.res['response']['numFound'])
 
 
   def _next_page(self, offset):
@@ -257,12 +257,12 @@ def getLastLinesFromFile(fname, seek_back=100000, pattern=LOGMATCH_PATTERN, line
   L = logging.getLogger(APP_LOG)
   #Does file exist?
   if not os.path.exists(fname):
-    L.warn("Log file not found. Starting from zero.")
+    L.warning("Log file not found. Starting from zero.")
     return []
   #Do we have any interesting content in the file?
   fsize = os.stat(fname).st_size
   if fsize < 100:
-    L.warn("No records in log. Starting from zero.")
+    L.warning("No records in log. Starting from zero.")
     return []
   #Reduce the seek backwards if necessary
   if fsize < seek_back:
@@ -362,7 +362,7 @@ def getQuery(src_file=DEFAULT_LOG, tstamp=None):
     except ValueError:
       date_from = datetime.datetime.strptime(dstring, "%Y-%m-%dT%H:%M:%SZ")
   date_str = date_from.strftime(fmt)
-  L.warn("Start date = %s", date_str)
+  L.warning("Start date = %s", date_str)
   query = "{}:[{} TO {}]".format(LOG_DATE_FIELD, date_str, date_to)
   return query, log_entries
 
@@ -379,9 +379,10 @@ def getRecords(log_file_name, core_name, base_url=BASEURL, test_only=False):
   Returns:
     Nothing
   '''
+  log_file_name = os.path.abspath(log_file_name)
   L = logging.getLogger(APP_LOG)
   logger = getOutputLogger(log_file_name)
-  query_str, last_records = getQuery()
+  query_str, last_records = getQuery(src_file=log_file_name)
   rid = ''
   if len(last_records) > 0:
     rid = last_records[-1]['id']
